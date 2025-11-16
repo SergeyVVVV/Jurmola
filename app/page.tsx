@@ -31,8 +31,7 @@ const newsArticles: NewsArticle[] = [
     date: "Nov 15, 2025",
     category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
     readTime: "8 min read",
-    imageEmoji: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1200&h=600&fit=crop",
-    featured: true
+    imageEmoji: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1200&h=600&fit=crop"
   },
   {
     id: 2,
