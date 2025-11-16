@@ -257,7 +257,7 @@ export default function Home() {
                   {featuredStory.category[language]}
                 </span>
                 <a href={`/article/${featuredStory.id}`}>
-                  <h2 className="text-4xl font-bold mt-2 mb-4 leading-tight hover:underline cursor-pointer" style={{ fontFamily: 'Playfair Display, Merriweather, Georgia, serif' }}>
+                  <h2 className="text-2xl md:text-4xl font-bold mt-2 mb-4 leading-tight hover:underline cursor-pointer" style={{ fontFamily: 'Playfair Display, Merriweather, Georgia, serif' }}>
                     {featuredStory.title[language]}
                   </h2>
                 </a>
