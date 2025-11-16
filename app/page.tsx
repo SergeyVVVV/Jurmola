@@ -243,7 +243,7 @@ export default function Home() {
         
         {/* Featured Story */}
         {featuredStory && (
-          <article className="border-b pb-12 mb-12">
+          <article className="pb-12 mb-12">
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gray-200 rounded-lg aspect-video overflow-hidden">
                 <img 
@@ -280,7 +280,7 @@ export default function Home() {
         {/* News Grid */}
         <div className="grid md:grid-cols-3 gap-8">
           {regularStories.map((article) => (
-            <article key={article.id} className="border-b pb-6">
+            <article key={article.id} className="pb-6">
               <div className="bg-gray-200 rounded aspect-video overflow-hidden mb-4">
                 <img 
                   src={article.imageEmoji} 
