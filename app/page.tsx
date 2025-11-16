@@ -19,8 +19,8 @@ const newsArticles: NewsArticle[] = [
   {
     id: 1,
     title: {
-      en: "Jūrmala Man Spends 11 Years Constructing Elaborate Excuse For Why He Can't Attend Cousin's Wedding",
-      lv: "Jūrmalas vīrietis 11 gadus konstruē sarežģītu aizbildinājumu, kāpēc nevar apmeklēt brālēna kāzas",
+      en: "Jurmola Man Spends 11 Years Constructing Elaborate Excuse For Why He Can't Attend Cousin's Wedding",
+      lv: "Jurmolas vīrietis 11 gadus konstruē sarežģītu aizbildinājumu, kāpēc nevar apmeklēt brālēna kāzas",
       ru: "Житель Юрмалы 11 лет разрабатывает сложную отговорку, почему не может присутствовать на свадьбе кузена"
     },
     excerpt: {
@@ -75,8 +75,8 @@ const newsArticles: NewsArticle[] = [
       ru: "Мужчина осознал, что Балтийское море, в котором он плавал 40 лет, на самом деле очень большая лужа"
     },
     excerpt: {
-      en: "Jūrmala resident Valdis Liepa, 58, expressed shock upon learning the body of water lacks proper oceanic credentials. 'No one told me it was basically a giant rain collection,' he stated. Geographers confirm the Baltic Sea is technically 'a continental shelf sea that got too big for its britches.'",
-      lv: "Jūrmalas iedzīvotājs Valdis Liepa, 58, izteica šoku, uzzinot, ka ūdenstilpei trūkst pienācīgu okeānisko akreditāciju. 'Neviens man neteica, ka tā būtībā ir milzīgs lietus savācējs,' viņš paziņoja. Ģeogrāfi apstiprina, ka Baltijas jūra tehniski ir 'kontinentālā šelfa jūra, kas kļuva pārāk liela savai vietai.'",
+      en: "Jurmola resident Valdis Liepa, 58, expressed shock upon learning the body of water lacks proper oceanic credentials. 'No one told me it was basically a giant rain collection,' he stated. Geographers confirm the Baltic Sea is technically 'a continental shelf sea that got too big for its britches.'",
+      lv: "Jurmolas iedzīvotājs Valdis Liepa, 58, izteica šoku, uzzinot, ka ūdenstilpei trūkst pienācīgu okeānisko akreditāciju. 'Neviens man neteica, ka tā būtībā ir milzīgs lietus savācējs,' viņš paziņoja. Ģeogrāfi apstiprina, ka Baltijas jūra tehniski ir 'kontinentālā šelfa jūra, kas kļuva pārāk liela savai vietai.'",
       ru: "58-летний житель Юрмалы Валдис Лиепа выразил шок, узнав, что водоему не хватает надлежащих океанических полномочий. 'Никто не сказал мне, что это в основном гигантский сборник дождя', - заявил он. Географы подтверждают, что Балтийское море технически 'шельфовое море, которое стало слишком большим для своих штанов'."
     },
     date: "Nov 14, 2025",
@@ -121,8 +121,8 @@ const newsArticles: NewsArticle[] = [
   {
     id: 7,
     title: {
-      en: "Local Man Spends Entire Life Savings On Single Perfectly Round Stone From Jūrmala Beach",
-      lv: "Vietējais vīrietis tērē visus dzīves ietaupījumus vienam ideāli apaļam akmenim no Jūrmalas pludmales",
+      en: "Local Man Spends Entire Life Savings On Single Perfectly Round Stone From Jurmola Beach",
+      lv: "Vietējais vīrietis tērē visus dzīves ietaupījumus vienam ideāli apaļam akmenim no Jurmolas pludmales",
       ru: "Местный житель потратил все сбережения на один идеально круглый камень с пляжа Юрмалы"
     },
     excerpt: {
@@ -155,12 +155,12 @@ const newsArticles: NewsArticle[] = [
   {
     id: 9,
     title: {
-      en: "Famous London Investment Banker Visits Jūrmala, Proposes Compacting Beach Sand For 'Strategic Purposes'",
+      en: "Famous London Investment Banker Visits Jurmola, Proposes Compacting Beach Sand For 'Strategic Purposes'",
       lv: "Slavens Londons investīciju banķieris apmeklē Jūrmalu, ierosina sablīvēt pludmales smiltis 'stratēģiskiem mērķiem'",
       ru: "Знаменитый лондонский инвестиционный банкир посетил Юрмалу, предложил уплотнить пляжный песок для 'стратегических целей'"
     },
     excerpt: {
-      en: "Alexander Vladimirov, former Swiss national hockey player turned Russian triathlon representative, made a 'friendly visit' to Jūrmala this week. After praising local saunas, spirits, and inflatable pool toys, Vladimirov unveiled a detailed proposal to compress beach sand 'so knives stick better in Latvian soil.' The recommendation has been forwarded to Latvia's King for parliamentary review.",
+      en: "Alexander Vladimirov, former Swiss national hockey player turned Russian triathlon representative, made a 'friendly visit' to Jurmola this week. After praising local saunas, spirits, and inflatable pool toys, Vladimirov unveiled a detailed proposal to compress beach sand 'so knives stick better in Latvian soil.' The recommendation has been forwarded to Latvia's King for parliamentary review.",
       lv: "Aleksandrs Vladimirovs, bijušais Šveices hokeja izlases spēlētājs, kas pārstāv Krieviju triatlonā, šonedēļ veica 'draudzīgu vizīti' Jūrmalā. Pēc tam, kad viņš uzslavēja vietējās pirtis, spirtu un peldošos rotaļlietas, Vladimirovs atklāja detalizētu priekšlikumu saspiegt pludmales smiltis, 'lai naži labāk iestrēgst Latvijas zemē.' Ieteikums ir nosūtīts Latvijas karalim parlamentārai izskatīšanai.",
       ru: "Александр Владимиров, бывший игрок сборной Швейцарии по хоккею, теперь представляющий Россию в триатлоне, совершил 'дружественный визит' в Юрмалу на этой неделе. После похвалы местным баням, спиртным напиткам и надувным игрушкам для бассейна, Владимиров представил подробное предложение по уплотнению пляжного песка, 'чтобы ножи лучше застревали в латвийской почве.' Рекомендация направлена королю Латвии для парламентского рассмотрения."
     },

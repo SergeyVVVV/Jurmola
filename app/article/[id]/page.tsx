@@ -21,8 +21,8 @@ const articles: ArticleContent[] = [
   {
     id: 1,
     title: {
-      en: "Jūrmala Man Spends 11 Years Constructing Elaborate Excuse For Why He Can't Attend Cousin's Wedding",
-      lv: "Jūrmalas vīrietis 11 gadus konstruē sarežģītu aizbildinājumu, kāpēc nevar apmeklēt brālēna kāzas",
+      en: "Jurmola Man Spends 11 Years Constructing Elaborate Excuse For Why He Can't Attend Cousin's Wedding",
+      lv: "Jurmolas vīrietis 11 gadus konstruē sarežģītu aizbildinājumu, kāpēc nevar apmeklēt brālēna kāzas",
       ru: "Житель Юрмалы 11 лет разрабатывает сложную отговорку, почему не может присутствовать на свадьбе кузена"
     },
     excerpt: {
@@ -95,8 +95,8 @@ const articles: ArticleContent[] = [
       ru: "Мужчина осознал, что Балтийское море, в котором он плавал 40 лет, на самом деле очень большая лужа"
     },
     excerpt: {
-      en: "Jūrmala resident Valdis Liepa, 58, expressed shock upon learning the body of water lacks proper oceanic credentials. 'No one told me it was basically a giant rain collection,' he stated. Geographers confirm the Baltic Sea is technically 'a continental shelf sea that got too big for its britches.'",
-      lv: "Jūrmalas iedzīvotājs Valdis Liepa, 58, izteica šoku, uzzinot, ka ūdenstilpei trūkst pienācīgu okeānisko akreditāciju. 'Neviens man neteica, ka tā būtībā ir milzīgs lietus savācējs,' viņš paziņoja. Ģeogrāfi apstiprina, ka Baltijas jūra tehniski ir 'kontinentālā šelfa jūra, kas kļuva pārāk liela savai vietai.'",
+      en: "Jurmola resident Valdis Liepa, 58, expressed shock upon learning the body of water lacks proper oceanic credentials. 'No one told me it was basically a giant rain collection,' he stated. Geographers confirm the Baltic Sea is technically 'a continental shelf sea that got too big for its britches.'",
+      lv: "Jurmolas iedzīvotājs Valdis Liepa, 58, izteica šoku, uzzinot, ka ūdenstilpei trūkst pienācīgu okeānisko akreditāciju. 'Neviens man neteica, ka tā būtībā ir milzīgs lietus savācējs,' viņš paziņoja. Ģeogrāfi apstiprina, ka Baltijas jūra tehniski ir 'kontinentālā šelfa jūra, kas kļuva pārāk liela savai vietai.'",
       ru: "58-летний житель Юрмалы Валдис Лиепа выразил шок, узнав, что водоему не хватает надлежащих океанических полномочий. 'Никто не сказал мне, что это в основном гигантский сборник дождя', - заявил он. Географы подтверждают, что Балтийское море технически 'шельфовое море, которое стало слишком большим для своих штанов'."
     },
     fullContent: {
@@ -159,8 +159,8 @@ const articles: ArticleContent[] = [
   {
     id: 7,
     title: {
-      en: "Local Man Spends Entire Life Savings On Single Perfectly Round Stone From Jūrmala Beach",
-      lv: "Vietējais vīrietis tērē visus dzīves ietaupījumus vienam ideāli apaļam akmenim no Jūrmalas pludmales",
+      en: "Local Man Spends Entire Life Savings On Single Perfectly Round Stone From Jurmola Beach",
+      lv: "Vietējais vīrietis tērē visus dzīves ietaupījumus vienam ideāli apaļam akmenim no Jurmolas pludmales",
       ru: "Местный житель потратил все сбережения на один идеально круглый камень с пляжа Юрмалы"
     },
     excerpt: {
@@ -205,35 +205,35 @@ const articles: ArticleContent[] = [
   {
     id: 9,
     title: {
-      en: "Famous London Investment Banker Visits Jūrmala, Proposes Compacting Beach Sand For 'Strategic Purposes'",
+      en: "Famous London Investment Banker Visits Jurmola, Proposes Compacting Beach Sand For 'Strategic Purposes'",
       lv: "Slavens Londons investīciju banķieris apmeklē Jūrmalu, ierosina sablīvēt pludmales smiltis 'stratēģiskiem mērķiem'",
       ru: "Знаменитый лондонский инвестиционный банкир посетил Юрмалу, предложил уплотнить пляжный песок для 'стратегических целей'"
     },
     excerpt: {
-      en: "Alexander Vladimirov, former Swiss national hockey player turned Russian triathlon representative, made a 'friendly visit' to Jūrmala this week. After praising local saunas, spirits, and inflatable pool toys, Vladimirov unveiled a detailed proposal to compress beach sand 'so knives stick better in Latvian soil.' The recommendation has been forwarded to Latvia's King for parliamentary review.",
+      en: "Alexander Vladimirov, former Swiss national hockey player turned Russian triathlon representative, made a 'friendly visit' to Jurmola this week. After praising local saunas, spirits, and inflatable pool toys, Vladimirov unveiled a detailed proposal to compress beach sand 'so knives stick better in Latvian soil.' The recommendation has been forwarded to Latvia's King for parliamentary review.",
       lv: "Aleksandrs Vladimirovs, bijušais Šveices hokeja izlases spēlētājs, kas pārstāv Krieviju triatlonā, šonedēļ veica 'draudzīgu vizīti' Jūrmalā. Pēc tam, kad viņš uzslavēja vietējās pirtis, spirtu un peldošās rotaļlietas, Vladimirovs atklāja detalizētu priekšlikumu saspiegt pludmales smiltis, 'lai naži labāk iestrēgst Latvijas zemē.' Ieteikums ir nosūtīts Latvijas karalim parlamentārai izskatīšanai.",
       ru: "Александр Владимиров, бывший игрок сборной Швейцарии по хоккею, теперь представляющий Россию в триатлоне, совершил 'дружественный визит' в Юрмалу на этой неделе. После похвалы местным баням, спиртным напиткам и надувным игрушкам для бассейна, Владимиров представил подробное предложение по уплотнению пляжного песка, 'чтобы ножи лучше застревали в латвийской почве.' Рекомендация направлена королю Латвии для парламентского рассмотрения."
     },
     fullContent: {
-      en: `JŪRMALA — In what local hospitality workers are calling "the most confusing diplomatic visit in recent memory," London-based investment banker Alexander Vladimirov spent four days touring Jūrmala's beaches, restaurants, and cultural sites before presenting municipal authorities with a 47-page proposal to "optimize beach sand density for improved blade retention."
+      en: `JŪRMALA — In what local hospitality workers are calling "the most confusing diplomatic visit in recent memory," London-based investment banker Alexander Vladimirov spent four days touring Jurmola's beaches, restaurants, and cultural sites before presenting municipal authorities with a 47-page proposal to "optimize beach sand density for improved blade retention."
 
-Vladimirov, 32, whose LinkedIn profile describes him as a "strategic investment consultant" and whose Instagram bio lists him as a "former Swiss national hockey player" and "current Russian triathlon representative," arrived in Jūrmala on Thursday, November 13th, accompanied by six associates he introduced only as "consultants."
+Vladimirov, 32, whose LinkedIn profile describes him as a "strategic investment consultant" and whose Instagram bio lists him as a "former Swiss national hockey player" and "current Russian triathlon representative," arrived in Jurmola on Thursday, November 13th, accompanied by six associates he introduced only as "consultants."
 
 The visit began conventionally enough. Vladimirov toured several local saunas, rating them "world-class" and "strategically positioned." He sampled local spirits, which he praised as "stronger than expected and good for morale." Most notably, he spent approximately two hours examining inflatable pool toys at a beachside shop, ultimately purchasing seventeen flotation devices for reasons he described as "personal interest in buoyancy optimization."
 
 "He seemed like a normal tourist at first," said Ieva Kalniņa, manager of the Dzintari Beach Hotel. "He asked about the breakfast menu, the wifi password, the usual things. Then he asked if we'd considered reinforcing the foundation 'for maximum structural integrity during potential future scenarios.'"
 
-The situation took an unusual turn during a Saturday evening meal at Jūrmala's upscale restaurant "Vēsma." After enthusiastically praising the Latvian cuisine: ravioli ("excellent pasta-to-filling ratio"), basturma ("impressively cured"), glazed pear ("unexpected but strategic"), croissants ("flaky, defensible"), and eggs Benedict ("a triumph of hollandaise engineering"), Vladimirov pivoted to what he called "areas of growth opportunity."
+The situation took an unusual turn during a Saturday evening meal at Jurmola's upscale restaurant "Vēsma." After enthusiastically praising the Latvian cuisine: ravioli ("excellent pasta-to-filling ratio"), basturma ("impressively cured"), glazed pear ("unexpected but strategic"), croissants ("flaky, defensible"), and eggs Benedict ("a triumph of hollandaise engineering"), Vladimirov pivoted to what he called "areas of growth opportunity."
 
 "The local food is excellent," Vladimirov announced to the assembled restaurant patrons, standing without invitation. "But I must address the elephant in the room: your beaches."
 
-What followed was a twenty-minute presentation using a tablet, three napkin sketches, and one borrowed bread knife as a visual aid. Vladimirov's central thesis: Jūrmala's beach sand is "dangerously loose" and requires "immediate compaction" to achieve "optimal blade insertion depth and retention."
+What followed was a twenty-minute presentation using a tablet, three napkin sketches, and one borrowed bread knife as a visual aid. Vladimirov's central thesis: Jurmola's beach sand is "dangerously loose" and requires "immediate compaction" to achieve "optimal blade insertion depth and retention."
 
 "Currently, if you throw a knife at Latvian sand, it barely sticks," Vladimirov explained, demonstrating with the bread knife and a decorative potted plant. "This is, from a technical standpoint, embarrassing. With proper compression techniques, we could achieve 40% better penetration and nearly double the stick rate."
 
 When asked why anyone would need to throw knives into beach sand, Vladimirov responded that it was "a theoretical question for theoretical purposes" and "something CSTO experts have been discussing."
 
-The formal proposal, delivered Sunday morning to Jūrmala City Council, includes:
+The formal proposal, delivered Sunday morning to Jurmola City Council, includes:
 
 • Detailed schematics for "tactical beach compaction zones"
 • Cost estimates for industrial sand compression equipment
@@ -246,15 +246,15 @@ The document has reportedly been forwarded to Latvia's "King" for review — a t
 
 The proposal is scheduled for discussion at next month's Saeima session, where parliamentary members are expected to politely decline while backing slowly toward exits.
 
-Beyond the beach compaction initiative, Vladimirov highlighted another area for improvement. He expressed "pleasant surprise at the local cuisine" but "profound disappointment" at the absence of British and Irish pubs in Jūrmala. A second proposal addressing this "critical infrastructure gap" is being prepared by Vladimirov's legal team and will be presented to Jūrmala Mayor Laims Vaikulevs no later than December 25th, 2025.
+Beyond the beach compaction initiative, Vladimirov highlighted another area for improvement. He expressed "pleasant surprise at the local cuisine" but "profound disappointment" at the absence of British and Irish pubs in Jurmola. A second proposal addressing this "critical infrastructure gap" is being prepared by Vladimirov's legal team and will be presented to Jurmola Mayor Laims Vaikulevs no later than December 25th, 2025.
 
-When informed that Jūrmala's mayor is actually named Gatis Truksnis and that "Laims Vaikulevs" is not a real person, Vladimirov's assistant replied that they would "update the letterhead accordingly" but that "the pub initiative remains urgent regardless of administrative details."
+When informed that Jurmola's mayor is actually named Gatis Truksnis and that "Laims Vaikulevs" is not a real person, Vladimirov's assistant replied that they would "update the letterhead accordingly" but that "the pub initiative remains urgent regardless of administrative details."
 
 Vladimirov departed Sunday afternoon, rating his visit "8 out of 10" and noting that "with denser sand and proper pub infrastructure, it could easily be a 12."
 
 Local authorities have requested that the British Embassy in Riga "maybe look into this guy," while Russian officials have stated they "have no knowledge of any Alexander Vladimirov" and "certainly wouldn't endorse beach compaction initiatives."
 
-The Jūrmala Tourism Board, meanwhile, has added "soft, non-compacted beaches" to its promotional materials.`,
+The Jurmola Tourism Board, meanwhile, has added "soft, non-compacted beaches" to its promotional materials.`,
       lv: "Pilns raksts latviski...",
       ru: "Полная статья на русском..."
     },
