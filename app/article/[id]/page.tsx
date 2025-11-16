@@ -1,5 +1,7 @@
-import { Metadata } from 'next';
-import ArticlePageClient from './ArticlePageClient';
+'use client';
+
+import { useParams } from 'next/navigation';
+import { useState } from 'react';
 
 type Language = 'en' | 'lv' | 'ru';
 
@@ -267,50 +269,10 @@ The Jūrmala Tourism Board, meanwhile, has added "soft, non-compacted beaches" t
 const translations = {
   backToHome: { en: "← Back to Home", lv: "← Atpakaļ uz sākumlapu", ru: "← Назад на главную" },
   siteTitle: { en: "Jurmola Telegraphs", lv: "Jurmola Telegraphs", ru: "Jurmola Telegraphs" },
-  share: { en: "Share this story", lv: "Dalīties ar šо stāstu", ru: "Поделиться этой историей" }
+  share: { en: "Share this story", lv: "Dalīties ar šo stāstu", ru: "Поделиться этой историей" }
 };
 
-export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
-  const articleId = parseInt(params.id);
-  const article = articles.find(a => a.id === articleId);
-
-  if (!article) {
-    return {
-      title: 'Article Not Found - Jurmola Telegraphs',
-    };
-  }
-
-  return {
-    title: `${article.title.en} - Jurmola Telegraphs`,
-    description: article.excerpt.en,
-    openGraph: {
-      title: article.title.en,
-      description: article.excerpt.en,
-      url: `https://jurmola.com/article/${articleId}`,
-      siteName: 'Jurmola Telegraphs',
-      images: [
-        {
-          url: article.imageUrl.startsWith('http') ? article.imageUrl : `https://jurmola.com${article.imageUrl}`,
-          width: 1200,
-          height: 630,
-          alt: article.title.en,
-        },
-      ],
-      locale: 'en_US',
-      type: 'article',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: article.title.en,
-      description: article.excerpt.en,
-      images: [article.imageUrl.startsWith('http') ? article.imageUrl : `https://jurmola.com${article.imageUrl}`],
-    },
-  };
-}
-
-export default function ArticlePage({ params }: { params: { id: string } }) {
-  return <ArticlePageClient params={params} />;
-}
+export default function ArticlePage() {
   const params = useParams();
   const articleId = parseInt(params.id as string);
   const [language, setLanguage] = useState<Language>('en');
