@@ -223,9 +223,9 @@ The visit began conventionally enough. Vladimirov toured several local saunas, r
 
 "He seemed like a normal tourist at first," said Ieva Kalniņa, manager of the Dzintari Beach Hotel. "He asked about the breakfast menu, the wifi password, the usual things. Then he asked if we'd considered reinforcing the foundation 'for maximum structural integrity during potential future scenarios.'"
 
-The situation took an unusual turn during a Saturday evening meal at Jūrmala's upscale restaurant "Vēsma." After enthusiastically praising the ravioli ("excellent pasta-to-filling ratio"), basturma ("impressively cured"), glazed pear ("unexpected but strategic"), croissants ("flaky, defensible"), and eggs Benedict ("a triumph of hollandaise engineering"), Vladimirov pivoted to what he called "areas of growth opportunity."
+The situation took an unusual turn during a Saturday evening meal at Jūrmala's upscale restaurant "Vēsma." After enthusiastically praising the Latvian cuisine: ravioli ("excellent pasta-to-filling ratio"), basturma ("impressively cured"), glazed pear ("unexpected but strategic"), croissants ("flaky, defensible"), and eggs Benedict ("a triumph of hollandaise engineering"), Vladimirov pivoted to what he called "areas of growth opportunity."
 
-"The food is excellent," Vladimirov announced to the assembled restaurant patrons, standing without invitation. "But I must address the elephant in the room: your beaches."
+"The local food is excellent," Vladimirov announced to the assembled restaurant patrons, standing without invitation. "But I must address the elephant in the room: your beaches."
 
 What followed was a twenty-minute presentation using a tablet, three napkin sketches, and one borrowed bread knife as a visual aid. Vladimirov's central thesis: Jūrmala's beach sand is "dangerously loose" and requires "immediate compaction" to achieve "optimal blade insertion depth and retention."
 
