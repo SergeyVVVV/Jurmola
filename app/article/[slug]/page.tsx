@@ -1278,14 +1278,23 @@ export default function ArticlePage() {
   const slug = params.slug as string;
   const { language, setLanguage } = useLanguage();
 
-  // Support both slug and legacy ID routing
+  // Support both slug and legacy ID routing with redirect
   const article = articles.find(a => {
-    // Check if it's a slug match
     if (a.slug === slug) return true;
-    // Check if it's a legacy ID (for backwards compatibility)
-    if (!isNaN(Number(slug)) && a.id === Number(slug)) return true;
     return false;
   });
+
+  // If not found by slug, check if it's a legacy ID and redirect
+  if (!article && !isNaN(Number(slug))) {
+    const articleById = articles.find(a => a.id === Number(slug));
+    if (articleById) {
+      // 301 redirect to the proper slug URL
+      if (typeof window !== 'undefined') {
+        window.location.replace(`/article/${articleById.slug}`);
+      }
+      return null;
+    }
+  }
 
   if (!article) {
     return (
