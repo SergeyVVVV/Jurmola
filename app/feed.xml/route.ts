@@ -4,6 +4,7 @@ import { NextResponse } from 'next/server';
 const articles = [
   {
     id: 9,
+    slug: "london-banker-jurmola-compacting-beach-sand",
     title: {
       en: "Famous London Investment Banker Visits Jurmola, Proposes Compacting Beach Sand For 'Strategic Purposes'",
       lv: "Slavens Londons investīciju banķieris apmeklē Jūrmalu, ierosina sablīvēt pludmales smiltis 'stratēģiskiem mērķiem'",
@@ -19,6 +20,7 @@ const articles = [
   },
   {
     id: 1,
+    slug: "jurmola-man-11-years-wedding-excuse",
     title: {
       en: "Jurmola Man Spends 11 Years Constructing Elaborate Excuse For Why He Can't Attend Cousin's Wedding",
       lv: "Jurmolas vīrietis 11 gadus konstruē sarežģītu aizbildinājumu, kāpēc nevar apmeklēt brālēna kāzas",
@@ -34,6 +36,7 @@ const articles = [
   },
   {
     id: 2,
+    slug: "riga-monument-mystery-just-some-guy",
     title: {
       en: "Riga Monument Confirmed to Be 'Just Some Guy' No One Can Remember Placing There",
       lv: "Rīgas piemineklis apstiprināts kā 'vienkārši kāds vīrietis', ko neviens neatceras tur esam novietojis",
@@ -49,6 +52,7 @@ const articles = [
   },
   {
     id: 3,
+    slug: "latvian-potato-achieves-sentience",
     title: {
       en: "Local Potato Achieves Sentience, Immediately Files Complaint About Latvian Cuisine Stereotypes",
       lv: "Vietējais kartupelis iegūst apziņu, uzreiz iesniedz sūdzību par latviešu virtuves stereotipiem",
@@ -64,6 +68,7 @@ const articles = [
   },
   {
     id: 4,
+    slug: "baltic-sea-actually-large-puddle",
     title: {
       en: "Area Man Realizes Baltic Sea He's Been Swimming In For 40 Years Is Actually Very Large Puddle",
       lv: "Vietējais vīrietis saprot, ka Baltijas jūra, kurā viņš ir peldējis 40 gadus, faktiski ir ļoti liela peļķe",
@@ -79,6 +84,7 @@ const articles = [
   },
   {
     id: 5,
+    slug: "daugava-river-only-tuesdays-thursdays",
     title: {
       en: "Daugava River Announces It Will Now Only Flow On Tuesdays And Thursdays Due To Budget Cuts",
       lv: "Daugavas upe paziņo, ka tagad plūdīs tikai otrdienās un ceturtdienās budžeta samazinājumu dēļ",
@@ -94,6 +100,7 @@ const articles = [
   },
   {
     id: 6,
+    slug: "latvian-language-87-percent-silence",
     title: {
       en: "Linguists Discover Latvian Language Actually 87% Uncomfortable Silence",
       lv: "Lingvisti atklāj, ka latviešu valoda faktiski ir 87% neērtā klusuma",
@@ -109,6 +116,7 @@ const articles = [
   },
   {
     id: 7,
+    slug: "jurmola-man-life-savings-perfectly-round-stone",
     title: {
       en: "Local Man Spends Entire Life Savings On Single Perfectly Round Stone From Jurmola Beach",
       lv: "Vietējais vīrietis iztērē visu dzīves ietaupījumu vienam perfekti apaļam akmenim no Jurmolas pludmales",
@@ -124,6 +132,7 @@ const articles = [
   },
   {
     id: 8,
+    slug: "latvia-moving-east-geographic-adjustment",
     title: {
       en: "Scientists Confirm Latvia Slightly More East Than Previously Thought; Country To Adjust Accordingly",
       lv: "Zinātnieki apstiprina, ka Latvija ir nedaudz austrumāk nekā iepriekš domāts; valsts attiecīgi pielāgosies",
@@ -143,8 +152,8 @@ function generateRSSItem(article: typeof articles[0], language: 'en' | 'lv' | 'r
   const baseUrl = 'https://jurmola.vercel.app'; // Update with your actual domain
   const title = article.title[language];
   const description = article.excerpt[language];
-  const link = `${baseUrl}/article/${article.id}`;
-  const guid = `${baseUrl}/article/${article.id}`;
+  const link = `${baseUrl}/article/${article.slug}`;
+  const guid = `${baseUrl}/article/${article.slug}`;
   const pubDate = new Date(article.date).toUTCString();
   const category = article.category[language];
 
