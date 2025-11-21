@@ -9,6 +9,7 @@ on:
 jobs:
   generate-article:
     runs-on: ubuntu-latest
+    timeout-minutes: 15  # Максимум 15 минут на весь job
     
     steps:
       - name: Checkout repository
@@ -24,11 +25,22 @@ jobs:
           
       - name: Install dependencies
         run: npm ci
+      
+      - name: Verify OpenAI API Key
+        run: |
+          if [ -z "${{ secrets.OPENAI_API_KEY }}" ]; then
+            echo "❌ Error: OPENAI_API_KEY secret is not set"
+            exit 1
+          fi
+          echo "✅ OpenAI API Key is configured"
         
       - name: Generate new article
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: npm run generate-article
+        run: |
+          echo "🤖 Starting article generation..."
+          npm run generate-article
+        timeout-minutes: 10  # Максимум 10 минут на генерацию
         
       - name: Commit and push if changes
         run: |

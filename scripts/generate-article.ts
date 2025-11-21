@@ -4,6 +4,8 @@ import path from 'path';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
+  timeout: 60000, // 60 seconds timeout
+  maxRetries: 3, // Retry up to 3 times
 });
 
 interface ArticleTranslations {
@@ -306,17 +308,30 @@ async function insertArticleIntoCode(article: Article) {
 
 async function main() {
   try {
+    console.log('🚀 Starting article generation process...\n');
+    
     if (!process.env.OPENAI_API_KEY) {
-      throw new Error('OPENAI_API_KEY environment variable is not set');
+      throw new Error('❌ OPENAI_API_KEY environment variable is not set');
     }
+    
+    console.log('✅ OpenAI API key found');
+    console.log('⏳ This may take 2-3 minutes...\n');
 
     const article = await generateArticle();
     await insertArticleIntoCode(article);
     
-    console.log('✨ Done! Commit and push the changes to publish the new article.');
+    console.log('\n✨ Done! Commit and push the changes to publish the new article.');
     console.log('📡 RSS feed will auto-update from centralized articles.ts');
+    console.log('🎉 Article generation completed successfully!\n');
   } catch (error) {
-    console.error('❌ Error generating article:', error);
+    console.error('\n❌ Error generating article:');
+    if (error instanceof Error) {
+      console.error(`   Message: ${error.message}`);
+      console.error(`   Stack: ${error.stack}`);
+    } else {
+      console.error(error);
+    }
+    console.error('\n💡 Tip: Check your OpenAI API key and internet connection');
     process.exit(1);
   }
 }
