@@ -4,8 +4,19 @@ import { useState } from 'react';
 import { useLanguage, Language } from './hooks/useLanguage';
 import { articles } from './data/articles';
 
-// Используем централизованные данные вместо дублирования
-const newsArticles = articles;
+// Используем централизованные данные и сортируем по дате
+const newsArticles = [...articles].sort((a, b) => {
+  // Featured статья всегда первая
+  if (a.featured && !b.featured) return -1;
+  if (!a.featured && b.featured) return 1;
+  
+  // Парсим даты в формате "Nov 25, 2025"
+  const dateA = new Date(a.date);
+  const dateB = new Date(b.date);
+  
+  // Сортируем по убыванию (новые первыми)
+  return dateB.getTime() - dateA.getTime();
+});
 
 const translations = {
   siteTitle: { en: "Jurmola Telegraphs", lv: "Jurmola Telegraphs", ru: "Jurmola Telegraphs" },
