@@ -160,12 +160,14 @@ Format your response as JSON:
   console.log('✅ Russian translation complete\n');
 
   // Get current articles to determine next ID
-  const articlePagePath = path.join(process.cwd(), 'app/news/[slug]/page.tsx');
-  const content = fs.readFileSync(articlePagePath, 'utf-8');
+  const articlesDataPath = path.join(process.cwd(), 'app/data/articles.ts');
+  const content = fs.readFileSync(articlesDataPath, 'utf-8');
   const idMatches = content.match(/id:\s*(\d+)/g) || [];
   const ids = idMatches.map(match => parseInt(match.match(/\d+/)![0]));
   const maxId = Math.max(...ids, 0);
   const newId = maxId + 1;
+  
+  console.log(`📊 Found ${ids.length} existing articles, max ID: ${maxId}, new ID will be: ${newId}`);
 
   // Random selections
   const category = categories[Math.floor(Math.random() * categories.length)];
