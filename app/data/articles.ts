@@ -18,6 +18,105 @@ export interface Article {
 export const articles: Article[] = [
   {
     id: 1,
+    slug: "latvia-to-rename-days-of-the",
+    title: {
+      en: "Latvia to Rename Days of the Week as Part of Bold Tourism Initiative",
+      lv: "Latvija pārdēvēs nedēļas dienas kā daļu no drosmīgas tūrisma iniciatīvas",
+      ru: "Латвия переименует дни недели в рамках смелой туристической инициативы"
+    },
+    excerpt: {
+      en: "In a groundbreaking effort to boost tourism, the Latvian government has announced plans to rename the days of the week to reflect the unique character of the nation. While some see it as a fresh strategy, others are left wondering if Monday will finally be more bearable.",
+      lv: "Lai veicinātu tūrismu, Latvijas valdība ir paziņojusi par plāniem pārdēvēt nedēļas dienas, lai atspoguļotu valsts unikālo raksturu. Kamēr daži to uztver kā jaunu stratēģiju, citi domā, vai pirmdiena beidzot būs vieglāk panesama.",
+      ru: "В новаторской попытке увеличить поток туристов правительство Латвии объявило о планах переименовать дни недели, чтобы отразить уникальный характер нации. Пока одни видят в этом свежую стратегию, другие задаются вопросом, станет ли понедельник наконец-то более терпимым."
+    },
+    fullContent: {
+      en: `Riga, Latvia—In a daring move to distinguish itself on the global stage and attract tourists, Latvia has unveiled its latest nation-branding initiative: the renaming of the days of the week to capture the country's distinctive cultural essence. The initiative, which has already passed the first reading in the Saeima with an overwhelming vote of 72-28, promises to not only rewrite calendars but also the very rhythms of Latvian life.
+
+The rebranded days, effective January 1, 2024, will follow an ambitious agenda that embraces both Latvia's cultural heritage and its penchant for inventive policymaking. Monday will henceforth be known as “Sapņu Diena” (Dream Day), in acknowledgment of the surreal feeling of waking up after a typical Baltic weekend. 
+
+Tuesday morphs into “Pelēka Otrdiena” (Gray Tuesday), a tribute to the midweek lull often described by locals as being 'trapped in a foggy forest without a compass.' 
+
+Wednesday has been renamed “Ceptā Maize Trešdiena” (Fried Bread Wednesday), promoting the national obsession with this cholesterol-packed delicacy. 
+
+According to cultural anthropologist Ģederts Roze, “These names serve as both a declaration of our identity and a clever marketing stratagem to turn mundane routines into appreciable cultural experiences.”
+
+Tourism minister Mudīte Kalniņa enthusiastically endorsed the measure, declaring, “The world knows about our Song and Dance Festival, but who wouldn’t want to visit a country where Sunday is now called ‘Pirts Svētdiena’ (Sauna Sunday)? It's an invitation for every tourist to steam their troubles away while understanding our dedication to relaxation.”
+
+Skeptics, however, have raised concerns about the practicality of the initiative. Juris Ilmārs, owner of a popular calendar printing business, nervously commented, “I haven't seen this much excitement about dates since the advent of the paperless office. It’s either going to be a bestseller or an accounting nightmare.”
+
+Despite these concerns, public response has been largely positive. A recent national survey revealed that approximately 67% of the Latvian populous support the change, with only 15% worried about potential confusion during international communications. 
+
+Raimonds Rozītis, a local fisherman from Liepāja, expressed his enthusiasm, noting, “If Thursday becomes ‘Ābolu Pīrāgs Ceturtdiena’ (Apple Pie Thursday), I'm all for it. It gives me something to look forward to by the end of my working week.”
+
+In an official statement, Prime Minister Māris Starastūris stressed the symbolic importance of the initiative: “For too long, time has been a monotonous cycle. With our newly appointed days, we rewrite our narrative and offer a cultural experience unlike any other. Who wouldn't want to plan a vacation around a ‘Līgo Piektdiena’ (Midsummer Friday)?”
+
+As Latvia prepares to roll out these changes, neighboring Baltic nations are watching curiously. While some diplomats hint at a potential regional trend, others are content to observe, opting instead to remain tethered to traditional temporal structures.
+
+With the new days established, travel agencies have already begun strategizing thematic tours around these cultural concepts, with packages promising everything from Sauna Sundays to culinary experiences on Fried Bread Wednesdays. If successful, this might very well be Latvia's most talked-about export since the amber boom.
+
+Only time will tell if Latvia’s day-renaming endeavor permanently alters tourism—but until then, one thing is certain: calendars will never look the same again.`,
+      lv: `Rīga, Latvija—Drosmīgā solī, lai izceltos uz pasaules skatuves un piesaistītu tūristus, Latvija ir atklājusi savu jaunāko nacionālā zīmola iniciatīvu: nedēļas dienu pārdēvēšanu, lai iemūžinātu valsts atšķirīgo kultūras būtību. Iniciatīva, kas jau ir izturējusi pirmo lasījumu Saeimā ar pārliecinošu balsojumu 72-28, sola ne tikai pārrakstīt kalendārus, bet arī pašus Latvijas dzīves ritmus.
+
+Pārdēvētās dienas, kas stāsies spēkā 2024. gada 1. janvārī, sekos ambiciozam plānam, kas aptver gan Latvijas kultūras mantojumu, gan tās tieksmi uz izgudrojumiem politikas jomā. Pirmdiena turpmāk būs pazīstama kā “Sapņu Diena”, atzīstot sirreālo sajūtu, kas rodas pēc tipiskas Baltijas nedēļas nogales.
+
+Otrdiena pārtop par “Pelēka Otrdiena”, kas ir veltījums nedēļas vidus klusumam, ko vietējie bieži raksturo kā 'iesprostoti miglainā mežā bez kompasa'.
+
+Trešdiena ir pārdēvēta par “Ceptā Maize Trešdiena”, veicinot nacionālo apsēstību ar šo holesterīnu bagāto delikatesi.
+
+Pēc kultūras antropologa Ģederta Rozes teiktā, “Šie nosaukumi kalpo gan kā mūsu identitātes deklarācija, gan kā gudrs mārketinga stratēģija, lai ikdienas rutīnu pārvērstu par novērtējamu kultūras pieredzi.”
+
+Tūrisma ministre Mudīte Kalniņa entuziastiski atbalstīja šo pasākumu, paziņojot: “Pasaule zina par mūsu Dziesmu un deju svētkiem, bet kurš gan nevēlētos apmeklēt valsti, kur svētdiena tagad tiek saukta par ‘Pirts Svētdiena’? Tas ir ielūgums katram tūristam iztvaicēt savas rūpes, vienlaikus izprotot mūsu apņemšanos atpūsties.”
+
+Skeptiķi tomēr ir izteikuši bažas par iniciatīvas praktiskumu. Juris Ilmārs, populāra kalendāru drukāšanas uzņēmuma īpašnieks, nervozi komentēja: “Es neesmu redzējis tik daudz satraukuma par datumiem kopš papīra biroja parādīšanās. Tas būs vai nu bestsellers, vai grāmatvedības murgs.”
+
+Neskatoties uz šīm bažām, sabiedrības reakcija lielākoties ir bijusi pozitīva. Nesenā nacionālā aptauja atklāja, ka aptuveni 67% Latvijas iedzīvotāju atbalsta izmaiņas, un tikai 15% ir nobažījušies par iespējamu neskaidrību starptautiskajā komunikācijā.
+
+Raimonds Rozītis, vietējais zvejnieks no Liepājas, pauda savu entuziasmu, norādot: “Ja ceturtdiena kļūs par ‘Ābolu Pīrāgs Ceturtdiena’, es esmu par to. Tas dod man kaut ko, ko gaidīt nedēļas beigās.”
+
+Oficiālā paziņojumā premjerministrs Māris Starastūris uzsvēra iniciatīvas simbolisko nozīmi: “Pārāk ilgi laiks ir bijis monotons cikls. Ar mūsu jaunajiem dienu nosaukumiem mēs pārrakstām savu stāstu un piedāvājam kultūras pieredzi, kas nav līdzīga nevienai citai. Kurš gan nevēlētos plānot atvaļinājumu ap ‘Līgo Piektdiena’?”
+
+Kamēr Latvija gatavojas ieviest šīs izmaiņas, kaimiņvalstis Baltijā vēro ar interesi. Kamēr daži diplomāti norāda uz iespējamu reģionālu tendenci, citi ir apmierināti ar novērošanu, izvēloties palikt pie tradicionālām laika struktūrām.
+
+Ar jaunajām dienām, ceļojumu aģentūras jau ir sākušas plānot tematiskus ceļojumus ap šiem kultūras jēdzieniem, ar piedāvājumiem, kas sola visu, sākot no Pirts Svētdienām līdz kulinārijas pieredzēm Ceptā Maize Trešdienās. Ja tas būs veiksmīgs, tas varētu būt Latvijas visvairāk apspriestais eksports kopš dzintara uzplaukuma.
+
+Tikai laiks rādīs, vai Latvijas dienu pārdēvēšanas centieni pastāvīgi mainīs tūrismu, bet līdz tam vienu lietu var teikt droši: kalendāri vairs nekad neizskatīsies tāpat.`,
+      ru: `Рига, Латвия — В дерзком шаге, чтобы выделиться на мировой арене и привлечь туристов, Латвия представила свою новейшую инициативу по брендингу нации: переименование дней недели, чтобы отразить уникальную культурную сущность страны. Инициатива, которая уже прошла первое чтение в Сейме с подавляющим голосованием 72-28, обещает не только переписать календари, но и изменить ритмы латвийской жизни.
+
+Переименованные дни, которые вступят в силу с 1 января 2024 года, будут следовать амбициозной повестке дня, охватывающей как культурное наследие Латвии, так и её склонность к изобретательной политике. Понедельник отныне будет называться "Sapņu Diena" (День Мечты), в признание сюрреалистического ощущения пробуждения после типичных балтийских выходных.
+
+Вторник превращается в "Pelēka Otrdiena" (Серая Вторник), дань уважения середине недели, которую местные жители часто описывают как 'застрявшие в туманном лесу без компаса'.
+
+Среда была переименована в "Ceptā Maize Trešdiena" (Среда Жареного Хлеба), продвигая национальную одержимость этим насыщенным холестерином деликатесом.
+
+По словам культурного антрополога Гедертса Розе, "Эти названия служат как декларацией нашей идентичности, так и хитрой маркетинговой стратегией, превращающей обыденные рутины в ценные культурные переживания."
+
+Министр туризма Мудите Калниня с энтузиазмом поддержала эту меру, заявив: "Мир знает о нашем Празднике Песни и Танца, но кто не захочет посетить страну, где воскресенье теперь называется 'Pirts Svētdiena' (Воскресенье Сауны)? Это приглашение для каждого туриста избавиться от своих забот в парной, понимая нашу приверженность отдыху."
+
+Скептики, однако, выразили обеспокоенность по поводу практичности инициативы. Юрис Илмарс, владелец популярного бизнеса по печати календарей, нервно прокомментировал: "Я не видел такого ажиотажа вокруг дат с момента появления безбумажного офиса. Это либо станет бестселлером, либо бухгалтерским кошмаром."
+
+Несмотря на эти опасения, общественная реакция в основном положительная. Недавний национальный опрос показал, что примерно 67% латвийского населения поддерживают изменения, и только 15% обеспокоены потенциальной путаницей в международных коммуникациях.
+
+Раймондс Розитис, местный рыбак из Лиепаи, выразил свой энтузиазм, отметив: "Если четверг станет 'Ābolu Pīrāgs Ceturtdiena' (Четверг Яблочного Пирога), я за. Это дает мне что-то, чего можно ждать к концу рабочей недели."
+
+В официальном заявлении премьер-министр Марис Старастурис подчеркнул символическую важность инициативы: "Слишком долго время было монотонным циклом. С нашими новыми днями мы переписываем наш нарратив и предлагаем культурный опыт, не похожий ни на один другой. Кто не захочет планировать отпуск вокруг 'Līgo Piektdiena' (Пятница Лиго)?"
+
+Пока Латвия готовится к внедрению этих изменений, соседние балтийские страны наблюдают с любопытством. В то время как некоторые дипломаты намекают на потенциальный региональный тренд, другие довольствуются наблюдением, предпочитая оставаться привязанными к традиционным временным структурам.
+
+С новыми днями, туристические агентства уже начали разрабатывать тематические туры вокруг этих культурных концепций, с пакетами, обещающими всё от Воскресений Сауны до кулинарных впечатлений в Среду Жареного Хлеба. Если это будет успешным, это может стать самым обсуждаемым экспортом Латвии со времён янтарного бума.
+
+Только время покажет, изменит ли латвийская инициатива по переименованию дней туризм навсегда — но до тех пор одно можно сказать наверняка: календари никогда не будут выглядеть так же.`
+    },
+    date: "Nov 25, 2025",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
+    id: 1,
     slug: "jurmola-man-11-years-wedding-excuse",
     title: {
       en: "Jurmola Man Spends 11 Years Constructing Elaborate Excuse For Why He Can't Attend Cousin's Wedding",
@@ -257,6 +356,6 @@ export const articles: Article[] = [
     readTime: "10 min read",
     imageUrl: "/images/vladimirov-flag.jpeg",
     author: { en: "By Evelina Sokolova", lv: "Rakstījusi Evelīna Sokolova", ru: "Автор: Эвелина Соколова" },
-    featured: true
+    featured: false
   }
 ];
