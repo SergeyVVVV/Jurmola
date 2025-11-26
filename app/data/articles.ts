@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 11,
+    slug: "latvian-government-announces-surprising-new-plan",
+    title: {
+      en: "Latvian Government Announces Surprising New Plan to Turn Jurmala Beaches into All-Season Sandstroms",
+      lv: "Latvijas valdība paziņo par pārsteidzošu jaunu plānu pārvērst Jūrmalas pludmales par visu sezonu smilšu vētrām",
+      ru: "Латвийское правительство объявляет о неожиданном плане превратить пляжи Юрмалы в круглогодичные песчаные бури"
+    },
+    excerpt: {
+      en: "In a groundbreaking revelation, Latvian officials have unveiled a visionary plan to transform Jurmala's iconic white sand beaches into year-round sandstorm destinations, rivaling the Sahara Desert's experience. The ambitious project aims to boost tourism by introducing the Baltic's first ever 'sandstorm retreats,' where visitors can enjoy 365 days of mild, invigorating dust storms.",
+      lv: "Revolucionārā atklājumā Latvijas amatpersonas ir atklājušas vīziju pārvērst Jūrmalas ikoniskās baltās smiltis par visu gadu smilšu vētru galamērķiem, konkurējot ar Sahāras tuksneša pieredzi. Ambiciozais projekts mērķē palielināt tūrismu, ieviešot Baltijas pirmās 'smilšu vētru retrītas', kur apmeklētāji var baudīt 365 dienas maigas, atspirdzinošas putekļu vētras.",
+      ru: "В революционном откровении латвийские чиновники представили видение плана по превращению знаковых белых песков Юрмалы в круглогодичные направления для песчаных бурь, соперничающие с опытом Сахары. Амбициозный проект направлен на повышение туризма путем введения первых в Балтике 'убежищ песчаных бурь', где посетители смогут наслаждаться 365 днями мягких, бодрящих пыльных бурь."
+    },
+    fullContent: {
+      en: `In a move that has delighted meteorologists and baffled local sunbathers, the Latvian Ministry of Unpredictable Tourism announced plans this Tuesday to turn Jurmala into the world's premier all-season sandstorm destination. The initiative, humorously dubbed 'The Sandsational Experience,' was introduced by Minister of Excessive Creativity, Rolands Vētrājs, a man known for his love of both beaches and eccentric ideas.
+
+"While others might begrudge the natural unpredictability of Baltic weather, we see potential," declared Minister Vētrājs during a press conference, strategically held during a rare Jurmala hailstorm. "By converting our beaches into seasonal sandstorm spectacles, we're offering something no other holiday destination can boast: adventure, right in your face."
+
+The plan involves installing state-of-the-art wind machines, imported directly from Dubai, to create mild to moderate sandstorms suitable for all ages. "We aim to achieve a delightful balance," explained Ilze Smilga, chief architect of the project, "where you can go searching for your lost picnic blanket but still enjoy a quaint beach picnic all the same. It’s like Pilates, but with more chaos."
+
+Local business owners have already begun preparing for the shift. Jurmala’s famed ice-cream vendor, Ansis Celmiņš, can't hide his excitement. "Sales might blow away, but think of the intrigue," he laughed, while gluing extra weight onto his ice cream carts. "We’ll have storm-proof cones by next summer."
+
+Not everyone is swept away by the idea, however. Some residents expressed concerns about potential environmental impacts. "We have birds nesting here that aren’t too keen on migrating every time a storm blows through," noted local researcher Dina Dūjmale, clutching a seagull intent on commandeering the press equipment. In response, Minister Vētrājs assured the public that all wildlife would be given stylish yet protective eyewear to navigate the new climate.
+
+Economists speculate the initiative could boost local economies by at least 42%, thanks to tourists seeking novel experiences beyond the usual sunbathing. The government's marketing division is already coining the term 'Be-Riga-ular (Be Irregular)' as the official holiday phrase for potential visitors.
+
+Adding to the anticipation, Jurmala has commissioned an exclusive perfume – Eau de Moonsand – specially bottled to capture the fresh scent of a post-sandstorm coastline. "Imagine a burst of salty air, a hint of pine, coupled with the faint whisper of receding chaos," announced spokesperson Vita Vērmūze, spritzing journalists with the potent aroma.
+
+Reached for comment, a spokesperson for the Baltic Sea simply shook a giant phosphorescent wave that spelled out, in glowing plankton: 'Good luck with that.'
+
+Officials assure that safety measures are at the forefront of this proposal, with plans to distribute complementary goggles and protective helmets to beachgoers, whether they fancy them or not. Paired with specialized windbreaker fishnet capes, designed by top Latvian fashion talent, visitors will truly illustrate what it means to weather a storm in style.
+
+As anticipation builds toward the initiative’s expected 2025 launch, locals and tourists alike are invited to embrace this breezy new chapter in Latvia’s tourism evolution. "Investors agree," a wind-swept Vētrājs added solemnly, "This is a gale-force change for the better."`,
+      lv: `Pārsteidzot meteorologus un mulsinot vietējos sauļotājus, Latvijas Neprognozējamā tūrisma ministrija otrdien paziņoja par plāniem pārvērst Jūrmalu par pasaules vadošo visu sezonu smilšu vētru galamērķi. Iniciatīva, humoristiski nosaukta par 'Smilšu sensacionālo pieredzi', tika ieviesta ar Pārmērīgas radošuma ministra, Rolanda Vētrāja, starpniecību, kurš ir pazīstams ar savu mīlestību gan pret pludmalēm, gan ekscentriskām idejām.
+
+"Kamēr citi varētu sūdzēties par Baltijas laika apstākļu dabisko neprognozējamību, mēs redzam potenciālu," paziņoja ministrs Vētrājs preses konferencē, kas stratēģiski notika retas Jūrmalas krusas laikā. "Pārvēršot mūsu pludmales par sezonālām smilšu vētru izrādēm, mēs piedāvājam kaut ko, ko neviens cits atpūtas galamērķis nevar lepoties: piedzīvojumu, tieši jūsu sejā."
+
+Plāns ietver mūsdienīgu vēja mašīnu uzstādīšanu, kas importētas tieši no Dubaijas, lai radītu vieglas līdz mērenas smilšu vētras, kas piemērotas visām vecuma grupām. "Mēs cenšamies panākt patīkamu līdzsvaru," skaidroja projekta galvenā arhitekte Ilze Smilga, "kur jūs varat meklēt savu pazaudēto piknika segu, bet joprojām baudīt jauku pludmales pikniku. Tas ir kā pilates, bet ar vairāk haosa."
+
+Vietējie uzņēmēji jau ir sākuši gatavoties pārmaiņām. Jūrmalas slavenais saldējuma pārdevējs Ansis Celmiņš nevar noslēpt savu sajūsmu. "Pārdošana var aizpūst, bet padomājiet par intrigu," viņš smējās, līmējot papildu svaru uz saviem saldējuma ratiņiem. "Mums būs vētrai izturīgi konusi līdz nākamajai vasarai."
+
+Tomēr ne visi ir aizrauti ar šo ideju. Daži iedzīvotāji izteica bažas par iespējamo ietekmi uz vidi. "Mums šeit ligzdo putni, kuriem ne pārāk patīk migrēt katru reizi, kad vētra pūš cauri," norādīja vietējā pētniece Dina Dūjmale, turot kaiju, kas mēģināja pārņemt preses aprīkojumu. Atbildot uz to, ministrs Vētrājs apliecināja sabiedrībai, ka visiem savvaļas dzīvniekiem tiks piešķirtas stilīgas, bet aizsargājošas brilles, lai orientētos jaunajā klimatā.
+
+Ekonomisti spekulē, ka iniciatīva varētu palielināt vietējās ekonomikas par vismaz 42%, pateicoties tūristiem, kas meklē jaunas pieredzes ārpus parastās sauļošanās. Valdības mārketinga nodaļa jau izdomā terminu 'Be-Riga-ular (Be Irregular)' kā oficiālo brīvdienu frāzi potenciālajiem apmeklētājiem.
+
+Papildinot gaidas, Jūrmala ir pasūtījusi ekskluzīvu smaržu – Eau de Moonsand – īpaši iepildītu, lai iemūžinātu svaigo smaržu pēc smilšu vētras piekrastē. "Iedomājieties sāļā gaisa sprādzienu, priedes pieskārienu, kopā ar vāju atkāpjošā haosa čukstu," paziņoja pārstāve Vita Vērmūze, apsmidzinot žurnālistus ar spēcīgu aromātu.
+
+Sazinoties ar komentāriem, Baltijas jūras pārstāvis vienkārši sakratīja milzīgu fosforescējošu vilni, kas izrakstīja, mirdzošā planktonā: 'Veiksmi ar to.'
+
+Amatpersonas apliecina, ka drošības pasākumi ir šī priekšlikuma priekšplānā, ar plāniem izdalīt bezmaksas aizsargbrilles un aizsargķiveres pludmales apmeklētājiem, neatkarīgi no tā, vai viņi tās vēlas vai nē. Kopā ar speciālām vēja necaurlaidīgām tīkliņcepurēm, ko izstrādājuši vadošie Latvijas modes talanti, apmeklētāji patiesi ilustrēs, ko nozīmē izturēt vētru stilā.
+
+Gaidot iniciatīvas plānoto uzsākšanu 2025. gadā, vietējie un tūristi tiek aicināti pieņemt šo vēsmojošo jauno nodaļu Latvijas tūrisma attīstībā. "Investori piekrīt," vēja pūsts Vētrājs piebilda svinīgi, "Šī ir vētras spēka pārmaiņa uz labo pusi."`,
+      ru: `В шаге, который привел в восторг метеорологов и озадачил местных любителей солнца, Министерство непредсказуемого туризма Латвии объявило во вторник о планах превратить Юрмалу в ведущую в мире круглогодичную песчаную бурю. Инициатива, с юмором названная 'Пескосенсационное переживание', была представлена министром чрезмерной креативности Роландом Ветрайсом, известным своей любовью как к пляжам, так и к эксцентричным идеям.
+
+"Пока другие могут жаловаться на природную непредсказуемость балтийской погоды, мы видим потенциал," заявил министр Ветрайс на пресс-конференции, стратегически проведенной во время редкого града в Юрмале. "Преобразуя наши пляжи в сезонные песчаные зрелища, мы предлагаем то, чем не может похвастаться ни одно другое место отдыха: приключение, прямо в лицо."
+
+План включает установку современных ветряных машин, импортированных прямо из Дубая, чтобы создавать легкие и умеренные песчаные бури, подходящие для всех возрастов. "Мы стремимся достичь восхитительного баланса," объяснила Илзе Смилга, главный архитектор проекта, "где вы можете искать потерянное одеяло для пикника, но все же наслаждаться уютным пляжным пикником. Это как пилатес, но с большим хаосом."
+
+Местные владельцы бизнеса уже начали готовиться к изменениям. Известный продавец мороженого Юрмалы, Ансис Целминьш, не может скрыть своего восторга. "Продажи могут улетучиться, но подумайте об интриге," смеялся он, приклеивая дополнительный вес к своим тележкам с мороженым. "У нас будут штурмоустойчивые рожки к следующему лету."
+
+Однако не все в восторге от этой идеи. Некоторые жители выразили обеспокоенность по поводу возможного воздействия на окружающую среду. "У нас здесь гнездятся птицы, которые не слишком любят мигрировать каждый раз, когда налетает буря," отметила местный исследователь Дина Дуймале, держа в руках чайку, намеревающуюся захватить пресс-оборудование. В ответ министр Ветрайс заверил общественность, что вся дикая природа будет снабжена стильными, но защитными очками для навигации в новом климате.
+
+Экономисты предполагают, что инициатива может увеличить местную экономику как минимум на 42% благодаря туристам, ищущим новые впечатления за пределами обычного загара. Маркетинговое подразделение правительства уже придумывает термин 'Be-Riga-ular (Будь нерегулярным)' как официальный праздничный лозунг для потенциальных посетителей.
+
+В дополнение к ожиданиям Юрмала заказала эксклюзивный парфюм – Eau de Moonsand – специально разлитый, чтобы запечатлеть свежий аромат побережья после песчаной бури. "Представьте себе всплеск соленого воздуха, намек на сосну, в сочетании с легким шепотом отступающего хаоса," объявила пресс-секретарь Вита Вермюзе, распыляя на журналистов мощный аромат.
+
+На просьбу прокомментировать представитель Балтийского моря просто покачал гигантской фосфоресцирующей волной, которая изобразила светящимися планктонами: 'Удачи с этим.'
+
+Чиновники заверяют, что меры безопасности находятся в центре этого предложения, с планами по раздаче бесплатных очков и защитных шлемов отдыхающим, независимо от их желания. В сочетании с специализированными ветровыми сетчатыми накидками, разработанными лучшими латвийскими модными талантами, посетители действительно покажут, что значит пережить бурю со стилем.
+
+По мере того как ожидание растет к ожидаемому запуску инициативы в 2025 году, местные жители и туристы приглашаются принять эту ветреную новую главу в эволюции латвийского туризма. "Инвесторы согласны," добавил Ветрайс, растрепанный ветром, "Это изменение силы шторма к лучшему."`
+    },
+    date: "Nov 26, 2025",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 10,
     slug: "riga-announces-new-public-holiday-celebrating",
     title: {
@@ -89,7 +170,7 @@ Eksperti ir prognozējuši līdz pat 84% iespējamību lietus svinībām, ar pā
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 1,
