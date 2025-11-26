@@ -62,6 +62,11 @@ jobs:
           else
             echo "📝 Committing changes..."
             git commit -m "🤖 Auto-generate daily article - $(date +'%Y-%m-%d')"
+            
+            # Pull latest changes with rebase to avoid conflicts
+            echo "🔄 Pulling latest changes..."
+            git pull --rebase origin main
+            
             echo "🚀 Pushing to repository..."
             git push
             echo "✅ Changes pushed successfully!"
