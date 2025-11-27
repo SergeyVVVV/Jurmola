@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 12,
+    slug: "riga-to-introduce-pedestrian-proficiency-license",
+    title: {
+      en: "Riga to Introduce 'Pedestrian Proficiency License' to Combat Increasing Foot Traffic",
+      lv: "Rīga ieviesīs 'Gājēju Prasmes Licenci', lai cīnītos ar pieaugošo kājāmgājēju plūsmu",
+      ru: "Рига введет 'Лицензию на пешеходную грамотность' для борьбы с увеличением пешеходного трафика"
+    },
+    excerpt: {
+      en: "In an unprecedented move to restore order to the bustling sidewalks of Latvia’s capital, Riga’s city council unveiled plans to implement a 'Pedestrian Proficiency License' by 2024. The initiative aims to regulate foot traffic, ensuring only qualified walkers take to the streets.",
+      lv: "Nepieredzētā solī, lai atjaunotu kārtību Latvijas galvaspilsētas rosīgajās ietvēs, Rīgas domes plāni paredz ieviest 'Gājēju Prasmes Licenci' līdz 2024. gadam. Iniciatīva mērķē regulēt kājāmgājēju plūsmu, nodrošinot, ka tikai kvalificēti gājēji dodas uz ielām.",
+      ru: "В беспрецедентной попытке восстановить порядок на оживленных тротуарах столицы Латвии, городской совет Риги объявил о планах внедрить 'Лицензию на пешеходную грамотность' к 2024 году. Инициатива направлена на регулирование пешеходного трафика, обеспечивая выход на улицы только квалифицированным пешеходам."
+    },
+    fullContent: {
+      en: `In a landmark decision to address the rapidly worsening sidewalk congestion in Riga, the city's officials have announced the launch of a groundbreaking 'Pedestrian Proficiency License' system. Citing rising instances of jaywalking and 'intermittent texting pauses,' the city council believes this ambitious measure will bring much-needed discipline to the capital's bustling pedestrian life.
+
+Envisioned as a 'passport to step,' the license will require aspiring pedestrians to undergo a rigorous training program followed by a challenging two-part exam consisting of a theoretical and practical assessment. The pilot program, which has already received enthusiastic support from pedestrian advocacy groups, is set to begin in early 2024.
+
+Martins Kārkliņš, the newly appointed Commissioner of Human Traffic Control, revealed the scheme at a press conference on Wednesday. "For too long, our sidewalks have resembled a chaotic bazaar, with individuals weaving erratically and unnecessarily halting for selfies," Kārkliņš explained, donning a reflective jacket and a whistle. "This initiative is not just about safety; it's about fostering a sophisticated pedestrian culture worthy of Latvia's esteemed capital."
+
+The training will cover essential modules such as 'Texting Etiquette: How to Apologize for Bumping,' 'The Art of Strolling: Understanding Speed Limits,' and 'Sidewalk Symphonies: Navigating Traffic Suits and Scooters.' The intensive course aims to prepare candidates for various sidewalk scenarios, including maneuvering through crowds and strategically avoiding aggressive seagulls.
+
+Rasa Ziediņa, a seasoned pedestrian herself and self-proclaimed 'sidewalk steward,' expressed her delight at the proposal. "Finally, we can elevate sidewalk strolling to an art form," she told the Jurmola Telegraphs. "With a license, maybe we can finally eliminate those dreadful 'zombie walkers' who are perpetually glued to their phones!"
+
+The program promises to be inclusive, offering discounts to pensioners and free introductory lessons for toddlers still finding their foot-stepping finesse. City officials are optimistic that by the end of 2025, pedestrian licenses will become as integral to Rigan identity as the traditional ķekatu masks are to Midsummer celebrations.
+
+Despite the overwhelming support from older people, not everyone has been swayed by the initiative. A group of breakaway rebels calling themselves "The Resistance: Walk Free Alliance" has already staged counter-plank protests in the Esplanāde Park, where members daringly walked without blinking or consulting the pavement beneath their feet. "It's an infringement on our basic walking rights!" proclaimed Justs Brūklis, a vehement opponent and notorious 'footloose advocate.' "Mark my words, soon they'll be introducing licenses for breathing fresh air!"
+
+In response to such criticism, Riga’s city manager, Linda Ozoliņa, assured skeptics that the licensing system will be reviewed periodically to assess its impact on both foot and vehicle traffic. "We aim for harmony on our streets; after all, even the grandest journeys begin with a single licensed step," she stated with a smile.
+
+With bureaucracy bustling to prepare for what might be a foot traffic revolution, one thing is clear: Riga is stepping up its game. For the citizens, plans are already afoot, quite literally, to lace up for a new era of safely regulated walking. As they say in these cobblestone corridors, it's time to put your best foot forward.`,
+      lv: `Lēmumā, kas varētu mainīt Rīgas ietvju pārblīvētību, pilsētas amatpersonas paziņojušas par revolucionāras 'Gājēju Prasmes Licences' sistēmas ieviešanu. Atsaucoties uz pieaugošiem gadījumiem, kad cilvēki šķērso ielu neatļautās vietās un 'pārtraukti apstājas, lai rakstītu īsziņas', domes uzskata, ka šis ambiciozais pasākums ienesīs tik ļoti nepieciešamo disciplīnu galvaspilsētas rosīgajā gājēju dzīvē.
+
+Plānota kā 'solis pasē', licence prasīs no topošajiem gājējiem iziet stingru apmācības programmu, kam sekos izaicinošs divdaļīgs eksāmens, kas sastāv no teorētiskā un praktiskā novērtējuma. Pilotprogramma, kas jau saņēmusi entuziastisku atbalstu no gājēju aizstāvības grupām, sāksies 2024. gada sākumā.
+
+Mārtiņš Kārkliņš, jaunieceltais Cilvēku Satiksmes Kontroles komisārs, atklāja šo plānu preses konferencē trešdien. "Pārāk ilgi mūsu ietves ir līdzinājušās haotiskam tirgum, kur cilvēki šaudās un nevajadzīgi apstājas, lai uzņemtu selfijus," Kārkliņš paskaidroja, valkājot atstarojošu jaku un svilpi. "Šī iniciatīva nav tikai par drošību; tā ir par izsmalcinātas gājēju kultūras veidošanu, kas ir cienīga Latvijas galvaspilsētai."
+
+Apmācības ietvers būtiskus moduļus, piemēram, 'Īsziņu Etiķete: Kā atvainoties par uzskriešanu', 'Pastaigas Māksla: Saprast ātruma ierobežojumus' un 'Ietvju Simfonijas: Navigācija starp satiksmes uzvalkiem un skūteriem.' Intensīvais kurss mērķē sagatavot kandidātus dažādām ietvju situācijām, ieskaitot manevrēšanu cauri pūļiem un stratēģisku izvairīšanos no agresīviem kaijām.
+
+Rasa Ziediņa, pieredzējusi gājēja un pašpasludināta 'ietvju pārvaldniece', pauda prieku par priekšlikumu. "Beidzot mēs varam paaugstināt pastaigu pa ietvēm līdz mākslas formai," viņa teica Jūrmalas Telegrafam. "Ar licenci, varbūt mēs beidzot varam izskaust tos briesmīgos 'zombiju gājējus', kas pastāvīgi ir pielipuši saviem telefoniem!"
+
+Programma sola būt iekļaujoša, piedāvājot atlaides pensionāriem un bezmaksas ievadnodarbības mazuļiem, kas vēl tikai apgūst soļošanas prasmes. Pilsētas amatpersonas ir optimistiskas, ka līdz 2025. gada beigām gājēju licences kļūs tikpat neatņemama Rīgas identitātes daļa kā tradicionālās ķekatu maskas ir Jāņu svinībās.
+
+Neskatoties uz vecāka gadagājuma cilvēku milzīgo atbalstu, ne visi ir pārliecināti par iniciatīvu. Grupējums, kas sevi dēvē par "Pretestība: Brīvās Pastaigas Alianse", jau ir rīkojis pretplānu protestus Esplanādes parkā, kur dalībnieki drosmīgi staigāja, ne mirkšķinot un neskatoties zem kājām. "Tas ir mūsu pamata pastaigas tiesību pārkāpums!" paziņoja Justs Brūklis, dedzīgs pretinieks un bēdīgi slavens 'brīvsoļu aizstāvis.' "Atcerieties manus vārdus, drīz viņi ieviesīs licences arī svaiga gaisa elpošanai!"
+
+Atbildot uz šādu kritiku, Rīgas pilsētas vadītāja Linda Ozoliņa apliecināja skeptiķiem, ka licencēšanas sistēma tiks periodiski pārskatīta, lai novērtētu tās ietekmi gan uz kājāmgājēju, gan transporta satiksmi. "Mēs tiecamies pēc harmonijas uz mūsu ielām; galu galā, pat vislielākie ceļojumi sākas ar vienu licencētu soli," viņa paziņoja ar smaidu.
+
+Ar birokrātiju, kas rosās, lai sagatavotos tam, kas varētu būt kājāmgājēju satiksmes revolūcija, viena lieta ir skaidra: Rīga uzlabo savu spēli. Pilsoņi jau gatavojas, burtiski, sasiet kurpes jaunai droši regulētai pastaigu ērai. Kā saka šajās bruģētajās ejās, ir laiks likt savu labāko kāju uz priekšu.`,
+      ru: `В историческом решении по борьбе с быстро ухудшающейся ситуацией на тротуарах Риги, городские власти объявили о запуске революционной системы 'Лицензии на пешеходную грамотность'. Ссылаясь на растущее количество случаев перехода улицы в неположенных местах и 'прерывистых пауз для текстовых сообщений', городской совет считает, что эта амбициозная мера принесет столь необходимую дисциплину в бурную пешеходную жизнь столицы.
+
+Представляемая как 'паспорт на шаг', лицензия потребует от будущих пешеходов пройти строгую программу обучения, за которой последует сложный экзамен из двух частей, состоящий из теоретической и практической оценки. Пилотная программа, которая уже получила восторженную поддержку от групп по защите прав пешеходов, начнется в начале 2024 года.
+
+Мартиньш Карклиньш, недавно назначенный комиссар по контролю за человеческим трафиком, представил схему на пресс-конференции в среду. 'Слишком долго наши тротуары напоминали хаотичный базар, где люди петляют беспорядочно и останавливаются без нужды для селфи', объяснил Карклиньш, надев светоотражающий жилет и свисток. 'Эта инициатива касается не только безопасности; она направлена на развитие утонченной пешеходной культуры, достойной уважаемой столицы Латвии.'
+
+Обучение будет охватывать основные модули, такие как 'Этикет текстовых сообщений: как извиниться за столкновение', 'Искусство прогулки: понимание ограничений скорости' и 'Симфонии тротуаров: навигация среди костюмов и самокатов'. Интенсивный курс нацелен на подготовку кандидатов к различным сценариям на тротуаре, включая маневрирование в толпе и стратегическое избегание агрессивных чаек.
+
+Раса Зиединя, опытная пешеходка и самопровозглашенная 'стражница тротуаров', выразила свое восхищение предложением. 'Наконец-то мы можем поднять прогулки по тротуарам до уровня искусства', сказала она газете 'Юрмала Телеграфс'. 'С лицензией, возможно, мы наконец избавимся от этих ужасных 'зомби-пешеходов', которые вечно приклеены к своим телефонам!'
+
+Программа обещает быть инклюзивной, предлагая скидки пенсионерам и бесплатные вводные уроки для малышей, которые еще только учатся уверенно шагать. Городские власти оптимистично настроены, что к концу 2025 года пешеходные лицензии станут неотъемлемой частью рижской идентичности, как традиционные маски кекату для празднования Лиго.
+
+Несмотря на подавляющую поддержку со стороны пожилых людей, не все были убеждены в необходимости инициативы. Группа отколовшихся мятежников, называющих себя 'Сопротивление: Альянс свободных прогулок', уже провела протесты в парке Эспланада, где члены смело ходили, не моргая и не смотря под ноги. 'Это нарушение наших базовых прав на прогулку!' провозгласил Юстс Бруклис, ярый противник и известный 'адвокат свободных ног'. 'Запомните мои слова, скоро они введут лицензии на дыхание свежим воздухом!'
+
+В ответ на такую критику, управляющая города Риги, Линда Озолиня, заверила скептиков, что система лицензирования будет периодически пересматриваться, чтобы оценить ее влияние как на пешеходный, так и на автомобильный трафик. 'Мы стремимся к гармонии на наших улицах; в конце концов, даже самые грандиозные путешествия начинаются с одного лицензированного шага', заявила она с улыбкой.
+
+С бюрократией, готовящейся к возможной революции в пешеходном трафике, одно ясно: Рига повышает свою игру. Для граждан уже разрабатываются планы, буквально, чтобы подготовиться к новой эре безопасных регулируемых прогулок. Как говорят в этих булыжных коридорах, пора сделать лучший шаг вперед.`
+    },
+    date: "Nov 27, 2025",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 11,
     slug: "latvian-government-announces-surprising-new-plan",
     title: {
@@ -95,7 +170,7 @@ Gaidot iniciatīvas plānoto uzsākšanu 2025. gadā, vietējie un tūristi tiek
     readTime: "10 min read",
     imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 10,
