@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 13,
+    slug: "riga-declares-itself-capital-of-universal",
+    title: {
+      en: "Riga Declares Itself 'Capital of Universal WiFi', Installs 7 Million Routers in Old Town Alone",
+      lv: "Rīga pasludina sevi par 'Universālā WiFi galvaspilsētu', Vecrīgā uzstāda 7 miljonus maršrutētāju",
+      ru: "Рига объявила себя 'Столицей Всемирного WiFi', установив 7 миллионов роутеров только в Старом городе"
+    },
+    excerpt: {
+      en: "In a bold move to boost tourism, Riga's city council has rebranded the entire Old Town as a single, giant WiFi hotspot. The plan involves installing more routers than residents, creating what officials claim is a 'World Record in Connectivity.'",
+      lv: "Lai veicinātu tūrismu, Rīgas domes drosmīgais solis ir pārdēvēt visu Vecrīgu par vienu milzīgu WiFi tīklāju. Plāns ietver vairāk maršrutētāju uzstādīšanu nekā iedzīvotāju, radot to, ko amatpersonas apgalvo kā 'Pasaules rekordu savienojamībā'.",
+      ru: "В смелой попытке привлечь туристов, городской совет Риги переименовал весь Старый город в одну огромную точку доступа WiFi. План включает установку большего количества роутеров, чем жителей, создавая то, что чиновники называют 'Мировым рекордом по подключению'."
+    },
+    fullContent: {
+      en: `In an unprecedented initiative to become the global hub of digital connectedness, Riga has declared its historical Old Town as the 'Capital of Universal WiFi'. The ambitious project aims to install approximately 7 million WiFi routers within the medieval cobblestones of the UNESCO World Heritage site.
+
+According to the city's deputy mayor, Sentiments Smirnovs, the initiative strives to ensure that every cobblestone, gargoyle, and quaint café serves as a beacon of internet connectivity. 'We've always been big on embracing both history and modern technology,' Smirnovs stated, holding up a medieval WLAN diagram for emphasis. 'By next month, we expect every single molecule of air in Old Town to have its own IP address.'
+
+The decision follows the revelation that Latvia ranks surprisingly high on the European index for "most memes shared per capita". 'We felt it essential to secure Riga's place on this index,' Smirnovs explained. 'If we're going to compete globally, we need to enable our citizens to share memes about Kārums while standing on top of St. Peter’s Church with zero latency.'
+
+However, the plan is not without its drawbacks. Local residents have expressed concerns about exposure to excessive WiFi signals. 'My cat Minka has been acting strangely ever since they started installing the routers,' lamented Ervins Balodis, a lifelong Old Town resident. 'She ignores her favorite chair and instead stares intensely at the router’s blinking lights as if possessed by an ancient internet spirit.'
+
+Critics also argue that transforming a historic district into a carbon-fiber futureland might compromise the area’s architectural integrity. Yet the city council remains undeterred. 'Every church spire is a potential hotspot,' argued Smirnovs. 'And tourists are encouraged to upload selfies at a lightning speed, capturing their expressions of awe right before tripping on 13th-century paving stones.'
+
+Local businesses are optimistic, eager to capitalize on the inevitable wave of digital nomads. 'This is great for foot traffic... and WiFi traffic!' exclaims Dana Kļaviņa, owner of a popular bistro-cum-co-working space. 'We expect people won't just come for the medieval charm anymore, but for the ultra-fast fiber-optic hotspots. Plus, maybe they'll buy a coffee.'
+
+The initiative promises to set a precedent not only in Europe but across the world, as major cities contemplate whether connectivity should take precedence over everything else, including basic urban aesthetics and public sanity.
+
+The project, however, is still subject to approval from an EU-wide committee of historical preservationists. They are reportedly in negotiations, querying whether future archaeologists will one day believe the Emperors of WiFi once ruled from atop the Riga Castle. Smirnovs remains optimistic. 'We Latvians are pioneers, and as they say, WiFi waits for no man.'
+
+In the meantime, other Latvian cities are said to be watching closely. Liepāja has reportedly placed an order for 4 million routers, hoping to become recognized as the 'Seaside Oracle of the Ethernet'. Kuldīga, not to be outdone, has simply vowed to outnumber its waterfalls with routers.
+
+Only time will tell if this internet initiative will place Riga at the forefront of global technology or if it will become an elaborate punchline for Baltic urban planning. Until then, visitors to Old Town should remember: when faced with connectivity issues, try moving slightly left—or right—to the nearest gargoyle adorned with a router.`,
+      lv: `Nepieredzētā iniciatīvā kļūt par globālo digitālās savienotības centru, Rīga ir pasludinājusi savu vēsturisko Vecrīgu par 'Universālā WiFi galvaspilsētu'. Ambiciozais projekts paredz uzstādīt aptuveni 7 miljonus WiFi maršrutētāju UNESCO Pasaules mantojuma vietas viduslaiku bruģī.
+
+Pēc pilsētas vicemēra Sentimenta Smirnova teiktā, iniciatīva cenšas nodrošināt, ka katrs bruģakmens, gargojls un omulīga kafejnīca kalpo kā interneta savienojamības signāls. 'Mēs vienmēr esam bijuši par vēstures un modernās tehnoloģijas apvienošanu,' sacīja Smirnovs, uzsverot ar viduslaiku WLAN diagrammu. 'Līdz nākamajam mēnesim mēs sagaidām, ka katram gaisa molekulam Vecrīgā būs sava IP adrese.'
+
+Lēmums seko atklājumam, ka Latvija pārsteidzoši augstu ierindojas Eiropas indeksā par 'visvairāk dalītajiem memiem uz iedzīvotāju'. 'Mēs uzskatījām par būtisku nodrošināt Rīgas vietu šajā indeksā,' skaidroja Smirnovs. 'Ja mēs vēlamies konkurēt globāli, mums jānodrošina, lai mūsu iedzīvotāji varētu dalīties ar memiem par Kārums, stāvot uz Sv. Pētera baznīcas ar nulles latentumu.'
+
+Tomēr plānam ir arī trūkumi. Vietējie iedzīvotāji ir izteikuši bažas par pārmērīgu WiFi signālu iedarbību. 'Mana kaķene Minka uzvedas dīvaini kopš brīža, kad viņi sāka uzstādīt maršrutētājus,' sūdzējās Ervīns Balodis, mūža Vecrīgas iedzīvotājs. 'Viņa ignorē savu iecienīto krēslu un tā vietā intensīvi skatās uz maršrutētāja mirgojošajām gaismām, it kā būtu apsēsta ar senlaicīgu interneta garu.'
+
+Kritiķi arī apgalvo, ka vēsturiskā rajona pārvēršana par oglekļa šķiedras nākotnes zemi varētu apdraudēt šīs vietas arhitektūras integritāti. Tomēr pilsētas dome paliek nelokāma. 'Katrs baznīcas tornis ir potenciāls tīklājs,' apgalvoja Smirnovs. 'Un tūristi tiek aicināti augšupielādēt selfijus ar zibens ātrumu, iemūžinot savas apbrīnas izteiksmes tieši pirms paklupšanas uz 13. gadsimta bruģakmeņiem.'
+
+Vietējie uzņēmumi ir optimistiski, gatavi izmantot neizbēgamo digitālo nomadu vilni. 'Tas ir lieliski gan kājāmgājēju plūsmai... gan WiFi plūsmai!' izsaucās Dana Kļaviņa, populāra bistro un kopdarba telpas īpašniece. 'Mēs sagaidām, ka cilvēki vairs nenāks tikai viduslaiku šarma dēļ, bet gan ultraātro optisko šķiedru tīklāju dēļ. Turklāt, varbūt viņi nopirks kafiju.'
+
+Iniciatīva sola izveidot precedentu ne tikai Eiropā, bet arī visā pasaulē, jo lielās pilsētas apsver, vai savienojamībai vajadzētu būt prioritātei pār visu citu, ieskaitot pamata pilsētas estētiku un sabiedrisko saprātu.
+
+Tomēr projekts joprojām ir jāapstiprina ES mēroga vēsturisko saglabāšanas speciālistu komitejai. Tiek ziņots, ka viņi ir sarunās, vaicājot, vai nākotnes arheologi kādreiz ticēs, ka WiFi imperatori reiz valdīja no Rīgas pils virsotnes. Smirnovs paliek optimistisks. 'Mēs, latvieši, esam pionieri, un, kā saka, WiFi negaida nevienu.'
+
+Tikmēr citas Latvijas pilsētas tiek ziņots, ka vēro uzmanīgi. Liepāja, iespējams, ir pasūtījusi 4 miljonus maršrutētāju, cerot kļūt atzīta par 'Ethernet piekrastes orākulu'. Kuldīga, negribēdama palikt otrajā plānā, vienkārši apņēmusies pārspēt savus ūdenskritumus ar maršrutētājiem.
+
+Tikai laiks rādīs, vai šī interneta iniciatīva novietos Rīgu globālās tehnoloģijas priekšplānā vai arī tā kļūs par izsmalcinātu joku Baltijas pilsētplānošanā. Līdz tam, Vecrīgas apmeklētājiem vajadzētu atcerēties: ja rodas savienojamības problēmas, mēģiniet pārvietoties nedaudz pa kreisi — vai pa labi — uz tuvāko gargojlu, kas rotāts ar maršrutētāju.`,
+      ru: `В беспрецедентной инициативе стать мировым центром цифровой связи Рига объявила свой исторический Старый город 'Столицей Всемирного WiFi'. Амбициозный проект предполагает установку примерно 7 миллионов WiFi роутеров среди средневековой брусчатки объекта Всемирного наследия ЮНЕСКО.
+
+По словам заместителя мэра города Сентиментса Смирнова, инициатива стремится гарантировать, что каждый камень, горгулья и уютное кафе станут маяками интернет-связи. 'Мы всегда были за то, чтобы сочетать историю и современные технологии', — заявил Смирнов, держа в руках средневековую схему WLAN для наглядности. 'К следующему месяцу мы ожидаем, что каждая молекула воздуха в Старом городе будет иметь свой IP-адрес.'
+
+Решение последовало после того, как стало известно, что Латвия занимает удивительно высокое место в европейском индексе по 'наибольшему количеству мемов на душу населения'. 'Мы посчитали важным закрепить место Риги в этом индексе', — объяснил Смирнов. 'Если мы собираемся конкурировать на мировом уровне, нам нужно дать нашим гражданам возможность делиться мемами о Kārums, стоя на вершине церкви Святого Петра без задержек.'
+
+Однако план не лишен недостатков. Местные жители выразили обеспокоенность из-за воздействия чрезмерных сигналов WiFi. 'Моя кошка Минка ведет себя странно с тех пор, как они начали устанавливать роутеры', — пожаловался Эрвинс Балодис, житель Старого города на протяжении всей жизни. 'Она игнорирует свое любимое кресло и вместо этого пристально смотрит на мигающие огни роутера, как будто одержима древним интернет-духом.'
+
+Критики также утверждают, что превращение исторического района в углеродное будущее может поставить под угрозу архитектурную целостность этой области. Тем не менее, городской совет остается непоколебимым. 'Каждый шпиль церкви — это потенциальная точка доступа', — утверждает Смирнов. 'А туристов поощряют загружать селфи с молниеносной скоростью, запечатлевая свои выражения удивления прямо перед тем, как споткнуться о брусчатку XIII века.'
+
+Местный бизнес настроен оптимистично, стремясь извлечь выгоду из неизбежной волны цифровых кочевников. 'Это отлично для пешеходного... и WiFi-трафика!' — восклицает Дана Клавиня, владелица популярного бистро-коворкинга. 'Мы ожидаем, что люди будут приходить не только за средневековым очарованием, но и за ультрабыстрыми оптоволоконными точками доступа. Плюс, может быть, они купят кофе.'
+
+Инициатива обещает установить прецедент не только в Европе, но и во всем мире, поскольку крупные города задумываются о том, должна ли связь иметь приоритет над всем остальным, включая базовую городскую эстетику и общественное здравомыслие.
+
+Проект, однако, все еще подлежит утверждению общеевропейским комитетом по охране исторического наследия. Сообщается, что они ведут переговоры, задаваясь вопросом, поверят ли будущие археологи, что Императоры WiFi когда-то правили с вершины Рижского замка. Смирнов остается оптимистичным. 'Мы, латыши, пионеры, и, как говорится, WiFi не ждет никого.'
+
+Тем временем, другие латвийские города, как сообщается, внимательно следят за ситуацией. Лиепая, как сообщается, разместила заказ на 4 миллиона роутеров, надеясь стать признанной как 'Приморский Оракул Ethernet'. Кулдига, не желая уступать, просто пообещала превзойти свои водопады количеством роутеров.
+
+Только время покажет, станет ли эта интернет-инициатива выводить Ригу на передний план глобальных технологий или превратится в сложную шутку для балтийского городского планирования. До тех пор посетителям Старого города следует помнить: если возникли проблемы с подключением, попробуйте немного сдвинуться влево — или вправо — к ближайшей горгулье с роутером.`
+    },
+    date: "Nov 28, 2025",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 12,
     slug: "riga-to-introduce-pedestrian-proficiency-license",
     title: {
@@ -89,7 +170,7 @@ Ar birokrātiju, kas rosās, lai sagatavotos tam, kas varētu būt kājāmgājē
     readTime: "9 min read",
     imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 11,
