@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 15,
+    slug: "local-man-accidentally-invents-new-time",
+    title: {
+      en: "Local Man Accidentally Invents New Time Zone in Office Coffee Machine Incident",
+      lv: "Vietējais Vīrietis Nejauši Izgudro Jaunu Laika Joslu Biroja Kafijas Automāta Incidentā",
+      ru: "Местный житель случайно изобрел новый часовой пояс в инциденте с офисной кофемашиной"
+    },
+    excerpt: {
+      en: "In a twist of events worthy of a Latvian sci-fi novella, a Jurmala office worker has sparked international intrigue after inadvertently creating a new time zone. The incident occurred Monday morning when Sandis Bērziņš' routine struggle with the office coffee machine resulted in a spatio-temporal anomaly.",
+      lv: "Notikumu pavērsiens, kas ir cienīgs latviešu zinātniskās fantastikas romānam, Jūrmalas biroja darbinieks ir izraisījis starptautisku intrigu pēc tam, kad nejauši izveidoja jaunu laika joslu. Incidents notika pirmdienas rītā, kad Sanda Bērziņa ikdienas cīņa ar biroja kafijas automātu izraisīja telpisko-laika anomāliju.",
+      ru: "В повороте событий, достойном латвийской научно-фантастической новеллы, офисный работник из Юрмалы вызвал международный интерес, случайно создав новый часовой пояс. Инцидент произошел в понедельник утром, когда рутинная борьба Сандиса Берзиньша с офисной кофемашиной привела к пространственно-временному аномалии."
+    },
+    fullContent: {
+      en: `Jurmala—In a twist of events worthy of a Latvian sci-fi novella, a local office worker, Sandis Bērziņš, has accidentally created a new time zone inside the break room of 'Baltic Bureaucracy Solutions Ltd.' The discovery was made when Bērziņš noticed that his habitual 45-minute coffee run to the break room inexplicably resulted in a six-hour time lapse, prompting baffled co-workers to dub this phenomenon 'Col’tu Laiks'—a homage to the 19th-century Latvian clockmaker Jānis Col’tu.
+
+The incident unraveled on a typical Monday morning with Bērziņš' usual office tradition: wrestling with the temperamental Krāslava-brand coffee machine. "I knew something was off," Bērziņš recounted. "First, I pressed 'Latte,' but then the LCD displayed a strange message: 'Kļūda 404: Laika jēga nav atrasta' (Error 404: Sense of Time Not Found). Next thing, I was texting my wife about dinner and suddenly realized it was long past lunchtime."
+
+Witnesses claim a peculiar hum and faint glow emanated from the break room around noon. Astounded by the time-shifting revelation, 'Baltic Bureaucracy Solutions Ltd.' HR manager, Justīne Kalniņa, took an immediate recess from jotting enigmatic motivational posters to address the gathered employees. "We have always valued the integration of innovative solutions," Kalniņa announced. "However, creating an exclusive time dimension wasn’t on this quarter’s roadmap. Still, we're optimistic about the potential for improved productivity claims and attractive price hikes on our office rental." 
+
+News of the Jurmala anomaly swiftly escalated, catching the attention of Latvian Space Agency analyst, Dr. Niks Neimanis, who is known for his groundbreaking work on Tegumai punctuality. "The Col’tu Laiks effect presents an unprecedented opportunity," Neimanis remarked. "Imagine bi-zonal office operations where half of your day flies and the rest drags significantly. It's every procrastinator's dream! We're exploring commercial ventures with neighboring countries. Estonia's already fenced off Thursdays, apparently."
+
+In response, local economy specialists predict that if leveraged strategically, 'Col’tu Laiks' could render over-caffeinated Baltic citizens enough wiggle room to outcompete famously efficient Finnish timber operations. Simultaneously, domestic chronophobics express unease about potential Grandfather clock mafia backlash—citing possible 'Lost in Time' tax increases.
+
+Astrology influencer and part-time shaman, Līga Priede, weighed in on the impact of the temporal shift on Baltic horoscopes. "This signifies a profound shift in the angular momentum balance among Baltic constellations," Priede said through echoes of lightly incense-perfumed VPN. "Libra and Aquarius should expect double lunch breaks, while Virgos might experience unstable time-related allergic reactions."
+
+As for Sandis Bērziņš, ever the pioneer of progress, he simply shrugged amidst the media frenzy. "I guess if destiny was to make a coffee to change the world, then so be it," he mused, refilling his new workspace thermos. "Now, if only someone could figure out how to get this infernal machine to make a decent cappuccino..."
+
+With support from PhD students at the University of Latvia's Institute of Theoretical Absurdity, continued research seeks to master reverse-engineering coffee-fueled time zones in effort to normalise this newfound jurisdiction of productivity. Until then, the residents of Jurmala might well find themselves adjusting their watches, and perhaps more importantly, their calendars.`,
+      lv: `Jūrmala—Notikumu pavērsiens, kas ir cienīgs latviešu zinātniskās fantastikas romānam, vietējais biroja darbinieks Sandis Bērziņš nejauši izveidoja jaunu laika joslu 'Baltic Bureaucracy Solutions Ltd.' atpūtas telpā. Atklājums tika veikts, kad Bērziņš pamanīja, ka viņa ierastais 45 minūšu kafijas skrējiens uz atpūtas telpu neizskaidrojami izraisīja sešu stundu laika nobīdi, liekot apjukušiem kolēģiem šo fenomenu nodēvēt par 'Col’tu Laiks'—par godu 19. gadsimta latviešu pulksteņmeistaram Jānim Col’tu.
+
+Incidents atklājās tipiskā pirmdienas rītā ar Bērziņa ierasto biroja tradīciju: cīņu ar kaprīzo Krāslavas zīmola kafijas automātu. "Es zināju, ka kaut kas nav kārtībā," Bērziņš atcerējās. "Vispirms es nospiedu 'Latte', bet tad LCD parādīja dīvainu ziņojumu: 'Kļūda 404: Laika jēga nav atrasta'. Nākamajā brīdī es rakstīju sievai par vakariņām un pēkšņi sapratu, ka jau sen ir pāri pusdienlaikam."
+
+Liecinieki apgalvo, ka ap pusdienlaiku no atpūtas telpas izstarojās dīvaina dūkoņa un vāja gaisma. Pārsteigta par laika nobīdes atklājumu, 'Baltic Bureaucracy Solutions Ltd.' personāla vadītāja Justīne Kalniņa nekavējoties pārtrauca rakstīt noslēpumainus motivācijas plakātus, lai uzrunātu sapulcējušos darbiniekus. "Mēs vienmēr esam novērtējuši inovatīvu risinājumu integrāciju," Kalniņa paziņoja. "Tomēr, izveidot ekskluzīvu laika dimensiju nebija šī ceturkšņa plānā. Tomēr mēs esam optimistiski par iespējām uzlabot produktivitātes prasības un pievilcīgus cenu paaugstinājumus mūsu biroja īrei."
+
+Ziņas par Jūrmalas anomāliju strauji izplatījās, piesaistot Latvijas Kosmosa aģentūras analītiķa Dr. Nika Neimaņa uzmanību, kurš ir pazīstams ar savu revolucionāro darbu par Tegumai punktualitāti. "Col’tu Laiks efekts piedāvā nepieredzētu iespēju," Neimanis atzīmēja. "Iedomājieties divzonu biroja operācijas, kur puse dienas paiet ātri, bet otra ievērojami velkas. Tas ir katra prokrastinētāja sapnis! Mēs izpētām komerciālas iespējas ar kaimiņvalstīm. Igaunija jau ir nožogojusi ceturtdienas, acīmredzot."
+
+Reaģējot uz to, vietējie ekonomikas speciālisti prognozē, ka, ja 'Col’tu Laiks' tiks stratēģiski izmantots, tas varētu dot pārcukurotiem Baltijas iedzīvotājiem pietiekami daudz manevrēšanas iespēju, lai pārspētu slaveno efektīvo Somijas kokmateriālu operācijas. Tajā pašā laikā vietējie hronofobi izsaka bažas par iespējamu vectēva pulksteņa mafijas atbildes reakciju—norādot uz iespējamu 'Pazuduši laikā' nodokļu pieaugumu.
+
+Astroloģijas ietekmētāja un pusslodzes šamanis Līga Priede izteica viedokli par laika nobīdes ietekmi uz Baltijas horoskopiem. "Tas nozīmē dziļu maiņu leņķiskā momenta līdzsvarā starp Baltijas zvaigznājiem," Priede sacīja caur viegli vīraka smaržotu VPN. "Svariem un Ūdensvīriem vajadzētu sagaidīt dubultas pusdienu pauzes, kamēr Jaunavas varētu piedzīvot nestabilas ar laiku saistītas alerģiskas reakcijas."
+
+Kas attiecas uz Sandu Bērziņu, vienmēr progresu veicinošs pionieris, viņš vienkārši paraustīja plecus mediju drudža vidū. "Es domāju, ja liktenis bija pagatavot kafiju, lai mainītu pasauli, tad lai tā būtu," viņš pārdomāja, uzpildot savu jauno darba termosa krūzi. "Tagad, ja vien kāds varētu izdomāt, kā panākt, lai šis nolādētais automāts pagatavo pienācīgu kapučīno..."
+
+Ar Latvijas Universitātes Teorētiskās Absurda institūta doktorantu atbalstu turpinās pētījumi, lai apgūtu kafijas degvielas laika joslu reverso inženieriju, cenšoties normalizēt šo jaunatklāto produktivitātes jurisdikciju. Līdz tam Jūrmalas iedzīvotāji varētu pielāgot savus pulksteņus, un, iespējams, vēl svarīgāk, savus kalendārus.`,
+      ru: `Юрмала — В повороте событий, достойном латвийской научно-фантастической новеллы, местный офисный работник Сандис Берзиньш случайно создал новый часовой пояс в комнате отдыха компании 'Baltic Bureaucracy Solutions Ltd.' Открытие было сделано, когда Берзиньш заметил, что его привычный 45-минутный поход за кофе в комнату отдыха необъяснимо привел к шестичасовому временному сдвигу, что побудило озадаченных коллег назвать это явление 'Col’tu Laiks' — в честь латвийского часовщика XIX века Яниса Колту.
+
+Инцидент развернулся в типичное понедельничное утро с обычной офисной традицией Берзиньша: борьбой с капризной кофемашиной марки Krāslava. "Я знал, что что-то не так," вспоминает Берзиньш. "Сначала я нажал 'Латте', но затем на ЖК-дисплее появилось странное сообщение: 'Kļūda 404: Laika jēga nav atrasta' (Ошибка 404: Смысл времени не найден). Следующее, что я помню, это как я пишу жене о ужине и вдруг понимаю, что давно уже обед прошел."
+
+Свидетели утверждают, что из комнаты отдыха около полудня исходил странный гул и слабое свечение. Пораженная временным сдвигом, менеджер по персоналу 'Baltic Bureaucracy Solutions Ltd.' Юстине Калниня немедленно прервала написание загадочных мотивационных плакатов, чтобы обратиться к собравшимся сотрудникам. "Мы всегда ценили интеграцию инновационных решений," объявила Калниня. "Однако создание эксклюзивного временного измерения не входило в планы этого квартала. Тем не менее, мы оптимистично настроены по поводу потенциала улучшения производительности и привлекательного повышения цен на аренду наших офисов."
+
+Новости о юрмальской аномалии быстро распространились, привлекая внимание аналитика Латвийского космического агентства, доктора Ника Нейманиса, известного своей новаторской работой над пунктуальностью Тегумай. "Эффект Col’tu Laiks представляет собой беспрецедентную возможность," отметил Нейманис. "Представьте себе офисные операции в двух зонах, где половина вашего дня пролетает, а остальная часть тянется значительно. Это мечта каждого прокрастинатора! Мы исследуем коммерческие предприятия с соседними странами. Эстония уже огородила четверги, видимо."
+
+В ответ местные экономисты предсказывают, что если использовать 'Col’tu Laiks' стратегически, это может дать сверхкофеинизированным балтийским гражданам достаточно пространства для того, чтобы превзойти по эффективности знаменитые финские лесозаготовительные операции. Одновременно, отечественные хронофобы выражают беспокойство по поводу возможной реакции мафии дедушкиных часов — ссылаясь на возможное увеличение налогов 'Потерянные во времени'.
+
+Астрологический инфлюенсер и частичный шаман Лига Приеде высказалась о влиянии временного сдвига на балтийские гороскопы. "Это означает глубокий сдвиг в балансе углового момента среди балтийских созвездий," сказала Приеде через эхо легкого аромата благовоний VPN. "Весы и Водолеи могут ожидать двойных обеденных перерывов, в то время как Девы могут испытать нестабильные аллергические реакции, связанные со временем."
+
+Что касается Сандиса Берзиньша, всегда пионера прогресса, он просто пожал плечами среди медийной суеты. "Думаю, если судьба была в том, чтобы сделать кофе, который изменит мир, то пусть будет так," задумчиво сказал он, наполняя свой новый термос на рабочем месте. "Теперь, если бы только кто-то мог разобраться, как заставить эту адскую машину сделать приличный капучино..."
+
+При поддержке аспирантов Института теоретической абсурдности Латвийского университета продолжаются исследования по обратной инженерии временных зон, основанных на кофе, с целью нормализации этой новой юрисдикции продуктивности. До тех пор жители Юрмалы могут обнаружить, что им придется корректировать свои часы, а возможно, и более важно, свои календари.`
+    },
+    date: "Nov 30, 2025",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://images.unsplash.com/photo-1551847677-dc82daa8537f?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 14,
     slug: "latvia-announces-unprecedented-initiative-to-boost",
     title: {
@@ -95,7 +164,7 @@ Kamēr valsts gatavojas uzstādīt jaunus rekordus kultūras jaunumu jomā, Latv
     readTime: "9 min read",
     imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 13,
