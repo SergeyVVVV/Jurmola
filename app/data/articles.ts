@@ -17,6 +17,86 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 16,
+    slug: "latvia-announces-new-zzz-festival-in",
+    title: {
+      en: "Latvia Announces New 'Zzz' Festival in An Effort to Cure National Insomnia",
+      lv: "Latvija Izziņo Jauno 'Zzz' Festivālu, Lai Izārstētu Nacionālo Bezmiega Epidēmiju",
+      ru: "Латвия объявляет о новом фестивале 'Zzz' в попытке вылечить национальную бессонницу"
+    },
+    excerpt: {
+      en: "In an unprecedented move to conquer its sleep deprivation epidemic, Latvia has declared the launch of the 'Zzz' Festival—a month-long celebration of sleep. Featuring extravagant sleep contests and lullaby concerts, it aims to awaken the nation's love for quality rest.",
+      lv: "Lai risinātu miega trūkuma epidēmiju, Latvija ir izsludinājusi 'Zzz' Festivālu—mēnesi ilgu miega svinēšanu. Ar ekstravagantiem miega konkursiem un šūpuļdziesmu koncertiem tas cer atmodināt tautas mīlestību pret kvalitatīvu atpūtu.",
+      ru: "В беспрецедентной попытке победить эпидемию недосыпания, Латвия объявила о запуске фестиваля 'Zzz' — месячного празднования сна. С участием экстравагантных конкурсов сна и концертов колыбельных, он стремится пробудить в нации любовь к качественному отдыху."
+    },
+    fullContent: {
+      en: `Riga, Latvia—In what experts are calling a 'dream initiative,' Latvia has launched a groundbreaking campaign to tackle a growing issue chilling the Baltic nation: insomnia. The ambitious endeavor is dubbed the 'Zzz' Festival and is expected to put residents' sleep troubles to bed once and for all.
+
+During an official announcement held at the crack of dawn in the Rīga City Council chamber—because those organizing ironically hadn’t slept in days—Mayor Ilsa Drumbuļska expressed her enthusiasm for this pioneering move. 'We can no longer ignore the fact that Latvians rank fifth in the world for sleeplessness, closely following the nocturnal tendencies of owls,' Drumbuļska declared while stifling a yawn.
+
+The festival is designed around a series of unique events tailored to induce hibernation. Among the highlights is the 'Slumber Games' competition, in which participants are judged not by their prowess or athletic ability, but rather by their skills in dozing off in peculiar settings, such as atop the Freedom Monument or while crossing the busy streets of Old Riga during peak tourist season. Contestants are scored on duration and quality of siesta but lose points if woken by curious tourists.
+
+Cultural anthropologist and sleep enthusiast Dr. Vilis Miega applauded the festival, hinting that it might be inspired by ancient Latvian traditions. 'Many are unaware that in pre-Christian Latvia, a winter solstice nap-a-thon was commonly practised to encourage better harvest dreams. We're not creating something new, just reviving a lost cultural treasure,' Dr. Miega noted, his voice betraying a slight drowsiness.
+
+The Ministry of Relaxation (formerly the Ministry of Economic Affairs during business hours) is said to operate special 'Nap Pods' scattered throughout Riga, which are part of the Sleep Sure initiative. By day, they will double as information kiosks, but by night, they offer warmth and silence, complete with state-sponsored soundscapes featuring naturally soothing soundbites such as 'Rain on a Tin Roof,' and, intriguingly, 'Loudly Malfunctioning Jaunmokas Clock.'</n
+Local businesses, too, are embracing the sleepy vibe. Cafés once abuzz with chatter over espressos are now offering Night Cappuccinos: a startling concoction brewed with chamomile and lavender essence, guaranteed to replace wired nights with peaceful bedtimes.
+
+However, not everyone is aligning with the plan. A newly formed protest group, the Sons of the Early Sunrise, voiced concerns that the initiative might send a confusing message to workaholic Latvians. 'We firmly believe a nation is only as conscious as its people at 4 a.m.,' declared the protest leader, Juris Mostsin-Otsi, who personally adheres to a regimen of ten espressos a day.
+
+Economists are cautiously optimistic that the festival could lead to a 10% boost in GDP by lowering national coffee imports and daytime productivity spikes following well-rested nights. If successful, regional council members are even considering extending the festival into a permanent lifestyle change, dubbed 'The Baltic Snooze.'
+
+As the Zzz Festival kicks off this week, event organizers remain hopeful that it will chart a course for a more relaxed, well-rested Latvia, possibly encouraging neighboring nations to join a broader Baltic Slumber Union.
+
+'If this all goes well,' as Mayor Drumbuļska enthusiastically concluded while reaching for her second pillow, 'soon, instead of chasing dreams, Latvians can finally invite dreams to settle patiently in their wake.'`,
+      lv: `Rīga, Latvija—Eksperti to sauc par 'sapņu iniciatīvu', un Latvija ir uzsākusi revolucionāru kampaņu, lai risinātu pieaugošo problēmu, kas satrauc Baltijas valsti: bezmiegu. Ambiciozais pasākums tiek dēvēts par 'Zzz' Festivālu, un tas cer uz visiem laikiem atrisināt iedzīvotāju miega problēmas.
+
+Oficiālajā paziņojumā, kas notika Rīgas domes zālē agrā rīta stundā—jo organizatori ironiski nebija gulējuši vairākas dienas—mēre Ilsa Drumbuļska izteica savu entuziasmu par šo novatorisko soli. 'Mēs vairs nevaram ignorēt faktu, ka latvieši ir piektajā vietā pasaulē pēc bezmiega, cieši sekojot pūču nakts paradumiem,' Drumbuļska paziņoja, apslāpējot žāvu.
+
+Festivāls ir veidots ap virkni unikālu pasākumu, kas paredzēti hibernācijas izraisīšanai. Starp galvenajiem notikumiem ir 'Slumber Games' sacensības, kurās dalībnieki tiek vērtēti nevis pēc viņu spējas vai atlētiskuma, bet gan pēc viņu prasmēm aizmigt neparastās vietās, piemēram, uz Brīvības pieminekļa vai šķērsojot aizņemtās Vecrīgas ielas tūrisma sezonas laikā. Dalībnieki tiek vērtēti pēc siestas ilguma un kvalitātes, bet zaudē punktus, ja viņus pamodina ziņkārīgi tūristi.
+
+Kultūras antropologs un miega entuziasts Dr. Vilis Miega atzinīgi novērtēja festivālu, norādot, ka tas varētu būt iedvesmots no senajām latviešu tradīcijām. 'Daudzi nezina, ka pirmskristīgajā Latvijā ziemas saulgriežu miega maratons bija izplatīts, lai veicinātu labākus ražas sapņus. Mēs neradām kaut ko jaunu, tikai atdzīvinām zaudētu kultūras dārgumu,' Dr. Miega piezīmēja, viņa balss nodeva nelielu miegainību.
+
+Atpūtas ministrija (agrāk Ekonomikas ministrija darba laikā) tiek ziņots, ka Rīgā izvietos īpašus 'Nap Pods', kas ir daļa no Sleep Sure iniciatīvas. Dienā tie kalpos kā informācijas kioski, bet naktī piedāvās siltumu un klusumu, komplektā ar valsts finansētiem skaņu ainavām, kas ietver dabīgi nomierinošus skaņu fragmentus, piemēram, 'Lietus uz skārda jumta', un, interesanti, 'Skaļi nepareizi strādājošs Jaunmoku pulkstenis'.
+
+Arī vietējie uzņēmumi pieņem miegaino noskaņu. Kafejnīcas, kas reiz dūca no sarunām pār espresso, tagad piedāvā Nakts Kapučīno: pārsteidzošu maisījumu, kas pagatavots ar kumelīšu un lavandas esenci, garantējot, ka aizstās nemierīgas naktis ar mierīgiem gulētiešanas laikiem.
+
+Tomēr ne visi piekrīt plānam. Jaunizveidotā protesta grupa, Agrās Saules Dēli, izteica bažas, ka iniciatīva varētu sūtīt mulsinošu vēstījumu darbaholiķu latviešiem. 'Mēs stingri ticam, ka nācija ir tik apzināta, cik tās cilvēki ir plkst. 4 no rīta,' paziņoja protesta līderis Juris Mostsin-Otsi, kurš personīgi ievēro desmit espresso dienā režīmu.
+
+Ekonomisti ir piesardzīgi optimistiski, ka festivāls varētu novest pie 10% IKP pieauguma, samazinot valsts kafijas importu un dienas produktivitātes pieaugumu pēc labi izgulētām naktīm. Ja tas būs veiksmīgs, reģionālās padomes locekļi pat apsver iespēju pagarināt festivālu uz pastāvīgu dzīvesveida maiņu, ko dēvē par 'Baltijas Nap'.
+
+Kad šonedēļ sākas Zzz Festivāls, pasākuma organizatori paliek cerīgi, ka tas iezīmēs ceļu uz mierīgāku, labi atpūtušos Latviju, iespējams, iedrošinot kaimiņvalstis pievienoties plašākai Baltijas Miega Savienībai.
+
+'Ja viss izdosies,' kā mēre Drumbuļska entuziastiski secināja, sniedzoties pēc sava otrā spilvena, 'drīz, tā vietā, lai dzītos pēc sapņiem, latvieši beidzot varēs aicināt sapņus pacietīgi apmesties viņu nomodā.'`,
+      ru: `Рига, Латвия — В том, что эксперты называют 'инициативой мечты', Латвия запустила новаторскую кампанию, чтобы справиться с растущей проблемой, охватившей балтийскую нацию: бессонницей. Амбициозное начинание получило название фестиваль 'Zzz' и, как ожидается, положит конец проблемам со сном у жителей раз и навсегда.
+
+Во время официального объявления, состоявшегося на рассвете в зале Рижского городского совета — потому что организаторы, иронично, не спали несколько дней — мэр Илса Друмбульска выразила свой энтузиазм по поводу этого новаторского шага. 'Мы больше не можем игнорировать тот факт, что латвийцы занимают пятое место в мире по бессоннице, следуя за ночными привычками сов,' — заявила Друмбульска, подавляя зевоту.
+
+Фестиваль разработан вокруг серии уникальных мероприятий, предназначенных для индукции гибернации. Среди основных моментов — соревнование 'Игры сна', в котором участников оценивают не по их мастерству или спортивным способностям, а по их умению засыпать в необычных условиях, таких как на вершине Памятника Свободы или при переходе через оживленные улицы Старой Риги в разгар туристического сезона. Участники получают баллы за продолжительность и качество сиесты, но теряют очки, если их разбудят любопытные туристы.
+
+Культурный антрополог и энтузиаст сна доктор Вилис Миега похвалил фестиваль, намекнув, что он может быть вдохновлен древними латвийскими традициями. 'Многие не знают, что в дохристианской Латвии зимнее солнцестояние часто сопровождалось марафоном сна, чтобы способствовать лучшим снам о урожае. Мы не создаем что-то новое, просто возрождаем утраченное культурное сокровище,' — отметил доктор Миега, его голос выдавал легкую сонливость.
+
+Министерство расслабления (ранее Министерство экономических дел в рабочие часы) заявило, что будет управлять специальными 'Капсулами сна', разбросанными по Риге, которые являются частью инициативы Sleep Sure. Днем они будут служить информационными киосками, а ночью предлагать тепло и тишину, в комплекте с государственными звуковыми пейзажами, включающими естественно успокаивающие звуки, такие как 'Дождь на жестяной крыше' и, что удивительно, 'Громко неисправные часы Яунмокас'.
+
+Местные бизнесы тоже поддерживают сонное настроение. Кафе, ранее наполненные разговорами за эспрессо, теперь предлагают Ночные капучино: удивительный напиток, заваренный с эссенцией ромашки и лаванды, гарантированно заменяющий бодрствующие ночи на спокойные вечера.
+
+Однако не все согласны с планом. Новая протестная группа, Сыны раннего восхода, выразила обеспокоенность, что инициатива может послать запутанное сообщение трудолюбивым латвийцам. 'Мы твердо верим, что нация настолько сознательна, насколько ее люди в 4 утра,' — заявил лидер протеста Юрис Мостсин-Отси, который лично придерживается режима из десяти эспрессо в день.
+
+Экономисты с осторожным оптимизмом считают, что фестиваль может привести к 10% росту ВВП, снижая импорт кофе и увеличивая дневную продуктивность после хорошо выспавшихся ночей. Если он будет успешным, члены регионального совета даже рассматривают возможность продления фестиваля в постоянное изменение образа жизни, названное 'Балтийская дрема'.
+
+Когда на этой неделе начинается фестиваль Zzz, организаторы мероприятий надеются, что он проложит курс к более расслабленной, хорошо отдохнувшей Латвии, возможно, побуждая соседние страны присоединиться к более широкой Балтийской Союзу Сна.
+
+'Если все пройдет хорошо,' — как с энтузиазмом заключила мэр Друмбульска, потянувшись за второй подушкой, — 'вскоре, вместо того чтобы гнаться за мечтами, латвийцы наконец смогут пригласить мечты спокойно обосноваться в их пробуждении.'`
+    },
+    date: "Dec 1, 2025",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 15,
     slug: "local-man-accidentally-invents-new-time",
     title: {
@@ -83,7 +163,7 @@ Ar Latvijas Universitātes Teorētiskās Absurda institūta doktorantu atbalstu 
     readTime: "6 min read",
     imageUrl: "https://images.unsplash.com/photo-1551847677-dc82daa8537f?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 14,
