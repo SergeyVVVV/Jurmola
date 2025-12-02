@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 17,
+    slug: "riga-declares-official-national-nap-time",
+    title: {
+      en: "Riga Declares 'Official National Nap Time' After Complaints from Sleep-Deprived Seagulls",
+      lv: "Rīga pasludina 'Oficiālo nacionālo diendusas laiku' pēc sūdzībām no miega trūkuma cietušiem kaijām",
+      ru: "Рига объявляет 'Официальное Национальное Время Дневного Сна' после жалоб недосыпающих чаек"
+    },
+    excerpt: {
+      en: "In a groundbreaking initiative that has left ornithologists scratching their heads, Riga has introduced a city-wide 'Nap Time' from 1 PM to 1:30 PM daily in response to complaints from local seagull unions. City officials believe restoring the seagulls' precious nap schedule is crucial for harmonious urban cohabitation.",
+      lv: "Revolucionārā iniciatīvā, kas atstājusi ornitologus neizpratnē, Rīga ir ieviesusi pilsētas mēroga 'Diendusas laiku' no 13:00 līdz 13:30 katru dienu, reaģējot uz vietējo kaiju arodbiedrību sūdzībām. Pilsētas amatpersonas uzskata, ka kaiju vērtīgā diendusas grafika atjaunošana ir būtiska harmoniskai pilsētas līdzāspastāvēšanai.",
+      ru: "В новаторской инициативе, которая оставила орнитологов в недоумении, Рига ввела городское 'Время Дневного Сна' с 13:00 до 13:30 ежедневно в ответ на жалобы местных союзов чаек. Городские власти считают, что восстановление драгоценного графика сна чаек жизненно важно для гармоничного сосуществования в городе."
+    },
+    fullContent: {
+      en: `In an unprecedented move aimed at promoting interspecies peace, the city of Riga has announced an 'Official National Nap Time' to accommodate grievances from the Municipal Seagull Coalition (MSC). Beginning next week, all city activities, including vehicular traffic, commercial operations, and political disputes, will come to a halt every day from 1 PM to 1:30 PM.
+
+The decision was reached after Mayor Liene Skrejceļš held a series of secret, high-level discussions with the MSC. 'We can no longer ignore the crucial contributions of Riga's seagulls to our waterfront ambiance and historical charm,' Skrejceļš stated in a press conference flanked by a particularly stoic-looking seagull named Janis, who has become the spokesperson for the feathered faction.
+
+The move comes in response to a comprehensive 438-page report submitted by ornithologists from the Baltic Avian Research Society (BARS), highlighting that Riga’s booming waste management system has inadvertently disrupted the natural siesta routines of the city's seagull population. 'It's quite simple,' explained Dr. Egle Lidojums, head of BARS, 'Our feathered friends can no longer digest the culinary wonders of the Riga Central Market without a power nap afterwards. It's simply an unfair expectation.'
+
+Critics, however, are skeptical about the effectiveness of this initiative. Jānis Gulbis, a local shop owner, voiced his concerns, 'It's madness, isn’t it? Closing down my souvenir stand for naps? Madness! But then again, I could use the rest.'
+
+While skeptics abound, some businesses are finding unique marketing opportunities in the napping decree. 'The Nap Café' has seen a surge in popularity, offering patrons the chance to synchronize naps with their avian counterparts on specially designed, beak-friendly pillows. 'We’re just giving back to the seagulls what we all take for granted,' said Milda Spāre, the entrepreneurial owner.
+
+International reactions have been mixed, with some cities looking cautiously at Riga’s example. Tallinn's mayor expressed concern while inadvertently declaring their city's own cross-species collaboration would likely focus more on accommodating local raccoons.
+
+As preparations continue, the Municipal Seagull Coalition remains cautiously optimistic. 'It is a small step for seagulls, but a giant leap for birdkind,' commented Janis through his interpreter, human ornithologist Dr. Lidojums. 'We envision a future where a harmonious siesta could bridge the gap between bird and man.'
+
+Concluding the press conference, Mayor Skrejceļš offered a wry smile, 'One day we might even expand the Nap Time to include other forgotten creatures, like the squirrels or even the bureaucrats. But for now, we are honored to give back to our seagull compatriots, who have given us so much, including... well, you know.'
+
+Riga’s citizens are now bracing themselves for this new epoch, where peace and quiet reign supreme, even if only for thirty minutes a day. As the chattering of the city's 700,000 residents dips into whispered lullabies, a peculiar silence will sweep the Daugava riverbank, broken only by the gentle snores of seagulls and the occasional frustrated honk from amorous pigeons.`,
+      lv: `Nepieredzētā solī, kas vērsts uz starpsugu miera veicināšanu, Rīgas pilsēta ir paziņojusi par 'Oficiālo nacionālo diendusas laiku', lai apmierinātu Rīgas Kaiju koalīcijas (RKK) sūdzības. Sākot ar nākamo nedēļu, visas pilsētas aktivitātes, tostarp transporta kustība, komercdarbība un politiskie strīdi, katru dienu no 13:00 līdz 13:30 tiks apturētas.
+
+Lēmums tika pieņemts pēc tam, kad mēre Liene Skrejceļš rīkoja virkni slepenu, augsta līmeņa diskusiju ar RKK. 'Mēs vairs nevaram ignorēt Rīgas kaiju būtisko ieguldījumu mūsu piekrastes atmosfērā un vēsturiskajā šarmā,' Skrejceļš paziņoja preses konferencē, kurā piedalījās īpaši stoiciska izskata kaija vārdā Jānis, kas kļuvusi par spalvaino frakcijas pārstāvi.
+
+Šis solis ir atbilde uz visaptverošu 438 lappušu ziņojumu, ko iesnieguši ornitologi no Baltijas Putnu Pētniecības Biedrības (BPPB), kurā uzsvērts, ka Rīgas strauji augošā atkritumu apsaimniekošanas sistēma netīši ir izjaukusi pilsētas kaiju dabiskās siestas rutīnas. 'Tas ir pavisam vienkārši,' skaidroja Dr. Egle Lidojums, BPPB vadītāja, 'Mūsu spalvainie draugi vairs nevar sagremot Rīgas Centrāltirgus kulinārijas brīnumus bez diendusas pēc tam. Tas vienkārši ir netaisnīgs pieprasījums.'
+
+Kritiķi tomēr ir skeptiski par šīs iniciatīvas efektivitāti. Jānis Gulbis, vietējais veikala īpašnieks, pauda savas bažas: 'Vai tas nav neprāts? Aizvērt manu suvenīru stendu diendusai? Neprāts! Bet, no otras puses, es arī varētu izmantot atpūtu.'
+
+Lai gan skeptiķu netrūkst, daži uzņēmumi atrod unikālas mārketinga iespējas diendusas dekrētā. 'Diendusas kafejnīca' ir piedzīvojusi popularitātes pieaugumu, piedāvājot apmeklētājiem iespēju sinhronizēt diendusas ar saviem putnu kolēģiem uz īpaši veidotiem, knābim draudzīgiem spilveniem. 'Mēs vienkārši atdodam kaijām to, ko mēs visi uzskatām par pašsaprotamu,' sacīja Milda Spāre, uzņēmīgā īpašniece.
+
+Starptautiskās reakcijas ir bijušas dažādas, dažām pilsētām piesardzīgi raugoties uz Rīgas piemēru. Tallinas mērs izteica bažas, nejauši paziņojot, ka viņu pilsētas starpsugu sadarbība, visticamāk, vairāk koncentrēsies uz vietējo jenotu pielāgošanu.
+
+Gatavojoties turpmākajam, Rīgas Kaiju koalīcija paliek piesardzīgi optimistiska. 'Tas ir mazs solis kaijām, bet milzīgs lēciens putnu sugai,' komentēja Jānis caur savu tulku, cilvēku ornitologu Dr. Lidojumu. 'Mēs redzam nākotni, kurā harmoniska siesta varētu pārvarēt plaisu starp putniem un cilvēkiem.'
+
+Noslēdzot preses konferenci, mēre Skrejceļš piedāvāja ironisku smaidu: 'Kādudien mēs varētu pat paplašināt diendusas laiku, iekļaujot citus aizmirstus radījumus, piemēram, vāveres vai pat birokrātus. Bet pagaidām mums ir gods atdot mūsu kaiju līdzbiedriem, kas mums devuši tik daudz, tostarp... nu, jūs zināt.'
+
+Rīgas iedzīvotāji tagad gatavojas šim jaunajam laikmetam, kurā miers un klusums valda augstāk par visu, pat ja tikai uz trīsdesmit minūtēm dienā. Kad pilsētas 700 000 iedzīvotāju čalas pārvēršas čukstētās šūpuļdziesmās, savāda klusuma vilnis pārņems Daugavas krastus, ko pārtrauks tikai kaiju maigi krācieni un reizēm neapmierināts mīlas baložu kliedziens.`,
+      ru: `В беспрецедентном шаге, направленном на продвижение межвидового мира, город Рига объявил 'Официальное Национальное Время Дневного Сна', чтобы учесть жалобы Муниципальной коалиции чаек (МКЧ). Начиная со следующей недели, все городские активности, включая движение транспорта, коммерческие операции и политические споры, будут приостанавливаться каждый день с 13:00 до 13:30. 
+
+Решение было принято после того, как мэр Лиене Скрейчельш провела серию секретных, высокоуровневых обсуждений с МКЧ. 'Мы больше не можем игнорировать важные вклады рижских чаек в нашу набережную атмосферу и историческое очарование', заявила Скрейчельш на пресс-конференции в окружении особенно невозмутимой чайки по имени Янис, который стал представителем пернатой фракции. 
+
+Этот шаг был предпринят в ответ на обширный 438-страничный отчет, представленный орнитологами из Балтийского общества орнитологических исследований (БСОИ), в котором подчеркивается, что бурно развивающаяся система управления отходами в Риге непреднамеренно нарушила естественные сиесты городского населения чаек. 'Все довольно просто', объяснила доктор Эгле Лидойумс, глава БСОИ, 'Наши пернатые друзья больше не могут переваривать кулинарные чудеса Рижского центрального рынка без короткого сна после этого. Это просто несправедливое ожидание.' 
+
+Критики, однако, скептически относятся к эффективности этой инициативы. Янис Гулбис, местный владелец магазина, выразил свои опасения: 'Это безумие, не так ли? Закрывать мой сувенирный киоск ради сна? Безумие! Но, с другой стороны, мне бы тоже не помешал отдых.' 
+
+Хотя скептики в изобилии, некоторые предприятия находят уникальные маркетинговые возможности в этом указе о дневном сне. 'Кафе Дневного Сна' стало невероятно популярным, предлагая посетителям возможность синхронизировать свои сны с их пернатыми коллегами на специально разработанных подушках, удобных для клюва. 'Мы просто возвращаем чайкам то, что все мы принимаем как должное', сказала Мильда Спаре, предприимчивая владелица. 
+
+Международные реакции были смешанными, некоторые города с осторожностью смотрят на пример Риги. Мэр Таллина выразил обеспокоенность, случайно заявив, что их собственное межвидовое сотрудничество, вероятно, будет больше сосредоточено на удовлетворении местных енотов. 
+
+Пока подготовка продолжается, Муниципальная коалиция чаек остается осторожно оптимистичной. 'Это маленький шаг для чаек, но гигантский скачок для птичьего рода', прокомментировал Янис через своего переводчика, человеческого орнитолога доктора Лидойумс. 'Мы представляем будущее, где гармоничная сиеста может стать мостом между птицей и человеком.' 
+
+Завершая пресс-конференцию, мэр Скрейчельш с иронией улыбнулась: 'Однажды мы можем даже расширить Время Дневного Сна, чтобы включить других забытых существ, таких как белки или даже бюрократы. Но пока мы гордимся тем, что можем вернуть нашим чайкам-соотечественникам, которые дали нам так много, включая... ну, вы знаете.' 
+
+Граждане Риги теперь готовятся к этой новой эпохе, где мир и тишина царят, пусть и всего на тридцать минут в день. Когда болтовня 700,000 жителей города переходит в шепотные колыбельные, странная тишина окутывает набережную Даугавы, нарушаемая только нежным храпом чаек и случайным раздраженным гудком влюбленных голубей.`
+    },
+    date: "Dec 2, 2025",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 16,
     slug: "latvia-announces-new-zzz-festival-in",
     title: {
@@ -94,7 +169,7 @@ Kad šonedēļ sākas Zzz Festivāls, pasākuma organizatori paliek cerīgi, ka 
     readTime: "5 min read",
     imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 15,
