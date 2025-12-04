@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 19,
+    slug: "riga-introduces-mandatory-hat-day-to",
+    title: {
+      en: "Riga Introduces Mandatory Hat Day to Combat Seasonal Affective Disorder",
+      lv: "Rīga ievieš obligāto cepuru dienu, lai cīnītos pret sezonālo afektīvo traucējumu",
+      ru: "Рига вводит Обязательный День Шляп для борьбы с сезонной депрессией"
+    },
+    excerpt: {
+      en: "In an unprecedented citywide initiative, Riga has declared February 30th as Mandatory Hat Day, aiming to battle Seasonal Affective Disorder by requiring all citizens to wear brightly colored headwear. This measure comes after unprecedented research by the Baltic Wellness Bureau suggesting that vivid hat colors may boost public morale by up to 15% during the grey winter months.",
+      lv: "Nepieredzētā pilsētas mēroga iniciatīvā Rīga ir pasludinājusi 30. februāri par Obligāto cepuru dienu, cenšoties cīnīties pret sezonālo afektīvo traucējumu, pieprasot visiem iedzīvotājiem nēsāt spilgtas krāsas galvassegas. Šis pasākums nāk pēc nepieredzētiem Baltijas Labklājības biroja pētījumiem, kas liecina, ka spilgtas cepuru krāsas var uzlabot sabiedrības morāli līdz pat 15% pelēkajos ziemas mēnešos.",
+      ru: "В беспрецедентной городской инициативе Рига объявила 30 февраля Обязательным Днем Шляп, стремясь бороться с сезонной депрессией, требуя от всех граждан носить яркие головные уборы. Эта мера принята после беспрецедентного исследования Балтийского Бюро Здоровья, предполагающего, что яркие цвета шляп могут поднять общественный моральный дух на 15% в серые зимние месяцы."
+    },
+    fullContent: {
+      en: `RIGA, LATVIA — In a bold move to tackle the Baltic winter blues, the Riga City Council has unanimously approved a new mandate: every citizen must don a brightly colored hat on February 30th, a date that doesn't technically occur, but is being humorously embraced to lighten the mood. This whimsical regulation follows a recent study conducted by the Baltic Wellness Bureau, claiming that wearing vibrant headwear could enhance mood and increase happiness levels by a surprising 15%.
+
+Mayor Artūrs Bērziņš unveiled the initiative at a press conference, sporting an oversized neon pink hat with a pom-pom the size of a grapefruit. "We Latvians are renowned for our resilience and creativity," Bērziņš declared, the pom-pom bobbing vigorously with each nod. "If the sun refuses to shine, we shall create our own sunshine, one hat at a time."
+
+The initiative is supported by a dubious yet spirited study authored by Professor Ilze Cīrule of the Baltic Wellness Bureau. According to her research, "The reflective properties of absurdly bright colors on human headgear can simulate the effects of sunshine. Thus, statistically, a fuchsia hat is equivalent to 20 minutes of moderate sun exposure — potentially 30 with added sequins."
+
+Local businesses are fully on board, with hat sales already skyrocketing. Liene Sīka, owner of Reading & Ribbons, a popular hat boutique in Riga, remarked, "I've never seen anything like it. We haven't been this busy since a flock of seagulls mistook our store sign for an actual animal. We've had lines of people with hair unbrushed but ready to embrace their inner rainbow."
+
+Public reactions have been largely positive, though some citizens express skepticism. "It seems a little unnecessary for a city known for its beautiful grey architecture and even greyer skies," commented Andris Ozoliņš, a local weatherman known for delivering forecasts with unerring pessimism. "But if it brings people joy, who am I to rain on their parade? Oh wait, that's exactly my job."
+
+In preparation for the event, the city is also organizing free hat-decorating workshops, advising residents to "get creative but keep it practical" – a nod to larger-than-life hat prototypes that narrowly avoided clearance issues on Riga's famed public trams.
+
+The city plans to measure the success of the initiative by tracking both the local Psychological Endorphin Enhancement Levels (PEELs) and fish populace in nearby bodies of water, hypothesized to rise due to increased laughter vibrations. Future plans involve potential expansions of the initiative, such as introducing "Whimsical Sock Wednesdays" and "Colorful Sweater Saturdays," though their implementation may depend on the success of Hat Day.
+
+For now, Riga's Mandatory Hat Day appears to be an ambitious embrace of silliness—the kind the good people of Latvia wear well: with a twinkle in their eye and a vibrant pom-pom on their head.`,
+      lv: `RĪGA, LATVIJA — Drosmīgā solī, lai cīnītos pret Baltijas ziemas depresiju, Rīgas pilsētas dome vienbalsīgi apstiprinājusi jaunu mandātu: katram iedzīvotājam 30. februārī jāuzliek spilgti krāsaina cepure, datums, kas tehniski nepastāv, bet tiek humoristiski pieņemts, lai uzlabotu noskaņojumu. Šis jautrais regulējums seko nesenam Baltijas Labklājības biroja pētījumam, kas apgalvo, ka spilgtu galvassegu nēsāšana var uzlabot garastāvokli un palielināt laimes līmeni par pārsteidzošiem 15%.
+
+Mērs Artūrs Bērziņš atklāja iniciatīvu preses konferencē, valkājot milzīgu neona rozā cepuri ar pomponu greipfrūta lielumā. "Mēs, latvieši, esam pazīstami ar savu izturību un radošumu," paziņoja Bērziņš, pomponam enerģiski šūpojoties ar katru galvas mājienu. "Ja saule atsakās spīdēt, mēs radīsim savu sauli, vienu cepuri pēc otras."
+
+Iniciatīvu atbalsta apšaubāms, bet enerģisks pētījums, ko veica profesore Ilze Cīrule no Baltijas Labklājības biroja. Saskaņā ar viņas pētījumu, "absurdi spilgtu krāsu atstarojošās īpašības uz cilvēka galvassegām var simulēt saules gaismas efektus. Tādējādi, statistiski, fuksijas cepure ir ekvivalenta 20 minūtēm mērenas saules iedarbības — potenciāli 30 ar pievienotiem spīdumiem."
+
+Vietējie uzņēmumi ir pilnībā iesaistījušies, un cepuru pārdošana jau ir strauji pieaugusi. Liene Sīka, populārā cepuru veikala Reading & Ribbons īpašniece Rīgā, komentēja: "Es nekad neko tādu neesmu redzējusi. Mums nav bijis tik daudz darba kopš tā laika, kad kaiju bars sajauca mūsu veikala zīmi ar īstu dzīvnieku. Mums ir rindas ar cilvēkiem, kuriem mati nav ķemmēti, bet kuri ir gatavi pieņemt savu iekšējo varavīksni."
+
+Sabiedrības reakcijas pārsvarā ir pozitīvas, lai gan daži iedzīvotāji izsaka skepsi. "Tas šķiet mazliet nevajadzīgi pilsētai, kas pazīstama ar savu skaisto pelēko arhitektūru un vēl pelēkākām debesīm," komentēja Andris Ozoliņš, vietējais sinoptiķis, kurš ir pazīstams ar savām neizbēgami pesimistiskajām prognozēm. "Bet, ja tas cilvēkiem sagādā prieku, kas es esmu, lai viņiem uzlītu ūdeni uz galvas? Ak, paga, tas ir tieši mans darbs."
+
+Gatavojoties pasākumam, pilsēta organizē arī bezmaksas cepuru dekorēšanas darbnīcas, iedzīvotājiem iesakot "būt radošiem, bet saglabāt praktiskumu" — mājiens uz lielizmēra cepuru prototipiem, kas tik tikko izvairījās no šķēršļiem Rīgas slavenajos sabiedriskajos tramvajos.
+
+Pilsēta plāno mērīt iniciatīvas panākumus, izsekojot gan vietējos Psiholoģisko Endorfīnu Uzlabošanas Līmeņus (PEELs), gan zivju populāciju tuvējās ūdenstilpēs, kas, iespējams, pieaugs smieklu vibrāciju dēļ. Nākotnes plānos ietilpst iespējamā iniciatīvas paplašināšana, piemēram, ieviešot "Jautro zeķu trešdienas" un "Krāsaino džemperu sestdienas", lai gan to īstenošana varētu būt atkarīga no Cepuru dienas panākumiem.
+
+Pašlaik Rīgas Obligātā cepuru diena šķiet ambicioza muļķības pieņemšana — tāda, ko labie Latvijas ļaudis labi nēsā: ar dzirksti acīs un spilgtu pomponu uz galvas.`,
+      ru: `РИГА, ЛАТВИЯ — В смелой попытке справиться с балтийской зимней хандрой, Рижский городской совет единогласно утвердил новый указ: каждый гражданин должен надеть яркую шляпу 30 февраля, дату, которая технически не существует, но с юмором принимается для поднятия настроения. Это причудливое постановление следует за недавним исследованием, проведенным Балтийским Бюро Здоровья, утверждающим, что ношение ярких головных уборов может улучшить настроение и повысить уровень счастья на удивительные 15%.
+
+Мэр Артурс Берзиньш представил инициативу на пресс-конференции, надев огромную неоново-розовую шляпу с помпоном размером с грейпфрут. "Мы, латвийцы, известны своей стойкостью и креативностью," заявил Берзиньш, энергично кивая, отчего помпон подпрыгивал. "Если солнце отказывается светить, мы создадим свое собственное солнце, по одной шляпе за раз."
+
+Инициатива поддерживается сомнительным, но вдохновляющим исследованием, автором которого является профессор Илзе Цируле из Балтийского Бюро Здоровья. Согласно ее исследованию, "Отражательные свойства абсурдно ярких цветов на головных уборах могут имитировать эффекты солнечного света. Таким образом, статистически, шляпа цвета фуксии эквивалентна 20 минутам умеренного солнечного воздействия — возможно, 30 с добавлением блесток."
+
+Местные бизнесы полностью поддерживают инициативу, и продажи шляп уже взлетели. Лиене Сика, владелица популярного магазина шляп Reading & Ribbons в Риге, заметила: "Я никогда не видела ничего подобного. Мы не были так заняты с тех пор, как стая чаек приняла нашу вывеску за настоящее животное. У нас очереди из людей с нерасчесанными волосами, но готовых обнять своего внутреннего радугу."
+
+Общественные реакции в основном положительные, хотя некоторые граждане выражают скептицизм. "Это кажется немного излишним для города, известного своей красивой серой архитектурой и еще более серым небом," прокомментировал Андрис Озолиньш, местный метеоролог, известный своими безошибочно пессимистичными прогнозами. "Но если это приносит людям радость, кто я такой, чтобы омрачать их праздник? О, подождите, это как раз моя работа."
+
+В подготовке к мероприятию город также организует бесплатные мастер-классы по украшению шляп, советуя жителям "проявлять креативность, но оставаться практичными" — намек на шляпы огромных размеров, которые едва избежали проблем с проездом в знаменитых рижских трамваях.
+
+Город планирует измерить успех инициативы, отслеживая как местные уровни Психологического Усиления Эндорфинов (PEELs), так и популяцию рыб в близлежащих водоемах, которая, как предполагается, возрастет из-за увеличения вибраций смеха. В будущем планируется возможное расширение инициативы, например, введение "Причудливых Носков по Средам" и "Цветных Свитеров по Субботам", хотя их реализация может зависеть от успеха Дня Шляп.
+
+На данный момент Обязательный День Шляп в Риге кажется амбициозным принятием глупости — той, которую добрые люди Латвии носят с достоинством: с блеском в глазах и ярким помпоном на голове.`
+    },
+    date: "Dec 4, 2025",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 18,
     slug: "latvian-government-announces-new-national-holiday",
     title: {
@@ -89,7 +158,7 @@ Latvijai gatavojoties saviem pirmajiem svētkiem, jautājums, kas visiem ir uz l
     readTime: "5 min read",
     imageUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 17,
