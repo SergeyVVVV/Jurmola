@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 20,
+    slug: "riga-launches-new-traffic-light-appreciation",
+    title: {
+      en: "Riga Launches New 'Traffic Light Appreciation Day' to Combat Speeding and Impatience",
+      lv: "Rīga ievieš jaunu 'Luksoforu Novērtēšanas Dienu', lai cīnītos pret ātruma pārsniegšanu un nepacietību",
+      ru: "Рига запускает новый 'День признательности светофорам' для борьбы с превышением скорости и нетерпением"
+    },
+    excerpt: {
+      en: "In a pioneering move to alleviate road rage and redefine urban aesthetics, Riga has declared every Tuesday henceforth as 'Traffic Light Appreciation Day.' City officials believe this will foster a deeper connection between drivers and their often underappreciated road signals.",
+      lv: "Inovatīvā solī, lai mazinātu ceļu dusmas un pārdefinētu pilsētas estētiku, Rīga ir pasludinājusi katru otrdienu par 'Luksoforu Novērtēšanas Dienu'. Pilsētas amatpersonas uzskata, ka tas veicinās dziļāku saikni starp autovadītājiem un bieži nenovērtētajiem ceļa signāliem.",
+      ru: "В новаторском шаге по снижению дорожной агрессии и переосмыслению городской эстетики, Рига объявила каждый вторник 'Днем признательности светофорам'. Городские власти считают, что это поможет водителям установить более глубокую связь с их часто недооцененными дорожными сигналами."
+    },
+    fullContent: {
+      en: `In an unprecedented urban initiative, the city of Riga is set to introduce 'Traffic Light Appreciation Day' every Tuesday. The new policy aims to encourage drivers to embrace the often maligned red traffic lights as opportunities for reflection and cultural enrichment, rather than mere inhibitors of speed.
+
+The revolutionary initiative is spearheaded by the newly formed Department of Traffic Harmony. "We realized that Latvians are naturally a patient people, with a strong affinity for the grand narratives of waiting," explained Markus Egle, Head of Traffic Harmonization. "However, this appreciation wasn't extending to our city's beautiful traffic lights."
+
+Under the new scheme, drivers will be encouraged to step out of their vehicles at red lights, form small discussion groups, and contemplate the symbolism of the color red in Latvian folklore. The city plans to install bi-weekly podcasts, featuring cultural scholars discussing topics ranging from 'Why Red is not Just for Stop' to 'The Rich Palette of Urban Patience'.
+
+Initial skepticism was voiced by Juris Kalniņš, a well-respected Riga taxi driver known for his meticulous logbooks and legendary speed. "I'm not saying I won't appreciate a good red light; I've always said it gives us time to ponder," chuckled Kalniņš. "But if Missūs, our municipal deity of road infrastructure, could ensure the music accompanying these red light moments isn’t just a relentless loop of 'folk interpretations' of classical Latvian tunes."
+
+Petra Zariņa, a botanist who commutes regularly from Jūrmala to Riga, expressed her delight with the initiative. "I've started bringing a small potted ficus to water at red signals," Zariņa revealed. "This has not only turned my commute into a zen-like experience but also improved the overall air quality of my car!"
+
+A study conducted by the Baltic Institute for Traffic Excellence (BITE) suggests that Riga's bold approach might have unforeseen economic benefits. "We estimate a substantial increase in sales of handheld thermos and packable tea cozies, with drivers choosing to indulge in self-brewed infusions while waiting at traffic lights," said lead economist Andris Klavins. According to BITE, Latvia may soon see a renaissance of the traditional 'thermos artisanship', a craft considered nearly extinct by modern historians. 
+
+Critics, however, worry about the most pragmatic aspects of logistics. "If every driver took a 15-minute wellness sabbatical at each red light, we could witness an escalation of cross-city commutes stretching into the realm of epic poetry," fretted Oleksandr Užkalns, Riga's logistics coordinator.
+
+Regardless of logistical niggles, the city council remains unfazed and optimistic. "We are at the forefront of a cultural revolution," claimed Inese Ozola, Mayor of Riga. "Some may call it unorthodox, but in a world that moves too fast, Riga will stand as a beacon of appreciation, glorifying the often misunderstood, crucial moments of stopping."
+
+As enthusiastic drivers irresistibly take to the streets in anticipation, the coming Tuesdays will determine whether this ambitious initiative forces Riga into the slow lane of history or propels it into a new era of contemplative traffic delight.`,
+      lv: `Nepieredzētā pilsētas iniciatīvā Rīga plāno ieviest 'Luksoforu Novērtēšanas Dienu' katru otrdienu. Jaunās politikas mērķis ir mudināt autovadītājus pieņemt bieži kritizētos sarkanos luksoforus kā iespējas pārdomām un kultūras bagātināšanai, nevis tikai kā ātruma ierobežotājus.
+
+Revolucionāro iniciatīvu vada jaunizveidotā Satiksmes Harmonijas departaments. "Mēs sapratām, ka latvieši ir dabiski pacietīgi cilvēki, ar spēcīgu pieķeršanos gaidīšanas lielajiem stāstiem," skaidroja Markus Egle, Satiksmes Harmonizācijas vadītājs. "Tomēr šī novērtēšana neattiecās uz mūsu pilsētas skaistajiem luksoforiem."
+
+Saskaņā ar jauno plānu autovadītāji tiks mudināti izkāpt no saviem transportlīdzekļiem pie sarkanās gaismas, veidot nelielas diskusiju grupas un pārdomāt sarkanās krāsas simboliku latviešu folklorā. Pilsēta plāno uzstādīt divreiz nedēļā podkāstus, kuros kultūras zinātnieki apspriedīs tēmas, sākot no 'Kāpēc sarkanā nav tikai apstāšanās' līdz 'Pilsētas pacietības bagātā palete'.
+
+Sākotnējais skeptiskums izskanēja no Jura Kalniņa, labi pazīstama Rīgas taksometra vadītāja, kurš slavens ar saviem rūpīgiem žurnāliem un leģendāro ātrumu. "Es nesaku, ka neizbaudīšu labu sarkano gaismu; es vienmēr esmu teicis, ka tā dod mums laiku pārdomām," smējās Kalniņš. "Bet, ja Missūs, mūsu pašvaldības ceļu infrastruktūras dievība, varētu nodrošināt, ka mūzika, kas pavada šos sarkanās gaismas mirkļus, nav tikai nepārtraukts 'tautas interpretāciju' cilpa klasiskām latviešu melodijām."
+
+Petra Zariņa, botāniķe, kas regulāri brauc no Jūrmalas uz Rīgu, izteica savu prieku par iniciatīvu. "Es sāku ņemt līdzi mazu podiņu ar fikusu, ko laistīt pie sarkanās gaismas," atklāja Zariņa. "Tas ne tikai pārvērta manu braucienu par zen līdzīgu pieredzi, bet arī uzlaboja mana auto kopējo gaisa kvalitāti!"
+
+Baltijas Satiksmes Izcilības Institūta (BITE) veiktais pētījums liecina, ka Rīgas drosmīgā pieeja varētu radīt neparedzētus ekonomiskus ieguvumus. "Mēs prognozējam ievērojamu pieaugumu pārnēsājamo termosos un saliekamo tējas sildītāju pārdošanā, jo autovadītāji izvēlas baudīt pašgatavotas uzlējumus, gaidot pie luksoforiem," sacīja vadošais ekonomists Andris Klavins. Pēc BITE datiem, Latvija drīz varētu piedzīvot tradicionālās 'termosu mākslas' renesansi, amatu, ko mūsdienu vēsturnieki uzskatīja par gandrīz izmirušu.
+
+Tomēr kritiķi uztraucas par vispraktiskākajiem loģistikas aspektiem. "Ja katrs autovadītājs pie katras sarkanās gaismas ņemtu 15 minūšu labsajūtas pārtraukumu, mēs varētu pieredzēt pārvietošanās laiku pieaugumu līdz episkai poēzijai," bažījās Oleksandrs Užkalns, Rīgas loģistikas koordinators.
+
+Neskatoties uz loģistikas sīkumiem, pilsētas dome paliek nesatricināta un optimistiska. "Mēs esam kultūras revolūcijas priekšgalā," apgalvoja Inese Ozola, Rīgas mērs. "Daži to var saukt par neparastu, bet pasaulē, kas kustas pārāk ātri, Rīga stāvēs kā novērtējuma bāka, slavējot bieži pārprastos, būtiskos apstāšanās mirkļus."
+
+Kā entuziastiski autovadītāji neizbēgami dodas ielās ar gaidām, nākamās otrdienas noteiks, vai šī ambiciozā iniciatīva piespiedīs Rīgu vēsturiskajā lēnajā joslā vai virzīs to uz jaunu pārdomu satiksmes prieka ēru.`,
+      ru: `В беспрецедентной городской инициативе, город Рига собирается ввести 'День признательности светофорам' каждый вторник. Новая политика направлена на то, чтобы побудить водителей воспринимать часто критикуемые красные светофоры как возможности для размышлений и культурного обогащения, а не просто как препятствия для скорости.
+
+Эту революционную инициативу возглавляет недавно созданный Департамент гармонии дорожного движения. "Мы поняли, что латыши — народ терпеливый, с сильной привязанностью к великим нарративам ожидания," объяснил Маркус Эгле, глава гармонизации дорожного движения. "Однако эта признательность не распространялась на наши прекрасные городские светофоры."
+
+Согласно новой схеме, водителей будут поощрять выходить из своих автомобилей на красный свет, формировать небольшие дискуссионные группы и размышлять о символизме красного цвета в латышском фольклоре. Город планирует установить подкасты дважды в неделю, в которых культурные ученые будут обсуждать темы от 'Почему красный — это не только стоп' до 'Богатая палитра городской терпимости'.
+
+Первоначальный скептицизм выразил Юрис Калниньш, уважаемый рижский таксист, известный своими тщательными журналами и легендарной скоростью. "Я не говорю, что не оценю хороший красный свет; я всегда говорил, что он дает нам время для размышлений," усмехнулся Калниньш. "Но если бы Миссус, наш муниципальный божество дорожной инфраструктуры, мог бы обеспечить, чтобы музыка, сопровождающая эти моменты на красный свет, не была бы просто бесконечной петлей 'народных интерпретаций' классических латышских мелодий."
+
+Петра Зариня, ботаник, которая регулярно ездит из Юрмалы в Ригу, выразила свой восторг по поводу инициативы. "Я начала брать с собой маленький горшок с фикусом, чтобы поливать его на красных сигналах," призналась Зариня. "Это не только превратило мою поездку в медитативный опыт, но и улучшило общее качество воздуха в моей машине!"
+
+Исследование, проведенное Балтийским институтом дорожного совершенства (BITE), предполагает, что смелый подход Риги может иметь непредвиденные экономические выгоды. "Мы оцениваем значительное увеличение продаж портативных термосов и складных чехлов для чая, так как водители выбирают наслаждаться самодельными настоями, ожидая на светофорах," сказал ведущий экономист Андрис Клавинс. По данным BITE, Латвия вскоре может увидеть возрождение традиционного 'термосного мастерства', ремесла, которое современные историки считают почти вымершим.
+
+Критики, однако, беспокоятся о самых прагматичных аспектах логистики. "Если каждый водитель будет брать 15-минутный перерыв на благополучие на каждом красном свете, мы можем стать свидетелями увеличения времени поездок по городу до уровня эпической поэзии," беспокоился Александр Ужкалнс, координатор логистики Риги.
+
+Несмотря на логистические заминки, городской совет остается невозмутимым и оптимистичным. "Мы находимся на переднем крае культурной революции," заявила Инесе Озола, мэр Риги. "Некоторые могут назвать это неординарным, но в мире, который движется слишком быстро, Рига станет маяком признательности, прославляя часто неправильно понятые, но важные моменты остановки."
+
+Как только энтузиасты-водители не смогут устоять перед выходом на улицы в ожидании, предстоящие вторники определят, приведет ли эта амбициозная инициатива к тому, что Рига окажется на медленной полосе истории или продвинется в новую эпоху созерцательного дорожного наслаждения.`
+    },
+    date: "Dec 5, 2025",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&h=600&fit=crop",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 19,
     slug: "riga-introduces-mandatory-hat-day-to",
     title: {
@@ -83,7 +158,7 @@ Pašlaik Rīgas Obligātā cepuru diena šķiet ambicioza muļķības pieņemša
     readTime: "9 min read",
     imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 18,
