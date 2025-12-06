@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 21,
+    slug: "latvian-parliament-launches-national-initiative-to",
+    title: {
+      en: "Latvian Parliament Launches National Initiative to Replace All Crosswalks with Hopscotch Grids",
+      lv: "Latvijas Parlaments uzsāk nacionālu iniciatīvu, lai aizstātu visas gājēju pārejas ar klasīšu laukumiem",
+      ru: "Парламент Латвии запускает национальную инициативу по замене всех пешеходных переходов на сетки для классиков"
+    },
+    excerpt: {
+      en: "In an unprecedented move to promote physical fitness and increase pedestrian interaction, the Latvian Parliament passed a bill Tuesday that mandates the conversion of all crosswalks into interactive hopscotch grids. Lawmakers predict a 200% increase in laughter and spontaneous public joy.",
+      lv: "Nepieredzētā solī, lai veicinātu fizisko aktivitāti un palielinātu gājēju mijiedarbību, Latvijas Parlaments otrdien pieņēma likumprojektu, kas paredz visu gājēju pāreju pārvēršanu interaktīvos klasīšu laukumos. Likuma devēji prognozē 200% pieaugumu smieklos un spontānā sabiedriskā priekā.",
+      ru: "В беспрецедентном шаге по продвижению физической активности и увеличению взаимодействия пешеходов, парламент Латвии во вторник принял законопроект, который предписывает преобразование всех пешеходных переходов в интерактивные сетки для классиков. Законодатели прогнозируют 200% рост смеха и спонтанной общественной радости."
+    },
+    fullContent: {
+      en: `In a historic session that left many additional vocational skills unsupervised, the Latvian Parliament voted overwhelmingly in favor of a bill designed to transform all crosswalks in Latvia into government-approved hopscotch grids. The legislation, dubbed 'Operation Jump for Joy', passed the Saeima by a margin so wide even local public opinion felt compelled to leap in solidarity.
+
+The initiative is the brainchild of Juris Spiikins, the Parliamentary Deputy of Whimsical Public Projects, who insists the hopscotch crosswalks will foster a sense of community not seen since the nationwide 'Let's Hug a Stranger' Day was launched to modest confusion in 2018. Spiikins, famous for his belief that 'exercise is just smiling in motion', described the project as 'a delightful blend of health and hilarity'.
+
+'Imagine, if you can, the pure joy on the faces of Riga's morning commuters as they pause for a brief moment of child-like pleasure in the middle of their routine rush to meet Excel spreadsheets,' mused Spiikins during the proposal's presentation. 'It's not just a crosswalk; it's a rebellion against the mundane.'
+
+Economic analysts predict that the manufacturing of government-compliant hopscotch grids could result in a 15% boost to the local chalk industry, with shares in RJ Chalkworks already leaping 30% since the announcement. 'This is nothing short of a miracle for us,' said Ardis Kriduks, CEO of RJ Chalkworks. 'We haven't seen business like this since we briefly considered exporting our chalk to Djibouti.'
+
+Despite its apparent popularity, the initiative has not been without its critics. Dace Grimuzis, a senior urban planner in Riga known for his serious disposition and love of strictly adhering to Danish urban guidelines, warned that 'introducing hopscotch could lead to increased congestion as pedestrians loll about, trying to perfect their reverse hop at inconvenient intersections.'
+
+But for every skeptic, there are scores of enthusiastic citizens ready to embrace the chaos. 'I can't wait! Finally, my daily routine will become an adventure!' exclaimed Elza Askiits, a librarian from Daugavpils, who was seen practicing her hops in anticipation. 'I've already started increasing my morning coffee consumption to match my expected energy output.'
+
+Elderly Latvians, bravely clinging to their electric scooters, have reportedly formed competitive leagues, naming themselves the 'Elderly Extremes' and citing this as the best opportunity since the introduction of bingo-based parking permits.
+
+The Ministry of Transport, seemingly blindsided by the popular approval, is now scrambling to develop new signage that adequately describes the obligatory patterns found at crosswalks, lest international tourists find themselves inexplicably leaping into oncoming traffic.
+
+Meanwhile, Spiikins remains undaunted by any challenges. 'I'm convinced that if we can make Latvia's crosswalks a playful spectacle, we might just convince the world to view us as more than exports of chocolate and beautiful women,' he declared with a hopeful nod.
+
+With implementation scheduled to begin in spring 2024, Latvia awaits to see if the experiment in viral play will indeed result in a nation more active, more connected, and ultimately, more joyful. As for now, pedestrians are advised to wait patiently at their customary crosswalks, whilst practicing their hops in icy supermarkets and otherwise grim cafeterias.`,
+      lv: `Vēsturiskā sesijā, kas atstāja daudzus papildu profesionālos prasmju uzraudzības bez uzraudzības, Latvijas Parlaments ar lielu balsu vairākumu nobalsoja par likumprojektu, kas paredz visu gājēju pāreju Latvijā pārveidošanu par valdības apstiprinātiem klasīšu laukumiem. Likumdošana, kas nosaukta par 'Operāciju Lec Priekā', Saeimā tika pieņemta ar tik plašu balsu pārsvaru, ka pat vietējā sabiedriskā doma jutās spiesta lekt solidaritātē.
+
+Iniciatīvas autors ir Juris Spiikins, Parlamenta Dīvaino Sabiedrisko Projektu vietnieks, kurš uzstāj, ka klasīšu pārejas veicinās kopienas sajūtu, kāda nav redzēta kopš nacionālās 'Apskauj Svešinieku' dienas, kas tika uzsākta ar nelielu apjukumu 2018. gadā. Spiikins, slavens ar savu uzskatu, ka 'vingrošana ir tikai smaids kustībā', aprakstīja projektu kā 'jauku veselības un jautrības sajaukumu'.
+
+'Iedomājieties, ja varat, tīro prieku Rīgas rīta braucēju sejās, kad viņi uz brīdi apstājas bērnišķīgā priekā savā ikdienas skrējienā, lai satiktu Excel tabulas,' prātoja Spiikins priekšlikuma prezentācijas laikā. 'Tas nav tikai gājēju pāreja; tas ir sacelšanās pret ikdienišķo.'
+
+Ekonomikas analītiķi prognozē, ka valdības apstiprināto klasīšu laukumu ražošana varētu radīt 15% pieaugumu vietējā krīta rūpniecībā, un RJ Chalkworks akcijas jau ir pieaugušas par 30% kopš paziņojuma. 'Tas mums ir īsts brīnums,' sacīja Ardis Kriduks, RJ Chalkworks izpilddirektors. 'Mēs neesam redzējuši tādu biznesu kopš brīža, kad īslaicīgi apsvērām iespēju eksportēt savu krītu uz Džibutiju.'
+
+Neskatoties uz acīmredzamo popularitāti, iniciatīvai ir arī kritiķi. Dace Grimuzis, Rīgas vecākais pilsētplānotājs, kurš pazīstams ar savu nopietno attieksmi un mīlestību pret stingru Dānijas pilsētplānošanas vadlīniju ievērošanu, brīdināja, ka 'klasīšu ieviešana var izraisīt palielinātu sastrēgumu, jo gājēji kavējas, cenšoties pilnveidot savu atpakaļlecošo soli neērtās krustojumos.'
+
+Bet katram skeptiķim ir desmitiem entuziastisku pilsoņu, kas gatavi pieņemt haosu. 'Es nevaru sagaidīt! Beidzot mana ikdienas rutīna kļūs par piedzīvojumu!' izsaucās Elza Askiits, bibliotekāre no Daugavpils, kura tika redzēta, praktizējot savus lēcienus gaidās. 'Es jau sāku palielināt savu rīta kafijas patēriņu, lai atbilstu manam gaidāmajam enerģijas patēriņam.'
+
+Vecāka gadagājuma latvieši, drosmīgi pieķeroties saviem elektriskajiem skrejriteņiem, ziņots, ka izveidojuši konkurētspējīgas līgas, nosaucot sevi par 'Vecāka Gadagājuma Ekstrēmiem' un norādot, ka tas ir labākais iespējas kopš bingo balstītu stāvvietu atļauju ieviešanas.
+
+Satiksmes ministrija, šķietami pārsteigta par populāro atbalstu, tagad steidz izstrādāt jaunas zīmes, kas pienācīgi apraksta obligātos rakstus gājēju pārejās, lai starptautiskie tūristi neatrastos neizskaidrojami lecot pretim satiksmei.
+
+Tikmēr Spiikins paliek neapšaubāms par jebkādām izaicinājumiem. 'Es esmu pārliecināts, ka, ja mēs varam padarīt Latvijas gājēju pārejas par rotaļīgu izrādi, mēs varētu pārliecināt pasauli mūs uzskatīt par vairāk nekā šokolādes un skaistu sieviešu eksportētājiem,' viņš paziņoja ar cerīgu galvas mājienu.
+
+Ar ieviešanu, kas plānota sākties 2024. gada pavasarī, Latvija gaida, lai redzētu, vai eksperiments ar vīrusu rotaļām patiešām radīs aktīvāku, saistītāku un galu galā priecīgāku nāciju. Pašlaik gājējiem ieteicams pacietīgi gaidīt savās ierastajās gājēju pārejās, vienlaikus praktizējot savus lēcienus ledainos lielveikalos un citādi drūmās kafejnīcās.`,
+      ru: `На исторической сессии, оставившей многие дополнительные профессиональные навыки без присмотра, парламент Латвии подавляющим большинством голосов принял законопроект, направленный на преобразование всех пешеходных переходов в Латвии в сетки для классиков, одобренные правительством. Законодательство, названное 'Операция Прыжок от Радости', прошло Сейм с таким широким отрывом, что даже местное общественное мнение почувствовало необходимость прыгнуть в знак солидарности.
+
+Инициатива является детищем Юриса Спийкинса, заместителя парламента по причудливым общественным проектам, который настаивает, что пешеходные переходы-классики будут способствовать чувству общности, невиданному с тех пор, как в 2018 году был запущен национальный День 'Обними Незнакомца', вызвавший умеренное замешательство. Спийкинс, известный своей верой в то, что 'упражнения — это просто улыбка в движении', описал проект как 'восхитительное сочетание здоровья и веселья'.
+
+'Представьте себе, если сможете, чистую радость на лицах рижских утренних пассажиров, когда они на мгновение остановятся для детского удовольствия посреди своей рутинной спешки на встречу с Excel-таблицами,' размышлял Спийкинс во время презентации предложения. 'Это не просто пешеходный переход; это бунт против обыденности.'
+
+Экономические аналитики прогнозируют, что производство сеток для классиков, соответствующих требованиям правительства, может привести к 15% росту местной меловой индустрии, при этом акции RJ Chalkworks уже подскочили на 30% с момента объявления. 'Это не что иное, как чудо для нас,' сказал Ардис Кридукс, генеральный директор RJ Chalkworks. 'Мы не видели такого бизнеса с тех пор, как кратко рассматривали возможность экспорта нашего мела в Джибути.'
+
+Несмотря на очевидную популярность, инициатива не обошлась без критиков. Даце Гримузис, старший городской планировщик в Риге, известный своим серьезным отношением и любовью к строгому соблюдению датских городских руководств, предупредил, что 'введение классиков может привести к увеличению заторов, так как пешеходы будут лениво пытаться совершенствовать свои обратные прыжки на неудобных перекрестках.'
+
+Но на каждого скептика приходится множество энтузиастов, готовых принять хаос. 'Не могу дождаться! Наконец-то моя повседневная рутина станет приключением!' воскликнула Элза Аскитс, библиотекарь из Даугавпилса, которую видели, как она практиковала свои прыжки в ожидании. 'Я уже начала увеличивать потребление утреннего кофе, чтобы соответствовать ожидаемой энергии.'
+
+Пожилые латвийцы, смело цепляющиеся за свои электрические скутеры, якобы сформировали соревновательные лиги, назвав себя 'Пожилые Экстремалы' и называя это лучшей возможностью с момента введения парковочных разрешений на основе бинго.
+
+Министерство транспорта, казалось бы, ошеломленное популярным одобрением, теперь лихорадочно разрабатывает новые знаки, которые адекватно описывают обязательные узоры на пешеходных переходах, чтобы международные туристы не оказались необъяснимо прыгающими в движущийся транспорт.
+
+Между тем, Спийкинс остается неустрашимым перед любыми вызовами. 'Я убежден, что если мы сможем сделать пешеходные переходы Латвии игривым зрелищем, мы, возможно, убедим мир видеть нас не только как экспортеров шоколада и красивых женщин,' заявил он с надеждой.
+
+С реализацией, запланированной на весну 2024 года, Латвия ждет, чтобы увидеть, приведет ли эксперимент с вирусной игрой к более активной, более связанной и в конечном итоге более радостной нации. Пока что пешеходам рекомендуется терпеливо ждать на своих обычных пешеходных переходах, практикуя свои прыжки в ледяных супермаркетах и мрачных кафетериях.`
+    },
+    date: "Dec 6, 2025",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 20,
     slug: "riga-launches-new-traffic-light-appreciation",
     title: {
@@ -89,7 +170,7 @@ Kā entuziastiski autovadītāji neizbēgami dodas ielās ar gaidām, nākamās 
     readTime: "6 min read",
     imageUrl: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&h=600&fit=crop",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 19,
