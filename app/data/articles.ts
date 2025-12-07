@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 22,
+    slug: "latvia-introduces-new-brvbas-kilometers-to",
+    title: {
+      en: "Latvia Introduces New 'Brīvības Kilometers' to Combat Traffic Congestion and Existential Dread",
+      lv: "Latvija ievieš jauno 'Brīvības Kilometru', lai cīnītos ar satiksmes sastrēgumiem un eksistenciālo trauksmi",
+      ru: "Латвия вводит новый 'Километр Свободы' для борьбы с дорожными пробками и экзистенциальной тоской"
+    },
+    excerpt: {
+      en: "The Latvian government has announced an innovative plan to tackle traffic congestion in Riga by implementing the Golden Brīvības Kilometer—a sacred stretch of highway where no cars are allowed, only deep existential contemplation.",
+      lv: "Latvijas valdība ir paziņojusi par inovatīvu plānu, lai risinātu satiksmes sastrēgumus Rīgā, ieviešot Zelta Brīvības Kilometru—svētu ceļa posmu, kurā nav atļautas automašīnas, tikai dziļa eksistenciāla pārdomāšana.",
+      ru: "Латвийское правительство объявило об инновационном плане по борьбе с дорожными пробками в Риге, внедрив Золотой Километр Свободы — священный участок шоссе, где запрещены автомобили, но разрешены глубокие экзистенциальные размышления."
+    },
+    fullContent: {
+      en: `In an unprecedented move, the Latvian Ministry of Existential Affairs, in collaboration with the Riga Urban Development Board and local philosophy enthusiasts, has unveiled a pioneering initiative known as the 'Brīvības Kilometer'. This new traffic reduction plan is set to redefine mobility and urban existentialism, all while introducing a new form of serenity-seeking road-use that officials claim could make Latvia the 'Yoga Retreat of the Baltic'.
+
+The Brīvības Kilometer will be a one-kilometer stretch of highway strategically located during the peak rush hour crawl through the Purvciems district. "We believe this Kilometer will not only alleviate congestion but provide an essential space for reflective contemplation," announced Karlis Ziverts, an official spokesperson for the project. "Drivers will be required to park their cars at designated lots and walk contemplatively, or sit peacefully, while pondering existential questions such as the meaning of life, why we choose to suffer through morning traffic, or even simpler musings like where one’s socks disappear."
+
+A recent government study revealed that during rush hours, Riga’s residents spend approximately 152 hours per year stuck in traffic. "That’s almost enough time to read War and Peace or learn the basics of Ancient Greek," lamented Ilze Poga, a cultural analyst and self-taught philosopher. "Instead of fuming behind the wheel, imagine using that time to unfold the meaning of nature, love, or even contemplate the true meaning behind Latvia’s national dish of grey peas with bacon."
+
+As expected, this concept has attracted excitement and skepticism in equal measure. Local taxi driver and renowned critic of pavement philosophy, Jānis Balodis, expressed his enthusiastic skepticism: "I think it’s great! Except for the part where it doesn’t make any sense. How am I supposed to eat my second breakfast virzienā uz centru (towards the center)? Also, imagine the logistical nightmare of explaining this to tourists."
+
+In response to such critiques, the Ministry plans to issue a comprehensive guide to Baltic contemplation practices and offer free guided tours of the Kilometer through VR headsets for those who wish to experience it without the inconvenience of leaving their home or vehicle.
+
+Riga Mayor Mārtiņš Staķis is optimistic about the project. "We are putting ourselves on the map as the pioneers of urban mindfulness," he said. "Sure, we could plant more trees or build bigger roads, but other cities have tried that. Have they considered a one-kilometer oasis of thought?"
+
+International attention has been swift, as culturally mindful Latvian cousins Estonia and Lithuania are observing carefully. Rumors are afloat that Vilnius might be considering a 'Māras Mile', while Tallinn is reportedly crafting plans for the 'Nõmmeyönne Yard', both catering to that unique Baltic blend of skepticism and idealism.
+
+In conclusion, whether the Brīvības Kilometer will evolve into a traffic-alleviating utopia or become Riga's most ambitious and misunderstood project remains to be seen. It certainly promises to transform the mundane act of traveling into a poignant pilgrimage through Latvia's psyche, one stop-and-go moment at a time. Until then, Latvians are encouraged to keep their minds as open as the road promises to be free.`,
+      lv: `Nepieredzētā solī Latvijas Eksistenciālo Lietu Ministrija, sadarbojoties ar Rīgas Pilsētas Attīstības Padomi un vietējiem filozofijas entuziastiem, ir atklājusi novatorisku iniciatīvu, kas pazīstama kā 'Brīvības Kilometrs'. Šis jaunais satiksmes samazināšanas plāns ir paredzēts, lai pārdefinētu mobilitāti un pilsētas eksistenciālismu, vienlaikus ieviešot jaunu ceļu izmantošanas formu, kas, pēc amatpersonu domām, varētu padarīt Latviju par 'Baltijas jogas retrītu'.
+
+Brīvības Kilometrs būs viens kilometrs garš ceļa posms, kas stratēģiski izvietots Purvciema rajonā, kad satiksme ir visintensīvākā. "Mēs uzskatām, ka šis Kilometrs ne tikai mazinās sastrēgumus, bet arī nodrošinās būtisku telpu pārdomām," paziņoja projekta oficiālais pārstāvis Kārlis Zīverts. "Autovadītājiem būs jānovieto savas automašīnas norādītajās stāvvietās un jāpārvietojas pārdomāti vai jāapsēžas mierīgi, lai pārdomātu eksistenciālus jautājumus, piemēram, dzīves jēgu, kāpēc mēs izvēlamies ciest cauri rīta satiksmei, vai pat vienkāršākas pārdomas, piemēram, kur pazūd zeķes."
+
+Nesen veikts valdības pētījums atklāja, ka Rīgas iedzīvotāji sastrēgumu laikā gadā pavada aptuveni 152 stundas. "Tas ir gandrīz pietiekami, lai izlasītu 'Karš un miers' vai apgūtu senās grieķu valodas pamatus," sūdzējās kultūras analītiķe un pašmācības filozofe Ilze Poga. "Tā vietā, lai dusmotos pie stūres, iedomājieties, ka šo laiku varētu izmantot, lai atklātu dabas, mīlestības nozīmi vai pat pārdomātu patieso nozīmi aiz Latvijas nacionālā ēdiena—pelēkajiem zirņiem ar speķi."
+
+Kā jau gaidīts, šis koncepts ir izraisījis gan sajūsmu, gan skepsi. Vietējais taksometra vadītājs un pazīstams trotuāra filozofijas kritiķis Jānis Balodis izteica savu entuziasmu skeptiski: "Es domāju, ka tas ir lieliski! Izņemot to daļu, kurai nav nekādas jēgas. Kā es varu ēst savu otro brokastu virzienā uz centru? Turklāt, iedomājieties loģistikas murgu, skaidrojot to tūristiem."
+
+Atbildot uz šādām kritikām, ministrija plāno izdot visaptverošu ceļvedi par Baltijas pārdomu praksēm un piedāvāt bezmaksas ekskursijas pa Kilometru ar VR brillēm tiem, kas vēlas to izbaudīt, neizejot no mājām vai automašīnas.
+
+Rīgas mērs Mārtiņš Staķis ir optimistisks par projektu. "Mēs liekam sevi uz kartes kā pilsētas apzinātības pionieri," viņš teica. "Protams, mēs varētu stādīt vairāk koku vai būvēt lielākus ceļus, bet citas pilsētas to jau ir mēģinājušas. Vai viņi ir apsvēruši vienu kilometru ilgu pārdomu oāzi?"
+
+Starptautiskā uzmanība ir bijusi ātra, jo kultūras ziņā apzinīgās Latvijas māsas Igaunija un Lietuva uzmanīgi vēro. Klīst baumas, ka Viļņa varētu apsvērt 'Māras Mili', savukārt Tallina, iespējams, izstrādā plānus 'Nõmmeyönne Pagalmam', kas abi apmierina unikālo Baltijas skepses un ideālisma sajaukumu.
+
+Noslēgumā, vai Brīvības Kilometrs kļūs par satiksmes mazināšanas utopiju vai Rīgas visambiciozāko un pārprasto projektu, vēl ir redzams. Tas noteikti sola pārvērst ikdienišķo ceļošanu par nozīmīgu svētceļojumu cauri Latvijas psiholoģijai, vienā stop-and-go brīdī. Līdz tam latvieši tiek aicināti turēt prātus tikpat atvērtus, kā ceļš sola būt brīvs.`,
+      ru: `В беспрецедентном шаге Министерство экзистенциальных дел Латвии, в сотрудничестве с Рижским советом по городскому развитию и местными энтузиастами философии, представило новаторскую инициативу под названием 'Километр Свободы'. Этот новый план по сокращению трафика призван переосмыслить мобильность и городской экзистенциализм, одновременно вводя новую форму использования дорог для поиска спокойствия, которую официальные лица утверждают, может сделать Латвию 'Йога-ретритом Балтики'.
+
+Километр Свободы будет представлять собой участок шоссе длиной в один километр, стратегически расположенный во время пиковых часов пробок через район Пурвциемс. "Мы считаем, что этот Километр не только уменьшит пробки, но и предоставит важное пространство для размышлений," объявил Карлис Живертс, официальный представитель проекта. "Водители будут обязаны парковать свои автомобили на специально отведенных стоянках и идти созерцательно, или сидеть спокойно, размышляя над экзистенциальными вопросами, такими как смысл жизни, почему мы выбираем страдать в утренних пробках, или даже более простыми мыслями, например, куда исчезают носки."
+
+Недавнее правительственное исследование показало, что в часы пик жители Риги проводят в пробках примерно 152 часа в год. "Это почти достаточно времени, чтобы прочитать 'Войну и мир' или выучить основы древнегреческого," посетовала Илзе Пога, культурный аналитик и самоучка-философ. "Вместо того чтобы кипеть за рулем, представьте, что можно использовать это время, чтобы раскрыть смысл природы, любви или даже поразмышлять над истинным значением национального блюда Латвии — серых горохов с беконом."
+
+Как и ожидалось, эта концепция вызвала равное количество восторга и скептицизма. Местный таксист и известный критик тротуарной философии, Янис Балодис, выразил свой восторженный скептицизм: "Я думаю, это здорово! Кроме той части, где это не имеет никакого смысла. Как я должен есть свой второй завтрак virzienā uz centru (по направлению к центру)? Также представьте себе логистический кошмар объяснения этого туристам."
+
+В ответ на такие критики Министерство планирует выпустить всеобъемлющее руководство по балтийским практикам созерцания и предложить бесплатные экскурсии по Километру через VR-гарнитуры для тех, кто хочет испытать это без неудобств, связанных с выходом из дома или автомобиля.
+
+Мэр Риги Мартиньш Стакис оптимистично настроен по поводу проекта. "Мы ставим себя на карту как пионеры городского осознанности," сказал он. "Конечно, мы могли бы посадить больше деревьев или построить более широкие дороги, но другие города уже пробовали это. Рассматривали ли они оазис мысли длиной в один километр?"
+
+Международное внимание было быстрым, поскольку культурно осознанные латвийские кузены Эстония и Литва внимательно наблюдают. Ходят слухи, что Вильнюс может рассматривать 'Милю Мары', в то время как Таллин reportedly разрабатывает планы для 'Номмейонне Ярд', оба обслуживающие уникальную балтийскую смесь скептицизма и идеализма.
+
+В заключение, станет ли Километр Свободы утопией, облегчающей движение, или самым амбициозным и непонятым проектом Риги, еще предстоит увидеть. Он, безусловно, обещает превратить обыденный акт путешествия в значительное паломничество через психику Латвии, момент за моментом. До тех пор латвийцам рекомендуется держать свои умы такими же открытыми, как дорога обещает быть свободной.`
+    },
+    date: "Dec 7, 2025",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 21,
     slug: "latvian-parliament-launches-national-initiative-to",
     title: {
@@ -95,7 +164,7 @@ Ar ieviešanu, kas plānota sākties 2024. gada pavasarī, Latvija gaida, lai re
     readTime: "5 min read",
     imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 20,
