@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 24,
+    slug: "latvia-introduces-national-initiative-to-rehabilitate",
+    title: {
+      en: "Latvia Introduces National Initiative to Rehabilitate Seagulls Addicted to French Fries",
+      lv: "Latvija ievieš nacionālo iniciatīvu kaiju rehabilitācijai no atkarības no frī kartupeļiem",
+      ru: "Латвия вводит национальную инициативу по реабилитации чаек, зависимых от картофеля фри"
+    },
+    excerpt: {
+      en: "In a groundbreaking effort, Latvia has launched a nationwide program aimed at ending the growing epidemic of seagulls addicted to French fries. The initiative, backed by ornithologists and fast food cashiers alike, marks a new era of culinary reformation for the country’s avian population.",
+      lv: "Latvija ir uzsākusi nacionālu programmu, lai izbeigtu pieaugošo epidēmiju, kurā kaijas kļūst atkarīgas no frī kartupeļiem. Iniciatīva, kuru atbalsta gan ornitologi, gan ātrās ēdināšanas kasieri, iezīmē jaunu ēdināšanas reformu ēru valsts putnu populācijai.",
+      ru: "В беспрецедентной попытке Латвия запустила общенациональную программу, направленную на прекращение растущей эпидемии чаек, зависимых от картофеля фри. Инициатива, поддержанная орнитологами и кассирами фастфуда, знаменует новую эру кулинарной реформы для птичьего населения страны."
+    },
+    fullContent: {
+      en: `Riga, Latvia - In an unprecedented move, the Latvian Ministry of Environmental Abnormalities has unveiled a comprehensive plan to address the alarming addiction threatening the nation's seagulls: a rampant dependency on street-vendor French fries. According to immensely unreliable statistics, 93.6% of Latvian seagulls have developed a peculiar penchant for the potato-based delicacy, thus raising concerns about nutrition and sky-high cholesterol levels.
+
+Dubbed 'Operation Freedom Fry', the initiative seeks to replace the beloved French fries with a healthier alternative: boiled potatoes seasoned with dill. Ruta Sniega, a spokesperson for the Ministry, explained, "We realized that while seagulls have impeccable taste, their excessive craving for fried food leads to a plummeting efficacy in their more traditional roles, like stealing ice cream from tourists."
+
+As part of the pilot program launched in Jurmala, local residents have reported mixed results. "I saw a seagull flying away in utter disdain after tasting the boiled potato," observed Iveta Piladzis, a kiosk owner by day and seagull rehabilitation volunteer by night. "It dropped the potato right back onto my lap, but hey, progress takes time!"
+
+Meanwhile, support groups have emerged in Riga's Old Town to aid seagulls through their struggles. Here, affected birds gather around tiny tables, sharing anecdotes from their deep-fried days. "We must remind them of their historic roots," said Dr. Zigmunds Gaidis, a self-proclaimed bird whisperer. "Seagulls once thrived on fish and Widows of Sailors Festival leftovers. We must bring them back to those nourishing foundations."
+
+Yet not everyone is supportive of this avian intervention. Employees of Riga's prominent fast food outlets have filed a petition against the seagull rehab program, fearing a drop in clientele.
+
+"They're our biggest customers after the teenagers who skip school," explained Janis Cacku, a cashier at FryLand. "This initiative could plunge us into a deep-fry crisis. We're already seeing seagulls scrounging for half-eaten burgers instead of their usual FryNest boxes."
+
+Despite dissenters, Operation Freedom Fry appears to be taking flight in regions where sea birds are transitioning smoothly to the alternative diet. "It's a small step for seagulls, but a giant leap for the wellness of Latvian birdlife," Ruta Sniega reiterated during a recent televised address, with a live audience of bemused pigeons.
+
+Critics are quick to point out that while Operation Freedom Fry may strive to detoxify the seagulls of Latvia, the local raccoon population seems rather disillusioned, as their own half-eaten French fry treasures appear to dwindle.
+
+With thousands of seagulls ignoring their first healthy meal, the Latvian Ministry remains optimistic, stating that this arrogant reaction is simply part of the process. The government pledges that by 2025, all seagulls will have phased out their dependency entirely, enjoying a luxurious and elongated lifespan, soaring gracefully over former fryland territories.
+
+At the heart of it, Latvia's campaign is about more than just food reform; it's about giving the seagulls a second chance at discovering the simple pleasures of Latvian cuisine, minus the excess oil. Only time will tell whether this altruistic endeavor will meet its feathered potential.`,
+      lv: `Rīga, Latvija - Nepieredzētā solī Latvijas Vides anomāliju ministrija ir atklājusi visaptverošu plānu, lai risinātu satraucošo atkarību, kas apdraud valsts kaijas: nekontrolētu atkarību no ielu tirgotāju frī kartupeļiem. Saskaņā ar ārkārtīgi neuzticamiem statistikas datiem, 93,6% Latvijas kaiju ir izveidojušās dīvainas tieksmes pēc kartupeļu delikateses, tādējādi radot bažas par uzturu un augstiem holesterīna līmeņiem debesīs.
+
+Nosaukta par 'Operāciju Brīvības Frī', iniciatīva cenšas aizstāt iemīļotos frī kartupeļus ar veselīgāku alternatīvu: vārītiem kartupeļiem ar dillēm. Ruta Sniega, ministrijas pārstāve, skaidroja: "Mēs sapratām, ka, lai gan kaijām ir nevainojama gaume, to pārmērīgā tieksme pēc ceptiem ēdieniem noved pie efektivitātes krituma to tradicionālajās lomās, piemēram, saldējuma zagšanā no tūristiem."
+
+Kā daļa no pilotprogrammas, kas uzsākta Jūrmalā, vietējie iedzīvotāji ziņo par jauktiem rezultātiem. "Es redzēju kaiju, kas aizlidoja ar pilnīgu nicinājumu pēc vārīta kartupeļa nogaršošanas," novēroja Iveta Pīlādzis, kioska īpašniece dienā un kaiju rehabilitācijas brīvprātīgā naktī. "Tā nometa kartupeli atpakaļ man klēpī, bet, hei, progress prasa laiku!"
+
+Tikmēr Rīgas Vecrīgā ir izveidojušās atbalsta grupas, lai palīdzētu kaijām pārvarēt grūtības. Šeit ietekmētie putni pulcējas ap mazajiem galdiņiem, daloties anekdotēs no savām ceptajām dienām. "Mums jāatgādina viņiem par viņu vēsturiskajām saknēm," teica Dr. Zigmunds Gaidis, pašpasludināts putnu čukstētājs. "Kaijas reiz plauka uz zivīm un Jūrnieku atraitņu festivāla pārpalikumiem. Mums tās jāatgriež pie šīm barojošajām saknēm."
+
+Tomēr ne visi atbalsta šo putnu iejaukšanos. Rīgas ievērojamo ātrās ēdināšanas vietu darbinieki ir iesnieguši petīciju pret kaiju rehabilitācijas programmu, baidoties no klientu samazināšanās.
+
+"Viņi ir mūsu lielākie klienti pēc pusaudžiem, kas izlaida skolu," skaidroja Jānis Čakšu, FryLand kasieris. "Šī iniciatīva varētu mūs iedzīt dziļā frī krīzē. Mēs jau redzam, ka kaijas meklē puspabeigtus burgerus, nevis savus parastos FryNest kastītes."
+
+Neskatoties uz pretiniekiem, Operācija Brīvības Frī šķiet, ka uzņem apgriezienus reģionos, kur jūras putni veiksmīgi pāriet uz alternatīvo diētu. "Tas ir mazs solis kaijām, bet milzīgs lēciens Latvijas putnu dzīves labklājībai," Ruta Sniega atkārtoja nesenā televīzijas uzrunā, ar dzīvu auditoriju, kas sastāvēja no apmulsušiem baložiem.
+
+Kritiķi ātri norāda, ka, lai gan Operācija Brīvības Frī var censties detoksicēt Latvijas kaijas, vietējā jenotu populācija šķiet diezgan vīlusies, jo to pašu puspabeigto frī kartupeļu dārgumi šķiet izzūdam.
+
+Ar tūkstošiem kaiju, kas ignorē savu pirmo veselīgo maltīti, Latvijas ministrija paliek optimistiska, norādot, ka šī augstprātīgā reakcija ir vienkārši daļa no procesa. Valdība sola, ka līdz 2025. gadam visas kaijas būs pilnībā atbrīvojušās no atkarības, baudot greznu un pagarinātu mūžu, eleganti lidojot pāri bijušajām frī zemēm.
+
+Galu galā, Latvijas kampaņa ir par vairāk nekā tikai ēdiena reformu; tā ir par iespēju dot kaijām otro iespēju atklāt vienkāršos Latvijas virtuves priekus, bez liekās eļļas. Tikai laiks rādīs, vai šis altruistiskais centiens sasniegs savu spalvaino potenciālu.`,
+      ru: `Рига, Латвия - В беспрецедентном шаге Министерство экологических аномалий Латвии представило комплексный план по решению тревожной зависимости, угрожающей чайкам страны: повсеместной зависимости от картофеля фри у уличных торговцев. Согласно крайне ненадежной статистике, 93,6% латвийских чаек развили странную склонность к этому картофельному лакомству, что вызывает опасения по поводу питания и заоблачного уровня холестерина.
+
+Названная 'Операция Свобода Фри', инициатива стремится заменить любимый картофель фри более здоровой альтернативой: вареным картофелем с укропом. Рута Сниега, представитель министерства, объяснила: "Мы поняли, что хотя у чаек безупречный вкус, их чрезмерная тяга к жареной пище приводит к резкому снижению эффективности в их более традиционных ролях, таких как кража мороженого у туристов".
+
+В рамках пилотной программы, запущенной в Юрмале, местные жители сообщили о смешанных результатах. "Я видела, как чайка улетела с полным презрением после того, как попробовала вареный картофель," заметила Ивета Пиладзис, владелица киоска днем и волонтер по реабилитации чаек ночью. "Она бросила картошку прямо мне на колени, но, эй, прогресс требует времени!"
+
+Тем временем в Старом городе Риги появились группы поддержки, чтобы помочь чайкам в их борьбе. Здесь пострадавшие птицы собираются за крошечными столиками, делясь анекдотами из своих дней, проведенных в жареном масле. "Мы должны напомнить им об их исторических корнях," сказал доктор Зигмундс Гайдис, самопровозглашенный шептун птиц. "Чайки когда-то процветали на рыбе и остатках с Фестиваля вдов моряков. Мы должны вернуть их к этим питательным основам."
+
+Однако не все поддерживают это вмешательство в жизнь птиц. Сотрудники известных рижских заведений быстрого питания подали петицию против программы реабилитации чаек, опасаясь падения клиентуры.
+
+"Они наши крупнейшие клиенты после подростков, которые прогуливают школу," объяснил Янис Цакку, кассир в FryLand. "Эта инициатива может погрузить нас в кризис глубокого фри. Мы уже видим, как чайки ищут наполовину съеденные бургеры вместо своих обычных коробок FryNest."
+
+Несмотря на несогласных, Операция Свобода Фри, похоже, набирает обороты в регионах, где морские птицы плавно переходят на альтернативную диету. "Это маленький шаг для чаек, но гигантский скачок для благополучия латвийской птичьей жизни," повторила Рута Сниега в недавнем телевизионном обращении, с живой аудиторией из озадаченных голубей.
+
+Критики быстро указывают, что хотя Операция Свобода Фри может стремиться избавить чаек Латвии от зависимости, местная популяция енотов кажется несколько разочарованной, так как их собственные наполовину съеденные сокровища из картофеля фри, похоже, уменьшаются.
+
+С тысячами чаек, игнорирующими свою первую здоровую трапезу, латвийское министерство остается оптимистичным, заявляя, что эта высокомерная реакция - просто часть процесса. Правительство обещает, что к 2025 году все чайки полностью избавятся от своей зависимости, наслаждаясь роскошной и удлиненной продолжительностью жизни, грациозно паря над бывшими территориями фри.
+
+В основе кампании Латвии лежит не только реформа питания; это о предоставлении чайкам второго шанса открыть для себя простые удовольствия латвийской кухни, без излишков масла. Только время покажет, достигнет ли это альтруистическое начинание своего пернатого потенциала.`
+    },
+    date: "Dec 9, 2025",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 23,
     slug: "latvian-government-implements-daily-silent-hour",
     title: {
@@ -89,7 +170,7 @@ Savā atvadu vārdos ministre Dreimane skumji ieteica Klusuma Stundas praktizēt
     readTime: "6 min read",
     imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 22,
