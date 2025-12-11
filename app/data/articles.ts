@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 26,
+    slug: "latvia-unveils-plans-for-worlds-first",
+    title: {
+      en: "Latvia Unveils Plans for World's First Glow-in-the-Dark Forest to Attract 'Photosynthesis Tourists'",
+      lv: "Latvija Atklāj Plānus Pasaulē Pirmajam Tumsā Spīdošajam Mežam, Lai Piesaistītu 'Fotosintēzes Tūristus'",
+      ru: "Латвия представляет планы по созданию первого в мире светящегося в темноте леса для привлечения 'фотосинтезных туристов'"
+    },
+    excerpt: {
+      en: "In a bid to revolutionize eco-tourism, the Latvian Ministry of Natural Development announced an ambitious new project: a glow-in-the-dark forest. Officials believe the luminescent trees will draw 'photosynthesis tourists' who prefer nature with a dash of neon flair.",
+      lv: "Lai revolucionizētu ekotūrismu, Latvijas Dabas Attīstības ministrija paziņoja par ambiciozu jaunu projektu: tumsā spīdošu mežu. Amatpersonas uzskata, ka luminiscējošie koki piesaistīs 'fotosintēzes tūristus', kuri dod priekšroku dabai ar neona piesitienu.",
+      ru: "В стремлении революционизировать экотуризм, Министерство природного развития Латвии объявило о амбициозном новом проекте: светящийся в темноте лес. Официальные лица считают, что светящиеся деревья привлекут 'фотосинтезных туристов', которые предпочитают природу с ноткой неонового блеска."
+    },
+    fullContent: {
+      en: `In a groundbreaking move that promises to illuminate Latvia's tourism sector, the Ministry of Natural Development has unveiled plans for the world's first glow-in-the-dark forest. The project, named 'Gaismas Birzs' or 'The Grove of Light', aims to position Latvia not only as a nature-lover's paradise but as the premiere destination for what officials are calling 'photosynthesis tourists' — a niche demographic enchanted by ecosystems that magically glow at night.
+
+Minister Aleksejs Zeltmanis enthusiastically presented the concept at a press conference, standing in front of an elaborate, phosphorescent green backdrop. 'Latvia is famed for its lush forests and untouched landscapes,' he said, while adjusting his fluorescent bow tie that matched the theme. 'But why stop at daytime enjoyment? With our revolutionary genetic illumination technology, visitors can bask in nature's beauty around the clock, experiencing hiking trails that do double duty as natural rave parties after dark.'
+
+The project proposes coating tree leaves and forest pathways with a special, eco-friendly luminescent substance derived from Baltic Sea plankton, paired with bioluminescent enhancements borrowed from local fireflies, known colloquially as 'nature's disco lights.' Scientists involved in the endeavor assured skeptical community leaders of the plan's sustainable credentials.
+
+Dr. Una Andersone, lead biotechnologist, explained, 'Our team has ensured that the bioluminescent properties do not affect the trees' health. On the contrary, early tests suggest that local fauna, particularly owls and insomniac badgers, are quite mesmerized by the lights. We've already observed a 37% increase in nocturnal social interactions among native species.'
+
+However, some opposition was inevitable. June Vasara, spokesperson for the Latvian Society of Traditional Tree Huggers, argued passionately against the project. 'Our forests have been here longer than any of our technologies,' she lamented. 'Trees are not just backdrops for trendy tourism innovations; they are sacred entities rightfully respected under the beam of sunlight, not ultraviolet strobe lights.'
+
+Nevertheless, the potential economic benefits have piqued the interest of several local municipalities, with hotel owners in the Jurmala region already preparing packages for what they expect will be an influx of nocturnal visitors sporting glow sticks and reusable glow paint.
+
+In a curious plot twist, the neighboring countries of Estonia and Lithuania have also expressed interest in Latvia's luminous landscape initiative. Sources in the Estonian Ministry of Exotic Projects leaked information about tentative plans for a similar initiative tentatively titled 'Twilight Tundra.'
+
+Meanwhile, tourism expert and self-proclaimed herbalist Maris Vespas sees nothing but potential. 'This is what Latvia needs right now,' he proclaimed, gesturing emphatically with a leaf-shaped laser pointer. 'The boring old experience of starry skies and moonlit walks is for the birds. Quite literally. With glow-in-the-dark forests, we uplift our wilderness to new heights — heights that just so happen to be visible from outer space.'
+
+As Latvia prays for an avalanche of curiosity-driven tourists, Minister Zeltmanis is optimistic. 'People from all over the world will visit, cameras in hand, to capture the awe-inspiring Technicolor trees of Latvia,' he declared. 'For some, it will be about the unique blend of nature and technology, for others, simply a chance to witness the most eco-friendly light show on the planet.' He paused, grinning. 'And yes, it's all sustainable — after all, everybody needs a little nightlight in their life.'`,
+      lv: `Pārsteidzošā solī, kas sola izgaismot Latvijas tūrisma nozari, Dabas Attīstības ministrija atklājusi plānus pasaulē pirmajam tumsā spīdošajam mežam. Projekts, nosaukts par 'Gaismas Birzi', mērķē pozicionēt Latviju ne tikai kā dabas mīļotāju paradīzi, bet arī kā galveno galamērķi tā sauktajiem 'fotosintēzes tūristiem' — nišas demogrāfijai, kuru apbur ekosistēmas, kas naktī maģiski spīd.
+
+Ministrs Aleksejs Zeltmanis entuziastiski prezentēja koncepciju preses konferencē, stāvot priekšā sarežģītam, fosforizējoši zaļam fonam. 'Latvija ir slavena ar saviem zaļajiem mežiem un neskartajām ainavām,' viņš teica, pielāgojot savu fluorescējošo tauriņu, kas atbilda tēmai. 'Bet kāpēc apstāties pie dienas baudījuma? Ar mūsu revolucionāro ģenētisko apgaismojuma tehnoloģiju apmeklētāji var baudīt dabas skaistumu visu diennakti, piedzīvojot pārgājienu takas, kas pēc tumsas iestāšanās pārvēršas par dabas reiva ballītēm.'
+
+Projekts piedāvā pārklāt koku lapas un meža takas ar īpašu, videi draudzīgu luminiscējošu vielu, kas iegūta no Baltijas jūras planktona, apvienojumā ar bioluminiscējošiem uzlabojumiem, aizgūtiem no vietējiem jāņtārpiņiem, kas pazīstami kā 'dabas disko gaismas'. Zinātnieki, kas iesaistīti projektā, apliecināja skeptiskajiem kopienas līderiem par plāna ilgtspējību.
+
+Dr. Una Andersone, vadošā biotehnoloģe, skaidroja: 'Mūsu komanda ir nodrošinājusi, ka bioluminiscējošās īpašības neietekmē koku veselību. Gluži pretēji, agrīnie testi liecina, ka vietējā fauna, īpaši pūces un bezmiega āpši, ir diezgan apburti ar gaismām. Mēs jau esam novērojuši 37% pieaugumu nakts sociālajās mijiedarbībās starp vietējām sugām.'
+
+Tomēr, kā jau bija paredzams, dažas iebildes bija neizbēgamas. Jūnija Vasara, Latvijas Tradicionālo Koku Apskāvēju biedrības pārstāve, kaislīgi iebilda pret projektu. 'Mūsu meži ir bijuši šeit ilgāk nekā jebkura no mūsu tehnoloģijām,' viņa sūdzējās. 'Koki nav tikai foni moderniem tūrisma jauninājumiem; tie ir svēti objekti, kas pelnījuši cieņu saules gaismā, nevis ultravioletās stroboskopu gaismās.'
+
+Tomēr potenciālie ekonomiskie ieguvumi ir piesaistījuši vairāku vietējo pašvaldību interesi, un viesnīcu īpašnieki Jūrmalas reģionā jau gatavo paketes, gaidot nakts apmeklētāju pieplūdumu ar spīdošiem kociņiem un atkārtoti lietojamām spīdošām krāsām.
+
+Interesantā sižeta pavērsienā kaimiņvalstis Igaunija un Lietuva arī izrādījušas interesi par Latvijas luminiscējošo ainavu iniciatīvu. Avoti Igaunijas Eksotisko Projektu ministrijā nopludinājuši informāciju par līdzīgu iniciatīvu, kas provizoriski nosaukta par 'Krēslas Tundru.'
+
+Tikmēr tūrisma eksperts un pašpasludināts zāļu speciālists Māris Vespas redz tikai potenciālu. 'Tas ir tieši tas, kas Latvijai šobrīd nepieciešams,' viņš paziņoja, izteikti žestikulējot ar lapas formas lāzera rādītāju. 'Garlaicīgā vecā pieredze ar zvaigžņotām debesīm un mēness apgaismotām pastaigām ir putniem. Burtiski. Ar tumsā spīdošiem mežiem mēs paceļam savu savvaļas dabu jaunā līmenī — līmenī, kas ir redzams pat no kosmosa.'
+
+Kamēr Latvija lūdz par ziņkārības vadītu tūristu lavīnu, ministrs Zeltmanis ir optimistisks. 'Cilvēki no visas pasaules apmeklēs, ar kamerām rokās, lai iemūžinātu elpu aizraujošos Latvijas tehnokrāsainos kokus,' viņš paziņoja. 'Dažiem tas būs par unikālo dabas un tehnoloģiju sajaukumu, citiem vienkārši iespēja redzēt visekoloģiskāko gaismas šovu uz planētas.' Viņš apstājās, smaidot. 'Un jā, tas viss ir ilgtspējīgs — galu galā, visiem ir nepieciešama neliela nakts gaismiņa dzīvē.'`,
+      ru: `В новаторском шаге, обещающем осветить туристический сектор Латвии, Министерство природного развития представило планы по созданию первого в мире светящегося в темноте леса. Проект, названный 'Gaismas Birzs' или 'Роща Света', нацелен на то, чтобы позиционировать Латвию не только как рай для любителей природы, но и как первоклассное направление для так называемых 'фотосинтезных туристов' — нишевой демографической группы, очарованной экосистемами, которые волшебно светятся ночью.
+
+Министр Алексей Зельтманис с энтузиазмом представил концепцию на пресс-конференции, стоя перед сложным фосфоресцирующим зеленым фоном. 'Латвия славится своими пышными лесами и нетронутыми ландшафтами,' сказал он, поправляя свой флуоресцентный галстук-бабочку, соответствующий теме. 'Но зачем останавливаться на дневном наслаждении? С нашей революционной генетической технологией освещения, посетители могут наслаждаться красотой природы круглосуточно, испытывая туристические тропы, которые выполняют двойную функцию как естественные рейв-вечеринки после наступления темноты.'
+
+Проект предлагает покрыть листья деревьев и лесные тропинки специальным, экологически чистым светящимся веществом, полученным из планктона Балтийского моря, в сочетании с биолюминесцентными улучшениями, заимствованными у местных светлячков, известных в народе как 'диско-светильники природы'. Ученые, участвующие в проекте, заверили скептически настроенных лидеров сообщества в устойчивости плана.
+
+Доктор Уна Андерсоне, ведущий биотехнолог, объяснила: 'Наша команда гарантировала, что биолюминесцентные свойства не влияют на здоровье деревьев. Напротив, ранние тесты показывают, что местная фауна, особенно совы и бессонные барсуки, весьма очарованы огнями. Мы уже наблюдали 37% увеличение ночных социальных взаимодействий среди местных видов.'
+
+Однако некоторое сопротивление было неизбежным. Юне Васара, представитель Латвийского общества традиционных обнимателей деревьев, страстно выступила против проекта. 'Наши леса здесь дольше, чем любые наши технологии,' посетовала она. 'Деревья — это не просто фоны для модных туристических инноваций; они священные сущности, которые заслуживают уважения под лучами солнца, а не ультрафиолетовыми стробоскопами.'
+
+Тем не менее, потенциальные экономические выгоды вызвали интерес у нескольких местных муниципалитетов, и владельцы отелей в регионе Юрмала уже готовят пакеты для ожидаемого наплыва ночных посетителей с светящимися палочками и многоразовыми светящимися красками.
+
+В любопытном повороте сюжета соседние страны Эстония и Литва также выразили интерес к инициативе Латвии по созданию светящихся ландшафтов. Источники в Министерстве экзотических проектов Эстонии сообщили о предварительных планах на аналогичную инициативу с рабочим названием 'Сумеречная Тундра'.
+
+Между тем, туристический эксперт и самопровозглашенный травник Марис Веспас видит только потенциал. 'Это то, что Латвии нужно прямо сейчас,' заявил он, энергично жестикулируя лазерной указкой в форме листа. 'Скучный старый опыт звездного неба и прогулок при лунном свете — это для птиц. В буквальном смысле. С лесами, светящимися в темноте, мы поднимаем нашу дикую природу на новые высоты — высоты, которые, кстати, видны из космоса.'
+
+Пока Латвия молится о лавине туристов, движимых любопытством, министр Зельтманис настроен оптимистично. 'Люди со всего мира приедут, с камерами в руках, чтобы запечатлеть вдохновляющие техноколорные деревья Латвии,' заявил он. 'Для одних это будет уникальное сочетание природы и технологий, для других — просто шанс увидеть самое экологичное световое шоу на планете.' Он сделал паузу, улыбаясь. 'И да, это все устойчиво — в конце концов, всем нужен небольшой ночник в жизни.'`
+    },
+    date: "Dec 11, 2025",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 25,
     slug: "latvia-declares-seagulls-official-national-bird",
     title: {
@@ -97,7 +172,7 @@ Pašlaik latvieši ir apmierināti, priecājoties par nemainīgo patiesību, ka 
     readTime: "9 min read",
     imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 24,
