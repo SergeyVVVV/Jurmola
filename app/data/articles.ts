@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 27,
+    slug: "riga-city-council-announces-controversial-new",
+    title: {
+      en: "Riga City Council Announces Controversial New 'Silent Disco' Public Transport Initiative",
+      lv: "Rīgas Domes Pretrunīgais Jaunais 'Klusais Disko' Sabiedriskā Transporta Iniciatīva",
+      ru: "Рижская городская дума объявила о спорной новой инициативе «Тихая дискотека» в общественном транспорте"
+    },
+    excerpt: {
+      en: "In a bold move to promote inner peace and combat excessive noise, the Riga City Council has unveiled its latest initiative: 'Silent Disco' public transport. Commuters will be transported to their destinations under the calming influence of headphone-wearing drivers moving to their own tranquil beats.",
+      lv: "Drosmīgā solī, lai veicinātu iekšējo mieru un cīnītos pret pārmērīgu troksni, Rīgas Dome ir atklājusi savu jaunāko iniciatīvu: 'Klusais Disko' sabiedriskais transports. Pasažieri tiks nogādāti savos galamērķos zem nomierinošas ietekmes, ko rada austiņas valkājoši vadītāji, kas kustas savā mierīgajā ritmā.",
+      ru: "В смелом шаге по продвижению внутреннего мира и борьбе с чрезмерным шумом Рижская городская дума представила свою последнюю инициативу: общественный транспорт «Тихая дискотека». Пассажиры будут доставлены к своим пунктам назначения под успокаивающим влиянием водителей в наушниках, двигающихся под свои собственные спокойные ритмы."
+    },
+    fullContent: {
+      en: `Riga, Latvia - In what experts are calling the boldest municipal transport reform since the introduction of the infamous snow-melter of 2003, the Riga City Council has announced a new initiative designed to transform the city’s public transport into a silent, synchronised paradise. Instead of familiar sights and sounds of buses and trolley cars bustling through the capital's streets, commuters will soon be treated to the soothing sight of headphone-wearing drivers bobbing blissfully to their own personal disco playlists.
+
+Spearheaded by recently appointed Minister of Urban Serenity, Gundega Blūms, the 'Silent Disco' scheme aims to reduce the city's infamous decibel levels. 'Riga deserves tranquility, and what better way to achieve it than through harmonious silence?' Blūms stated during the unveiling press conference, curiously held at three separate locations to avoid generating too much foot traffic in any one spot.
+
+According to the proposal, all public transport drivers will be equipped with state-of-the-art noise-cancelling headphones. They will each curate their own playlist and expertly manage the tricky task of driving with calming rhythmic nods and occasional finger-snaps as the only opening to external communication. 'We are not just revolutionizing transport; we are creating mobile mindfulness workshops, irrespective of traffic jams or roadworks,' Blūms emphasized.
+
+Critics have been both bemused and concerned by the prospective logistics. The Latvian Society of Tranquil Transporters (LSTT) issued a cautious welcome, noting the plan could bring about "unexpected moments of mindful driving in chaos." Spokesperson Jānis Klusā said, "Our only concern is how effective finger-snapping truly is at replacing traditional communication tools like horns and turn signals. Only time will tell."
+
+Initial prototypes rolled out earlier this week revealed mixed results. Watching the drivers groove to their silent beats was reportedly so mesmerizing that six commuters missed their stops. Passenger Elina Grāmata described her experience, 'I forgot where I was supposed to get off! It was like being in another world, or Jurmala during a music festival.' In another instance, a driver enthusiastically grooving to a particularly energetic disco track caused his trolley to arrive 20 minutes ahead of schedule. Observers agreed unequivocally that this represented a first in Baltic transport history.
+
+Meanwhile, local business owners have voiced concern over an unplanned economic impact—headphone sales saw a 200% increase overnight, while megaphone sales plummeted to historic lows. Andris Paseks, a local retailer, noted, 'We haven't seen a shift this dramatic since fidget spinners swept the nation, silencing even the loudest of meetings. It seems silence truly is golden.'
+
+As the city leans into this experimental phase, plans to install silent dance floors at select bus stops are also under consideration, offering riders a chance to stretch their legs while they wait. Whether or not 'Silent Disco' public transport will become a mainstay or join the annals of short-lived municipal projects like the Great Singing Traffic Light is yet to be seen.
+
+The current test phase is set to continue for another six months, allowing Riga's population the opportune time to assess whether synchronized beat-driven silence can conquer the din of daily city life or if, in classic Baltic fashion, they'll simply adapt with headphones tuned to their own custom mix of forest sounds and sea breeze noise samples.`,
+      lv: `Rīga, Latvija - Eksperti to dēvē par drosmīgāko pašvaldības transporta reformu kopš bēdīgi slavenā sniega kausētāja ieviešanas 2003. gadā. Rīgas Dome ir paziņojusi par jaunu iniciatīvu, kas paredz pārveidot pilsētas sabiedrisko transportu par klusu, sinhronizētu paradīzi. Tā vietā, lai dzirdētu un redzētu ierastos autobusus un trolejbusus, kas steidzas cauri galvaspilsētas ielām, pasažieri drīz vien varēs baudīt nomierinošu skatu uz austiņas valkājošiem vadītājiem, kas laimīgi šūpojas savām personīgajām disko atskaņošanas sarakstiem.
+
+Iniciatīvu vada nesen ieceltais Pilsētas Miera Ministrs, Gundega Blūms, un 'Klusais Disko' plāns mērķē samazināt pilsētas bēdīgi slavenos decibelu līmeņus. 'Rīga ir pelnījusi mieru, un kāds gan labāks veids, kā to sasniegt, ja ne caur harmonisku klusumu?' Blūms paziņoja atklāšanas preses konferencē, kas, interesanti, notika trīs dažādās vietās, lai izvairītos no pārāk lielas cilvēku plūsmas vienā vietā.
+
+Saskaņā ar priekšlikumu, visi sabiedriskā transporta vadītāji tiks aprīkoti ar modernām trokšņu slāpēšanas austiņām. Katrs vadītājs veidos savu atskaņošanas sarakstu un prasmīgi vadīs transportlīdzekli ar nomierinošiem ritmiskiem galvas kustībām un reizēm pirkstu klikšķiem kā vienīgo ārējo komunikācijas veidu. 'Mēs ne tikai revolūcijas veidojam transportu; mēs radām mobilas apzinātības darbnīcas, neatkarīgi no sastrēgumiem vai ceļu remontiem,' uzsvēra Blūms.
+
+Kritiki ir gan apmulsuši, gan nobažījušies par iespējamo loģistiku. Latvijas Klusā Transporta Biedrība (LSTB) izteica piesardzīgu atzinību, norādot, ka plāns varētu radīt 'neparedzētus apzinātas braukšanas mirkļus haosā.' Biedrības pārstāvis Jānis Klusā teica: 'Mūsu vienīgā baža ir, cik efektīvi pirkstu klikšķi patiesībā aizstāj tradicionālos komunikācijas rīkus, piemēram, signālus un pagrieziena rādītājus. Tikai laiks rādīs.'
+
+Sākotnējie prototipi, kas tika ieviesti šīs nedēļas sākumā, atklāja jauktus rezultātus. Vadītāju vērošana, kā viņi dejo pie saviem klusajiem ritmiem, bija tik aizraujoša, ka seši pasažieri nokavēja savas pieturas. Pasažiere Elīna Grāmata aprakstīja savu pieredzi: 'Es aizmirsu, kur man bija jāizkāpj! Tas bija kā atrasties citā pasaulē, vai Jūrmalā mūzikas festivāla laikā.' Citā gadījumā vadītājs, kas entuziastiski dejoja pie īpaši enerģiska disko skaņdarba, lika savam trolejbusam ierasties 20 minūtes pirms grafika. Novērotāji vienprātīgi piekrita, ka tas bija pirmais šāds gadījums Baltijas transporta vēsturē.
+
+Tikmēr vietējie uzņēmēji ir izteikuši bažas par neplānotu ekonomisko ietekmi — austiņu pārdošana nakts laikā pieauga par 200%, kamēr megafonu pārdošana kritās līdz vēsturiskiem minimumiem. Vietējais tirgotājs Andris Paseks norādīja: 'Mēs neesam redzējuši tik dramatiskas izmaiņas kopš fidget spinneru uzvaras gājiena, kas apklusināja pat skaļākās sapulces. Izskatās, ka klusums patiešām ir zelta vērts.'
+
+Kā pilsēta iesaistās šajā eksperimentālajā fāzē, tiek apsvērti plāni uzstādīt klusos deju laukumus izvēlētās autobusu pieturās, piedāvājot pasažieriem iespēju izstaipīties, kamēr viņi gaida. Vai 'Klusais Disko' sabiedriskais transports kļūs par pastāvīgu risinājumu vai pievienosies īslaicīgo pašvaldības projektu anālēm, piemēram, Lielajam Dziedošajam Luksoforam, vēl ir jāredz.
+
+Pašreizējā testa fāze turpināsies vēl sešus mēnešus, dodot Rīgas iedzīvotājiem iespēju novērtēt, vai sinhronizēts ritmisks klusums var uzvarēt ikdienas pilsētas dzīves troksni, vai arī, klasiskā Baltijas stilā, viņi vienkārši pielāgosies ar austiņām, kas noregulētas uz viņu pašu meža skaņu un jūras vēja trokšņu miksiem.`,
+      ru: `Рига, Латвия - В том, что эксперты называют самой смелой муниципальной транспортной реформой с момента введения печально известного снегоплавильщика в 2003 году, Рижская городская дума объявила о новой инициативе, направленной на превращение городского общественного транспорта в тихий, синхронизированный рай. Вместо привычных видов и звуков автобусов и троллейбусов, снующих по улицам столицы, пассажиры вскоре будут наслаждаться успокаивающим зрелищем водителей в наушниках, блаженно покачивающихся под свои личные плейлисты диско.
+
+Возглавляемая недавно назначенным министром городской гармонии Гундегой Блумс, схема «Тихая дискотека» направлена на снижение печально известных уровней децибел в городе. «Рига заслуживает тишины, и какой лучший способ достичь этого, чем через гармоничное молчание?» - заявила Блумс на пресс-конференции, которая, любопытно, проходила в трех разных местах, чтобы избежать создания слишком большого потока людей в одном месте.
+
+Согласно предложению, все водители общественного транспорта будут оснащены современными наушниками с шумоподавлением. Каждый из них будет составлять свой собственный плейлист и умело управлять сложной задачей вождения с успокаивающими ритмическими кивками и случайными щелчками пальцев как единственным способом внешней коммуникации. «Мы не просто революционизируем транспорт; мы создаем мобильные мастерские осознанности, независимо от пробок или дорожных работ», - подчеркнула Блумс.
+
+Критики были одновременно озадачены и обеспокоены предполагаемой логистикой. Латвийское общество спокойных перевозчиков (ЛОСП) выразило осторожное приветствие, отметив, что план может привести к «неожиданным моментам осознанного вождения в хаосе». Представитель Янис Клуса сказал: «Наша единственная озабоченность заключается в том, насколько эффективно щелканье пальцами действительно заменяет традиционные средства коммуникации, такие как гудки и сигналы поворота. Только время покажет».
+
+Начальные прототипы, запущенные на этой неделе, показали смешанные результаты. Наблюдение за тем, как водители двигаются под свои тихие ритмы, было настолько завораживающим, что шесть пассажиров пропустили свои остановки. Пассажирка Элина Грамата описала свой опыт: «Я забыла, где мне нужно было выйти! Это было как в другом мире, или в Юрмале во время музыкального фестиваля». В другом случае водитель, с энтузиазмом двигающийся под особенно энергичный диско-трек, привел свой троллейбус на 20 минут раньше расписания. Наблюдатели единогласно согласились, что это было впервые в истории балтийского транспорта.
+
+Тем временем местные бизнесмены выразили озабоченность по поводу непредвиденного экономического воздействия — продажи наушников выросли на 200% за ночь, в то время как продажи мегафонов упали до исторического минимума. Андрис Пасекс, местный ритейлер, отметил: «Мы не видели такого резкого изменения с тех пор, как спиннеры захватили страну, заглушив даже самые громкие собрания. Похоже, тишина действительно золото».
+
+По мере того, как город вступает в эту экспериментальную фазу, также рассматриваются планы по установке тихих танцполов на некоторых автобусных остановках, предлагая пассажирам возможность размять ноги, пока они ждут. Станет ли общественный транспорт «Тихая дискотека» постоянным или войдет в анналы краткосрочных муниципальных проектов, таких как Великий поющий светофор, еще предстоит увидеть.
+
+Текущая тестовая фаза продлится еще шесть месяцев, давая населению Риги возможность оценить, сможет ли синхронизированное ритмическое молчание победить шум повседневной городской жизни или, в классической балтийской манере, они просто адаптируются с наушниками, настроенными на собственный микс звуков леса и шумов морского бриза.`
+    },
+    date: "Dec 12, 2025",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "7 min read",
+    imageUrl: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 26,
     slug: "latvia-unveils-plans-for-worlds-first",
     title: {
@@ -89,7 +158,7 @@ Kamēr Latvija lūdz par ziņkārības vadītu tūristu lavīnu, ministrs Zeltma
     readTime: "10 min read",
     imageUrl: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 25,
