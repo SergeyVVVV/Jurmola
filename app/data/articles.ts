@@ -17,6 +17,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 28,
+    slug: "riga-to-host-worlds-first-silent",
+    title: {
+      en: "Riga To Host World’s First 'Silent Parade' as Part of New Traffic Noise Reduction Initiative",
+      lv: "Rīga rīkos pasaulē pirmo 'Klusuma Parādi' kā daļu no jaunās satiksmes trokšņa samazināšanas iniciatīvas",
+      ru: "Рига проведет первый в мире 'Тихий парад' в рамках новой инициативы по снижению шума от транспорта"
+    },
+    excerpt: {
+      en: "In an unprecedented move, Riga city council has announced the world's first 'Silent Parade' in an attempt to tackle the city's notorious traffic noise. The innovative initiative is set to feature entirely soundless floats, mute marching bands, and spectators will be encouraged to applaud in sign language.",
+      lv: "Rīgas domes bezprecedenta solis - paziņojums par pasaulē pirmo 'Klusuma Parādi', lai risinātu pilsētas bēdīgi slaveno satiksmes troksni. Inovatīvā iniciatīva piedāvās pilnīgi bezskaņas platformas, mēmas orķestrus, un skatītāji tiks aicināti aplaudēt zīmju valodā.",
+      ru: "В беспрецедентном шаге городской совет Риги объявил о проведении первого в мире 'Тихого парада' в попытке справиться с печально известным шумом от городского транспорта. В рамках инновационной инициативы будут представлены полностью бесшумные платформы, немые оркестры, а зрителей призовут аплодировать на языке жестов."
+    },
+    fullContent: {
+      en: `In an audacious step towards combating the decades-old plague of urban cacophony, the Riga city council has officially announced plans to host what is being humbly dubbed as the world’s first 'Silent Parade'. The initiative, aimed ostensibly at turning down the volume knob of city life, is set to transpire on the city's nerve center, Brīvības iela, this coming November.
+
+'It's the ultimate step in our ongoing 'Quiet Riga' campaign,' noted Mayor Aloizs Klusums during a press conference. The campaign, which was only recently drowned out by the roar of ambulances during its televised reveal, has since gained viral attention for its paradoxical approach to public celebrations. 'We've all been stuck in that perpetual auditory chaos of honking car horns, emergency sirens, and the curse of high-heeled shoes on cobblestones. This parade will be the first of many steps – soft, gentle, and barely perceptible ones – towards a soundless urban reality.'
+
+The revolutionary parade promises a serene spectacle devoid of the usual bombastic exuberance associated with such events. Floats will glide silently down the street, featuring intricate designs meticulously crafted from sound-absorbent materials. The decision to use noise-cancelling foam and whisper-soft pastels has been welcomed by the city’s artistic community, known for its passion for paradoxes.
+
+Flo Rīdzinieks, a renowned local sculptor and newly appointed head of the parade’s artistic committee, stated, 'The aesthetic challenge remains inspiring. This is our art at its most subversive, asking not 'how loud can we be?' but rather 'how quietly can we express grandeur?'.'
+
+Marching bands, traditionally the drumbeat of parades, will participate by synchronizing with internal rhythms alone, resulting in a captivating mimed performance. It's an endeavor professional lip-syncer and now chief parade conductor, Zane Tālukçāne, sees as the evolution of musical expression. 'Honestly, it just requires them to do what they usually do – only this time, absolutely no cheating! Our motto is: if you can nod your head, you're already too loud.'
+
+Spectators are encouraged to embrace this auditory oasis by applauding in Latvian Sign Language (LSL). Hand-made cheering handkerchiefs will be distributed as part of the parade's eco-friendly initiatives, though rehearsals for silent clapping tutorials have resulted in unexpectedly boisterous failures.
+
+This daring celebration of peaceful coexistence has also invited interest from cities worldwide, keen to adopt Latvia’s luxury of silence as an architectural staple. Already, the entire country of Estonia has applied for permission to broadcast the event live, albeit in complete silence, as the first National Test of Public Patience.
+
+Critics, however, reserve their doubts. Local sound engineer Magnuss Trampenbergs has expressed skepticism, 'We live in a world where silence is often mistaken for consent or, worse, boredom. How long can we sustain this silence until someone drops a pin? I suppose we'll find out.''
+
+Despite this vocal minority, those involved in the planning remain optimistic. Pilgrimages from international ASMR fans are anticipated, potentially doubling the city’s tourist numbers temporarily – albeit, figures predict any form of audible credit card transaction will be met with light reprimand from Parade Marshals dressed as humorous mime artists, silently conveying their message.
+
+If successful, Riga City Council hopes to expand the Silent Parade concept to other forms of public gatherings, including soundless concerts and whisper-only debates. Most revolutionary of all, future election nights may finally silence the dreaded vuvuzela.
+
+In a city that boasts its fair share of boisterous charm, who could have predicted that Riga’s quietest day might just resonate the most?`,
+      lv: `Drosmīgā solī pretī desmitgadēm ilgušajai pilsētas kakofonijas sērgai Rīgas dome oficiāli paziņojusi par plāniem rīkot to, ko pieticīgi dēvē par pasaulē pirmo 'Klusuma Parādi'. Iniciatīva, kas acīmredzot vērsta uz pilsētas dzīves skaļuma samazināšanu, notiks pilsētas nervu centrā, Brīvības ielā, šī gada novembrī.
+
+'Tas ir galvenais solis mūsu turpinātajā 'Klusā Rīga' kampaņā,' preses konferencē norādīja mērs Aloizs Klusums. Kampaņa, kas nesen tika pārtraukta televīzijā ar ātrās palīdzības sirēnām, kopš tā laika ir guvusi vīrusu uzmanību par savu paradoksālo pieeju publiskām svinībām. 'Mēs visi esam iestrēguši tajā pastāvīgajā dzirdes haosā ar automašīnu signāliem, neatliekamās palīdzības sirēnām un augstpapēžu kurpju lāstu uz bruģakmeņiem. Šī parāde būs pirmais no daudziem soļiem – mīkstiem, maigiem un tikko uztveramiem – ceļā uz bezskaņas pilsētas realitāti.'
+
+Revolucionārā parāde sola mierīgu skatu, kas ir atbrīvots no parastās pompozās izrādības, kas saistīta ar šādiem pasākumiem. Platformas klusi slīdēs pa ielu, piedāvājot sarežģītus dizainus, kas rūpīgi izstrādāti no skaņas absorbējošiem materiāliem. Lēmums izmantot trokšņu slāpējošu putu un čukstus mīkstu pasteļu krāsas ir saņēmis atzinību no pilsētas mākslinieku kopienas, kas pazīstama ar savu aizraušanos ar paradoksiem.
+
+Flo Rīdzinieks, pazīstams vietējais tēlnieks un nesen iecelts par parādes mākslinieciskās komitejas vadītāju, paziņoja: 'Estētiskais izaicinājums paliek iedvesmojošs. Šis ir mūsu mākslas visapkaunojošākais izpausmes veids, uzdodot jautājumu nevis 'cik skaļi mēs varam būt?', bet gan 'cik klusi mēs varam izteikt diženumu?'.'
+
+Orķestri, kas tradicionāli ir parāžu ritma sirds, piedalīsies, sinhronizējoties tikai ar iekšējiem ritmiem, radot aizraujošu mīmisku priekšnesumu. Tas ir pasākums, ko profesionālā lūpu sinhronizētāja un tagad galvenā parādes diriģente Zane Tālukçāne uzskata par muzikālās izpausmes evolūciju. 'Godīgi sakot, tas vienkārši prasa, lai viņi darītu to, ko parasti dara – tikai šoreiz, absolūti bez krāpšanās! Mūsu moto ir: ja vari pakratīt galvu, tu jau esi pārāk skaļš.'
+
+Skatītāji tiek aicināti pieņemt šo dzirdes oāzi, aplaudējot latviešu zīmju valodā (LZV). Roku darināti uzmundrinājuma lakatiņi tiks izdalīti kā daļa no parādes videi draudzīgajām iniciatīvām, lai gan mēģinājumi klusās aplaudēšanas apmācībās ir izrādījušies negaidīti trokšņaini neveiksmīgi.
+
+Šī drosmīgā mierīgas līdzāspastāvēšanas svinēšana ir piesaistījusi arī citu pilsētu interesi visā pasaulē, kas vēlas pieņemt Latvijas klusuma greznību kā arhitektūras pamatu. Jau visa Igaunija ir pieteikusies atļaujai pārraidīt pasākumu tiešraidē, kaut arī pilnīgā klusumā, kā pirmo Nacionālo Pacietības Testu.
+
+Tomēr kritiķi patur savas šaubas. Vietējais skaņu inženieris Magnuss Trampenbergs ir izteicis skepsi: 'Mēs dzīvojam pasaulē, kur klusums bieži tiek sajaukts ar piekrišanu vai, vēl sliktāk, garlaicību. Cik ilgi mēs varam uzturēt šo klusumu, līdz kāds nometīs adatu? Es pieņemu, ka mēs to uzzināsim.'
+
+Neskatoties uz šo vokālo minoritāti, plānošanā iesaistītie paliek optimistiski. Tiek prognozētas svētceļojumi no starptautiskiem ASMR faniem, kas potenciāli īslaicīgi dubultos pilsētas tūristu skaitu – lai gan, skaitļi prognozē, ka jebkāda veida dzirdama kredītkartes transakcija tiks sagaidīta ar vieglu rājienu no Parādes maršaliem, kas ģērbušies kā humoristiski mīmi, klusi paužot savu vēstījumu.
+
+Ja tas būs veiksmīgs, Rīgas dome cer paplašināt Klusuma Parādes koncepciju uz citiem publiskiem pasākumiem, tostarp bezskaņas koncertiem un tikai čukstu debatēm. Viss revolucionārākais no visa, nākotnes vēlēšanu naktis beidzot varētu apklusināt bēdīgi slaveno vuvuzelu.
+
+Pilsētā, kas lepojas ar savu daļu trokšņainas šarma, kurš gan varēja paredzēt, ka Rīgas klusākā diena varētu būt visvairāk rezonējošā?`,
+      ru: `В дерзком шаге по борьбе с многолетней чумой городской какофонии городской совет Риги официально объявил о планах провести то, что скромно называют первым в мире 'Тихим парадом'. Инициатива, направленная на снижение громкости городской жизни, пройдет на главной улице города, Бривибас иела, в предстоящем ноябре.
+
+'Это высшая точка нашей продолжающейся кампании 'Тихая Рига', - отметил мэр Алоиз Клусумс на пресс-конференции. Кампания, которая недавно была заглушена ревом скорых во время телевизионного анонса, с тех пор привлекла вирусное внимание благодаря своему парадоксальному подходу к общественным праздникам. 'Мы все застряли в этом вечном слуховом хаосе гудящих автомобильных клаксонов, сирен скорой помощи и проклятия каблуков на брусчатке. Этот парад станет первым из многих шагов – мягких, нежных и едва заметных – к бесшумной городской реальности.'
+
+Революционный парад обещает спокойное зрелище, лишенное обычной бомбастической экзуберантности, связанной с такими событиями. Платформы будут бесшумно скользить по улице, демонстрируя сложные конструкции, тщательно изготовленные из звукопоглощающих материалов. Решение использовать шумопоглощающую пену и пастельные тона было встречено с одобрением художественного сообщества города, известного своей страстью к парадоксам.
+
+Фло Ридзиньекс, известный местный скульптор и недавно назначенный глава художественного комитета парада, заявил: 'Эстетический вызов остается вдохновляющим. Это наше искусство в его самом подрывном виде, задающее не вопрос 'как громко мы можем быть?', а скорее 'как тихо мы можем выразить величие?'.'
+
+Оркестры, традиционно задающие ритм парадам, будут участвовать, синхронизируясь только с внутренними ритмами, создавая захватывающее мимическое представление. Это начинание, которое профессиональный исполнитель липсинга и теперь главный дирижер парада, Зане Талукчане, видит как эволюцию музыкального выражения. 'Честно говоря, это просто требует от них делать то, что они обычно делают – только на этот раз абсолютно без обмана! Наш девиз: если ты можешь кивать головой, ты уже слишком громок.'
+
+Зрителей призывают принять этот слуховой оазис, аплодируя на латвийском языке жестов (LSL). Ручные платки для приветствий будут распространяться в рамках экологически чистых инициатив парада, хотя репетиции для уроков тихого хлопка привели к неожиданно шумным провалам.
+
+Этот смелый праздник мирного сосуществования также привлек интерес городов по всему миру, стремящихся принять роскошь тишины Латвии как архитектурный стандарт. Уже вся страна Эстония подала заявку на разрешение транслировать событие в прямом эфире, хотя и в полной тишине, как первый Национальный тест общественного терпения.
+
+Критики, однако, сохраняют свои сомнения. Местный звукоинженер Магнусс Трампенбергс выразил скептицизм: 'Мы живем в мире, где тишина часто принимается за согласие или, что хуже, за скуку. Как долго мы можем поддерживать эту тишину, пока кто-то не уронит булавку? Думаю, мы узнаем.'
+
+Несмотря на это, те, кто участвует в планировании, остаются оптимистичными. Ожидаются паломничества международных поклонников ASMR, что может временно удвоить количество туристов в городе – хотя, по прогнозам, любая форма слышимой транзакции по кредитной карте будет встречена легким упреком от маршалов парада, одетых в забавных мимов, молча передающих свое сообщение.
+
+Если это удастся, городской совет Риги надеется расширить концепцию Тихого парада на другие формы общественных мероприятий, включая бесшумные концерты и дебаты только шепотом. Самое революционное из всего, будущие ночи выборов могут наконец заглушить ужасную вувузелу.
+
+В городе, который может похвастаться своей долей шумного очарования, кто бы мог предсказать, что самый тихий день Риги может оказаться самым резонирующим?`
+    },
+    date: "Dec 13, 2025",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&h=600&fit=crop",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 27,
     slug: "riga-city-council-announces-controversial-new",
     title: {
@@ -83,7 +170,7 @@ Pašreizējā testa fāze turpināsies vēl sešus mēnešus, dodot Rīgas iedz�
     readTime: "7 min read",
     imageUrl: "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 26,
