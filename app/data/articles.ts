@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 30,
+    slug: "latvias-bold-initiative-to-train-seagulls",
+    title: {
+      en: "Latvia's Bold Initiative to Train Seagulls as Official Tour Guides Backfires Spectacularly",
+      lv: "Latvijas drosmīgā iniciatīva apmācīt kaijas kā oficiālus gidu atgriežas ar iespaidīgu fiasko",
+      ru: "Смелая инициатива Латвии по обучению чаек в качестве официальных гидов обернулась грандиозным провалом"
+    },
+    excerpt: {
+      en: "In an ambitious move applauded by bird enthusiasts, the Latvian Tourism Board's latest project to train seagulls as official tour guides has taken a hilariously unexpected turn. Instead of leading enthusiastic visitors, the seagulls have chosen to lead relentless snack heists.",
+      lv: "Ambiciozā solī, kas izpelnījās putnu entuziastu atzinību, Latvijas Tūrisma padomes jaunākais projekts apmācīt kaijas kā oficiālus gidu ir ieguvis smieklīgi negaidītu pavērsienu. Tā vietā, lai vadītu entuziastiskus apmeklētājus, kaijas ir izvēlējušās vadīt nebeidzamus uzkodu reidus.",
+      ru: "В амбициозном шаге, который был встречен аплодисментами любителей птиц, последний проект Латвийского совета по туризму по обучению чаек в качестве официальных гидов принял неожиданно комичный поворот. Вместо того чтобы вести восторженных посетителей, чайки предпочли устраивать неустанные налеты на закуски."
+    },
+    fullContent: {
+      en: `Riga, Latvia — In an unprecedented and truly audacious move, the Latvian Tourism Board announced last month the launch of their 'Sky Guides' initiative, ambitiously seeking to train the notorious seagulls of the Baltic coast as official tour guides for tourists. The project, initially hailed as a revolutionary step in sustainable tourism, has quickly turned into a spectacle of chaos that experts are now labeling 'Gastromania.'
+
+The plan was ingeniously simple: leverage the natural avian residents of Riga and Jurmala to show tourists around, using their prodigious navigation skills and local knowledge of the beaches and historic sites. However, reports indicate that the seagulls have taken their newfound duties a little too seriously — especially when it comes to the local gastronomy.
+
+'We had thought our local seagulls, known for their charm and surprising intellect, could offer a unique perspective on city landmarks,' said Gundega Ozolina, head of the project. 'But these birds have proven that, much like your typical college student, they are only interested in two things: snacks and mischief.'
+
+Since the official commencement of the program, tour groups have watched in awe, and sometimes fear, as their supposed guides swoop down to lead unsanctioned raids on food kiosks and unsuspecting picnickers. As one visitor, Martin Jansons, humorously recounted, 'I originally came to see the famous wooden houses of Jurmala, but instead I witnessed a tactical snack operation at the local fish market carried out with military precision.'
+
+Despite the unexpected developments, officials remain committed to salvaging the project. New strategies are being devised to redirect the seagulls' enthusiasm towards more appropriate guiding activities. As part of the effort, a series of incentive-based training sessions have been launched — the first of their kind to feature bread crumbs and fish as motivational tools.
+
+'We're hoping to redirect their energy from opportunistic snacking to worthy guiding,' said Ozolina. 'It's a rocky start, but truly, would you expect anything less from a plan involving seagulls?'
+
+Even amidst the absurdity, some locals see the humor in the situation. Ieva Sirmane, owner of a local bakery that has been repeatedly targeted, has set up a 'Seagull Gallery' inside her shop, showcasing photos of their brazen antics. 'It's become quite the attraction itself,' she laughed, noting that visitor numbers have ironically increased since the incidents.
+
+As the city braces itself for what is being humorously dubbed 'the Great Seagull Conundrum', it's clear that Latvia has, intentionally or not, captured the global imagination with its innovative, albeit wayward, approach to tourism. The tactic has highlighted a genuinely unique cultural identity: one ready to embrace both tradition and audacity, humor and perhaps a bit of chaos.
+
+'Who could have predicted such an outcome?,' mused Juris Kaugurs, a local historian. 'Then again, who could have thought training seagulls would be straightforward? It's a fitting testament to Latvia's spirit — adventurous, a bit unconventional, and endlessly fascinating.'
+
+And so, for now, Latvia’s skyward guides might not be shepherding tourists through historic tours just yet; instead, they might unwittingly be leading them to a deeper appreciation of life's unexpected delights — namely, keeping a firm grip on their hot dogs.`,
+      lv: `Rīga, Latvija — Nepieredzētā un patiesi drosmīgā solī Latvijas Tūrisma padome pagājušajā mēnesī paziņoja par 'Debesu gidu' iniciatīvas uzsākšanu, ambiciozi cenšoties apmācīt Baltijas piekrastes bēdīgi slavenās kaijas kā oficiālus gidu tūristiem. Projekts, kas sākotnēji tika uzskatīts par revolucionāru soli ilgtspējīgā tūrismā, ātri vien pārvērtās haosa izrādē, ko eksperti tagad dēvē par 'Gastromāniju'.
+
+Plāns bija ģeniāli vienkāršs: izmantot Rīgas un Jūrmalas dabiskos putnu iedzīvotājus, lai parādītu tūristiem apkārtni, izmantojot viņu izcilās navigācijas prasmes un vietējās zināšanas par pludmalēm un vēsturiskām vietām. Tomēr ziņojumi liecina, ka kaijas ir uztvērušas savus jauniegūtos pienākumus mazliet pārāk nopietni — īpaši, kad runa ir par vietējo gastronomiju.
+
+'Mēs domājām, ka mūsu vietējās kaijas, kas pazīstamas ar savu šarmu un pārsteidzošo intelektu, varētu piedāvāt unikālu skatījumu uz pilsētas apskates objektiem,' sacīja projekta vadītāja Gundega Ozoliņa. 'Bet šie putni ir pierādījuši, ka, līdzīgi kā tipisks koledžas students, viņi ir ieinteresēti tikai divās lietās: uzkodās un blēņās.'
+
+Kopš programmas oficiālās uzsākšanas tūristu grupas ir vērojušas ar apbrīnu un reizēm bailēm, kā viņu it kā gidi nolaižas, lai vadītu nesankcionētus reidus uz pārtikas kioskiem un nevainīgiem piknikotājiem. Kā viens apmeklētājs, Mārtiņš Jansons, humoristiski atcerējās: 'Es sākotnēji atbraucu apskatīt slavenās Jūrmalas koka mājas, bet tā vietā es vēroju taktisku uzkodu operāciju vietējā zivju tirgū, kas tika veikta ar militāru precizitāti.'
+
+Neskatoties uz negaidītajiem notikumiem, amatpersonas joprojām ir apņēmušās glābt projektu. Tiek izstrādātas jaunas stratēģijas, lai novirzītu kaiju entuziasmu uz piemērotākām gidu aktivitātēm. Kā daļa no pūliņiem ir uzsāktas motivācijas balstītas apmācības sesijas — pirmās šāda veida, kurās kā motivācijas līdzekļi tiek izmantotas maizes drupačas un zivis.
+
+'Mēs ceram novirzīt viņu enerģiju no izdevīgām uzkodām uz vērtīgu gidu darbu,' sacīja Ozoliņa. 'Tas ir akmeņains sākums, bet patiesi, vai jūs sagaidītu kaut ko mazāk no plāna, kas ietver kaijas?'
+
+Pat absurda vidū daži vietējie redz humoru situācijā. Ieva Sirmane, vietējās maiznīcas īpašniece, kas atkārtoti ir kļuvusi par mērķi, savā veikalā ir izveidojusi 'Kaiju galeriju', kurā tiek izstādītas viņu nekaunīgo izdarību fotogrāfijas. 'Tā pati par sevi ir kļuvusi par atrakciju,' viņa smējās, norādot, ka apmeklētāju skaits ir ironiski pieaudzis kopš incidentiem.
+
+Kā pilsēta gatavojas tam, ko humoristiski dēvē par 'Lielo kaiju mīklu', ir skaidrs, ka Latvija, apzināti vai nē, ir aizrāvusi globālo iztēli ar savu inovatīvo, kaut arī maldīgo pieeju tūrismam. Taktika ir izcēlusi patiesi unikālu kultūras identitāti: tādu, kas ir gatava pieņemt gan tradīcijas, gan drosmi, humoru un varbūt mazliet haosa.
+
+'Kurš gan varēja paredzēt šādu iznākumu?,' prātoja vietējais vēsturnieks Juris Kaugurs. 'Tad atkal, kurš gan varēja domāt, ka kaiju apmācība būs vienkārša? Tas ir piemērots apliecinājums Latvijas garam — piedzīvojumu pilns, mazliet nekonvencionāls un bezgalīgi fascinējošs.'
+
+Un tā, pagaidām, Latvijas debesu gidi varbūt vēl nevadīs tūristus pa vēsturiskām ekskursijām; tā vietā viņi varētu netīšām vadīt viņus uz dziļāku dzīves negaidīto prieku novērtēšanu — proti, stingri turot savus hotdogus.`,
+      ru: `Рига, Латвия — В беспрецедентном и поистине дерзком шаге Латвийский совет по туризму объявил в прошлом месяце о запуске инициативы 'Небесные гиды', амбициозно стремясь обучить печально известных чаек Балтийского побережья в качестве официальных гидов для туристов. Проект, изначально провозглашенный как революционный шаг в устойчивом туризме, быстро превратился в зрелище хаоса, которое эксперты теперь называют 'Гастроманией'.
+
+План был гениально прост: использовать естественных пернатых обитателей Риги и Юрмалы, чтобы показывать туристам окрестности, используя их выдающиеся навыки навигации и местные знания о пляжах и исторических достопримечательностях. Однако, по сообщениям, чайки восприняли свои новые обязанности слишком серьезно — особенно когда дело касается местной гастрономии.
+
+'Мы думали, что наши местные чайки, известные своим обаянием и удивительным интеллектом, смогут предложить уникальную перспективу на городские достопримечательности,' сказала Гундега Озолина, руководитель проекта. 'Но эти птицы доказали, что, как и типичный студент колледжа, они интересуются только двумя вещами: закусками и шалостями.'
+
+С момента официального начала программы туристические группы наблюдали с восхищением, а иногда и страхом, как их предполагаемые гиды стремительно налетают на несанкционированные рейды на киоски с едой и ничего не подозревающих пикников. Как один из посетителей, Мартин Янсонс, с юмором рассказал: 'Я изначально приехал посмотреть на знаменитые деревянные дома Юрмалы, но вместо этого стал свидетелем тактической операции по захвату закусок на местном рыбном рынке, проведенной с военной точностью.'
+
+Несмотря на неожиданные события, официальные лица остаются приверженными спасению проекта. Разрабатываются новые стратегии, чтобы направить энтузиазм чаек на более подходящие гидовые мероприятия. В рамках усилий запущена серия тренировочных сессий на основе стимулов — первые в своем роде, где в качестве мотивационных средств используются хлебные крошки и рыба.
+
+'Мы надеемся перенаправить их энергию с оппортунистического перекуса на достойное руководство,' сказала Озолина. 'Это трудное начало, но действительно, ожидали ли вы чего-то другого от плана, в который вовлечены чайки?'
+
+Даже среди абсурда некоторые местные жители видят в ситуации юмор. Иева Сирмане, владелица местной пекарни, которая неоднократно подвергалась нападениям, открыла 'Галерею чаек' в своем магазине, демонстрируя фотографии их дерзких выходок. 'Это само по себе стало достопримечательностью,' смеется она, отмечая, что количество посетителей иронично увеличилось после этих инцидентов.
+
+Пока город готовится к тому, что шутливо называют 'Великой чайковой головоломкой', ясно, что Латвия, намеренно или нет, захватила воображение мира своим инновационным, хотя и заблудшим, подходом к туризму. Тактика подчеркнула по-настоящему уникальную культурную идентичность: готовность принять как традиции, так и дерзость, юмор и, возможно, немного хаоса.
+
+'Кто мог предсказать такой исход?', задумался Юрис Каугурс, местный историк. 'С другой стороны, кто мог подумать, что обучение чаек будет простым? Это подходящее свидетельство духа Латвии — авантюрного, немного нестандартного и бесконечно увлекательного.'
+
+Итак, пока что латвийские небесные гиды, возможно, еще не проводят туристов по историческим турам; вместо этого они, возможно, невольно ведут их к более глубокому пониманию неожиданных радостей жизни — а именно, к необходимости крепко держать свои хот-доги.`
+    },
+    date: "Dec 15, 2025",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 29,
     slug: "new-latvian-government-initiative-mandates-all",
     title: {
@@ -89,7 +170,7 @@ Visas acis tagad ir vērstas uz Latviju, tuvojoties 2025. gadam. Tikai laiks rā
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 28,
