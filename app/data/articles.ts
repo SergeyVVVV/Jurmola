@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 32,
+    slug: "latvia-announces-plans-to-host-eurovision",
+    title: {
+      en: "Latvia Announces Plans to Host Eurovision... on Ice Fishing Rink",
+      lv: "Latvija paziņo par plāniem rīkot Eirovīziju... uz zemledus makšķerēšanas laukuma",
+      ru: "Латвия объявляет о планах провести Евровидение... на ледяной рыболовной площадке"
+    },
+    excerpt: {
+      en: "In a bold move to combine cultural events and traditional pastimes, Latvia has announced its intention to host the next Eurovision Song Contest on a frozen lake near Riga, transforming the event into a competition of song and survival.",
+      lv: "Drosmīgā solī apvienot kultūras pasākumus un tradicionālās nodarbes, Latvija ir paziņojusi par nodomu rīkot nākamo Eirovīzijas dziesmu konkursu uz aizsaluša ezera netālu no Rīgas, pārvēršot pasākumu par dziesmu un izdzīvošanas sacensībām.",
+      ru: "В смелой попытке объединить культурные события и традиционные увлечения, Латвия объявила о намерении провести следующий конкурс песни Евровидение на замерзшем озере недалеко от Риги, превращая мероприятие в соревнование песни и выживания."
+    },
+    fullContent: {
+      en: `Riga—In an unprecedented mash-up of popular culture and outdoor recreation, Latvia has declared its ambitious vision of hosting the Eurovision Song Contest not on an elaborate stage but on the icy expanse of Lake Kisezers, a stone’s throw from the bustling capital of Riga. The decision has raised eyebrows across Europe, igniting both skepticism and curiosity.
+
+The announcement, made at a news briefing held suspiciously close to an ice fishing supply shop, was proclaimed by newly appointed Minister of Creative Discomforts, Juris Leduslācis. "We Latvians have always been innovators," said Leduslācis, who wore a custom-made sequined parka for the occasion. "Eurovision is a celebration of diversity and endurance, and what better way to celebrate than by uniting with nature in our beloved ice-fishing sports?"
+
+According to government plans, each country's representative will perform their chosen song while standing on an individual ice fishing hole carved into the frozen lake, subtly encouraging performers to finish before the very real threat of hypothermia sets in. To add to the challenge, acts will be judged not only on musical talent but also on their ability to catch the most fish. "This is about multitasking and harmony with nature," explained Leduslācis, noting that ice fishing is as much a national art form as singing or not finding anyone home when the Jāņi holiday knock arrives.
+
+Critics of this novel approach have voiced concerns over safety and practicalities, yet Leduslācis remains unfazed. "We've coordinated with top Latvian engineers and ice experts. We've even consulted with Santa's elves in Lapland," he added, humorously referencing Latvia’s northern affinity. "There will be safety nets—and by safety nets, I mean actual fishing nets arranged around the stage holes."
+
+The local community has been buzzing with excitement. Māris Usainītis, owner of the nearby Kisezers Bait & Tackle, predicts a boom in sales of insulated vests and thermoses. "This could be the biggest thing since we claimed that massive Christmas tree actually belonged to us," he said with a gleeful chuckle.
+
+Eurovision aficionados are intrigued yet slightly perturbed. "It's a bit unpredictable—there's a chance I might lose my voice or dignity," confessed Slaava Tiksmisov, a three-time Latvian Eurovision hopeful, who is already practicing scales while shivering bare-footed on the ice.
+
+The unique pairing of Eurovision and ice fishing could draw international interest far beyond the usual fans. "This is exactly what Eurovision needs—an infuse of sincerity, humor, and reckless adventure," claims Finnish Eurovision historian Arvo Liukkaanen. "Plus, it’s about time someone challenged the concept of what talent shows really are—no more glitter bombs, but literal bombs of icy water!"
+
+Despite the skepticism, projections indicate that ‘Eurovision on Ice’ may usher in a new era of culturally immersive experiences, one Scandinavian snowstorm at a time. To accommodate for the somewhat daunting temperature drop, it is reported that the hospitality team is devising new recipes for mulled vinegars, a spicy alternative to the more traditional glogg, to be served almost exclusively in hand-carved ice mugs.
+
+While details are still being hilariously ironed out, Minister Leduslācis remains optimistic: "What’s a little frostbite compared to the ice-breaker that could melt the hearts—and ears—of over 180 million viewers worldwide?" With this, Latvia seems poised to spearhead a new tradition: Icevision. Historical or hysterical, only time—and tectonic plates—will tell.`,
+      lv: `Rīga—Nepieredzētā populārās kultūras un āra aktivitāšu apvienojumā Latvija ir paziņojusi par ambiciozo vīziju rīkot Eirovīzijas dziesmu konkursu nevis uz greznas skatuves, bet uz ledainā Kisezera plašuma, kas atrodas akmens metiena attālumā no rosīgās Rīgas galvaspilsētas. Šis lēmums ir izraisījis izbrīnu visā Eiropā, radot gan skepsi, gan ziņkāri.
+
+Paziņojums, kas tika izteikts preses konferencē, kas aizdomīgi notika tuvu zemledus makšķerēšanas piederumu veikalam, tika izsludināts jaunieceltā Radošo Neērtību ministra Jura Leduslāča vadībā. "Mēs, latvieši, vienmēr esam bijuši novatori," sacīja Leduslācis, kurš uz šo gadījumu bija uzvilcis speciāli izgatavotu fliteru parku. "Eirovīzija ir dažādības un izturības svētki, un kā gan labāk svinēt, ja ne apvienojoties ar dabu mūsu mīļotajos zemledus makšķerēšanas sporta veidos?"
+
+Saskaņā ar valdības plāniem katras valsts pārstāvis izpildīs savu izvēlēto dziesmu, stāvot uz individuālas zemledus makšķerēšanas āliņģa, smalki mudinot izpildītājus pabeigt pirms ļoti reāla hipotermijas drauda iestāšanās. Lai pievienotu izaicinājumu, priekšnesumi tiks vērtēti ne tikai pēc muzikālā talanta, bet arī pēc spējas noķert visvairāk zivju. "Tas ir par daudzuzdevumu veikšanu un harmoniju ar dabu," skaidroja Leduslācis, norādot, ka zemledus makšķerēšana ir tikpat nacionāls mākslas veids kā dziedāšana vai neviena nesastapšana mājās, kad ierodas Jāņu svētku sveicēji.
+
+Šīs novatoriskās pieejas kritiķi ir pauduši bažas par drošību un praktiskumu, tomēr Leduslācis paliek nesatricināms. "Mēs esam koordinējuši ar vadošajiem Latvijas inženieriem un ledus ekspertiem. Mēs pat esam konsultējušies ar Ziemassvētku vecīša elfiem Lapzemē," viņš piebilda, humoristiski atsaucoties uz Latvijas ziemeļu radniecību. "Būs drošības tīkli—un ar drošības tīkliem es domāju īstus zvejas tīklus, kas izvietoti ap skatuves āliņģiem."
+
+Vietējā sabiedrība ir sajūsmā. Māris Usainītis, tuvējā Kisezers Bait & Tackle īpašnieks, prognozē siltinātu vestu un termosos pārdošanas uzplaukumu. "Tas varētu būt lielākais notikums kopš mēs apgalvojām, ka tas milzīgais Ziemassvētku eglis faktiski pieder mums," viņš sacīja ar priecīgu smiekliņu.
+
+Eirovīzijas cienītāji ir ieinteresēti, bet nedaudz satraukti. "Tas ir nedaudz neparedzami—pastāv iespēja, ka es varu zaudēt balsi vai cieņu," atzina Slaava Tiksmisovs, trīskārtējs Latvijas Eirovīzijas cerību kandidāts, kurš jau praktizē gammas, drebot basām kājām uz ledus.
+
+Unikālā Eirovīzijas un zemledus makšķerēšanas kombinācija varētu piesaistīt starptautisku interesi, kas pārsniedz parasto fanu loku. "Tas ir tieši tas, kas Eirovīzijai nepieciešams—sirsnības, humora un bezbailīgas piedzīvojumu devas pieplūdums," apgalvo Somijas Eirovīzijas vēsturnieks Arvo Liukkaanens. "Turklāt, ir pienācis laiks kādam izaicināt talantu šovu koncepciju—vairs nekādu spīguļu bumbu, bet burtiski ledus ūdens bumbu!"
+
+Neskatoties uz skepsi, prognozes liecina, ka 'Eirovīzija uz Ledus' varētu aizsākt jaunu kultūras iesaistes pieredžu ēru, vienu Skandināvijas sniega vētru vienlaikus. Lai pielāgotos nedaudz biedējošajam temperatūras kritumam, tiek ziņots, ka viesmīlības komanda izstrādā jaunas receptes karstiem etiķiem, pikantam alternatīvam tradicionālajam glogam, kas tiks pasniegts gandrīz tikai rokām grebtos ledus krūzēs.
+
+Kamēr detaļas vēl tiek jautri izstrādātas, ministrs Leduslācis paliek optimistisks: "Kas gan ir neliels apsaldējums salīdzinājumā ar ledus lauzēju, kas varētu izkausēt sirdis—un ausis—vairāk nekā 180 miljoniem skatītāju visā pasaulē?" Ar šo Latvija šķiet gatava vadīt jaunas tradīcijas: Icevision. Vēsturisks vai histērisks, tikai laiks—un tektoniskās plāksnes—to parādīs.`,
+      ru: `Рига — В беспрецедентном смешении популярной культуры и активного отдыха Латвия заявила о своем амбициозном видении проведения конкурса песни Евровидение не на роскошной сцене, а на ледяной поверхности озера Кишэзерс, в двух шагах от шумной столицы Риги. Это решение вызвало удивление по всей Европе, разжигая как скептицизм, так и любопытство.
+
+Объявление, сделанное на пресс-конференции, подозрительно близкой к магазину рыболовных снастей, было провозглашено недавно назначенным министром творческих неудобств Юрисом Ледуслацисом. "Мы, латыши, всегда были новаторами," сказал Ледуслацис, который надел специально сшитую парку с блестками для этого случая. "Евровидение — это праздник разнообразия и выносливости, и что может быть лучше, чем праздновать, объединяясь с природой в наших любимых видах спорта на льду?"
+
+Согласно планам правительства, представитель каждой страны будет исполнять свою выбранную песню, стоя на индивидуальной лунке для рыбалки, вырезанной на замерзшем озере, тонко побуждая исполнителей закончить до того, как начнется реальная угроза гипотермии. В дополнение к этому, выступления будут оцениваться не только по музыкальному таланту, но и по способности поймать больше всего рыбы. "Это о многозадачности и гармонии с природой," объяснил Ледуслацис, отмечая, что рыбалка на льду — это национальное искусство, как и пение или отсутствие кого-либо дома, когда наступает праздник Яни.
+
+Критики этого новаторского подхода выразили обеспокоенность по поводу безопасности и практичности, но Ледуслацис остается невозмутимым. "Мы координировали действия с ведущими латвийскими инженерами и экспертами по льду. Мы даже консультировались с эльфами Санты в Лапландии," добавил он, с юмором ссылаясь на северную привязанность Латвии. "Будут установлены сети безопасности — и под сетями безопасности я имею в виду настоящие рыболовные сети, расположенные вокруг сценических лунок."
+
+Местное сообщество гудит от волнения. Марис Усаинитис, владелец близлежащего магазина Kisezers Bait & Tackle, предсказывает бум продаж утепленных жилетов и термосов. "Это может стать самым большим событием с тех пор, как мы заявили, что эта огромная рождественская елка на самом деле принадлежит нам," сказал он с радостным смешком.
+
+Поклонники Евровидения заинтригованы, но слегка обеспокоены. "Это немного непредсказуемо — есть шанс, что я могу потерять голос или достоинство," признался Слава Тиксмисов, трехкратный латвийский претендент на Евровидение, который уже практикует гаммы, дрожа босиком на льду.
+
+Уникальное сочетание Евровидения и рыбалки на льду может привлечь международный интерес далеко за пределами обычных поклонников. "Это именно то, что нужно Евровидению — вливание искренности, юмора и безрассудного приключения," утверждает финский историк Евровидения Арво Лиукканен. "Плюс, давно пора кому-то бросить вызов концепции того, что на самом деле представляют собой талант-шоу — никаких больше блестящих бомб, а настоящие бомбы из ледяной воды!"
+
+Несмотря на скептицизм, прогнозы показывают, что 'Евровидение на льду' может открыть новую эру культурно насыщенных впечатлений, одна скандинавская снежная буря за раз. Чтобы компенсировать несколько пугающее падение температуры, сообщается, что команда гостеприимства разрабатывает новые рецепты для подогретых уксусов, острой альтернативы более традиционному глёгу, которые будут подаваться почти исключительно в вырезанных вручную ледяных кружках.
+
+Пока детали все еще весело прорабатываются, министр Ледуслацис остается оптимистичным: "Что такое небольшое обморожение по сравнению с ледоколом, который может растопить сердца — и уши — более 180 миллионов зрителей по всему миру?" С этим Латвия, похоже, готова возглавить новую традицию: Ледовидение. Историческое или истерическое, только время — и тектонические плиты — покажут.`
+    },
+    date: "Dec 17, 2025",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 31,
     slug: "riga-city-council-unveils-revolutionary-invisible",
     title: {
@@ -95,7 +170,7 @@ Turpmāk, pilsētas dome aicina iedzīvotājus “pieņemt pārmaiņas” un br�
     readTime: "7 min read",
     imageUrl: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 30,
