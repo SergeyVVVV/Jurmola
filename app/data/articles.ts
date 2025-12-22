@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 37,
+    slug: "latvian-govt-issues-emergency-alert-entire",
+    title: {
+      en: "Latvian Govt Issues Emergency Alert: Entire Nation Abandons Work to Hunt for First Mushroom of Autumn",
+      lv: "Latvijas valdība izsludina ārkārtas brīdinājumu: visa tauta pamet darbu, lai meklētu pirmo rudens sēni",
+      ru: "Латвийское правительство объявляет чрезвычайное предупреждение: вся нация бросает работу, чтобы охотиться за первым грибом осени"
+    },
+    excerpt: {
+      en: "In an unprecedented move, the Latvian government declared National Mushroom Hunting Day after reports emerged that no one showed up to work, and traffic congestion was caused by bicycle-laden caravans heading to the woods. Experts debate the economic impact of this impromptu celebration.",
+      lv: "Nepieredzētā solī Latvijas valdība izsludināja Nacionālo sēņu medību dienu pēc ziņām, ka neviens neieradās darbā, un satiksmes sastrēgumus izraisīja ar velosipēdiem piekrauti karavāni, kas devās uz mežiem. Eksperti diskutē par šīs spontānās svinības ekonomisko ietekmi.",
+      ru: "В беспрецедентном шаге латвийское правительство объявило Национальный день охоты на грибы после сообщений о том, что никто не вышел на работу, а пробки были вызваны караванами, нагруженными велосипедами, направляющимися в леса. Эксперты обсуждают экономическое воздействие этого спонтанного праздника."
+    },
+    fullContent: {
+      en: `In a scene that can only be described as mushroom mania, the Latvian government today declared a nationwide public holiday to accommodate the mushroom hunting fervor that seemingly paralyzed the nation. Reports indicate that Latvians from all walks of life, regardless of age or profession, have vacated their duties to partake in what is being dubbed 'The First Autumn Mushroom Pilgrimage.'
+
+The decision came after the Ministry of Internal Affairs received numerous calls from employers concerned about the sudden mass exodus from offices, factories, and all places of work. "We initially thought we were dealing with an alien invasion or perhaps one of those flash-mob trends," confided Ministry spokesperson Ivars Biezums. "Upon further investigation, we realized that people were observing an unwritten tradition of hunting the first mushroom of autumn. It seemed only sensible to declare an official holiday."
+
+Traffic reports show unprecedented congestion around all major forests, with cars, bicycles, and even horse-drawn carts attempting to access the forested regions. "It's a mess out there," stated Rīgas Satiksme's traffic coordinator, Laila Petrukova, as she described the chaotic scene near Jugla Forest. "Bicycles are stacked three high on top of LADA Nivas, and families are duct-taping mushroom baskets to their roof racks."
+
+Job sites were not spared either; Riga's central business district resembled a ghost town. Evija Kļava, a lone IT technician found in a usually crowded office, remarked, "I stayed behind to feed the office plant and consider my life choices." She added, "In hindsight, I probably should have just followed the crowd."
+
+According to a recent survey conducted by the Latvian Institute of National Traditions, an astounding 98% of Latvians profess a strong spiritual connection to mushroom hunting. Chairman Anrijs Grumsons weighed in on the phenomenon as he published the institute's ‘Mycological Madness Index,’ which reported a spike in mushroom mania by 200% compared to last year.
+
+"It's not just about the mushrooms," Grumsons explained. "It's the anticipation of discovering the perfect boletus or chanterelle, the pride in presenting it, and the inevitable argument over the tastiest preparation method. It's deeply embedded in our culture."
+
+Economists are divided on the potential impact of this unexpected day off. Analyst Klaudijs Pūpols of the Latvian Economic Forum suggested that the diffuse nature of mushroom hunting across national parks could promote regional tourism. "Some might argue about lost productivity, but I think the mushrooming economy - pardon the pun - could provide an interesting boost to local micro-economies," Pūpols stated while enjoying a hearty bowl of mushroom soup from a popular street vendor.
+
+As the day progresses, reports have emerged of competitive mushroom hunting ceremonies in local media, with scores judged on size, beauty, and the appropriateness of footwear worn by participants. "I only lost because my flip-flops were deemed inappropriate," lamented one participant, an inconsolable Uģis Baraviks, while clutching a decent-sized edible bolete.
+
+As dusk approaches, sporadic activity can be seen at the railway stations, with weary families toting baskets of fungi. A successful haul by Latvian standards, yet another reason there are never remnants on the store shelves for mushroom-based goods this time every year.
+
+All in all, as Latvians return to civilization armed with colanders and recipe books, much remains to be considered about next year's unexpected retreat to the woods. But for now, many simply relish the excuse to pay homage to a damp and delightful national pastime.`,
+      lv: `Ainā, ko var raksturot tikai kā sēņu māniju, Latvijas valdība šodien izsludināja valsts mēroga brīvdienu, lai pielāgotos sēņu medību drudzim, kas šķietami paralizēja valsti. Ziņojumi liecina, ka latvieši no visām dzīves jomām, neatkarīgi no vecuma vai profesijas, ir pametuši savus pienākumus, lai piedalītos tā dēvētajā 'Pirmajā rudens sēņu svētceļojumā'.
+
+Lēmums tika pieņemts pēc tam, kad Iekšlietu ministrija saņēma daudzus zvanus no darba devējiem, kuri bija nobažījušies par pēkšņo masveida izceļošanu no birojiem, rūpnīcām un visām darba vietām. "Sākotnēji mēs domājām, ka saskaramies ar citplanētiešu iebrukumu vai varbūt kādu no tiem zibakciju trendiem," atzina ministrijas pārstāvis Ivars Biezums. "Pēc rūpīgākas izmeklēšanas mēs sapratām, ka cilvēki ievēro nerakstītu tradīciju medīt pirmo rudens sēni. Šķita tikai saprātīgi izsludināt oficiālu brīvdienu."
+
+Satiksmes ziņojumi liecina par nepieredzētu sastrēgumu ap visiem lielākajiem mežiem, ar automašīnām, velosipēdiem un pat zirgu pajūgiem, kas cenšas piekļūt mežainajām teritorijām. "Tur ir haoss," paziņoja Rīgas Satiksmes satiksmes koordinatore Laila Petrukova, aprakstot haotisko ainu pie Juglas meža. "Velosipēdi ir sakrauti trīs augstumā uz LADA Nivām, un ģimenes ar līmlenti piestiprina sēņu grozus pie jumta bagāžniekiem."
+
+Arī darba vietas netika saudzētas; Rīgas centrālais biznesa rajons atgādināja spoku pilsētu. Evija Kļava, vienīgā IT tehniķe, kas atradās parasti pārpildītā birojā, atzīmēja: "Es paliku, lai pabarotu biroja augu un pārdomātu savas dzīves izvēles." Viņa piebilda: "Atpakaļskatoties, man droši vien vajadzēja vienkārši sekot pūlim."
+
+Saskaņā ar neseno Latvijas Nacionālo Tradīciju Institūta veikto aptauju, apbrīnojami 98% latviešu apliecina spēcīgu garīgu saikni ar sēņu medībām. Institūta priekšsēdētājs Anrijs Grumsons izteicās par šo fenomenu, publicējot institūta 'Mikoloģiskās mānijas indeksu', kas ziņoja par sēņu mānijas pieaugumu par 200% salīdzinājumā ar pagājušo gadu.
+
+"Tas nav tikai par sēnēm," skaidroja Grumsons. "Tas ir par gaidām atklāt perfektu baraviku vai gaileni, lepnumu to prezentēt un neizbēgamo strīdu par garšīgāko pagatavošanas metodi. Tas ir dziļi iesakņojies mūsu kultūrā."
+
+Ekonomisti ir sadalīti par šīs negaidītās brīvdienas iespējamo ietekmi. Analītiķis Klaudijs Pūpols no Latvijas Ekonomikas Foruma ierosināja, ka sēņu medību izkliedētā daba pa nacionālajiem parkiem varētu veicināt reģionālo tūrismu. "Daži varētu apgalvot par zaudēto produktivitāti, bet es domāju, ka sēņu ekonomika - atvainojiet par vārdu spēli - varētu sniegt interesantu stimulu vietējām mikroekonomikām," Pūpols teica, baudot sātīgu sēņu zupas bļodu no populāra ielu pārdevēja.
+
+Dienai turpinoties, vietējos medijos parādījās ziņojumi par konkurējošām sēņu medību ceremonijām, kuras tiek vērtētas pēc izmēra, skaistuma un dalībnieku apavu piemērotības. "Es zaudēju tikai tāpēc, ka manas čības tika uzskatītas par nepiemērotām," sūdzējās viens dalībnieks, neapmierinātais Uģis Baraviks, turot rokās pieklājīga izmēra ēdamu baraviku.
+
+Tuvojoties krēslai, dzelzceļa stacijās var redzēt sporādisku aktivitāti, ar nogurušām ģimenēm, kas nes sēņu grozus. Veiksmīgs guvums pēc Latvijas standartiem, vēl viens iemesls, kāpēc šajā laikā veikalos nekad nav sēņu produktu atlikumu.
+
+Kopumā, latviešiem atgriežoties civilizācijā ar caurduriem un recepšu grāmatām, daudz kas vēl jāapsver par nākamā gada negaidīto atkāpšanos uz mežiem. Bet pagaidām daudzi vienkārši izbauda attaisnojumu, lai godinātu mitru un aizraujošu nacionālo izklaidi.`,
+      ru: `В сцене, которую можно описать только как грибная мания, латвийское правительство сегодня объявило общенациональный государственный праздник, чтобы учесть грибную охоту, которая, казалось, парализовала нацию. Сообщается, что латвийцы из всех слоев общества, независимо от возраста или профессии, оставили свои обязанности, чтобы принять участие в том, что называют 'Первым осенним грибным паломничеством'.
+
+Решение было принято после того, как Министерство внутренних дел получило многочисленные звонки от работодателей, обеспокоенных внезапным массовым исходом из офисов, фабрик и всех рабочих мест. "Сначала мы думали, что имеем дело с инопланетным вторжением или, возможно, с одной из тех флэшмоб-тенденций," признался представитель Министерства Иварс Биезумс. "После дальнейшего расследования мы поняли, что люди соблюдают неписаную традицию охоты на первый гриб осени. Казалось разумным объявить официальный праздник."
+
+Дорожные отчеты показывают беспрецедентные пробки вокруг всех крупных лесов, с автомобилями, велосипедами и даже конными повозками, пытающимися добраться до лесных районов. "Там настоящий хаос," заявила координатор движения Rīgas Satiksme Лайла Петрукова, описывая хаотичную сцену возле леса Югла. "Велосипеды сложены в три этажа на крыше LADA Niva, а семьи приклеивают корзины для грибов к багажникам."
+
+Рабочие места также не были пощажены; центральный деловой район Риги напоминал город-призрак. Эвия Клава, единственный IT-техник, найденный в обычно переполненном офисе, заметила: "Я осталась, чтобы покормить офисное растение и обдумать свои жизненные выборы." Она добавила: "Оглядываясь назад, я, вероятно, должна была просто последовать за толпой."
+
+Согласно недавнему опросу, проведенному Латвийским институтом национальных традиций, ошеломляющие 98% латвийцев заявляют о сильной духовной связи с охотой на грибы. Председатель Анрийс Грумсонс высказался о феномене, опубликовав 'Индекс микологического безумия' института, который сообщил о всплеске грибной мании на 200% по сравнению с прошлым годом.
+
+"Дело не только в грибах," объяснил Грумсонс. "Это ожидание открытия идеального белого гриба или лисички, гордость за его представление и неизбежный спор о самом вкусном способе приготовления. Это глубоко укоренилось в нашей культуре."
+
+Экономисты разделились во мнениях о потенциальном влиянии этого неожиданного выходного дня. Аналитик Клаудийс Пуполс из Латвийского экономического форума предположил, что размытая природа охоты на грибы по национальным паркам может способствовать развитию регионального туризма. "Некоторые могут спорить о потерянной продуктивности, но я думаю, что грибная экономика - извините за каламбур - может дать интересный толчок местным микроэкономикам," заявил Пуполс, наслаждаясь сытным грибным супом от популярного уличного торговца.
+
+По мере того как день продолжается, в местных СМИ появляются сообщения о соревновательных церемониях по охоте на грибы, где оценки выставляются за размер, красоту и уместность обуви участников. "Я проиграл только потому, что мои шлепанцы были признаны неуместными," сокрушался один из участников, неутешимый Угис Баравикс, сжимая приличный съедобный белый гриб.
+
+С наступлением сумерек на железнодорожных станциях можно увидеть спорадическую активность, с уставшими семьями, несущими корзины с грибами. Успешный улов по латвийским стандартам, еще одна причина, почему на полках магазинов никогда не остается товаров на основе грибов в это время года.
+
+В общем, по мере того как латвийцы возвращаются к цивилизации, вооруженные дуршлагами и кулинарными книгами, многое еще предстоит обдумать о неожиданном походе в лес в следующем году. Но пока многие просто наслаждаются возможностью отдать дань уважения этому влажному и восхитительному национальному увлечению.`
+    },
+    date: "Dec 22, 2025",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 36,
     slug: "latvian-parliament-announces-plan-to-replace",
     title: {
@@ -83,7 +164,7 @@ Kā Latvija uzsāk to, ko tā lepni sauc par ceļojumu uz 'alternatīvo finanšu
     readTime: "9 min read",
     imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 35,
