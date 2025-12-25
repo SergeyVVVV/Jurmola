@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 40,
+    slug: "latvia-announces-groundbreaking-squirrel-lane-initiative",
+    title: {
+      en: "Latvia Announces Groundbreaking 'Squirrel-Lane' Initiative To Solve Traffic Woes",
+      lv: "Latvija Ievieš Revolucionāru 'Vāveru Joslu' Iniciatīvu, Lai Atrisinātu Satiksmes Problēmas",
+      ru: "Латвия объявляет о революционной инициативе 'Беличьи полосы' для решения проблем с пробками"
+    },
+    excerpt: {
+      en: "In a bid to alleviate Riga's notorious traffic congestion, the Latvian government has announced an innovative new policy that will see squirrels trained to guide vehicles through the city’s busiest intersections.",
+      lv: "Lai mazinātu Rīgas bēdīgi slaveno satiksmes sastrēgumu, Latvijas valdība ir paziņojusi par inovatīvu jaunu politiku, kas paredz vāveru apmācību, lai vadītu transportlīdzekļus cauri pilsētas noslogotākajiem krustojumiem.",
+      ru: "В попытке облегчить печально известные пробки в Риге, латвийское правительство объявило об инновационной новой политике, согласно которой белки будут обучены направлять транспорт через самые загруженные перекрестки города."
+    },
+    fullContent: {
+      en: `Riga, LATVIA—In an unprecedented move to tackle the ever-growing traffic congestion in the heart of Latvia's capital, the government has launched a groundbreaking initiative known as 'Squirrel Lanes.' An eclectic combination of wildlife management and urban planning, this scheme aims to create special lanes directed by trained squirrels to improve vehicular flow across key intersections. 
+
+Minister of Transport, Italo Ozols, made the announcement on Monday morning amidst a backdrop of squealing brakes and blaring horns near the Freedom Monument. "After extensive research, and observing the natural agility and decisiveness of squirrels, we believe they are the perfect candidates to orchestrate smoother traffic movement," Ozols declared, adding, "We’re turning the chaos of the roads into an exercise in synchronized woodland harmony."
+
+The initiative, which researchers assure is backed by 'definitive science,' involves training Latvia's 2.5 million red squirrels to operate as mini-scale traffic wardens. "Traditionally, squirrels have been trained to find nuts, but with modern training techniques, they can just as easily direct traffic," explained Dr. Maris Vanags, a leading zoologist from the University of Latvia. "We are confident they will not be distracted by any flashy car paint or jangling keys."
+
+The pilot programme, set to launch next month, will introduce squirrel-staffed crosswalks and lane dividers. "Technically, the training is straightforward," Vanags continued. "The squirrels will have brightly colored mini flags, and their natural instincts for dodging oncoming cars will be honed to redirect traffic efficiently."
+
+Cautiously optimistic, Juris Kalnins, a Riga taxi driver with over 20 years of experience navigating the city's labyrinthine roads, expressed his tentative support. "Sure, I haven't seen a squirrel control traffic before, but I also never thought I'd have to dodge a segway on a motorway either," Kalnins jokingly remarked. "Progress is progress, I guess."
+
+Meanwhile, skeptics, especially the Riga Traffic Cabinet, are concerned about the potential for 'nutty' mishaps. "What if they suddenly decide to chase an acorn mid-shift?" queried skeptical citizen and road user, Vilma Raimonds. To this, the transport minister assured that there will be rigorous oversight involving squirrel trainers strategically placed with emergency whistles.
+
+Preliminary studies show promising results, with test scenarios demonstrating a 25% increase in traffic flow efficiency during peak hours in simulations. Additionally, planners are excited about the possible future of squirrel-led public education campaigns focusing on road safety, hoping to embed the 'traffic-savvy squirrel' as an iconic safety emblem. 
+
+In related news, Estonia is reportedly observing the development closely, hinting at the possibility of implementing a similar initiative using Estonia's vast elk population for pedestrian crossings. "We're all watching how Latvia's squirrels perform," said Estonia's Senior Advisor for Innovative Traffic Solutions, Alar Tammsalu. "But we do have yearnings towards a slightly larger animal," he added with a wink. 
+
+As Latvia embarks down this road—quite literally—with its enthusiastic squirrel crews, it will surely capture international attention, or at least inspire awe among visiting tourists who expected to experience nature's wonders in forests—not intersection roundabouts.`,
+      lv: `Rīga, LATVIJA—Nepieredzētā solī, lai risinātu arvien pieaugošo satiksmes sastrēgumu Latvijas galvaspilsētas sirdī, valdība ir uzsākusi revolucionāru iniciatīvu, kas pazīstama kā 'Vāveru Joslas.' Šī shēma, kas ir savdabīgs savvaļas dzīvnieku pārvaldības un pilsētplānošanas apvienojums, paredz izveidot īpašas joslas, kuras vadīs apmācītas vāveres, lai uzlabotu transportlīdzekļu plūsmu galvenajos krustojumos.
+
+Transporta ministrs Italo Ozols paziņoja par šo iniciatīvu pirmdienas rītā, fonā skanot bremžu čīkstēšanai un signālu skaņām pie Brīvības pieminekļa. "Pēc plašiem pētījumiem un novērojot vāveru dabisko veiklību un izlēmību, mēs uzskatām, ka tās ir ideāli kandidāti, lai organizētu vienmērīgāku satiksmes kustību," paziņoja Ozols, piebilstot, "Mēs pārvēršam ceļu haosu par sinhronizētu meža harmonijas vingrinājumu."
+
+Iniciatīva, kuru pētnieki apgalvo, ka atbalsta 'neapstrīdama zinātne,' ietver Latvijas 2,5 miljonu sarkano vāveru apmācību, lai tās darbotos kā maza mēroga satiksmes regulētāji. "Tradicionāli vāveres ir apmācītas atrast riekstus, bet ar modernām apmācības metodēm tās tikpat viegli var vadīt satiksmi," skaidroja Dr. Māris Vanags, vadošais zoologs no Latvijas Universitātes. "Mēs esam pārliecināti, ka tās netiks novērstas ne ar košām automašīnu krāsām, ne ar atslēgu žvadzēšanu."
+
+Pilotprogramma, kas tiks uzsākta nākamajā mēnesī, ieviesīs vāveru apkalpotas gājēju pārejas un joslu sadalītājus. "Tehniski apmācība ir vienkārša," turpināja Vanags. "Vāverēm būs spilgti krāsaini mazi karodziņi, un to dabiskie instinkti izvairīties no tuvojošiem transportlīdzekļiem tiks pilnveidoti, lai efektīvi novirzītu satiksmi."
+
+Piesardzīgi optimistisks, Juris Kalniņš, Rīgas taksometra vadītājs ar vairāk nekā 20 gadu pieredzi pilsētas labirintiskajos ceļos, izteica savu piesardzīgo atbalstu. "Protams, es iepriekš neesmu redzējis vāveri vadām satiksmi, bet es arī nekad nedomāju, ka man būs jāizvairās no segveja uz šosejas," Kalniņš jokoja. "Progresam ir savs ceļš, es pieņemu."
+
+Tikmēr skeptiķi, īpaši Rīgas Satiksmes kabinets, ir nobažījušies par iespējamiem 'riekstu' starpgadījumiem. "Kas notiks, ja tās pēkšņi izlems skriet pakaļ zīlei darba laikā?" jautāja skeptiska pilsētas iedzīvotāja un ceļu lietotāja Vilma Raimonda. Uz to transporta ministrs apliecināja, ka būs stingra uzraudzība, iesaistot vāveru trenerus, kas stratēģiski izvietoti ar ārkārtas svilpēm.
+
+Sākotnējie pētījumi rāda daudzsološus rezultātus, ar testa scenārijiem, kas simulācijās demonstrē 25% satiksmes plūsmas efektivitātes pieaugumu sastrēguma stundās. Turklāt plānotāji ir sajūsmināti par iespējamo nākotni, kurā vāveru vadītas sabiedriskās izglītības kampaņas koncentrējas uz ceļu satiksmes drošību, cerot ieviest 'satiksmes gudro vāveri' kā ikonisku drošības simbolu.
+
+Saistītās ziņās Igaunija it kā cieši vēro attīstību, norādot uz iespēju ieviest līdzīgu iniciatīvu, izmantojot Igaunijas plašo aļņu populāciju gājēju pārejām. "Mēs visi vērojam, kā Latvijas vāveres darbosies," sacīja Igaunijas Inovatīvo satiksmes risinājumu vecākais padomnieks Alars Tammsalu. "Bet mums ir tieksme uz nedaudz lielāku dzīvnieku," viņš piebilda ar acs mirkšķināšanu.
+
+Kad Latvija dodas šajā ceļā—burtiski—ar savām entuziastiskajām vāveru komandām, tā noteikti piesaistīs starptautisku uzmanību vai vismaz iedvesmos apbrīnu starp tūristiem, kuri cerēja piedzīvot dabas brīnumus mežos—nevis krustojumu apļos.`,
+      ru: `Рига, ЛАТВИЯ — В беспрецедентной попытке справиться с постоянно растущими пробками в центре столицы Латвии, правительство запустило революционную инициативу под названием 'Беличьи полосы'. Эклектичное сочетание управления дикой природой и городского планирования, эта схема направлена на создание специальных полос, управляемых обученными белками, для улучшения движения транспорта на ключевых перекрестках.
+
+Министр транспорта Итало Озолс объявил об этом в понедельник утром на фоне визга тормозов и гудков рядом с Памятником Свободы. 'После обширных исследований и наблюдений за естественной ловкостью и решительностью белок, мы считаем, что они идеальные кандидаты для организации более плавного движения транспорта,' заявил Озолс, добавив, 'Мы превращаем хаос на дорогах в упражнение по синхронизированной лесной гармонии.'
+
+Инициатива, которая, как уверяют исследователи, подкреплена 'окончательной наукой', включает обучение 2,5 миллионов латвийских рыжих белок работать в качестве миниатюрных регулировщиков движения. 'Традиционно белок обучали находить орехи, но с современными методами обучения они могут так же легко управлять движением,' объяснил доктор Марис Ванагс, ведущий зоолог из Латвийского университета. 'Мы уверены, что их не отвлекут ни яркая краска автомобилей, ни звенящие ключи.'
+
+Пилотная программа, запуск которой намечен на следующий месяц, представит пешеходные переходы и разделители полос, обслуживаемые белками. 'Технически, обучение несложное,' продолжил Ванагс. 'У белок будут ярко окрашенные мини-флажки, и их естественные инстинкты уклонения от приближающихся автомобилей будут отточены для эффективного перенаправления движения.'
+
+С осторожным оптимизмом, Юрис Калныньш, рижский таксист с более чем 20-летним опытом навигации по лабиринтам городских дорог, выразил свою сдержанную поддержку. 'Конечно, я никогда не видел, чтобы белка управляла движением, но я также никогда не думал, что мне придется уклоняться от сегвея на автостраде,' шутливо заметил Калныньш. 'Прогресс есть прогресс, полагаю.'
+
+Между тем, скептики, особенно Рижский кабинет по вопросам движения, обеспокоены возможностью 'ореховых' инцидентов. 'Что если они вдруг решат погнаться за желудем в середине смены?' — спросила скептически настроенная гражданка и пользователь дорог Вилма Раймондс. На это министр транспорта заверил, что будет строгий надзор, включающий тренеров белок, стратегически размещенных с аварийными свистками.
+
+Предварительные исследования показывают обнадеживающие результаты, с тестовыми сценариями, демонстрирующими 25% увеличение эффективности движения в часы пик в симуляциях. Кроме того, планировщики взволнованы возможным будущим кампаний по общественному образованию, возглавляемых белками, с акцентом на безопасность на дорогах, надеясь внедрить 'белку, разбирающуюся в движении', как культовый символ безопасности.
+
+В связанных новостях, Эстония, как сообщается, внимательно наблюдает за развитием событий, намекая на возможность реализации аналогичной инициативы с использованием обширной популяции лосей Эстонии для пешеходных переходов. 'Мы все наблюдаем, как справляются латвийские белки,' сказал старший советник Эстонии по инновационным решениям в области движения Алар Таммсалу. 'Но у нас есть тяга к немного более крупному животному,' добавил он с подмигиванием.
+
+Когда Латвия отправляется в этот путь — в буквальном смысле — с энтузиазмом своих беличьих экипажей, она наверняка привлечет международное внимание или, по крайней мере, вдохновит на восхищение среди туристов, которые ожидали увидеть чудеса природы в лесах, а не на перекрестках.`
+    },
+    date: "Dec 25, 2025",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 39,
     slug: "latvian-parliament-approves-revolutionary-sauna-tax",
     title: {
@@ -89,7 +164,7 @@ Kamēr pasaule vēro ar gan apjukumu, gan ziņkāri, viena lieta ir skaidra: Lat
     readTime: "5 min read",
     imageUrl: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 38,
