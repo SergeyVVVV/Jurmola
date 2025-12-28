@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 43,
+    slug: "latvian-government-to-introduce-mandatory-sauna",
+    title: {
+      en: "Latvian Government to Introduce Mandatory Sauna Breaks at Work to Boost Productivity, Experts Baffled",
+      lv: "Latvijas valdība ieviesīs obligātas pirts pauzes darbā, lai veicinātu produktivitāti, eksperti apjukuši",
+      ru: "Латвийское правительство вводит обязательные перерывы на сауну на работе для повышения продуктивности, эксперты в замешательстве"
+    },
+    excerpt: {
+      en: "In a surprising legislatorial maneuver, the Latvian parliament has announced a new mandate requiring all workplaces to install saunas, citing 'enhanced productivity and national warmth'. This unprecedented move has economists scratching their heads while sauna manufacturers declare 'business is hot!'",
+      lv: "Pārsteidzošā likumdošanas manevrā Latvijas parlaments ir paziņojis par jaunu mandātu, kas prasa visām darbavietām uzstādīt pirtis, norādot uz 'uzlabotu produktivitāti un nacionālo siltumu'. Šis bezprecedenta solis ir ekonomistus atstājis neizpratnē, kamēr pirts ražotāji paziņo, ka 'bizness ir karsts!'",
+      ru: "В неожиданном законодательном маневре латвийский парламент объявил о новом мандате, требующем от всех рабочих мест установки саун, ссылаясь на 'повышенную продуктивность и национальное тепло'. Этот беспрецедентный шаг заставил экономистов почесать головы, в то время как производители саун заявляют, что 'бизнес горячий!'"
+    },
+    fullContent: {
+      en: `In what many are calling the 'steamiest political move ever', the Latvian government has passed a revolutionary bill requiring all public and private sector workplaces to install fully functional saunas by the end of 2024. The 'Sauna Productivity Act', as it has been officially dubbed, aims to leverage the traditional Latvian love for bathing in near-volcanic temperatures to promote a healthier, more relaxed workforce.
+
+"We want Latvians to be as productive as possible, and nothing says productivity like sweating profusely in a small wooden room," stated Minister of Steam and Relaxation, Imants Karavs, during a press conference. "Our ancestors braved the Baltic winters with nary a whimper. It’s about time their descendants faced spreadsheets with the same resilience, buoyed by regular sauna breaks."
+
+According to the proposal, each employee will be entitled to three 'steam sessions' per day, each lasting 15 minutes. During these breaks, employees are encouraged to reflect on their tasks, chat about future company strategies, or simply marvel at the ingenuity of wooden bench construction.
+
+Local economist, Ilze Silina, expressed skepticism about the policy’s economic impact. "While it is an innovative concept, calling this a productivity booster is...creative. Shares in towel manufacturers have soared, but I'm not sure that constitutes an economic breakthrough," she mused.
+
+Equally intrigued, the Latvian Union for Workplace Health and Restation (LUWHR) welcomed the decision. "We've been demanding more relaxed approaches to work for years," exclaimed spokesperson Vita Zalite. "Although we initially suggested introducing comfortable napping zones, steam is a close second. It’s wonderful to see Latvia finally raising workplace temperatures in a positive manner!"
+
+Businesses have already started adapting to the new requirement. "We've cleared out the old server room. The servers were always overheating anyway," revealed Juris Ziepnieks, CEO of the tech start-up Byte Sauna. "Our team morale is lifting along with the steam. Our developers now feel like they're coding in a tropical forest – minus the annoying insects, but with all the sweat."
+
+Not surprisingly, sauna construction firms are basking in the advent of new business prospects. "We're in the golden age of sauna building!" declared Laimdots Ozolins, CEO of Steam Dream Enterprises. "We’ve had a 400% increase in orders. I suppose people have never been this eager to work themselves into a lather."
+
+However, there has been some backlash from environmental groups concerned about the increased energy consumption. "Sure, saunas are great," admits Green Latvia's founder, Aivars Rubenis. "But we advocate reducing Latvia’s carbon footprint, not increasing its water vapor signature."
+
+The government remains undeterred. Considering the initiative a potential cultural export comparable to hygge or Swedish fika, Karavs noted, "It’s our chance to set a global trend. After all, what’s a world economy without a little condensation?"
+
+Time will tell whether mandatory sauna breaks will genuinely put Latvia's productivity on the heat map or if this policy will fall under 'ambitious but unboiled'. For now though, employees across the nation are just glad they can finally wear the same attire to work and to the beach.`,
+      lv: `Daudzi šo sauc par 'karstāko politisko soli jebkad', Latvijas valdība ir pieņēmusi revolucionāru likumprojektu, kas prasa visām publiskā un privātā sektora darbavietām līdz 2024. gada beigām uzstādīt pilnībā funkcionējošas pirtis. Oficiāli nosauktais 'Pirts produktivitātes akts' mērķē izmantot tradicionālo latviešu mīlestību pret peldēšanos gandrīz vulkāniskās temperatūrās, lai veicinātu veselīgāku un atslābinātāku darbaspēku.
+
+"Mēs vēlamies, lai latvieši būtu pēc iespējas produktīvāki, un nekas nesaka produktivitāti kā svīšana mazā koka istabā," preses konferencē paziņoja Tvaika un atpūtas ministrs Imants Karavs. "Mūsu senči izturēja Baltijas ziemas bez kurnēšanas. Ir pienācis laiks, lai viņu pēcteči ar tādu pašu izturību saskartos ar izklājlapām, ko atbalsta regulāras pirts pauzes."
+
+Saskaņā ar priekšlikumu katram darbiniekam būs tiesības uz trim 'tvaika sesijām' dienā, katra ilgstot 15 minūtes. Šo paužu laikā darbinieki tiek aicināti pārdomāt savus uzdevumus, apspriest nākotnes uzņēmuma stratēģijas vai vienkārši apbrīnot koka solu konstrukcijas izdomu.
+
+Vietējā ekonomiste Ilze Siliņa izteica skepsi par politikas ekonomisko ietekmi. "Lai gan tas ir inovatīvs koncepts, saukt to par produktivitātes veicinātāju ir... radoši. Dvieļu ražotāju akcijas ir strauji pieaugušas, bet es neesmu pārliecināta, ka tas ir ekonomisks izrāviens," viņa prātoja.
+
+Tikpat ieinteresēta, Latvijas Darba vietu veselības un atpūtas savienība (LUWHR) atzinīgi novērtēja lēmumu. "Mēs gadiem ilgi esam pieprasījuši relaksētākas pieejas darbam," izsaucās pārstāve Vita Zālīte. "Lai gan sākotnēji ierosinājām ieviest ērtas snaudas zonas, tvaiks ir cieši otrajā vietā. Ir brīnišķīgi redzēt, ka Latvija beidzot paaugstina darba vietu temperatūru pozitīvā veidā!"
+
+Uzņēmumi jau ir sākuši pielāgoties jaunajām prasībām. "Mēs esam iztīrījuši veco serveru telpu. Serveri vienmēr pārkarsa jebkurā gadījumā," atklāja tehnoloģiju start-up Byte Sauna izpilddirektors Juris Ziepnieks. "Mūsu komandas morāle ceļas kopā ar tvaiku. Mūsu izstrādātāji tagad jūtas kā kodējot tropiskā mežā – bez kaitinošiem kukaiņiem, bet ar visu svīšanu."
+
+Nav pārsteidzoši, ka pirts būvniecības uzņēmumi bauda jaunu biznesa iespēju pieplūdumu. "Mēs esam pirts būvniecības zelta laikmetā!" paziņoja Steam Dream Enterprises izpilddirektors Laimdots Ozoliņš. "Mums ir bijis 400% pieaugums pasūtījumos. Es pieņemu, ka cilvēki nekad nav bijuši tik dedzīgi strādāt līdz putām."
+
+Tomēr ir bijusi zināma pretestība no vides grupām, kuras ir nobažījušās par palielinātu enerģijas patēriņu. "Protams, pirtis ir lieliskas," atzīst Green Latvia dibinātājs Aivars Rubenis. "Bet mēs aizstāvam Latvijas oglekļa pēdas samazināšanu, nevis ūdens tvaika paraksta palielināšanu."
+
+Valdība paliek nesatricināta. Uzskatot iniciatīvu par potenciālu kultūras eksportu, kas salīdzināms ar hygge vai zviedru fika, Karavs norādīja: "Tā ir mūsu iespēja noteikt globālu tendenci. Galu galā, kas ir pasaules ekonomika bez nelielas kondensācijas?"
+
+Laiks rādīs, vai obligātās pirts pauzes patiesi uzliks Latvijas produktivitāti uz karstās kartes vai arī šī politika tiks uzskatīta par 'ambiciozu, bet nevārītu'. Pašlaik gan darbinieki visā valstī ir vienkārši priecīgi, ka beidzot var valkāt vienu un to pašu apģērbu darbā un pludmalē.`,
+      ru: `В том, что многие называют 'самым жарким политическим ходом', латвийское правительство приняло революционный закон, требующий от всех рабочих мест в государственном и частном секторах установить полностью функциональные сауны к концу 2024 года. 'Закон о продуктивности сауны', как его официально назвали, направлен на использование традиционной латвийской любви к купанию в почти вулканических температурах для продвижения более здоровой и расслабленной рабочей силы.
+
+"Мы хотим, чтобы латвийцы были максимально продуктивными, и ничто не говорит о продуктивности так, как обильное потоотделение в маленькой деревянной комнате", заявил министр пара и релаксации Имантс Каравс на пресс-конференции. "Наши предки переживали балтийские зимы без единого стона. Пора их потомкам с такой же стойкостью сталкиваться с электронными таблицами, поддерживаемыми регулярными перерывами на сауну".
+
+Согласно предложению, каждый сотрудник будет иметь право на три 'паровые сессии' в день, каждая из которых длится 15 минут. Во время этих перерывов сотрудникам предлагается размышлять о своих задачах, обсуждать будущие стратегии компании или просто восхищаться изобретательностью деревянных скамеек.
+
+Местный экономист Илзе Силина выразила скептицизм по поводу экономического воздействия политики. "Хотя это инновационная концепция, назвать это стимулом для продуктивности... креативно. Акции производителей полотенец взлетели, но я не уверена, что это является экономическим прорывом", размышляла она.
+
+Не менее заинтересован Союз здоровья и отдыха на рабочем месте Латвии (LUWHR), который приветствовал это решение. "Мы требуем более расслабленного подхода к работе уже много лет", воскликнула представительница Вита Залите. "Хотя мы изначально предлагали ввести зоны для комфортного сна, пар — это близкий второй вариант. Прекрасно видеть, как Латвия наконец-то повышает температуру на рабочем месте в позитивном ключе!"
+
+Бизнесы уже начали адаптироваться к новому требованию. "Мы освободили старую серверную. Серверы все равно всегда перегревались", раскрыл Юрис Зиепниекс, генеральный директор технологического стартапа Byte Sauna. "Мораль нашего коллектива поднимается вместе с паром. Наши разработчики теперь чувствуют, что кодируют в тропическом лесу — без надоедливых насекомых, но с обильным потом".
+
+Неудивительно, что фирмы по строительству саун наслаждаются появлением новых бизнес-возможностей. "Мы в золотом веке строительства саун!" заявил Лаймдотс Озолиньш, генеральный директор Steam Dream Enterprises. "У нас 400% увеличение заказов. Похоже, люди никогда не были так готовы работать до седьмого пота".
+
+Однако, есть и некоторые протесты со стороны экологических групп, обеспокоенных увеличением потребления энергии. "Конечно, сауны — это здорово", признает основатель Green Latvia Айварс Рубенис. "Но мы выступаем за сокращение углеродного следа Латвии, а не за увеличение её водяного пара".
+
+Правительство остаётся непоколебимым. Считая инициативу потенциальным культурным экспортом, сопоставимым с хюгге или шведским фика, Каравс отметил: "Это наш шанс задать мировой тренд. В конце концов, какая мировая экономика без небольшого конденсата?"
+
+Время покажет, действительно ли обязательные перерывы на сауну выведут продуктивность Латвии на карту или эта политика попадет в категорию 'амбициозных, но не сваренных'. Пока что, сотрудники по всей стране просто рады, что теперь могут носить одну и ту же одежду на работу и на пляж.`
+    },
+    date: "Dec 28, 2025",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 42,
     slug: "latvian-government-to-replace-all-potholes",
     title: {
@@ -95,7 +176,7 @@ Tiem, kas uztraucas par ziemu un neizbēgamo zupas sasalšanu, plānotāji ir ap
     readTime: "10 min read",
     imageUrl: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 41,
