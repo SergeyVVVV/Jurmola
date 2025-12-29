@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 44,
+    slug: "latvian-scientists-develop-first-ever-solar",
+    title: {
+      en: "Latvian Scientists Develop First Ever Solar-Powered Sauna to Combat Seasonal Affective Disorder in Winter",
+      lv: "Latvijas Zinātnieki Izstrādā Pasaulē Pirmo Saules Enerģijas Darbināto Pirti, Lai Cīnītos ar Sezonālo Afektīvo Traucējumu Ziemā",
+      ru: "Латвийские ученые разработали первую в мире сауну на солнечных батареях для борьбы с сезонным аффективным расстройством зимой"
+    },
+    excerpt: {
+      en: "In a groundbreaking yet questionably relevant innovation, Latvian scientists have unveiled the world's first solar-powered sauna. Designed to combat the notorious gloom of Baltic winters, the sauna promises year-round perspiration while hoping to banish perpetual seasonal discontent.",
+      lv: "Revolucionārā, taču apšaubāmi nozīmīgā inovācijā Latvijas zinātnieki ir atklājuši pasaulē pirmo saules enerģijas darbināto pirti. Tā izstrādāta, lai cīnītos ar bēdīgi slaveno Baltijas ziemas drūmumu, solot svīšanu visa gada garumā un cerot izskaust mūžīgo sezonālo neapmierinātību.",
+      ru: "В новаторском, но сомнительно актуальном изобретении латвийские ученые представили первую в мире сауну на солнечных батареях. Разработанная для борьбы с печально известной хмуростью балтийских зим, сауна обещает круглогодичное потоотделение, надеясь изгнать вечное сезонное недовольство."
+    },
+    fullContent: {
+      en: `In a peculiar twist of scientific advancement, researchers at the Latvian Institute of Unnecessary Innovations unveiled a solar-powered sauna, set to revolutionize how Latvians experience the desolate months of winter. The project, unusually timed for a region known for its frequent cloud coverage, aims to address the seasonal affective disorder that tends to spike when daylight hours become shorter than a traditional Baltic folk song.
+
+Lead scientist, Dr. Māris Ziemelis, explained the inspiration behind the project: "We wanted to harness the power of the sun, despite the credo that it hides away to hibernate somewhere near Aruba during our winter months. This sauna ensures that anyone devoid of their daily sweating routine doesn't have to rely on merely complaining about the weather to stay warm."
+
+The solar-sauna, whimsically named 'Saulīte', features panels cleverly positioned to capture even the most reluctant rays of Baltic sunshine. Surprisingly, early tests show it can reach a toasty 90°C—a pleasant surprise given that forecasts for sunlight resemble a weather report for a vampire convention.
+
+"Our research was driven by statistics," noted Dr. Ziemelis, "We discovered that nearly 87% of Latvians describe winter as 'a long-term relationship you want to break up with but can't, because of the shared mortgage'. By developing a sauna that powered itself, the aim is to offer relief not just from the cold, but from the eternal pessimism that is otherwise known as 'realism' in this latitude."
+
+Local residents' reactions have been predictably mixed. "I'm skeptical," said Liga Baltiņš, owner of Riga's most comprehensive umbrella collection. "What if, when the sun finally shines, we're already wearing three layers, preparing for a rainstorm?"
+
+Others, however, appear more hopeful. Edgars Plūme, a self-professed sauna enthusiast who insists on wearing birch leaf crowns year-round, is thrilled. "The potential here is immense! No longer will we feel inferior to our Finnish cousins who have their majestic saunas working through the night. Perhaps now, we can even entertain the idea of inviting our Lithuanian neighbors over for a competitive round of endurance sweating."
+
+The Latvian government, intrigued and somewhat amused, has already ordered the prototype to be strategically placed in Esplanāde Park as a part of a national morale experiment. An official from the Ministry of Seasonal Grievances suggested, on condition of anonymity, that the project could "really heat up the debate about Latvia’s place in the global wellness movement." Though admitting under their breath, "I just came for the pīrāgi." 
+
+In an effort to further capitalize on this innovation, an app is in the works to synchronize the sauna's heat management with the pulse of Latvian folk songs streamed directly to the user’s smart device. Plans include releasing a sauna survival guide aimed at foot commuters who might prefer their shoes not be clones of the Titanic after docking.
+
+Whether 'Saulīte' will bring warm cheerfulness across the stunningly gray Latvian landscapes remains to be seen. However, one thing is for sure: as long as it’s functioning, there’s a niche community ready to bask in the glow—of both innovation and irony.`,
+      lv: `Zinātnes attīstības dīvainā pavērsienā Latvijas Nepieciešamo Inovāciju Institūta pētnieki ir atklājuši saules enerģijas darbinātu pirti, kas sola pārveidot latviešu pieredzi drūmajos ziemas mēnešos. Projekts, kas neparasti piemērots reģionam, kur bieži ir mākoņains, mērķē uz sezonālo afektīvo traucējumu, kas mēdz pieaugt, kad dienas gaismas stundas kļūst īsākas par tradicionālo Baltijas tautasdziesmu.
+
+Vadošais zinātnieks, Dr. Māris Ziemelis, izskaidroja projekta iedvesmu: "Mēs vēlējāmies izmantot saules spēku, neskatoties uz uzskatu, ka tā ziemas mēnešos slēpjas kaut kur pie Arubas. Šī pirts nodrošina, ka ikviens, kurš ir bez ikdienas svīšanas rutīnas, nav spiests paļauties tikai uz sūdzēšanos par laiku, lai saglabātu siltumu."
+
+Saules pirts, ar humoru nosaukta par 'Saulīti', ir aprīkota ar paneļiem, kas gudri novietoti, lai uztvertu pat visnegribīgākos Baltijas saules starus. Pārsteidzoši, ka agrīnie testi rāda, ka tā var sasniegt patīkamu 90°C temperatūru—patīkams pārsteigums, ņemot vērā, ka saules prognozes līdzinās laikapstākļu ziņojumam vampīru konvencijai.
+
+"Mūsu pētījumu vadīja statistika," norādīja Dr. Ziemelis, "Mēs atklājām, ka gandrīz 87% latviešu ziemu raksturo kā 'ilgtermiņa attiecības, no kurām vēlies izšķirties, bet nevari, jo ir kopīgs hipotekārais kredīts'. Izstrādājot pirti, kas pati sevi nodrošina ar enerģiju, mērķis ir piedāvāt atvieglojumu ne tikai no aukstuma, bet arī no mūžīgā pesimisma, kas šajā platuma grādos pazīstams kā 'realitāte'."
+
+Vietējo iedzīvotāju reakcijas ir paredzami dažādas. "Es esmu skeptiska," teica Līga Baltiņa, Rīgas visplašākās lietussargu kolekcijas īpašniece. "Kas notiks, ja, kad saule beidzot spīdēs, mēs jau būsim uzvilkuši trīs kārtas, gatavojoties lietusgāzei?"
+
+Tomēr citi izskatās cerīgāki. Edgars Plūme, pašpasludināts pirts entuziasts, kurš visu gadu nēsā bērza lapu vainagus, ir sajūsmināts. "Potenciāls šeit ir milzīgs! Mēs vairs nejutīsimies mazvērtīgāki par mūsu somu brālēniem, kuriem majestātiskās pirtis darbojas cauru nakti. Varbūt tagad mēs pat varam izklaidēt ideju uzaicināt mūsu lietuviešu kaimiņus uz konkurētspējīgu izturības svīšanas raundu."
+
+Latvijas valdība, ieinteresēta un nedaudz izklaidēta, jau ir pasūtījusi prototipu stratēģiski novietot Esplanādes parkā kā daļu no nacionālā morāles eksperimenta. Kāds amatpersona no Sezonālo Sūdzību Ministrijas, kas vēlējās palikt anonīma, ierosināja, ka projekts varētu "patiesi uzkarsēt diskusiju par Latvijas vietu globālajā labsajūtas kustībā." Lai gan piebilda, "Es tikai atnācu pēc pīrāgiem."
+
+Lai vēl vairāk izmantotu šo inovāciju, tiek izstrādāta lietotne, kas sinhronizē pirts siltuma pārvaldību ar latviešu tautasdziesmu ritmu, kas tiek straumēts tieši uz lietotāja viedierīci. Plānos ietilpst arī pirts izdzīvošanas ceļveža izdošana kājāmgājējiem, kuri varētu vēlēties, lai viņu apavi nekļūtu par Titānika kloniem pēc piestāšanas.
+
+Vai 'Saulīte' nesīs siltu prieku pāri apbrīnojami pelēkajām Latvijas ainavām, vēl ir jāredz. Tomēr viens ir skaidrs: kamēr tā darbojas, ir nišas kopiena, kas ir gatava baudīt gan inovācijas, gan ironijas starojumu.`,
+      ru: `В странном повороте научного прогресса исследователи Латвийского института ненужных инноваций представили сауну на солнечных батареях, которая должна революционизировать восприятие латвийцами унылых зимних месяцев. Проект, необычно приуроченный для региона, известного частыми облачными покровами, нацелен на решение проблемы сезонного аффективного расстройства, которое обычно обостряется, когда световой день становится короче традиционной балтийской народной песни.
+
+Ведущий ученый, доктор Марис Земелис, объяснил вдохновение за проектом: "Мы хотели использовать силу солнца, несмотря на убеждение, что оно прячется где-то на зимовку рядом с Арубой в наши зимние месяцы. Эта сауна гарантирует, что никто, лишенный своей ежедневной потной рутины, не должен полагаться лишь на жалобы на погоду, чтобы согреться."
+
+Сауна на солнечных батареях, игриво названная 'Саулите', оснащена панелями, умело расположенными для захвата даже самых неохотных лучей балтийского солнца. Удивительно, но ранние испытания показывают, что она может достигать приятных 90°C — приятный сюрприз, учитывая, что прогнозы на солнечный свет напоминают прогноз погоды для съезда вампиров.
+
+"Наши исследования были основаны на статистике," отметил доктор Земелис, "Мы обнаружили, что почти 87% латвийцев описывают зиму как 'долгосрочные отношения, которые хочется разорвать, но нельзя, из-за общего ипотечного кредита'. Разработав сауну, которая работает сама по себе, мы стремимся предложить облегчение не только от холода, но и от вечного пессимизма, который иначе известен как 'реализм' на этой широте."
+
+Реакция местных жителей была предсказуемо смешанной. "Я скептически настроена," сказала Лига Балтиньш, владелица самой обширной коллекции зонтов в Риге. "Что если, когда солнце наконец-то засияет, мы уже будем носить три слоя одежды, готовясь к дождю?"
+
+Однако другие настроены более оптимистично. Эдгарс Плуме, самопровозглашенный энтузиаст сауны, который настаивает на ношении венков из березовых листьев круглый год, в восторге. "Потенциал здесь огромен! Больше мы не будем чувствовать себя ниже наших финских кузенов, у которых их величественные сауны работают всю ночь. Возможно, теперь мы даже можем пригласить наших литовских соседей на соревновательный раунд выносливого потения."
+
+Латвийское правительство, заинтригованное и несколько развеселившееся, уже заказало прототип для стратегического размещения в парке Эспланада в рамках национального эксперимента по поднятию морального духа. Официальный представитель Министерства сезонных жалоб предложил, на условиях анонимности, что проект может "действительно разогреть дебаты о месте Латвии в глобальном движении за здоровье." Хотя, признавшись под нос, "Я просто пришел за пирогами."
+
+В попытке дополнительно капитализировать на этом изобретении, разрабатывается приложение для синхронизации управления теплом сауны с ритмом латвийских народных песен, транслируемых непосредственно на умное устройство пользователя. Планы включают выпуск руководства по выживанию в сауне, предназначенного для пешеходов, которые предпочли бы, чтобы их обувь не была клоном Титаника после швартовки.
+
+Будет ли 'Саулите' приносить теплую радость поразительно серым латвийским пейзажам, еще предстоит увидеть. Однако одно можно сказать наверняка: пока она функционирует, есть нишевое сообщество, готовое купаться в свете — как инноваций, так и иронии.`
+    },
+    date: "Dec 29, 2025",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 43,
     slug: "latvian-government-to-introduce-mandatory-sauna",
     title: {
@@ -95,7 +170,7 @@ Laiks rādīs, vai obligātās pirts pauzes patiesi uzliks Latvijas produktivit�
     readTime: "5 min read",
     imageUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 42,
