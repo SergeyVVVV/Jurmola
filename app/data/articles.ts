@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 48,
+    slug: "latvia-unveils-national-sauna-ization-program",
+    title: {
+      en: "Latvia Unveils National Sauna-ization Program to Combat Harsh Winters",
+      lv: "Latvija atklāj nacionālo sauna-izācijas programmu, lai cīnītos ar skarbām ziemām",
+      ru: "Латвия запускает национальную программу саунофикации для борьбы с суровыми зимами"
+    },
+    excerpt: {
+      en: "In a bold and unexpected move, the Latvian government has announced an ambitious plan to transform the nation's public squares into communal saunas. Aimed at boosting morale and potentially providing a new export, the project promises to be 'warmly' received by citizens.",
+      lv: "Drosmīgā un negaidītā solī Latvijas valdība ir paziņojusi par ambiciozu plānu pārvērst valsts publiskos laukumus par kopīgām saunām. Mērķis ir uzlabot morāli un potenciāli nodrošināt jaunu eksporta preci, un projekts sola tikt 'siltā' uzņemts iedzīvotāju vidū.",
+      ru: "В смелом и неожиданном шаге латвийское правительство объявило амбициозный план по превращению общественных площадей страны в общие сауны. Нацеленная на повышение морального духа и потенциальное создание нового экспорта, программа обещает быть 'тепло' воспринятой гражданами."
+    },
+    fullContent: {
+      en: `Riga—In an unprecedented attempt to tackle the seasonal gloom that descends upon Latvia every winter, the government has launched the National Sauna-ization Program, a nationwide initiative to convert public squares into welcoming communal saunas. 
+
+The plan, which was announced Tuesday at the Cabinet Office surrounded by strategic piles of fir branches, surprisingly wasn't initiated by the Ministry of Tourism, but rather the Ministry of Defense. "Our number one priority is national security," said Defense Minister Hedvigs Apsītis, wrapped in a traditional linen sauna towel. "If our citizens are happy and warm, they're less likely to contemplate deserting to warmer climates, thereby preserving our population—and our sovereignty."
+
+The project has been named Projekt Siltums due to its anticipated ability to generate both literal and metaphorical warmth throughout the nation. "We have meticulously calculated the conversion of outdoor spaces to saunas should increase happiness ratings by 83.7%," claimed project chief Nils Smilga, an expert in Baltic comfort sciences. "Plus, it gives us an edge in our unofficial cold war with Estonia over who has the best wellness traditions."
+
+As part of the project, Riga's Freedom Monument will be encircled by a towering glass and timber sauna structure, custom-designed to contain both leafy birch switches and a respectable humidity level suitable for impromptu folk singing sessions. 
+
+The initiative has garnered mixed feelings from local citizens. Rita Kalniņa, a 35-year-old accountant from the neighborhood of Āgenskalns, said, "While I do appreciate the effort, merging sauna culture with everyday commutes will be... interesting. Imagine trying to explain to your boss why you're late because you had to leave early to avoid showing up to work looking like a tomato."
+
+Despite any initial skepticism, city planners are optimistic about the potential ripple effects of the initiative. "We genuinely believe this will spur economic growth," declared Janis Magone, Chief Urban Innovations Officer. "Our estimates show that sauna-infused economic stimulus could theoretically increase Jūrmala’s cash flow to levels even exceeding its current sea avian tourism. We've calculated, albeit with the help of optimistic math, a 60% uptick in international interest."
+
+Local businesses have already begun to adapt, with restaurants poised to include steam-compatible menu items such as the sauna panna cotta, sure to be a hit with tourists dining either inside a sauna or for quick refreshing dives to their table outside. "Saunas aren't just for sweating," argues Andris Bērzs, an innovative restaurateur in Old Riga. "They're also perfect for loosening up the fibers of our national favorite: rūpjmaize (rye bread). Who doesn't love a beautifully warm rye that's been lightly steamed?"
+
+The first prototypes are set to debut next month, with trials planned to ensure that occupants’ enthusiasm doesn't evaporate into thin air. Despite concerns about logistics, from bathrobe supply to inevitable towel theft, most agree it's a bold step into the unknown that seems as invigorating as a brisk run into Baltic waters after a long sauna session.
+
+As the nation gears up to face yet another icy season, Projekt Siltums promises not only to embrace the frostiness outside but also to foster a warmth that spreads to the core of everyone's hearts—or at least their core body temperatures.`,
+      lv: `Rīga—Nepieredzētā mēģinājumā cīnīties ar sezonālo drūmumu, kas katru ziemu pārņem Latviju, valdība ir uzsākusi Nacionālo sauna-izācijas programmu, valsts mēroga iniciatīvu, lai pārvērstu publiskos laukumus par viesmīlīgām kopīgām saunām.
+
+Plāns, kas tika paziņots otrdien Ministru kabineta birojā, kur apkārt bija stratēģiski izvietotas egļu zaru kaudzes, pārsteidzoši netika ierosināts Tūrisma ministrijā, bet gan Aizsardzības ministrijā. "Mūsu galvenā prioritāte ir nacionālā drošība," teica aizsardzības ministrs Hedvigs Apsītis, ietīts tradicionālā lina saunas dvielī. "Ja mūsu iedzīvotāji ir laimīgi un silti, viņi mazāk domās par dezertēšanu uz siltākiem klimatiem, tādējādi saglabājot mūsu iedzīvotājus—un mūsu suverenitāti."
+
+Projekts ir nosaukts par Projektu Siltums, jo tiek sagaidīts, ka tas radīs gan burtisku, gan metaforisku siltumu visā valstī. "Mēs esam rūpīgi aprēķinājuši, ka āra telpu pārvēršana par saunām palielinās laimes reitingus par 83,7%," apgalvoja projekta vadītājs Nils Smilga, Baltijas komforta zinātņu eksperts. "Turklāt tas dod mums priekšrocību mūsu neoficiālajā aukstajā karā ar Igauniju par to, kuram ir labākās labsajūtas tradīcijas."
+
+Projekta ietvaros Rīgas Brīvības pieminekli ieskaus augsta stikla un koka saunas struktūra, kas ir īpaši izstrādāta, lai tajā būtu gan lapu bērza slotas, gan cienījams mitruma līmenis, piemērots spontāniem tautas dziedāšanas seansiem.
+
+Iniciatīva ir izraisījusi dažādas sajūtas vietējo iedzīvotāju vidū. Rita Kalniņa, 35 gadus veca grāmatvede no Āgenskalna, teica: "Lai gan es novērtēju šo pūliņu, saunas kultūras apvienošana ar ikdienas pārvietošanos būs... interesanta. Iedomājieties, kā mēģināt izskaidrot savam priekšniekam, kāpēc jūs kavējat, jo jums bija jāiziet agrāk, lai neierastos darbā izskatoties kā tomāts."
+
+Neskatoties uz sākotnējo skepsi, pilsētplānotāji ir optimistiski par iniciatīvas potenciālajiem ietekmes efektiem. "Mēs patiesi ticam, ka tas veicinās ekonomisko izaugsmi," paziņoja Jānis Magone, galvenais pilsētas inovāciju virsnieks. "Mūsu aplēses rāda, ka sauna-infūzijas ekonomiskais stimuls teorētiski varētu palielināt Jūrmalas naudas plūsmu līdz līmenim, kas pat pārsniedz tās pašreizējo jūras putnu tūrismu. Mēs esam aprēķinājuši, kaut arī ar optimistisku matemātiku, 60% pieaugumu starptautiskajā interesē."
+
+Vietējie uzņēmumi jau ir sākuši pielāgoties, restorāniem gatavojoties iekļaut tvaika saderīgus ēdienkartes priekšmetus, piemēram, saunas panna cotta, kas noteikti būs hits tūristiem, kas ēd vai nu saunā, vai ātri atsvaidzinoties pie galda ārpusē. "Saunas nav tikai svīšanai," apgalvo Andris Bērzs, inovatīvs restorānu īpašnieks Vecrīgā. "Tās ir arī ideāli piemērotas mūsu nacionālā favorīta: rūpjmaizes (rudzu maizes) šķiedru atslābināšanai. Kurš gan nemīl skaisti siltu rudzu maizi, kas ir viegli tvaicēta?"
+
+Pirmie prototipi tiks prezentēti nākamajā mēnesī, ar izmēģinājumiem, lai nodrošinātu, ka iemītnieku entuziasms neiztvaiko gaisā. Neskatoties uz bažām par loģistiku, sākot no peldmēteļu piegādes līdz neizbēgamai dvieļu zādzībai, lielākā daļa piekrīt, ka tas ir drosmīgs solis nezināmajā, kas šķiet tikpat atspirdzinošs kā straujš skrējiens Baltijas ūdeņos pēc garas saunas sesijas.
+
+Tā kā valsts gatavojas saskarties ar vēl vienu ledainu sezonu, Projekts Siltums sola ne tikai pieņemt ārējo aukstumu, bet arī veicināt siltumu, kas izplatās līdz katra sirdij—vai vismaz līdz viņu ķermeņa kodola temperatūrai.`,
+      ru: `Рига — В беспрецедентной попытке справиться с сезонной хандрой, которая каждую зиму окутывает Латвию, правительство запустило Национальную программу саунофикации, общенациональную инициативу по преобразованию общественных площадей в гостеприимные общие сауны.
+
+План, который был объявлен во вторник в Кабинете министров в окружении стратегически расположенных куч еловых веток, удивительно не был инициирован Министерством туризма, а скорее Министерством обороны. "Наш приоритет номер один — национальная безопасность", — заявил министр обороны Хедвигс Апситис, завернутый в традиционное льняное полотенце для сауны. "Если наши граждане счастливы и согреты, они менее склонны задумываться о побеге в более теплые края, тем самым сохраняя нашу численность — и наш суверенитет."
+
+Проект получил название Projekt Siltums из-за его предполагаемой способности генерировать как буквальное, так и метафорическое тепло по всей стране. "Мы тщательно рассчитали, что преобразование открытых пространств в сауны должно повысить уровень счастья на 83,7%", — утверждает руководитель проекта Нилс Смилга, эксперт в области балтийских наук о комфорте. "Плюс, это дает нам преимущество в нашем неофициальном холодном противостоянии с Эстонией за лучшие традиции оздоровления."
+
+В рамках проекта Памятник Свободы в Риге будет окружен величественной стеклянной и деревянной конструкцией сауны, специально разработанной для размещения как лиственных березовых веников, так и уважаемого уровня влажности, подходящего для импровизированных сессий народного пения.
+
+Инициатива вызвала смешанные чувства у местных жителей. Рита Калниня, 35-летняя бухгалтер из района Агенскалнс, сказала: "Хотя я и ценю усилия, слияние культуры сауны с повседневными поездками будет... интересным. Представьте, как объяснить начальнику, почему вы опоздали, потому что вам пришлось выйти пораньше, чтобы не прийти на работу, выглядя как помидор."
+
+Несмотря на первоначальный скептицизм, городские планировщики оптимистично настроены на потенциальные волновые эффекты инициативы. "Мы искренне верим, что это будет стимулировать экономический рост", — заявил Янис Магоне, главный специалист по городским инновациям. "Наши оценки показывают, что экономический стимул, насыщенный сауной, может теоретически увеличить денежный поток Юрмалы до уровня, даже превышающего его текущий морской птичий туризм. Мы рассчитали, хотя и с помощью оптимистичной математики, 60% рост международного интереса."
+
+Местные предприятия уже начали адаптироваться, и рестораны готовы включить в меню блюда, совместимые с паром, такие как сауна панна котта, которая наверняка станет хитом среди туристов, обедающих либо внутри сауны, либо для быстрого освежающего погружения к своему столу на улице. "Сауны — это не только для потения", — утверждает Андрис Берзс, инновационный ресторатор в Старой Риге. "Они также идеально подходят для размягчения волокон нашего национального фаворита: рупьмайзе (ржаного хлеба). Кто не любит красиво теплый ржаной хлеб, слегка пропаренный?"
+
+Первые прототипы должны дебютировать в следующем месяце, с запланированными испытаниями, чтобы гарантировать, что энтузиазм жителей не испарится в воздухе. Несмотря на опасения по поводу логистики, от поставок халатов до неизбежных краж полотенец, большинство согласны, что это смелый шаг в неизвестность, который кажется таким же бодрящим, как и быстрый забег в Балтийские воды после долгой сессии в сауне.
+
+Когда страна готовится к очередному ледяному сезону, Projekt Siltums обещает не только принять морозность снаружи, но и способствовать теплу, которое распространяется до самого сердца каждого — или, по крайней мере, до их основной температуры тела.`
+    },
+    date: "Jan 2, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 47,
     slug: "latvian-government-denies-existence-of-sun",
     title: {
@@ -83,7 +158,7 @@ Saskaroties ar tik plašām izmaiņām mūsu kolektīvajā izpratnē par sauli u
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 46,
