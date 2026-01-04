@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 50,
+    slug: "latvian-parliament-considers-making-dreary-tuesdays",
+    title: {
+      en: "Latvian Parliament Considers Making 'Dreary Tuesdays' a National Holiday to Boost Morale",
+      lv: "Latvijas parlaments apsver iespēju padarīt 'Drūmo otrdienu' par valsts svētkiem, lai uzlabotu morāli",
+      ru: "Латвийский парламент рассматривает возможность сделать 'Скучные вторники' национальным праздником для поднятия морального духа"
+    },
+    excerpt: {
+      en: "In an unexpected move, Latvian lawmakers are deliberating a proposal to declare every Tuesday a national holiday. The proposal, which argues that dreariness is a part of Latvia's cultural heritage, aims to lift the nation's spirits and productivity simultaneously.",
+      lv: "Neparastā gājienā Latvijas likumdevēji apsver priekšlikumu pasludināt katru otrdienu par valsts svētkiem. Priekšlikums, kas apgalvo, ka drūmums ir daļa no Latvijas kultūras mantojuma, mērķē vienlaikus pacelt tautas garu un produktivitāti.",
+      ru: "В неожиданном повороте событий латвийские законодатели обсуждают предложение объявить каждый вторник национальным праздником. Предложение, утверждающее, что унылость является частью культурного наследия Латвии, направлено на одновременное поднятие духа нации и производительности."
+    },
+    fullContent: {
+      en: `In a stunning development bound to bring a less-than-enthusiastic smile to faces across the nation, the Latvian Parliament is weighing a proposal to designate every Tuesday as a national holiday known as 'Dreary Tuesday.' This initiative, according to insiders, is a strategic attempt at combating the quintessential mood swings of the Latvian workforce during the dreaded midweek slump.
+
+'We have Mondays, which people dread, but then Tuesday sneaks in, and somehow it's even worse. It's high time we gave our citizens a reason to look forward to, or at least survive, this day,' proclaimed Grigorijs Smilts, the lead proponent of the proposal and Member of the Parliament from the esteemed 'All-Weather Party'.
+
+The proposal has sparked both bewildered amusement and unlikely support from various sectors. A poll conducted by the Baltic Opinion and Unexpected Inquiries Group revealed that 68% of respondents were in favor of 'Dreary Tuesday,' citing benefits such as increased napping opportunities and additional chances to contemplate the meaninglessness of existence over extended bowls of rye porridge.
+
+'I used to dread Tuesdays. My productivity tanked to the point where it felt like I was working in slow motion,' said Jurmala resident Silvija Kalniete, an enthusiastic supporter of the bill. 'If we were to embrace the dreariness by not working at all, I’d be happy to get lost in thought or perhaps write melancholic folk songs while sitting by the misty Baltic Sea.'
+
+However, not everyone shares the sentiment. Artis Lūdebergs, chairperson of the Latvian Association of Gruff Industrialists (LAGI), expressed concerns that the constant pause in operations could severely impact industries dependent on Tuesday productivity, such as canned fish processing and iconic knitwear production.
+
+'We cannot possibly abandon our economic responsibilities every Tuesday,' scoffed Lūdebergs during a meeting convened specifically to debunk the idea. 'Our knitwear sector depends on that seemingly random but crucial day's output! Also, our sardines do not can themselves.'
+
+In an attempt to mollify opposition, supporters of the bill have suggested scheduling engaging activities celebrating Latvian culture and introspection, such as competitive knitting tournaments and national 'staring out the window' contests.
+
+'We plan to have optional but highly unsupervised group meditations on the meanings of cloud patterns and national identity, too,' explained spokesperson and cultural commentator Una Briežkalne, herself an unrepentant Tuesday defender.
+
+The Latvian Cabinet was reportedly seen having a lively discussion over the proposal, with one minister even suggesting legislative amendments to include 'Denim Wednesday' and 'Plaid Thursday' in the future. As debate continues, the nation anxiously awaits the government's final decision on possibly redefining Tuesdays for generations to come.
+
+As the proposal continues to circulate, what remains clear is a renewed sense of purpose — and a shared love of surreally productive procrastination — that just might come to characterize the nation's collective ethos, at least one dreary, mystical Tuesday at a time.`,
+      lv: `Pārsteidzošā attīstībā, kas, iespējams, izraisīs ne pārāk entuziastisku smaidu visā valstī, Latvijas parlaments apsver priekšlikumu noteikt katru otrdienu par valsts svētkiem, kas pazīstami kā 'Drūmā otrdiena'. Šī iniciatīva, pēc iekšējās informācijas, ir stratēģisks mēģinājums cīnīties ar būtiskajām garastāvokļa svārstībām Latvijas darba spēkā nedēļas vidus krituma laikā.
+
+'Mums ir pirmdienas, kuras cilvēki baidās, bet tad otrdiena nemanāmi piezogas, un kaut kā tā ir vēl sliktāka. Ir pienācis laiks dot mūsu pilsoņiem iemeslu gaidīt šo dienu vai vismaz izdzīvot to,' paziņoja Grigorijs Smilts, priekšlikuma galvenais atbalstītājs un parlamenta deputāts no cienījamās 'Visu Laiku Partijas'.
+
+Priekšlikums ir izraisījis gan apjukušu izklaidi, gan negaidītu atbalstu no dažādiem sektoriem. Baltijas Viedokļu un Negaidītu Aptauju Grupa veiktā aptauja atklāja, ka 68% respondentu atbalsta 'Drūmo otrdienu', norādot uz tādiem ieguvumiem kā palielinātas snaudu iespējas un papildu iespējas pārdomāt eksistences bezjēdzību, baudot lielas rudzu putras bļodas.
+
+'Es agrāk baidījos no otrdienām. Mana produktivitāte kritās līdz tādam līmenim, ka šķita, ka strādāju palēninājumā,' teica Jūrmalas iedzīvotāja Silvija Kalniete, entuziasma pilna likumprojekta atbalstītāja. 'Ja mēs pieņemtu drūmumu, vispār nestrādājot, es būtu priecīga pazust domās vai varbūt rakstīt melanholiskas tautasdziesmas, sēžot pie miglainās Baltijas jūras.'
+
+Tomēr ne visi dalās šajā noskaņojumā. Artis Lūdebergs, Latvijas Rūpniecības Asociācijas (LRA) priekšsēdētājs, pauda bažas, ka pastāvīga darbības pārtraukšana varētu nopietni ietekmēt no otrdienas produktivitātes atkarīgās nozares, piemēram, konservētu zivju pārstrādi un ikonisko adījumu ražošanu.
+
+'Mēs nevaram vienkārši atteikties no mūsu ekonomiskajām atbildībām katru otrdienu,' izsmēja Lūdebergs sanāksmē, kas tika sasaukta tieši, lai atspēkotu šo ideju. 'Mūsu adījumu nozare ir atkarīga no šīs šķietami nejaušās, bet būtiskās dienas izlaides! Arī mūsu sardīnes pašas sevi nekonservē.'
+
+Lai mazinātu opozīciju, likumprojekta atbalstītāji ir ierosinājuši plānot iesaistošas aktivitātes, kas svinētu Latvijas kultūru un pašrefleksiju, piemēram, adīšanas sacensības un nacionālos 'skatīšanās pa logu' konkursus.
+
+'Mēs plānojam arī brīvprātīgas, bet ļoti neuzraudzītas grupu meditācijas par mākoņu rakstu un nacionālās identitātes nozīmi,' skaidroja Una Briežkalne, runasvīrs un kultūras komentētāja, pati nepiedodama otrdienas aizstāve.
+
+Latvijas Ministru kabinets, kā ziņots, bija redzams, aktīvi apspriežot priekšlikumu, un viens ministrs pat ierosināja likumdošanas grozījumus, lai nākotnē iekļautu 'Džinsu trešdienu' un 'Rūtaino ceturtdienu'. Kamēr debates turpinās, tauta ar nepacietību gaida valdības galīgo lēmumu par iespējamu otrdienu pārdefinēšanu nākamajām paaudzēm.
+
+Kamēr priekšlikums turpina cirkulēt, skaidrs ir atjaunots mērķa sajūta — un kopīga mīlestība pret sirreāli produktīvu prokrastināciju — kas, iespējams, raksturos tautas kolektīvo ethosu, vismaz vienu drūmu, mistisku otrdienu vienlaikus.`,
+      ru: `В поразительном развитии событий, которое, вероятно, вызовет менее чем восторженную улыбку на лицах по всей стране, латвийский парламент рассматривает предложение назначить каждый вторник национальным праздником под названием 'Скучный вторник'. Эта инициатива, по словам инсайдеров, является стратегической попыткой борьбы с типичными перепадами настроения латвийской рабочей силы в середине недели.
+
+'У нас есть понедельники, которых люди боятся, но потом приходит вторник, и он как-то даже хуже. Пора дать нашим гражданам повод ждать этот день или хотя бы пережить его,' заявил Григорий Смилтс, главный сторонник предложения и член парламента от уважаемой 'Партии Всепогодных'.
+
+Предложение вызвало как недоуменное веселье, так и неожиданную поддержку из разных секторов. Опрос, проведенный Группой Балтийского Мнения и Неожиданных Запросов, показал, что 68% респондентов поддерживают 'Скучный вторник', ссылаясь на такие преимущества, как увеличение возможностей для сна и дополнительные шансы поразмышлять о бессмысленности существования за большими мисками ржаной каши.
+
+'Я раньше боялась вторников. Моя производительность падала до такой степени, что казалось, будто я работаю в замедленной съемке,' сказала жительница Юрмалы Сильвия Калниете, активный сторонник законопроекта. 'Если бы мы приняли унылость, вообще не работая, я была бы счастлива погрузиться в размышления или, возможно, написать меланхоличные народные песни, сидя у туманного Балтийского моря.'
+
+Однако не все разделяют это мнение. Артис Лудебергс, председатель Латвийской ассоциации суровых промышленников (ЛАСИ), выразил обеспокоенность тем, что постоянная пауза в работе может серьезно повлиять на отрасли, зависящие от производительности по вторникам, такие как переработка консервированной рыбы и производство знаковых трикотажных изделий.
+
+'Мы не можем просто отказаться от наших экономических обязанностей каждый вторник,' фыркнул Лудебергс на встрече, созванной специально для опровержения этой идеи. 'Наш трикотажный сектор зависит от этого, казалось бы, случайного, но важного дня! Кроме того, наши сардины сами себя не консервируют.'
+
+В попытке смягчить оппозицию, сторонники законопроекта предложили проводить увлекательные мероприятия, празднующие латвийскую культуру и интроспекцию, такие как соревнования по вязанию и национальные конкурсы 'смотрения в окно'.
+
+'Мы планируем проводить необязательные, но крайне неформальные групповые медитации на тему значений облачных узоров и национальной идентичности,' объяснила пресс-секретарь и культурный комментатор Уна Бриежкалне, сама нераскаявшаяся защитница вторников.
+
+Сообщается, что латвийский кабинет министров активно обсуждал предложение, причем один министр даже предложил внести законодательные поправки, чтобы в будущем включить 'Денимовые среды' и 'Клетчатые четверги'. Пока дебаты продолжаются, нация с нетерпением ждет окончательного решения правительства о возможном переосмыслении вторников для будущих поколений.
+
+Пока предложение продолжает циркулировать, остается очевидным обновленное чувство цели — и общая любовь к сюрреалистично продуктивной прокрастинации — которая, возможно, станет характеризовать коллективный этос нации, по крайней мере, один унылый, мистический вторник за раз.`
+    },
+    date: "Jan 4, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&h=600&fit=crop",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 49,
     slug: "riga-declares-independence-from-itself-in",
     title: {
@@ -83,7 +164,7 @@ Kā pirmajā neatkarības dienā puspiepildīti tramvaji priecīgi dārdēja gar
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 48,
