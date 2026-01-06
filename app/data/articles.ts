@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 52,
+    slug: "jurmala-residents-petition-for-official-language",
+    title: {
+      en: "Jurmala Residents Petition for Official Language Change: 'Seagull' Proposed as New Linguistic Standard",
+      lv: "Jūrmalas Iedzīvotāji Iesniedz Petīciju par Oficiālās Valodas Maiņu: 'Kaija' Piedāvāta kā Jaunais Lingvistiskais Standarts",
+      ru: "Жители Юрмалы требуют смены официального языка: 'Чайка' предложена в качестве нового лингвистического стандарта"
+    },
+    excerpt: {
+      en: "In a bold move to embrace their coastal identity, residents of Jurmala have launched a campaign to replace Latvian with 'Seagull' as the official language. This groundbreaking initiative highlights the unique bond between locals and their feathered friends.",
+      lv: "Drosmīgā solī, lai pieņemtu savu piekrastes identitāti, Jūrmalas iedzīvotāji ir uzsākuši kampaņu, lai aizstātu latviešu valodu ar 'Kaiju' kā oficiālo valodu. Šī revolucionārā iniciatīva izceļ unikālo saikni starp vietējiem iedzīvotājiem un viņu spalvainajiem draugiem.",
+      ru: "В смелой попытке подчеркнуть свою прибрежную идентичность, жители Юрмалы начали кампанию по замене латышского языка на 'Чайку' в качестве официального языка. Эта новаторская инициатива подчеркивает уникальную связь между местными жителями и их пернатыми друзьями."
+    },
+    fullContent: {
+      en: `In a sweeping gesture that has left linguists, ornithologists, and local government officials scratching their heads, residents of Jurmala are fervently seeking to establish 'Seagull' as the new official language. Emphasizing the intrinsic connection between the community and their beloved coastal avifauna, the proposal has taken flight amidst robust discussions in town halls and beachfront cafes.
+
+The initiative, spearheaded by the newly formed coalition 'Beyond Baltic Beaks,' has already amassed over 5,000 signatures, mostly from residents and bemused tourists who have grown accustomed to sharing their fries and ice cream with the town's unofficial mascots. "We feel that seagulls best encapsulate the spirit of Jurmala," explained coalition leader, Māra Spāre, who claims the initiative is a step towards redefining cultural identity and challenging traditional linguistic norms.
+
+"Imagine the simplicity and elegance of legislative speeches conveyed through a series of squawks and screeches," she continued, demonstrating with a particularly spirited rendition at the latest town hall meeting. "While some may argue this is unfounded, seagulls communicate effectively with zero misunderstandings — at least among themselves."
+
+To prepare for the possible transition, local language schools have already started offering basic Seagull communication classes. Taught by a self-proclaimed "Seagull Whisperer," Artis Bērziņš, these sessions cover essential linguistic components like 'Alert: There's a Sole Fry Discarded on Mežaparks Beach' and 'Intruder Alert: Foreign Seagull Incursion.' The curriculum also includes squawk intonation and advanced wing-flap gesticulations.
+
+"It's surprisingly easy to pick up," admitted Elza Leitis, a student in one of Jurmala's pioneering classes. "I always thought seagulls were just loud, but now I realize they have a rich vocabulary that's perfect for our community's needs. Plus, think of future generations — fluent in Seagull — commuting between ports with ease."
+
+However, the path ahead is not without critics. Local linguist, Dr. Jānis Blūms, argues that transitioning to a non-human-based form of communication might deter foreign investors and tourists less inclined to conversational avian. "While I admire their passion," said Dr. Blūms, "Seagull isn't recognized on any international language proficiency tests. And not everyone can channel their inner Jonathan Livingston."
+
+Despite the controversy, the coalition points out the many practical advantages. Beyond the obvious eco-friendly nature of the proposal — with signage needing only universal squawk symbols — there’s the clear reduction in translation services, given the unlikelihood of future political documents requiring language variants.
+
+As the petition continues to gain momentum with the backing of seaside eateries and souvenir shops, some Jurmala residents are convinced that adopting Seagull will set their town apart as a pioneer in cross-species communication. "When has being first in languages ever hurt a place?" Bērziņš remarked diplomatically.
+
+The proposal is set to be reviewed by the city council next month, where vital discussions on integrating municipal announcements with Seagull callings are anticipated. Whether this avian ambition will take wing in the halls of governance or simply join the cacophony of coastal folklore remains to be seen. One thing, however, is certain: the seagulls of Jurmala are ready, and quite literally, eager to be heard.`,
+      lv: `Plašā žestā, kas ir atstājis lingvistus, ornitologus un vietējās pašvaldības amatpersonas neizpratnē, Jūrmalas iedzīvotāji dedzīgi cenšas noteikt 'Kaiju' kā jauno oficiālo valodu. Uzsverot iekšējo saikni starp kopienu un viņu mīļotajiem piekrastes putniem, priekšlikums ir pacēlies spārnos, notiekot spraigām diskusijām pilsētas zālēs un pludmales kafejnīcās.
+
+Iniciatīva, kuru vada nesen izveidotā koalīcija 'Pāri Baltijas Knābjiem', jau ir savākusi vairāk nekā 5000 parakstu, galvenokārt no iedzīvotājiem un apmulsušiem tūristiem, kuri ir pieraduši dalīties ar saviem frī kartupeļiem un saldējumu ar pilsētas neoficiālajiem talismaniem. "Mēs uzskatām, ka kaijas vislabāk iemieso Jūrmalas garu," skaidroja koalīcijas vadītāja Māra Spāre, kura apgalvo, ka iniciatīva ir solis uz kultūras identitātes pārdefinēšanu un tradicionālo lingvistisko normu izaicināšanu.
+
+"Iedomājieties likumdošanas runu vienkāršību un eleganci, kas tiek nodota caur virkni ķērkšanas un kliedzienu," viņa turpināja, demonstrējot īpaši aizrautīgu izpildījumu pēdējā pilsētas zāles sanāksmē. "Lai gan daži varētu apgalvot, ka tas ir nepamatoti, kaijas efektīvi komunicē bez pārpratumiem — vismaz savā starpā."
+
+Lai sagatavotos iespējamai pārejai, vietējās valodu skolas jau ir sākušas piedāvāt pamata Kaiju komunikācijas nodarbības. Šīs sesijas, kuras vada pašpasludinātais "Kaiju Čukstētājs" Artis Bērziņš, aptver būtiskus lingvistiskos komponentus, piemēram, 'Brīdinājums: Mežaparka pludmalē ir izmests viens frī kartupelis' un 'Iebrucēja brīdinājums: Ārzemju kaijas iebrukums.' Mācību programmā ietilpst arī ķērkšanas intonācija un uzlabotas spārnu plivināšanas žestikulācijas.
+
+"To ir pārsteidzoši viegli apgūt," atzina Elza Leitis, viena no Jūrmalas pionieru klases studentēm. "Es vienmēr domāju, ka kaijas ir tikai skaļas, bet tagad es saprotu, ka tām ir bagāts vārdu krājums, kas ir ideāli piemērots mūsu kopienas vajadzībām. Turklāt, padomājiet par nākamajām paaudzēm — tekoši runājošas Kaiju valodā — viegli pārvietojoties starp ostām."
+
+Tomēr ceļš uz priekšu nav bez kritiķiem. Vietējais lingvists Dr. Jānis Blūms apgalvo, ka pāreja uz necilvēcisku komunikācijas formu varētu atturēt ārvalstu investorus un tūristus, kuriem mazāk interesē sarunāties ar putniem. "Lai gan es apbrīnoju viņu aizrautību," teica Dr. Blūms, "Kaija nav atzīta nevienā starptautiskā valodas prasmes testā. Un ne visi var izsaukt savu iekšējo Džonatanu Livingstoni."
+
+Neskatoties uz strīdiem, koalīcija norāda uz daudzām praktiskām priekšrocībām. Papildus acīmredzamajam ekoloģiskajam priekšlikuma raksturam — ar zīmēm, kurām nepieciešami tikai universālie ķērkšanas simboli — ir skaidra tulkošanas pakalpojumu samazināšana, ņemot vērā nākotnes politisko dokumentu maz ticamo nepieciešamību pēc valodas variantiem.
+
+Kā petīcija turpina gūt atbalstu ar piekrastes ēstuvju un suvenīru veikalu atbalstu, daži Jūrmalas iedzīvotāji ir pārliecināti, ka Kaiju pieņemšana izcels viņu pilsētu kā pionieri starpsugu komunikācijā. "Kad valodu pirmais pieņemšana kādreiz ir kaitējusi vietai?" diplomātiski atzīmēja Bērziņš.
+
+Priekšlikums tiks izskatīts pilsētas padomē nākamajā mēnesī, kur tiek gaidītas būtiskas diskusijas par pašvaldības paziņojumu integrēšanu ar Kaiju saucieniem. Vai šī putnu ambīcija pacelsies valdošajos gaiteņos vai vienkārši pievienosies piekrastes folkloras kakofonijai, vēl nav zināms. Viena lieta, tomēr, ir skaidra: Jūrmalas kaijas ir gatavas un, burtiski, dedzīgas tikt sadzirdētas.`,
+      ru: `В широком жесте, который оставил лингвистов, орнитологов и местных чиновников в недоумении, жители Юрмалы настойчиво стремятся установить 'Чайку' в качестве нового официального языка. Подчеркивая неразрывную связь между сообществом и их любимыми прибрежными птицами, предложение взлетело на фоне оживленных обсуждений в городских залах и кафе на пляже.
+
+Инициатива, возглавляемая недавно сформированной коалицией 'За пределами балтийских клювов', уже собрала более 5000 подписей, в основном от жителей и озадаченных туристов, которые привыкли делиться своими картошкой фри и мороженым с неофициальными талисманами города. 'Мы считаем, что чайки лучше всего воплощают дух Юрмалы', — объяснила лидер коалиции, Мара Спаре, утверждая, что инициатива является шагом к переопределению культурной идентичности и вызову традиционным лингвистическим нормам.
+
+'Представьте себе простоту и элегантность законодательных речей, переданных через серию криков и визгов', — продолжила она, демонстрируя особенно энергичное исполнение на последнем городском собрании. 'Хотя некоторые могут утверждать, что это необоснованно, чайки эффективно общаются без недопонимания — по крайней мере, между собой.'
+
+Чтобы подготовиться к возможному переходу, местные языковые школы уже начали предлагать базовые курсы общения на Чайке. Ведет их самопровозглашенный 'Шептун Чаек', Артис Берзиньш, и эти занятия охватывают основные лингвистические компоненты, такие как 'Внимание: на пляже Межапаркса выброшена одна картошка фри' и 'Тревога: вторжение иностранной чайки'. Учебный план также включает интонацию криков и продвинутую жестикуляцию крыльями.
+
+'Это удивительно легко усвоить', — призналась Элза Лейтис, студентка одного из первых классов в Юрмале. 'Я всегда думала, что чайки просто громкие, но теперь я понимаю, что у них богатый словарный запас, идеально подходящий для нужд нашего сообщества. Плюс, подумайте о будущих поколениях — свободно говорящих на Чайке — которые будут легко перемещаться между портами.'
+
+Однако путь вперед не лишен критиков. Местный лингвист, доктор Янис Блумс, утверждает, что переход к форме общения, основанной не на человеке, может отпугнуть иностранных инвесторов и туристов, менее склонных к разговорному авиатическому. 'Хотя я восхищаюсь их страстью', — сказал доктор Блумс, — 'Чайка не признана ни на одном международном тесте на знание языков. И не каждый может канализировать своего внутреннего Джонатана Ливингстона.'
+
+Несмотря на споры, коалиция указывает на множество практических преимуществ. Помимо очевидной экологичности предложения — с вывесками, требующими только универсальных символов криков — есть явное сокращение услуг перевода, учитывая маловероятность того, что будущие политические документы потребуют языковых вариантов.
+
+Пока петиция продолжает набирать обороты при поддержке прибрежных закусочных и сувенирных магазинов, некоторые жители Юрмалы убеждены, что принятие Чайки выделит их город как пионера в межвидовом общении. 'Когда язык когда-либо вредил месту?' — дипломатично заметил Берзиньш.
+
+Предложение будет рассмотрено городским советом в следующем месяце, где ожидаются важные обсуждения по интеграции муниципальных объявлений с криками Чайки. Будет ли эта птичья амбиция взлетать в залах управления или просто присоединится к какофонии прибрежного фольклора, еще предстоит увидеть. Одно, однако, ясно: чайки Юрмалы готовы и, в буквальном смысле, жаждут быть услышанными.`
+    },
+    date: "Jan 6, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 51,
     slug: "riga-installs-worlds-largest-baltic-bicycle",
     title: {
@@ -95,7 +170,7 @@ Kā tuneļa ietekme pakāpeniski iesūcas ikdienas dzīvē Rīgā, atbalstītāj
     readTime: "6 min read",
     imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 50,
