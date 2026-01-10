@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 56,
+    slug: "latvian-farmers-elect-horse-as-new",
+    title: {
+      en: "Latvian Farmers Elect Horse as New Minister of Agriculture After Impressive Campaign Promise to ‘Trotify’ Policies",
+      lv: "Latvijas zemnieki ievēl zirgu par jauno lauksaimniecības ministru pēc iespaidīga solījuma 'audzēt' politiku",
+      ru: "Латвийские фермеры избрали лошадь новым министром сельского хозяйства после впечатляющего обещания «оседлать» политику"
+    },
+    excerpt: {
+      en: "In an unprecedented move that has sparked debates across Europe, Latvian farmers have elected a brown stallion named Edgars ‘Hoof-Forward’ to head the Ministry of Agriculture. The equine candidate galloped to victory after pledging to reduce oat taxes by 100% and promising robust policies to ‘horsepower’ the agricultural sector forward.",
+      lv: "Bezprecedenta solis, kas izraisījis diskusijas visā Eiropā, Latvijas zemnieki ir ievēlējuši brūnu ērzeļu vārdā Edgars 'Priekškāja' par lauksaimniecības ministru. Šis zirgu kandidāts uzvarēja vēlēšanās, solot samazināt auzu nodokļus par 100% un piedāvājot spēcīgu politiku, lai 'zirgspēks' virzītu lauksaimniecības nozari uz priekšu.",
+      ru: "В беспрецедентном шаге, вызвавшем дебаты по всей Европе, латвийские фермеры избрали коричневого жеребца по имени Эдгарс «Вперед-Копыто» главой Министерства сельского хозяйства. Конный кандидат одержал победу, пообещав снизить налоги на овес на 100% и предложив мощные меры для продвижения сельскохозяйственного сектора вперед."
+    },
+    fullContent: {
+      en: `In what might be the most unorthodox political maneuver of the century, farmers in Latvia have unanimously elected a horse named Edgars ‘Hoof-Forward’ as their new Minister of Agriculture. The four-year-old stallion, hailing from a renowned equestrian farm in Zemgale, captured the hearts and votes of rural communities with his compelling campaign promises and a penchant for carrot diplomacy.
+
+This unprecedented turn of events unfolded during the annual National Farmers’ Congress held in Bauska, where Edgars reportedly trotted onto the stage with his campaign slogan, 'Gallop Towards Prosperity', emblazoned on a flag clutched between his teeth. An estimated 85% of the rural electorate cast their ballots after he performed a traditional Latvian folk dance, stamping out a rhythmic encouragement for economic reform.
+
+Political analysts are baffled but notably intrigued by Edgars' appeal. "Frankly, this is a bold leap into literal horseplay by Latvian politics," commented Ilze Zemniece, a local political analyst. "But considering the consistent rise in oats prices and the lack of tangible development in our agricultural policies, perhaps they needed a fresh, albeit neigh-sensical perspective. Plus, one must admit, his neighs are quite persuasive."
+
+Edgars' political manifesto emphasized a complete overhaul of oat taxation, pledging to abolish oats taxes entirely—a policy that has received overwhelming support among oat farmers, who claimed that such measures would significantly boost both morale and profits. In addition, he proposed that all drought issues in Latvia could be solved by 'hoofing it' over to neighboring Estonia and asking them for a share of their rainfall.
+
+"We see nothing but promise in Edgars’ leadership," said Janis Lops, president of the Latvian Farmers’ Association. "His upfront approach when confronting hay shortages, as demonstrated by munching through his campaign paperwork, indicates a willingness to tackle issues directly and sustainably."
+
+However, questions linger about Edgars' ability to articulate policy specifics in legislative terms, mainly due to his noticeable lack of language skills beyond distinct whinnies. Skeptics within Parliament have raised concerns about his eligibility to hold office; however, legal advisors were quick to point out that the Latvian constitution does not explicitly prevent non-human candidates from assuming bureaucratic positions.
+
+The Prime Minister, apparently taking the election results in stride, remarked, "Innovation often begins with the most unexpected inspirations. We are sure Minister Edgars will bring a unique energy and perspective to the position, and who knows, perhaps even a new kind of neigh-GDP."
+
+For now, as the new Minister trots about his office, adjusting to his duties and scheduling meetings over afternoon oats, only time will tell if Edgars will indeed take Latvia’s agriculture by the reigns—or if he will trot right off the policy track. Regardless, his supporters remain optimistic, as they chant their spirited motto, 'Let's get back to chivalry!'
+
+International observers have also commented, with neighboring Lithuanians reportedly contemplating whether they should start considering their own animal candidates for government roles. Reactions across Europe range from amused curiosity to sheer bemusement, proving once again that when it comes to democracy, anything can happen in the Baltic states.`,
+      lv: `Gadsimta neparastākajā politiskajā manevrā Latvijas zemnieki vienbalsīgi ievēlējuši zirgu vārdā Edgars 'Priekškāja' par jauno lauksaimniecības ministru. Četru gadu vecais ērzelis, kas nāk no slavenas jāšanas saimniecības Zemgalē, iekaroja lauku kopienu sirdis un balsis ar saviem pārliecinošajiem priekšvēlēšanu solījumiem un burkānu diplomātijas talantu.
+
+Šis bezprecedenta notikums norisinājās ikgadējā Nacionālajā zemnieku kongresā Bauskā, kur Edgars, kā ziņots, uzstājās uz skatuves ar savu priekšvēlēšanu saukli 'Auļot uz labklājību', kas bija uzdrukāts uz karoga, ko viņš turēja zobos. Aptuveni 85% lauku vēlētāju nobalsoja pēc tam, kad viņš izpildīja tradicionālu latviešu tautas deju, ritmiski stampājot ekonomiskās reformas veicināšanai.
+
+Politiskie analītiķi ir apjukuši, bet ievērojami ieinteresēti par Edgara pievilcību. "Godīgi sakot, tas ir drosmīgs solis uz burtisku zirgu spēli Latvijas politikā," komentēja vietējā politikas analītiķe Ilze Zemniece. "Bet, ņemot vērā auzu cenu pastāvīgo pieaugumu un taustāmu attīstību trūkumu mūsu lauksaimniecības politikā, varbūt viņiem bija nepieciešama svaiga, kaut arī neparasta perspektīva. Turklāt, jāatzīst, viņa zviedzieni ir diezgan pārliecinoši."
+
+Edgara politiskā programma uzsvēra pilnīgu auzu nodokļu pārskatīšanu, solot pilnībā atcelt auzu nodokļus - politika, kas saņēmusi milzīgu atbalstu starp auzu audzētājiem, kuri apgalvoja, ka šādi pasākumi būtiski palielinātu gan morāli, gan peļņu. Turklāt viņš ierosināja, ka visas sausuma problēmas Latvijā varētu atrisināt, 'aizjājot' uz kaimiņvalsti Igauniju un lūdzot dalīties ar lietus ūdeni.
+
+"Mēs redzam tikai solījumus Edgara vadībā," sacīja Latvijas Zemnieku asociācijas prezidents Jānis Lops. "Viņa tiešā pieeja, risinot siena trūkumu, ko viņš demonstrēja, apēdot savus priekšvēlēšanu dokumentus, liecina par vēlmi tieši un ilgtspējīgi risināt problēmas."
+
+Tomēr joprojām pastāv jautājumi par Edgara spēju izteikt politikas specifiku likumdošanas terminoloģijā, galvenokārt viņa izteikto valodas prasmju trūkuma dēļ, kas pārsniedz atšķirīgus zviedzienus. Skeptiķi parlamentā ir izteikuši bažas par viņa piemērotību ieņemt amatu; tomēr juridiskie padomnieki ātri norādīja, ka Latvijas konstitūcija nepārprotami neaizliedz ne-cilvēku kandidātiem ieņemt birokrātiskus amatus.
+
+Premjerministrs, acīmredzot pieņemot vēlēšanu rezultātus ar mieru, piezīmēja: "Inovācija bieži sākas ar visnegaidītākajām iedvesmām. Mēs esam pārliecināti, ka ministrs Edgars ienesīs unikālu enerģiju un perspektīvu amatā, un, kas zina, varbūt pat jaunu veidu kā 'zirgu IKP'."
+
+Pašlaik, kamēr jaunais ministrs auļo pa savu biroju, pielāgojoties saviem pienākumiem un plānojot tikšanās pēcpusdienas auzu laikā, tikai laiks rādīs, vai Edgars patiešām pārņems Latvijas lauksaimniecību grožos - vai arī viņš aizjās no politikas ceļa. Tomēr viņa atbalstītāji paliek optimistiski, skandējot savu garīgo moto, 'Atgriezīsimies pie bruņniecības!'
+
+Starptautiskie novērotāji arī ir izteikušies, un kaimiņvalsts lietuvieši, kā ziņots, apsver, vai viņiem nevajadzētu sākt apsvērt savus dzīvnieku kandidātus valdības amatiem. Reakcijas visā Eiropā svārstās no izklaidētas ziņkārības līdz tīrai apjukumam, vēlreiz pierādot, ka, runājot par demokrātiju, Baltijas valstīs var notikt jebkas.`,
+      ru: `Возможно, это самая необычная политическая маневра века: фермеры в Латвии единогласно избрали лошадь по имени Эдгарс «Вперед-Копыто» новым министром сельского хозяйства. Четырехлетний жеребец, родом из известной конной фермы в Земгале, завоевал сердца и голоса сельских общин своими убедительными предвыборными обещаниями и склонностью к «морковной дипломатии».
+
+Этот беспрецедентный поворот событий развернулся во время ежегодного Национального конгресса фермеров в Бауске, где, как сообщается, Эдгарс вышел на сцену с предвыборным лозунгом «Галопом к процветанию», развевающимся на флаге, зажатом между его зубами. По оценкам, 85% сельских избирателей проголосовали после того, как он исполнил традиционный латвийский народный танец, выбивая ритмичное поощрение к экономическим реформам.
+
+Политические аналитики озадачены, но заметно заинтересованы привлекательностью Эдгарса. «Честно говоря, это смелый шаг в буквальную игру слов в латвийской политике», — прокомментировала Илзе Земниеце, местный политический аналитик. «Но, учитывая постоянный рост цен на овес и отсутствие ощутимого развития в наших сельскохозяйственных политиках, возможно, им нужен был свежий, пусть и не совсем разумный взгляд. Плюс, нужно признать, его ржание довольно убедительно».
+
+Политический манифест Эдгарса подчеркивал полную отмену налогообложения овса, обещая полностью отменить налоги на овес — политику, которая получила подавляющую поддержку среди фермеров, выращивающих овес, которые утверждали, что такие меры значительно повысят как моральный дух, так и прибыль. Кроме того, он предложил, что все проблемы с засухой в Латвии можно решить, «перебежав» в соседнюю Эстонию и попросив у них часть их дождей.
+
+«Мы видим в руководстве Эдгарса только перспективы», — сказал Янис Лопс, президент Латвийской ассоциации фермеров. «Его прямой подход к решению проблем с нехваткой сена, продемонстрированный поеданием его предвыборных документов, указывает на готовность решать проблемы напрямую и устойчиво».
+
+Однако остаются вопросы о способности Эдгарса формулировать конкретные политические меры в законодательных терминах, главным образом из-за его заметной нехватки языковых навыков, кроме отчетливого ржания. Скептики в парламенте выразили обеспокоенность по поводу его права занимать должность; однако юридические консультанты быстро указали, что латвийская конституция не запрещает кандидатам-не людям занимать бюрократические должности.
+
+Премьер-министр, по-видимому, восприняв результаты выборов спокойно, заметил: «Инновации часто начинаются с самых неожиданных вдохновений. Мы уверены, что министр Эдгарс привнесет уникальную энергию и перспективу в эту должность, и кто знает, возможно, даже новый вид ржания-ВВП».
+
+Пока новый министр прогуливается по своему офису, привыкая к своим обязанностям и назначая встречи на послеобеденный овес, только время покажет, возьмет ли Эдгарс сельское хозяйство Латвии в свои руки — или он сойдет с политической тропы. Тем не менее, его сторонники остаются оптимистичными, скандируя свой вдохновляющий девиз: «Вернемся к рыцарству!»
+
+Международные наблюдатели также прокомментировали, и, как сообщается, соседние литовцы задумываются о том, стоит ли им начать рассматривать своих собственных животных-кандидатов на государственные должности. Реакции по всей Европе варьируются от забавного любопытства до полного недоумения, снова доказывая, что когда дело доходит до демократии, в странах Балтии возможно все.`
+    },
+    date: "Jan 10, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 55,
     slug: "latvian-parliament-passes-bold-legislation-declaring",
     title: {
@@ -89,7 +164,7 @@ Kā Rīga pieņem savu jaunizveidoto krāsu, noskaņojums – cik necaurspīdīg
     readTime: "10 min read",
     imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 54,
