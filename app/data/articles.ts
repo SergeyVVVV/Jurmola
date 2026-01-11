@@ -17,6 +17,69 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 57,
+    slug: "latvia-to-celebrate-painless-winter-with",
+    title: {
+      en: "Latvia To Celebrate Painless Winter With Nationwide 'Complain-for-Peanuts' Day",
+      lv: "Latvija svinēs nesāpīgu ziemu ar valsts mēroga 'Sūdzies-par-zemestaukiem' dienu",
+      ru: "Латвия отпразднует безболезненную зиму с новым праздником 'День жалоб за орешки'"
+    },
+    excerpt: {
+      en: "In an unprecedented move to acknowledge the mercifully mild winter, Latvia's government has sanctioned a new holiday—'Complain-for-Peanuts' Day. Citizens are encouraged to air grievances, with a bag of complimentary peanuts handed out for each complaint.",
+      lv: "Nepieredzētā solī, lai atzītu žēlsirdīgi maigo ziemu, Latvijas valdība ir apstiprinājusi jaunu svētku dienu - 'Sūdzies-par-zemestaukiem' dienu. Pilsoņi tiek aicināti izteikt sūdzības, par katru sūdzību saņemot bezmaksas zemestauku maisiņu.",
+      ru: "В беспрецедентном шаге, чтобы отметить милосердно мягкую зиму, правительство Латвии утвердило новый праздник — 'День жалоб за орешки'. Гражданам предлагается высказывать недовольства, получая за каждую жалобу бесплатный пакет орешков."
+    },
+    fullContent: {
+      en: `RIGA—In an unprecedented initiative, the Latvian government has announced the declaration of 'Complain-for-Peanuts' Day, a brand-new holiday set to be celebrated annually on February 15th. Recognized as the country's official day to embrace the seemingly paradoxical Latvian tradition of grumbling even when things are going well, each citizen is invited to articulate any exasperation, rewarding them with a bag of complimentary peanuts for their audible grievances.
+
+The brainchild of Minister of Discomfort (a recently created portfolio), Guntars Miglāns, the day came into being following one of the mildest winters the region has experienced in recent memory. 'We found ourselves with an excess of unused snow plows and an equally unutilized allocation for road salt,' said Minister Miglāns at a press briefing. 'Rather than let the fund go to waste, we thought it better to convert it into a currency that resonates with our people's unparalleled passion for airing grievances.'
+
+To participate, citizens need only visit designated ‘Grumble Booths’ set up in central locations across Latvian cities. Each approved gripe will be met with a jubilant, if not sarcastic, endorsement by actors trained to impersonate indifferent public servants, who might reply with, 'Oh, really? That's new' or 'How interesting, carry on' before handing them their peanuts reward. Especially innovative complainers may find themselves receiving special peanut varieties, such as those 'well-salted' or 'roasted with extra indigence.'
+
+The response from the public has been overwhelmingly enthusiastic. 'Finally, a holiday that speaks to our truth,' exclaimed Aldis Bērziņš, a Riga resident known for his frequent philosophical musings about tram timetables. 'Now I can finally achieve the respect I deserve for my complaint that the city should really consider painting zebra crossings in more eye-pleasing colors than black and white!' Another eager participant, Māris Kalniņš, calls the initiative 'the ultimate test of creativity. How mundanely original can you get?' he chuckles while clutching a list of grievances ranging from flagrant overcautiousness of squirrels in Mežaparks to the alarming reluctance of clouds to snow with a bit more vigor.
+
+Opposition to the holiday has been scarce but notable. Part-time enjoyment instructor, Elīna Ozoliņa, argued against what she termed as an 'institutionalization of pessimism.' 'We should aim to count blessings, not enumerate complaints... but on second thoughts, I do have a bone to pick about the absence of a second seat at the bus stop I frequent,' she added thoughtfully.
+
+In an official statement, President Egils Levits praised the initiative as 'ingeniously aligned with our cultural nuances.' 'It's quintessentially Latvian: authentic and with a pinch of dry humor,' he remarked. 'Plus, there’s nothing like the crunch of a good peanut to celebrate a stable society. We're keeping our traditions cracking!' 
+
+Whether 'Complain-for-Peanuts' Day will become as beloved as Midsummer or relegate itself to the echelons of brief history remains to be seen. But for now, as the citizens of Latvia prepare their lists of qualms, there's only one certainty: a nation of satisfied complainers, with peanuts in hand and smiles possibly concealed under the pretense of disgruntlement.`,
+      lv: `RĪGA—Nepieredzētā iniciatīvā Latvijas valdība paziņojusi par 'Sūdzies-par-zemestaukiem' dienas izsludināšanu, jaunu svētku dienu, kas turpmāk tiks svinēta katru gadu 15. februārī. Atzīta par valsts oficiālo dienu, lai pieņemtu šķietami paradoksālo latviešu tradīciju sūdzēties pat tad, kad viss ir labi, katrs pilsonis tiek aicināts izteikt jebkādu neapmierinātību, par ko viņam tiks piešķirts bezmaksas zemestauku maisiņš par dzirdamām sūdzībām.
+
+Šīs dienas idejas autors ir Diskomforta ministrs (nesen izveidots amats) Guntars Miglāns, un tā radās pēc vienas no maigākajām ziemām, ko reģions piedzīvojis pēdējā laikā. 'Mēs atradāmies ar pārmērīgu neizmantotu sniega tīrītāju skaitu un tikpat neizmantotu ceļu sāls piešķīrumu,' teica ministrs Miglāns preses konferencē. 'Tā vietā, lai ļautu fondam izšķiesties, mēs nolēmām to pārvērst valūtā, kas rezonē ar mūsu tautas nepārspējamo kaislību izteikt sūdzības.'
+
+Lai piedalītos, pilsoņiem tikai jāapmeklē noteiktas 'Sūdzību kabīnes', kas uzstādītas centrālajās vietās visā Latvijas pilsētās. Katra apstiprinātā sūdzība tiks sagaidīta ar priecīgu, ja ne sarkastisku, atbalstu no aktieriem, kas apmācīti atdarināt vienaldzīgus valsts ierēdņus, kuri varētu atbildēt ar 'Ak, tiešām? Tas ir kaut kas jauns' vai 'Cik interesanti, turpiniet' pirms viņiem tiek piešķirts zemestauku maisiņš. Īpaši novatoriski sūdzētāji var saņemt īpašas zemestauku šķirnes, piemēram, 'labi sālītas' vai 'ceptas ar papildu neapmierinātību.'
+
+Sabiedrības atbilde bijusi pārsteidzoši entuziasma pilna. 'Beidzot svētki, kas runā mūsu patiesību,' izsaucās Aldis Bērziņš, Rīgas iedzīvotājs, kurš pazīstams ar saviem biežajiem filozofiskajiem pārdomām par tramvaju grafikiem. 'Tagad es beidzot varu sasniegt cieņu, ko esmu pelnījis par savu sūdzību, ka pilsētai tiešām vajadzētu apsvērt iespēju krāsot gājēju pārejas acij patīkamākās krāsās nekā melnbaltas!' Cits dedzīgs dalībnieks, Māris Kalniņš, sauc šo iniciatīvu par 'galīgo radošuma pārbaudi. Cik ikdienišķi oriģināls var būt?' viņš smejas, turot rokās sūdzību sarakstu, sākot no vāveru pārmērīgās piesardzības Mežaparkā līdz mākoņu satraucošajai nevēlēšanās snigt ar lielāku sparu.
+
+Pretestība svētkiem bijusi reta, bet ievērojama. Nepilna laika izklaides instruktore Elīna Ozoliņa iebilda pret to, ko viņa nosauca par 'pesimisma institucionalizāciju.' 'Mums vajadzētu censties skaitīt svētības, nevis uzskaitīt sūdzības... bet, no otras puses, man ir ko teikt par otrā sēdekļa trūkumu pieturā, kuru es bieži apmeklēju,' viņa piebilda pārdomāti.
+
+Oficiālā paziņojumā prezidents Egils Levits slavēja iniciatīvu kā 'gudri saskaņotu ar mūsu kultūras niansēm.' 'Tas ir būtiski latviski: autentisks un ar šķipsnu sausa humora,' viņš atzīmēja. 'Turklāt, nav nekā tāda kā laba zemestauka kraukšķis, lai svinētu stabilu sabiedrību. Mēs turpinām uzturēt savas tradīcijas!' 
+
+Vai 'Sūdzies-par-zemestaukiem' diena kļūs tikpat mīlēta kā Jāņi vai tiks ierindota īsās vēstures ešelonos, vēl nav zināms. Bet šobrīd, kamēr Latvijas iedzīvotāji gatavo savus sūdzību sarakstus, ir tikai viena pārliecība: apmierinātu sūdzētāju tauta, ar zemestaukiem rokās un, iespējams, smaidus, kas slēpjas aiz neapmierinātības aizsega.`,
+      ru: `РИГА — В беспрецедентной инициативе правительство Латвии объявило о введении 'Дня жалоб за орешки', нового праздника, который будет отмечаться ежегодно 15 февраля. Признанный официальным днем страны для принятия, казалось бы, парадоксальной латвийской традиции ворчания даже тогда, когда все идет хорошо, каждый гражданин приглашается выразить любое раздражение, вознаграждая их пакетом бесплатных орешков за их слышимые жалобы.
+
+Идея министра дискомфорта (недавно созданного портфеля) Гунтарса Мигланса, этот день появился после одной из самых мягких зим, которые регион переживал в последнее время. 'Мы обнаружили, что у нас есть избыток неиспользованных снегоуборочных машин и равно неиспользованный запас дорожной соли,' сказал министр Мигланс на пресс-конференции. 'Вместо того чтобы позволить фондам пропасть впустую, мы решили превратить их в валюту, которая резонирует с непревзойденной страстью нашего народа к высказыванию жалоб.'
+
+Чтобы участвовать, гражданам нужно просто посетить специально отведенные 'Будки для ворчания', расположенные в центральных местах латвийских городов. Каждая одобренная жалоба будет встречена радостным, если не саркастическим, одобрением актерами, обученными изображать равнодушных государственных служащих, которые могут ответить: 'О, правда? Это что-то новенькое' или 'Как интересно, продолжайте' перед тем, как вручить им награду в виде орешков. Особенно инновационные жалобщики могут получить специальные сорта орешков, такие как 'хорошо соленые' или 'обжаренные с дополнительной обидой'.
+
+Ответ общественности был чрезвычайно восторженным. 'Наконец-то праздник, который говорит о нашей правде,' воскликнул Алдис Берзиньш, житель Риги, известный своими частыми философскими размышлениями о расписаниях трамваев. 'Теперь я наконец-то могу добиться уважения, которого заслуживаю за свою жалобу о том, что город действительно должен рассмотреть возможность покраски пешеходных переходов в более приятные для глаз цвета, чем черный и белый!' Другой нетерпеливый участник, Марис Калниньш, называет инициативу 'высшим испытанием креативности. Насколько обыденно оригинальным ты можешь быть?' он смеется, держа в руках список жалоб, начиная от явной излишней осторожности белок в Межапарке до тревожной неохоты облаков снежить с чуть большей энергией.
+
+Оппозиция празднику была редкой, но заметной. Временный инструктор по наслаждению, Элина Озолиня, выступила против того, что она назвала 'институционализацией пессимизма'. 'Мы должны стремиться считать благословения, а не перечислять жалобы... но, с другой стороны, у меня есть претензия по поводу отсутствия второй скамейки на автобусной остановке, которую я посещаю,' добавила она задумчиво.
+
+В официальном заявлении президент Эгилс Левитс похвалил инициативу как 'гениально соответствующую нашим культурным нюансам.' 'Это квинтэссенция Латвии: аутентично и с щепоткой сухого юмора,' отметил он. 'Плюс, нет ничего лучше хруста хорошего орешка, чтобы отпраздновать стабильное общество. Мы держим наши традиции в движении!'
+
+Станет ли 'День жалоб за орешки' таким же любимым, как Мидсаммер, или уйдет в историю, остается только гадать. Но пока граждане Латвии готовят свои списки претензий, есть только одна уверенность: нация довольных жалобщиков, с орешками в руках и, возможно, с улыбками, скрытыми под предлогом недовольства.`
+    },
+    date: "Jan 11, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://images.unsplash.com/photo-1551847677-dc82daa8537f?w=800&h=600&fit=crop",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 56,
     slug: "latvian-farmers-elect-horse-as-new",
     title: {
@@ -89,7 +152,7 @@ Starptautiskie novērotāji arī ir izteikušies, un kaimiņvalsts lietuvieši, 
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 55,
