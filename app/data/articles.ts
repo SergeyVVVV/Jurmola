@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 59,
+    slug: "riga-announces-new-anti-pigeon-tourism",
+    title: {
+      en: "Riga Announces New Anti-Pigeon Tourism Campaign: Bird-Free Since Last Tuesday!",
+      lv: "Rīga paziņo par jaunu tūrisma kampaņu pret baložiem: Bez putniem kopš pagājušās otrdienas!",
+      ru: "Рига объявляет новую антиптичью туристическую кампанию: Без птиц с прошлого вторника!"
+    },
+    excerpt: {
+      en: "In an unprecedented move, Riga's City Council has launched an aggressive campaign aiming to transform the city into the world's first pigeon-free capital. Armed with colorful brochures and abstract interpretive dances, officials swear the last pigeon disappeared on Tuesday, rendering all evidence such as photos and eyewitness accounts unusable.",
+      lv: "Rīgas domes bezprecedenta solis - agresīva kampaņa, kuras mērķis ir pārvērst pilsētu par pasaulē pirmo baložu brīvo galvaspilsētu. Bruņoti ar krāsainām brošūrām un abstraktām interpretatīvām dejām, amatpersonas zvēr, ka pēdējais balodis pazuda otrdien, padarot visus pierādījumus, piemēram, fotogrāfijas un aculiecinieku stāstus, nederīgus.",
+      ru: "В беспрецедентном шаге Рижский городской совет запустил агрессивную кампанию, направленную на превращение города в первую в мире столицу без голубей. Вооруженные красочными брошюрами и абстрактными интерпретативными танцами, чиновники клянутся, что последний голубь исчез во вторник, делая все доказательства, такие как фотографии и свидетельства очевидцев, непригодными."
+    },
+    fullContent: {
+      en: `In what city officials are calling a groundbreaking achievement in urban planning, Riga announced its ambitious new tourism campaign dedicated to eradicating pigeons from its picturesque streets. Titled 'Feather-Free Riga: The New Flight Path to Urbia,' the initiative aims to position the Latvian capital as the premier destination for travelers who find joy in bird-free environments - a demographic city planners remarkably estimate to account for over 0.03% of global tourism.
+
+'When we said we wanted to boost tourism, we thought about what no other city has: freedom from feathered nuisances,' explained Osvalds Kalniņš, Director of Riga's Department of Innovative Urban Ideas. 'Imagine visiting our beautiful cafes without the threat of aviary excrement. It's an ornithophobe's dream!'
+
+Leading the pigeon purging effort is the newly hired 'Chief Pigeon Exclusion Officer,' commonly referred to by locals as 'Birdless Bertie.' Clad in a feather-resistant suit and carrying a whistle tuned to a frequency only pigeons can hear, Bertie holds weekly public demonstrations showcasing the technique responsible for the city's avian exodus. 'It's very technical,' Bertie shared, 'like a cross between a dance and a séance, while involving copious amounts of breadcrumbs and interpretative flailing.'
+
+The city council has published a commemorative guidebook titled "Pigeons: The Early Departure," featuring blank pages symbolizing a world without the birds. They claim it enhances creativity and interpretive thinking. 'It's not about the absence,' chuffed Mare Kažok-Pērle, the newly appointed Minister of Imagination, 'it's about appreciating what was never really there now gone.'
+
+However, not all locals share the enthusiasm. Street artist Baldrejs Vīksna, not to be confused with a renegade pigeon sympathizer, erected a sculpture of a giant pigeon made entirely out of repurposed city ordinance pamphlets. 'It's ironic, you see,' Vīksna stated enigmatically while shooing away a confused sparrow. 'How do you know they left if you never saw them go? My art asks those hard questions.'
+
+Tourism specialists predict the campaign could boost Riga's foreign visitors by as much as two dozen people annually, with most coming from Estonia, where the pigeon problem remains suspiciously mundane. 'It's remarkable,' commented Johanna Pettere, an Estonian urbanologist keen on pigeon-related tourism. 'Riga is pioneering bird-free tourism - it’s like wine tasting, but for cities that taste like cobblestones not coated in droppings.'
+
+In conclusion, the initiative is hailed as a tremendous symbolic gesture, even if practical evidence remains as elusive as the birds themselves. Meanwhile, the Latvian Ornithological Society has reportedly taken an interest, expressing both confusion and concern over the abrupt vanishing, stating cryptically, 'There’s something afoot, or a-wing, we suppose.'
+
+All eyes remain on Riga, eager to see if the city can cornerstone this achievement into something more profound. As one bemused passerby on Krastmala Street put it, 'Riga's pigeon plan may be the quirkiest yet - an ecological illusion of the best kind, creating an expanse of thought devoid of distraction... or pigeons.'`,
+      lv: `Rīgas pilsētas amatpersonas to dēvē par revolucionāru sasniegumu pilsētplānošanā - Rīga paziņoja par savu ambiciozo jauno tūrisma kampaņu, kas veltīta baložu izskaušanai no gleznainajām ielām. Nosaukta 'Bezspalvu Rīga: Jaunais lidojuma ceļš uz Urbija', iniciatīva mērķē pozicionēt Latvijas galvaspilsētu kā galveno galamērķi ceļotājiem, kuri rod prieku vidē bez putniem - demogrāfija, kuru pilsētplānotāji pārsteidzoši lēš, ka veido vairāk nekā 0,03% no pasaules tūrisma.
+
+'Kad teicām, ka vēlamies palielināt tūrismu, mēs domājām par to, kas nav nevienai citai pilsētai: brīvība no spalvainiem traucēkļiem,' skaidroja Osvalds Kalniņš, Rīgas Inovatīvo pilsētas ideju departamenta direktors. 'Iedomājieties, kā apmeklējat mūsu skaistās kafejnīcas bez draudiem no putnu mēsliem. Tas ir ornitofoba sapnis!'
+
+Pilsētas baložu tīrīšanas centienus vada nesen pieņemtais 'Galvenais baložu izslēgšanas virsnieks', kuru vietējie sauc par 'Bezputnu Bertiju'. Tērpies spalvu izturīgā tērpā un nēsājot svilpi, kas noregulēta uz frekvenci, ko dzird tikai baloži, Bertijs rīko iknedēļas publiskas demonstrācijas, kurās demonstrē tehniku, kas atbildīga par pilsētas putnu izceļošanu. 'Tas ir ļoti tehniski,' dalījās Bertijs, 'kā deja un seanss vienlaikus, iesaistot bagātīgas maizes drupatas un interpretatīvu plivināšanos.'
+
+Pilsētas dome ir izdevusi piemiņas ceļvedi ar nosaukumu 'Baloži: Agrā aiziešana', kurā ir tukšas lapas, simbolizējot pasauli bez putniem. Viņi apgalvo, ka tas veicina radošumu un interpretatīvo domāšanu. 'Tas nav par trūkumu,' lepni teica Mare Kažok-Pērle, jaunieceltā Iztēles ministre, 'tas ir par to, ka novērtējam to, kas nekad īsti nebija, tagad aizgājis.'
+
+Tomēr ne visi vietējie dalās entuziasmā. Ielu mākslinieks Baldrejs Vīksna, kurš nav sajaucams ar renegātu baložu simpatizētāju, uzcēla milzīga baloža skulptūru, kas pilnībā izgatavota no pārstrādātām pilsētas rīkojumu brošūrām. 'Tas ir ironiski, redziet,' Vīksna izteicās mīklaini, vienlaikus aizdzenot apjukušu zvirbuli. 'Kā jūs zināt, ka viņi aizgāja, ja nekad neredzējāt viņus aiziet? Mana māksla uzdod šos grūtos jautājumus.'
+
+Tūrisma speciālisti prognozē, ka kampaņa varētu palielināt Rīgas ārvalstu apmeklētāju skaitu par diviem desmitiem cilvēku gadā, lielākoties no Igaunijas, kur baložu problēma joprojām ir aizdomīgi ikdienišķa. 'Tas ir ievērojami,' komentēja Johanna Pettere, igauņu urbanoloģe, kas interesējas par baložu saistīto tūrismu. 'Rīga ir pionieris putnu brīvā tūrismā - tas ir kā vīna degustācija, bet pilsētām, kas garšo pēc bruģakmeņiem, kas nav pārklāti ar izkārnījumiem.'
+
+Noslēgumā, iniciatīva tiek uzskatīta par milzīgu simbolisku žestu, pat ja praktiskie pierādījumi paliek tikpat neizprotami kā paši putni. Tikmēr Latvijas Ornitoloģijas biedrība ir izrādījusi interesi, izsakot gan apjukumu, gan bažas par pēkšņo pazušanu, sakot mīklaini: 'Tur kaut kas ir, vai nu uz kājām, vai uz spārniem, mēs pieļaujam.'
+
+Visas acis ir vērstas uz Rīgu, cerot redzēt, vai pilsēta var šo sasniegumu pārvērst par kaut ko dziļāku. Kā viens apmulsis garāmgājējs Krastmalas ielā teica: 'Rīgas baložu plāns varētu būt visdīvainākais līdz šim - ekoloģiska ilūzija vislabākajā veidā, radot domu telpu bez traucējumiem... vai baložiem.'`,
+      ru: `В том, что городские чиновники называют прорывным достижением в городском планировании, Рига объявила о своей амбициозной новой туристической кампании, посвященной искоренению голубей с ее живописных улиц. Названная 'Рига без перьев: Новый путь к Урбии', инициатива стремится позиционировать латвийскую столицу как главное место для путешественников, которые находят радость в средах без птиц - демографическая группа, которую городские планировщики удивительно оценивают в более чем 0,03% мирового туризма.
+
+'Когда мы сказали, что хотим увеличить туризм, мы подумали о том, чего нет ни в одном другом городе: свобода от пернатых неприятностей,' объяснил Освальдс Калниньш, директор Рижского департамента инновационных городских идей. 'Представьте себе посещение наших красивых кафе без угрозы птичьего помета. Это мечта орнитофоба!'
+
+Возглавляет усилия по изгнанию голубей недавно нанятый 'Главный офицер по исключению голубей', которого местные жители называют 'Берт без птиц'. Одетый в костюм, устойчивый к перьям, и с свистком, настроенным на частоту, которую слышат только голуби, Берт еженедельно проводит публичные демонстрации, показывая технику, ответственную за исход птиц из города. 'Это очень технически,' поделился Берт, 'как смесь танца и сеанса, с обильным количеством хлебных крошек и интерпретативным размахиванием.'
+
+Городской совет опубликовал памятное руководство под названием 'Голуби: Ранний отъезд', содержащее пустые страницы, символизирующие мир без птиц. Они утверждают, что это усиливает креативность и интерпретативное мышление. 'Дело не в отсутствии,' с гордостью заявила Маре Кажок-Перле, недавно назначенный министр воображения, 'а в оценке того, чего никогда не было, но теперь ушло.'
+
+Однако не все местные жители разделяют энтузиазм. Уличный художник Балдрейс Виксна, не путать с ренегатом-симпатизантом голубей, воздвиг скульптуру гигантского голубя, полностью сделанную из переработанных городских брошюр. 'Это ирония, понимаете,' загадочно заявил Виксна, отгоняя сбитого с толку воробья. 'Как вы знаете, что они ушли, если вы никогда не видели, как они уходят? Мое искусство задает эти трудные вопросы.'
+
+Специалисты по туризму прогнозируют, что кампания может увеличить количество иностранных посетителей Риги на целых два десятка человек в год, причем большинство из них приедет из Эстонии, где проблема с голубями остается подозрительно обыденной. 'Это замечательно,' прокомментировала Йоханна Петтере, эстонский урбанолог, увлеченная туризмом, связанным с голубями. 'Рига прокладывает путь к туризму без птиц - это как дегустация вина, но для городов, которые на вкус как булыжники, не покрытые пометом.'
+
+В заключение, инициатива приветствуется как огромный символический жест, даже если практические доказательства остаются такими же неуловимыми, как и сами птицы. Между тем, Латвийское орнитологическое общество, как сообщается, проявило интерес, выражая как замешательство, так и обеспокоенность по поводу внезапного исчезновения, заявляя загадочно: 'Что-то происходит, или, возможно, крылья.'
+
+Все взгляды устремлены на Ригу, с нетерпением ожидая, сможет ли город превратить это достижение во что-то более значительное. Как выразился один озадаченный прохожий на улице Крастмала: 'План Риги по голубям может быть самым причудливым - экологическая иллюзия лучшего рода, создающая пространство для размышлений, лишенное отвлечений... или голубей.'`
+    },
+    date: "Jan 13, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 58,
     slug: "latvia-launches-revolutionary-bura-bura-sleeping",
     title: {
@@ -89,7 +158,7 @@ Pašlaik, kamēr latvieši turpina savu dienu, viņi var būt mierīgi, zinot, k
     readTime: "6 min read",
     imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 57,
