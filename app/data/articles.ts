@@ -17,6 +17,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 63,
+    slug: "riga-announces-plans-to-convert-all",
+    title: {
+      en: "Riga Announces Plans to Convert All Traffic Lights to More Meditative Metronomes by 2025",
+      lv: "Rīga paziņo par plāniem līdz 2025. gadam visus luksoforus pārvērst par meditatīviem metronomiem",
+      ru: "Рига объявляет о планах к 2025 году превратить все светофоры в более медитативные метрономы"
+    },
+    excerpt: {
+      en: "In a visionary move that defines both innovation and relaxation, Riga City Council has announced a transformative plan to replace all traffic lights with soothing metronomes. The initiative aims to improve traffic flow while promoting mindfulness and calm among stressed-out drivers.",
+      lv: "Rīgas domes vīzija, kas apvieno inovāciju un relaksāciju, ir paziņojusi par transformējošu plānu aizstāt visus luksoforus ar nomierinošiem metronomiem. Iniciatīva mērķē uzlabot satiksmes plūsmu, vienlaikus veicinot apzinātību un mieru starp stresa pārņemtiem autovadītājiem.",
+      ru: "Видение, которое определяет как инновации, так и релаксацию: Рижская городская дума объявила о трансформационном плане заменить все светофоры на успокаивающие метрономы. Инициатива направлена на улучшение движения транспорта и продвижение осознанности и спокойствия среди водителей, находящихся в стрессе."
+    },
+    fullContent: {
+      en: `In a groundbreaking initiative that combines urban planning with wellness trends, Riga City Council has unveiled its ambitious plan to replace all 437 of the city's traffic lights with metronomes. The proposal, branded 'Mindful Mobility,' purports to improve traffic efficiency while fostering mindfulness among the city's drivers, who, according to recent studies, rank among the most stressed in the Baltic region.
+
+'Latvia has long been known for its innovative approaches to city planning,' stated Maris Apollo, the newly appointed Deputy Minister of Tranquil Transport and Enforced Zen. 'By integrating metronomes in place of traffic lights, we are seamlessly merging technology with well-being practices. Imagine driving through the heart of Riga while being serenaded by the rhythmic, calming tick of a metronome. It's not just traffic control—it's an artistic experience.'
+
+According to the city council, each metropolitan area will feature its unique tempo, harmoniously set to the traditional beats of Latvian folk music. Experts from the newly formed Department of Harmonic Vehicular Flow suggest a tempo of 60 beats per minute for Old Town, while the bustling area near Brīvības iela will be synchronized to a slightly faster 74 beats per minute to accommodate the higher traffic density.
+
+Local musician and traffic flow consultant, Janis Krakucis, expressed enthusiastic support for the plan. 'This is the future,' Krakucis claimed, setting a metronome to a gentle 68 BPM during the conference. 'Each metronome will serve as a beacon of serenity, giving rhythm to our urban lives. Residents will not simply cross streets; they will participate in a moving symphony.'
+
+In preparation for the transition, the Riga Society for Pedestrian Dynamics has launched instructional workshops on how best to navigate the upcoming metronomic intersections. Enthusiastic participants, including both drivers and pedestrians, practice synchronizing their movements with a range of tempos. 'At first, I was skeptical,' admitted Liga Bronte, a workshop attendee and self-proclaimed traffic skeptic. 'But now, honestly, I'm moving through crosswalks with unprecedented elegance. It's like ballroom dancing meets urban commuting.'
+
+While public opinion on the initiative is largely divided, with proponents pointing to improved driver satisfaction and opponents arguing potential chaos, the city council insists that systems like this have been running smoothly for centuries in the alternative universe across the Daugava River—officially known as Piedzīvojumu Pārceltuve—where time and rhythm dictate all societal operations.
+
+Nevertheless, challenges remain, as Rīgas Satiksme, the city's public transport authority, prepares to align its timetables with the initiative's tempo-based paradigm. 'This is uncharted territory,' acknowledged Rīgas Satiksme's Chief Conductor of Transit Bliss, Dainis Androns. 'Bus schedules are now determined by the rhythmical cadence rather than hours and minutes. We'll see if the world is ready to follow Riga's steps.'
+
+The initiative promises not only a reduction in road rage but also an increase in spontaneous street performances and rhythmic parades, further solidifying Riga's position as a global leader in culturally rich transportation innovations. As ground-breaking—and perhaps avant-garde—as the plan may sound, one thing is certain: Riga's streets will never march to the same beat again.`,
+      lv: `Rīgas domes revolucionārā iniciatīva, kas apvieno pilsētplānošanu ar labsajūtas tendencēm, ir atklājusi ambiciozu plānu aizstāt visus 437 pilsētas luksoforus ar metronomiem. Priekšlikums, kas tiek dēvēts par 'Apzinātu Mobilitāti', sola uzlabot satiksmes efektivitāti, vienlaikus veicinot apzinātību starp pilsētas autovadītājiem, kuri, saskaņā ar jaunākajiem pētījumiem, ir starp visvairāk stresa pārņemtiem Baltijas reģionā.
+
+'Latvija jau sen ir pazīstama ar savām inovatīvajām pieejām pilsētplānošanā,' paziņoja Māris Apollo, jaunieceltais Mierīgā Transporta un Piespiedu Zena vietnieks. 'Integrējot metronomus luksoforu vietā, mēs nemanāmi apvienojam tehnoloģijas ar labsajūtas praksēm. Iedomājieties braukt cauri Rīgas sirdij, kamēr jūs serenādē ritmisks, nomierinošs metronoma klikšķis. Tas nav tikai satiksmes kontrole—tā ir mākslinieciska pieredze.'
+
+Pēc domes teiktā, katrai metropoles zonai būs savs unikāls temps, harmoniski pielāgots tradicionālajiem latviešu tautas mūzikas ritmiem. Jaunizveidotās Harmonikās Transporta Plūsmas nodaļas eksperti iesaka tempu 60 sitieni minūtē Vecrīgai, kamēr rosīgā zona pie Brīvības ielas tiks sinhronizēta ar nedaudz ātrāku 74 sitienu minūtē, lai pielāgotos lielākai satiksmes blīvumam.
+
+Vietējais mūziķis un satiksmes plūsmas konsultants Jānis Krakučis izteica entuziastisku atbalstu plānam. 'Šis ir nākotne,' Krakučis apgalvoja, konferencē iestatot metronomu uz maigu 68 BPM. 'Katrs metronoms kalpos kā miera bāka, dodot ritmu mūsu pilsētas dzīvei. Iedzīvotāji ne tikai šķērsos ielas; viņi piedalīsies kustīgā simfonijā.'
+
+Gatavojoties pārejai, Rīgas Gājēju Dinamikas biedrība ir uzsākusi instrukciju darbnīcas par to, kā vislabāk orientēties gaidāmajās metronomu krustojumos. Entuziastiski dalībnieki, tostarp gan autovadītāji, gan gājēji, praktizē savu kustību sinhronizēšanu ar dažādiem tempjiem. 'Sākumā biju skeptiska,' atzina Līga Bronte, darbnīcas apmeklētāja un pašpasludināta satiksmes skeptiķe. 'Bet tagad, godīgi sakot, es pārvietojos pa gājēju pārejām ar nepieredzētu eleganci. Tas ir kā balles dejas satiekas ar pilsētas pārvietošanos.'
+
+Lai gan sabiedrības viedoklis par iniciatīvu ir lielā mērā dalīts, ar atbalstītājiem, kas norāda uz uzlabotu autovadītāju apmierinātību, un pretiniekiem, kas apgalvo par iespējamu haosu, dome uzstāj, ka šādas sistēmas gadsimtiem ilgi ir darbojās gludi alternatīvajā pasaulē pāri Daugavai—oficiāli pazīstamā kā Piedzīvojumu Pārceltuve—kur laiks un ritms nosaka visas sabiedrības darbības.
+
+Tomēr joprojām pastāv izaicinājumi, jo Rīgas Satiksme, pilsētas sabiedriskā transporta pārvalde, gatavojas saskaņot savus grafikus ar iniciatīvas tempu balstīto paradigmu. 'Šis ir neizpētīts teritorijs,' atzina Rīgas Satiksmes Galvenais Tranzīta Laimes diriģents Dainis Androns. 'Autobusu grafiki tagad tiek noteikti pēc ritmiskās kadences, nevis stundām un minūtēm. Mēs redzēsim, vai pasaule ir gatava sekot Rīgas soļiem.'
+
+Iniciatīva sola ne tikai samazināt ceļu dusmas, bet arī palielināt spontānus ielu priekšnesumus un ritmiskus gājienus, vēl vairāk nostiprinot Rīgas pozīciju kā globālu līderi kultūras bagātās transporta inovācijās. Cik revolucionārs—un varbūt avangardisks—plāns varētu šķist, viena lieta ir skaidra: Rīgas ielas vairs nekad nemaršēs pēc tā paša ritma.`,
+      ru: `В новаторской инициативе, сочетающей городское планирование с трендами в области благополучия, Рижская городская дума представила свой амбициозный план заменить все 437 светофоров города на метрономы. Предложение, названное 'Осознанная мобильность', предполагает улучшение эффективности движения транспорта и развитие осознанности среди водителей города, которые, согласно последним исследованиям, занимают одно из первых мест по уровню стресса в Балтийском регионе.
+
+'Латвия давно известна своими инновационными подходами к городскому планированию', заявил Марис Аполло, недавно назначенный заместитель министра спокойного транспорта и принудительного дзена. 'Интегрируя метрономы вместо светофоров, мы безупречно объединяем технологии с практиками благополучия. Представьте себе, как вы едете по центру Риги, сопровождаемые ритмичным, успокаивающим тиканием метронома. Это не просто контроль движения — это художественный опыт.'
+
+По данным городской думы, каждая городская зона будет иметь свой уникальный темп, гармонично настроенный на традиционные ритмы латвийской народной музыки. Эксперты из недавно созданного Департамента гармоничного транспортного потока предлагают темп в 60 ударов в минуту для Старого города, в то время как оживленный район возле Бривибас иела будет синхронизирован с немного более быстрым темпом в 74 удара в минуту, чтобы учесть более высокую плотность движения.
+
+Местный музыкант и консультант по транспортным потокам, Янис Кракуцис, выразил энтузиазм в поддержку плана. 'Это будущее', заявил Кракуцис, устанавливая метроном на мягкие 68 ударов в минуту во время конференции. 'Каждый метроном будет служить маяком спокойствия, придавая ритм нашей городской жизни. Жители не просто переходят улицы; они участвуют в движущейся симфонии.'
+
+В рамках подготовки к переходу Общество пешеходной динамики Риги запустило обучающие мастер-классы по лучшему навигации на предстоящих метрономных перекрестках. Энтузиасты, включая как водителей, так и пешеходов, практикуются в синхронизации своих движений с различными темпами. 'Сначала я была скептически настроена', призналась Лига Бронте, участница мастер-класса и самопровозглашенный скептик движения. 'Но теперь, честно говоря, я перехожу через пешеходные переходы с беспрецедентной элегантностью. Это как бальные танцы встречаются с городскими поездками.'
+
+Хотя общественное мнение об инициативе в основном разделено, сторонники указывают на улучшение удовлетворенности водителей, а противники утверждают о возможном хаосе, городская дума настаивает, что такие системы уже веками успешно работают в альтернативной вселенной через реку Даугаву — официально известной как Пьедзивоему Парцелтуве — где время и ритм определяют все общественные операции.
+
+Тем не менее, остаются вызовы, так как Ригас Сатиксме, городское управление общественного транспорта, готовится согласовать свои расписания с темпо-ориентированной парадигмой инициативы. 'Это неизведанная территория', признал главный дирижер транспортного блаженства Ригас Сатиксме, Дайнис Андронс. 'Расписания автобусов теперь определяются ритмическим каденсом, а не часами и минутами. Посмотрим, готов ли мир следовать шагам Риги.'
+
+Инициатива обещает не только снижение дорожной агрессии, но и увеличение спонтанных уличных выступлений и ритмических парадов, что еще больше укрепит позицию Риги как мирового лидера в области культурно богатых транспортных инноваций. Как бы новаторски — и, возможно, авангардно — это ни звучало, одно можно сказать наверняка: улицы Риги больше никогда не будут маршировать в том же ритме.`
+    },
+    date: "Jan 17, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 62,
     slug: "riga-announces-first-annual-pothole-parade",
     title: {
@@ -83,7 +152,7 @@ Kā Latvijas iedzīvotāji gatavojas pirmajai 'Bedru Parādei', satraukums ir j�
     readTime: "5 min read",
     imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 61,
