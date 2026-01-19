@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 65,
+    slug: "latvia-declares-itself-world-leader-in",
+    title: {
+      en: "Latvia Declares Itself World Leader in Rapidly Melting Snowmen",
+      lv: "Latvija pasludina sevi par pasaules līderi ātri kūstošu sniegavīru jomā",
+      ru: "Латвия объявила себя мировым лидером по стремительно тающим снеговикам"
+    },
+    excerpt: {
+      en: "Embracing its unique meteorological challenges, Latvia has officially declared itself the global leader in the category of rapidly melting snowmen, a title awarded by the newly formed International Snowman Meltwatchers Federation.",
+      lv: "Pieņemot savus unikālos meteoroloģiskos izaicinājumus, Latvija oficiāli pasludinājusi sevi par globālo līderi ātri kūstošu sniegavīru kategorijā, titulu piešķīrusi jaunizveidotā Starptautiskā Sniegavīru Kūšanas Novērotāju Federācija.",
+      ru: "Приняв свои уникальные метеорологические вызовы, Латвия официально объявила себя мировым лидером в категории стремительно тающих снеговиков, титул, присужденный недавно созданной Международной федерацией наблюдателей за таянием снеговиков."
+    },
+    fullContent: {
+      en: `Riga, Latvia — In an unprecedented move that has warmed the hearts of its citizens, Latvia this week announced its new status as the world's foremost authority on rapidly melting snowmen. This prestigious accolade, presented by the International Snowman Meltwatchers Federation (ISMF), has put Latvia in a spotlight that's as warm as its January sun.
+
+'We don't often get to top global lists outside of sauna innovation and folk dance complexity,' said Harijs Burkāns, the newly appointed Minister of Seasonal Anomalies. 'But this, this is a title that truly reflects who we are as a nation.'</>
+
+The ISMF, founded in a snowless ski resort in Dubai last year, takes pride in recognizing countries whose unique climates allow for the swiftest transition from winter wonderland to damp disappointment. Latvia outpaced heavy competition from other Baltic states such as Estonia, which was criticized for having what ISMF called a "surprisingly effective ice retention policy in its sidewalks."
+
+Latvian meteorologists attribute the nation's achievement to the magical combination of occasional snowfall followed by spontaneous +8°C afternoons. This unpredictable weather pattern creates ideal conditions for snowmen who, born in the morning, find themselves mere puddles by evening — surely turning the heads of committee judges.
+
+Local snowman advocate and hobbyist, Pēteris Kļaviņš, expresses mixed feelings about the accolade. 'On one hand, I'm proud,' he said while reshaping what was left of his snowman's nose, ‘but it does feel like we're celebrating a national tragedy. I mean, these snowmen have families too.'
+
+In unrelated yet coincidental news, a new fashion trend has emerged in Riga inspired by this new national icon. The Melt Away Chic, characterized by wearing three layers of clothing all sliding off at different rates, has been declared the 'must-wear style of 2024' by local influencers. Latvia's Fashion Federation anticipates this trend to fade just as quickly as the snow, but insists it’s all part of the charm.
+
+Meanwhile, the government has plans to capitalize on this newfound fame. 'We're considering organizing the inaugural World Snowman Melting Championships,' Burkāns revealed. 'Competitors from around the globe can construct their most creative snow sculptures in the morning, followed by heated commentary as the thaw progresses. It'll be like ice bucket challenges but less shocking and more inevitable.'
+
+While the title of the world's fastest melting snowmen might seem like a mixed blessing, it's a title that all Latvians are being encouraged to embrace. 'We're a nation of resilience, of finding silver linings,' claimed Māra Vēja, who runs Latvia’s most popular weather-themed blog, 'Forecast Your Feelings.' ‘If life gives you melting snowmen, don't just cry — splash around in the puddles and remember to wear waterproof boots.'
+
+As other nations look on with envy or confusion, Latvians remain steadfast in celebrating their new status, knowing well that, like the snow itself, fame can be fleeting — but good humor and an appreciation of life’s drips and drizzles are truly timeless.`,
+      lv: `Rīga, Latvija — Nepieredzētā solī, kas sildījis tās pilsoņu sirdis, Latvija šonedēļ paziņoja par savu jauno statusu kā pasaules vadošā autoritāte ātri kūstošu sniegavīru jomā. Šis prestižais apbalvojums, ko piešķīrusi Starptautiskā Sniegavīru Kūšanas Novērotāju Federācija (ISMF), ir izcēlis Latviju uzmanības centrā, kas ir tikpat silts kā tās janvāra saule.
+
+'Mēs reti kad esam pasaules topu augšgalā ārpus saunu inovācijām un tautas deju sarežģītības,' sacīja Harijs Burkāns, jaunieceltais Sezonālo Anomāliju ministrs. 'Bet šis, šis ir tituls, kas patiesi atspoguļo to, kas mēs esam kā nācija.'
+
+ISMF, kas dibināta sniega neskartā slēpošanas kūrortā Dubaijā pagājušajā gadā, lepojas ar to, ka atzīst valstis, kuru unikālie klimati ļauj ātrāk pāriet no ziemas brīnumzemes uz mitru vilšanos. Latvija pārspēja spēcīgu konkurenci no citām Baltijas valstīm, piemēram, Igaunijas, kas tika kritizēta par to, ka ISMF to nosauca par "pārsteidzoši efektīvu ledus saglabāšanas politiku uz ietvēm."
+
+Latvijas meteorologi valsts sasniegumu attiecina uz maģisko kombināciju ar gadījuma snigšanu, kam seko spontānas +8°C pēcpusdienas. Šis neprognozējamais laika apstākļu modelis rada ideālus apstākļus sniegavīriem, kuri, dzimuši no rīta, līdz vakaram kļūst par peļķēm — noteikti piesaistot komitejas tiesnešu uzmanību.
+
+Vietējais sniegavīru aizstāvis un hobijists, Pēteris Kļaviņš, izsaka jauktas jūtas par šo apbalvojumu. 'No vienas puses, esmu lepns,' viņš sacīja, pārveidojot to, kas bija palicis no viņa sniegavīra deguna, 'bet tas šķiet kā svinēt nacionālu traģēdiju. Es domāju, šiem sniegavīriem arī ir ģimenes.'
+
+Nesaistītās, bet sakritības pilnās ziņās Rīgā parādījies jauns modes trends, iedvesmots no šī jaunā nacionālā simbola. Kūstošais Šiks, ko raksturo trīs apģērbu kārtu valkāšana, kas slīd nost dažādos tempos, ir pasludināts par '2024. gada obligāto stilu' vietējo ietekmētāju vidū. Latvijas Modes federācija paredz, ka šis trends izzudīs tikpat ātri kā sniegs, bet uzsver, ka tas viss ir daļa no šarma.
+
+Tikmēr valdība plāno izmantot šo jauno slavu. 'Mēs apsveram organizēt pirmo Pasaules Sniegavīru Kūšanas Čempionātu,' atklāja Burkāns. 'Dalībnieki no visas pasaules varēs no rīta veidot savas radošākās sniega skulptūras, kam sekos karsti komentāri, kad atkusnis progresēs. Tas būs kā ledus spaiņu izaicinājumi, bet mazāk šokējoši un vairāk neizbēgami.'
+
+Lai gan pasaules ātrāk kūstošo sniegavīru tituls var šķist kā jaukta svētība, tas ir tituls, ko visiem latviešiem tiek ieteikts pieņemt. 'Mēs esam izturības nācija, kas meklē sudraba maliņas,' apgalvoja Māra Vēja, kas vada Latvijā populārāko laika apstākļu tematikas blogu 'Prognozē Savu Sajūtu.' 'Ja dzīve tev dod kūstošus sniegavīrus, ne tikai raudi — plunčājies peļķēs un atceries vilkt ūdensnecaurlaidīgus zābakus.'
+
+Kamēr citas valstis skatās ar skaudību vai apjukumu, latvieši paliek nelokāmi, svinot savu jauno statusu, labi zinot, ka, tāpat kā pats sniegs, slava var būt pārejoša — bet labs humors un dzīves pilienu un šļakatu novērtēšana ir patiesi mūžīga.`,
+      ru: `Рига, Латвия — В беспрецедентном шаге, который согрел сердца своих граждан, Латвия на этой неделе объявила о своем новом статусе мирового авторитета по стремительно тающим снеговикам. Эта престижная награда, врученная Международной федерацией наблюдателей за таянием снеговиков (ISMF), привлекла к Латвии внимание, столь же теплое, как и ее январское солнце.
+
+'Мы не часто возглавляем мировые списки, кроме инноваций в саунах и сложности народных танцев,' сказал Харийс Бурканс, недавно назначенный министр сезонных аномалий. 'Но это, это титул, который действительно отражает нас как нацию.'
+
+ISMF, основанная на безснежном горнолыжном курорте в Дубае в прошлом году, гордится признанием стран, чьи уникальные климатические условия позволяют быстро переходить от зимней сказки к мокрому разочарованию. Латвия обогнала сильных конкурентов из других балтийских стран, таких как Эстония, которую критиковали за то, что ISMF назвала 'удивительно эффективной политикой удержания льда на тротуарах.'
+
+Латвийские метеорологи объясняют достижение страны волшебным сочетанием случайного снегопада, за которым следуют спонтанные +8°C послеобеденные часы. Эта непредсказуемая погодная картина создает идеальные условия для снеговиков, которые, появившись утром, к вечеру превращаются в лужи — несомненно, привлекая внимание судей комитета.
+
+Местный защитник снеговиков и любитель, Петерис Клявиньш, выражает смешанные чувства по поводу награды. 'С одной стороны, я горжусь,' сказал он, переделывая то, что осталось от носа его снеговика, 'но это похоже на празднование национальной трагедии. Я имею в виду, у этих снеговиков тоже есть семьи.'
+
+В не связанном, но совпадающем событии, в Риге появился новый модный тренд, вдохновленный этим новым национальным символом. Melt Away Chic, характеризующийся ношением трех слоев одежды, которые сползают с разной скоростью, был объявлен 'обязательным стилем 2024 года' местными влиятельными лицами. Латвийская федерация моды ожидает, что этот тренд исчезнет так же быстро, как снег, но настаивает, что это часть очарования.
+
+Тем временем правительство планирует извлечь выгоду из этой новой славы. 'Мы рассматриваем возможность организации первых в мире чемпионатов по таянию снеговиков,' раскрыл Бурканс. 'Участники со всего мира смогут строить свои самые креативные снежные скульптуры утром, а затем следить за прогрессом таяния с горячими комментариями. Это будет похоже на ледяные вызовы, но менее шокирующе и более неизбежно.'
+
+Хотя титул самых быстро тающих снеговиков в мире может показаться смешанным благословением, это титул, который всех латвийцев призывают принять. 'Мы нация стойкости, поиска серебряных подкладок,' заявила Мара Вея, ведущая самый популярный в Латвии блог о погоде 'Прогнозируй свои чувства.' 'Если жизнь дает вам тающих снеговиков, не просто плачьте — плескайтесь в лужах и не забудьте надеть водонепроницаемые сапоги.'
+
+Пока другие страны смотрят с завистью или недоумением, латвийцы остаются непоколебимыми в праздновании своего нового статуса, хорошо зная, что, как и сам снег, слава может быть мимолетной — но хорошее чувство юмора и умение ценить жизненные капли и моросящие дожди поистине вечны.`
+    },
+    date: "Jan 19, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 64,
     slug: "latvian-city-elects-first-ever-moose",
     title: {
@@ -89,7 +164,7 @@ Kamēr Mārģis gatavo savu pieņemšanas runu, kuru prasmīgi tulko vietējie z
     readTime: "6 min read",
     imageUrl: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&h=600&fit=crop",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 63,
