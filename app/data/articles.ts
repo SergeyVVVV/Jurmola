@@ -17,6 +17,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 73,
+    slug: "latvian-scientists-successfully-train-seagulls-to",
+    title: {
+      en: "Latvian Scientists Successfully Train Seagulls to Deliver Fresh Pastries in Jurmala",
+      lv: "Latvijas zinātnieki veiksmīgi apmāca kaijas piegādāt svaigus konditorejas izstrādājumus Jūrmalā",
+      ru: "Латвийские ученые успешно обучили чаек доставлять свежую выпечку в Юрмале"
+    },
+    excerpt: {
+      en: "In a pioneering blend of ornithology and gourmet cuisine, Latvian scientists have unveiled their most ambitious project yet: training seagulls to deliver freshly baked pastries to tourists on Jurmala's beaches. The initiative, known as 'Pīrāgs on Wings', has taken the seaside bakery scene to new heights.",
+      lv: "Inovatīvā ornitoloģijas un gardēžu virtuves apvienojumā Latvijas zinātnieki ir atklājuši savu līdz šim ambiciozāko projektu: apmācīt kaijas piegādāt svaigi ceptus konditorejas izstrādājumus tūristiem Jūrmalas pludmalēs. Iniciatīva, kas pazīstama kā 'Pīrāgs uz Spārniem', ir pacēlusi piejūras maiznīcu ainu jaunā līmenī.",
+      ru: "В новаторском сочетании орнитологии и гурманской кухни латвийские ученые представили свой самый амбициозный проект: обучение чаек доставке свежевыпеченных пирожков туристам на пляжах Юрмалы. Инициатива, известная как 'Pīrāgs on Wings', подняла прибрежную пекарню на новые высоты."
+    },
+    fullContent: {
+      en: `In a groundbreaking experiment that has left both beachgoers and ornithologists in awe, scientists at the Latvian Institute for Avian Logistics (LIAL) have succeeded in training seagulls to deliver freshly baked pastries directly to sunbathers across the sandy stretches of Jurmala. This cutting-edge project, dubbed 'Pīrāgs on Wings', promises to redefine fast food delivery on the Baltic coast.
+
+"We've always known seagulls to be the guardians of our golden beaches, but their true potential has been sadly overlooked," said Dr. Valdis Bruņulaids, head of the Avian Culinary Logistics department at LIAL. "After three years of extensive research and countless croissants sacrificed to the cause, we've discovered that these birds have an incredible ability to reliably transport small baked goods with remarkable precision."
+
+The pilot program, launched last week, has already been met with a mixture of astonishment and laughter among local residents and tourists. Witnesses report a scene straight out of a fairytale: flocks of seagulls descending gracefully onto the beaches, each carrying a small bag containing a selection of local treats such as pīrāgi, speķa rauši, and the occasional vegan sausage roll.
+
+"It's like UberEats, but with feathers and less judgment," commented Māra Pīrādziņš, a tourist visiting from Riga. "One moment you're soaking up the sun, and the next, a seagull gently drops a warm pīrāgs into your lap. I never thought I'd say this, but I'm officially in love with those cheeky birds."
+
+During a press conference, Dr. Bruņulaids explained the meticulous training process. "We started by establishing a positive relationship between the seagulls and the scent of freshly baked pastries. Then it was about harnessing their natural navigational skills," he elaborated, while also noting that the persistent challenge was ensuring the birds didn't succumb to the temptation of eating the profits.
+
+To address this, scientists have crafted specialized seagull-proof pastry pouches – a marvel of avian engineering. These pouches not only protect the pastries during flight but also release a mild citrus scent to entice the birds to complete their delivery without snacking.
+
+Despite early successes, the project is not without criticism. Environmentalists have raised concerns about the impact of increased pastry-induced avian activity on Jurmala's delicate sandy ecosystems. "We remain vigilant about potential disruptions," assured Dr. Bruņulaids. "Part of our ongoing research looks at minimizing the ecological impact, including plans for biodegradable delivery bags made entirely of seashells."
+
+In response to the inevitable questions about hygiene, the Latvian Food Safety Authority issued a statement confirming, "As long as the seagulls are not personally handling the pastries, the deliveries should meet all health regulations."
+
+Looking to the future, the LIAL plans to expand 'Pīrāgs on Wings' along the entire Baltic coastline, with aspirations for gourmet seagull deliveries in neighboring Estonia and Lithuania. "We've started experimenting with delivery in our neighboring countries," revealed Leida Cepursku, the assistant project manager. "If it works here, there's no reason Estonian seagulls won't excel at delivering kringel pastries."
+
+For now, Jurmala beach has become the unlikely epicenter of a cargo revolution, where Latvian scientific ingenuity and a long-standing tradition of baked goodness have joined forces to create a spectacle as delicious as it is improbable. As one satisfied beachgoer summarized, "Never again will the humble seagull simply be a master of chips theft. Ladies and gentlemen, it's time to respect the winged waiters of the Baltic."`,
+      lv: `Pārsteidzošā eksperimentā, kas atstājis gan pludmales apmeklētājus, gan ornitologus izbrīnā, Latvijas Putnu Loģistikas Institūta (LIAL) zinātnieki ir veiksmīgi apmācījuši kaijas piegādāt svaigi ceptus konditorejas izstrādājumus tieši sauļotājiem pa Jūrmalas smilšainajām pludmalēm. Šis modernākais projekts, kas dēvēts par 'Pīrāgs uz Spārniem', sola pārdefinēt ātrās ēdināšanas piegādi Baltijas piekrastē.
+
+"Mēs vienmēr esam zinājuši, ka kaijas ir mūsu zelta pludmaļu sargi, bet viņu patiesais potenciāls diemžēl ir palicis nepamanīts," teica Dr. Valdis Bruņulaids, LIAL Putnu Kulinariskās Loģistikas nodaļas vadītājs. "Pēc trīs gadu intensīviem pētījumiem un neskaitāmiem kruasāniem, kas upurēti šim mērķim, mēs esam atklājuši, ka šiem putniem ir neticama spēja uzticami transportēt nelielus konditorejas izstrādājumus ar ievērojamu precizitāti."
+
+Pilotprogramma, kas tika uzsākta pagājušajā nedēļā, jau ir izraisījusi izbrīnu un smieklus vietējo iedzīvotāju un tūristu vidū. Liecinieki ziņo par ainu, kas izskatās kā no pasakas: kaiju bari eleganti nolaižas uz pludmalēm, katra nesot nelielu maisiņu ar vietējiem gardumiem, piemēram, pīrāgiem, speķa raušiem un reizēm arī vegānu desiņu.
+
+"Tas ir kā UberEats, bet ar spalvām un mazāk nosodījuma," komentēja Māra Pīrādziņš, tūrists no Rīgas. "Vienu brīdi tu sauļojies, un nākamajā brīdī kaija maigi nomet siltu pīrāgu tavā klēpī. Es nekad nedomāju, ka to teikšu, bet es esmu oficiāli iemīlējusies šajos viltīgajos putnos."
+
+Preses konferencē Dr. Bruņulaids izskaidroja rūpīgo apmācības procesu. "Mēs sākām ar pozitīvu attiecību veidošanu starp kaijām un svaigi ceptu konditorejas izstrādājumu smaržu. Tad tas bija par viņu dabisko navigācijas prasmju izmantošanu," viņš paskaidroja, arī norādot, ka pastāvīgais izaicinājums bija nodrošināt, lai putni nepakļautos kārdinājumam apēst peļņu.
+
+Lai to risinātu, zinātnieki ir izstrādājuši specializētus kaiju drošus konditorejas maisiņus – putnu inženierijas brīnumu. Šie maisiņi ne tikai aizsargā konditorejas izstrādājumus lidojuma laikā, bet arī izdala vieglu citrusaugļu aromātu, lai pievilinātu putnus pabeigt piegādi bez uzkodām.
+
+Neskatoties uz agrīnajiem panākumiem, projekts nav bez kritikas. Vides aizstāvji ir izteikuši bažas par palielinātas konditorejas izraisītas putnu aktivitātes ietekmi uz Jūrmalas trauslo smilšu ekosistēmu. "Mēs esam modri par iespējamajiem traucējumiem," apliecināja Dr. Bruņulaids. "Daļa no mūsu turpmākajiem pētījumiem ir vērsta uz ekoloģiskās ietekmes mazināšanu, tostarp plāni par bioloģiski noārdāmiem piegādes maisiņiem, kas pilnībā izgatavoti no gliemežvākiem."
+
+Atbildot uz neizbēgamiem jautājumiem par higiēnu, Latvijas Pārtikas un veterinārais dienests izdeva paziņojumu, apstiprinot: "Kamēr kaijas personīgi neapstrādā konditorejas izstrādājumus, piegādes atbilst visiem veselības noteikumiem."
+
+Nākotnē LIAL plāno paplašināt 'Pīrāgs uz Spārniem' pa visu Baltijas piekrasti, ar cerībām uz gardēžu kaiju piegādēm kaimiņvalstīs Igaunijā un Lietuvā. "Mēs esam sākuši eksperimentēt ar piegādi mūsu kaimiņvalstīs," atklāja Leida Cepursku, asistente projekta vadītāja. "Ja tas darbojas šeit, nav iemesla, kāpēc Igaunijas kaijas nevarētu izcili piegādāt kringel konditorejas izstrādājumus."
+
+Pašlaik Jūrmalas pludmale ir kļuvusi par negaidītu kravas revolūcijas epicentru, kur Latvijas zinātniskā atjautība un ilggadēja konditorejas tradīcija ir apvienojušās, lai radītu tikpat gardu, cik neticamu skatu. Kā viens apmierināts pludmales apmeklētājs rezumēja: "Nekad vairs pieticīgā kaija nebūs tikai čipsu zagšanas meistars. Dāmas un kungi, ir pienācis laiks cienīt Baltijas spārnotos viesmīļus."`,
+      ru: `В прорывном эксперименте, который оставил в изумлении как отдыхающих, так и орнитологов, ученые Латвийского института авиационной логистики (LIAL) добились успеха в обучении чаек доставке свежевыпеченных пирожков прямо к загорающим на песчаных просторах Юрмалы. Этот передовой проект, получивший название 'Pīrāgs on Wings', обещает переопределить доставку фастфуда на Балтийском побережье.
+
+"Мы всегда знали, что чайки — это стражи наших золотых пляжей, но их истинный потенциал, к сожалению, оставался незамеченным," — сказал доктор Валдис Бруньулайдс, глава отдела авиационной кулинарной логистики в LIAL. "После трех лет обширных исследований и бесчисленных круассанов, принесенных в жертву делу, мы обнаружили, что эти птицы обладают невероятной способностью надежно транспортировать небольшие выпеченные изделия с замечательной точностью."
+
+Пилотная программа, запущенная на прошлой неделе, уже встретила смесь изумления и смеха среди местных жителей и туристов. Свидетели сообщают о сцене, словно из сказки: стаи чаек, грациозно спускающиеся на пляжи, каждая из которых несет маленький мешочек с выбором местных угощений, таких как пīрāги, спекā рауши и иногда веганские сосиски в тесте.
+
+"Это как UberEats, но с перьями и без осуждения," — прокомментировала Мара Пīрāдзиньш, туристка из Риги. "В один момент ты загораешь на солнце, а в следующий — чайка нежно роняет теплый пīрāгс тебе на колени. Никогда не думала, что скажу это, но я официально влюблена в этих нахальных птиц."
+
+На пресс-конференции доктор Бруньулайдс объяснил тщательный процесс обучения. "Мы начали с установления положительной связи между чайками и запахом свежей выпечки. Затем дело было за использованием их естественных навигационных навыков," — пояснил он, также отметив, что постоянной проблемой было обеспечение того, чтобы птицы не поддавались искушению съесть прибыль.
+
+Для решения этой проблемы ученые разработали специализированные мешочки для выпечки, защищенные от чаек — чудо авиационной инженерии. Эти мешочки не только защищают выпечку во время полета, но и выделяют легкий цитрусовый аромат, чтобы побудить птиц завершить доставку без перекуса.
+
+Несмотря на ранние успехи, проект не обходится без критики. Экологи выразили обеспокоенность по поводу воздействия увеличенной активности чаек на песчаные экосистемы Юрмалы. "Мы остаемся бдительными в отношении потенциальных нарушений," — заверил доктор Бруньулайдс. "Часть наших текущих исследований направлена на минимизацию экологического воздействия, включая планы по созданию биоразлагаемых мешочков для доставки, полностью сделанных из ракушек."
+
+В ответ на неизбежные вопросы о гигиене Латвийское управление по безопасности пищевых продуктов выпустило заявление, подтверждающее: "Пока чайки не касаются выпечки лично, доставки должны соответствовать всем санитарным нормам."
+
+Смотря в будущее, LIAL планирует расширить 'Pīrāgs on Wings' вдоль всего Балтийского побережья, с амбициями по доставке гурманских чаек в соседние Эстонию и Литву. "Мы начали эксперименты с доставкой в наших соседних странах," — раскрыла Лейда Цепурску, помощник менеджера проекта. "Если это работает здесь, нет причин, по которым эстонские чайки не смогут превосходно доставлять крингель."
+
+На данный момент пляж Юрмалы стал неожиданным эпицентром революции в грузоперевозках, где латвийская научная изобретательность и давняя традиция выпечки объединились, чтобы создать зрелище, столь же вкусное, сколь и невероятное. Как резюмировал один довольный отдыхающий: "Никогда больше скромная чайка не будет просто мастером кражи чипсов. Дамы и господа, пора уважать крылатых официантов Балтики."`
+    },
+    date: "Jan 27, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 72,
     slug: "latvian-government-announces-new-national-squirrel",
     title: {
@@ -83,7 +164,7 @@ Neskatoties uz absurdiem sākumiem, iespējams, šis žests ir atklājis kaut ko
     readTime: "9 min read",
     imageUrl: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 71,
