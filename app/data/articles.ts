@@ -17,6 +17,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 74,
+    slug: "latvias-newly-formed-ministry-of-cozy",
+    title: {
+      en: "Latvia's Newly-Formed 'Ministry of Cozy Evenings' Declares 2024 The Year of the Slippers",
+      lv: "Latvijas jaunizveidotā 'Mājīgo Vakaru Ministrija' pasludina 2024. gadu par Čību gadu",
+      ru: "Новообразованное Министерство Уютных Вечеров Латвии объявляет 2024 год Годом Тапочек"
+    },
+    excerpt: {
+      en: "In an unprecedented move to warm the hearts and feet of the nation, Latvia has announced a new Ministry of Cozy Evenings, dedicated to ensuring every citizen experiences hygge at its finest. Rumors suggest an industrial surge in knitted slipper production is expected to revitalize the local economy.",
+      lv: "Nepieredzētā solī, lai sildītu tautas sirdis un kājas, Latvija ir paziņojusi par jaunu Mājīgo Vakaru Ministriju, kas veltīta tam, lai katrs pilsonis izbaudītu hygge visaugstākajā līmenī. Baumas liecina, ka sagaidāms rūpniecības uzplaukums adīto čību ražošanā, kas varētu atdzīvināt vietējo ekonomiku.",
+      ru: "В беспрецедентном шаге, направленном на согревание сердец и ног нации, Латвия объявила о создании нового Министерства Уютных Вечеров, посвященного обеспечению каждого гражданина лучшими моментами хюгге. Слухи гласят, что ожидается промышленный подъем в производстве вязаных тапочек, который оживит местную экономику."
+    },
+    fullContent: {
+      en: `Riga, LATVIA—In a groundbreaking announcement that has set Latvian social media ablaze with enthusiasm and bemusement, Prime Minister Andris Pliekha announced the formation of a new cabinet position, the Ministry of Cozy Evenings. With an ambition to achieve unparalleled levels of coziness nationwide, the Ministry has already declared 2024 as 'The Year of the Slippers.'
+
+According to sources close to the government, the Ministry aims to imbue every aspect of Latvian life with a sense of snug and comforting happiness traditionally found in woolen socks and late-night TV dramas. Minister Elvira Sabine, a former CEO of an artisanal blanket company, has been appointed the new head of this ambitious initiative and has outlined her vision in an impromptu press conference held at a local knitting circle.
+
+"We Latvians are known for our resilience, our innovation, and now for our ability to embrace coziness," Sabine declared, knitting a scarf while speaking. "We plan to turn the nation's focus towards softer textiles, warmer interiors, and a national menu that includes tea brewed for exactly seven minutes for maximum comforting effect."
+
+The initiative is not without its skeptics. Industrial Analyst Juris Šmidts commented, "While the idea of a Ministry of Cozy Evenings is novel, some might question the economic implications of encouraging the workforce to prioritize napping and extended pajama time."
+
+Despite this critique, support for the ministry has grown quickly. National Slipper Manufacturers Association of Latvia (NSMAL) has already posted a 250% increase in slipper demand forecasts. "This is our time to shine," said Valentīns Brigeris, NSMAL president. "The global market doesn't know what it's missing. Latvia will be renowned for more than just scenic forests and heartwarming folk songs—we’ll become synonymous with comfort from heel to toe."
+
+Not to be outdone, the Ministry of Economics announced a strategic partnership with the Cozy Evenings Ministry, offering grants for innovators who present groundbreaking concepts in fluffy fleece technology, tea brewing efficiency, and couch cushion optimization.
+
+Public opinion seems swayed by planned events such as the World’s Largest Blanket Fort Challenge, set to take place in Riga’s Freedom Square during the height of winter. Citizens are encouraged to participate, bringing blankets and cushions with the underestimated possibility of a Guinness World Record achievement on the horizon.
+
+The opposition party, unable to critique the initiative openly without appearing anti-comfort, has embraced the idea more skeptically, with leader M. Ziedonis suggesting, "While embracing coziness, let's not forget about productivity—it’s crucial that we balance hygge-impactful policies with economic reality."
+
+As the nation collectively looks toward 'The Year of the Slippers,' it seems clearer than ever that in Latvia, comfort is the new black. And so, the nation waits with bated breath, equipped with slippers and extra-strong tea, ready to enter a plush new era where warmth and coziness might just knit the social fabric tighter than ever before.`,
+      lv: `Rīga, LATVIJA—Revolucionārā paziņojumā, kas ir aizdedzinājis Latvijas sociālos medijus ar entuziasmu un apjukumu, premjerministrs Andris Pliekha paziņoja par jaunas kabineta pozīcijas izveidi, Mājīgo Vakaru Ministriju. Ar ambīciju sasniegt nepārspējamus mājīguma līmeņus visā valstī, ministrija jau ir pasludinājusi 2024. gadu par 'Čību gadu.'
+
+Saskaņā ar avotiem, kas ir tuvu valdībai, ministrija cenšas piešķirt katram Latvijas dzīves aspektam omulīgu un mierinošu laimes sajūtu, kas tradicionāli atrodama vilnas zeķēs un vēlu vakara TV drāmās. Ministre Elvīra Sabīne, bijusī amatniecības segas uzņēmuma vadītāja, ir iecelta par šīs ambiciozās iniciatīvas jauno vadītāju un ir izklāstījusi savu redzējumu improvizētā preses konferencē, kas notika vietējā adīšanas pulciņā.
+
+"Mēs, latvieši, esam pazīstami ar savu izturību, inovācijām un tagad arī spēju pieņemt mājīgumu," Sabīne paziņoja, adījot šalli, kamēr runāja. "Mēs plānojam pievērst valsts uzmanību mīkstākiem tekstilizstrādājumiem, siltākiem interjeriem un nacionālajai ēdienkartei, kas ietver tēju, kas tiek vārīta tieši septiņas minūtes, lai nodrošinātu maksimālu komforta efektu."
+
+Iniciatīva nav bez saviem skeptiķiem. Rūpniecības analītiķis Juris Šmidts komentēja: "Lai gan Mājīgo Vakaru Ministrijas ideja ir jauna, daži varētu apšaubīt ekonomiskās sekas, mudinot darba spēku prioritizēt snaudu un ilgstošu pidžamu laiku."
+
+Neskatoties uz šo kritiku, atbalsts ministrijai ir strauji pieaudzis. Latvijas Nacionālā Čību Ražotāju Asociācija (NSMAL) jau ir publicējusi čību pieprasījuma prognožu pieaugumu par 250%. "Šis ir mūsu laiks spīdēt," teica Valentīns Brigeris, NSMAL prezidents. "Globālais tirgus nezina, ko tas palaiž garām. Latvija būs pazīstama ne tikai ar ainaviskajiem mežiem un sirsnīgajām tautasdziesmām—mēs kļūsim sinonīmi komfortam no papēža līdz pirkstgalam."
+
+Negribot palikt ēnā, Ekonomikas ministrija paziņoja par stratēģisku partnerību ar Mājīgo Vakaru Ministriju, piedāvājot dotācijas inovatoriem, kuri piedāvā revolucionāras koncepcijas pūkainu flīsa tehnoloģiju, tējas vārīšanas efektivitātes un dīvāna spilvenu optimizācijas jomā.
+
+Sabiedriskā doma šķiet ietekmēta ar plānotiem pasākumiem, piemēram, Pasaules Lielākā Segas Forta Izaicinājumu, kas notiks Rīgas Brīvības laukumā ziemas augstumā. Pilsoņi tiek aicināti piedalīties, nesot segas un spilvenus ar iespējamu Ginesa pasaules rekorda sasniegšanu apvāršņos.
+
+Opozīcijas partija, nespējot atklāti kritizēt iniciatīvu, neizskatoties pret mājīgumu, ir pieņēmusi ideju skeptiskāk, ar līderi M. Ziedoni, kurš ierosina: "Lai gan pieņemam mājīgumu, neaizmirsīsim par produktivitāti—ir svarīgi, lai mēs līdzsvarotu hygge ietekmējošas politikas ar ekonomisko realitāti."
+
+Kā tauta kopīgi raugās uz 'Čību gadu,' šķiet skaidrāk nekā jebkad agrāk, ka Latvijā komforts ir jaunā melnā krāsa. Un tā, tauta gaida ar aizturētu elpu, aprīkota ar čībām un īpaši stipru tēju, gatava ieiet plīša jaunā ērā, kur siltums un mājīgums varētu savīt sociālo audumu ciešāk nekā jebkad agrāk.`,
+      ru: `Рига, ЛАТВИЯ — В сенсационном объявлении, которое взорвало латвийские социальные сети энтузиазмом и недоумением, премьер-министр Андрис Плиеха объявил о создании новой должности в кабинете министров — Министерства Уютных Вечеров. С амбициями достичь беспрецедентных уровней уюта по всей стране, Министерство уже объявило 2024 год 'Годом Тапочек'.
+
+По данным источников, близких к правительству, Министерство стремится наполнить каждый аспект жизни латвийцев чувством уютного и комфортного счастья, традиционно находящегося в шерстяных носках и ночных телесериалах. Министр Эльвира Сабине, бывший генеральный директор компании по производству художественных одеял, назначена новым руководителем этой амбициозной инициативы и изложила свое видение на импровизированной пресс-конференции, проведенной в местном кружке вязания.
+
+"Мы, латвийцы, известны своей стойкостью, инновациями, а теперь и способностью принимать уют," заявила Сабине, вяжущая шарф во время выступления. "Мы планируем сосредоточить внимание нации на более мягких текстурах, теплых интерьерах и национальном меню, включающем чай, заваренный ровно семь минут для максимального комфорта."
+
+Инициатива не лишена скептиков. Промышленный аналитик Юрис Шмидтс прокомментировал: "Хотя идея Министерства Уютных Вечеров нова, некоторые могут задаться вопросом об экономических последствиях поощрения рабочей силы к приоритету сна и длительного времени в пижаме."
+
+Несмотря на эту критику, поддержка министерства быстро растет. Национальная ассоциация производителей тапочек Латвии (NSMAL) уже сообщила о 250% увеличении прогнозов спроса на тапочки. "Это наше время сиять," сказал Валентинс Бригерис, президент NSMAL. "Мировой рынок не знает, что теряет. Латвия станет известна не только живописными лесами и душевными народными песнями — мы станем синонимом комфорта от пяток до носков."
+
+Не желая отставать, Министерство экономики объявило о стратегическом партнерстве с Министерством Уютных Вечеров, предлагая гранты для новаторов, представляющих прорывные концепции в технологии пушистого флиса, эффективности заваривания чая и оптимизации диванных подушек.
+
+Общественное мнение, похоже, склоняется к запланированным мероприятиям, таким как Вызов Самого Большого Одеяльного Форта в Мире, который состоится на Площади Свободы в Риге в разгар зимы. Граждан призывают участвовать, принося одеяла и подушки, с недооцененной возможностью достижения рекорда Гиннесса на горизонте.
+
+Оппозиционная партия, не имея возможности открыто критиковать инициативу, не выглядя при этом противником комфорта, приняла идею более скептически, с лидером М. Зиедонисом, предлагающим: "Принимая уют, не забываем о продуктивности — важно, чтобы мы сбалансировали хюгге-ориентированные политики с экономической реальностью."
+
+Пока нация коллективно смотрит в сторону 'Года Тапочек', становится яснее, чем когда-либо, что в Латвии комфорт — это новый черный. Итак, нация ждет с замиранием сердца, вооруженная тапочками и крепким чаем, готовая вступить в новую плюшевую эру, где тепло и уют могут связать социальную ткань крепче, чем когда-либо прежде.`
+    },
+    date: "Jan 28, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://images.unsplash.com/photo-1551847677-dc82daa8537f?w=800&h=600&fit=crop",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 73,
     slug: "latvian-scientists-successfully-train-seagulls-to",
     title: {
@@ -95,7 +170,7 @@ Pašlaik Jūrmalas pludmale ir kļuvusi par negaidītu kravas revolūcijas epice
     readTime: "7 min read",
     imageUrl: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 72,
