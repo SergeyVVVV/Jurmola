@@ -63,9 +63,10 @@ async function fetchPexelsImageUrl(query: string): Promise<string | null> {
 
 export async function GET(
   _request: Request,
-  { params }: { params: { slug: string } }
+  { params }: { params: Promise<{ slug: string }> }
 ): Promise<Response> {
-  const slug = params.slug;
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug;
   const article = articles.find(
     (a) => a.slug === slug || (!Number.isNaN(Number(slug)) && a.id === Number(slug))
   );
