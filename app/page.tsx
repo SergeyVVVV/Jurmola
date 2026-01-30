@@ -145,7 +145,7 @@ export default function Home() {
               <a href={`/news/${featuredStory.slug}`} className="bg-gray-200 rounded-lg aspect-video overflow-hidden block">
                 <img 
                   src={getArticleImageUrl(featuredStory)} 
-                  alt={featuredStory.title['en']}
+                  alt={featuredStory.title[language]}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   onError={onArticleImageError}
                 />
@@ -182,7 +182,7 @@ export default function Home() {
               <a href={`/news/${article.slug}`} className="bg-gray-200 rounded aspect-video overflow-hidden mb-4 block">
                 <img 
                   src={getArticleImageUrl(article)} 
-                  alt={article.title['en']}
+                  alt={article.title[language]}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   onError={onArticleImageError}
                 />
