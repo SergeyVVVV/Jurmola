@@ -3,6 +3,29 @@ import { articles } from '../../data/articles';
 const PEXELS_API_URL = 'https://api.pexels.com/v1/search';
 const PEXELS_PER_PAGE = 1;
 
+// Words to remove from title for better image search
+const STOPWORDS = new Set([
+  'a', 'an', 'the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
+  'of', 'with', 'by', 'from', 'up', 'about', 'into', 'through', 'during',
+  'latvia', 'latvian', 'riga', 'jurmola', 'latvias', 'rigas', 'jurmolas'
+]);
+
+/**
+ * Extract meaningful keywords from article title for image search.
+ * Removes stopwords, Latvia-specific terms, and keeps 3-4 main words.
+ */
+function extractKeywords(title: string): string {
+  const words = title
+    .toLowerCase()
+    .replace(/[''""]/g, '') // Remove quotes
+    .replace(/[^\w\s]/g, ' ') // Remove punctuation
+    .split(/\s+/)
+    .filter(word => word.length > 2 && !STOPWORDS.has(word))
+    .slice(0, 4); // Take first 4 meaningful words
+  
+  return words.join(' ');
+}
+
 function escapeXml(input: string): string {
   return input
     .replace(/&/g, '&amp;')
@@ -75,7 +98,9 @@ export async function GET(
     return new Response('Not found', { status: 404 });
   }
 
-  const query = `${article.title.en} ${article.category.en}`;
+  // Use manual keywords if provided, otherwise extract from title
+  const keywords = article.coverKeywords || extractKeywords(article.title.en);
+  const query = `${keywords} ${article.category.en}`;
   const pexelsUrl = await fetchPexelsImageUrl(query);
 
   if (pexelsUrl) {

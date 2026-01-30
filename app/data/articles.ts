@@ -13,6 +13,7 @@ export interface Article {
   imageUrl: string;
   author: { en: string; lv: string; ru: string };
   featured?: boolean;
+  coverKeywords?: string; // Optional keywords for Pexels image search (e.g. "winter snow celebration")
 }
 
 export const articles: Article[] = [
