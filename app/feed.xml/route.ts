@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { articles, Article } from '../data/articles';
 
 function generateRSSItem(article: Article, language: 'en' | 'lv' | 'ru') {
-  const baseUrl = 'https://jurmola.vercel.app';
+  const baseUrl = 'https://jurmola.com';
   const title = article.title[language];
   const description = article.excerpt[language];
   const link = `${baseUrl}/news/${article.slug}`;
@@ -38,7 +38,7 @@ export async function GET(request: Request) {
 <rss version="2.0">
   <channel>
     <title>Jurmola Telegraphs (${languageNames[language]})</title>
-    <link>https://jurmola.vercel.app</link>
+    <link>https://jurmola.com</link>
     <description>The Baltic's Finest News Source - Satirical news from Latvia, Jurmala, and beyond</description>
     <language>${language}</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>

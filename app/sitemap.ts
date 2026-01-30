@@ -1,89 +1,79 @@
 import { MetadataRoute } from 'next'
 import { articles } from './data/articles';
+import { languages } from './lib/i18n-config';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://jurmola.vercel.app';
+  const baseUrl = 'https://jurmola.com';
+  const now = new Date();
 
-  // Homepage (highest priority)
-  const homepage = {
-    url: baseUrl,
-    lastModified: new Date(),
-    changeFrequency: 'daily' as const,
-    priority: 1.0,
-  };
+  const routes: MetadataRoute.Sitemap = [];
 
-  // Top-level category pages (high priority for SEO)
-  const categoryPages = [
-    {
-      url: `${baseUrl}/politics/`,
-      lastModified: new Date(),
+  // Homepage for each language (highest priority)
+  languages.forEach(lang => {
+    routes.push({
+      url: `${baseUrl}/${lang}/`,
+      lastModified: now,
       changeFrequency: 'daily' as const,
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/culture/`,
-      lastModified: new Date(),
-      changeFrequency: 'daily' as const,
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/business/`,
-      lastModified: new Date(),
-      changeFrequency: 'daily' as const,
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/opinion/`,
-      lastModified: new Date(),
-      changeFrequency: 'daily' as const,
-      priority: 0.9,
-    },
-  ];
+      priority: 1.0,
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/`,
+          ru: `${baseUrl}/ru/`,
+          lv: `${baseUrl}/lv/`,
+        },
+      },
+    });
+  });
 
-  // Subcategory pages (news by category)
-  const subcategoryPages = [
-    {
-      url: `${baseUrl}/news/category/politics/`,
-      lastModified: new Date(),
-      changeFrequency: 'daily' as const,
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/news/category/culture/`,
-      lastModified: new Date(),
-      changeFrequency: 'daily' as const,
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/news/category/business/`,
-      lastModified: new Date(),
-      changeFrequency: 'daily' as const,
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/news/category/opinion/`,
-      lastModified: new Date(),
-      changeFrequency: 'daily' as const,
-      priority: 0.7,
-    },
-  ];
+  // Category pages for each language (high priority for SEO)
+  const categories = ['politics', 'culture', 'business', 'opinion'];
+  categories.forEach(category => {
+    languages.forEach(lang => {
+      routes.push({
+        url: `${baseUrl}/${lang}/${category}/`,
+        lastModified: now,
+        changeFrequency: 'daily' as const,
+        priority: 0.9,
+        alternates: {
+          languages: {
+            en: `${baseUrl}/en/${category}/`,
+            ru: `${baseUrl}/ru/${category}/`,
+            lv: `${baseUrl}/lv/${category}/`,
+          },
+        },
+      });
+    });
+  });
 
-  // Article pages (high priority content)
-  const articleRoutes = articles.map((article) => ({
-    url: `${baseUrl}/news/${article.slug}`,
-    lastModified: new Date(article.date),
-    changeFrequency: 'weekly' as const,
-    priority: 0.8,
-  }));
+  // Article pages for each language (high priority content)
+  articles.forEach(article => {
+    languages.forEach(lang => {
+      routes.push({
+        url: `${baseUrl}/${lang}/news/${article.slug}`,
+        lastModified: new Date(article.date),
+        changeFrequency: 'weekly' as const,
+        priority: 0.8,
+        alternates: {
+          languages: {
+            en: `${baseUrl}/en/news/${article.slug}`,
+            ru: `${baseUrl}/ru/news/${article.slug}`,
+            lv: `${baseUrl}/lv/news/${article.slug}`,
+          },
+        },
+      });
+    });
+  });
 
-  // RSS feed (lower priority utility page)
-  const rssFeed = {
-    url: `${baseUrl}/feed.xml?lang=en`,
-    lastModified: new Date(),
-    changeFrequency: 'daily' as const,
-    priority: 0.5,
-  };
+  // RSS feeds (lower priority utility pages)
+  languages.forEach(lang => {
+    routes.push({
+      url: `${baseUrl}/feed.xml?lang=${lang}`,
+      lastModified: now,
+      changeFrequency: 'daily' as const,
+      priority: 0.5,
+    });
+  });
 
-  return [homepage, ...categoryPages, ...subcategoryPages, ...articleRoutes, rssFeed];
+  return routes;
 }
 

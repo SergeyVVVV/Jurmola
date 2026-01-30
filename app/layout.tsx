@@ -17,7 +17,7 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   title: "Jurmola Telegraphs - Your Jurmala, Your Capital",
   description: "Many people ask us, so we write in the subtitle: our resource has nothing to do with Laima Vaikule. At all. And it has nothing to do with limes either.",
-  metadataBase: new URL('https://jurmola.vercel.app'),
+  metadataBase: new URL('https://jurmola.com'),
   alternates: {
     canonical: '/',
     types: {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Jurmola Telegraphs - Your Jurmala, Your Capital",
     description: "Many people ask us, so we write in the subtitle: our resource has nothing to do with Laima Vaikule. At all. And it has nothing to do with limes either.",
-    url: "https://jurmola.vercel.app",
+    url: "https://jurmola.com",
     siteName: "Jurmola Telegraphs",
     locale: "en_US",
     type: "website",
@@ -41,9 +41,6 @@ export const metadata: Metadata = {
     title: "Jurmola Telegraphs - Your Jurmala, Your Capital",
     description: "Many people ask us, so we write in the subtitle: our resource has nothing to do with Laima Vaikule. At all. And it has nothing to do with limes either.",
   },
-  other: {
-    'cache-control': 'no-cache, no-store, must-revalidate',
-  },
 };
 
 export default function RootLayout({
@@ -51,8 +48,43 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Jurmola Telegraphs",
+    "url": "https://jurmola.com",
+    "logo": "https://jurmola.com/icon.svg",
+    "description": "The Baltic's Finest News Source - Satirical news from Latvia, Jurmala, and beyond",
+    "sameAs": [
+      "https://twitter.com/JurmolaTelegraphs"
+    ]
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Jurmola Telegraphs",
+    "url": "https://jurmola.com",
+    "description": "The Baltic's Finest News Source - Satirical news from Latvia, Jurmala, and beyond",
+    "inLanguage": ["en", "lv", "ru"],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Jurmola Telegraphs"
+    }
+  };
+
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+      </head>
       <body
         className={`${merriweather.variable} ${sourceSerif.variable} antialiased`}
         style={{ fontFamily: 'var(--font-source-serif), Georgia, serif' }}

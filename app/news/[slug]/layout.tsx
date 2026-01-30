@@ -26,7 +26,7 @@ export async function generateMetadata(
     };
   }
 
-  const baseUrl = 'https://jurmola.vercel.app';
+  const baseUrl = 'https://jurmola.com';
   const articleUrl = `${baseUrl}/news/${article.slug}`;
   const imageUrl = getArticleImageAbsoluteUrl(article, baseUrl);
 
@@ -42,7 +42,7 @@ export async function generateMetadata(
       siteName: 'Jurmola Telegraphs',
       locale: 'en_US',
       type: 'article',
-      publishedTime: new Date().toISOString(),
+      publishedTime: new Date(article.date).toISOString(),
       authors: ['Jurmola Telegraphs'],
       images: [
         {

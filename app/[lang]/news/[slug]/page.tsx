@@ -1,51 +1,46 @@
-'use client';
+import { notFound } from 'next/navigation';
+import { articles } from '../../../data/articles';
+import { getArticleImageAbsoluteUrl, getArticleImageUrl } from '../../../lib/article-image';
+import { type Language, localizedHref, languageLabels } from '../../../lib/i18n-config';
+import Link from 'next/link';
 
-import { useParams } from 'next/navigation';
-import { useLanguage } from '../../hooks/useLanguage';
-import { articles } from '../../data/articles';
-import { getArticleImageAbsoluteUrl, getArticleImageUrl, onArticleImageError } from '../../lib/article-image';
-
-// Export articles for layout metadata
-export { articles } from '../../data/articles';
+type Props = {
+  params: Promise<{ slug: string; lang: string }>;
+};
 
 const translations = {
   backToHome: { en: "← Back to Home", lv: "← Atpakaļ uz sākumlapu", ru: "← Назад на главную" },
   siteTitle: { en: "Jurmola Telegraphs", lv: "Jurmola Telegraphs", ru: "Jurmola Telegraphs" },
-  share: { en: "Share this story", lv: "Dalīties ar šo stāstu", ru: "Поделиться этой историей" }
+  share: { en: "Share this story", lv: "Dalīties ar šo stāstu", ru: "Поделиться этой историей" },
+  copyLink: { en: "Copy Link", lv: "Kopēt saiti", ru: "Скопировать ссылку" },
+  linkCopied: { en: "Link copied to clipboard!", lv: "Saite nokopēta starpliktuvē!", ru: "Ссылка скопирована!" },
+  allRightsReserved: { en: "All rights reserved", lv: "Visas tiesības aizsargātas", ru: "Все права защищены" }
 };
 
-export default function ArticlePage() {
-  const params = useParams();
-  const slug = params.slug as string;
-  const { language, setLanguage } = useLanguage();
-
-  // Support both slug and legacy ID routing with redirect
-  const article = articles.find(a => {
-    if (a.slug === slug) return true;
-    return false;
-  });
-
-  // If not found by slug, check if it's a legacy ID and redirect
-  if (!article && !isNaN(Number(slug))) {
-    const articleById = articles.find(a => a.id === Number(slug));
-    if (articleById) {
-      // 301 redirect to the proper slug URL
-      if (typeof window !== 'undefined') {
-        window.location.replace(`/news/${articleById.slug}`);
-      }
-      return null;
-    }
+export async function generateStaticParams() {
+  // Generate static pages for all article slugs and languages
+  const params: Array<{ slug: string; lang: string }> = [];
+  
+  for (const article of articles) {
+    params.push(
+      { slug: article.slug, lang: 'en' },
+      { slug: article.slug, lang: 'ru' },
+      { slug: article.slug, lang: 'lv' }
+    );
   }
+  
+  return params;
+}
+
+export default async function ArticlePage({ params }: Props) {
+  const resolvedParams = await Promise.resolve(params);
+  const slug = resolvedParams.slug;
+  const language = resolvedParams.lang as Language;
+
+  const article = articles.find(a => a.slug === slug);
 
   if (!article) {
-    return (
-      <div className="min-h-screen bg-white flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold mb-4">Article Not Found</h1>
-          <a href="/" className="text-blue-600 hover:underline">← Back to Home</a>
-        </div>
-      </div>
-    );
+    notFound();
   }
 
   // Schema.org structured data for SEO
@@ -64,13 +59,18 @@ export default function ArticlePage() {
     "publisher": {
       "@type": "Organization",
       "name": "Jurmola Telegraphs",
-      "url": "https://jurmola.com"
+      "url": "https://jurmola.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://jurmola.com/icon.svg"
+      }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://jurmola.com/news/${article.slug}`
+      "@id": `https://jurmola.com/${language}/news/${article.slug}`
     },
-    "articleSection": article.category[language]
+    "articleSection": article.category[language],
+    "inLanguage": language
   };
 
   return (
@@ -84,26 +84,28 @@ export default function ArticlePage() {
       {/* Top Bar */}
       <div className="border-b border-gray-200">
         <div className="max-w-5xl mx-auto px-4 py-2 flex justify-between items-center text-sm">
-          <a href="/" className="text-gray-600 hover:text-black">{translations.backToHome[language]}</a>
+          <Link href={localizedHref('', language)} className="text-gray-600 hover:text-black">
+            {translations.backToHome[language]}
+          </Link>
           <div className="flex gap-3">
-            <button
-              onClick={() => setLanguage('en')}
+            <Link
+              href={`/en/news/${slug}`}
               className={`px-2 py-1 cursor-pointer hover:text-black transition ${language === 'en' ? 'font-bold underline' : 'text-gray-600'}`}
             >
-              EN
-            </button>
-            <button
-              onClick={() => setLanguage('lv')}
+              {languageLabels.en}
+            </Link>
+            <Link
+              href={`/lv/news/${slug}`}
               className={`px-2 py-1 cursor-pointer hover:text-black transition ${language === 'lv' ? 'font-bold underline' : 'text-gray-600'}`}
             >
-              LV
-            </button>
-            <button
-              onClick={() => setLanguage('ru')}
+              {languageLabels.lv}
+            </Link>
+            <Link
+              href={`/ru/news/${slug}`}
               className={`px-2 py-1 cursor-pointer hover:text-black transition ${language === 'ru' ? 'font-bold underline' : 'text-gray-600'}`}
             >
-              RU
-            </button>
+              {languageLabels.ru}
+            </Link>
           </div>
         </div>
       </div>
@@ -111,11 +113,11 @@ export default function ArticlePage() {
       {/* Header */}
       <header className="border-b-4 border-black">
         <div className="max-w-5xl mx-auto px-4 py-4">
-          <a href="/">
+          <Link href={localizedHref('', language)}>
             <h1 className="text-5xl font-bold text-center" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif', letterSpacing: '-0.01em' }}>
               {translations.siteTitle[language]}
             </h1>
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -147,7 +149,6 @@ export default function ArticlePage() {
             src={getArticleImageUrl(article)} 
             alt={article.title[language]}
             className="w-full h-auto"
-            onError={onArticleImageError}
           />
         </div>
 
@@ -213,38 +214,26 @@ export default function ArticlePage() {
           })}
         </div>
 
-        {/* Share Section */}
+        {/* Share Section - We need client component for this */}
         <div className="mt-12">
           <p className="text-sm text-gray-600 mb-4">{translations.share[language]}</p>
           <div className="flex gap-4">
-            <button 
-              onClick={() => {
-                const url = window.location.href;
-                const text = article.title[language];
-                window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
-              }}
+            <a 
+              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title[language])}&url=${encodeURIComponent(`https://jurmola.com/${language}/news/${slug}`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition cursor-pointer"
             >
               Twitter
-            </button>
-            <button 
-              onClick={() => {
-                const url = window.location.href;
-                window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
-              }}
+            </a>
+            <a 
+              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://jurmola.com/${language}/news/${slug}`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition cursor-pointer"
             >
               Facebook
-            </button>
-            <button 
-              onClick={() => {
-                navigator.clipboard.writeText(window.location.href);
-                alert('Link copied to clipboard!');
-              }}
-              className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded font-semibold text-sm transition cursor-pointer"
-            >
-              Copy Link
-            </button>
+            </a>
           </div>
         </div>
       </article>
@@ -252,15 +241,16 @@ export default function ArticlePage() {
       {/* Footer */}
       <footer className="border-t-2 border-black mt-20 py-12 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4 text-center">
-          <a href="/">
+          <Link href={localizedHref('', language)}>
             <h3 className="text-2xl font-bold mb-2" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
               {translations.siteTitle[language]}
             </h3>
-          </a>
-          <p className="text-gray-500 mt-4 text-sm">© 2026 Jurmola Telegraphs. All rights reserved.</p>
+          </Link>
+          <p className="text-gray-500 mt-4 text-sm">
+            © 2026 Jurmola Telegraphs. {translations.allRightsReserved[language]}.
+          </p>
         </div>
       </footer>
     </div>
   );
 }
-
