@@ -19,7 +19,7 @@ export interface Article {
 export const articles: Article[] = [
   {
     id: 76,
-    slug: "latvian-capital-to-introduce-mandatory-walk",
+    slug: "riga-mandatory-snail-work-day",
     title: {
       en: "Latvian Capital to Introduce Mandatory 'Walk Your Snail to Work Day' to Boost Productivity",
       lv: "Latvijas galvaspilsēta ieviesīs obligātu 'Aizved savu gliemezi uz darbu dienu', lai veicinātu produktivitāti",
@@ -94,7 +94,7 @@ Pašlaik iedzīvotāji tiek aicināti sākt draudzēties ar saviem jaunajiem spi
   },
   {
     id: 75,
-    slug: "riga-announces-revolutionary-urban-bee-network",
+    slug: "riga-urban-bee-transportation",
     title: {
       en: "Riga Announces Revolutionary Urban Bee Network to Solve All Transportation Issues",
       lv: "Rīga paziņo par revolucionāru pilsētas bišu tīklu, lai atrisinātu visas transporta problēmas",

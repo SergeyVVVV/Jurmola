@@ -158,6 +158,35 @@ npm run assign-covers
 
 Скрипт оставляет без изменений только локальные пути вида `/images/...`.
 
+## 🔗 SEO-оптимизированные slug
+
+**С Jan 28, 2026** все новые статьи используют SEO-friendly slug:
+- **3-5 слов** через дефис
+- Только **ключевые слова** (без артиклей, предлогов)
+- **Кратко отражают топик** статьи
+
+### Автоматическая генерация
+
+Используйте функцию `generateSeoSlug()` из `app/lib/generate-slug.ts`:
+
+```typescript
+import { generateSeoSlug } from '../app/lib/generate-slug';
+
+const title = "Riga Announces Revolutionary Urban Bee Network";
+const slug = generateSeoSlug(title); // → "riga-announces-revolutionary-urban-bee"
+```
+
+### Примеры
+
+| Заголовок | Старый slug | Новый SEO slug |
+|-----------|-------------|----------------|
+| "Latvian Capital to Introduce Mandatory 'Walk Your Snail to Work Day'" | `latvian-capital-to-introduce-mandatory-walk` | `riga-mandatory-snail-work-day` |
+| "Riga Announces Revolutionary Urban Bee Network" | `riga-announces-revolutionary-urban-bee-network` | `riga-urban-bee-transportation` |
+
+### Редиректы
+
+Для статей с обновлёнными slug добавлены 301-редиректы в `next.config.ts` — старые ссылки продолжают работать.
+
 ## 🐛 Troubleshooting
 
 ### "OPENAI_API_KEY is not set"

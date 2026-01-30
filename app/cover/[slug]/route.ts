@@ -6,8 +6,7 @@ const PEXELS_PER_PAGE = 1;
 // Words to remove from title for better image search
 const STOPWORDS = new Set([
   'a', 'an', 'the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
-  'of', 'with', 'by', 'from', 'up', 'about', 'into', 'through', 'during',
-  'latvia', 'latvian', 'riga', 'jurmola', 'latvias', 'rigas', 'jurmolas'
+  'of', 'with', 'by', 'from', 'up', 'about', 'into', 'through', 'during'
 ]);
 
 /**
