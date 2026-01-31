@@ -18,6 +18,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 77,
+    slug: "riga-introduces-mandatory-smile-tax-to",
+    title: {
+      en: "Riga Introduces Mandatory Smile Tax to Combat City's Infamous Gloominess",
+      lv: "Rīga ievieš obligāto Smaidu nodokli, lai cīnītos ar pilsētas bēdīgi slaveno drūmumu",
+      ru: "Рига вводит обязательный налог на улыбки для борьбы с печально известной мрачностью города"
+    },
+    excerpt: {
+      en: "In an effort to combat Riga's reputation as the 'Capital of Stoicism,' city officials have introduced a controversial new Smile Tax. Residents are now required to display at least two documented smiles per day, which must be verified using state-issued expression meters.",
+      lv: "Lai cīnītos ar Rīgas reputāciju kā 'Stoiķisma galvaspilsētu', pilsētas amatpersonas ir ieviesušas pretrunīgi vērtēto jauno Smaidu nodokli. Tagad iedzīvotājiem ir jāuzrāda vismaz divi dokumentēti smaidi dienā, kas jāapstiprina, izmantojot valsts izdotus izteiksmes mērītājus.",
+      ru: "В попытке бороться с репутацией Риги как 'Столицы стоицизма', городские власти ввели спорный новый налог на улыбки. Теперь жители обязаны демонстрировать как минимум две задокументированные улыбки в день, которые должны быть подтверждены с помощью государственных измерителей выражений."
+    },
+    fullContent: {
+      en: `In a bold move to brighten the streets of Latvia's capital, Riga's City Council has unveiled the Smile Tax, a mandate requiring residents to flash two documented smiles daily. The initiative aims to counteract the city's longstanding title as the 'Capital of Stoicism,' a reputation stemming largely from its consistently overcast weather and the naturally reserved demeanor of its inhabitants.
+
+City Mayor Lauris Smilgs, the mastermind behind the initiative, believes that a strategic taxation model will bring a wave of cheer to Riga. 'Research shows that smiling can increase happiness, reduce stress, and, quite frankly, make strangers less likely to cross the street when they see you walking towards them,' Smilgs explained at a press conference. 'We want Riga to be the beacon of Baltic cheerfulness. It's time we put our best faces forward—quite literally.'
+
+The Smile Tax requires every city resident over the age of twelve to display two genuine smiles each day. Compliance is monitored using cutting-edge expression meters, affectionately dubbed by locals as 'smolaidiometers,' which have been strategically installed in public spaces across the city, including people’s favorite places like bus stops, libraries, and those numerous kebab shops that never seem to close.
+
+For every documented smile, residents will earn a 'happiness credit' which can be redeemed for city services such as public transport passes, discounted theater tickets, or even a free frothy coffee from the newly opened city-run chain, 'Sveika Bean.' Failure to comply results in a nominal fee and mandatory enrollment in the city's Smile Rehabilitation Workshop, where professional smileologists teach the art of authentic Baltic smiling.
+
+'Residents have received the news of this scheme in a surprisingly mixed manner,' commented Hildars Grusts, a survey analyst from the Latvian Institute of Joviality. '51% of Rīgans are thrilled by the initiative and have already begun practicing their smiles in front of mirrors, while 49%—ironically, the more vocal half—worry that the whole endeavor might actually be a thinly veiled strategy to boost tourism by assuring foreigners that Latvians are, in fact, incredibly friendly beneath their stark, stone-faced exteriors.'
+
+Critics argue that the tax might lead to smile inflation, where smiles become less valuable and genuine over time. However, Mayor Smilgs assures residents that the plan has a built-in authenticity indicator. 'Fake smiles will still be taxed, but rest assured, they won't get you any happiness credits. This is about fostering genuine connections, not duping the system,' he added.
+
+Business owners in Riga have shown enthusiastic support for the initiative, with many offering incentives for employees who achieve smile compliance before their morning coffee. 'I never thought I would see the day when we'd clap for someone smiling in the corridor,' admitted manager Ilze Krūmiņa of the 'Damp & Cold Ltd' office supply company. 'But here we are, and it's surprisingly contagious. Even the fax machine seems to be jamming less.'
+
+As the Smile Tax comes into full effect, Riga’s streets are predicted to beam with unprecedented joy, confusing tourists and delighting locals alike. The city, once deemed Europe's best place to contemplate life’s somber moments in peace, might just evolve into a haven where inner joy is as indispensable as a wool scarf in deep January.`,
+      lv: `Drosmīgā solī, lai padarītu gaišākas Latvijas galvaspilsētas ielas, Rīgas domes padome ir atklājusi Smaidu nodokli, kas uzliek par pienākumu iedzīvotājiem katru dienu uzrādīt divus dokumentētus smaidus. Iniciatīva ir vērsta uz to, lai mainītu pilsētas ilgstošo titulu kā 'Stoiķisma galvaspilsēta', kas lielā mērā izriet no tās pastāvīgi apmākušā laika un iedzīvotāju dabiskā atturīguma.
+
+Pilsētas mērs Lauris Smilgs, šīs iniciatīvas autors, uzskata, ka stratēģisks nodokļu modelis nesīs prieka vilni Rīgai. 'Pētījumi rāda, ka smaidīšana var palielināt laimes sajūtu, samazināt stresu un, godīgi sakot, padarīt svešiniekus mazāk noskaņotus šķērsot ielu, kad viņi redz jūs nākam pretī,' Smilgs paskaidroja preses konferencē. 'Mēs vēlamies, lai Rīga būtu Baltijas prieka bāka. Ir pienācis laiks parādīt mūsu labākās sejas – burtiski.'
+
+Smaidu nodoklis prasa, lai katrs pilsētas iedzīvotājs, kas vecāks par divpadsmit gadiem, katru dienu uzrādītu divus īstus smaidus. Atbilstība tiek uzraudzīta, izmantojot modernus izteiksmes mērītājus, kurus vietējie mīļi dēvē par 'smolaidiometriem', kas stratēģiski uzstādīti sabiedriskās vietās visā pilsētā, tostarp cilvēku iecienītās vietās, piemēram, autobusu pieturās, bibliotēkās un tajos daudzajos kebabu veikalos, kas nekad nešķiet slēgti.
+
+Par katru dokumentētu smaidu iedzīvotāji saņems 'laimes kredītu', ko varēs apmainīt pret pilsētas pakalpojumiem, piemēram, sabiedriskā transporta biļetēm, atlaides teātra biļetēm vai pat bezmaksas putojošu kafiju no nesen atvērtās pilsētas ķēdes 'Sveika Bean'. Neatbilstības gadījumā tiek piemērota neliela maksa un obligāta dalība pilsētas Smaidu rehabilitācijas darbnīcā, kur profesionāli smaidu speciālisti māca autentiska Baltijas smaida mākslu.
+
+'Iedzīvotāji šo shēmu ir uzņēmuši pārsteidzoši dažādi,' komentēja Hildars Grusts, Latvijas Prieka institūta aptauju analītiķis. '51% rīdzinieku ir sajūsmā par iniciatīvu un jau sākuši praktizēt savus smaidus spoguļa priekšā, savukārt 49% – ironiski, skaļākā puse – uztraucas, ka viss pasākums varētu būt plāns, lai palielinātu tūrismu, nodrošinot ārzemniekiem, ka latvieši patiesībā ir ļoti draudzīgi zem savām stingrajām, akmens sejām.'
+
+Kritiķi apgalvo, ka nodoklis varētu novest pie smaidu inflācijas, kur smaidi laika gaitā kļūst mazāk vērtīgi un īsti. Tomēr mērs Smilgs apliecina iedzīvotājiem, ka plānā ir iebūvēts autentiskuma indikators. 'Viltus smaidi tiks aplikti ar nodokli, bet esiet droši, tie jums nedos laimes kredītus. Tas ir par īstu savienojumu veidošanu, nevis sistēmas apmānīšanu,' viņš piebilda.
+
+Rīgas uzņēmēji ir izrādījuši entuziastisku atbalstu iniciatīvai, daudzi piedāvā stimulus darbiniekiem, kuri sasniedz smaidu atbilstību pirms rīta kafijas. 'Es nekad nedomāju, ka redzēšu dienu, kad mēs aplaudēsim kādam, kurš smaida koridorā,' atzina vadītāja Ilze Krūmiņa no 'Damp & Cold Ltd' biroja preču uzņēmuma. 'Bet te nu mēs esam, un tas ir pārsteidzoši lipīgs. Pat faksa aparāts šķiet, ka mazāk iestrēgst.'
+
+Kad Smaidu nodoklis pilnībā stāsies spēkā, tiek prognozēts, ka Rīgas ielas staros ar nebijušu prieku, mulsinot tūristus un iepriecinot vietējos iedzīvotājus. Pilsēta, kas reiz tika uzskatīta par labāko vietu Eiropā, kur mierīgi pārdomāt dzīves drūmos brīžus, varētu pārvērsties par patvērumu, kur iekšējais prieks ir tikpat neaizstājams kā vilnas šalle dziļā janvārī.`,
+      ru: `В смелой попытке оживить улицы столицы Латвии, Городской совет Риги представил налог на улыбки, требующий от жителей ежедневно демонстрировать две задокументированные улыбки. Инициатива направлена на противодействие давнему титулу города как 'Столицы стоицизма', что в значительной степени связано с постоянно пасмурной погодой и естественно сдержанным характером его жителей.
+
+Мэр города Лаурис Смилгс, автор этой инициативы, считает, что стратегическая модель налогообложения принесет волну радости в Ригу. 'Исследования показывают, что улыбка может повысить уровень счастья, снизить стресс и, честно говоря, сделать так, чтобы незнакомцы реже переходили улицу, когда видят вас идущим навстречу,' объяснил Смилгс на пресс-конференции. 'Мы хотим, чтобы Рига стала маяком балтийской жизнерадостности. Пора нам показать свои лучшие лица — в буквальном смысле.'
+
+Налог на улыбки требует от каждого жителя города старше двенадцати лет демонстрировать две искренние улыбки каждый день. Соблюдение контролируется с помощью передовых измерителей выражений, ласково названных местными жителями 'смолайдиометрами', которые стратегически установлены в общественных местах по всему городу, включая любимые места людей, такие как автобусные остановки, библиотеки и многочисленные магазины кебабов, которые, кажется, никогда не закрываются.
+
+За каждую задокументированную улыбку жители получают 'кредит счастья', который можно обменять на городские услуги, такие как проездные на общественный транспорт, скидки на билеты в театр или даже бесплатный пенистый кофе в недавно открытой городской сети 'Sveika Bean'. Несоблюдение приводит к номинальному штрафу и обязательному участию в городской Мастерской по реабилитации улыбок, где профессиональные смайологи обучают искусству подлинной балтийской улыбки.
+
+'Жители восприняли новость об этой схеме на удивление по-разному,' прокомментировал Хилдарс Грустс, аналитик опросов из Латвийского института жизнерадостности. '51% рижан в восторге от инициативы и уже начали практиковать свои улыбки перед зеркалами, в то время как 49% — иронично, более громкая половина — беспокоятся, что вся затея может быть на самом деле тонко завуалированной стратегией по увеличению туризма, уверяя иностранцев, что латыши, на самом деле, невероятно дружелюбны под своими суровыми, каменными лицами.'
+
+Критики утверждают, что налог может привести к инфляции улыбок, когда улыбки со временем станут менее ценными и искренними. Однако мэр Смилгс заверяет жителей, что в плане предусмотрен индикатор подлинности. 'Фальшивые улыбки все равно будут облагаться налогом, но будьте уверены, они не принесут вам никаких кредитов счастья. Речь идет о создании подлинных связей, а не о том, чтобы обмануть систему,' добавил он.
+
+Владельцы бизнеса в Риге выразили энтузиазм в поддержке инициативы, многие из них предлагают стимулы для сотрудников, которые достигают соответствия улыбкам до утреннего кофе. 'Я никогда не думала, что увижу день, когда мы будем аплодировать кому-то за улыбку в коридоре,' призналась менеджер Илзе Круминя из компании 'Damp & Cold Ltd', занимающейся канцелярскими товарами. 'Но вот мы здесь, и это удивительно заразительно. Даже факс-машина, кажется, меньше застревает.'
+
+По мере того как налог на улыбки вступает в полную силу, улицы Риги, как ожидается, засияют беспрецедентной радостью, сбивая с толку туристов и радуя местных жителей. Город, когда-то считавшийся лучшим местом в Европе для размышлений о мрачных моментах жизни в тишине, может стать убежищем, где внутренняя радость так же необходима, как шерстяной шарф в глубоком январе.`
+    },
+    date: "Jan 31, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/77/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 76,
     slug: "riga-mandatory-snail-work-day",
     title: {
@@ -90,7 +159,7 @@ Pašlaik iedzīvotāji tiek aicināti sākt draudzēties ar saviem jaunajiem spi
     readTime: "5 min read",
     imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 75,
