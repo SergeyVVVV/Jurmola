@@ -13,7 +13,7 @@ const translations = {
 };
 
 export const metadata: Metadata = {
-  title: `${translations.pageTitle} | Jurmola Telegraphs`,
+  title: `${translations.pageTitle} – Jurmola Telegraphs`,
   description: translations.pageDescription,
   alternates: {
     canonical: 'https://jurmola.com/culture/',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: `${translations.pageTitle} | Jurmola Telegraphs`,
+    title: `${translations.pageTitle} – Jurmola Telegraphs`,
     description: translations.pageDescription,
     url: 'https://jurmola.com/culture/',
     siteName: 'Jurmola Telegraphs',

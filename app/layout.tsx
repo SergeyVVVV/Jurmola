@@ -15,7 +15,7 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  title: "Jurmola Telegraphs - Твоя Юрмала, Твоя Столица",
+  title: "Jurmola Telegraphs – Твоя Юрмала, Твоя Столица",
   description: "Многие спрашивают нас, поэтому пишем в подзаголовке: наш ресурс не имеет никакого отношения к Лайме Вайкуле. Вообще. И к лаймам тоже.",
   metadataBase: new URL('https://jurmola.com'),
   alternates: {
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Jurmola Telegraphs - Твоя Юрмала, Твоя Столица",
+    title: "Jurmola Telegraphs – Твоя Юрмала, Твоя Столица",
     description: "Многие спрашивают нас, поэтому пишем в подзаголовке: наш ресурс не имеет никакого отношения к Лайме Вайкуле. Вообще. И к лаймам тоже.",
     url: "https://jurmola.com",
     siteName: "Jurmola Telegraphs",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jurmola Telegraphs - Твоя Юрмала, Твоя Столица",
+    title: "Jurmola Telegraphs – Твоя Юрмала, Твоя Столица",
     description: "Многие спрашивают нас, поэтому пишем в подзаголовке: наш ресурс не имеет никакого отношения к Лайме Вайкуле. Вообще. И к лаймам тоже.",
   },
 };

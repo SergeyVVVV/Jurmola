@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Jurmola Telegraphs - Jūsu Jūrmala, Jūsu Galvaspilsēta",
+  title: "Jurmola Telegraphs – Jūsu Jūrmala, Jūsu Galvaspilsēta",
   description: "Daudzi mums jautā, tāpēc rakstām apakšvirsrakstā: mūsu resurss nav saistīts ar Laimu Vaikuli. Nemaz. Un arī nav saistīts ar laima.",
   alternates: {
     canonical: 'https://jurmola.com/lv/',
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Jurmola Telegraphs - Jūsu Jūrmala, Jūsu Galvaspilsēta",
+    title: "Jurmola Telegraphs – Jūsu Jūrmala, Jūsu Galvaspilsēta",
     description: "Daudzi mums jautā, tāpēc rakstām apakšvirsrakstā: mūsu resurss nav saistīts ar Laimu Vaikuli. Nemaz. Un arī nav saistīts ar laima.",
     url: "https://jurmola.com/lv/",
     siteName: "Jurmola Telegraphs",
