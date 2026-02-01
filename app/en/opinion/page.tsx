@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://jurmola.com/en/opinion/',
     languages: {
+      'x-default': 'https://jurmola.com/opinion/',
       'en': 'https://jurmola.com/en/opinion/',
       'ru': 'https://jurmola.com/opinion/',
       'lv': 'https://jurmola.com/lv/opinion/',

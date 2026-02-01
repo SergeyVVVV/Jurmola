@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://jurmola.com/lv/culture/',
     languages: {
+      'x-default': 'https://jurmola.com/culture/',
       'en': 'https://jurmola.com/en/culture/',
       'ru': 'https://jurmola.com/culture/',
       'lv': 'https://jurmola.com/lv/culture/',

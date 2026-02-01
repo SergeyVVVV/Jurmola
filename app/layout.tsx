@@ -21,6 +21,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
     languages: {
+      'x-default': 'https://jurmola.com/',
       'en': 'https://jurmola.com/en/',
       'ru': 'https://jurmola.com/',
       'lv': 'https://jurmola.com/lv/',

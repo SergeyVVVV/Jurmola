@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1.0,
     alternates: {
       languages: {
+        'x-default': `${baseUrl}/`,
         en: `${baseUrl}/en/`,
         ru: `${baseUrl}/`,
         lv: `${baseUrl}/lv/`,
@@ -30,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1.0,
     alternates: {
       languages: {
+        'x-default': `${baseUrl}/`,
         en: `${baseUrl}/en/`,
         ru: `${baseUrl}/`,
         lv: `${baseUrl}/lv/`,
@@ -44,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1.0,
     alternates: {
       languages: {
+        'x-default': `${baseUrl}/`,
         en: `${baseUrl}/en/`,
         ru: `${baseUrl}/`,
         lv: `${baseUrl}/lv/`,
@@ -59,6 +62,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
     alternates: {
       languages: {
+        'x-default': `${baseUrl}/about/`,
         en: `${baseUrl}/en/about/`,
         ru: `${baseUrl}/about/`,
         lv: `${baseUrl}/lv/about/`,
@@ -73,6 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
     alternates: {
       languages: {
+        'x-default': `${baseUrl}/about/`,
         en: `${baseUrl}/en/about/`,
         ru: `${baseUrl}/about/`,
         lv: `${baseUrl}/lv/about/`,
@@ -87,6 +92,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
     alternates: {
       languages: {
+        'x-default': `${baseUrl}/about/`,
         en: `${baseUrl}/en/about/`,
         ru: `${baseUrl}/about/`,
         lv: `${baseUrl}/lv/about/`,
@@ -113,6 +119,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
       alternates: {
         languages: {
+          'x-default': `${baseUrl}/${category}/`,
           en: `${baseUrl}/en/${category}/`,
           ru: `${baseUrl}/${category}/`,
           lv: `${baseUrl}/lv/${category}/`,
@@ -128,6 +135,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
       alternates: {
         languages: {
+          'x-default': `${baseUrl}/${category}/`,
           en: `${baseUrl}/en/${category}/`,
           ru: `${baseUrl}/${category}/`,
           lv: `${baseUrl}/lv/${category}/`,
@@ -143,6 +151,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
       alternates: {
         languages: {
+          'x-default': `${baseUrl}/${category}/`,
           en: `${baseUrl}/en/${category}/`,
           ru: `${baseUrl}/${category}/`,
           lv: `${baseUrl}/lv/${category}/`,
@@ -161,6 +170,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: {
         languages: {
+          'x-default': `${baseUrl}/news/${article.slug}`,
           en: `${baseUrl}/en/news/${article.slug}`,
           ru: `${baseUrl}/news/${article.slug}`,
           lv: `${baseUrl}/lv/news/${article.slug}`,
@@ -176,6 +186,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: {
         languages: {
+          'x-default': `${baseUrl}/news/${article.slug}`,
           en: `${baseUrl}/en/news/${article.slug}`,
           ru: `${baseUrl}/news/${article.slug}`,
           lv: `${baseUrl}/lv/news/${article.slug}`,
@@ -191,6 +202,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: {
         languages: {
+          'x-default': `${baseUrl}/news/${article.slug}`,
           en: `${baseUrl}/en/news/${article.slug}`,
           ru: `${baseUrl}/news/${article.slug}`,
           lv: `${baseUrl}/lv/news/${article.slug}`,

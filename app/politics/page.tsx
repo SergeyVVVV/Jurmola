@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://jurmola.com/politics/',
     languages: {
+      'x-default': 'https://jurmola.com/politics/',
       'en': 'https://jurmola.com/en/politics/',
       'ru': 'https://jurmola.com/politics/',
       'lv': 'https://jurmola.com/lv/politics/',
