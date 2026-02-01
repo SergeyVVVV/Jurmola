@@ -51,6 +51,57 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   });
 
+  // About pages for each language (high priority for E-E-A-T)
+  routes.push({
+    url: `${baseUrl}/about/`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.9,
+    alternates: {
+      languages: {
+        en: `${baseUrl}/en/about/`,
+        ru: `${baseUrl}/about/`,
+        lv: `${baseUrl}/lv/about/`,
+      },
+    },
+  });
+  
+  routes.push({
+    url: `${baseUrl}/en/about/`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.9,
+    alternates: {
+      languages: {
+        en: `${baseUrl}/en/about/`,
+        ru: `${baseUrl}/about/`,
+        lv: `${baseUrl}/lv/about/`,
+      },
+    },
+  });
+  
+  routes.push({
+    url: `${baseUrl}/lv/about/`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.9,
+    alternates: {
+      languages: {
+        en: `${baseUrl}/en/about/`,
+        ru: `${baseUrl}/about/`,
+        lv: `${baseUrl}/lv/about/`,
+      },
+    },
+  });
+
+  // Yurmola keyword page (Russian only - target keyword "юрмола")
+  routes.push({
+    url: `${baseUrl}/yurmola/`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.95, // High priority for target keyword
+  });
+
   // Category pages for each language (high priority for SEO)
   const categories = ['politics', 'culture', 'business', 'opinion'];
   categories.forEach(category => {
