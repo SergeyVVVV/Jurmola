@@ -18,6 +18,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 78,
+    slug: "riga-institute-announces-breakthrough-discovering-the",
+    title: {
+      en: "Riga Institute Announces Breakthrough: Discovering the Ultimate Sound to End Awkward Elevator Silences",
+      lv: "Rīgas Institūts Paziņo Par Izrāvienu: Atklāts Galīgais Skaņas Risinājums Neērtiem Klusumiem Liftos",
+      ru: "Рижский институт объявляет прорыв: найден идеальный звук для устранения неловкого молчания в лифтах"
+    },
+    excerpt: {
+      en: "A team of top Latvian scientists claims to have identified a frequency that can eliminate the notorious awkward silence in elevator rides across the Baltics. The breakthrough might redefine vertical commutes and social interactions in enclosed spaces.",
+      lv: "Latvijas vadošo zinātnieku komanda apgalvo, ka ir identificējusi frekvenci, kas var izbeigt bēdīgi slavenos neērtos klusumus liftu braucienos visā Baltijā. Šis izrāviens varētu pārdefinēt vertikālos pārvadājumus un sociālās mijiedarbības slēgtās telpās.",
+      ru: "Команда ведущих латвийских ученых утверждает, что они выявили частоту, которая может устранить пресловутое неловкое молчание в лифтах по всему Балтийскому региону. Этот прорыв может переопределить вертикальные поездки и социальные взаимодействия в замкнутых пространствах."
+    },
+    fullContent: {
+      en: `In what experts are calling a landmark achievement in both acoustics and social psychology, the Institute for Baltic Studies and Quirky Soundwaves in Riga has announced a breakthrough discovery of a sound frequency designed specifically to end awkward silences in elevator rides—an issue that has plagued the region's vertically-inclined commuters for decades.
+
+Lead researcher Dr. Guntis Klaipeda, famed for his innovative work on the acoustics of Baltic herring, spoke to the press during a surprise announcement at the university. "For years, we've been trying to solve the problem of dead silence in elevators. It may seem trivial, but these short rides can make or break social interactions," Dr. Klaipeda explained while surrounded by graphs that prominently featured sound waves and, inexplicably, photos of smiling seals.
+
+The frequency, reportedly hovering at 3.4 hertz, lies somewhere between a purring kitten and what scientists described as 'the sound of grandma's soup just before it boils over.' According to the study, sounding this frequency during elevator rides reduced the perceived time of travel by 32% and increased passenger friendliness by an unprecedented 76%.
+
+"We tested the sound in some of Riga's most iconic elevators, from those in the posh Hotel Grand Palace to the Soviet-era classics still functioning in Zolitūde," said Ilze Zvaigzne, the chief sound technician on the project. "Feedback was overwhelmingly positive. One elderly resident even claimed it made her feel like she was 'traveling in a grand ballroom, not a musty vertical coffin.'"
+
+The sound will be piloted in buses and newsrooms next month, as researchers believe it could also revolutionize other settings ripe for discomfort—particularly during lengthy waits in unpredictable traffic congestion and during intense editorial meetings.
+
+The discovery has not been without controversy. A group of nihilistic elevators in nearby Cēsis filed a grievance with their union, claiming the sound undermines the 'authentic spirit of Baltic silence,' which local philosopher Karlis Kress, a noted advocate for quiet moments, highlighted in his latest blog. "These soundscapes are a cultural erasure," Kress lamented. "We must embrace the silence—it is the rhythm of our soul, our very essence. Without it, how will people have time for deep existential pondering?"
+
+However, the innovation is gaining traction outside Latvia. Initial reports suggest Tallinn hotels and Vilnius public offices have shown interest in incorporating the frequency into their own elevators, with experts suggesting this could even become a trendy export—however niche.
+
+"This sound marks a new era in Baltic social engineering," declared Dace Tenisons, Latvia's undersecretary of public convenience and slight inconveniences. "The days of staring intensely at our phone screens while trapped in an elevator mere centimeters from fellow humans are numbered. We must adjust, embrace, and nod politely as revolution happens in these confined metal boxes."
+
+As the project gears up for international expansion, many hopeful that an era of serene elevator voyages will emerge, though the question remains—what happens when everyone in the elevator starts humming along in cacophonic harmony? For Latvians, it seems that only time and a few dozen test rides will tell.`,
+      lv: `Eksperti to sauc par nozīmīgu sasniegumu gan akustikā, gan sociālajā psiholoģijā. Rīgas Baltijas Pētījumu un Dīvaino Skaņu Viļņu Institūts paziņojis par izrāvienu, atklājot skaņas frekvenci, kas īpaši izstrādāta, lai izbeigtu neērtus klusumus liftu braucienos—problēmu, kas gadu desmitiem ir nomocījusi reģiona vertikāli orientētos pasažierus.
+
+Vadošais pētnieks Dr. Guntis Klaipēda, slavens ar savu inovatīvo darbu par Baltijas reņģu akustiku, uzstājās preses konferencē universitātē. "Gadiem ilgi esam mēģinājuši atrisināt mirušā klusuma problēmu liftos. Tas var šķist nenozīmīgi, bet šie īsie braucieni var būt izšķiroši sociālajās mijiedarbībās," Dr. Klaipēda skaidroja, stāvot blakus grafikiem, kuros dominēja skaņu viļņi un, neizskaidrojami, smaidošu roņu fotogrāfijas.
+
+Frekvence, kas it kā svārstās ap 3,4 herciem, atrodas kaut kur starp kaķēna murrāšanu un to, ko zinātnieki raksturoja kā 'vecmāmiņas zupas skaņu tieši pirms tā sāk vārīties'. Saskaņā ar pētījumu, šīs frekvences atskaņošana liftu braucienos samazināja uztverto ceļojuma laiku par 32% un palielināja pasažieru draudzīgumu par nebijušiem 76%.
+
+"Mēs testējām skaņu dažos no Rīgas ikoniskākajiem liftiem, sākot no greznā Hotel Grand Palace līdz padomju laikmeta klasikai, kas joprojām darbojas Zolitūdē," teica Ilze Zvaigzne, projekta galvenā skaņu tehniķe. "Atsauksmes bija pārliecinoši pozitīvas. Viena vecāka kundze pat apgalvoja, ka tas lika viņai justies kā 'ceļojot lieliskā balles zālē, nevis smacīgā vertikālā zārkā.'"
+
+Skaņa tiks izmēģināta autobusos un ziņu telpās nākamajā mēnesī, jo pētnieki uzskata, ka tā varētu revolucionizēt arī citus iestatījumus, kas ir piemēroti diskomfortam—īpaši ilgstošu gaidīšanu laikā neparedzamos satiksmes sastrēgumos un intensīvu redakcionālo sanāksmju laikā.
+
+Atklājums nav bijis bez pretrunām. Grupa nihilistisku liftu tuvējā Cēsīs iesniedza sūdzību savā arodbiedrībā, apgalvojot, ka skaņa grauj 'autentisko Baltijas klusuma garu', ko vietējais filozofs Kārlis Kress, kluss mirkļu aizstāvis, izcēla savā jaunākajā blogā. "Šīs skaņu ainavas ir kultūras dzēšana," Kress sūdzējās. "Mums jāpieņem klusums—tas ir mūsu dvēseles ritms, mūsu būtība. Bez tā, kā cilvēkiem būs laiks dziļām eksistenciālām pārdomām?"
+
+Tomēr inovācija gūst atbalstu ārpus Latvijas. Sākotnējie ziņojumi liecina, ka Tallinas viesnīcas un Viļņas sabiedriskie biroji ir izrādījuši interesi iekļaut frekvenci savos liftos, un eksperti norāda, ka tas pat varētu kļūt par modernu eksportu—kaut arī nišas.
+
+"Šī skaņa iezīmē jaunu ēru Baltijas sociālajā inženierijā," paziņoja Dace Tenišons, Latvijas sabiedrības ērtību un nelielu neērtību valsts sekretāra vietniece. "Dienas, kad intensīvi skatāmies savos telefonu ekrānos, kamēr esam iesprostoti liftā tikai dažus centimetrus no citiem cilvēkiem, ir skaitītas. Mums jāpielāgojas, jāpieņem un pieklājīgi jāpaklanās, kad revolūcija notiek šajās ierobežotajās metāla kastēs."
+
+Projekts gatavojas starptautiskai paplašināšanai, un daudzi cer, ka parādīsies mierīgu liftu braucienu ēra, lai gan jautājums paliek—kas notiks, kad visi liftā sāks dungot līdzi kakofoniskā harmonijā? Latviešiem šķiet, ka tikai laiks un dažas desmiti testa braucienu to parādīs.`,
+      ru: `В том, что эксперты называют знаковым достижением как в акустике, так и в социальной психологии, Институт балтийских исследований и причудливых звуковых волн в Риге объявил о прорывном открытии звуковой частоты, специально предназначенной для прекращения неловкого молчания в лифтах — проблемы, которая десятилетиями мучила вертикально ориентированных пассажиров региона.
+
+Ведущий исследователь доктор Гунтис Клайпеда, известный своими инновационными работами по акустике балтийской сельди, выступил перед прессой во время неожиданного объявления в университете. "Годами мы пытались решить проблему мертвой тишины в лифтах. Это может показаться тривиальным, но эти короткие поездки могут стать решающими для социальных взаимодействий," — объяснил доктор Клайпеда, окруженный графиками, на которых были изображены звуковые волны и, необъяснимо, фотографии улыбающихся тюленей.
+
+Частота, как сообщается, колеблется на уровне 3,4 герца, находясь где-то между мурлыканьем котенка и тем, что ученые описали как 'звук бабушкиного супа перед тем, как он закипит'. Согласно исследованию, воспроизведение этой частоты во время поездок на лифте сокращало воспринимаемое время поездки на 32% и увеличивало дружелюбие пассажиров на беспрецедентные 76%.
+
+"Мы тестировали звук в некоторых из самых знаковых лифтов Риги, от тех, что в шикарном отеле Grand Palace, до советских классиков, все еще функционирующих в Золитуде," — сказала Илзе Звайгзне, главный звукоинженер проекта. "Отзывы были исключительно положительными. Одна пожилая жительница даже заявила, что это заставило ее почувствовать себя как в 'путешествии по великому бальному залу, а не в затхлом вертикальном гробу'."
+
+Звук будет испытан в автобусах и редакциях в следующем месяце, так как исследователи считают, что он также может революционизировать другие обстановки, склонные к дискомфорту — особенно во время длительных ожиданий в непредсказуемых пробках и во время напряженных редакционных совещаний.
+
+Открытие не обошлось без споров. Группа нигилистических лифтов в соседнем Цесисе подала жалобу в свой профсоюз, утверждая, что звук подрывает 'аутентичный дух балтийской тишины', который местный философ Карлис Кресс, известный защитник тихих моментов, подчеркнул в своем последнем блоге. "Эти звуковые ландшафты — это культурное стирание," — сокрушался Кресс. "Мы должны принять тишину — это ритм нашей души, наша суть. Без нее, как люди найдут время для глубоких экзистенциальных размышлений?"
+
+Тем не менее, инновация набирает популярность за пределами Латвии. Первоначальные отчеты предполагают, что отели Таллина и общественные учреждения Вильнюса проявили интерес к внедрению частоты в свои лифты, и эксперты предполагают, что это даже может стать модным экспортом — хотя и нишевым.
+
+"Этот звук ознаменует новую эру в балтийской социальной инженерии," — заявила Даце Тенисонс, заместитель секретаря Латвии по вопросам общественного удобства и небольших неудобств. "Дни, когда мы пристально смотрели на экраны наших телефонов, застряв в лифте в нескольких сантиметрах от других людей, сочтены. Мы должны приспособиться, принять и вежливо кивать, пока революция происходит в этих замкнутых металлических коробках."
+
+По мере того, как проект готовится к международной экспансии, многие надеются, что наступит эпоха спокойных поездок на лифте, хотя остается вопрос — что произойдет, когда все в лифте начнут напевать в какофонической гармонии? Для латвийцев, похоже, только время и несколько десятков тестовых поездок покажут.`
+    },
+    date: "Feb 1, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/78/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 77,
     slug: "riga-introduces-mandatory-smile-tax-to",
     title: {
@@ -84,7 +159,7 @@ Kad Smaidu nodoklis pilnībā stāsies spēkā, tiek prognozēts, ka Rīgas iela
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/77/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 76,
