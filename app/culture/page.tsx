@@ -3,6 +3,8 @@ import { getArticleImageUrl } from '../lib/article-image';
 import { localizedHref } from '../lib/i18n-config';
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const language = 'ru';
 
@@ -41,29 +43,15 @@ export default function CulturePage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <header className="border-b-4 border-black bg-white">
-        <div className="max-w-7xl mx-auto px-6 py-8">
-          <div className="flex justify-between items-center mb-6">
-            <Link href={localizedHref('', language)} className="text-sm hover:underline">
-              {translations.backToHome}
-            </Link>
-            <div className="flex gap-2">
-              <Link href="/culture/" className="px-3 py-1 text-sm font-bold underline">RU</Link>
-              <Link href="/en/culture/" className="px-3 py-1 text-sm">EN</Link>
-              <Link href="/lv/culture/" className="px-3 py-1 text-sm">LV</Link>
-            </div>
-          </div>
-
-          <h1 className="text-5xl font-bold mb-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
-            {translations.pageTitle}
-          </h1>
-          <p className="text-lg text-gray-700 max-w-3xl">
-            {translations.pageDescription}
-          </p>
-        </div>
-      </header>
+      <Header language={language} />
 
       <main className="max-w-7xl mx-auto px-6 py-12">
+        <h1 className="text-5xl font-bold mb-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
+          {translations.pageTitle}
+        </h1>
+        <p className="text-lg text-gray-700 max-w-3xl mb-8">
+          {translations.pageDescription}
+        </p>
         <div className="grid md:grid-cols-3 gap-8">
           {cultureArticles.map((article) => (
             <article key={article.id} className="pb-6">
@@ -93,6 +81,8 @@ export default function CulturePage() {
           ))}
         </div>
       </main>
+
+      <Footer language={language} />
     </div>
   );
 }

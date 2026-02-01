@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { localizedHref } from '../../lib/i18n-config';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 const language = 'en';
 
@@ -29,67 +31,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Top Bar */}
-      <div className="border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center text-sm">
-          <div className="text-gray-600">About</div>
-          <div className="flex gap-3 items-center">
-            <Link
-              href="/"
-              className="px-2 py-1 cursor-pointer hover:text-black transition text-gray-600"
-            >
-              RU
-            </Link>
-            <Link
-              href="/en/"
-              className="px-2 py-1 cursor-pointer hover:text-black transition font-bold underline text-gray-600"
-            >
-              EN
-            </Link>
-            <Link
-              href="/lv/"
-              className="px-2 py-1 cursor-pointer hover:text-black transition text-gray-600"
-            >
-              LV
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* Header */}
-      <header className="border-b border-gray-900">
-        <div className="max-w-7xl mx-auto px-4 py-8 text-center">
-          <Link href={localizedHref('', language)}>
-            <h1 className="font-serif text-6xl font-bold cursor-pointer hover:text-gray-700 transition">
-              Jurmola Telegraphs
-            </h1>
-          </Link>
-          <p className="text-sm mt-2 text-gray-600">Your Best Source for Baltic News</p>
-        </div>
-      </header>
-
-      {/* Navigation */}
-      <nav className="border-b border-gray-300">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex gap-8 py-3 text-sm font-medium">
-            <Link href={localizedHref('politics', language)} className="hover:text-gray-600 transition">
-              Politics
-            </Link>
-            <Link href={localizedHref('culture', language)} className="hover:text-gray-600 transition">
-              Culture
-            </Link>
-            <Link href={localizedHref('business', language)} className="hover:text-gray-600 transition">
-              Business
-            </Link>
-            <Link href={localizedHref('opinion', language)} className="hover:text-gray-600 transition">
-              Opinion
-            </Link>
-            <Link href={localizedHref('about', language)} className="hover:text-gray-600 transition font-bold underline">
-              About
-            </Link>
-          </div>
-        </div>
-      </nav>
+      <Header language={language} />
 
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 py-12">
@@ -205,25 +147,7 @@ export default function AboutPage() {
         </article>
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-300 mt-12">
-        <div className="max-w-7xl mx-auto px-4 py-6">
-          <div className="flex justify-between items-center text-sm text-gray-600">
-            <div>© 2026 Jurmola Telegraphs. All rights reserved.</div>
-            <div className="flex gap-4">
-              <Link href={localizedHref('about', language)} className="hover:text-gray-900">
-                About
-              </Link>
-              <Link href={localizedHref('', language)} className="hover:text-gray-900">
-                Home
-              </Link>
-            </div>
-          </div>
-          <div className="mt-4 text-xs text-gray-500 text-center">
-            ⚠️ Satirical content generated with AI assistance. Not real news.
-          </div>
-        </div>
-      </footer>
+      <Footer language={language} />
     </div>
   );
 }

@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { localizedHref } from '../lib/i18n-config';
 import { articles } from '../data/articles';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const language = 'ru';
 
@@ -36,67 +38,7 @@ export default function YurmolaPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Top Bar */}
-      <div className="border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center text-sm">
-          <div className="text-gray-600">О Юрмоле</div>
-          <div className="flex gap-3 items-center">
-            <Link
-              href="/"
-              className="px-2 py-1 cursor-pointer hover:text-black transition font-bold underline text-gray-600"
-            >
-              RU
-            </Link>
-            <Link
-              href="/en/"
-              className="px-2 py-1 cursor-pointer hover:text-black transition text-gray-600"
-            >
-              EN
-            </Link>
-            <Link
-              href="/lv/"
-              className="px-2 py-1 cursor-pointer hover:text-black transition text-gray-600"
-            >
-              LV
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* Header */}
-      <header className="border-b border-gray-900">
-        <div className="max-w-7xl mx-auto px-4 py-8 text-center">
-          <Link href={localizedHref('', language)}>
-            <h1 className="font-serif text-6xl font-bold cursor-pointer hover:text-gray-700 transition">
-              Jurmola Telegraphs
-            </h1>
-          </Link>
-          <p className="text-sm mt-2 text-gray-600">Лучший источник новостей Балтии</p>
-        </div>
-      </header>
-
-      {/* Navigation */}
-      <nav className="border-b border-gray-300">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex gap-8 py-3 text-sm font-medium">
-            <Link href={localizedHref('politics', language)} className="hover:text-gray-600 transition">
-              Политика
-            </Link>
-            <Link href={localizedHref('culture', language)} className="hover:text-gray-600 transition">
-              Культура
-            </Link>
-            <Link href={localizedHref('business', language)} className="hover:text-gray-600 transition">
-              Бизнес
-            </Link>
-            <Link href={localizedHref('opinion', language)} className="hover:text-gray-600 transition">
-              Мнение
-            </Link>
-            <Link href={localizedHref('about', language)} className="hover:text-gray-600 transition">
-              О нас
-            </Link>
-          </div>
-        </div>
-      </nav>
+      <Header language={language} />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-50 to-cyan-50 py-16">
@@ -286,45 +228,7 @@ export default function YurmolaPage() {
         </article>
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-300 mt-12 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 py-8">
-          <div className="grid md:grid-cols-3 gap-8 mb-6">
-            <div>
-              <h3 className="font-bold mb-3">О проекте</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">
-                Jurmola Telegraphs – первое AI-powered сатирическое издание Балтии. 
-                Мы создаем юмористические новости о регионе с помощью искусственного интеллекта.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-bold mb-3">Разделы</h3>
-              <ul className="space-y-2 text-sm">
-                <li><Link href={localizedHref('politics', language)} className="text-gray-600 hover:text-gray-900">Политика</Link></li>
-                <li><Link href={localizedHref('culture', language)} className="text-gray-600 hover:text-gray-900">Культура</Link></li>
-                <li><Link href={localizedHref('business', language)} className="text-gray-600 hover:text-gray-900">Бизнес</Link></li>
-                <li><Link href={localizedHref('opinion', language)} className="text-gray-600 hover:text-gray-900">Мнение</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold mb-3">Информация</h3>
-              <ul className="space-y-2 text-sm">
-                <li><Link href={localizedHref('about', language)} className="text-gray-600 hover:text-gray-900">О нас</Link></li>
-                <li><Link href={localizedHref('jurmola', language)} className="text-gray-600 hover:text-gray-900">О Юрмале</Link></li>
-                <li><Link href={localizedHref('', language)} className="text-gray-600 hover:text-gray-900">Главная</Link></li>
-              </ul>
-            </div>
-          </div>
-          <div className="pt-6 border-t border-gray-300">
-            <div className="flex justify-between items-center text-sm text-gray-600">
-              <div>© 2026 Jurmola Telegraphs. Все права защищены.</div>
-            </div>
-            <div className="mt-4 text-xs text-gray-500 text-center">
-              ⚠️ Satirical content generated with AI assistance. Not real news.
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer language={language} />
     </div>
   );
 }
