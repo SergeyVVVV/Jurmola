@@ -22,7 +22,7 @@ const translations = {
     home: 'Home',
     rss: 'RSS Feed',
     copyright: 'All rights reserved.',
-    disclaimer: 'Satirical content generated with AI assistance. Not real news.',
+    disclaimer: 'AI-powered satire',
   },
   ru: {
     about: 'О проекте',
@@ -38,7 +38,7 @@ const translations = {
     home: 'Главная',
     rss: 'RSS-лента',
     copyright: 'Все права защищены.',
-    disclaimer: 'Сатирический контент, созданный с помощью ИИ. Не настоящие новости.',
+    disclaimer: 'Сатира на базе ИИ',
   },
   lv: {
     about: 'Par projektu',
@@ -54,7 +54,7 @@ const translations = {
     home: 'Sākums',
     rss: 'RSS barotne',
     copyright: 'Visas tiesības aizsargātas.',
-    disclaimer: 'Satīrisks saturs, radīts ar AI palīdzību. Nav īstas ziņas.',
+    disclaimer: 'AI satīra',
   },
 };
 
