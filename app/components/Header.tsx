@@ -51,7 +51,7 @@ export default function Header({ language }: HeaderProps) {
           </div>
           <div className="flex gap-3 items-center">
             <Link
-              href="/"
+              href="/?set-lang=ru"
               className={`px-2 py-1 cursor-pointer hover:text-black transition ${
                 language === 'ru' ? 'font-bold underline' : ''
               } text-gray-600`}
@@ -59,7 +59,7 @@ export default function Header({ language }: HeaderProps) {
               RU
             </Link>
             <Link
-              href="/en/"
+              href="/en/?set-lang=en"
               className={`px-2 py-1 cursor-pointer hover:text-black transition ${
                 language === 'en' ? 'font-bold underline' : ''
               } text-gray-600`}
@@ -67,7 +67,7 @@ export default function Header({ language }: HeaderProps) {
               EN
             </Link>
             <Link
-              href="/lv/"
+              href="/lv/?set-lang=lv"
               className={`px-2 py-1 cursor-pointer hover:text-black transition ${
                 language === 'lv' ? 'font-bold underline' : ''
               } text-gray-600`}

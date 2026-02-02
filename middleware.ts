@@ -43,6 +43,25 @@ export function middleware(request: NextRequest) {
     return response;
   }
 
+  // Handle language switcher (set-lang parameter)
+  const setLang = searchParams.get('set-lang');
+  if (setLang && ['ru', 'en', 'lv'].includes(setLang)) {
+    let targetPath = '/';
+    if (setLang === 'en') {
+      targetPath = '/en/';
+    } else if (setLang === 'lv') {
+      targetPath = '/lv/';
+    }
+    
+    const newUrl = new URL(targetPath, request.url);
+    const response = NextResponse.redirect(newUrl);
+    response.cookies.set(COOKIE_NAME, setLang, {
+      maxAge: 60 * 60 * 24 * 365,
+      path: '/',
+    });
+    return response;
+  }
+
   // MIGRATION: Handle old ?lang= parameter (301 permanent)
   const langParam = searchParams.get('lang');
   if (langParam) {
