@@ -84,7 +84,7 @@ export default function Home() {
         <LoadMoreArticles 
           articles={regularStories}
           language={language}
-          initialCount={19}
+          initialCount={18}
           loadMoreCount={15}
         />
       </main>
