@@ -34,9 +34,11 @@ export default function AboutPage() {
       <Header language={language} currentPath="about" />
 
       {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-4 py-12">
-        <article className="prose prose-lg max-w-none">
-          <h1 className="text-4xl font-bold mb-6">Par Jurmola Telegraphs</h1>
+      <main className="max-w-7xl mx-auto px-6 py-12">
+        <h1 className="text-5xl font-bold mb-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
+          Par Jurmola Telegraphs
+        </h1>
+        <article className="max-w-4xl">
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-4">Kas mēs esam?</h2>
