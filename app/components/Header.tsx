@@ -94,43 +94,43 @@ export default function Header({ language, currentPath }: HeaderProps) {
       {/* Navigation */}
       <nav className="border-b border-gray-300">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="flex gap-8 py-3 text-sm font-medium">
+          <div className="flex gap-8 py-3 text-sm">
             <Link 
               href={localizedHref('politics', language)} 
-              className={`hover:text-gray-600 transition border-b-2 pb-1 ${
-                currentPath === 'politics' ? 'font-bold border-black' : 'border-transparent'
+              className={`hover:text-gray-600 transition ${
+                currentPath === 'politics' ? 'font-bold' : 'font-medium'
               }`}
             >
               {t.politics}
             </Link>
             <Link 
               href={localizedHref('culture', language)} 
-              className={`hover:text-gray-600 transition border-b-2 pb-1 ${
-                currentPath === 'culture' ? 'font-bold border-black' : 'border-transparent'
+              className={`hover:text-gray-600 transition ${
+                currentPath === 'culture' ? 'font-bold' : 'font-medium'
               }`}
             >
               {t.culture}
             </Link>
             <Link 
               href={localizedHref('business', language)} 
-              className={`hover:text-gray-600 transition border-b-2 pb-1 ${
-                currentPath === 'business' ? 'font-bold border-black' : 'border-transparent'
+              className={`hover:text-gray-600 transition ${
+                currentPath === 'business' ? 'font-bold' : 'font-medium'
               }`}
             >
               {t.business}
             </Link>
             <Link 
               href={localizedHref('opinion', language)} 
-              className={`hover:text-gray-600 transition border-b-2 pb-1 ${
-                currentPath === 'opinion' ? 'font-bold border-black' : 'border-transparent'
+              className={`hover:text-gray-600 transition ${
+                currentPath === 'opinion' ? 'font-bold' : 'font-medium'
               }`}
             >
               {t.opinion}
             </Link>
             <Link 
               href={localizedHref('about', language)} 
-              className={`hover:text-gray-600 transition border-b-2 pb-1 ${
-                currentPath === 'about' ? 'font-bold border-black' : 'border-transparent'
+              className={`hover:text-gray-600 transition ${
+                currentPath === 'about' ? 'font-bold' : 'font-medium'
               }`}
             >
               {t.about}
