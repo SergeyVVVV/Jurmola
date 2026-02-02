@@ -53,7 +53,9 @@ export function middleware(request: NextRequest) {
       targetPath = '/lv/';
     }
     
+    // Add flag to prevent cookie-based redirect on next request
     const newUrl = new URL(targetPath, request.url);
+    newUrl.searchParams.set('_switched', '1');
     const response = NextResponse.redirect(newUrl);
     response.cookies.set(COOKIE_NAME, setLang, {
       maxAge: 60 * 60 * 24 * 365,
@@ -141,7 +143,9 @@ export function middleware(request: NextRequest) {
   }
 
   // If user has a preference cookie and is on root, respect their preference
-  if (preferredLang && pathname === '/') {
+  // BUT: skip if language was just switched (to avoid redirect loop with old cookie)
+  const justSwitched = searchParams.get('_switched');
+  if (preferredLang && pathname === '/' && !justSwitched) {
     if (preferredLang === 'en') {
       return NextResponse.redirect(new URL('/en/', request.url));
     } else if (preferredLang === 'lv') {
@@ -149,6 +153,13 @@ export function middleware(request: NextRequest) {
     }
     // Russian preference: stay on root
     return NextResponse.next();
+  }
+  
+  // If language was just switched, clean URL and continue
+  if (justSwitched) {
+    const cleanUrl = new URL(request.url);
+    cleanUrl.searchParams.delete('_switched');
+    return NextResponse.redirect(cleanUrl);
   }
 
   // For Russian content on root (no prefix), set cookie if not present
