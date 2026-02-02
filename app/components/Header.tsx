@@ -10,7 +10,7 @@ interface HeaderProps {
 
 const translations = {
   en: {
-    tagline: "The Baltic's Finest News Source",
+    tagline: "The Baltic's Finest Satirical News Source",
     politics: 'Politics',
     culture: 'Culture',
     business: 'Business',
@@ -18,7 +18,7 @@ const translations = {
     about: 'About',
   },
   ru: {
-    tagline: 'Лучший источник новостей Балтии',
+    tagline: 'Лучший источник сатирических новостей Балтии',
     politics: 'Политика',
     culture: 'Культура',
     business: 'Бизнес',
@@ -26,7 +26,7 @@ const translations = {
     about: 'О нас',
   },
   lv: {
-    tagline: 'Labākais Baltijas ziņu avots',
+    tagline: 'Labākais Baltijas satīrisko ziņu avots',
     politics: 'Politika',
     culture: 'Kultūra',
     business: 'Bizness',
