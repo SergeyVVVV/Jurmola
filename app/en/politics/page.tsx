@@ -44,7 +44,7 @@ export default function PoliticsPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Header language={language} />
+      <Header language={language} currentPath="politics" />
 
       <main className="max-w-7xl mx-auto px-6 py-12">
         <h1 className="text-5xl font-bold mb-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>

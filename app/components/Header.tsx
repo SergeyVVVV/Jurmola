@@ -5,6 +5,7 @@ type Language = 'en' | 'ru' | 'lv';
 
 interface HeaderProps {
   language: Language;
+  currentPath?: string; // e.g., 'politics', 'culture', 'about', etc.
 }
 
 const translations = {
@@ -34,7 +35,7 @@ const translations = {
   },
 };
 
-export default function Header({ language }: HeaderProps) {
+export default function Header({ language, currentPath }: HeaderProps) {
   const t = translations[language];
   
   return (
@@ -96,31 +97,41 @@ export default function Header({ language }: HeaderProps) {
           <div className="flex gap-8 py-3 text-sm font-medium">
             <Link 
               href={localizedHref('politics', language)} 
-              className="hover:text-gray-600 transition"
+              className={`hover:text-gray-600 transition ${
+                currentPath === 'politics' ? 'font-bold border-b-2 border-black pb-1' : ''
+              }`}
             >
               {t.politics}
             </Link>
             <Link 
               href={localizedHref('culture', language)} 
-              className="hover:text-gray-600 transition"
+              className={`hover:text-gray-600 transition ${
+                currentPath === 'culture' ? 'font-bold border-b-2 border-black pb-1' : ''
+              }`}
             >
               {t.culture}
             </Link>
             <Link 
               href={localizedHref('business', language)} 
-              className="hover:text-gray-600 transition"
+              className={`hover:text-gray-600 transition ${
+                currentPath === 'business' ? 'font-bold border-b-2 border-black pb-1' : ''
+              }`}
             >
               {t.business}
             </Link>
             <Link 
               href={localizedHref('opinion', language)} 
-              className="hover:text-gray-600 transition"
+              className={`hover:text-gray-600 transition ${
+                currentPath === 'opinion' ? 'font-bold border-b-2 border-black pb-1' : ''
+              }`}
             >
               {t.opinion}
             </Link>
             <Link 
               href={localizedHref('about', language)} 
-              className="hover:text-gray-600 transition"
+              className={`hover:text-gray-600 transition ${
+                currentPath === 'about' ? 'font-bold border-b-2 border-black pb-1' : ''
+              }`}
             >
               {t.about}
             </Link>
