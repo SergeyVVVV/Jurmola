@@ -22,7 +22,6 @@ const translations = {
     home: 'Home',
     rss: 'RSS Feed',
     copyright: 'All rights reserved.',
-    disclaimer: 'AI-powered satire',
   },
   ru: {
     about: 'О проекте',
@@ -38,7 +37,6 @@ const translations = {
     home: 'Главная',
     rss: 'RSS-лента',
     copyright: 'Все права защищены.',
-    disclaimer: 'Сатира на базе ИИ',
   },
   lv: {
     about: 'Par projektu',
@@ -54,7 +52,6 @@ const translations = {
     home: 'Sākums',
     rss: 'RSS barotne',
     copyright: 'Visas tiesības aizsargātas.',
-    disclaimer: 'AI satīra',
   },
 };
 
@@ -153,14 +150,9 @@ export default function Footer({ language }: FooterProps) {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-6 border-t border-gray-300">
-          <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 gap-4">
-            <div>
-              © {new Date().getFullYear()} Jurmola Telegraphs. {t.copyright}
-            </div>
-          </div>
-          <div className="mt-4 text-xs text-gray-500 text-center">
-            ⚠️ {t.disclaimer}
+        <div className="pt-6 border-t border-gray-300 text-center">
+          <div className="text-sm text-gray-600">
+            © {new Date().getFullYear()} Jurmola Telegraphs. {t.copyright}
           </div>
         </div>
       </div>
