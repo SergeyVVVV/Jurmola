@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Merriweather, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 const merriweather = Merriweather({
   weight: ['400', '700', '900'],
@@ -92,6 +93,7 @@ export default function RootLayout({
         className={`${merriweather.variable} ${sourceSerif.variable} antialiased`}
         style={{ fontFamily: 'var(--font-source-serif), Georgia, serif' }}
       >
+        <GoogleAnalytics />
         {children}
       </body>
     </html>
