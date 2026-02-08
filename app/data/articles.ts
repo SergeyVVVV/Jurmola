@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 85,
+    slug: "latvias-brilliant-plan-to-boost-tourism",
+    title: {
+      en: "Latvia's Brilliant Plan to Boost Tourism: Replace Streets with Saunas",
+      lv: "Latvijas spožais plāns tūrisma veicināšanai: Ielas aizstāt ar pirtīm",
+      ru: "Гениальный план Латвии по увеличению туризма: заменить улицы на сауны"
+    },
+    excerpt: {
+      en: "In a bold move to attract tourists seeking a truly unique Baltic experience, Latvian city planners announced an initiative to replace public streets with traditional Latvian saunas. Officials claim the move will provide 'warmth and connectivity' while solving the capital’s traffic issues.",
+      lv: "Lai piesaistītu tūristus, kuri meklē patiesi unikālu Baltijas pieredzi, Latvijas pilsētplānotāji paziņoja par iniciatīvu aizstāt publiskās ielas ar tradicionālajām Latvijas pirtīm. Amatpersonas apgalvo, ka šis solis nodrošinās 'siltumu un savienojamību', vienlaikus risinot galvaspilsētas satiksmes problēmas.",
+      ru: "В смелой попытке привлечь туристов, ищущих по-настоящему уникальный балтийский опыт, латвийские городские планировщики объявили об инициативе заменить общественные улицы на традиционные латвийские сауны. Чиновники утверждают, что этот шаг обеспечит 'тепло и связь', решая при этом проблемы с трафиком в столице."
+    },
+    fullContent: {
+      en: `In a groundbreaking development that’s already sending steamy ripples across Europe, the Latvian Ministry of Tourism has unveiled a revolutionary plan to replace all of the streets in Riga with traditional Latvian saunas by 2030. This initiative, humorously dubbed 'Hot Paths to Success,' aims to simultaneously ease urban traffic congestion and enhance the city’s appeal as a unique tourist destination.
+
+The newly appointed Minister of Tourism, Marta Karsinaite, elaborated on the idea during a heated press briefing, stating, “We believe this project will offer tourists an authentic and immersive experience that no other country can provide. Who needs Uber when you can sauna?”
+
+The decision has not come without controversy. Urban planning expert Dr. Eriks Zvaigzne declared, “Replacing asphalt with wood is a radical solution to traffic problems, but the public is really warming up to it. Plus, let’s face it, the sauna culture may be the only thing hotter than Riga's summer heat waves.”
+
+According to estimates from the Ministry of Tourism, Latvia expects to see a 300% increase in thermal tourists, a newly coined term for visitors who prioritize sweat-induced travel experiences. Some skeptics, however, raise concerns about the project. Aleksandrs Kalnins, a vocal critic and local car dealership owner, commented, “This is madness. Do they expect us to paddle our Volkswagen Passats down pools of heated rocks?”
+
+The proposed saunas will reportedly be eco-friendly and powered by the collective awkwardness of overly polite Baltic residents. According to the project’s chief engineer, Valdis Siltumnieks, a leading expert in thermodynamic urbanism, “There’s nothing more sustainable than converting latent social discomfort into energy. It’s just common sense.”
+
+The project has also sparked a new wave of competitive innovation. Vilnius has announced it will not be outdone by its northern neighbor and is now planning to replace all their sidewalks with massage parlors featuring Lithuanian amber instead.
+
+In response to the international media frenzy, Riga’s Mayor, Roberts Smiltins, reassured citizens that the initiative was designed with safety in mind. “If someone decides to throw a bucket of ice water on you to cool off, it simply adds to the authentic sauna experience. Just think of it as a cultural exchange!”
+
+Visitors, meanwhile, seem intrigued by the bold move. Linda Johansson, a tourist from Sweden, tweeted, “Riga is turning into a sauna? Count me in! I’ve always wanted to visit a city where I can wear a towel and a fur hat at the same time!”
+
+As 'Hot Paths to Success' moves forward, one thing is certain: Riga’s streets will no longer be just pathways of cobblestones but rather stepping stones to unprecedented novelty. In the end, as Minister Karsinaite optimistically put it, “Those who can’t steam alongside us can hardly expect to chill with us.”
+
+Whether this warm-hearted venture will reach hot potato status or melt away like last winter's ice, it’s clear that tourists, alongside the resilient Latvians, have a new reason to get all steamed up about visiting Riga.`,
+      lv: `Pārsteidzošā attīstībā, kas jau rada tvaikojošus viļņus visā Eiropā, Latvijas Tūrisma ministrija atklājusi revolucionāru plānu līdz 2030. gadam aizstāt visas Rīgas ielas ar tradicionālajām Latvijas pirtīm. Šī iniciatīva, humoristiski nosaukta par 'Karstie ceļi uz panākumiem', mērķē vienlaikus mazināt pilsētas satiksmes sastrēgumus un palielināt pilsētas pievilcību kā unikālu tūrisma galamērķi.
+
+Jaunieceltā Tūrisma ministre Marta Karšinaite preses konferencē, kas bija pilna ar aizrautību, izklāstīja ideju, sakot: “Mēs uzskatām, ka šis projekts piedāvās tūristiem autentisku un ieskaujošu pieredzi, kādu neviena cita valsts nevar nodrošināt. Kam vajadzīgs Uber, ja vari izmantot pirti?”
+
+Lēmums nav nācis bez pretrunām. Pilsētplānošanas eksperts Dr. Ēriks Zvaigzne paziņoja: “Asfalta aizstāšana ar koku ir radikāls risinājums satiksmes problēmām, bet sabiedrība patiešām sāk to pieņemt. Turklāt, būsim godīgi, pirts kultūra varētu būt vienīgais, kas ir karstāks par Rīgas vasaras karstuma viļņiem.”
+
+Saskaņā ar Tūrisma ministrijas aplēsēm, Latvija sagaida 300% pieaugumu termālo tūristu skaitā, jauns termins apmeklētājiem, kuri prioritizē ceļošanas pieredzes, kas izraisa svīšanu. Daži skeptiķi tomēr izsaka bažas par projektu. Aleksandrs Kalniņš, skaļš kritiķis un vietējais automašīnu dīleris, komentēja: “Tas ir neprāts. Vai viņi sagaida, ka mēs airēsim savus Volkswagen Passat pa sakarsētu akmeņu baseiniem?”
+
+Ierosinātās pirtis būs ekoloģiskas un darbinātas ar pārlieku pieklājīgo Baltijas iedzīvotāju kolektīvo neveiklību. Saskaņā ar projekta galveno inženieri Valdi Siltumnieku, vadošo termodinamiskās urbanizācijas ekspertu, “Nav nekā ilgtspējīgāka kā pārvērst latentās sociālās neērtības enerģijā. Tas ir tikai vesels saprāts.”
+
+Projekts arī izraisījis jaunu konkurences inovāciju vilni. Viļņa paziņojusi, ka tā neļaus savam ziemeļu kaimiņam sevi pārspēt un tagad plāno aizstāt visas savas ietves ar masāžas saloniem, kuros izmantots Lietuvas dzintars.
+
+Reaģējot uz starptautisko mediju traci, Rīgas mērs Roberts Smiltins mierināja iedzīvotājus, ka iniciatīva izstrādāta, domājot par drošību. “Ja kāds izlems uzliet jums spaini ar ledus ūdeni, lai atvēsinātos, tas vienkārši papildina autentisko pirts pieredzi. Vienkārši uzskatiet to par kultūras apmaiņu!”
+
+Tikmēr apmeklētāji šķiet ieinteresēti drosmīgajā solī. Linda Johansone, tūriste no Zviedrijas, tvītoja: “Rīga pārvēršas par pirti? Es esmu par! Es vienmēr esmu gribējusi apmeklēt pilsētu, kur varu valkāt dvieli un kažokādu cepuri vienlaikus!”
+
+Kā 'Karstie ceļi uz panākumiem' virzās uz priekšu, viena lieta ir skaidra: Rīgas ielas vairs nebūs tikai bruģakmeņu ceļi, bet gan soli uz nepieredzētu jaunumu. Galu galā, kā optimistiski izteicās ministre Karšinaite, “Tie, kas nevar tvaicēt kopā ar mums, diez vai var cerēt atpūsties kopā ar mums.”
+
+Vai šis sirsnīgais pasākums sasniegs karstā kartupeļa statusu vai izkusīs kā pagājušās ziemas ledus, ir skaidrs, ka tūristiem, kopā ar izturīgajiem latviešiem, ir jauns iemesls būt sajūsminātiem par Rīgas apmeklējumu.`,
+      ru: `В революционном развитии событий, которое уже вызывает паровые волны по всей Европе, Министерство туризма Латвии представило революционный план заменить все улицы в Риге на традиционные латвийские сауны к 2030 году. Эта инициатива, с юмором названная 'Горячие пути к успеху', направлена на одновременное снижение городской загруженности и повышение привлекательности города как уникального туристического направления.
+
+Новый министр туризма, Марта Карсините, подробно рассказала об идее на горячей пресс-конференции, заявив: "Мы считаем, что этот проект предложит туристам аутентичный и захватывающий опыт, который не может предоставить ни одна другая страна. Кому нужен Uber, когда можно в сауну?"
+
+Решение не обошлось без споров. Эксперт по городскому планированию доктор Эрикс Звайгзне заявил: "Замена асфальта на дерево — это радикальное решение проблем с трафиком, но общественность действительно согревается этой идеей. Плюс, давайте признаем, культура сауны может быть единственной вещью, горячее летних волн жары в Риге."
+
+Согласно оценкам Министерства туризма, Латвия ожидает 300% увеличение термальных туристов, новый термин для посетителей, которые отдают предпочтение путешествиям, вызывающим потоотделение. Однако некоторые скептики выражают обеспокоенность по поводу проекта. Александр Калнинс, ярый критик и владелец местного автосалона, прокомментировал: "Это безумие. Они ожидают, что мы будем грести наши Volkswagen Passat по бассейнам с нагретыми камнями?"
+
+Предполагается, что сауны будут экологически чистыми и будут работать за счет коллективной неловкости чрезмерно вежливых балтийских жителей. По словам главного инженера проекта, Валдиса Силтумниекса, ведущего эксперта в области термодинамического урбанизма, "Нет ничего более устойчивого, чем превращение скрытого социального дискомфорта в энергию. Это просто здравый смысл."
+
+Проект также вызвал новую волну конкурентных инноваций. Вильнюс объявил, что не позволит своему северному соседу превзойти его, и теперь планирует заменить все свои тротуары на массажные салоны с использованием литовского янтаря.
+
+В ответ на международный медиа-ажиотаж мэр Риги, Робертс Смилтиньш, заверил граждан, что инициатива была разработана с учетом безопасности. "Если кто-то решит облить вас ведром ледяной воды, чтобы охладиться, это просто добавит аутентичности опыту сауны. Просто подумайте об этом как о культурном обмене!"
+
+Между тем, посетители, похоже, заинтригованы смелым шагом. Линда Йоханссон, туристка из Швеции, твитнула: "Рига превращается в сауну? Я в деле! Я всегда хотела посетить город, где можно носить полотенце и меховую шапку одновременно!"
+
+По мере продвижения 'Горячих путей к успеху' одно можно сказать наверняка: улицы Риги больше не будут просто булыжными дорожками, а станут ступеньками к беспрецедентной новизне. В конце концов, как оптимистично выразилась министр Карсините, "Те, кто не может париться с нами, вряд ли смогут расслабиться с нами."
+
+Будет ли это теплосердечное предприятие достигать статуса горячей картошки или растает, как прошлогодний лед, ясно одно: у туристов, наряду с выносливыми латвийцами, появилась новая причина разгорячиться по поводу посещения Риги.`
+    },
+    date: "Feb 8, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/85/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 84,
     slug: "riga-to-introduce-new-singing-traffic",
     title: {
@@ -102,7 +183,7 @@ Ar īstenošanas lomu drīzu spēlēšanu ir skaidrs, ka Rīgas ielas ir tiešā
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/84/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 83,
