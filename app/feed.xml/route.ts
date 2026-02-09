@@ -3,10 +3,11 @@ import { articles, Article } from '../data/articles';
 
 function generateRSSItem(article: Article, language: 'en' | 'lv' | 'ru') {
   const baseUrl = 'https://jurmola.com';
+  const langPrefix = language === 'ru' ? '' : `/${language}`;
   const title = article.title[language];
   const description = article.excerpt[language];
-  const link = `${baseUrl}/news/${article.slug}`;
-  const guid = `${baseUrl}/news/${article.slug}`;
+  const link = `${baseUrl}${langPrefix}/news/${article.slug}`;
+  const guid = `${baseUrl}${langPrefix}/news/${article.slug}`;
   const pubDate = new Date(article.date).toUTCString();
   const category = article.category[language];
 
@@ -34,11 +35,12 @@ export async function GET(request: Request) {
     ru: 'Русский'
   };
 
+  const langPrefix = language === 'ru' ? '' : `/${language}`;
   const rss = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
     <title>Jurmola Telegraphs (${languageNames[language]})</title>
-    <link>https://jurmola.com</link>
+    <link>https://jurmola.com${langPrefix}/</link>
     <description>The Baltic's Finest News Source - Satirical news from Latvia, Jurmala, and beyond</description>
     <language>${language}</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>

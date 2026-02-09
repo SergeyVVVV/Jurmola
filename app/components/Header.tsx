@@ -83,9 +83,9 @@ export default function Header({ language, currentPath }: HeaderProps) {
       <header className="border-b border-gray-900">
         <div className="max-w-7xl mx-auto px-4 py-8 text-center">
           <Link href={localizedHref('', language)}>
-            <h1 className="font-serif text-6xl font-bold cursor-pointer hover:text-gray-700 transition">
+            <span className="font-serif text-6xl font-bold cursor-pointer hover:text-gray-700 transition block">
               Jurmola Telegraphs
-            </h1>
+            </span>
           </Link>
           <p className="text-sm mt-2 text-gray-600">{t.tagline}</p>
         </div>

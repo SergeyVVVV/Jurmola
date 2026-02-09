@@ -5,19 +5,19 @@ import GoogleAnalytics from "./components/GoogleAnalytics";
 
 const merriweather = Merriweather({
   weight: ['400', '700', '900'],
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic", "latin-ext"],
   variable: "--font-merriweather",
 });
 
 const sourceSerif = Source_Serif_4({
   weight: ['400', '600', '700'],
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic", "latin-ext"],
   variable: "--font-source-serif",
 });
 
 export const metadata: Metadata = {
   title: "Jurmola Telegraphs – Твоя Юрмала, Твоя Столица",
-  description: "Многие спрашивают нас, поэтому пишем в подзаголовке: наш ресурс не имеет никакого отношения к Лайме Вайкуле. Вообще. И к лаймам тоже.",
+  description: "Сатирические новости из Юрмалы, Латвии и Балтии. Первое AI-powered сатирическое издание в Прибалтике. Не имеем отношения к Лайме Вайкуле.",
   metadataBase: new URL('https://jurmola.com'),
   alternates: {
     canonical: '/',
@@ -37,16 +37,25 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Jurmola Telegraphs – Твоя Юрмала, Твоя Столица",
-    description: "Многие спрашивают нас, поэтому пишем в подзаголовке: наш ресурс не имеет никакого отношения к Лайме Вайкуле. Вообще. И к лаймам тоже.",
+    description: "Сатирические новости из Юрмалы, Латвии и Балтии. Первое AI-powered сатирическое издание в Прибалтике. Не имеем отношения к Лайме Вайкуле.",
     url: "https://jurmola.com",
     siteName: "Jurmola Telegraphs",
     locale: "ru_RU",
     type: "website",
+    images: [
+      {
+        url: "https://jurmola.com/images/grey-day-creature.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Jurmola Telegraphs – сатирические новости Балтии",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Jurmola Telegraphs – Твоя Юрмала, Твоя Столица",
-    description: "Многие спрашивают нас, поэтому пишем в подзаголовке: наш ресурс не имеет никакого отношения к Лайме Вайкуле. Вообще. И к лаймам тоже.",
+    description: "Сатирические новости из Юрмалы, Латвии и Балтии. Первое AI-powered сатирическое издание в Прибалтике. Не имеем отношения к Лайме Вайкуле.",
+    images: ["https://jurmola.com/images/grey-day-creature.jpg"],
   },
 };
 

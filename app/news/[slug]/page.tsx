@@ -92,9 +92,13 @@ export default async function ArticlePage({ params }: Props) {
         </div>
 
         <div className="mb-8 rounded-lg overflow-hidden">
-          <img 
-            src={getArticleImageUrl(article)} 
+          <img
+            src={getArticleImageUrl(article)}
             alt={article.title[language]}
+            width={800}
+            height={600}
+            decoding="async"
+            fetchPriority="high"
             className="w-full h-auto"
           />
         </div>

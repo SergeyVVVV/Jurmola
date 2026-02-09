@@ -43,15 +43,20 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 py-8">
-        
+        <h1 className="sr-only">Jurmola Telegraphs – Satirical News from the Baltics</h1>
+
         {/* Featured Story */}
         {featuredStory && (
           <article className="pb-12 mb-12">
             <div className="grid md:grid-cols-2 gap-8">
               <Link href={localizedHref(`news/${featuredStory.slug}`, language)} className="bg-gray-200 rounded-lg aspect-video overflow-hidden block">
-                <img 
-                  src={getArticleImageUrl(featuredStory)} 
+                <img
+                  src={getArticleImageUrl(featuredStory)}
                   alt={featuredStory.title[language]}
+                  width={800}
+                  height={600}
+                  decoding="async"
+                  fetchPriority="high"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </Link>
@@ -81,12 +86,21 @@ export default function Home() {
         </h3>
 
         {/* News Grid with Load More */}
-        <LoadMoreArticles 
+        <LoadMoreArticles
           articles={regularStories}
           language={language}
           initialCount={18}
           loadMoreCount={15}
         />
+
+        {/* Hidden crawlable links for articles beyond initial load (SEO) */}
+        <nav aria-label="All articles" className="sr-only">
+          {regularStories.slice(18).map((article) => (
+            <Link key={article.id} href={localizedHref(`news/${article.slug}`, language)}>
+              {article.title[language]}
+            </Link>
+          ))}
+        </nav>
       </main>
 
       <Footer language={language} />

@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import SetHtmlLang from "../components/SetHtmlLang";
 
 export const metadata: Metadata = {
   title: "Jurmola Telegraphs – Jūsu Jūrmala, Jūsu Galvaspilsēta",
-  description: "Daudzi mums jautā, tāpēc rakstām apakšvirsrakstā: mūsu resurss nav saistīts ar Laimu Vaikuli. Nemaz. Un arī nav saistīts ar laima.",
+  description: "Satīriskas ziņas no Jūrmalas, Latvijas un Baltijas. Pirmais AI darbinātais satīriskais izdevums Baltijas valstīs. Nav saistīts ar Laimu Vaikuli.",
   alternates: {
     canonical: 'https://jurmola.com/lv/',
     languages: {
@@ -14,11 +15,19 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Jurmola Telegraphs – Jūsu Jūrmala, Jūsu Galvaspilsēta",
-    description: "Daudzi mums jautā, tāpēc rakstām apakšvirsrakstā: mūsu resurss nav saistīts ar Laimu Vaikuli. Nemaz. Un arī nav saistīts ar laima.",
+    description: "Satīriskas ziņas no Jūrmalas, Latvijas un Baltijas. Pirmais AI darbinātais satīriskais izdevums Baltijas valstīs. Nav saistīts ar Laimu Vaikuli.",
     url: "https://jurmola.com/lv/",
     siteName: "Jurmola Telegraphs",
     locale: "lv_LV",
     type: "website",
+    images: [
+      {
+        url: "https://jurmola.com/images/grey-day-creature.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Jurmola Telegraphs – Baltijas satīriskās ziņas",
+      },
+    ],
   },
 };
 
@@ -27,5 +36,8 @@ export default function LvLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return <>
+    <SetHtmlLang lang="lv" />
+    {children}
+  </>;
 }

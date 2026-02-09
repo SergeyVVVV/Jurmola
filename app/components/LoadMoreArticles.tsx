@@ -54,9 +54,13 @@ export default function LoadMoreArticles({
               href={localizedHref(`news/${article.slug}`, language)} 
               className="bg-gray-200 rounded aspect-video overflow-hidden mb-4 block"
             >
-              <img 
-                src={getArticleImageUrl(article)} 
+              <img
+                src={getArticleImageUrl(article)}
                 alt={article.title[language]}
+                width={800}
+                height={600}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
             </Link>
