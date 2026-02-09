@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 86,
+    slug: "latvias-ministry-of-unnecessary-innovations-introduces",
+    title: {
+      en: "Latvia’s Ministry of Unnecessary Innovations Introduces 'Invisible Umbrellas' to Combat Baltic Rain",
+      lv: "Latvijas Nepieciešamo Inovāciju Ministrija ievieš 'Neredzamās Lietussargus', lai cīnītos ar Baltijas lietu",
+      ru: "Министерство ненужных инноваций Латвии представляет 'Невидимые зонты' для борьбы с балтийским дождем"
+    },
+    excerpt: {
+      en: "In a bold move to modernize traditional inconveniences, Latvia's latest state initiative has launched 'Invisible Umbrellas' that promise imperceptible protection from rain and drizzle. These innovative accessories come with a hefty price tag and an accompanying app that confirms their functionality.",
+      lv: "Drosmīgā solī modernizēt tradicionālās neērtības, Latvijas jaunākā valsts iniciatīva ir ieviesusi 'Neredzamās Lietussargus', kas sola nemanāmu aizsardzību pret lietu un smidzināšanu. Šie inovatīvie aksesuāri nāk ar augstu cenu un pavadošo lietotni, kas apstiprina to funkcionalitāti.",
+      ru: "В смелой попытке модернизировать традиционные неудобства, последняя государственная инициатива Латвии запустила 'Невидимые зонты', обещающие незаметную защиту от дождя и мороси. Эти инновационные аксессуары имеют внушительную цену и сопровождаются приложением, подтверждающим их функциональность."
+    },
+    fullContent: {
+      en: `RIGA—In what might be the most audacious bid to stand out on the world's stage of quirky innovations, Latvia has introduced its very own 'Invisible Umbrellas' to combat the notoriously unpredictable Baltic rain. The Ministry of Unnecessary Innovations, headed by Minister Ieva Spoks, unveiled the new product this Tuesday in an event attended by several bemused dignitaries and two curious cats.
+
+Minister Spoks, a former art curator with an eye for the absurd, described the Invisible Umbrella as ‘a beacon of Latvian ingenuity and a testament to our commitment to tackle problems no one else dares to address’. The umbrella, which is definitively invisible and purportedly waterproof, is designed to appear when needed via an innovative quantum-illusion app that is currently available for an introductory price of 99 euros on all app stores.
+
+“We all hold dear the experience of getting slightly wet under our trusty umbrellas in Jurmala’s drizzle,” Minister Spoks nostalgically remarked. “This product ensures you maintain that wet aura without the unnecessary burden of visible equipment.”
+
+Despite the obvious challenge of proving the effectiveness of an item that can’t be seen, invisible umbrellas have reportedly been a hit amongst local tech-enthusiasts, who commend its ability to remain consistently transparent. Renowned Latvian tech guru, Jānis Vilks, praised the move, saying, “It's essentially the Schrödinger’s umbrella: as long as you believe in it, it both works and doesn't work.”
+
+Economists were quick to question the massive 1.2 million euro allocation for the development of an umbrella that challenges the very concept of matter. However, spokesperson Māris Grauds assured critics that the investment was justified. “It’s part of our contingency plan for encouraging tourism. When visitors realize they can forget their umbrellas at home altogether, they will flock here just to verify our claims.”
+
+Critics, including the League of Sensible Umbrella Users, were less charitable. The League president, Anna Lietus, argued that the funds could have been better spent on improving weather forecasting technology rather than betting on invisibility. "We are a small but rainy nation. What we need are more precise forecasts, not imaginary shelters from the rain," she stated firmly.
+
+Nonetheless, the Invisible Umbrella initiative appears to have indeed captured the imagination of the younger Latvian generation. The 'Un-seen in Latvia' campaign on social media gained traction overnight, with millennials enthusiastically boasting of their vigor to withstand the Baltic chill with nothing more than air.
+
+As of Thursday, orders for the invisible umbrellas have skyrocketed. However, delivery services reportedly face challenges, as distinguishing between fulfilled and pending orders has become virtually impossible.
+
+Residents of Riga and beyond are eager to see whether these elusive umbrellas will transform the rainy realms they’ve always known. In the meantime, Urban Creative Solutions, the company behind the invisible umbrellas, is already working on their next project: the Emperor's New Raincoat, promised to revolutionize how Balts perceive staying dry.
+
+In an uncharacteristically sunny twist, the forecast for the upcoming week in Jurmala calls for nothing but clear skies. As for the impact of invisible umbrellas, only time—and perhaps a light drizzle—will tell.`,
+      lv: `RĪGA—Latvija, iespējams, ir veikusi visdrosmīgāko mēģinājumu izcelties pasaules dīvaino inovāciju arēnā, ieviešot savus 'Neredzamās Lietussargus', lai cīnītos ar bēdīgi slaveno neparedzamo Baltijas lietu. Nepieciešamo Inovāciju Ministrija, kuru vada ministre Ieva Spoks, šajā otrdienā atklāja jauno produktu pasākumā, kurā piedalījās vairāki apjukuši cienījamie viesi un divi ziņkārīgi kaķi.
+
+Ministre Spoks, bijusī mākslas kuratore ar aci uz absurdu, aprakstīja Neredzamo Lietussargu kā 'Latvijas izdomas bāku un apliecinājumu mūsu apņēmībai risināt problēmas, kuras neviens cits neuzdrošinās risināt'. Lietussargs, kas ir noteikti neredzams un it kā ūdensnecaurlaidīgs, ir paredzēts parādīties, kad nepieciešams, izmantojot inovatīvu kvantu-ilūzijas lietotni, kas pašlaik ir pieejama par ievada cenu 99 eiro visos lietotņu veikalos.
+
+"Mēs visi dārgājam pieredzi, kad nedaudz samirkstam zem mūsu uzticamajiem lietussargiem Jūrmalas smidzināšanā," ministre Spoks nostalģiski atzīmēja. "Šis produkts nodrošina, ka jūs saglabājat šo mitro auru bez nevajadzīgā redzamā aprīkojuma sloga."
+
+Neskatoties uz acīmredzamo izaicinājumu pierādīt priekšmeta efektivitāti, kas nav redzams, neredzamie lietussargi it kā ir kļuvuši populāri vietējo tehnoloģiju entuziastu vidū, kuri slavē tā spēju palikt konsekventi caurspīdīgam. Pazīstamais Latvijas tehnoloģiju guru Jānis Vilks slavēja šo soli, sakot: "Tas būtībā ir Šrēdingera lietussargs: kamēr jūs tam ticat, tas gan darbojas, gan nedarbojas."
+
+Ekonomisti ātri apšaubīja milzīgo 1,2 miljonu eiro piešķiršanu lietussarga izstrādei, kas izaicina pašu matērijas jēdzienu. Tomēr pārstāvis Māris Grauds apliecināja kritiķiem, ka ieguldījums bija pamatots. "Tas ir daļa no mūsu ārkārtas plāna tūrisma veicināšanai. Kad apmeklētāji sapratīs, ka var aizmirst savus lietussargus mājās pavisam, viņi plūdīs šeit tikai, lai pārbaudītu mūsu apgalvojumus."
+
+Kritiķi, tostarp Saprātīgo Lietussargu Lietotāju Līga, bija mazāk labvēlīgi. Līgas prezidente Anna Lietus apgalvoja, ka līdzekļus varēja labāk izlietot, uzlabojot laika prognozēšanas tehnoloģiju, nevis likt likmes uz neredzamību. "Mēs esam maza, bet lietaina nācija. Mums vajag precīzākas prognozes, nevis iedomātus patvērumus no lietus," viņa stingri paziņoja.
+
+Tomēr Neredzamo Lietussargu iniciatīva šķietami ir patiesi aizrāvusi jaunākās Latvijas paaudzes iztēli. Kampaņa 'Neredzēts Latvijā' sociālajos medijos ieguva popularitāti pa nakti, ar mileniāļiem entuziastiski lepojoties ar savu sparu izturēt Baltijas aukstumu ar neko vairāk kā gaisu.
+
+Ceturtdienas stāvoklī neredzamo lietussargu pasūtījumi ir strauji pieauguši. Tomēr piegādes dienesti it kā saskaras ar izaicinājumiem, jo kļūst praktiski neiespējami atšķirt izpildītos un gaidošos pasūtījumus.
+
+Rīgas un citu pilsētu iedzīvotāji ir ieinteresēti redzēt, vai šie nenotveramie lietussargi pārveidos lietainās valstības, kuras viņi vienmēr ir pazinuši. Tikmēr Urban Creative Solutions, uzņēmums aiz neredzamajiem lietussargiem, jau strādā pie nākamā projekta: Imperatora Jaunais Lietusmētelis, kas solās revolucionizēt, kā Balti uztver sausuma saglabāšanu.
+
+Netipiski saulainā pavērsienā nākamās nedēļas prognoze Jūrmalā sola tikai skaidras debesis. Kas attiecas uz neredzamo lietussargu ietekmi, tikai laiks—un varbūt viegla smidzināšana—parādīs.`,
+      ru: `РИГА — В, возможно, самой дерзкой попытке выделиться на мировой арене причудливых инноваций, Латвия представила свои собственные 'Невидимые зонты' для борьбы с печально известным непредсказуемым балтийским дождем. Министерство ненужных инноваций, возглавляемое министром Иевой Спокс, представило новый продукт во вторник на мероприятии, которое посетили несколько озадаченных сановников и два любопытных кота.
+
+Министр Спокс, бывший куратор искусства с чувством абсурда, описала Невидимый зонт как 'маяк латвийской изобретательности и свидетельство нашей приверженности решению проблем, которые никто другой не осмеливается решать'. Зонт, который определенно невидим и предположительно водонепроницаем, предназначен для появления, когда это необходимо, с помощью инновационного приложения квантовой иллюзии, которое в настоящее время доступно по вводной цене 99 евро во всех магазинах приложений.
+
+"Мы все дорожим опытом слегка промокнуть под нашими надежными зонтами в юрмальской мороси," с ностальгией отметила министр Спокс. "Этот продукт гарантирует, что вы сохраните эту влажную ауру без ненужной нагрузки видимого оборудования."
+
+Несмотря на очевидную проблему доказательства эффективности предмета, который нельзя увидеть, невидимые зонты, как сообщается, стали хитом среди местных техно-энтузиастов, которые хвалят их способность оставаться постоянно прозрачными. Известный латвийский техно-гуру Янис Вилкс похвалил этот шаг, сказав: "Это, по сути, зонт Шрёдингера: пока вы в него верите, он и работает, и не работает."
+
+Экономисты быстро поставили под сомнение огромные 1,2 миллиона евро, выделенные на разработку зонта, который бросает вызов самому понятию материи. Однако представитель Марис Граудс заверил критиков, что инвестиция была оправдана. "Это часть нашего плана поощрения туризма. Когда посетители поймут, что могут забыть свои зонты дома, они устремятся сюда, чтобы проверить наши утверждения."
+
+Критики, включая Лигу здравомыслящих пользователей зонтов, были менее благосклонны. Президент Лиги Анна Лиетус утверждала, что средства могли бы быть лучше потрачены на улучшение технологий прогнозирования погоды, а не на ставки на невидимость. "Мы — маленькая, но дождливая нация. Нам нужны более точные прогнозы, а не воображаемые укрытия от дождя," заявила она твердо.
+
+Тем не менее, инициатива с Невидимыми зонтами, похоже, действительно захватила воображение молодого латвийского поколения. Кампания 'Не-видимое в Латвии' в социальных сетях набрала популярность за ночь, с энтузиазмом заявляя о своей готовности противостоять балтийскому холоду с ничем, кроме воздуха.
+
+По состоянию на четверг, заказы на невидимые зонты резко возросли. Однако службы доставки, как сообщается, сталкиваются с трудностями, так как различие между выполненными и ожидающими заказами стало практически невозможным.
+
+Жители Риги и за её пределами с нетерпением ждут, изменят ли эти неуловимые зонты дождливые миры, которые они всегда знали. Тем временем Urban Creative Solutions, компания, стоящая за невидимыми зонтами, уже работает над своим следующим проектом: Новым дождевиком императора, который обещает революционизировать восприятие Балтов о том, как оставаться сухими.
+
+В неожиданно солнечном повороте событий, прогноз на предстоящую неделю в Юрмале обещает только ясное небо. Что касается влияния невидимых зонтов, только время — и, возможно, легкая морось — покажет.`
+    },
+    date: "Feb 9, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/86/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 85,
     slug: "latvias-brilliant-plan-to-boost-tourism",
     title: {
@@ -96,7 +177,7 @@ Vai šis sirsnīgais pasākums sasniegs karstā kartupeļa statusu vai izkusīs 
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/85/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 84,
