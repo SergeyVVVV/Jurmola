@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 87,
+    slug: "riga-declares-itself-capital-city-of",
+    title: {
+      en: "Riga Declares Itself 'Capital City of Pothole Tourism,' Expects Influx of Enthusiasts",
+      lv: "Rīga pasludina sevi par 'Bedru tūrisma galvaspilsētu', sagaida entuziastu pieplūdumu",
+      ru: "Рига объявила себя 'столицей ямочного туризма', ожидает наплыва энтузиастов"
+    },
+    excerpt: {
+      en: "In a bold move to capitalize on its unique infrastructure, Riga city officials have rebranded the capital as the world's premier destination for pothole enthusiasts. New guided tours promise an 'authentic experience' of the city's famously enigmatic streets.",
+      lv: "Drosmīgā solī, lai izmantotu savu unikālo infrastruktūru, Rīgas pilsētas amatpersonas ir pārveidojušas galvaspilsētu par pasaules galveno galamērķi bedru entuziastiem. Jaunās ekskursijas sola 'autentisku pieredzi' pilsētas slaveno, noslēpumaino ielu izpētē.",
+      ru: "В смелом шаге по использованию своей уникальной инфраструктуры, власти Риги переименовали столицу в мировую столицу для энтузиастов ям. Новые экскурсии обещают 'аутентичный опыт' загадочных улиц города."
+    },
+    fullContent: {
+      en: `Riga, Latvia — Seeking to boost tourism and creativity, Riga has declared itself the world’s first official 'Capital City of Pothole Tourism,' a daring initiative meant to attract visitors with a penchant for the uniquely uneven. It's a move city officials hope will turn what locals affectionately dub 'road craters' into cultural icons.
+
+At a press conference held on the ironically smooth floors of Town Hall, Mayor Raitis Kalninš announced the newly funded initiative: 'We Latvians have always prided ourselves on our resilience and resourcefulness. If life gives you potholes, make them landmarks.' The declaration marks an unprecedented pivot in the city's approach to tourism, traditionally lovelorn over its penchant for cobblestones and medieval charm.
+
+The mayor's plan includes guided tours titled 'The Pothole Promenade,' where avid hole followers can navigate famous routes such as Avotu Street's 'Crater Row' and 'Arthur's Abyss' on Brīvības iela. Each notorious pothole has been given a whimsical name and backstory, complete with an interactive app detailing its 'discovery', historical significance, and the tire casualties it has caused.
+
+'It's not merely about attraction,' explains Ilze Sirgēja, the city’s newly appointed Pothole Curator, touting a master's degree in Urban Quirks from the University of Latvian Oddities. 'These features are testaments to Riga's endurance. We want visitors to engage with them, to be moved—as they are moved when their buses hit them.'
+
+Statistics back the city's optimistic vision. A recent survey published in 'Asphalt Afar Magazine' found that 67% of tourists prefer roads they describe as 'playfully unpredictable,' while 25% claim they seek cities with 'character you can feel underfoot.' Riding on these dynamics, Riga hopes to double its annual tourism income by integrating 'pleasurable bumps' into travel packages.
+
+Despite the fanfare, not all residents are on board. Janis Pibuls, an irate local who claims a pothole once swallowed his entire left shoe, says, 'In my day, we filled holes, not framed them on social media.' However, city officials counter that thousands of endorsers on Instagram have creatively hashtagged their allegiance with #RigaRogueRoutes, posting selfies of themselves straddling the city's open infrastructure.
+
+Local businesses are enthusiastically getting in on the act, with one startup offering 'pothole tours' by refurbished Soviet tram. These tours give participants the 'true historical resonance' of the pothole experience, featuring traditional Latvian refreshments to sate the jarring commute. Additionally, reputable cafes have started serving 'Riga Road Latte,' cleverly mimicking at the froth disruptions akin to their namesakes.
+
+Experts are divided on Riga’s newest innovation. 'What Rīga is doing is revolutionary,' says Guntis Zvanits, a self-proclaimed expert on eccentric travel destinations. 'Who could have guessed that our neglected roads would become the very foundation upon which we turn this city into a juggernaut of niche tourism!'
+
+Although still in its infancy, the initiative seems to be shaping up as a successful venture. Officials remain hopeful, while a new slogan for the city potentially says it all: 'Riga – It’s ALL in the bumps!'
+
+Future plans for Rīga even tease adventure sports involving potholes, such as 'extreme short-stop driving' and 'pothole navigation races' for those willing to take the plunge—literally. Thus, through clever rebranding and a little serious satire, Rīga quests to re-read their roads, making what was once an eye-rolling annoyance into an eye-opening adventure.`,
+      lv: `Rīga, Latvija — Cenšoties veicināt tūrismu un radošumu, Rīga ir pasludinājusi sevi par pasaulē pirmo oficiālo 'Bedru tūrisma galvaspilsētu', drosmīgu iniciatīvu, kas paredzēta, lai piesaistītu apmeklētājus ar tieksmi pēc unikāli nelīdzenā. Tas ir solis, ko pilsētas amatpersonas cer pārvērst par kultūras ikonām to, ko vietējie mīļi dēvē par 'ceļu krāteriem'.
+
+Preses konferencē, kas notika ironiski gludajos Rātsnama grīdas segumos, mērs Raitis Kalniņš paziņoja par jaunizveidoto iniciatīvu: 'Mēs, latvieši, vienmēr esam lepojušies ar savu izturību un atjautību. Ja dzīve dod bedres, padariet tās par apskates objektiem.' Šis paziņojums iezīmē nepieredzētu pavērsienu pilsētas pieejā tūrismam, kas tradicionāli ir bijusi iemīlējusies bruģakmeņos un viduslaiku šarmā.
+
+Mēra plānā ietilpst ekskursijas ar nosaukumu 'Bedru promenāde', kur dedzīgi bedru sekotāji var izstaigāt slavenus maršrutus, piemēram, Avotu ielas 'Krāteru rindu' un 'Artura bezdibeņu' Brīvības ielā. Katrai slavenajai bedrei ir piešķirts rotaļīgs nosaukums un stāsts, kas ietver interaktīvu lietotni, kurā aprakstīta tās 'atklāšana', vēsturiskā nozīme un riepu upuri, ko tā ir izraisījusi.
+
+'Tas nav tikai par pievilcību,' skaidro Ilze Sirģēja, pilsētas jaunieceltais Bedru kurators, kas lepojas ar maģistra grādu Pilsētas dīvainībās Latvijas Dīvainību universitātē. 'Šīs iezīmes ir Rīgas izturības apliecinājums. Mēs vēlamies, lai apmeklētāji ar tām iesaistītos, lai viņi būtu aizkustināti — kā viņi tiek aizkustināti, kad viņu autobusi tās sasniedz.'
+
+Statistika atbalsta pilsētas optimistisko redzējumu. Nesenā aptaujā, kas publicēta 'Asfalt Afar Magazine', atklājās, ka 67% tūristu dod priekšroku ceļiem, kurus viņi raksturo kā 'rotaļīgi neparedzamus', savukārt 25% apgalvo, ka viņi meklē pilsētas ar 'raksturu, ko var sajust zem kājām'. Balstoties uz šiem dinamikas faktoriem, Rīga cer dubultot savu ikgadējo tūrisma ienākumu, integrējot 'patīkamus triecienus' ceļojumu paketēs.
+
+Neskatoties uz fanfarām, ne visi iedzīvotāji ir apmierināti. Jānis Pibuls, dusmīgs vietējais iedzīvotājs, kurš apgalvo, ka bedre reiz norija visu viņa kreiso apavu, saka: 'Manā laikā mēs aizpildījām bedres, nevis ierāmējām tās sociālajos tīklos.' Tomēr pilsētas amatpersonas apgalvo, ka tūkstošiem atbalstītāju Instagram ir radoši hashtagējuši savu uzticību ar #RigaRogueRoutes, publicējot selfijus, kuros viņi pozē uz pilsētas atvērtās infrastruktūras.
+
+Vietējie uzņēmumi entuziastiski iesaistās šajā pasākumā, un viens jaunuzņēmums piedāvā 'bedru ekskursijas' ar atjaunotiem padomju tramvajiem. Šīs ekskursijas sniedz dalībniekiem 'patieso vēsturisko rezonansi' bedru pieredzē, piedāvājot tradicionālos latviešu atspirdzinājumus, lai apmierinātu triecienpilno braucienu. Turklāt cienījamas kafejnīcas ir sākušas piedāvāt 'Rīgas ceļu latte', kas gudri atdarina putu traucējumus, kas līdzinās to nosaukumiem.
+
+Eksperti ir sadalīti par Rīgas jaunāko inovāciju. 'Tas, ko Rīga dara, ir revolucionārs,' saka Guntis Zvanīts, pašpasludināts ekscentrisko ceļojumu galamērķu eksperts. 'Kurš gan varēja iedomāties, ka mūsu atstātie ceļi kļūs par pamatu, uz kura mēs pārvēršam šo pilsētu par nišas tūrisma gigantu!'
+
+Lai gan iniciatīva vēl ir sākumstadijā, tā, šķiet, veidojas kā veiksmīgs pasākums. Amatpersonas paliek cerīgas, kamēr jaunais pilsētas sauklis, iespējams, pasaka visu: 'Rīga – VISS ir bedrēs!'
+
+Nākotnes plāni Rīgai pat ietver piedzīvojumu sporta veidus, kas saistīti ar bedrēm, piemēram, 'ekstrēmo īsstopu braukšanu' un 'bedru navigācijas sacīkstes' tiem, kas ir gatavi mesties iekšā — burtiski. Tādējādi, izmantojot gudru zīmolu maiņu un nedaudz nopietnu satīru, Rīga cenšas pārrakstīt savus ceļus, padarot to, kas reiz bija acu rullēšanas traucējums, par acu atvēršanas piedzīvojumu.`,
+      ru: `Рига, Латвия — В стремлении повысить туризм и креативность, Рига объявила себя первой в мире официальной 'столицей ямочного туризма', дерзкой инициативой, призванной привлечь посетителей с тягой к уникально неровному. Это шаг, который городские власти надеются превратить то, что местные жители ласково называют 'дорожными кратерами', в культурные иконы.
+
+На пресс-конференции, проведенной на иронично гладких полах Ратуши, мэр Райтис Калниньш объявил о новой финансируемой инициативе: 'Мы, латыши, всегда гордились своей стойкостью и находчивостью. Если жизнь дает вам ямы, сделайте из них достопримечательности.' Это заявление знаменует собой беспрецедентный поворот в подходе города к туризму, традиционно влюбленному в свою склонность к булыжникам и средневековому очарованию.
+
+План мэра включает экскурсии под названием 'Ямочная прогулка', где увлеченные последователи ям могут пройти по знаменитым маршрутам, таким как 'Кратерный ряд' на улице Авоту и 'Бездна Артура' на Бривибас иела. Каждая известная яма получила причудливое имя и предысторию, дополненную интерактивным приложением, описывающим её 'открытие', историческое значение и количество пострадавших шин.
+
+'Это не просто об аттракционе,' объясняет Илзе Сиргейя, недавно назначенная куратор ям города, обладающая степенью магистра в области городских странностей из Университета латвийских странностей. 'Эти особенности являются свидетельством стойкости Риги. Мы хотим, чтобы посетители взаимодействовали с ними, чтобы их трогало — как их трясет, когда их автобусы на них наезжают.'
+
+Статистика подтверждает оптимистичное видение города. Недавний опрос, опубликованный в журнале 'Asphalt Afar Magazine', показал, что 67% туристов предпочитают дороги, которые они описывают как 'игриво непредсказуемые', в то время как 25% утверждают, что ищут города с 'характером, который можно почувствовать под ногами.' Опираясь на эти динамики, Рига надеется удвоить свой ежегодный доход от туризма, интегрируя 'приятные ухабы' в туристические пакеты.
+
+Несмотря на ажиотаж, не все жители поддерживают эту идею. Янис Пибулс, возмущенный местный житель, утверждающий, что однажды яма поглотила его всю левую обувь, говорит: 'В мое время мы заполняли ямы, а не выкладывали их в соцсети.' Однако городские власти возражают, что тысячи сторонников в Instagram креативно хештегируют свою приверженность с #RigaRogueRoutes, выкладывая селфи, на которых они позируют на открытой инфраструктуре города.
+
+Местные предприятия с энтузиазмом поддерживают эту идею, и один стартап предлагает 'туры по ямам' на отреставрированном советском трамвае. Эти туры дают участникам 'истинный исторический резонанс' ямочного опыта, предлагая традиционные латвийские угощения, чтобы утолить жажду во время тряской поездки. Кроме того, уважаемые кафе начали подавать 'Рижский дорожный латте', искусно имитируя вспененные нарушения, подобные их тезкам.
+
+Эксперты разделились во мнениях о новом нововведении Риги. 'То, что делает Рига, — это революционно,' говорит Гунтис Званитс, самопровозглашенный эксперт по эксцентричным туристическим направлениям. 'Кто бы мог подумать, что наши заброшенные дороги станут самой основой, на которой мы превратим этот город в гиганта нишевого туризма!'
+
+Хотя инициатива все еще находится на начальной стадии, она, похоже, формируется как успешное предприятие. Официальные лица остаются оптимистичными, а новый слоган города, возможно, говорит сам за себя: 'Рига — все в ухабах!'
+
+Будущие планы для Риги даже подразумевают экстремальные виды спорта, связанные с ямами, такие как 'экстремальное резкое торможение' и 'гонки по навигации по ямам' для тех, кто готов рискнуть — буквально. Таким образом, благодаря креативному ребрендингу и немного серьезной сатиры, Рига стремится переосмыслить свои дороги, превращая то, что когда-то было раздражающим фактором, в захватывающее приключение.`
+    },
+    date: "Feb 10, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/87/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 86,
     slug: "latvias-ministry-of-unnecessary-innovations-introduces",
     title: {
@@ -96,7 +177,7 @@ Netipiski saulainā pavērsienā nākamās nedēļas prognoze Jūrmalā sola tik
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/86/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 85,
