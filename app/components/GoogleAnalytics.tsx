@@ -4,7 +4,9 @@ import { useEffect } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 import Script from 'next/script';
 
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-TVKXQMVD6T';
+// Use Google Tag ID (not the measurement ID) for proper tracking
+// This is the container-level tag that Google Analytics recommends
+const GA_TAG_ID = process.env.NEXT_PUBLIC_GA_TAG_ID || 'G-0442LLMQPJ';
 
 // Declare gtag function for TypeScript
 declare global {
@@ -28,7 +30,7 @@ export default function GoogleAnalytics() {
 
     const url = pathname + (searchParams?.toString() ? `?${searchParams.toString()}` : '');
 
-    window.gtag('config', GA_MEASUREMENT_ID, {
+    window.gtag('config', GA_TAG_ID, {
       page_path: url,
     });
   }, [pathname, searchParams]);
@@ -37,7 +39,7 @@ export default function GoogleAnalytics() {
     <>
       <Script
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TAG_ID}`}
       />
       <Script
         id="google-analytics"
@@ -56,8 +58,8 @@ export default function GoogleAnalytics() {
               'ad_personalization': 'denied'
             });
 
-            // Initialize GA4 with enhanced measurement
-            gtag('config', '${GA_MEASUREMENT_ID}', {
+            // Initialize GA4 with the Google Tag ID
+            gtag('config', '${GA_TAG_ID}', {
               page_path: window.location.pathname + window.location.search,
               send_page_view: true,
               cookie_flags: 'SameSite=None;Secure'
