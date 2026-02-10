@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Merriweather, Source_Serif_4 } from "next/font/google";
+import { Suspense } from "react";
 import "./globals.css";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 
@@ -102,7 +103,9 @@ export default function RootLayout({
         className={`${merriweather.variable} ${sourceSerif.variable} antialiased`}
         style={{ fontFamily: 'var(--font-source-serif), Georgia, serif' }}
       >
-        <GoogleAnalytics />
+        <Suspense fallback={null}>
+          <GoogleAnalytics />
+        </Suspense>
         {children}
       </body>
     </html>
