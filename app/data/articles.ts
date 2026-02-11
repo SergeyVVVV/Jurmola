@@ -18,6 +18,75 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 88,
+    slug: "latvia-reintroduces-king-of-bonfires-to",
+    title: {
+      en: "Latvia Reintroduces 'King of Bonfires' to Inspire Next Generation of Fire Enthusiasts",
+      lv: "Latvija Atjauno 'Ugunsgrēku Karali', lai Iedvesmotu Nākamo Uguns Entuziastu Paaudzi",
+      ru: "Латвия возрождает 'Короля Костров', чтобы вдохновить новое поколение любителей огня"
+    },
+    excerpt: {
+      en: "In a bold move to reignite national pride and rekindle ancient traditions, Latvia has announced the resurrection of the 'King of Bonfires' persona. This flamboyant figure, believed to have been extinguished sometime during the 18th century due to excessive smoke complaints, is set to make a comeback at this year's midsummer festival.",
+      lv: "Drosmīgā solī, lai atjaunotu nacionālo lepnumu un atdzīvinātu senās tradīcijas, Latvija paziņojusi par 'Ugunsgrēku Karaļa' personības atdzimšanu. Šī krāšņā figūra, kas ticis izdzēsts kaut kad 18. gadsimtā pārmērīgu dūmu sūdzību dēļ, atgriezīsies šī gada Jāņu svētkos.",
+      ru: "В смелой попытке возродить национальную гордость и оживить древние традиции, Латвия объявила о воскрешении персонажа 'Короля Костров'. Этот яркий образ, как полагают, был погашен в XVIII веке из-за чрезмерных жалоб на дым, готов вернуться на фестивале середины лета в этом году."
+    },
+    fullContent: {
+      en: `In an unprecedented attempt to revive and celebrate its blazing cultural heritage, the Latvian Ministry of Cultural Heating announced this week the reintroduction of the 'King of Bonfires.' The ambitious venture seeks to light up local traditions with a modern spark by appointing a charismatic individual to serve as national pyrotechnic ambassador.
+
+According to Minister of Cultural Heating, Ilze Ugunsstrēlniece, the role of the 'King of Bonfires' dates back to a time when controlling flames was considered a noble art, and the person with the best fire-starting skills was celebrated throughout the midsummer festivities.
+
+'Fire has been at the heart of our culture since before the invention of modern central heating,' Ugunsstrēlniece remarked emphatically during a press conference earlier this week. 'We intend to relight this passion and encourage the youth to look beyond the achievements of LED technology and rediscover the simple joy of a crackling bonfire without a permit.'
+
+The search for the perfect candidate to fill this eagerly awaited position has ignited national interest. According to statistics compiled by the Ministry, participation numbers in bonfire-building contests have reached an all-time high, with over 3,000 enthusiastic applicants sending in their résumés, all annotated with their personal best in flame height.
+
+Jānis Sērkociņš, a 35-year-old fire enthusiast and part-time dragon tamer from Jelgava, has quickly emerged as the frontrunner. Sērkociņš claims an impressive record of setting a bonfire visible from Estonia. 'Being crowned King of Bonfires isn't just about the blaze but also about ensuring it doesn't char the neighbour's potato patch,' Sērkociņš commented. 'With the right kind of tree branches and a strategic breeze, you can achieve a conflagration that makes people pause, cheer, or even call the local fire department.'
+
+However, this fiery endeavor has seen its fair share of skeptics. Helena Auklesana, chair of the local Society for Smoke-Free Living, has publicly raised concerns about the initiative. 'While we respect the cultural significance of fire, we mustn't forget the dangers it poses to public health and laundry lines. Our ancestors did not have laundry or pollution concerns, let alone reading-kitchen dynamism.'
+
+Nonetheless, the Ministry's future plans appear impossibly bright. With the King of Bonfires slated to officially debut at the upcoming Jāņi celebration in Riga, officials are optimistic this will spark a resurgence of interest in fire-based activities. Meanwhile, smaller towns across Latvia are organizing their own 'Build-a-Bonfire' workshops, aiming to set a new world record for simultaneous bonfire ignition with minimal collateral damage.
+
+As the country prepares for an inferno of festivities, some wonder if this rekindling will lead to the creation of new honorary positions such as the Prince of Sparklers or the Duchess of Smokeless Fuels. Whatever the outcome, one thing is clear: this summer, Latvia intends to set the world alight—hopefully in the most celebratory way possible, with minimal need for fire extinguishers.`,
+      lv: `Nepieredzētā mēģinājumā atdzīvināt un svinēt savu kvēlojošo kultūras mantojumu, Latvijas Kultūras Sildīšanas ministrija šonedēļ paziņoja par 'Ugunsgrēku Karaļa' atjaunošanu. Ambiciozais projekts cenšas iedegt vietējās tradīcijas ar modernu dzirksti, ieceļot harizmātisku indivīdu par nacionālo pirotehnikas vēstnieku.
+
+Pēc Kultūras Sildīšanas ministres Ilzes Ugunsstrēlnieces teiktā, 'Ugunsgrēku Karaļa' loma datējas ar laiku, kad liesmu kontrolēšana tika uzskatīta par cēlu mākslu, un persona ar labākajām uguns iedegšanas prasmēm tika svinēta visā Jāņu svinību laikā.
+
+'Uguns ir bijis mūsu kultūras sirdī kopš laikiem pirms modernās centrālās apkures izgudrošanas,' Ugunsstrēlniece uzsvēra preses konferencē šīs nedēļas sākumā. 'Mēs plānojam atjaunot šo kaislību un mudināt jauniešus skatīties tālāk par LED tehnoloģiju sasniegumiem un atklāt vienkāršo prieku par sprakšķošu ugunskuru bez atļaujas.'
+
+Perfektā kandidāta meklējumi, lai aizpildītu šo ilgi gaidīto amatu, ir izraisījuši nacionālu interesi. Saskaņā ar ministrijas apkopoto statistiku, dalībnieku skaits ugunskuru būvēšanas konkursos ir sasniedzis visu laiku augstāko līmeni, ar vairāk nekā 3,000 entuziastisku pieteikumu, kuri visi anotēti ar personīgo rekordu liesmas augstumā.
+
+Jānis Sērkociņš, 35 gadus vecs uguns entuziasts un pusslodzes pūķu pieradinātājs no Jelgavas, ātri izvirzījies kā līderis. Sērkociņš apgalvo, ka viņam ir iespaidīgs rekords, uzstādot ugunskuru, kas redzams no Igaunijas. 'Tikt kronētam par Ugunsgrēku Karali nav tikai par liesmu, bet arī par to, lai tā neapdedzinātu kaimiņa kartupeļu lauku,' Sērkociņš komentēja. 'Ar pareizajiem koku zariem un stratēģisku vēju, jūs varat sasniegt ugunsgrēku, kas liek cilvēkiem apstāties, gavilēt vai pat zvanīt vietējai ugunsdzēsības dienestam.'
+
+Tomēr šī ugunīgā iniciatīva ir saskārusies ar savu skeptiķu daļu. Helēna Auklesana, vietējās Bez Dūmiem Dzīvošanas Biedrības priekšsēdētāja, publiski paudusi bažas par iniciatīvu. 'Lai gan mēs cienām uguns kultūras nozīmi, mēs nedrīkstam aizmirst par draudiem, ko tā rada sabiedrības veselībai un veļas auklām. Mūsu senči neuztraucās par veļu vai piesārņojumu, nemaz nerunājot par lasīšanas-virtuves dinamiku.'
+
+Tomēr ministrijas nākotnes plāni šķiet neiespējami gaiši. Ar Ugunsgrēku Karali, kas oficiāli debitēs gaidāmajā Jāņu svinēšanā Rīgā, amatpersonas ir optimistiskas, ka tas izraisīs interesi par uguns aktivitātēm. Tikmēr mazākas pilsētas visā Latvijā organizē savas 'Ugunskura Būvēšanas' darbnīcas, cenšoties uzstādīt jaunu pasaules rekordu vienlaicīgā ugunskuru iedegšanā ar minimāliem blakus bojājumiem.
+
+Kā valsts gatavojas svētku ugunsgrēkam, daži brīnās, vai šī atdzimšana novedīs pie jaunu goda amatu izveides, piemēram, Dzirksteļu Princis vai Bez Dūmiem Degvielu Hercogiene. Lai kāds būtu iznākums, viena lieta ir skaidra: šovasar Latvija plāno aizdedzināt pasauli — cerams, vispriecīgākajā veidā, ar minimālu nepieciešamību pēc ugunsdzēšamajiem aparātiem.`,
+      ru: `В беспрецедентной попытке возродить и отпраздновать свое пылающее культурное наследие, Министерство культурного отопления Латвии объявило на этой неделе о возвращении 'Короля Костров'. Амбициозное предприятие стремится зажечь местные традиции современным искром, назначив харизматичную личность в качестве национального посла пиротехники.
+
+По словам министра культурного отопления Илзе Угунсстрелниеце, роль 'Короля Костров' восходит к временам, когда управление огнем считалось благородным искусством, а человек с лучшими навыками разведения огня был в центре внимания на праздниках середины лета.
+
+'Огонь был в центре нашей культуры задолго до изобретения современного центрального отопления', — с энтузиазмом заявила Угунсстрелниеце на пресс-конференции ранее на этой неделе. 'Мы намерены вновь зажечь эту страсть и побудить молодежь взглянуть за пределы достижений светодиодных технологий и заново открыть для себя простую радость потрескивающего костра без разрешения.'
+
+Поиск идеального кандидата на эту долгожданную должность вызвал национальный интерес. Согласно статистике, собранной Министерством, количество участников в конкурсах по строительству костров достигло рекордного уровня: более 3000 энтузиастов отправили свои резюме, все с аннотациями о личных рекордах по высоте пламени.
+
+Янис Серкочиньш, 35-летний любитель огня и частичный укротитель драконов из Елгавы, быстро стал лидером. Серкочиньш утверждает, что установил впечатляющий рекорд, сделав костер видимым из Эстонии. 'Быть коронованным Королем Костров — это не только о пламени, но и о том, чтобы оно не обуглило картофельное поле соседа', — прокомментировал Серкочиньш. 'С правильными ветками деревьев и стратегическим ветром можно достичь пожара, который заставляет людей остановиться, аплодировать или даже вызвать местную пожарную службу.'
+
+Однако это огненное начинание встретило свою долю скептиков. Хелена Ауклесана, председатель местного Общества за жизнь без дыма, публично выразила озабоченность по поводу инициативы. 'Хотя мы уважаем культурное значение огня, мы не должны забывать об опасностях, которые он представляет для общественного здоровья и бельевых веревок. Наши предки не имели забот о белье или загрязнении, не говоря уже о динамике чтения-кухни.'
+
+Тем не менее, будущие планы Министерства кажутся невероятно яркими. С 'Королем Костров', который должен официально дебютировать на предстоящем празднике Яни в Риге, чиновники оптимистично настроены, что это вызовет возрождение интереса к огненным мероприятиям. Между тем, небольшие города по всей Латвии организуют свои собственные мастерские 'Построй костер', стремясь установить новый мировой рекорд по одновременному зажиганию костров с минимальным побочным ущербом.
+
+Пока страна готовится к огненному празднику, некоторые задаются вопросом, приведет ли это возрождение к созданию новых почетных должностей, таких как Принц Бенгальских огней или Герцогиня бездымного топлива. Каков бы ни был исход, одно ясно: этим летом Латвия намерена зажечь мир — надеемся, самым праздничным образом, с минимальной необходимостью в огнетушителях.`
+    },
+    date: "Feb 11, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/88/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 87,
     slug: "riga-declares-itself-capital-city-of",
     title: {
@@ -96,7 +165,7 @@ Nākotnes plāni Rīgai pat ietver piedzīvojumu sporta veidus, kas saistīti ar
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/87/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 86,
