@@ -18,6 +18,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 89,
+    slug: "latvias-new-national-sport-competitive-pothole",
+    title: {
+      en: "Latvia's New National Sport: Competitive Pothole Dodging Gains Massive Popularity",
+      lv: "Latvijas jaunais nacionālais sports: konkurētspējīga bedrīšu izvairīšanās gūst milzīgu popularitāti",
+      ru: "Новый национальный спорт Латвии: Уклонение от ям на дорогах набирает огромную популярность"
+    },
+    excerpt: {
+      en: "In a twist nobody saw coming, Latvia's long-standing pothole problem has transformed into a national pastime. The new sport, ‘Potholathlon,’ has citizens racing through city streets in vehicles and on foot, dodging the legendary craters of Riga and beyond.",
+      lv: "Neviens to nebija gaidījis, bet Latvijas ilgstošā bedrīšu problēma ir pārvērtusies par nacionālu izklaidi. Jaunais sports, 'Bedrīšu atlons', liek iedzīvotājiem sacensties pilsētas ielās ar transportlīdzekļiem un kājām, izvairoties no Rīgas un citu vietu leģendārajiem krāteriem.",
+      ru: "В неожиданном повороте событий, многолетняя проблема Латвии с ямами на дорогах превратилась в национальное увлечение. Новый спорт, «Ямолатлон», заставляет граждан мчаться по городским улицам на автомобилях и пешком, уклоняясь от легендарных кратеров Риги и за её пределами."
+    },
+    fullContent: {
+      en: `Riga, Latvia — Every spring, as the snow melts and roads across Latvia burst into bloom with potholes of biblical proportions, citizens had long been resigned to a bumpy commute. But this year, frustration has flipped to exhilaration, and Latvia has officially declared Competitive Pothole Dodging its new national sport.
+
+The sport, unofficially termed 'Potholathlon', sprang into existence after an unofficial race on the Trans-Baltica highway went viral. Participants veered, swerved, and fishtailed through an obstacle course of potholes, vying to reach the finish line with their suspension systems intact. The event was captured by a camera crew from local media, and the footage sparked a surge in national pride.
+
+Aldis Uzvārds, the newly appointed president of the Latvian Federation for Potholathlon (LFP), attests to the sport's cultural significance. "Our roads have always been infamous for their unpredictability," Uzvārds stated, while buckling a seatbelt for a test drive. "But instead of seeing this as a problem, we are pivoting to embrace it. Latvia, much like a pothole, is full of surprises."
+
+During the official inauguration ceremony held in Riga’s historic Dome Square, a crowd gathered to cheer on the contenders. Competitors, both veteran and amateur, set off on a trial course winding through Old Town’s labyrinthine streets. To ensure fairness, participants are divided into categories: sedans, bicycles, and daring pedestrians.
+
+"This sport truly embodies strategic thinking and vehicular acrobatics," said Līga Riebumi, a professional cyclist who recently won the inaugural Riga Pothole Sprint. "Dodging these craters requires a craftsman’s eye and lightning-fast reflexes. I've been training for weeks by riding through the countryside, where roads interlace like Swiss cheese."
+
+Statistics from the Ministry of Infrastructure report a 65% drop in complaints about road quality since enthusiasts have found a new use for the bumps and crevices. "It’s remarkable. We used to receive hundreds of inquiries demanding repairs. Now, people just want to know when the next tournament is," explained Minister Klāvs Bedres, who is rumored to be considering a bid to have Potholathlon included in the Winter Olympics.
+
+Despite its popularity, the sport has not been without its critics. Dr. Ingmārs Betons, a local orthopedist, warns of the potential health hazards involved, citing an increase in joint injuries from the strain of rapid dodging maneuvers. "We've had an influx, especially of elbows and knees," Dr. Betons lamented, sharpening his scalpel. "But I suppose this is what they call progress in the modern world."
+
+Tourists and visitors have also expressed confusion and awe at the newfound cultural phenomenon. "I thought I was watching some avant-garde performance art when I first saw it," commented Janet Smith, an English tourist. "Now, it seems like the entire nation is in a dance with the tarmac."
+
+With momentum building, the first National Potholathlon Championship is slated for later this year, promising high-speed thrills and spectacular evasive action. As the anticipation ramps up, Latvians are reminded that while they may dodge obstacles in sport, they're simultaneously paving the way for newfound national unity—built on the very potholes they once cursed.`,
+      lv: `Rīga, Latvija — Katru pavasari, kad sniegs kūst un Latvijas ceļi uzplaukst ar bedrēm bībeliskos apmēros, iedzīvotāji jau sen bija samierinājušies ar bedrīgu braucienu. Taču šogad vilšanās ir pārvērtusies par sajūsmu, un Latvija oficiāli pasludinājusi konkurētspējīgu bedrīšu izvairīšanos par savu jauno nacionālo sportu.
+
+Sports, neoficiāli saukts par 'Bedrīšu atlons', radās pēc tam, kad neoficiālas sacensības uz Trans-Baltikas šosejas kļuva vīrusu. Dalībnieki izvairījās, manevrēja un slīdēja cauri bedru šķēršļu trasei, cenšoties sasniegt finiša līniju ar neskartu piekares sistēmu. Pasākumu iemūžināja vietējās mediju komandas, un kadri izraisīja nacionālo lepnumu.
+
+Aldis Uzvārds, nesen ieceltais Latvijas Bedrīšu atlona federācijas (LFP) prezidents, apliecina sporta kultūras nozīmi. "Mūsu ceļi vienmēr ir bijuši slaveni ar savu neparedzamību," Uzvārds teica, piesprādzējot drošības jostu izmēģinājuma braucienam. "Bet tā vietā, lai to uztvertu kā problēmu, mēs izvēlamies to pieņemt. Latvija, gluži kā bedre, ir pilna pārsteigumu."
+
+Oficiālajā atklāšanas ceremonijā, kas notika Rīgas vēsturiskajā Doma laukumā, pūlis pulcējās, lai uzmundrinātu dalībniekus. Sacensību dalībnieki, gan veterāni, gan amatieri, devās izmēģinājuma trasē, kas vijās cauri Vecrīgas labirintiskajām ielām. Lai nodrošinātu godīgumu, dalībnieki tiek sadalīti kategorijās: sedani, velosipēdi un drosmīgi gājēji.
+
+"Šis sports patiesi iemieso stratēģisko domāšanu un transportlīdzekļu akrobātiku," sacīja Līga Riebumi, profesionāla riteņbraucēja, kura nesen uzvarēja pirmajā Rīgas Bedrīšu sprintā. "Izvairīšanās no šiem krāteriem prasa amatnieka aci un zibens ātruma refleksus. Esmu trenējusies nedēļām, braucot pa laukiem, kur ceļi ir kā Šveices siers."
+
+Infrastruktūras ministrijas statistika liecina par 65% sūdzību par ceļu kvalitāti samazināšanos, kopš entuziasti atraduši jaunu pielietojumu bedrēm un plaisām. "Tas ir ievērojami. Mēs agrāk saņēmām simtiem pieprasījumu pēc remontiem. Tagad cilvēki vienkārši vēlas zināt, kad būs nākamās sacensības," skaidroja ministrs Klāvs Bedres, kurš, kā baumo, apsver iespēju iesniegt pieteikumu, lai Bedrīšu atlons tiktu iekļauts Ziemas olimpiskajās spēlēs.
+
+Neskatoties uz popularitāti, sportam ir arī kritiķi. Dr. Ingmārs Betons, vietējais ortopēds, brīdina par iespējamiem veselības apdraudējumiem, norādot uz locītavu traumu pieaugumu no straujām izvairīšanās kustībām. "Mums ir pieplūdums, īpaši elkoņu un ceļgalu," Dr. Betons sūdzējās, asinot savu skalpeli. "Bet, es pieņemu, ka to sauc par progresu mūsdienu pasaulē."
+
+Tūristi un apmeklētāji ir izteikuši apjukumu un apbrīnu par jauno kultūras fenomenu. "Es domāju, ka redzu kādu avangarda performanču mākslu, kad to pirmo reizi ieraudzīju," komentēja Dženeta Smita, angļu tūriste. "Tagad šķiet, ka visa nācija ir dejā ar asfaltu."
+
+Ar pieaugošu interesi, pirmais Nacionālais Bedrīšu atlona čempionāts ir paredzēts vēlāk šogad, solot ātruma sajūtas un iespaidīgas izvairīšanās darbības. Pieaugot gaidām, latvieši tiek atgādināti, ka, lai gan viņi var izvairīties no šķēršļiem sportā, viņi vienlaikus bruģē ceļu jaunai nacionālajai vienotībai — veidojot to uz pašām bedrēm, kuras reiz lādēja.`,
+      ru: `Рига, Латвия — Каждую весну, когда снег тает и дороги по всей Латвии расцветают ямами библейских размеров, граждане давно смирились с ухабистой поездкой. Но в этом году раздражение сменилось восторгом, и Латвия официально объявила Уклонение от ям на дорогах своим новым национальным спортом.
+
+Спорт, неофициально названный 'Ямолатлон', возник после того, как неофициальная гонка на трассе Транс-Балтика стала вирусной. Участники виляли, маневрировали и скользили через полосу препятствий из ям, стремясь добраться до финиша с неповрежденной подвеской. Событие было заснято съемочной группой местных СМИ, и кадры вызвали всплеск национальной гордости.
+
+Алдис Узвардс, недавно назначенный президент Латвийской федерации ямолатлона (ЛФЯ), подтверждает культурное значение этого спорта. "Наши дороги всегда были печально известны своей непредсказуемостью," заявил Узвардс, пристегивая ремень безопасности для тест-драйва. "Но вместо того, чтобы видеть в этом проблему, мы решили принять это. Латвия, как и яма, полна сюрпризов."
+
+Во время официальной церемонии открытия, проведенной на исторической площади Домской в Риге, толпа собралась, чтобы поддержать участников. Соперники, как ветераны, так и новички, отправились на пробный маршрут, извивающийся по лабиринтным улицам Старого города. Чтобы обеспечить справедливость, участники делятся на категории: седаны, велосипеды и отважные пешеходы.
+
+"Этот спорт действительно воплощает стратегическое мышление и автомобильную акробатику," сказала Лига Риебуми, профессиональная велосипедистка, недавно выигравшая первый Рижский спринт по ямам. "Уклонение от этих кратеров требует глаз мастера и молниеносной реакции. Я тренировалась несколько недель, катаясь по сельской местности, где дороги переплетаются, как швейцарский сыр."
+
+Статистика Министерства инфраструктуры сообщает о 65% снижении жалоб на качество дорог, так как энтузиасты нашли новое применение для ухабов и трещин. "Это замечательно. Раньше мы получали сотни запросов с требованием ремонта. Теперь люди просто хотят знать, когда будет следующий турнир," объяснил министр Клавс Бедрес, который, по слухам, рассматривает возможность подачи заявки на включение ямолатлона в зимние Олимпийские игры.
+
+Несмотря на популярность, спорт не обошелся без критиков. Доктор Ингмарс Бетонс, местный ортопед, предупреждает о потенциальных рисках для здоровья, ссылаясь на увеличение травм суставов из-за напряжения при быстрых маневрах уклонения. "У нас был наплыв, особенно локтей и коленей," сокрушался доктор Бетонс, точа свой скальпель. "Но, полагаю, это то, что называют прогрессом в современном мире."
+
+Туристы и посетители также выразили замешательство и восхищение новым культурным феноменом. "Я думала, что смотрю какое-то авангардное перформанс-искусство, когда впервые увидела это," прокомментировала Джанет Смит, туристка из Англии. "Теперь кажется, что вся нация танцует с асфальтом."
+
+С нарастающим энтузиазмом первый Национальный чемпионат по ямолатлону запланирован на конец этого года, обещая высокоскоростные острые ощущения и зрелищные уклонения. По мере того как ожидание нарастает, латвийцам напоминают, что, уклоняясь от препятствий в спорте, они одновременно прокладывают путь к новому национальному единству — построенному на тех самых ямах, которые они когда-то проклинали.`
+    },
+    date: "Feb 12, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/89/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 88,
     slug: "latvia-reintroduces-king-of-bonfires-to",
     title: {
@@ -84,7 +159,7 @@ Kā valsts gatavojas svētku ugunsgrēkam, daži brīnās, vai šī atdzimšana 
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/88/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 87,
