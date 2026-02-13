@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 90,
+    slug: "jurmala-declares-itself-independent-nation-plans",
+    title: {
+      en: "Jurmala Declares Itself Independent Nation, Plans to Adopt Sand-Dollar Currency",
+      lv: "Jūrmala pasludina sevi par neatkarīgu valsti, plāno ieviest smilšu dolāru valūtu",
+      ru: "Юрмала объявила себя независимой нацией, планирует ввести валюту песчаный доллар"
+    },
+    excerpt: {
+      en: "In a surprising move, the beachy paradise of Jurmala has unilaterally declared independence from Latvia, citing a unique cultural heritage centered around sea shells and sunbathing. The fledgling nation plans to adopt the ‘sand-dollar’ as its official currency, promising tourists and residents a sunny economic forecast.",
+      lv: "Pārsteidzošā gājienā pludmales paradīze Jūrmala vienpusēji pasludinājusi neatkarību no Latvijas, atsaucoties uz unikālu kultūras mantojumu, kas balstās uz jūras gliemežvākiem un sauļošanos. Jaunā valsts plāno ieviest 'smilšu dolāru' kā oficiālo valūtu, solot tūristiem un iedzīvotājiem saulainu ekonomisko prognozi.",
+      ru: "В неожиданном повороте событий пляжный рай Юрмала в одностороннем порядке объявил о своей независимости от Латвии, ссылаясь на уникальное культурное наследие, сосредоточенное вокруг морских ракушек и загорания. Молодая нация планирует ввести «песчаный доллар» в качестве официальной валюты, обещая туристам и жителям солнечный экономический прогноз."
+    },
+    fullContent: {
+      en: `Jurmala, the cherished beach resort town known for its picturesque stretches of white sand and azure waves, has taken a bold—and quite unexpected—step: declaring itself an independent nation and sovereign territory, separate from Latvia. Local officials announced the news at a press conference held at the iconic Dzintari Concert Hall, with much fanfare and, admittedly, a touch of confusion.
+
+Spearheading this unexpected secession is Jurmala’s new self-appointed leader, Admiral of Sun Loungers, Maris Silinbalds. In an impassioned speech, he detailed the town’s plans to maneuver into the international scene, complete with a new currency he named the 'sand-dollar', which will be crafted from actual sand dollars harvested from the stunning local shores.
+
+‘We feel the time has come for Jurmala to stand on its own two flip-flops,’ Silinbalds proclaimed to a crowd of sun-tanned locals and bemused seagulls. ‘Our decision is backed by the unshakable foundation of our unique culture, which prioritizes leisure above legislation and suntans over statutes.’
+
+According to insiders who remain anonymous to keep their beach chairs, the declaration was solidified after a marathon session of sunbathing and sea bathing last week, where temperatures rose to historical highs of 27 degrees Celsius. ‘It just felt right under the warm Baltic sun. Why return to the mundane obligations of Latvian regulations when we can forge our destiny with nothing but sunblock and optimism?’ an unnamed city official mused.
+
+Critics argue this maneuver might destabilize not only the Latvian economy but also confuse the hordes of annual tourists who might suddenly need a currency exchange office in every beachfront kiosk. The Central Bank of Latvia, however, responded with admirable stoicism. Its spokesperson, Ivars Eirokillits, simply stated, ‘We’ve seen stranger things, like the weather forecast’s accuracy.’
+
+Even as the tide of independence sweeps Jurmala, Latvia’s government has remained curiously unperturbed. In a hastily scribbled note passed around the Saeima, Latvian Prime Minister Elina Kalnietis quipped, ‘As long as they maintain access to Laima chocolate provisions, we won’t intervene. Sunburn diplomacy is not our affair.’
+
+The concept of a new sand-dollar economy has captured the imagination of many potential residents and speculators as projections suggest the currency could become a sought-after memento. ‘Finally, a currency you can use to exfoliate!’ exclaimed Boris Billovskis, owner of the famed beachside cafe, Living Rift, as he handed out iced Assam teas.
+
+In diplomatic circles, speculation is rife about who might recognize the newly-minted Republic of Jurmala. Thus far, only the nearby island of Papa Westray has extended an informal recognition, citing shared interests in remote island governance and overly enthusiastic wool-clad rituals.
+
+The coming months promise intrigue, as Jurmala attempts to navigate the waters of self-governance while staying perpetually sunscreen-slathered. Tourists continue to lounge, cooling their heels in the Baltic sea, scarcely noting the historic upheaval brewing like a particularly potent batch of kvass.
+
+For now, the sun sets on Jurmala with more questions than answers, but one thing remains clear: whatever the future holds, this cascade of events has ensured one thing—an increase in beach towel sales is nigh certain.`,
+      lv: `Jūrmala, mīļotā pludmales kūrortpilsēta, kas pazīstama ar savām gleznainajām baltajām smiltīm un zilajiem viļņiem, ir veikusi drosmīgu un pavisam negaidītu soli: pasludinājusi sevi par neatkarīgu valsti un suverēnu teritoriju, atsevišķi no Latvijas. Vietējie amatpersonas paziņoja par jaunumiem preses konferencē, kas notika ikoniskajā Dzintaru koncertzālē, ar lielu pompu un, jāatzīst, nelielu apjukumu.
+
+Šo negaidīto atdalīšanos vada Jūrmalas jaunais pašpasludinātais līderis, Sauļošanās krēslu admirālis Māris Silinbaldis. Aizraujošā runā viņš izklāstīja pilsētas plānus iekļūt starptautiskajā arēnā, izveidojot jaunu valūtu, kuru viņš nosauca par 'smilšu dolāru', kas tiks izgatavota no īstiem smilšu dolāriem, kas iegūti no apburošajām vietējām krastmalām.
+
+'Mēs jūtam, ka ir pienācis laiks Jūrmalai stāvēt uz savām divām pludmales čībām,' Silinbaldis paziņoja sauļoto vietējo iedzīvotāju un apjukušu kaiju pūlim. 'Mūsu lēmums balstās uz nesatricināmu mūsu unikālās kultūras pamatu, kas prioritizē atpūtu pār likumdošanu un iedegumu pār statūtiem.'
+
+Saskaņā ar iekšējiem avotiem, kuri vēlas palikt anonīmi, lai saglabātu savus pludmales krēslus, deklarācija tika nostiprināta pēc maratona sauļošanās un jūras peldēšanās sesijas pagājušajā nedēļā, kad temperatūra sasniedza vēsturiskus 27 grādus pēc Celsija. 'Tas vienkārši šķita pareizi zem siltās Baltijas saules. Kāpēc atgriezties pie ikdienišķām Latvijas regulējumu saistībām, ja mēs varam veidot savu likteni ar neko citu kā tikai saules aizsargkrēmu un optimismu?' prātoja kāda nenosaukta pilsētas amatpersona.
+
+Kritizētāji apgalvo, ka šis manevrs varētu destabilizēt ne tikai Latvijas ekonomiku, bet arī sajaukt ikgadējo tūristu pūļus, kuriem pēkšņi varētu būt nepieciešams valūtas maiņas birojs katrā pludmales kioskā. Latvijas Centrālā banka tomēr atbildēja ar apbrīnojamu stoicismu. Tās pārstāvis, Ivars Eirokillits, vienkārši paziņoja: 'Mēs esam redzējuši dīvainākas lietas, piemēram, laika prognozes precizitāti.'
+
+Pat tad, kad neatkarības vilnis pārņem Jūrmalu, Latvijas valdība ir palikusi ziņkārīgi neuztraukta. Steidzīgi uzrakstītā piezīmē, kas tika nodota Saeimā, Latvijas premjerministre Elīna Kalniete jokoja: 'Kamēr viņi uztur pieeju Laimas šokolādes krājumiem, mēs neiejauksimies. Saules apdegumu diplomātija nav mūsu lieta.'
+
+Jaunās smilšu dolāru ekonomikas koncepts ir aizrāvis daudzu potenciālo iedzīvotāju un spekulantu iztēli, jo prognozes liecina, ka valūta varētu kļūt par kārotu suvenīru. 'Beidzot valūta, kuru var izmantot pīlingam!' izsaucās Boriss Billovskis, slavenās pludmales kafejnīcas Living Rift īpašnieks, izdalot ledus Assam tējas.
+
+Diplomātiskajās aprindās valda spekulācijas par to, kurš varētu atzīt jaunizveidoto Jūrmalas Republiku. Līdz šim tikai tuvējā Papa Vestray sala ir izteikusi neformālu atzinību, atsaucoties uz kopīgām interesēm attālās salas pārvaldībā un pārāk entuziastiskos vilnas tērptos rituālos.
+
+Nākamie mēneši sola intrigu, jo Jūrmala mēģina orientēties pašpārvaldes ūdeņos, vienlaikus paliekot pastāvīgi ar saules aizsargkrēmu klāta. Tūristi turpina atpūsties, atvēsinot kājas Baltijas jūrā, gandrīz nemanot vēsturisko satricinājumu, kas briest kā īpaši spēcīga kvasa partija.
+
+Pašlaik saule noriet pār Jūrmalu ar vairāk jautājumiem nekā atbilžu, bet viena lieta ir skaidra: lai ko nākotne nestu, šis notikumu virpulis ir nodrošinājis vienu lietu—pludmales dvieļu pārdošanas pieaugums ir gandrīz garantēts.`,
+      ru: `Юрмала, любимый курортный городок, известный своими живописными белыми песками и лазурными волнами, сделала смелый — и довольно неожиданный — шаг: объявила себя независимой нацией и суверенной территорией, отдельной от Латвии. Местные чиновники объявили об этом на пресс-конференции в знаковом концертном зале Дзинтари, с большой помпой и, признаться, с долей замешательства.
+
+Возглавляет это неожиданное отделение новый самопровозглашенный лидер Юрмалы, Адмирал шезлонгов, Марис Силинбалдс. В страстной речи он изложил планы города выйти на международную арену, включая новую валюту, которую он назвал «песчаный доллар», и которая будет изготовлена из настоящих песчаных долларов, собранных на потрясающих местных берегах.
+
+«Мы чувствуем, что пришло время для Юрмалы встать на свои две шлепанцы», — провозгласил Силинбалдс перед толпой загорелых местных жителей и озадаченных чаек. «Наше решение подкреплено непоколебимым фундаментом нашей уникальной культуры, которая ставит досуг выше законодательства и загар выше статутов».
+
+По словам инсайдеров, которые остаются анонимными, чтобы сохранить свои пляжные кресла, декларация была закреплена после марафонской сессии загорания и купания на прошлой неделе, когда температура поднялась до исторических 27 градусов Цельсия. «Это просто казалось правильным под теплым балтийским солнцем. Зачем возвращаться к обыденным обязательствам латвийских регламентов, когда мы можем ковать свою судьбу с помощью солнцезащитного крема и оптимизма?» — размышлял неназванный городской чиновник.
+
+Критики утверждают, что этот маневр может дестабилизировать не только латвийскую экономику, но и запутать орды ежегодных туристов, которым вдруг понадобится обменный пункт в каждом пляжном киоске. Центральный банк Латвии, однако, отреагировал с восхитительным стоицизмом. Его представитель, Иварс Эйрокиллитс, просто заявил: «Мы видели и более странные вещи, например, точность прогноза погоды».
+
+Даже когда волна независимости захлестывает Юрмалу, правительство Латвии остается удивительно невозмутимым. В поспешно написанной записке, переданной в Сейме, премьер-министр Латвии Элина Калниетис пошутила: «Пока они поддерживают доступ к запасам шоколада Laima, мы не будем вмешиваться. Дипломатия солнечных ожогов — это не наше дело».
+
+Концепция новой экономики песчаного доллара захватила воображение многих потенциальных жителей и спекулянтов, поскольку прогнозы предполагают, что валюта может стать востребованным сувениром. «Наконец-то валюта, которой можно отшелушивать кожу!» — воскликнул Борис Билловскис, владелец знаменитого пляжного кафе «Живой Рифт», раздавая охлажденный ассамский чай.
+
+В дипломатических кругах полным ходом идут спекуляции о том, кто может признать новоиспеченную Республику Юрмала. Пока что только близлежащий остров Папа Вестрей неофициально признал её, ссылаясь на общие интересы в управлении удаленными островами и чрезмерно энтузиастичные ритуалы в шерстяной одежде.
+
+Предстоящие месяцы обещают интригу, поскольку Юрмала пытается ориентироваться в водах самоуправления, оставаясь постоянно намазанной солнцезащитным кремом. Туристы продолжают отдыхать, охлаждая пятки в Балтийском море, едва замечая исторические потрясения, назревающие, как особенно крепкая партия кваса.
+
+На данный момент солнце садится над Юрмалой с большим количеством вопросов, чем ответов, но одно остается ясным: что бы ни принесло будущее, эта череда событий обеспечила одно — увеличение продаж пляжных полотенец почти наверняка.`
+    },
+    date: "Feb 13, 2026",
+    category: { en: "Opinion", lv: "Viedoklis", ru: "Мнение" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/90/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 89,
     slug: "latvias-new-national-sport-competitive-pothole",
     title: {
@@ -90,7 +171,7 @@ Ar pieaugošu interesi, pirmais Nacionālais Bedrīšu atlona čempionāts ir pa
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/89/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 88,
