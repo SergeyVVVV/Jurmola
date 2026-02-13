@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Merriweather, Source_Serif_4 } from "next/font/google";
 import { Suspense } from "react";
+import { headers } from "next/headers";
 import "./globals.css";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 
@@ -60,11 +61,22 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Detect language from URL path for proper <html lang> attribute
+  const headersList = await headers();
+  const pathname = headersList.get('x-pathname') || headersList.get('x-invoke-path') || '';
+
+  let lang = 'ru'; // Default to Russian (root path)
+  if (pathname.startsWith('/en')) {
+    lang = 'en';
+  } else if (pathname.startsWith('/lv')) {
+    lang = 'lv';
+  }
+
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -88,7 +100,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="ru" suppressHydrationWarning>
+    <html lang={lang} suppressHydrationWarning>
       <head>
         <script
           type="application/ld+json"

@@ -96,15 +96,17 @@ export function middleware(request: NextRequest) {
       maxAge: 60 * 60 * 24 * 365,
       path: '/',
     });
+    response.headers.set('x-pathname', pathname);
     return response;
   }
-  
+
   if (isOnLatvianPath) {
     const response = NextResponse.next();
     response.cookies.set(COOKIE_NAME, 'lv', {
       maxAge: 60 * 60 * 24 * 365,
       path: '/',
     });
+    response.headers.set('x-pathname', pathname);
     return response;
   }
 
@@ -139,6 +141,7 @@ export function middleware(request: NextRequest) {
       maxAge: 60 * 60 * 24 * 365,
       path: '/',
     });
+    response.headers.set('x-pathname', pathname);
     return response;
   }
 
@@ -169,10 +172,13 @@ export function middleware(request: NextRequest) {
       maxAge: 60 * 60 * 24 * 365,
       path: '/',
     });
+    response.headers.set('x-pathname', pathname);
     return response;
   }
 
-  return NextResponse.next();
+  const response = NextResponse.next();
+  response.headers.set('x-pathname', pathname);
+  return response;
 }
 
 export const config = {

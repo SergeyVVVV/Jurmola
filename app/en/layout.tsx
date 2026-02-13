@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import SetHtmlLang from "../components/SetHtmlLang";
 
 export const metadata: Metadata = {
   title: "Jurmola Telegraphs – Your Jurmala, Your Capital",
@@ -29,6 +28,13 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jurmola Telegraphs – Your Jurmala, Your Capital",
+    description: "Satirical news from Jurmala, Latvia and the Baltics. The first AI-powered satirical publication in the Baltic states. Not affiliated with Laima Vaikule.",
+    images: ["https://jurmola.com/images/grey-day-creature.jpg"],
+    creator: "@JurmolaTelegraphs",
+  },
 };
 
 export default function EnLayout({
@@ -36,8 +42,5 @@ export default function EnLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>
-    <SetHtmlLang lang="en" />
-    {children}
-  </>;
+  return <>{children}</>;
 }

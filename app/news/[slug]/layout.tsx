@@ -29,7 +29,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: article.title[language],
     description: article.excerpt[language],
-    keywords: ['Latvia', 'Jurmala', 'satire', 'news', 'Baltic', 'humor', 'Riga'],
     authors: [{ name: 'Jurmola Telegraphs' }],
     alternates: {
       canonical: articleUrl,

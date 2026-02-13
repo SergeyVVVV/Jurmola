@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 import { articles } from '../../data/articles';
 import { getArticleImageAbsoluteUrl, getArticleImageUrl } from '../../lib/article-image';
 import { localizedHref } from '../../lib/i18n-config';
@@ -78,7 +79,9 @@ export default async function ArticlePage({ params }: Props) {
           <span className="bg-red-600 text-white px-3 py-1 rounded font-semibold uppercase tracking-wide">
             {article.category[language]}
           </span>
-          <span className="text-gray-500">{article.date}</span>
+          <time dateTime={new Date(article.date).toISOString()} className="text-gray-500">
+            {article.date}
+          </time>
           <span className="text-gray-500">·</span>
           <span className="text-gray-500">{article.readTime}</span>
         </div>
@@ -92,19 +95,24 @@ export default async function ArticlePage({ params }: Props) {
         </div>
 
         <div className="mb-8 rounded-lg overflow-hidden">
-          <img
+          <Image
             src={getArticleImageUrl(article)}
             alt={article.title[language]}
             width={800}
             height={600}
-            decoding="async"
-            fetchPriority="high"
+            quality={85}
+            priority={article.featured || false}
+            sizes="(max-width: 768px) 100vw, 800px"
             className="w-full h-auto"
           />
         </div>
 
-        <div className="text-xl leading-relaxed mb-8 font-semibold text-gray-800 border-l-4 border-black pl-6">
-          {article.excerpt[language]}
+        <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8 rounded-r-lg">
+          <p className="text-lg leading-relaxed">
+            <strong className="text-blue-900 font-semibold">Вкратце:</strong>
+            {' '}
+            <span className="text-gray-800">{article.excerpt[language]}</span>
+          </p>
         </div>
 
         <div className="prose prose-lg max-w-none">

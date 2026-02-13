@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import SetHtmlLang from "../components/SetHtmlLang";
 
 export const metadata: Metadata = {
   title: "Jurmola Telegraphs – Jūsu Jūrmala, Jūsu Galvaspilsēta",
@@ -29,6 +28,13 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jurmola Telegraphs – Jūsu Jūrmala, Jūsu Galvaspilsēta",
+    description: "Satīriskas ziņas no Jūrmalas, Latvijas un Baltijas. Pirmais AI darbinātais satīriskais izdevums Baltijas valstīs. Nav saistīts ar Laimu Vaikuli.",
+    images: ["https://jurmola.com/images/grey-day-creature.jpg"],
+    creator: "@JurmolaTelegraphs",
+  },
 };
 
 export default function LvLayout({
@@ -36,8 +42,5 @@ export default function LvLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>
-    <SetHtmlLang lang="lv" />
-    {children}
-  </>;
+  return <>{children}</>;
 }
