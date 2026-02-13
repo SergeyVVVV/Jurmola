@@ -14,11 +14,6 @@ interface ArticleTranslations {
   ru: string;
 }
 
-interface FAQItem {
-  question: ArticleTranslations;
-  answer: ArticleTranslations;
-}
-
 interface Article {
   id: number;
   slug: string;
@@ -33,7 +28,6 @@ interface Article {
   imageUrl: string;
   author: ArticleTranslations;
   featured?: boolean;
-  faqs?: FAQItem[]; // FAQ section for AI search optimization (2026)
 }
 
 const categories = [
@@ -168,93 +162,6 @@ Format your response as JSON:
   const russianArticle = JSON.parse(russianCompletion.choices[0].message.content || '{}');
   console.log('✅ Russian translation complete\n');
 
-  // Generate FAQs for AI search optimization (2026)
-  console.log('❓ Generating FAQs for AI search...');
-  const faqPrompt = `Based on this satirical article, generate 3-5 frequently asked questions that readers might have about the topic. These FAQs should:
-- Answer common questions about the satirical premise
-- Provide additional humorous context
-- Be optimized for AI search engines (ChatGPT, Perplexity, Google SGE)
-- Use natural, conversational language
-
-Article:
-Title: ${englishArticle.title}
-Content: ${englishArticle.fullContent}
-
-Format your response as JSON with this structure:
-{
-  "faqs": [
-    {"question": "Question text?", "answer": "Answer text"}
-  ]
-}`;
-
-  const faqCompletion = await openai.chat.completions.create({
-    model: "gpt-4o",
-    messages: [
-      {
-        role: "system",
-        content: "You are an SEO expert creating FAQ content for AI search optimization. Generate natural, conversational Q&A pairs.",
-      },
-      {
-        role: "user",
-        content: faqPrompt,
-      },
-    ],
-    temperature: 0.7,
-    response_format: { type: "json_object" },
-  });
-
-  const faqData = JSON.parse(faqCompletion.choices[0].message.content || '{"faqs":[]}');
-  console.log(`✅ Generated ${faqData.faqs.length} FAQs\n`);
-
-  // Translate FAQs to Latvian and Russian
-  let translatedFAQs: FAQItem[] = [];
-
-  if (faqData.faqs && faqData.faqs.length > 0) {
-    console.log('🌐 Translating FAQs to Latvian and Russian...');
-
-    const faqTranslationPrompt = `Translate these FAQ items to Latvian and Russian, maintaining the conversational tone:
-${JSON.stringify(faqData.faqs, null, 2)}
-
-Return as JSON:
-{
-  "latvian": [{"question": "...", "answer": "..."}],
-  "russian": [{"question": "...", "answer": "..."}]
-}`;
-
-    const faqTranslationCompletion = await openai.chat.completions.create({
-      model: "gpt-4o",
-      messages: [
-        {
-          role: "system",
-          content: "You are a professional translator. Translate FAQ content accurately.",
-        },
-        {
-          role: "user",
-          content: faqTranslationPrompt,
-        },
-      ],
-      temperature: 0.3,
-      response_format: { type: "json_object" },
-    });
-
-    const translations = JSON.parse(faqTranslationCompletion.choices[0].message.content || '{"latvian":[],"russian":[]}');
-
-    translatedFAQs = faqData.faqs.map((faq: any, index: number) => ({
-      question: {
-        en: faq.question,
-        lv: translations.latvian[index]?.question || faq.question,
-        ru: translations.russian[index]?.question || faq.question,
-      },
-      answer: {
-        en: faq.answer,
-        lv: translations.latvian[index]?.answer || faq.answer,
-        ru: translations.russian[index]?.answer || faq.answer,
-      },
-    }));
-
-    console.log('✅ FAQ translations complete\n');
-  }
-
   // Get current articles to determine next ID
   const articlesDataPath = path.join(process.cwd(), 'app/data/articles.ts');
   const content = fs.readFileSync(articlesDataPath, 'utf-8');
@@ -348,7 +255,6 @@ Return as JSON:
     imageUrl,
     author,
     featured: false,
-    faqs: translatedFAQs.length > 0 ? translatedFAQs : undefined,
   };
 
   return article;
