@@ -16,6 +16,21 @@ export const metadata: Metadata = {
     siteName: 'Jurmola Telegraphs',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: 'https://jurmola.com/images/grey-day-creature.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Jurmola Telegraphs – Satirical news from the Baltics',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Us – Jurmola Telegraphs',
+    description: 'The first AI-powered satirical publication in the Baltics. Humorous news about Jurmala, Latvia and the region, created with artificial intelligence.',
+    images: ['https://jurmola.com/images/grey-day-creature.jpg'],
+    creator: '@JurmolaTelegraphs',
   },
   alternates: {
     canonical: 'https://jurmola.com/en/about',

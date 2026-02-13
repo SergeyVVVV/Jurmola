@@ -16,6 +16,21 @@ export const metadata: Metadata = {
     siteName: 'Jurmola Telegraphs',
     locale: 'lv_LV',
     type: 'website',
+    images: [
+      {
+        url: 'https://jurmola.com/images/grey-day-creature.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Jurmola Telegraphs – Baltijas satīriskās ziņas',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Par mums – Jurmola Telegraphs',
+    description: 'Pirmais AI darbināts satīrisks izdevums Baltijā. Humoristiski ziņu stāsti par Jūrmalu, Latviju un reģionu, radīti ar mākslīgā intelekta palīdzību.',
+    images: ['https://jurmola.com/images/grey-day-creature.jpg'],
+    creator: '@JurmolaTelegraphs',
   },
   alternates: {
     canonical: 'https://jurmola.com/lv/about',

@@ -79,7 +79,9 @@ export default async function ArticlePage({ params }: Props) {
           <span className="bg-red-600 text-white px-3 py-1 rounded font-semibold uppercase tracking-wide">
             {article.category[language]}
           </span>
-          <span className="text-gray-500">{article.date}</span>
+          <time dateTime={new Date(article.date).toISOString()} className="text-gray-500">
+            {article.date}
+          </time>
           <span className="text-gray-500">·</span>
           <span className="text-gray-500">{article.readTime}</span>
         </div>

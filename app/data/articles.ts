@@ -14,6 +14,10 @@ export interface Article {
   author: { en: string; lv: string; ru: string };
   featured?: boolean;
   coverKeywords?: string; // Optional keywords for Pexels image search (e.g. "winter snow celebration")
+  faqs?: Array<{
+    question: { en: string; lv: string; ru: string };
+    answer: { en: string; lv: string; ru: string };
+  }>; // FAQ section for AI search optimization (2026)
 }
 
 export const articles: Article[] = [
