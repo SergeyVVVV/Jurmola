@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 91,
+    slug: "riga-declares-first-national-wait-five",
+    title: {
+      en: "Riga Declares First National 'Wait Five More Minutes' Holiday in Honor of Baltic Time",
+      lv: "Rīga pasludina pirmo nacionālo 'Pagaidi vēl piecas minūtes' svētku dienu par godu Baltijas laikam",
+      ru: "Рига объявляет первый национальный праздник 'Подожди ещё пять минут' в честь балтийского времени"
+    },
+    excerpt: {
+      en: "In a groundbreaking move that embodies the local spirit, Latvia's capital city has announced the first-ever 'Wait Five More Minutes' holiday. Conceived in the heart of Riga, the day celebrates the region's unique relationship with punctuality.",
+      lv: "Veicot revolucionāru soli, kas iemieso vietējo garu, Latvijas galvaspilsēta ir paziņojusi par pirmo 'Pagaidi vēl piecas minūtes' svētku dienu. Rīgas sirdī radītā diena svin reģiona unikālās attiecības ar punktualitāti.",
+      ru: "В новаторском шаге, воплощающем местный дух, столица Латвии объявила первый в истории праздник 'Подожди ещё пять минут'. Этот день празднует уникальные отношения региона с пунктуальностью."
+    },
+    fullContent: {
+      en: `Riga, Latvia—In a historic and unprecedented decision, the city council of Riga has officially declared November 3rd as the country's first 'Wait Five More Minutes' holiday, a celebration intended to honor an intrinsic Baltic tradition: the art of being fashionably late.
+
+The decision, which was passed unanimously during a city council meeting (that started 30 minutes behind schedule), aims to celebrate Latvia's casual approach to timekeeping—a cultural hallmark admired by residents and bemoaned by foreign diplomats.
+
+"This is not just about chronic tardiness," explained Juris Kreituss, the event's chief architect and self-proclaimed punctuality procrastinator, as he effortlessly ran twenty minutes late to the press conference. "It is a cultural homage to our unique ability to embrace delay, to savor moments of unhurried life, and to turn the ubiquitous phrase 'būs piecu minūšu laikā'—'I'll be there in five minutes'—into a national treasure."
+
+The inaugural celebration will feature a variety of themed events, including a 'Not-Quite-On-Time Parade' that will conspicuously divert routes through Riga's notoriously congested streets, ensuring a delightfully inconsistent start. Participants are encouraged to embellish the parade’s theme by making halfhearted efforts to arrive on time.
+
+Special activities will also include 'Clock Skipping Competitions,' where contestants attempt to reset alarm clocks without triggering them, a practice locals jokingly refer to as 'beating the clock at its own game.' Local businesses have been quick to jump on board, with many offering special 'Last-Minute Sales' available for purchase at any point before, after, but preferably never during the advertised time.
+
+Though the holiday has been met with enthusiasm, it is not without its critics. Pēteris Neuzmanītis of the Riga Punctual Society expressed his concerns: "This celebration could send the wrong message to our Baltic neighbors and international communities. We strive for efficiency, yet we dedicate a day to glorify lateness? It’s contrary to our economic aspirations."
+
+Still, many locals seem to embrace the holiday with unbridled enthusiasm. Ilze Sapnīte, a lifelong resident of Jurmala, shared, "Finally, my talent for creative tardiness is recognized. At last, I can arrive late guilt-free!"
+
+The celebration culminates with a tea ceremony at the Freedom Monument, designed to symbolize the liberation from rigid time constraints. Attendees are instructed to arrive 'whenever' to truly capture the essence of the holiday.
+
+International experts see the potential for the 'Wait Five More Minutes' day to spread beyond Latvian borders, forecasting that this trend could influence punctuality norms worldwide. "In a world increasingly obsessed with instant gratification, Latvia offers a refreshing critique," said Tardy O'clock, an international chronologist.
+
+The Ministry of Culture has pledged to monitor the holiday's impact, hoping it offers not only laughter and irony but also launch a deeper conversation about time use and its implications.
+
+As the eve of the holiday approaches, Riga invites its citizens and tourists alike to partake in the festivities with an open agenda—one that's quite flexible on time. After all, in Latvia, the most valuable moments often occur beyond the clock's relentless ticking.`,
+      lv: `Rīga, Latvija—Vēsturiskā un bezprecedenta lēmumā Rīgas pilsētas dome oficiāli pasludinājusi 3. novembri par valsts pirmo 'Pagaidi vēl piecas minūtes' svētku dienu, kas paredzēta, lai godinātu Baltijas tradīciju: mākslu būt stilīgi vēlam.
+
+Lēmums, kas tika pieņemts vienbalsīgi pilsētas domes sēdē (kas sākās 30 minūtes aiz grafika), mērķē svinēt Latvijas brīvo pieeju laika uzskaitīšanai—kultūras iezīmi, ko iedzīvotāji apbrīno un ārvalstu diplomāti nosoda.
+
+"Tas nav tikai par hronisku kavēšanos," skaidroja Juris Kreituss, pasākuma galvenais arhitekts un pašpasludināts punktualitātes prokrastinators, kurš bez piepūles kavēja preses konferenci par divdesmit minūtēm. "Tas ir kultūras veltījums mūsu unikālajai spējai pieņemt kavēšanos, izbaudīt nesteidzīgus dzīves mirkļus un pārvērst visuresošo frāzi 'būs piecu minūšu laikā' par nacionālo dārgumu."
+
+Pirmās svinības ietvers dažādus tematiski pasākumus, tostarp 'Ne gluži laikā parādi', kas uzkrītoši novirzīs maršrutus caur Rīgas bēdīgi slavenajām sastrēgumu ielām, nodrošinot patīkami nekonsekventu sākumu. Dalībnieki tiek aicināti papildināt parādes tēmu, veicot puslīdzīgas pūles ierasties laikā.
+
+Īpašās aktivitātes ietvers arī 'Pulksteņa pārlekšanas sacensības', kurās dalībnieki mēģinās atiestatīt modinātājus, tos neaktivizējot, praksi, ko vietējie jokojot dēvē par 'pulksteņa pārspēšanu'. Vietējie uzņēmumi ātri pievienojušies, piedāvājot īpašas 'Pēdējā brīža izpārdošanas', kas pieejamas iegādei jebkurā laikā pirms, pēc, bet vēlams nekad reklāmas laikā.
+
+Lai gan svētki ir sagaidīti ar entuziasmu, tie nav bez kritiķiem. Pēteris Neuzmanītis no Rīgas Punktualitātes biedrības izteica savas bažas: "Šie svētki varētu sūtīt nepareizu vēstījumu mūsu Baltijas kaimiņiem un starptautiskajām kopienām. Mēs tiecamies uz efektivitāti, bet veltām dienu, lai slavētu kavēšanos? Tas ir pretrunā ar mūsu ekonomiskajām ambīcijām."
+
+Tomēr daudzi vietējie iedzīvotāji šķiet, ka pieņem svētkus ar neierobežotu entuziasmu. Ilze Sapnīte, visu mūžu dzīvojusi Jūrmalā, dalījās: "Beidzot, mans talants radošai kavēšanai ir atzīts. Beidzot, es varu ierasties vēlu bez vainas sajūtas!"
+
+Svinības kulminējas ar tējas ceremoniju pie Brīvības pieminekļa, kas paredzēta, lai simbolizētu atbrīvošanos no stingriem laika ierobežojumiem. Apmeklētāji tiek aicināti ierasties 'jebkad', lai patiesi iemūžinātu svētku būtību.
+
+Starptautiskie eksperti redz potenciālu, ka 'Pagaidi vēl piecas minūtes' diena varētu izplatīties ārpus Latvijas robežām, prognozējot, ka šī tendence varētu ietekmēt punktualitātes normas visā pasaulē. "Pasaulē, kas arvien vairāk apsēsta ar tūlītēju apmierinājumu, Latvija piedāvā atsvaidzinošu kritiku," sacīja Tardy O'clock, starptautisks hronologs.
+
+Kultūras ministrija ir apņēmusies uzraudzīt svētku ietekmi, cerot, ka tas piedāvās ne tikai smieklus un ironiju, bet arī uzsāks dziļāku sarunu par laika izmantošanu un tā sekām.
+
+Tuvojoties svētku priekšvakaram, Rīga aicina savus iedzīvotājus un tūristus piedalīties svinībās ar atvērtu dienaskārtību—tādu, kas ir diezgan elastīga attiecībā uz laiku. Galu galā, Latvijā visvērtīgākie mirkļi bieži notiek ārpus pulksteņa nepielūdzamās tikšķēšanas.`,
+      ru: `Рига, Латвия — В историческом и беспрецедентном решении городской совет Риги официально объявил 3 ноября первым в стране праздником 'Подожди ещё пять минут', который призван почтить внутреннюю балтийскую традицию: искусство модного опоздания.
+
+Решение, принятое единогласно на заседании городского совета (начавшемся с 30-минутным опозданием), направлено на празднование неформального подхода Латвии к учёту времени — культурной особенности, восхищаемой жителями и вызывающей недовольство у иностранных дипломатов.
+
+"Это не просто о хроническом опоздании," объяснил Юрис Крейтус, главный архитектор мероприятия и самопровозглашённый прокрастинатор пунктуальности, который без усилий опоздал на двадцать минут на пресс-конференцию. "Это культурная дань нашему уникальному умению принимать задержки, наслаждаться моментами неспешной жизни и превращать повсеместную фразу 'būs piecu minūšu laikā' — 'Я буду через пять минут' — в национальное достояние."
+
+Первое празднование будет включать в себя разнообразные тематические мероприятия, включая 'Парад не совсем вовремя', который будет заметно отклоняться по маршрутам через печально известные перегруженные улицы Риги, обеспечивая восхитительно непоследовательное начало. Участникам предлагается украсить тему парада, делая полусердечные попытки прибыть вовремя.
+
+Специальные мероприятия также будут включать 'Соревнования по пропуску часов', где участники попытаются сбросить будильники, не запуская их, практику, которую местные жители в шутку называют 'обмануть часы в их собственной игре'. Местные предприятия быстро подключились, предлагая специальные 'распродажи в последнюю минуту', доступные для покупки в любое время до, после, но желательно никогда во время объявленного времени.
+
+Хотя праздник был встречен с энтузиазмом, он не обошёлся без критиков. Петерис Неузманитис из Рижского общества пунктуальности выразил свои опасения: "Это празднование может послать неправильный сигнал нашим балтийским соседям и международным сообществам. Мы стремимся к эффективности, но посвящаем день прославлению опозданий? Это противоречит нашим экономическим устремлениям."
+
+Тем не менее, многие местные жители, похоже, принимают праздник с безудержным энтузиазмом. Илзе Сапните, жительница Юрмалы, поделилась: "Наконец-то мой талант к креативному опозданию признан. Наконец-то я могу опаздывать без чувства вины!"
+
+Празднование завершится чайной церемонией у Памятника Свободы, призванной символизировать освобождение от жёстких временных ограничений. Участникам предлагается прибыть 'когда угодно', чтобы по-настоящему уловить суть праздника.
+
+Международные эксперты видят потенциал для распространения дня 'Подожди ещё пять минут' за пределы латвийских границ, прогнозируя, что эта тенденция может повлиять на нормы пунктуальности во всём мире. "В мире, всё более одержимом мгновенным удовлетворением, Латвия предлагает освежающую критику," сказал Тарди О'Клок, международный хронолог.
+
+Министерство культуры обязалось следить за воздействием праздника, надеясь, что он принесёт не только смех и иронию, но и запустит более глубокий разговор об использовании времени и его последствиях.
+
+По мере приближения кануна праздника, Рига приглашает своих граждан и туристов принять участие в празднованиях с открытой повесткой дня — весьма гибкой по времени. Ведь в Латвии самые ценные моменты часто происходят за пределами неумолимого тиканья часов.`
+    },
+    date: "Feb 14, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/91/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 90,
     slug: "jurmala-declares-itself-independent-nation-plans",
     title: {
@@ -96,7 +183,7 @@ Pašlaik saule noriet pār Jūrmalu ar vairāk jautājumiem nekā atbilžu, bet 
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/90/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 89,
