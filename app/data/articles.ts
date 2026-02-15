@@ -18,6 +18,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 92,
+    slug: "riga-residents-start-official-petition-for",
+    title: {
+      en: "Riga Residents Start Official Petition for Creation of 'National Month of Staring Quietly at the Sea'",
+      lv: "Rīgas iedzīvotāji sāk oficiālu petīciju par 'Nacionālā klusās jūras vērošanas mēneša' izveidi",
+      ru: "Жители Риги начинают официальную петицию за создание 'Национального месяца тихого созерцания моря'"
+    },
+    excerpt: {
+      en: "In a bold move that perfectly encapsulates the spirit of Baltic reflection, Riga residents have launched a petition demanding the establishment of an official 'National Month of Staring Quietly at the Sea'. Their mission, driven by the deep cultural practice of contemplating nothing and everything, hopes to secure government recognition by next year.",
+      lv: "Drosmīgā solī, kas lieliski iemieso Baltijas pārdomu garu, Rīgas iedzīvotāji ir uzsākuši petīciju, pieprasot oficiālu 'Nacionālā klusās jūras vērošanas mēneša' izveidi. Viņu misija, ko virza dziļā kultūras prakse apcerēt neko un visu, cer iegūt valdības atzīšanu līdz nākamajam gadam.",
+      ru: "В смелом шаге, идеально отражающем дух балтийского размышления, жители Риги запустили петицию, требующую установления официального 'Национального месяца тихого созерцания моря'. Их миссия, движимая глубокой культурной практикой созерцания ничего и всего, надеется получить признание правительства к следующему году."
+    },
+    fullContent: {
+      en: `RIGA, Latvia—In a gathering characterized by serene determination and gentle nods of approval, several dozen residents of Latvia’s bustling capital convened at a local seaside café to launch an official petition for what they are calling the 'National Month of Staring Quietly at the Sea'. 
+
+"It's a necessity we didn’t realize we needed, like umbrellas on a sunny day or picking mushrooms while it's snowing," explained Baiba Liepiņa, the petition’s initiator and local tranquility enthusiast. "The sea has always held a mysterious power over us, silencing the chaos of modern life with its eternal lapping and seagull coffee breaks." 
+
+The proposal aims to designate the entire month of February, also known as the "Month of Maximum Darkness and Minimal Motivation," for the activity, capitalizing on the naturally reflective nature of winter. It promises a mental health boost to the estimated 70% of Latvians who are proven by unofficial studies to have more meaningful conversations with waves than other humans. 
+
+In stark contrast to the Baltic region’s traditionally understated methods of protest and advocacy, organizers of the petition have vowed to take direct action, which interestingly will involve an hour of staring quietly by the Freedom Monument every Thursday until the initiative is addressed. "People might think we're just another group of citizens staring aimlessly into the middle distance," said Karlis Ozols, a self-titled 'Sea Gazing Veteran', "but actually, we're staring purposefully into the national future." 
+
+The Latvian Ministry of Culture has acknowledged the petition’s submission, offering a statement: "While February is already known for its numerous festivals of existential thoughts and copious consumption of comfort balzams, we recognize the cultural value in watching the sea reclaim beachfront property. We will consider this proposal with the gravitas it deserves." 
+
+The petition, which has already garnered over 10,000 signatures, has inspired various municipal governments across Latvia to institute temporary pilot events, such as Liepāja's 'Three Hour Inward Reflection with Tea,' and Ventspils' 'Nautical Navel-Gazing Sundays.' 
+
+Critics, however, have raised concerns about the potential for overcrowding along the country’s picturesque, albeit freezing, coastlines. A skeptical urban planner, Māris Bērziņš, worried, "What happens when everyone's trying to find a spot on the Baltic for their own unique yet shared moment of pondering? We could see an unprecedented rise in territorial disputes via shivering stares." 
+
+Still, advocates remain optimistic. "Our seas provide unlimited horizon for introspection," insisted Liepiņa. "When people come together to stare quietly, even briefly, across our shared waters, it bridges divides and brings us closer to real issues—the meaning of life, really good rye bread, and how it seems only next year can hold the promise of a nice summer." 
+
+As the Latvian government deliberates this brave new venture into bureaucratic scheduling, one thing remains clear: No storm, nor unforeseen influx of seagulls, will dampen the quiet resolve of those ready to stare for a cause.`,
+      lv: `RĪGA, Latvija—Sapulcē, kas raksturojās ar mierīgu apņēmību un maigiem piekrišanas mājieniem, vairāki desmiti Latvijas rosīgās galvaspilsētas iedzīvotāju sanāca vietējā piejūras kafejnīcā, lai uzsāktu oficiālu petīciju par to, ko viņi sauc par 'Nacionālo klusās jūras vērošanas mēnesi'.
+
+"Tas ir nepieciešamība, kuru mēs neapzinājāmies, ka mums vajag, kā lietussargi saulainā dienā vai sēņu lasīšana, kad snieg," skaidroja Baiba Liepiņa, petīcijas iniciatore un vietējā miera entuziaste. "Jūra vienmēr ir bijusi noslēpumaina vara pār mums, apklusinot mūsdienu dzīves haosu ar savu mūžīgo šļakstīšanos un kaiju kafijas pārtraukumiem."
+
+Priekšlikums paredz visu februāri, kas pazīstams arī kā "Maksimālā tumsas un minimālās motivācijas mēnesis", veltīt šai aktivitātei, izmantojot ziemas dabisko pārdomu dabu. Tas sola garīgās veselības uzlabojumu aptuveni 70% latviešu, kuri, kā liecina neoficiāli pētījumi, biežāk veic jēgpilnas sarunas ar viļņiem nekā ar citiem cilvēkiem.
+
+Pretstatā Baltijas reģiona tradicionāli atturīgajām protesta un aizstāvības metodēm, petīcijas organizatori ir apņēmušies veikt tiešu rīcību, kas interesanti ietvers vienu stundu klusas vērošanas pie Brīvības pieminekļa katru ceturtdienu, līdz iniciatīva tiks izskatīta. "Cilvēki varētu domāt, ka mēs esam tikai kārtējā iedzīvotāju grupa, kas bezmērķīgi raugās tālumā," sacīja Kārlis Ozols, pašpasludināts 'Jūras vērošanas veterāns', "bet patiesībā mēs raugāmies mērķtiecīgi uz nacionālo nākotni."
+
+Latvijas Kultūras ministrija ir atzinusi petīcijas iesniegšanu, piedāvājot paziņojumu: "Lai gan februāris jau ir pazīstams ar saviem daudzajiem eksistenciālo domu festivāliem un bagātīgo komforta balzama patēriņu, mēs atzīstam kultūras vērtību jūras vērošanā, kad tā atgūst pludmales īpašumus. Mēs apsvērsim šo priekšlikumu ar pienācīgu nopietnību."
+
+Petīcija, kas jau ir savākusi vairāk nekā 10 000 parakstu, ir iedvesmojusi dažādas pašvaldības visā Latvijā ieviest pagaidu pilotpasākumus, piemēram, Liepājas 'Trīs stundu iekšējās pārdomas ar tēju' un Ventspils 'Jūras naba vērošanas svētdienas'.
+
+Tomēr kritiķi ir izteikuši bažas par iespējamo pārpildījumu gar valsts gleznainajām, kaut arī ledainajām piekrastēm. Skeptisks pilsētplānotājs Māris Bērziņš bažījās: "Kas notiks, kad visi mēģinās atrast vietu pie Baltijas savam unikālajam, bet kopīgam pārdomu brīdim? Mēs varētu piedzīvot nepieredzētu teritoriālo strīdu pieaugumu ar drebošiem skatieniem."
+
+Tomēr aizstāvji paliek optimistiski. "Mūsu jūras nodrošina neierobežotu horizontu pārdomām," uzstāja Liepiņa. "Kad cilvēki sanāk kopā, lai klusi raudzītos, pat īsu brīdi, pāri mūsu kopīgajiem ūdeņiem, tas pārvar plaisas un tuvina mūs pie reālām problēmām—dzīves jēgas, patiešām laba rudzu maizes un kā šķiet, ka tikai nākamais gads varētu dot solījumu par jauku vasaru."
+
+Kamēr Latvijas valdība apsver šo drosmīgo jauno soli birokrātiskajā plānošanā, viena lieta ir skaidra: ne vētra, ne neparedzēts kaiju pieplūdums neapslāpēs to kluso apņēmību, kuri ir gatavi raudzīties cēloņa vārdā.`,
+      ru: `РИГА, Латвия — В собрании, характеризующемся спокойной решимостью и мягкими кивками одобрения, несколько десятков жителей оживленной столицы Латвии собрались в местном прибрежном кафе, чтобы запустить официальную петицию за то, что они называют 'Национальным месяцем тихого созерцания моря'.
+
+"Это необходимость, о которой мы не подозревали, как зонтики в солнечный день или сбор грибов во время снегопада," объяснила Байба Лиепиня, инициатор петиции и местный энтузиаст спокойствия. "Море всегда обладало таинственной силой над нами, заглушая хаос современной жизни своим вечным плеском и кофейными перерывами чаек."
+
+Предложение направлено на то, чтобы обозначить весь февраль, также известный как "Месяц максимальной темноты и минимальной мотивации", для этой активности, используя естественно рефлексивный характер зимы. Оно обещает улучшение психического здоровья для 70% латвийцев, которые, как доказано неофициальными исследованиями, ведут более содержательные беседы с волнами, чем с другими людьми.
+
+В резком контрасте с традиционно сдержанными методами протеста и адвокации в Балтийском регионе, организаторы петиции пообещали предпринять прямые действия, которые, интересно, будут включать час тихого созерцания у Памятника Свободы каждый четверг, пока инициатива не будет рассмотрена. "Люди могут подумать, что мы просто еще одна группа граждан, бессмысленно смотрящих в даль," сказал Карлис Озолс, самопровозглашенный 'Ветеран созерцания моря', "но на самом деле мы целенаправленно смотрим в национальное будущее."
+
+Министерство культуры Латвии признало подачу петиции, предложив заявление: "Хотя февраль уже известен своими многочисленными фестивалями экзистенциальных мыслей и обильным потреблением комфортного бальзама, мы признаем культурную ценность наблюдения за тем, как море возвращает себе пляжную собственность. Мы рассмотрим это предложение с должной серьезностью."
+
+Петиция, которая уже собрала более 10 000 подписей, вдохновила различные муниципальные правительства по всей Латвии на проведение временных пилотных мероприятий, таких как 'Трехчасовое внутреннее размышление с чаем' в Лиепае и 'Морские воскресенья для созерцания пупка' в Вентспилсе.
+
+Однако критики выразили обеспокоенность по поводу возможной переполненности вдоль живописных, хотя и замерзающих, побережий страны. Скептически настроенный городской планировщик, Марис Берзиньш, беспокоится: "Что произойдет, когда все попытаются найти место на Балтике для своего уникального, но общего момента размышления? Мы можем увидеть беспрецедентный рост территориальных споров через дрожащие взгляды."
+
+Тем не менее, сторонники остаются оптимистичными. "Наши моря предоставляют неограниченный горизонт для интроспекции," настаивает Лиепиня. "Когда люди собираются вместе, чтобы тихо созерцать, даже ненадолго, через наши общие воды, это преодолевает разногласия и приближает нас к реальным вопросам — смыслу жизни, действительно хорошему ржаному хлебу и тому, как только следующий год может обещать приятное лето."
+
+Пока латвийское правительство обдумывает это смелое новое предприятие в бюрократическом расписании, одно остается ясным: ни шторм, ни непредвиденный наплыв чаек не ослабят тихую решимость тех, кто готов созерцать ради дела.`
+    },
+    date: "Feb 15, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/92/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 91,
     slug: "riga-declares-first-national-wait-five",
     title: {
@@ -102,7 +177,7 @@ Tuvojoties svētku priekšvakaram, Rīga aicina savus iedzīvotājus un tūristu
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/91/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 90,
