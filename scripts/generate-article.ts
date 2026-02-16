@@ -101,7 +101,7 @@ Format your response as JSON:
 }`;
 
   const completion = await openai.chat.completions.create({
-    model: "gpt-4o",
+    model: "gpt-5.2-chat-latest",
     messages: [
       {
         role: "system",
@@ -123,7 +123,7 @@ Format your response as JSON:
   // Translate to Latvian
   console.log('🇱🇻 Translating to Latvian...');
   const latvianCompletion = await openai.chat.completions.create({
-    model: "gpt-4o",
+    model: "gpt-5.2-chat-latest",
     messages: [
       {
         role: "system",
@@ -144,7 +144,7 @@ Format your response as JSON:
   // Translate to Russian
   console.log('🇷🇺 Translating to Russian...');
   const russianCompletion = await openai.chat.completions.create({
-    model: "gpt-4o",
+    model: "gpt-5.2-chat-latest",
     messages: [
       {
         role: "system",
