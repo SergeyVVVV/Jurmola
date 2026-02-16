@@ -100,12 +100,50 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   });
 
-  // Jurmola keyword page (Russian only - target keyword "юрмола")
+  // Jurmola pages (all languages - high priority evergreen content)
   routes.push({
     url: `${baseUrl}/jurmola/`,
     lastModified: now,
     changeFrequency: 'weekly' as const,
-    priority: 0.95, // High priority for target keyword
+    priority: 0.95,
+    alternates: {
+      languages: {
+        'x-default': `${baseUrl}/jurmola/`,
+        en: `${baseUrl}/en/jurmola/`,
+        ru: `${baseUrl}/jurmola/`,
+        lv: `${baseUrl}/lv/jurmola/`,
+      },
+    },
+  });
+
+  routes.push({
+    url: `${baseUrl}/en/jurmola/`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.95,
+    alternates: {
+      languages: {
+        'x-default': `${baseUrl}/jurmola/`,
+        en: `${baseUrl}/en/jurmola/`,
+        ru: `${baseUrl}/jurmola/`,
+        lv: `${baseUrl}/lv/jurmola/`,
+      },
+    },
+  });
+
+  routes.push({
+    url: `${baseUrl}/lv/jurmola/`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.95,
+    alternates: {
+      languages: {
+        'x-default': `${baseUrl}/jurmola/`,
+        en: `${baseUrl}/en/jurmola/`,
+        ru: `${baseUrl}/jurmola/`,
+        lv: `${baseUrl}/lv/jurmola/`,
+      },
+    },
   });
 
   // Category pages for each language (high priority for SEO)

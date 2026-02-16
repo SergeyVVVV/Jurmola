@@ -38,9 +38,10 @@ export default async function ArticlePage({ params }: Props) {
 
   const schemaOrgData = {
     "@context": "https://schema.org",
-    "@type": "NewsArticle",
+    "@type": "Article",
     "headline": article.title[language],
     "description": article.excerpt[language],
+    "genre": "Satire",
     "image": getArticleImageAbsoluteUrl(article, "https://jurmola.com"),
     "datePublished": new Date(article.date).toISOString(),
     "dateModified": new Date(article.date).toISOString(),
@@ -89,6 +90,15 @@ export default async function ArticlePage({ params }: Props) {
         <h1 className="text-2xl font-bold mb-6 leading-tight" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
           {article.title[language]}
         </h1>
+
+        <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 mb-6 rounded-r">
+          <p className="text-sm text-gray-800">
+            ⚠️ <strong>Satīra:</strong> Šis ir izdomāts stāsts izklaidei.{' '}
+            <Link href={localizedHref('about', language)} className="underline hover:text-gray-900">
+              Uzziniet vairāk par mums
+            </Link>
+          </p>
+        </div>
 
         <div className="text-gray-600 mb-8 text-lg italic">
           {article.author[language]}
