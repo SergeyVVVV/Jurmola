@@ -142,17 +142,17 @@ const monthlyData = [
 ];
 
 function getSeasonColor(index: number): string {
-  if (index < 2 || index === 11) return 'bg-blue-50 border-blue-200'; // Winter
-  if (index >= 2 && index < 5) return 'bg-green-50 border-green-200'; // Spring
-  if (index >= 5 && index < 8) return 'bg-amber-50 border-amber-200'; // Summer
-  return 'bg-orange-50 border-orange-200'; // Autumn
+  if (index < 2 || index === 11) return 'bg-gray-50 border-gray-200'; // Winter
+  if (index >= 2 && index < 5) return 'bg-gray-50 border-gray-200'; // Spring
+  if (index >= 5 && index < 8) return 'bg-gray-50 border-gray-200'; // Summer
+  return 'bg-gray-50 border-gray-200'; // Autumn
 }
 
 function getWaterColor(temp: number): string {
-  if (temp <= 5) return 'text-blue-800 bg-blue-100';
-  if (temp <= 12) return 'text-cyan-700 bg-cyan-100';
-  if (temp <= 17) return 'text-teal-700 bg-teal-100';
-  return 'text-emerald-700 bg-emerald-100';
+  if (temp <= 5) return 'bg-gray-100 text-gray-700';
+  if (temp <= 12) return 'bg-gray-100 text-gray-700';
+  if (temp <= 17) return 'bg-gray-100 text-gray-700';
+  return 'bg-gray-100 text-gray-700';
 }
 
 export default function WeatherPage() {
@@ -160,26 +160,26 @@ export default function WeatherPage() {
     <div className="min-h-screen bg-white">
       <Header language={language} />
 
-      <section className="bg-gradient-to-br from-sky-50 via-blue-50 to-cyan-50 py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <nav className="text-sm text-gray-500 mb-4">
-            <Link href={localizedHref('jurmola', language)} className="hover:text-blue-600 transition">Jurmala City Guide</Link>
-            <span className="mx-2">/</span>
-            <span className="text-gray-900">Weather</span>
-          </nav>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Jurmala Weather by Month</h1>
-          <p className="text-xl text-gray-700 leading-relaxed mb-4">
-            Complete climate guide: air and sea temperatures, rainfall, sunshine hours, and seasonal recommendations.
-          </p>
-          <p className="text-lg text-gray-500">Plan your perfect trip to Jurmala with our detailed weather guide</p>
-        </div>
-      </section>
-
       <main className="max-w-4xl mx-auto px-4 py-12">
+        <nav className="text-sm text-gray-500 mb-4">
+          <Link href={localizedHref('jurmola', language)} className="hover:text-gray-900 transition">Jurmala City Guide</Link>
+          <span className="mx-2">/</span>
+          <span className="text-gray-900">Weather</span>
+        </nav>
+        <div className="mb-4">
+          <span className="bg-red-600 text-white px-3 py-1 rounded text-xs font-semibold uppercase tracking-wide">Climate &amp; Weather</span>
+        </div>
+        <h1 className="text-4xl font-bold mb-6 leading-tight" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
+          Jurmala Weather by Month
+        </h1>
+        <p className="text-lg text-gray-700 leading-relaxed mb-4">
+          Complete climate guide: air and sea temperatures, rainfall, sunshine hours, and seasonal recommendations.
+        </p>
+        <p className="text-gray-500 mb-12">Plan your perfect trip to Jurmala with our detailed weather guide</p>
 
         {/* Climate overview */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6">Jurmala Climate Overview</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Jurmala Climate Overview</h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-lg leading-relaxed text-gray-700 mb-4">
               <strong>Jurmala</strong> (also spelled <strong>Jurmola</strong>, Latvian: <em>Jūrmala</em>) sits on the shores of the Gulf of Riga in the Baltic Sea and has a <strong>humid continental climate</strong> (K&ouml;ppen classification: Dfb) with warm summers and cold winters. The proximity of the sea and pine forests creates a unique microclimate: winters are slightly milder and summers cooler than in nearby Riga.
@@ -191,8 +191,8 @@ export default function WeatherPage() {
         </section>
 
         {/* Quick stats */}
-        <section className="mb-12 p-6 bg-gradient-to-r from-slate-50 to-gray-50 rounded-xl border border-gray-200">
-          <h2 className="text-2xl font-bold mb-4">Jurmala Climate at a Glance</h2>
+        <section className="mb-12 p-6 bg-gray-50 rounded-lg border border-gray-200">
+          <h2 className="text-xl font-bold mb-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Jurmala Climate at a Glance</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               { value: '+22 \u00B0C', label: 'July high' },
@@ -205,7 +205,7 @@ export default function WeatherPage() {
               { value: '18 h', label: 'daylight in June' },
             ].map((stat) => (
               <div key={stat.label} className="text-center p-3">
-                <div className="text-2xl font-bold text-blue-600">{stat.value}</div>
+                <div className="text-2xl font-bold text-gray-900">{stat.value}</div>
                 <div className="text-xs text-gray-600 mt-1">{stat.label}</div>
               </div>
             ))}
@@ -214,7 +214,7 @@ export default function WeatherPage() {
 
         {/* Monthly data table */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6">Monthly Weather Data</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Monthly Weather Data</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -252,10 +252,10 @@ export default function WeatherPage() {
 
         {/* Monthly detailed cards */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6">Month-by-Month Weather Guide</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Month-by-Month Weather Guide</h2>
           <div className="grid gap-4">
             {monthlyData.map((m, i) => (
-              <div key={m.month} className={`p-5 rounded-xl border ${getSeasonColor(i)}`}>
+              <div key={m.month} className={`p-5 rounded-lg border ${getSeasonColor(i)}`}>
                 <div className="flex flex-col md:flex-row md:items-center gap-4">
                   <div className="md:w-32 shrink-0">
                     <h3 className="text-xl font-bold">{m.month}</h3>
@@ -284,32 +284,32 @@ export default function WeatherPage() {
 
         {/* Best time to visit */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6">Best Time to Visit Jurmala</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Best Time to Visit Jurmala</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="p-6 bg-emerald-50 rounded-xl border border-emerald-200">
-              <h3 className="text-xl font-bold mb-3 text-emerald-800">Beach Holiday: July &ndash; August</h3>
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
+              <h3 className="text-xl font-bold mb-3">Beach Holiday: July &ndash; August</h3>
               <p className="text-gray-700 leading-relaxed">
                 The ideal time for swimming. Air temperature +21&ndash;22 &deg;C, sea water warms to +19&ndash;20 &deg;C.
                 All beaches are equipped with facilities and lifeguards. Long days (16&ndash;18 hours of light).
                 The only downside &mdash; peak season means Jurmala can be crowded.
               </p>
             </div>
-            <div className="p-6 bg-green-50 rounded-xl border border-green-200">
-              <h3 className="text-xl font-bold mb-3 text-green-800">Shoulder Season: May &ndash; June, September</h3>
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
+              <h3 className="text-xl font-bold mb-3">Shoulder Season: May &ndash; June, September</h3>
               <p className="text-gray-700 leading-relaxed">
                 An excellent choice if you want to avoid crowds. In May and June, nature is in full bloom and days are very long.
                 September is the velvet season with warm days and fewer tourists. Swimming is possible in early September.
               </p>
             </div>
-            <div className="p-6 bg-amber-50 rounded-xl border border-amber-200">
-              <h3 className="text-xl font-bold mb-3 text-amber-800">Spa &amp; Nature: October &ndash; April</h3>
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
+              <h3 className="text-xl font-bold mb-3">Spa &amp; Nature: October &ndash; April</h3>
               <p className="text-gray-700 leading-relaxed">
                 The off-season is ideal for spa holidays: prices are lower and spa hotels operate year-round.
                 Walks along winter beaches and through pine forests, peace and tranquillity. Kemeri mineral springs are accessible any time.
               </p>
             </div>
-            <div className="p-6 bg-red-50 rounded-xl border border-red-200">
-              <h3 className="text-xl font-bold mb-3 text-red-800">Winter Wonderland: December &ndash; February</h3>
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
+              <h3 className="text-xl font-bold mb-3">Winter Wonderland: December &ndash; February</h3>
               <p className="text-gray-700 leading-relaxed">
                 Not for beach holidays, but winter Jurmala has its own charm. Snow-covered pines, stormy seas,
                 festive decorations. Spa hotels offer special winter programmes and New Year packages.
@@ -319,8 +319,8 @@ export default function WeatherPage() {
         </section>
 
         {/* Swimming season */}
-        <section className="mb-12 p-6 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-xl border border-cyan-200">
-          <h2 className="text-2xl font-bold mb-4">Swimming Season in Jurmala</h2>
+        <section className="mb-12 p-6 bg-gray-50 rounded-lg border border-gray-200">
+          <h2 className="text-xl font-bold mb-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Swimming Season in Jurmala</h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-lg leading-relaxed text-gray-700 mb-4">
               The swimming season on Jurmala&apos;s beaches runs from <strong>late June to late August</strong>, when the Gulf of Riga water temperature rises to a comfortable +18&ndash;20 &deg;C. The peak is early August when the water can warm to +22&ndash;23 &deg;C.
@@ -329,24 +329,24 @@ export default function WeatherPage() {
               The Gulf of Riga is shallow, so water warms faster than in the open Baltic Sea. The gentle slope into the water makes Jurmala&apos;s beaches safe for children.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-4">
-              <div className="text-center p-3 bg-white rounded-lg">
+              <div className="text-center p-3 bg-white rounded-lg border border-gray-200">
                 <div className="text-sm text-gray-500">June</div>
-                <div className="text-xl font-bold text-cyan-600">+15 &deg;C</div>
+                <div className="text-xl font-bold text-gray-900">+15 &deg;C</div>
                 <div className="text-xs text-gray-500">cool</div>
               </div>
-              <div className="text-center p-3 bg-white rounded-lg">
+              <div className="text-center p-3 bg-white rounded-lg border border-gray-200">
                 <div className="text-sm text-gray-500">July</div>
-                <div className="text-xl font-bold text-teal-600">+19 &deg;C</div>
+                <div className="text-xl font-bold text-gray-900">+19 &deg;C</div>
                 <div className="text-xs text-gray-500">swimmable</div>
               </div>
-              <div className="text-center p-3 bg-white rounded-lg">
+              <div className="text-center p-3 bg-white rounded-lg border border-gray-200">
                 <div className="text-sm text-gray-500">August</div>
-                <div className="text-xl font-bold text-emerald-600">+20 &deg;C</div>
+                <div className="text-xl font-bold text-gray-900">+20 &deg;C</div>
                 <div className="text-xs text-gray-500">best time</div>
               </div>
-              <div className="text-center p-3 bg-white rounded-lg">
+              <div className="text-center p-3 bg-white rounded-lg border border-gray-200">
                 <div className="text-sm text-gray-500">September</div>
-                <div className="text-xl font-bold text-cyan-600">+16 &deg;C</div>
+                <div className="text-xl font-bold text-gray-900">+16 &deg;C</div>
                 <div className="text-xs text-gray-500">for the brave</div>
               </div>
             </div>
@@ -355,9 +355,9 @@ export default function WeatherPage() {
 
         {/* What to pack */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6">What to Pack for Jurmala</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>What to Pack for Jurmala</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="p-6 bg-amber-50 rounded-xl border border-amber-200">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Summer (June &ndash; August)</h3>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-2"><span className="shrink-0 mt-1">&#8226;</span>Light clothing and shorts</li>
@@ -368,7 +368,7 @@ export default function WeatherPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0 mt-1">&#8226;</span>Comfortable walking shoes for beach and forest</li>
               </ul>
             </div>
-            <div className="p-6 bg-orange-50 rounded-xl border border-orange-200">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Spring &amp; Autumn (March &ndash; May, September &ndash; November)</h3>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-2"><span className="shrink-0 mt-1">&#8226;</span>Layered clothing</li>
@@ -379,7 +379,7 @@ export default function WeatherPage() {
                 <li className="flex items-start gap-2"><span className="shrink-0 mt-1">&#8226;</span>Umbrella &mdash; essential</li>
               </ul>
             </div>
-            <div className="p-6 bg-blue-50 rounded-xl border border-blue-200 md:col-span-2">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200 md:col-span-2">
               <h3 className="text-xl font-bold mb-3">Winter (December &ndash; February)</h3>
               <ul className="space-y-2 text-gray-700 md:columns-2">
                 <li className="flex items-start gap-2"><span className="shrink-0 mt-1">&#8226;</span>Warm winter coat (down jacket)</li>
@@ -395,29 +395,29 @@ export default function WeatherPage() {
 
         {/* Tips for tourists */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6">Weather Tips for Visitors</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Weather Tips for Visitors</h2>
           <div className="space-y-4">
-            <div className="p-5 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl border-l-4 border-orange-400">
+            <div className="p-5 bg-gray-50 border-l-4 border-gray-300 rounded-r">
               <h3 className="font-bold text-lg mb-2">The Baltic Sun is Deceptive</h3>
               <p className="text-gray-700">Even on cloudy days you can get sunburned. Always use sunscreen in summer, especially at the beach where reflection from water and sand amplifies UV radiation.</p>
             </div>
-            <div className="p-5 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl border-l-4 border-blue-400">
+            <div className="p-5 bg-gray-50 border-l-4 border-gray-300 rounded-r">
               <h3 className="font-bold text-lg mb-2">Weather Changes Quickly</h3>
               <p className="text-gray-700">The maritime climate is unpredictable: a sunny morning can give way to rain by lunchtime, only for the sun to reappear by evening. Always carry a rain jacket or umbrella, even if the morning is clear.</p>
             </div>
-            <div className="p-5 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl border-l-4 border-green-400">
+            <div className="p-5 bg-gray-50 border-l-4 border-gray-300 rounded-r">
               <h3 className="font-bold text-lg mb-2">Sea Breeze Factor</h3>
               <p className="text-gray-700">The beach often has wind blowing from the Gulf of Riga, making the perceived temperature 3&ndash;5 &deg;C lower than actual. Bring a windbreaker even when the thermometer reads +22 &deg;C.</p>
             </div>
-            <div className="p-5 bg-gradient-to-r from-purple-50 to-violet-50 rounded-xl border-l-4 border-purple-400">
+            <div className="p-5 bg-gray-50 border-l-4 border-gray-300 rounded-r">
               <h3 className="font-bold text-lg mb-2">White Nights in June</h3>
               <p className="text-gray-700">In late June, Jurmala experiences white nights &mdash; it never gets fully dark. Daylight lasts about 18 hours. If you&apos;re sensitive to light, bring a sleep mask.</p>
             </div>
-            <div className="p-5 bg-gradient-to-r from-rose-50 to-pink-50 rounded-xl border-l-4 border-rose-400">
+            <div className="p-5 bg-gray-50 border-l-4 border-gray-300 rounded-r">
               <h3 className="font-bold text-lg mb-2">Dark but Beautiful Winters</h3>
               <p className="text-gray-700">In December, daylight lasts only about 7 hours and the sun may appear for less than one hour. But snow-covered Jurmala with illuminated pines is an unforgettable sight. Bring a torch for evening walks.</p>
             </div>
-            <div className="p-5 bg-gradient-to-r from-teal-50 to-cyan-50 rounded-xl border-l-4 border-teal-400">
+            <div className="p-5 bg-gray-50 border-l-4 border-gray-300 rounded-r">
               <h3 className="font-bold text-lg mb-2">Healing Air All Year Round</h3>
               <p className="text-gray-700">The combination of sea air and pine forest phytoncides creates a unique atmosphere beneficial for the respiratory system. This effect is strongest in spring and summer when the pines release more resin.</p>
             </div>
@@ -426,24 +426,24 @@ export default function WeatherPage() {
 
         {/* Seasons summary */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6">Seasons in Jurmala: Quick Overview</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Seasons in Jurmala: Quick Overview</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="p-6 bg-blue-50 rounded-xl">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Winter (December &ndash; February)</h3>
               <p className="text-gray-700 mb-3">Temperature from &minus;6 to +1 &deg;C. Snow, short days, frosty air. Coastal water may freeze.</p>
               <p className="text-sm text-gray-500">Ideal for: winter spa lovers, seekers of quiet, and snowy landscapes.</p>
             </div>
-            <div className="p-6 bg-green-50 rounded-xl">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Spring (March &ndash; May)</h3>
               <p className="text-gray-700 mb-3">Temperature from &minus;3 to +16 &deg;C. Nature awakens, low rainfall, growing daylight hours.</p>
               <p className="text-sm text-gray-500">Ideal for: nature lovers, photographers, those who want to see Jurmala without the crowds.</p>
             </div>
-            <div className="p-6 bg-amber-50 rounded-xl">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Summer (June &ndash; August)</h3>
               <p className="text-gray-700 mb-3">Temperature from +11 to +22 &deg;C. White nights, beach season, festivals, and vibrant cultural life.</p>
               <p className="text-sm text-gray-500">Ideal for: everyone! Beach holidays, families with children, cultural tourists.</p>
             </div>
-            <div className="p-6 bg-orange-50 rounded-xl">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Autumn (September &ndash; November)</h3>
               <p className="text-gray-700 mb-3">Temperature from 0 to +17 &deg;C. Golden autumn, mushroom foraging in forests, stormy seas, cosy cafes.</p>
               <p className="text-sm text-gray-500">Ideal for: romantics, spa enthusiasts, those who prefer tranquillity.</p>
@@ -453,7 +453,7 @@ export default function WeatherPage() {
 
         {/* Other guide sections */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6">More from the Jurmala Guide</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>More from the Jurmala Guide</h2>
           <div className="grid gap-3">
             {[
               { href: 'jurmola', title: 'Jurmala City Guide', description: 'Main guide overview page' },
@@ -462,7 +462,7 @@ export default function WeatherPage() {
               { href: 'jurmola/restaurants', title: 'Restaurants & Cafes', description: 'Best places to eat' },
               { href: 'jurmola/where-to-stay', title: 'Where to Stay', description: 'Hotels and spa resorts' },
             ].map((link) => (
-              <Link key={link.href} href={localizedHref(link.href, language)} className="flex items-center justify-between p-4 bg-gray-50 rounded-lg hover:bg-blue-50 hover:shadow-md transition-all duration-200 border border-gray-200">
+              <Link key={link.href} href={localizedHref(link.href, language)} className="flex items-center justify-between p-4 bg-gray-50 rounded-lg hover:bg-gray-100 hover:border-gray-300 transition-all duration-200 border border-gray-200">
                 <div>
                   <h3 className="font-bold text-gray-900">{link.title}</h3>
                   <p className="text-sm text-gray-500">{link.description}</p>
@@ -474,19 +474,19 @@ export default function WeatherPage() {
         </section>
 
         {/* CTA section */}
-        <section className="mb-12 text-center py-8 px-6 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-xl text-white">
+        <section className="mb-12 text-center py-8 px-6 bg-black rounded-lg text-white">
           <h2 className="text-2xl font-bold mb-3">Chosen Your Travel Dates?</h2>
-          <p className="text-blue-100 mb-6">Continue planning with other sections of our guide</p>
+          <p className="text-gray-400 mb-6">Continue planning with other sections of our guide</p>
           <div className="flex flex-wrap gap-3 justify-center">
-            <Link href={localizedHref('jurmola/how-to-get-there', language)} className="px-6 py-2 bg-white text-blue-600 font-medium rounded-lg hover:bg-blue-50 transition">How to Get There</Link>
-            <Link href={localizedHref('jurmola/where-to-stay', language)} className="px-6 py-2 bg-white/20 text-white font-medium rounded-lg hover:bg-white/30 transition border border-white/30">Where to Stay</Link>
-            <Link href={localizedHref('jurmola/attractions', language)} className="px-6 py-2 bg-white/20 text-white font-medium rounded-lg hover:bg-white/30 transition border border-white/30">Attractions</Link>
+            <Link href={localizedHref('jurmola/how-to-get-there', language)} className="px-6 py-2 bg-white text-black font-medium rounded hover:bg-gray-100 transition">How to Get There</Link>
+            <Link href={localizedHref('jurmola/where-to-stay', language)} className="px-6 py-2 bg-gray-800 text-white font-medium rounded hover:bg-gray-700 transition border border-gray-600">Where to Stay</Link>
+            <Link href={localizedHref('jurmola/attractions', language)} className="px-6 py-2 bg-gray-800 text-white font-medium rounded hover:bg-gray-700 transition border border-gray-600">Attractions</Link>
           </div>
         </section>
 
         {/* Back to guide */}
         <div className="text-center">
-          <Link href={localizedHref('jurmola', language)} className="text-blue-600 hover:text-blue-800 font-medium transition">
+          <Link href={localizedHref('jurmola', language)} className="text-gray-600 hover:text-gray-900 font-medium transition">
             &larr; Back to the Jurmala City Guide
           </Link>
         </div>

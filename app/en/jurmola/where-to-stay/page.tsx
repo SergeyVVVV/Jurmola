@@ -184,7 +184,7 @@ function HotelCard({ hotel }: { hotel: { name: string; stars: number; price: str
         </div>
         <div className="text-right">
           <span className="text-sm font-medium text-gray-500">{hotel.priceCategory}</span>
-          <div className="text-blue-600 font-bold">{hotel.price}</div>
+          <div className="text-gray-900 font-bold">{hotel.price}</div>
         </div>
       </div>
       <p className="text-gray-600 text-sm mb-4">{hotel.description}</p>
@@ -197,7 +197,7 @@ function HotelCard({ hotel }: { hotel: { name: string; stars: number; price: str
         href={BOOKING_LINK}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-block text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors"
+        className="inline-block text-sm font-medium text-white bg-black hover:bg-gray-800 px-4 py-2 rounded-lg transition-colors"
       >
         Book on Booking.com
       </a>
@@ -210,30 +210,27 @@ export default function WhereToStayPage() {
     <div className="min-h-screen bg-white">
       <Header language={language} />
 
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50 py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-sm font-medium text-rose-600 mb-3 tracking-wide uppercase">City Guide 2026</p>
-          <h1 className="text-5xl font-bold mb-6 leading-tight">Where to Stay in Jurmala</h1>
-          <p className="text-xl text-gray-700 leading-relaxed mb-4">
-            Complete guide to <strong>Jurmala</strong> hotels and accommodation: from luxurious 5-star spa resorts
-            to cozy budget guesthouses. Over <strong>614 properties</strong> to suit every taste and budget.
-          </p>
-          <p className="text-lg text-gray-500">Average prices: 3* from €52/night &middot; 4* from €111/night &middot; spa from €172/night</p>
-        </div>
-      </section>
-
       <main className="max-w-4xl mx-auto px-4 py-12">
         {/* Breadcrumb */}
-        <nav className="mb-8 text-sm text-gray-500">
-          <Link href={localizedHref('jurmola', language)} className="hover:text-blue-600 transition-colors">Jurmala</Link>
+        <nav className="text-sm text-gray-500 mb-4">
+          <Link href={localizedHref('jurmola', language)} className="hover:text-gray-900 transition-colors">Jurmala</Link>
           <span className="mx-2">/</span>
           <span className="text-gray-900">Where to Stay</span>
         </nav>
 
+        <span className="bg-red-600 text-white px-3 py-1 rounded text-xs font-semibold uppercase tracking-wide">City Guide 2026</span>
+        <h1 className="text-4xl font-bold mb-6 leading-tight mt-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
+          Where to Stay in Jurmala
+        </h1>
+        <p className="text-lg text-gray-700 leading-relaxed mb-4">
+          Complete guide to <strong>Jurmala</strong> hotels and accommodation: from luxurious 5-star spa resorts
+          to cozy budget guesthouses. Over <strong>614 properties</strong> to suit every taste and budget.
+        </p>
+        <p className="text-gray-500 mb-12">Average prices: 3* from €52/night &middot; 4* from €111/night &middot; spa from €172/night</p>
+
         {/* Quick Stats */}
-        <section className="mb-12 p-6 bg-gradient-to-r from-slate-50 to-gray-50 rounded-xl border border-gray-200">
-          <h2 className="text-2xl font-bold mb-4">Accommodation at a Glance</h2>
+        <section className="mb-12 p-6 bg-gray-50 rounded-lg border border-gray-200">
+          <h2 className="text-xl font-bold mb-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Accommodation at a Glance</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               { value: '614', label: 'properties' },
@@ -242,7 +239,7 @@ export default function WhereToStayPage() {
               { value: 'February', label: 'cheapest month' },
             ].map((stat) => (
               <div key={stat.label} className="text-center p-3">
-                <div className="text-2xl font-bold text-rose-600">{stat.value}</div>
+                <div className="text-2xl font-bold text-gray-900">{stat.value}</div>
                 <div className="text-xs text-gray-600">{stat.label}</div>
               </div>
             ))}
@@ -251,13 +248,8 @@ export default function WhereToStayPage() {
 
         {/* Luxury & Spa */}
         <section className="mb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">✦</span>
-            <div>
-              <h2 className="text-3xl font-bold">Luxury &amp; Spa Hotels</h2>
-              <p className="text-gray-500">Category \u20AC\u20AC\u20AC &middot; from €93/night</p>
-            </div>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Luxury &amp; Spa Hotels</h2>
+          <p className="text-gray-500 mb-6">Category {'\u20AC\u20AC\u20AC'} &middot; from €93/night</p>
           <div className="grid md:grid-cols-2 gap-6">
             {luxuryHotels.map((hotel) => (
               <HotelCard key={hotel.name} hotel={hotel} />
@@ -267,13 +259,8 @@ export default function WhereToStayPage() {
 
         {/* Boutique */}
         <section className="mb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">◆</span>
-            <div>
-              <h2 className="text-3xl font-bold">Boutique Hotels</h2>
-              <p className="text-gray-500">Category \u20AC\u20AC-\u20AC\u20AC\u20AC &middot; from €75/night</p>
-            </div>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Boutique Hotels</h2>
+          <p className="text-gray-500 mb-6">Category {'\u20AC\u20AC'}-{'\u20AC\u20AC\u20AC'} &middot; from €75/night</p>
           <div className="grid md:grid-cols-2 gap-6">
             {boutiqueHotels.map((hotel) => (
               <HotelCard key={hotel.name} hotel={hotel} />
@@ -283,13 +270,8 @@ export default function WhereToStayPage() {
 
         {/* Mid-Range */}
         <section className="mb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">●</span>
-            <div>
-              <h2 className="text-3xl font-bold">Mid-Range Hotels</h2>
-              <p className="text-gray-500">Category \u20AC\u20AC &middot; from €65/night</p>
-            </div>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Mid-Range Hotels</h2>
+          <p className="text-gray-500 mb-6">Category {'\u20AC\u20AC'} &middot; from €65/night</p>
           <div className="grid md:grid-cols-2 gap-6">
             {midRangeHotels.map((hotel) => (
               <HotelCard key={hotel.name} hotel={hotel} />
@@ -299,13 +281,8 @@ export default function WhereToStayPage() {
 
         {/* Budget */}
         <section className="mb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">○</span>
-            <div>
-              <h2 className="text-3xl font-bold">Budget Accommodation</h2>
-              <p className="text-gray-500">Category \u20AC &middot; from €30/night</p>
-            </div>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Budget Accommodation</h2>
+          <p className="text-gray-500 mb-6">Category {'\u20AC'} &middot; from €30/night</p>
           <div className="grid md:grid-cols-2 gap-6">
             {budgetHotels.map((hotel) => (
               <HotelCard key={hotel.name} hotel={hotel} />
@@ -314,14 +291,14 @@ export default function WhereToStayPage() {
         </section>
 
         {/* Booking CTA */}
-        <section className="mb-12 text-center py-8 px-6 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl text-white">
+        <section className="mb-12 text-center py-8 px-6 bg-black rounded-lg text-white">
           <h2 className="text-2xl font-bold mb-3">Find Your Perfect Hotel in Jurmala</h2>
-          <p className="text-blue-100 mb-6">Over 614 properties on Booking.com with free cancellation</p>
+          <p className="text-gray-400 mb-6">Over 614 properties on Booking.com with free cancellation</p>
           <a
             href={BOOKING_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-8 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-blue-50 transition-colors text-lg"
+            className="inline-block px-8 py-3 bg-white text-black font-bold rounded-lg hover:bg-gray-100 transition-colors text-lg"
           >
             Browse All Hotels on Booking.com
           </a>
@@ -329,9 +306,9 @@ export default function WhereToStayPage() {
 
         {/* Tips Section */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6">Accommodation Tips for Jurmala</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Accommodation Tips for Jurmala</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="p-6 bg-amber-50 rounded-lg border border-amber-200">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Best Neighborhoods</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li><strong>Majori</strong> -- the center of action, Jomas Street, restaurants, shops. Most convenient district.</li>
@@ -340,7 +317,7 @@ export default function WhereToStayPage() {
                 <li><strong>Lielupe</strong> -- river, golf, family-friendly. Quiet and green.</li>
               </ul>
             </div>
-            <div className="p-6 bg-green-50 rounded-lg border border-green-200">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">When to Book for the Best Deals</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li><strong>February</strong> -- cheapest month, prices 40-50% lower than summer.</li>
@@ -349,7 +326,7 @@ export default function WhereToStayPage() {
                 <li><strong>Early booking</strong> -- 2-3 months ahead gets the best rates.</li>
               </ul>
             </div>
-            <div className="p-6 bg-blue-50 rounded-lg border border-blue-200">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">What to Choose</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li><strong>Spa getaway</strong> -- Hotel Jurmala Spa (200+ treatments) or Baltic Beach Hotel.</li>
@@ -358,7 +335,7 @@ export default function WhereToStayPage() {
                 <li><strong>Budget</strong> -- Elina Hotel from €30 or Boutique Mama from €60.</li>
               </ul>
             </div>
-            <div className="p-6 bg-purple-50 rounded-lg border border-purple-200">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Useful Tips</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li>Almost all 4*+ hotels include spa access in the room rate.</li>
@@ -372,17 +349,16 @@ export default function WhereToStayPage() {
 
         {/* Other Guide Sections */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4">Other Guide Sections</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Other Guide Sections</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              { href: 'jurmola/weather', title: 'Weather in Jurmala', icon: '🌤️', color: 'from-sky-50 to-blue-50', border: 'border-sky-300' },
-              { href: 'jurmola/how-to-get-there', title: 'How to Get There', icon: '🚂', color: 'from-green-50 to-emerald-50', border: 'border-green-300' },
-              { href: 'jurmola/attractions', title: 'Attractions & Things to Do', icon: '🏛️', color: 'from-purple-50 to-violet-50', border: 'border-purple-300' },
-              { href: 'jurmola/restaurants', title: 'Restaurants & Cafes', icon: '🍽️', color: 'from-orange-50 to-amber-50', border: 'border-orange-300' },
+              { href: 'jurmola/weather', title: 'Weather in Jurmala' },
+              { href: 'jurmola/how-to-get-there', title: 'How to Get There' },
+              { href: 'jurmola/attractions', title: 'Attractions & Things to Do' },
+              { href: 'jurmola/restaurants', title: 'Restaurants & Cafes' },
             ].map((page) => (
-              <Link key={page.href} href={localizedHref(page.href, language)} className={`block p-4 bg-gradient-to-r ${page.color} rounded-lg border ${page.border} hover:shadow-md transition-all duration-200`}>
+              <Link key={page.href} href={localizedHref(page.href, language)} className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:bg-gray-100 hover:border-gray-300 transition-all">
                 <div className="flex items-center gap-3">
-                  <span className="text-2xl">{page.icon}</span>
                   <span className="font-medium text-gray-900">{page.title}</span>
                   <span className="ml-auto text-gray-400">&rarr;</span>
                 </div>
@@ -392,10 +368,10 @@ export default function WhereToStayPage() {
         </section>
 
         {/* Back to Hub */}
-        <section className="text-center py-8 px-6 bg-gradient-to-r from-rose-600 to-pink-600 rounded-xl text-white">
+        <section className="text-center py-8 px-6 bg-black rounded-lg text-white">
           <h2 className="text-2xl font-bold mb-3">Planning Your Trip to Jurmala?</h2>
-          <p className="text-rose-100 mb-6">Explore all guide sections for the perfect holiday</p>
-          <Link href={localizedHref('jurmola', language)} className="inline-block px-6 py-2 bg-white text-rose-600 font-medium rounded-lg hover:bg-rose-50 transition">
+          <p className="text-gray-400 mb-6">Explore all guide sections for the perfect holiday</p>
+          <Link href={localizedHref('jurmola', language)} className="inline-block px-6 py-2 bg-white text-black font-medium rounded-lg hover:bg-gray-100 transition">
             Back to Jurmala Guide
           </Link>
         </section>
