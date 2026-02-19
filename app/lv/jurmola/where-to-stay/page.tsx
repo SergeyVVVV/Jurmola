@@ -184,7 +184,7 @@ function HotelCard({ hotel }: { hotel: { name: string; stars: number; price: str
         </div>
         <div className="text-right">
           <span className="text-sm font-medium text-gray-500">{hotel.priceCategory}</span>
-          <div className="text-blue-600 font-bold">{hotel.price}</div>
+          <div className="text-gray-900 font-bold">{hotel.price}</div>
         </div>
       </div>
       <p className="text-gray-600 text-sm mb-4">{hotel.description}</p>
@@ -197,7 +197,7 @@ function HotelCard({ hotel }: { hotel: { name: string; stars: number; price: str
         href={BOOKING_LINK}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-block text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors"
+        className="inline-block text-sm font-medium text-white bg-black hover:bg-gray-800 px-4 py-2 rounded-lg transition-colors"
       >
         Rezervēt Booking.com
       </a>
@@ -210,30 +210,27 @@ export default function WhereToStayPage() {
     <div className="min-h-screen bg-white">
       <Header language={language} />
 
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50 py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-sm font-medium text-rose-600 mb-3 tracking-wide uppercase">Ceļvedis 2026</p>
-          <h1 className="text-5xl font-bold mb-6 leading-tight">Kur palikt Jūrmalā</h1>
-          <p className="text-xl text-gray-700 leading-relaxed mb-4">
-            Pilns ceļvedis par <strong>Jūrmalas</strong> viesnīcām un naktsmītnēm: no greznām 5 zvaigžņu SPA viesnīcām
-            līdz mājīgām budžeta naktsmītnēm. Vairāk nekā <strong>614 objekti</strong> katrai gaumei un budžetam.
-          </p>
-          <p className="text-lg text-gray-500">Vidējās cenas: 3* no €52/nakti &middot; 4* no €111/nakti &middot; SPA no €172/nakti</p>
-        </div>
-      </section>
-
       <main className="max-w-4xl mx-auto px-4 py-12">
         {/* Breadcrumb */}
-        <nav className="mb-8 text-sm text-gray-500">
-          <Link href={localizedHref('jurmola', language)} className="hover:text-blue-600 transition-colors">Jūrmala</Link>
+        <nav className="text-sm text-gray-500 mb-4">
+          <Link href={localizedHref('jurmola', language)} className="hover:text-gray-900 transition-colors">Jūrmala</Link>
           <span className="mx-2">/</span>
           <span className="text-gray-900">Kur palikt</span>
         </nav>
 
+        <span className="bg-red-600 text-white px-3 py-1 rounded text-xs font-semibold uppercase tracking-wide">Ceļvedis 2026</span>
+        <h1 className="text-4xl font-bold mb-6 leading-tight mt-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>
+          Kur palikt Jūrmalā
+        </h1>
+        <p className="text-lg text-gray-700 leading-relaxed mb-4">
+          Pilns ceļvedis par <strong>Jūrmalas</strong> viesnīcām un naktsmītnēm: no greznām 5 zvaigžņu SPA viesnīcām
+          līdz mājīgām budžeta naktsmītnēm. Vairāk nekā <strong>614 objekti</strong> katrai gaumei un budžetam.
+        </p>
+        <p className="text-gray-500 mb-12">Vidējās cenas: 3* no €52/nakti &middot; 4* no €111/nakti &middot; SPA no €172/nakti</p>
+
         {/* Quick Stats */}
-        <section className="mb-12 p-6 bg-gradient-to-r from-slate-50 to-gray-50 rounded-xl border border-gray-200">
-          <h2 className="text-2xl font-bold mb-4">Izmitināšana skaitļos</h2>
+        <section className="mb-12 p-6 bg-gray-50 rounded-lg border border-gray-200">
+          <h2 className="text-xl font-bold mb-4" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Izmitināšana skaitļos</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               { value: '614', label: 'objekti' },
@@ -242,7 +239,7 @@ export default function WhereToStayPage() {
               { value: 'Februāris', label: 'lētākais mēnesis' },
             ].map((stat) => (
               <div key={stat.label} className="text-center p-3">
-                <div className="text-2xl font-bold text-rose-600">{stat.value}</div>
+                <div className="text-2xl font-bold text-gray-900">{stat.value}</div>
                 <div className="text-xs text-gray-600">{stat.label}</div>
               </div>
             ))}
@@ -251,13 +248,8 @@ export default function WhereToStayPage() {
 
         {/* Luxury & Spa */}
         <section className="mb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">✦</span>
-            <div>
-              <h2 className="text-3xl font-bold">Luksusa un SPA viesnīcas</h2>
-              <p className="text-gray-500">Kategorija \u20AC\u20AC\u20AC &middot; no €93/nakti</p>
-            </div>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Luksusa un SPA viesnīcas</h2>
+          <p className="text-gray-500 mb-6">Kategorija {'\u20AC\u20AC\u20AC'} &middot; no €93/nakti</p>
           <div className="grid md:grid-cols-2 gap-6">
             {luxuryHotels.map((hotel) => (
               <HotelCard key={hotel.name} hotel={hotel} />
@@ -267,13 +259,8 @@ export default function WhereToStayPage() {
 
         {/* Boutique */}
         <section className="mb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">◆</span>
-            <div>
-              <h2 className="text-3xl font-bold">Butika viesnīcas</h2>
-              <p className="text-gray-500">Kategorija \u20AC\u20AC-\u20AC\u20AC\u20AC &middot; no €75/nakti</p>
-            </div>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Butika viesnīcas</h2>
+          <p className="text-gray-500 mb-6">Kategorija {'\u20AC\u20AC'}-{'\u20AC\u20AC\u20AC'} &middot; no €75/nakti</p>
           <div className="grid md:grid-cols-2 gap-6">
             {boutiqueHotels.map((hotel) => (
               <HotelCard key={hotel.name} hotel={hotel} />
@@ -283,13 +270,8 @@ export default function WhereToStayPage() {
 
         {/* Mid-Range */}
         <section className="mb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">●</span>
-            <div>
-              <h2 className="text-3xl font-bold">Vidējas cenu kategorijas viesnīcas</h2>
-              <p className="text-gray-500">Kategorija \u20AC\u20AC &middot; no €65/nakti</p>
-            </div>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Vidējas cenu kategorijas viesnīcas</h2>
+          <p className="text-gray-500 mb-6">Kategorija {'\u20AC\u20AC'} &middot; no €65/nakti</p>
           <div className="grid md:grid-cols-2 gap-6">
             {midRangeHotels.map((hotel) => (
               <HotelCard key={hotel.name} hotel={hotel} />
@@ -299,13 +281,8 @@ export default function WhereToStayPage() {
 
         {/* Budget */}
         <section className="mb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">○</span>
-            <div>
-              <h2 className="text-3xl font-bold">Budžeta naktsmītnes</h2>
-              <p className="text-gray-500">Kategorija \u20AC &middot; no €30/nakti</p>
-            </div>
-          </div>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Budžeta naktsmītnes</h2>
+          <p className="text-gray-500 mb-6">Kategorija {'\u20AC'} &middot; no €30/nakti</p>
           <div className="grid md:grid-cols-2 gap-6">
             {budgetHotels.map((hotel) => (
               <HotelCard key={hotel.name} hotel={hotel} />
@@ -314,14 +291,14 @@ export default function WhereToStayPage() {
         </section>
 
         {/* Booking CTA */}
-        <section className="mb-12 text-center py-8 px-6 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl text-white">
+        <section className="mb-12 text-center py-8 px-6 bg-black rounded-lg text-white">
           <h2 className="text-2xl font-bold mb-3">Atrodiet savu ideālo viesnīcu Jūrmalā</h2>
-          <p className="text-blue-100 mb-6">Vairāk nekā 614 objekti Booking.com ar bezmaksas atcelšanu</p>
+          <p className="text-gray-400 mb-6">Vairāk nekā 614 objekti Booking.com ar bezmaksas atcelšanu</p>
           <a
             href={BOOKING_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-8 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-blue-50 transition-colors text-lg"
+            className="inline-block px-8 py-3 bg-white text-black font-bold rounded-lg hover:bg-gray-100 transition-colors text-lg"
           >
             Skatīt visas viesnīcas Booking.com
           </a>
@@ -329,9 +306,9 @@ export default function WhereToStayPage() {
 
         {/* Tips Section */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6">Izmitināšanas padomi Jūrmalā</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Izmitināšanas padomi Jūrmalā</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="p-6 bg-amber-50 rounded-lg border border-amber-200">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Labākie rajoni</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li><strong>Majori</strong> -- dzīves centrs, Jomas iela, restorāni, veikali. Visērtākais rajons.</li>
@@ -340,7 +317,7 @@ export default function WhereToStayPage() {
                 <li><strong>Lielupe</strong> -- upe, golfs, ģimenes atpūta. Kluss un zaļš.</li>
               </ul>
             </div>
-            <div className="p-6 bg-green-50 rounded-lg border border-green-200">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Kad rezervēt lētāk</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li><strong>Februāris</strong> -- lētākais mēnesis, cenas par 40-50% zemākas nekā vasarā.</li>
@@ -349,7 +326,7 @@ export default function WhereToStayPage() {
                 <li><strong>Agrīna rezervēšana</strong> -- 2-3 mēnešus iepriekš nodrošina labākās cenas.</li>
               </ul>
             </div>
-            <div className="p-6 bg-blue-50 rounded-lg border border-blue-200">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Ko izvēlēties</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li><strong>SPA atpūta</strong> -- Hotel Jurmala Spa (200+ procedūras) vai Baltic Beach Hotel.</li>
@@ -358,7 +335,7 @@ export default function WhereToStayPage() {
                 <li><strong>Budžets</strong> -- Elīna Hotel no €30 vai Boutique Mama no €60.</li>
               </ul>
             </div>
-            <div className="p-6 bg-purple-50 rounded-lg border border-purple-200">
+            <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Noderīgi padomi</h3>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li>Gandrīz visas 4*+ viesnīcas iekļauj SPA zonu istabas cenā.</li>
@@ -372,17 +349,16 @@ export default function WhereToStayPage() {
 
         {/* Other Guide Sections */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4">Citas ceļveža sadaļas</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-black pb-2 mb-8" style={{ fontFamily: 'var(--font-merriweather), Georgia, serif' }}>Citas ceļveža sadaļas</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              { href: 'jurmola/weather', title: 'Laikapstākļi Jūrmalā', icon: '🌤️', color: 'from-sky-50 to-blue-50', border: 'border-sky-300' },
-              { href: 'jurmola/how-to-get-there', title: 'Kā nokļūt', icon: '🚂', color: 'from-green-50 to-emerald-50', border: 'border-green-300' },
-              { href: 'jurmola/attractions', title: 'Apskates vietas', icon: '🏛️', color: 'from-purple-50 to-violet-50', border: 'border-purple-300' },
-              { href: 'jurmola/restaurants', title: 'Restorāni un kafejnīcas', icon: '🍽️', color: 'from-orange-50 to-amber-50', border: 'border-orange-300' },
+              { href: 'jurmola/weather', title: 'Laikapstākļi Jūrmalā' },
+              { href: 'jurmola/how-to-get-there', title: 'Kā nokļūt' },
+              { href: 'jurmola/attractions', title: 'Apskates vietas' },
+              { href: 'jurmola/restaurants', title: 'Restorāni un kafejnīcas' },
             ].map((page) => (
-              <Link key={page.href} href={localizedHref(page.href, language)} className={`block p-4 bg-gradient-to-r ${page.color} rounded-lg border ${page.border} hover:shadow-md transition-all duration-200`}>
+              <Link key={page.href} href={localizedHref(page.href, language)} className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:bg-gray-100 hover:border-gray-300 transition-all">
                 <div className="flex items-center gap-3">
-                  <span className="text-2xl">{page.icon}</span>
                   <span className="font-medium text-gray-900">{page.title}</span>
                   <span className="ml-auto text-gray-400">&rarr;</span>
                 </div>
@@ -392,10 +368,10 @@ export default function WhereToStayPage() {
         </section>
 
         {/* Back to Hub */}
-        <section className="text-center py-8 px-6 bg-gradient-to-r from-rose-600 to-pink-600 rounded-xl text-white">
+        <section className="text-center py-8 px-6 bg-black rounded-lg text-white">
           <h2 className="text-2xl font-bold mb-3">Plānojat braucienu uz Jūrmalu?</h2>
-          <p className="text-rose-100 mb-6">Izpētiet visas ceļveža sadaļas ideālai atpūtai</p>
-          <Link href={localizedHref('jurmola', language)} className="inline-block px-6 py-2 bg-white text-rose-600 font-medium rounded-lg hover:bg-rose-50 transition">
+          <p className="text-gray-400 mb-6">Izpētiet visas ceļveža sadaļas ideālai atpūtai</p>
+          <Link href={localizedHref('jurmola', language)} className="inline-block px-6 py-2 bg-white text-black font-medium rounded-lg hover:bg-gray-100 transition">
             Atpakaļ uz ceļvedi
           </Link>
         </section>
