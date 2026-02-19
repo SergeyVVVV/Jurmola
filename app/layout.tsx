@@ -59,6 +59,9 @@ export const metadata: Metadata = {
     description: "Сатирические новости из Юрмалы, Латвии и Балтии. Первое AI-powered сатирическое издание в Прибалтике. Не имеем отношения к Лайме Вайкуле.",
     images: ["https://jurmola.com/images/grey-day-creature.jpg"],
   },
+  icons: {
+    icon: '/icon.svg',
+  },
 };
 
 export default async function RootLayout({

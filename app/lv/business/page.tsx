@@ -34,12 +34,14 @@ export const metadata: Metadata = {
     siteName: 'Jurmola Telegraphs',
     locale: 'lv_LV',
     type: 'website',
+    images: [{ url: 'https://jurmola.com/images/grey-day-creature.jpg', width: 1200, height: 630, alt: 'Jurmola Telegraphs – Bizness' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: `${translations.pageTitle} – Jurmola Telegraphs`,
     description: translations.pageDescription,
     creator: '@JurmolaTelegraphs',
+    images: ['https://jurmola.com/images/grey-day-creature.jpg'],
   },
 };
 
