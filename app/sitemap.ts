@@ -146,6 +146,57 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   });
 
+  // Jurmala Guide sub-pages (high priority evergreen content)
+  const guideSubPages = ['weather', 'how-to-get-there', 'attractions', 'restaurants', 'where-to-stay'];
+  guideSubPages.forEach(subPage => {
+    const path = `jurmola/${subPage}`;
+    // Russian (root)
+    routes.push({
+      url: `${baseUrl}/${path}/`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+      alternates: {
+        languages: {
+          'x-default': `${baseUrl}/${path}/`,
+          en: `${baseUrl}/en/${path}/`,
+          ru: `${baseUrl}/${path}/`,
+          lv: `${baseUrl}/lv/${path}/`,
+        },
+      },
+    });
+    // English
+    routes.push({
+      url: `${baseUrl}/en/${path}/`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+      alternates: {
+        languages: {
+          'x-default': `${baseUrl}/${path}/`,
+          en: `${baseUrl}/en/${path}/`,
+          ru: `${baseUrl}/${path}/`,
+          lv: `${baseUrl}/lv/${path}/`,
+        },
+      },
+    });
+    // Latvian
+    routes.push({
+      url: `${baseUrl}/lv/${path}/`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+      alternates: {
+        languages: {
+          'x-default': `${baseUrl}/${path}/`,
+          en: `${baseUrl}/en/${path}/`,
+          ru: `${baseUrl}/${path}/`,
+          lv: `${baseUrl}/lv/${path}/`,
+        },
+      },
+    });
+  });
+
   // Category pages for each language (high priority for SEO)
   const categories = ['politics', 'culture', 'business', 'opinion'];
   categories.forEach(category => {

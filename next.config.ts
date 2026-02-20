@@ -28,6 +28,39 @@ const nextConfig: NextConfig = {
         destination: '/jurmola',
         permanent: true, // 301 redirect
       },
+      // Redirect /yurmola sub-pages to /jurmola sub-pages
+      {
+        source: '/yurmola/:path*',
+        destination: '/jurmola/:path*',
+        permanent: true, // 301 redirect
+      },
+      // Redirect /jurmala to /jurmola (common spelling variant)
+      {
+        source: '/jurmala',
+        destination: '/jurmola',
+        permanent: true, // 301 redirect
+      },
+      {
+        source: '/jurmala/:path*',
+        destination: '/jurmola/:path*',
+        permanent: true, // 301 redirect
+      },
+      // Redirect guide aliases
+      {
+        source: '/guide',
+        destination: '/jurmola',
+        permanent: true,
+      },
+      {
+        source: '/en/guide',
+        destination: '/en/jurmola',
+        permanent: true,
+      },
+      {
+        source: '/lv/guide',
+        destination: '/lv/jurmola',
+        permanent: true,
+      },
       // Old Russian prefix redirects (Meduza structure migration)
       {
         source: '/ru/:path*',

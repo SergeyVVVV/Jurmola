@@ -16,6 +16,7 @@ const translations = {
     business: 'Business',
     opinion: 'Opinion',
     about: 'About',
+    guide: 'Jurmala Guide',
   },
   ru: {
     tagline: 'Лучший источник сатирических новостей Балтии',
@@ -24,6 +25,7 @@ const translations = {
     business: 'Бизнес',
     opinion: 'Мнение',
     about: 'О нас',
+    guide: 'Гид по Юрмале',
   },
   lv: {
     tagline: 'Labākais Baltijas satīrisko ziņu avots',
@@ -32,6 +34,7 @@ const translations = {
     business: 'Bizness',
     opinion: 'Viedoklis',
     about: 'Par mums',
+    guide: 'Jūrmalas ceļvedis',
   },
 };
 
@@ -127,13 +130,21 @@ export default function Header({ language, currentPath }: HeaderProps) {
             >
               {t.opinion}
             </Link>
-            <Link 
-              href={localizedHref('about', language)} 
+            <Link
+              href={localizedHref('about', language)}
               className={`hover:text-gray-600 transition ${
                 currentPath === 'about' ? 'font-bold' : 'font-medium'
               }`}
             >
               {t.about}
+            </Link>
+            <Link
+              href={localizedHref('jurmola', language)}
+              className={`hover:text-gray-600 transition text-blue-700 ${
+                currentPath === 'jurmola' ? 'font-bold' : 'font-medium'
+              }`}
+            >
+              {t.guide}
             </Link>
           </div>
         </div>

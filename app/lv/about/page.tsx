@@ -149,7 +149,7 @@ export default function AboutPage() {
               <a 
                 href="https://www.linkedin.com/in/sergey-visotsky/" 
                 target="_blank" 
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="text-blue-600 hover:text-blue-800 underline"
               >
                 Raksti!
