@@ -62,6 +62,11 @@ export const metadata: Metadata = {
   icons: {
     icon: '/icon.svg',
   },
+  verification: {
+    other: {
+      'msvalidate.01': '599721FB0891A0EB3AB058020DBF4B09',
+    },
+  },
 };
 
 export default async function RootLayout({
