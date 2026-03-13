@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 94,
+    slug: "riga-introduces-official-silence-hours-for",
+    title: {
+      en: "Riga Introduces Official Silence Hours For People About To Mention Their Sauna Renovation",
+      lv: "Rīga ieviesusi oficiālas klusuma stundas cilvēkiem, kas gatavojas pieminēt savu pirts renovāciju",
+      ru: "Рига вводит официальные часы тишины для тех, кто вот‑вот упомянет ремонт своей pirts"
+    },
+    excerpt: {
+      en: "In a move city officials say will reduce 'avoidable conversational flooding,' Riga has approved designated silence hours during which residents are prohibited from bringing up their ongoing pirts projects. Authorities estimate the policy could return as many as 11,000 cumulative hours of summer small talk to the public by August.",
+      lv: "Kā pilsētas amatpersonas apgalvo, lai samazinātu “izvairāmu sarunu plūdu,” Rīga apstiprinājusi noteiktas klusuma stundas, kuru laikā iedzīvotājiem aizliegts uzsākt par savu pirts būvdarbiem. Varas iestādes lēš, ka politika līdz augustam publikai varētu atgriezt līdz pat 11 000 kopīgu vasaras sīkās sarunas stundu.",
+      ru: "В стремлении сократить «избегаемое разговорное наводнение» чиновники Риги утвердили специальные часы тишины, в течение которых жителям запрещено заводить разговоры о текущих проектах по ремонту pirts. Власти оценивают, что к августу эта мера может вернуть общественности до 11 000 суммарных часов летних светских бесед."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council on Tuesday voted 38–19 to implement the country’s first municipal “Preventive Silence Window,” a daily period from 18:00 to 21:00 during which residents are legally discouraged from mentioning sauna insulation, bench wood, chimney draft, or “a guy from Ogre who can do the stones cheaper.”
+
+The measure, formally titled the Responsible Conversational Management Pilot, was introduced after officials reviewed alarming data showing that 64% of all springtime discussions in courtyards, offices, and family WhatsApp groups eventually became about somebody’s pirts renovation, regardless of the original topic.
+
+“What begins as a polite question like ‘How was your weekend?’ now ends with a 14-minute explanation of vapor barriers,” said Deputy Committee Chairwoman Elīna Medne, presenting the initiative beneath a slide labeled NATIONAL TALK FATIGUE INDEX. “People are being trapped by phrases such as ‘since you asked’ and ‘while we’re on the topic of proper ventilation.’ We had to act.”
+
+Under the new rules, first-time violators will receive a verbal warning and be redirected to a city-approved neutral topic, including rhubarb, ferry memories, or whether this summer feels “a bit like 2013.” Repeat offenders may be assigned to a monitored listening room in Pļavnieki, where they will be required to hear other people describe pellet burner upgrades until empathy develops naturally.
+
+The policy follows a six-month observational study conducted by the University of Latvia’s Institute for Everyday Escalation, which found that one mention of “just a small sauna refresh” led, on average, to 47 minutes of unsolicited technical detail and at least three phone photos of unfinished paneling. In one severe case in Āgenskalns, a neighbor attempting to borrow dill was shown a moisture-resistant ceiling membrane and did not return home until after midnight.
+
+Residents offered mixed reactions. “I support balanced conversation,” said office administrator Zane Briede, 34, who lives in Teika and says she has lost two cousins and one accountant to pirts discourse since April. “Last week I asked a colleague where he bought strawberries, and somehow I learned the exact angle of his upper bench. There has to be a line.”
+
+Others called the regulation discriminatory. “This is anti-craftsman prejudice,” said Gints Rudzītis, 52, speaking from a trailer outside his partly completed sauna near Carnikava. “A man can’t even mention heat retention anymore? We are becoming Europe in the worst way.” He added that the city’s official decibel chart unfairly classifies the sentence “I still need to seal around the door frame” as a Level 3 nuisance event.
+
+Businesses are already adapting. Several cafés in central Riga have introduced conversation menus allowing customers to preselect themes such as “weather, but with dignity,” “municipal resentment,” and “berries only.” In Jurmala, one beachside restaurant now offers a 15% discount to tables that complete an entire meal without saying the words “alder,” “stones,” or “Finnish model.”
+
+Tourism officials believe the measure could also improve Latvia’s international image. “Foreign visitors often arrive expecting medieval charm, Art Nouveau architecture, and serene forests,” said LIAA regional branding consultant Mārtiņš Feldmanis. “Instead, by day two, someone is diagramming a drainage slope on a napkin. This reform sends a message that our people contain multitudes.”
+
+Enforcement begins Friday, just ahead of peak weekend visiting season, when many Rīga residents travel to relatives specifically to witness unfinished projects and nod gravely. City police say they are prepared, though officers admitted the line between casual mention and prohibited monologue remains difficult to define.
+
+As of Wednesday morning, at least 7,400 residents had already filed applications for exemption, most arguing their sauna is not a renovation but “more of a philosophical completion.”`,
+      lv: `RĪGA — Rīgas domes sēdē otrdien ar 38–19 balsojumu pieņemts valsts pirmais pašvaldības “Profilaktiskā klusuma logs” — ikdienas periods no pulksten 18:00 līdz 21:00, kura laikā iedzīvotājiem ir juridiski ieteicams nepieminēt pirts siltināšanu, sola koksni, skursteņa vilkmi vai “vienu tipāžu no Ogres, kas akmeņus var sataisīt lētāk.”
+
+Šo pasākumu, oficiāli nosaukts par Atbildīgas sarunu vadības pilotprojektu, ierosināja pēc tam, kad amatpersonas pārskatīja satraucošus datus, kas liecina, ka 64% no visām pavasara sarunām pagalmos, birojos un ģimenes WhatsApp grupās galu galā nonāk pie kādas pirts atjaunošanas tēmas, neatkarīgi no sākotnējā temata.
+
+“Kas sākas kā pieklājīgs jautājums ‘Kā pagāja brīvdienas?’ tagad beidzas ar 14 minūšu skaidrojumu par tvaika barjerām,” sacīja Komitejas priekšsēdētājas vietniece Elīna Medne, prezentējot iniciatīvu zem slaida ar uzrakstu NACIONĀLAIS SARUNU NOGURUMA INDEKSS. “Cilvēki tiek ierauti frāzēs kā ‘tā kā jau jautāji’ un ‘kamēr jau runājam par pareizu ventilāciju.’ Mums bija jāiejaucas.”
+
+Saskaņā ar jaunajiem noteikumiem pirmreizēji pārkāpēji saņems mutisku brīdinājumu un tiks novirzīti uz pilsētas apstiprinātu neitrālu tēmu, tai skaitā rabarberiem, prāmju atmiņām vai diskusijai par to, vai šis būs “mazliet kā 2013. gads.” Atkārtoti pārkāpēji var tikt nosūtīti uz uzraudzītu klausīšanās telpu Pļavniekos, kur viņiem būs jāuzklausa citu cilvēku stāsti par granulku krāsns uzlabojumiem, līdz empātija attīstās dabiski.
+
+Šī politika seko sešu mēnešu novērojošam pētījumam, ko veica Latvijas Universitātes Ikdienas eskalācijas institūts, un kurš atklāja, ka viena frāze “tikai neliels pirts atsvaidzinājums” vidēji noved pie 47 minūtēm nevēlamos tehniskos detaļu izklāstos un vismaz trim telefona bildēm ar nepabeigtu apšuvumu. Vienā smagā gadījumā Āgenskalnā kaimiņam, kurš mēģināja aizņemties dilles, uzrādīja mitrumizturīgu griestu membrānu, un viņš mājās neatgriezās līdz pēc pusnakts.
+
+Iedzīvotāju reakcijas bija dažādas. “Es atbalstu sabalansētu sarunu,” sacīja biroja administratora Zane Briede, 34, kura dzīvo Teikā un apgalvo, ka kopš aprīļa ir zaudējusi divus radu un vienu grāmatvedi pirts diskusijās. “Pagājušajā nedēļā pajautāju kolēģim, kur viņš pirka zemenes, un kādu brīdi vēlāk es uzzināju precīzu viņa augšējā sola leņķi. Ir jābūt robežai.”
+
+Citi regulējumu dēvēja par diskriminējošu. “Tā ir naida izpausme pret amatniekiem,” sacīja Gints Rudzītis, 52, runājot no piekabes pie savas daļēji pabeigtās pirts pie Carnikavas. “Vīrietis vairs pat nevar pieminēt siltuma noturēšanu? Mēs kļūstam par Eiropu sliktākajā nozīmē.” Viņš piebilda, ka pilsētas oficiālā decibelu tabula negodīgi klasificē teikumu “Man vēl jāizblīvē apkārt durvju rāmim” kā 3. līmeņa traucējumu notikumu.
+
+Uzņēmumi jau pielāgojas. Vairāki kafejnīcu centri Rīgas centrā ieviesuši sarunu ēdienkartes, ļaujot klientiem iepriekš izvēlēties tēmas kā “laikapstākļi, bet ar cieņu,” “komunālais aizvainojums” un “tikai ogas.” Jūrmalā viens restorāns pie pludmales tagad piedāvā 15% atlaidi galdiņiem, kas pabeidz maltīti, neizrunājot vārdus “alkšnis”, “akmeņi” vai “somu modelis.”
+
+Tūrisma speciālisti uzskata, ka pasākums varētu arī uzlabot Latvijas starptautisko tēlu. “Ārzemju viesi bieži ierodas, gaidot viduslaiku šarmu, jūgendstila arhitektūru un klusas meža takas,” sacīja LIAA reģionālais zīmola konsultants Mārtiņš Feldmanis. “Taču jau otrajā dienā kāds uz salvetes zīmē noteces slīpuma shēmu. Šī reforma rāda, ka mūsu cilvēki ir daudzpusīgi.”
+
+Soda piemērošana sākas piektdien, tieši pirms intensīvākās brīvdienu vizīšu sezonas, kad daudzi Rīgas iedzīvotāji dodas pie radiniekiem tieši, lai apskatītu nepabeigtos projektus un nopietni māj ar galvu. Pilsētas policija saka, ka ir gatava, lai gan inspektori piekrita, ka robeža starp ikdienišķu pieminējumu un aizliegtu monologu joprojām ir grūti definējama.
+
+Trešdienas rītā vismaz 7 400 iedzīvotāju jau bija iesnieguši atbrīvojuma pieteikumus, lielākā daļa apgalvojot, ka viņu pirts nav renovācija, bet drīzāk “filozofiska pabeigšana.”`,
+      ru: `РИГА — Во вторник Рижская городская дума проголосовала 38 голосами против 19 за внедрение первой в стране муниципальной «Профилактической оконной тишины» — ежедневного периода с 18:00 до 21:00, в течение которого жителям официально не рекомендуется упоминать теплоизоляцию саун, породы древесины для скамеек, тягу в дымоходе или «парня из Огре, который может положить камни дешевле». 
+
+Мера, формально названная Пилотом по ответственному управлению разговорами, была предложена после того, как чиновники изучили тревожные данные, показывающие, что 64% всех весенних бесед во дворах, офисах и семейных чатах WhatsApp в конце концов сводятся к чей‑то реконструкции pirts — независимо от первоначальной темы. 
+
+«То, что начиналось как вежливый вопрос „Как прошли выходные?“, теперь заканчивается 14‑минутным объяснением пароизоляции», — заявила заместитель председательницы комитета Эліна Медне, представляя инициативу под слайдом с надписью НАЦИОНАЛЬНЫЙ ИНДЕКС УТОМЛЕНИЯ ОТ РАЗГОВОРОВ. «Людей поймали в ловушку фразами вроде „раз уж вы спросили“ и „раз уж заговорили о правильной вентиляции“. Нам пришлось вмешаться». 
+
+По новым правилам первичный нарушитель получит словесное предупреждение и будет перенаправлен на одобренную городом нейтральную тему, включая ревень, воспоминания о паромах или обсуждение того, не «похоже ли это лето немного на 2013 год». Повторных нарушителей могут направить в комнату прослушивания в Pļavnieki, где им придется слушать, как другие описывают модернизацию пеллетной горелки, пока эмпатия не выработается естественным образом. 
+
+Политика следует за шестимесячным наблюдательным исследованием Института повседневной эскалации Латвийского университета, которое показало, что одно упоминание «ну, просто небольшое обновление сауны» в среднем вело к 47 минутам нежелательных технических подробностей и как минимум трем фотографиям недоделанной облицовки на телефоне. В одном серьезном случае в Āgenskalns сосед, пытавшийся взять в долг укроп, увидел влагостойкую потолочную мембрану и вернулся домой только после полуночи. 
+
+Жители отреагировали по‑разному. «Я за сбалансированный разговор», — сказала офисный администратор Зане Бриеде, 34 года, жительница Teika, которая утверждает, что с апреля потеряла двух кузенов и одного бухгалтера из‑за разговоров о pirts. «На прошлой неделе я спросила у коллеги, где он покупал клубнику, и как‑то выяснила точный угол его верхней скамьи. Должна быть граница». 
+
+Другие назвали регламент дискриминационным. «Это предубеждение против ремесленников», — сказал Гинтс Рудзитис, 52 года, разговаривая из трейлера возле своей частично достроенной сауны под Карникавой. «Человеку теперь даже нельзя упомянуть удержание тепла? Мы становимся Европой в худшем смысле». Он добавил, что официальный городской график децибелов несправедливо относит фразу «мне ещё нужно запенить вокруг дверной коробки» к событию помех третьего уровня. 
+
+Бизнесы уже адаптируются. Несколько кафе в центре Риги ввели «меню разговоров», где посетители могут заранее выбрать темы типа «погода, но с достоинством», «претензии к муниципалитету» и «только ягоды». В Юрмале один прибрежный ресторан теперь предлагает скидку 15% столам, которые проходят весь обед, не произнеся слов «ольха», «камни» или «финская модель». 
+
+Туристические чиновники полагают, что мера также может улучшить международный имидж Латвии. «Иностранные гости часто приезжают в ожидании средневекового очарования, модерна и спокойных лесов», — сказал региональный консультант по брендингу LIAA Мартиньш Фельдманис. «Но на второй день кто‑то уже набрасывает на салфетке схему уклона дренажа. Эта реформа посылает сигнал, что в наших людях помещается множество смыслов». 
+
+Принудительное исполнение начинается в пятницу, как раз перед пиком посещений на выходных, когда многие рижане ездят к родственникам специально, чтобы увидеть недоделанные проекты и серьёзно кивать. Городская полиция говорит, что готова, хотя офицеры признали, что граница между случайным упоминанием и запрещённым монологом остаётся трудноопределимой. 
+
+По состоянию на утро среды по крайней мере 7 400 жителей уже подали заявки на освобождение, большинство утверждая, что их сауна — это не ремонт, а «скорее философское завершение».`
+    },
+    date: "Mar 13, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/94/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 93,
     slug: "riga-mayor-proposes-replacing-trams-with",
     title: {
@@ -96,7 +183,7 @@ Vai šis ambiciozais mēģinājums atjaunot sabiedriskā transporta sistēmu ar 
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/93/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 92,
