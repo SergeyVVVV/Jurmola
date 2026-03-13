@@ -134,7 +134,7 @@ Format your response as JSON:
         content: `Translate this article to Latvian:\n\nTitle: ${englishArticle.title}\nExcerpt: ${englishArticle.excerpt}\nContent: ${englishArticle.fullContent}\n\nReturn as JSON with keys: title, excerpt, fullContent`,
       },
     ],
-    temperature: 0.3,
+    temperature: 1,
     response_format: { type: "json_object" },
   });
 
@@ -155,7 +155,7 @@ Format your response as JSON:
         content: `Translate this article to Russian:\n\nTitle: ${englishArticle.title}\nExcerpt: ${englishArticle.excerpt}\nContent: ${englishArticle.fullContent}\n\nReturn as JSON with keys: title, excerpt, fullContent`,
       },
     ],
-    temperature: 0.3,
+    temperature: 1,
     response_format: { type: "json_object" },
   });
 
