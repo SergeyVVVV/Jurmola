@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 95,
+    slug: "jrmala-residents-vote-to-replace-small",
+    title: {
+      en: "Jūrmala Residents Vote To Replace Small Talk With Official 12-Second Silent Nod During Summer Season",
+      lv: "Jūrmalas iedzīvotāji nobalso par mazsarunu aizstāšanu ar oficiālu 12 sekunžu klusā mājiena režīmu vasarā",
+      ru: "Жители Юрмалы проголосовали за замену светской болтовни официальным 12‑секундным молчаливым кивком на летний сезон"
+    },
+    excerpt: {
+      en: "After years of exhausting seasonal conversations about parking, weather, and whether the water is \"actually warm this time,\" Jūrmala has approved a standardized nonverbal greeting for use between May and September. Municipal leaders say the reform will save residents up to 19 hours of social energy per household each summer.",
+      lv: "Pēc gadiem nogurdinošām sezonālām sarunām par stāvvietām, laiku un to, vai ūdens 'patiesi šoreiz ir silts', Jūrmala ir apstiprinājusi standartizētu neverbālu sveicienu, ko lietot no maija līdz septembrim. Pašvaldības pārstāvji saka, ka reforma ietaupīs iedzīvotājiem līdz 19 stundām sociālās enerģijas uz mājsaimniecību katrā vasarā.",
+      ru: "После лет утомительных сезонных разговоров о парковке, погоде и о том, «на самом деле ли вода тёплая в этот раз», Юрмала утвердила стандартизированное невербальное приветствие для использования с мая по сентябрь. Муниципалитет заявляет, что реформа сэкономит домохозяйствам до 19 часов социальных сил каждое лето."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what local officials are calling a major breakthrough in sustainable interpersonal relations, Jūrmala City Council on Tuesday approved a seasonal communications reform requiring all casual acquaintances, neighbors, and vaguely familiar beachgoers to replace small talk with an officially recognized 12-second silent nod.
+
+The measure, passed 11–4 after three hours of restrained but meaningful eye contact, will apply from 1 May through 30 September and is intended to reduce what the municipality described as “repetitive conversational burdens associated with coastal residency.”
+
+For years, residents of Latvia’s premier resort city have reported being trapped in identical summer exchanges on dunes, bicycle paths, and outside cafés, often forced to comment on shifting cloud patterns, parking prices, or whether Jomas Street has somehow become even more crowded than the previous weekend.
+
+“We have studied this problem carefully,” said Deputy Executive Director for Seasonal Coordination Ilze Kārkliņa, standing before a chart showing the annual spike in phrases such as ‘Finally real summer’ and ‘It was better last Tuesday.’ “The average Jūrmala resident repeats the same five conversational units 427 times between June and August. This is not communication. This is atmospheric leakage.”
+
+Under the new guidelines, the approved nod must last exactly 12 seconds and may include one brief tightening of the lips to indicate mutual recognition of shared but unspoken inconvenience. More animated gestures — including shoulder pats, eyebrow theatrics, and unsolicited updates about Riga traffic — will remain prohibited unless both parties are first-degree relatives or trapped together on the river side of a railway crossing.
+
+To ensure compliance, the municipality has published a 34-page booklet, The Coastal Acknowledgment Protocol, with illustrations demonstrating acceptable nod angles by social category. A 7-degree downward incline is recommended for former classmates, while a deeper 11-degree nod is reserved for a neighbor seen carrying folding chairs toward the beach in visible defeat.
+
+Not all residents oppose the change. “Honestly, it’s a relief,” said Majori resident and part-time clarinet teacher Uldis Broks, who said he had not completed a full sentence outdoors since 2019 without being asked whether the sea seemed colder than usual. “Now I can acknowledge a person with dignity and continue pretending I am in a hurry for no reason.”
+
+Business owners were initially concerned the rule might affect tourism, but many have begun adapting. At the Amber Breeze café, staff have introduced a ‘silent nod menu’ in which returning customers can communicate their regular order using calibrated forehead movements. “One short nod for black coffee, two for cheesecake, a longer downward gaze for having looked at the prices and accepted fate,” explained manager Santa Lielmane.
+
+The policy was developed after a pilot program in Bulduri last summer yielded promising results. Researchers from the Baltic Institute for Quiet Public Interaction found that participants experienced a 63% reduction in conversational regret and a 41% increase in what the report called “usable inner peace.” One unintended side effect was that several residents continued nodding long after the interaction had ended, resulting in minor neck fatigue and one mistaken engagement.
+
+Some critics argue the legislation goes too far. Opposition council member Mārtiņš Straume condemned the reform as “bureaucratic introversion,” warning that it could erode vital traditions such as vaguely complaining to strangers near smoked fish stands. “Today it is the nod,” he said. “Tomorrow we will regulate sighing.”
+
+Still, by Tuesday evening, much of the city appeared ready to embrace the change. Outside Dzintari Concert Hall, dozens of residents practiced the approved gesture in near-total silence, occasionally consulting municipal diagrams and each other’s posture.
+
+At sunset, one elderly man on Jomas Street was seen completing what observers described as a textbook 12-second acknowledgment toward a woman walking a damp Spitz. Neither spoke. Both appeared deeply understood. City officials later confirmed the interaction as fully compliant and, by local standards, unusually warm.`,
+      lv: `JŪRMALA — To, ko vietējie amatpersonas sauc par lielu pavērsienu ilgtspējīgās starppersonu attiecībās, Jūrmalas dome otrdien apstiprināja sezonālu komunikācijas reformu, kas liek visiem nejaušajiem paziņām, kaimiņiem un mazliet pazīstamiem pludmales garāmgājējiem aizstāt mazsarunas ar oficiāli atzītu 12 sekunžu klusu galvas mājienu.
+
+Sākums, ko pieņēma ar 11–4 balsojumu pēc trim stundām ierobežotas, bet teiksmainas acu kontakta veida apspriešanas, stāsies spēkā no 1. maija līdz 30. septembrim un paredzēts mazināt to, ko pašvaldība raksturoja kā 'repetitīvu sarunu nastu, kas saistīta ar piekrastes dzīvi.'
+
+Gadu gaitā Latvijas vadošās kūrortpilsētas iedzīvotāji sūdzējušies, ka tiek iesprostoti identiskās vasaras apmaiņās uz kāpām, velosipēdu celiņiem un pie kafejnīcām, bieži spiesti komentēt mainīgās mākoņu kustības, stāvvietu cenas vai to, vai Jomas iela kādu brīdi izskatās vēl pārpildītāka nekā iepriekšējā nedēļas nogalē.
+
+"Mēs šo problēmu esam rūpīgi pētījuši," sacīja sezonālās koordinācijas vietniece Ilze Kārkliņa, stāvot pie diagrammas, kurā redzams ikgadējais uzrāviens frāzēs kā 'Beidzot īsta vasara' un 'Pagājušajā otrdienā bija labāk'. "Vidējais jūrmalnieks no jūnija līdz augustam atkārto tās pašas piecas sarunu vienības 427 reižu. Tā nav komunikācija. Tā ir atmosfēras noplūde."
+
+Saskaņā ar jaunajiem norādījumiem apstiprinātajam mājienam jāilgst tieši 12 sekundes un tas var ietvert vienu īsu lūpu sakļaušanu, lai norādītu uz kopīgu, bet neizteiktu neērtību. Dzīvīgāki žesti — tostarp plecu pļaukas, uzacu teātris un nevēlami atjauninājumi par satiksmi Rīgā — paliks aizliegti, ja vien abas puses nav pirmās pakāpes radinieki vai neatrodas iesprostotas kopā dzelzceļa pārbrauktuves upes pusē.
+
+Lai nodrošinātu ievērošanu, pašvaldība izdevusi 34 lappušu bukletu 'Piekrastes atzīšanas protokols' ar ilustrācijām, kas demonstrē pieņemamu mājiena leņķi pēc sociālās kategorijas. Bijušiem klasesbiedriem ieteicams 7 grādu slīpojums uz leju, savukārt dziļāks 11 grādu mājiens rezervēts kaimiņam, kuru redz nēsājam saliekamās krēsli uz pludmali acīmredzamā sakautībā.
+
+Ne visi iedzīvotāji iebilst pret pārmaiņām. "Godīgi sakot, atvieglojums," sacīja Majoru iedzīvotājs un daļlaika klarineta pasniedzējs Uldis Broks, kurš stāstīja, ka kopš 2019. gada ārā nav pabeidzis pilnu teikumu, nepiedzirdot jautājumu, vai jūra šķiet aukstāka nekā parasti. "Tagad es varu cienīgi atzīt otru cilvēku un turpināt izlikties, ka bez iemesla esmu steigā." 
+
+Uzņēmējiem sākumā bija bažas, ka noteikums varētu ietekmēt tūrismu, taču daudzi jau sākuši pielāgoties. Kafejnīcā 'Dzintaru Brīze' darbinieki ieviesuši 'klusā mājiena ēdienkarti', kur pastāvīgie klienti var paust savu ierasto pasūtījumu, izmantojot kalibrētas pieres kustības. "Viens īss mājiens melnai kafijai, divi par siera kūku, ilgāks skatieniens uz leju par cenām un pieņemtu likteni," paskaidroja pārvaldniece Santa Lielmane.
+
+Politika tika izstrādāta pēc pilotprogramma Bulduri pagājušajā vasarā, kas deva iepriecinošus rezultātus. Pētījuma veicēji no Baltijas klusās sabiedriskās mijiedarbības institūta secināja, ka dalībniekiem samazinājās sarunu nožēla par 63% un pieauga tas, ko ziņojums sauca par 'izmantojamo iekšējo mieru', par 41%. Kā viens netīšs blakusefekts daži iedzīvotāji turpināja mājot vēl ilgi pēc mijiedarbības beigām, izraisot vieglu kakla nogurumu un vienu kļūdainu saderināšanos.
+
+Daži kritiķi apgalvo, ka likums iet pārāk tālu. Opozīcijas deputāts Mārtiņš Straume nosodīja reformu kā 'birokrātisku introversiju', brīdinādams, ka tā var iznīcināt būtiskas tradīcijas, piemēram, neskaidru žēlošanos svešiniekiem pie kūpinātu zivju stendiem. "Šodien tas ir mājiens," viņš teica. "Rīt mēs reglamentēsim nopūtas."
+
+Tomēr līdz otrdienas vakaram šķita, ka liela daļa pilsētas ir gatava pieņemt izmaiņas. Pie Dzintaru koncertzāles desmitiem iedzīvotāju klusībā trenēja apstiprināto žestu, reizēm konsultējoties ar pašvaldības diagrammām un viens otra stāju.
+
+Saulrietā Jomas ielā viens sirmgalvis tika manīts izpildām "mācību grāmatas" cienīgu 12 sekunžu atzīšanos pret sievieti, kura veda slapju špica suņu. Neviens nerunāja. Abi šķita dziļi saprasti. Pilsētas amatpersonas vēlāk apstiprināja, ka mijiedarbība pilnībā atbilst prasībām un, pēc vietējiem standartiem, bija neparasti sirsnīga.`,
+      ru: `ЮРМАЛА — В том, что местные чиновники называют крупным прорывом в устойчивых межличностных отношениях, Городской совет Юрмалы во вторник одобрил сезонную реформу коммуникаций, требующую от всех случайных знакомых, соседей и смутно знакомых пляжников заменить светскую болтовню официально признанным 12‑секундным молчаливым кивком.
+
+Мера, принятая 11 голосами против 4 после трёх часов сдержанного, но многозначительного зрительного контакта, будет действовать с 1 мая по 30 сентября и направлена на сокращение того, что муниципалитет охарактеризовал как «повторяющиеся разговорные нагрузки, связанные с проживанием на побережье». 
+
+В течение многих лет жители ведущего латвийского курортного города жаловались, что оказываются в ловушке идентичных летних обменов репликами на дюнах, велосипедных дорожках и у кафе: их часто вынуждали комментировать меняющуюся облачность, цены на парковку или то, не стал ли проспект Йомас ещё более многолюдным по сравнению с прошлым уик‑эндом.
+
+«Мы внимательно изучили эту проблему», — сказала заместитель исполнительного директора по сезонной координации Ильзе Карклиня, стоя перед графиком, демонстрирующим ежегодный всплеск фраз вроде «Наконец‑то настоящее лето» и «В прошлый вторник было лучше». «Средний житель Юрмалы повторяет одни и те же пять разговорных единиц 427 раз с июня по август. Это не общение. Это атмосферная утечка». 
+
+Согласно новым рекомендациям, утверждённый кивок должен длиться ровно 12 секунд и может включать одно краткое сжатие губ, обозначающее взаимное признание общей, но не озвученной досады. Более выразительные жесты — включая похлопывания по плечу, театральную работу бровями и нежелательные отчёты о движении в Риге — остаются под запретом, если только обе стороны не являются родственниками первой степени или не застряли вместе на речной стороне железнодорожного переезда. 
+
+Чтобы обеспечить соблюдение, муниципалитет опубликовал 34‑страничную брошюру «Протокол прибрежного приветствия» с иллюстрациями допустимых углов наклона головы по социальным категориям. Рекомендуется наклон вниз на 7 градусов для бывших одноклассников, тогда как более глубокий кивок на 11 градусов зарезервирован для соседа, замеченного с складывающимися стульями, направляющимся к пляжу в явном состоянии поражения. 
+
+Не все жители выступают против перемен. «Честно говоря, это облегчение», — сказал житель Майори и неполный рабочий день преподаватель кларнета Улдис Брокс, добавив, что с 2019 года он не произносил полноценного предложения на улице, чтобы у него не спросили, не стал ли море прохладнее, чем обычно. «Теперь я могу с достоинством отметить присутствие человека и продолжить притворяться, что я куда‑то спешу без причины». 
+
+Предприниматели поначалу беспокоились, что правило может повлиять на туризм, но многие уже начали адаптироваться. В кафе «Янтарный бриз» персонал ввёл «меню молчаливых кивков», где постоянные клиенты могут передать свой обычный заказ с помощью калиброванных движений лбом. «Один короткий кивок — чёрный кофе, два — чизкейк, более долгий взгляд вниз — посмотрели цены и смирились с судьбой», — объяснила менеджер Санта Лиельмане. 
+
+Политика была разработана после пилотной программы в Булдури прошлым летом, показавшей многообещающие результаты. Исследователи из Балтийского института тихого общественного взаимодействия обнаружили, что участники испытали снижение «разговорного сожаления» на 63% и увеличение того, что в отчёте назвали «полезным внутренним покоем», на 41%. Одним из непредвиденных побочных эффектов стало то, что несколько жителей продолжали кивать долго после завершения взаимодействия, что привело к лёгкой усталости шеи и одной ошибочной помолвке. 
+
+Некоторые критики утверждают, что законодательство зашло слишком далеко. Член оппозиции в совете Мартиньш Страуме осудил реформу как «бюрократическую интроверсию», предупредив, что она может размыть важные традиции, такие как расплывчатые жалобы незнакомцам у прилавков с копчёной рыбой. «Сегодня — кивок, — сказал он. — Завтра мы будем регулировать вздохи». 
+
+Тем не менее к вечеру вторника большая часть города, казалось, была готова принять перемены. Перед Концертным залом Дзинтари десятки жителей практиковали утверждённый жест почти в полной тишине, время от времени сверяясь с муниципальными диаграммами и положением друг друга. 
+
+На закате на улице Йомас пожилой человек был замечен завершающим то, что свидетели описали как эталонное 12‑секундное признание в адрес женщины, выгуливавшей взмокшего шпица. Никто не заговорил. Оба выглядели глубоко понятыми. Городские власти позднее подтвердили, что взаимодействие полностью соответствовало правилам и, по местным меркам, было необычно тёплым.`
+    },
+    date: "Mar 14, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/95/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 94,
     slug: "riga-introduces-official-silence-hours-for",
     title: {
@@ -102,7 +195,7 @@ Trešdienas rītā vismaz 7 400 iedzīvotāju jau bija iesnieguši atbrīvojuma
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/94/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 93,
