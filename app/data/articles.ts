@@ -18,6 +18,85 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 96,
+    slug: "riga-introduces-polite-pothole-program-asking",
+    title: {
+      en: "Riga Introduces ‘Polite Pothole’ Program, Asking Drivers To Thank Craters Before Suspension Damage",
+      lv: "Rīga ievieš 'Pieklājīgās bedres' programmu, aicinot vadītājus pateikties krāteriem pirms balstiekārtas bojājumiem",
+      ru: "Рига запустила программу «Вежливая яма»: автомобилистам предлагают благодарить кратеры перед повреждением подвески"
+    },
+    excerpt: {
+      en: "In a pilot initiative aimed at improving civic harmony, Riga officials have begun installing small blue plaques next to major potholes reminding motorists to acknowledge the road feature’s cultural significance. City leaders say the program will reduce public anger by reframing suspension failure as participation in living municipal heritage.",
+      lv: "Pilotiniciatīvā, kas vērsta uz civilo harmoniju, Rīgas amatpersonas sākušas pie lielākajām bedrēm uzstādīt mazas zilas plāksnītes, kas atgādina autovadītājiem atzīt šī ceļa elementa kultūras nozīmi. Pilsētas vadība apgalvo, ka programma samazinās sabiedrības dusmas, pārrāmējot balstiekārtas bojāšanos kā dalību dzīvajā pašvaldības mantojumā.",
+      ru: "В пилотном проекте, нацеленном на улучшение гражданской гармонии, чиновники Риги начали устанавливать небольшие синие таблички рядом с крупными ямами, напоминая водителям признать культурное значение дорожных впадин. Руководство города считает, что программа снизит общественное негодование, переосмыслив поломку подвески как участие в живом муниципальном наследии."
+    },
+    fullContent: {
+      en: `RIGA — In what transport planners are calling a “low-cost emotional infrastructure solution,” the Riga City Council on Tuesday unveiled its new Polite Pothole Program, a municipal campaign encouraging drivers to greet, thank, and, where appropriate, briefly reflect upon the city’s most established road cavities before driving into them.
+
+The initiative, funded through a €218,000 reallocation from the Department of Strategic Optimism, includes 430 enamel plaques placed beside recurring potholes across Purvciems, Teika, Āgenskalns, and one particularly influential depression near a trolleybus stop in Sarkandaugava that locals say “has seen governments come and go.” Each plaque contains a short message such as “Thank you for adapting,” “This hollow remembers Soviet asphalt,” or “Please approach with emotional readiness.”
+
+Deputy Mayor for Mobility and Tone Management Elīna Vītola said the city had studied several European models before deciding against physically repairing the potholes.
+
+“We asked ourselves a difficult question,” Vītola told reporters while standing beside a crater on Brīvības Street that had been decorated with a modest ribbon for the launch ceremony. “Can a road ever truly be smooth in a northern democracy? Rather than making promises asphalt cannot keep, we chose honesty, ceremony, and multilingual signage.”
+
+According to internal city documents, officials estimate that 63% of driver frustration comes not from the pothole itself, but from the absence of acknowledgment. The report, prepared by consultancy firm Civic Mood Baltic, found that motorists were “significantly calmer” when a road defect appeared to have “intentional branding.” In one controlled test in Imanta, drivers who read the phrase “You are now entering a historic unevenness zone” before hitting a hole were 41% less likely to shout anything that would alarm nearby children.
+
+Not all residents are convinced. Taxi driver Oļegs Sviklis, whose vehicle now emits what he described as “three new philosophical sounds,” said the city had mistaken satire for policy. “This morning I hit the same pothole twice because traffic pushed me back into it,” he said. “Now it has a plaque calling it ‘Seasonal Baltic Topography No. 12.’ If it gets a name, I want my wheel rim to be registered as a victim.”
+
+Still, some locals have embraced the concept. Retired literature teacher Maija Ziediņa from Jugla said she leaves small field flowers beside a cavity near her apartment every spring. “At first it was just a dangerous hole,” she said. “But after the plaque called it ‘an annual reminder of impermanence,’ I felt it deserved dignity. My grandson almost disappeared in it in March, but he came out more mature.”
+
+The city says the program is already producing measurable results. Complaint calls regarding road conditions have dropped by 18%, though officials acknowledged this may be partly because residents now spend several minutes reading the plaques aloud before contacting anyone. Meanwhile, the municipal tourism board is preparing a summer walking map titled Riga’s Most Meaningful Depressions, aimed at cruise passengers seeking “authentic civic texture.”
+
+Urban anthropologist Dr. Kaspars Lejnieks of the University of Latvia believes the program reflects a specifically Baltic genius for administrative resignation. “In Southern Europe, a pothole is an inconvenience. Here, it is an institution,” he said. “Latvians do not ask whether the state sees them. They ask whether the state has at least laminated the problem.”
+
+City officials confirmed that if the pilot succeeds, the next phase may include QR codes linking each pothole to archival photographs, maintenance postponement timelines, and a short audio recording of a calm voice saying, “This, too, is Europe.”`,
+      lv: `RĪGA — To, ko transporta plānotāji dēvē par «zemu izmaksu emocionālās infrastruktūras risinājumu», otrdien Rīgas dome atklāja savu jauno Pieklājīgo bedru programmu — pašvaldības kampaņu, kas mudina vadītājus sveicināt, pateikties un, ja nepieciešams, īsi padomāt par pilsētas visnoturīgākajām ceļa dobumiem pirms tajos iebraukšanas.
+
+Iniciatīvu, kuru finansē ar 218 000 € pārdali no Stratēģiskā optimisma departamenta, ietver 430 emaljētas plāksnītes, kas izvietotas blakus atkārtoti parādāmām bedrēm Purvciemā, Teikā, Āgenskalnā un pie īpaši ietekmīgas depresijas pie trolejbusa pieturas Sarkandaugavā, ko vietējie raksturojuši kā «redzējušu valdības nākšanu un aiziešanu». Katrā plāksnītē iekļauts īss teksts, piemēram, „Paldies par pielāgošanos”, „Šī bedre atceras padomju asfaltu” vai „Lūdzu, tuvojamies emocionālā gatavībā”.
+
+Mobilitātes un toni pārvaldības prorektore Elīna Vītola žurnālistiem pie teiktā, stāvot blakus krāterim Brīvības ielā, kas atklāšanas ceremonijai bija rotāts ar pieticīgu lenti: «Mēs sev uzdevām grūtu jautājumu — vai ceļš var būt patiesi gluds ziemeļu demokrātijā? Tā vietā, lai solītu asfaltu, kas nespēj to turēt, mēs izvēlējāmies godīgumu, ceremoniju un daudzvalodu norādes.»
+
+Saskaņā ar iekšējiem pilsētas dokumentiem amatpersonas lēš, ka 63% autovadītāju neapmierinātības izraisa nevis bedre pati par sevi, bet gan tās neatzīšana. Ziņojums, ko sagatavojusi konsultāciju firma Civic Mood Baltic, konstatēja, ka autovadītāji ir «ievērojami mierīgāki», ja ceļa defektam šķietami piemīt «mērķtiecīga zīmola aura». Vienā kontrolētā testā Imantā vadītāji, kuri salasīja frāzi „Jūs tagad iebraucat vēsturiskas nelīdzenu virsmu zonā” pirms dobumā iebraukšanas, par 41% retāk kliedza kaut ko, kas varētu izbiedēt tuvumā esošus bērnus.
+
+Ne visi iedzīvotāji ir pārliecināti. Taksometra vadītājs Oļegs Sviklis, kura automobilis tagad izdala to, ko viņš raksturo kā «trīs jaunas filozofiskas skaņas», sacīja, ka pilsēta satricinājusi satires un politikas robežu. «Šorīt es vienu un to pašu bedri iesitu divreiz, jo satiksme mani atspieda atpakaļ,» viņš teica. «Tagad tai ir plāksnīte ar nosaukumu ‘Sezonālā Baltijas topogrāfija Nr. 12’. Ja tai būs vārds, es gribu, lai mana diska stīpa tiktu reģistrēta kā upuris.»
+
+Tomēr daži vietējie ideju pieņēmuši. Pensijā esošā literatūras skolotāja Maija Ziediņa no Juglas sacīja, ka katru pavasari pie dobumiem pie sava dzīvokļa atstāj mazas pļavas puķes. «Sākumā tā bija vienkārši bīstama bedre,» viņa teica. «Bet pēc tam, kad plāksnīte to nosauca par ‘ikgadīgu atgādinājumu par nepastāvību’, man šķita, ka tai pienākas cieņa. Mans mazbērns gandrīz tajā pazuda martā, bet iznāca no tās nobriedušāks.»
+
+Pilsēta apgalvo, ka programma jau dod taustāmus rezultātus. Sūdzību zvani par ceļu stāvokli samazinājušies par 18%, lai gan amatpersonas atzina, ka daļēji tas var būt tāpēc, ka iedzīvotāji pirms zvanīšanas kādam pavada vairākas minūtes, skaļi lasot plāksnītes. Tikmēr pašvaldības tūrisma nodaļa gatavo vasaras pastaigu karti ar nosaukumu „Rīgas nozīmīgākās depresijas”, paredzētu kruīza pasažieriem, kas meklē «autentisku civisko tekstūru».
+
+Urbanists un antropologs Dr. Kaspars Lejnieks no Latvijas Universitātes uzskata, ka programma atspoguļo īpašu Baltijas talantu administratīvai atteikšanai. «Dienvideiropā bedre ir neērtība. Šeit tā ir institūcija,» viņš sacīja. «Latvieši neprasa, vai valsts viņus redz. Viņi jautā, vai vismaz valsts ir laminējusi problēmu.»
+
+Pilsētas amatpersonas apstiprināja, ka, ja pilots izrādīsies veiksmīgs, nākamajā kārtā varētu tikt iekļauti QR kodi, kas saistīs katru bedri ar arhīva fotoattēliem, uzturēšanas atlikšanas termiņiem un īsu audioierakstu ar mierīgu balsi, kas saka: „Arī tas ir Eiropa.”`,
+      ru: `РИГА — В том, что транспортные планировщики называют «недорогим эмоциональным инфраструктурным решением», Городской совет Риги во вторник представил новую Программу «Вежливая яма» — муниципальную кампанию, побуждающую водителей приветствовать, благодарить и, когда уместно, коротко поразмышлять о самых заметных городских дорожных впадинах перед тем, как в них въехать.
+
+Инициатива, финансируемая за счёт перераспределения €218,000 из Департамента стратегического оптимизма, включает 430 эмалированных табличек, размещённых рядом с повторяющимися ямами в Purvciems, Teika, Āgenskalns и одной особенно влиятельной впадине у троллейбусной остановки в Sarkandaugava, которую местные называют местом, где «видели приход и уход правительств». На каждой табличке краткое сообщение, например: «Спасибо за адаптацию», «Эта впадина помнит советский асфальт» или «Подходите с эмоциональной готовностью».
+
+Заместитель мэра по вопросам мобильности и управления тоном Элина Витола сказала, что город изучал несколько европейских моделей, прежде чем отказаться от физического ремонта ям.
+
+«Мы задали себе трудный вопрос», — сказала Витола репортёрам, стоя рядом с кратером на улице Brīvības, украшенным скромной ленточкой на церемонии открытия. «Может ли дорога когда-либо быть по-настоящему ровной в северной демократии? Вместо того чтобы давать обещания, которые асфальт не в силах сдержать, мы выбрали честность, церемонию и многоязычную навигацию».
+
+По данным внутренних документов города, чиновники оценивают, что 63% водительского раздражения вызвано не самой ямой, а отсутствием признания её существования. Отчёт, подготовленный консалтинговой фирмой Civic Mood Baltic, показал, что водители «значительно спокойнее», когда дефект дороги выглядит как «целенаправленный брендинг». В одном контролируемом эксперименте в Imanta водители, прочитавшие фразу «Вы въезжаете в зону исторической неровности» перед тем, как врезаться в яму, на 41% реже кричали что‑то, что могло бы напугать проходящих рядом детей.
+
+Не все жители в восторге. Таксист Олегс Свиклис, чей автомобиль теперь издаёт то, что он описывает как «три новых философских звука», сказал, что город принял сатиру за политику. «Сегодня утром я дважды попал в одну и ту же яму, потому что поток машин вернул меня в неё», — сказал он. «Теперь у неё есть табличка с надписью „Сезонная балтийская топография №12“. Если у неё есть имя, я хочу, чтобы мой обод колеса был зарегистрирован как пострадавший».
+
+Тем не менее некоторые местные жители приняли идею с энтузиазмом. Пенсионерка, учитель литературы Майя Зиедина из Jugla, говорит, что каждую весну оставляет у впадины возле своей квартиры полевые цветы. «Сначала это была просто опасная яма», — рассказывает она. «Но после того как табличка назвала её „ежегодным напоминанием о непостоянстве“, я решила, что ей полагается достоинство. Мой внук в марте чуть не пропал в ней, но вышел более зрелым».
+
+Город утверждает, что программа уже даёт измеримые результаты. Количество жалоб на состояние дорог сократилось на 18%, хотя чиновники признали, что это отчасти может быть связано с тем, что жители теперь проводят несколько минут за чтением табличек вслух, прежде чем куда‑то звонить. Тем временем муниципальный туристический совет готовит летнюю пешеходную карту под названием «Самые значимые впадины Риги», рассчитанную на круизных пассажиров, ищущих «аутентичную муниципальную текстуру».
+
+Городской антрополог Каспарс Лейниекс из Латвийского университета считает, что программа отражает особый балтийский гений административного примирения. «В Южной Европе яма — это неудобство. Здесь она — институт», — сказал он. «Латвийцы не спрашивают, видит ли их государство. Они спрашивают, как минимум, заламинировало ли оно проблему».
+
+Городские чиновники подтвердили, что если пилотный проект окажется успешным, следующая фаза может включать QR‑коды, связывающие каждую яму с архивными фотографиями, графиками отложенного ремонта и короткой аудиозаписью спокойного голоса, произносящего: «И это тоже — Европа».`
+    },
+    date: "Mar 15, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/96/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 95,
     slug: "jrmala-residents-vote-to-replace-small",
     title: {
@@ -108,7 +187,7 @@ Saulrietā Jomas ielā viens sirmgalvis tika manīts izpildām "mācību grāmat
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/95/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 94,
