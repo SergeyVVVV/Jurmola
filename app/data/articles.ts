@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 99,
+    slug: "jrmala-introduces-silence-tax-after-tourists",
+    title: {
+      en: "Jūrmala Introduces ‘Silence Tax’ After Tourists Detected Speaking Above Whisper During Pine Tree Hours",
+      lv: "Jūrmala ievieš «klusuma nodokli» tūristiem, kuri priežu stundās runā skaļāk par čukstu",
+      ru: "Юрмала вводит «налог на тишину» после того, как у туристов зафиксировали разговоры громче шёпота в часы сосен"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have approved a new seasonal Silence Tax aimed at visitors who disrupt what authorities describe as the city’s “acoustic heritage.” Under the policy, tourists speaking louder than a discreet murmur between 11 a.m. and 4 p.m. near designated pine groves may be charged up to €18.50 on the spot.",
+      lv: "Pašvaldības amatpersonas Jūrmalā apstiprinājušas jaunu sezonālu klusuma nodokli, kas vērsts pret apmeklētājiem, kuri traucē to, ko varasiestādes dēvē par pilsētas «akustisko mantojumu». Saskaņā ar noteikumiem tūristiem, kuri pie norādītajām priežu birzīm starp plkst. 11 un 16 runā skaļāk nekā diskrēts murminājums, uz vietas var uzlikt līdz €18,50 sodu.",
+      ru: "Муниципальные власти Юрмалы одобрили новый сезонный «налог на тишину», направленный на посетителей, нарушающих то, что чиновники называют «акустическим наследием» города. По правилам, туристов, говорящих громче едва слышимого шёпота в период с 11:00 до 16:00 возле обозначенных сосновых рощ, могут оштрафовать на месте до €18,50."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what city leaders are calling a long-overdue defense of “traditional coastal quietness,” the Jūrmala City Council on Tuesday approved a pilot program authorizing municipal inspectors to fine tourists who speak at conversational volume in areas officially classified as Pine Tree Hours Zones.
+
+The measure, passed 11–4 after a three-hour debate conducted mostly in lowered voices, applies to popular stretches of Dzintari, Bulduri, and sections of Majori where, according to council documents, “the natural sound profile should remain dominated by wind, distant train announcements, and one unidentified dog barking somewhere behind a fence.”
+
+Under the new rules, visitors exceeding 37 decibels — roughly equivalent to “an enthusiastic but still cultured Finnish aunt” — will first receive a courtesy felt-tip card reading PLEASE EXPERIENCE JŪRMALA INTERNALLY. Repeat offenders may be assessed fines ranging from €6 for “avoidable giggling” to €18.50 for “group-based narrative retelling,” the latter aimed primarily at bachelor parties and Riga office teams on wellness outings.
+
+Deputy Mayor for Seasonal Calm, Inga Mierkalne, defended the policy while standing beside an official municipal sound meter wrapped in linen. “For years, residents have complained that summer guests arrive with city voices,” she said. “Jūrmala is not only a resort. It is also a delicate listening environment. People come here to hear the pines, to hear their own thoughts, and, if necessary, to hear somebody quietly judging them from a balcony.”
+
+According to city data, average tourist loudness in central Jūrmala rose 14% last summer, with the steepest increase recorded near ice cream kiosks and rental bicycle misunderstandings. A municipal white paper released in May included several alarming examples, among them “an entire Lithuanian family discussing parking as if parking had just been invented” and “two men from Oslo saying ‘bro’ near a dune repeatedly.”
+
+Local residents have reacted with cautious optimism. “I support reasonable tourism, but last July I heard a woman unwrap a protein bar from 22 meters away,” said retired music teacher Maija Feldmane, 68, from her garden in Melluži. “That is not rest. That is occupation.”
+
+Some business owners, however, worry the initiative may confuse visitors. At the Baltic Amber Harmony Spa Café, manager Rihards Zeibots said staff had already begun retraining waiters to communicate lunch specials through eyebrow emphasis and laminated pointing cards. “The challenge is borscht,” he explained. “It is not a naturally silent soup.”
+
+The city has contracted acoustic consultants from Sigulda to patrol the affected zones wearing beige vests and soft-soled shoes. Inspectors will use approved decibel devices calibrated to distinguish between prohibited speech and accepted local noises, including stroller wheels on wooden walkways, passive-aggressive throat clearing, and the phrase “it used to be nicer here” spoken by permanent residents.
+
+Not everyone is convinced the system will be fairly enforced. The Association of Domestic Tourists from Riga issued a statement arguing that people from the capital are being “culturally profiled for possessing functional lungs.” The group noted that many Rīga residents are simply unaware that in Jūrmala, saying “Where’s the beach?” at normal volume may legally constitute an event.
+
+Officials insist the trial will continue through August and may be expanded if successful. Future proposals include Quiet Sand Corridors, a permit system for audible flip-flops, and a pilot project in which particularly loud visitors are redirected to a designated Expression Area near the water park, where they may speak freely into the wind.
+
+By late afternoon on Wednesday, the first Silence Tax had already been issued to a man from Jelgava overheard explaining cryptocurrency beside a pine. Witnesses said nobody objected.`,
+      lv: `JŪRMALA — To, ko pilsētas vadība sauc par sen ilgi gaidītu «tradicionālās krasta klusuma» aizsardzību, Jūrmalas domes sēdē otrdien apstiprināja pilotprogrammu, kas pilnvaro pašvaldības inspektorus sodīt tūristus, kuri oficiāli klasificētajās Priežu stundu zonās runā sarunas skaļumā.
+
+Šis lēmums, pieņemts ar balsu attiecību 11–4 pēc trim stundām ilgas debates, kas lielākoties noritēja samazinātās balsīs, attiecas uz populārākajiem Dzintaru, Bulduru un daļas Majoru posmiem, kur, domei rakstot, «dabas skaņas profils ir jāļauj saglabāties dominējoši vējam, tālajām vilciena paziņošanām un vienam neatpazītam sunim, kurš kaut kur aiz žoga rej».
+
+Saskaņā ar jaunajiem noteikumiem apmeklētājiem, kuru balss pārsniedz 37 decibelus — aptuveni tas pats, kas «entuziasma pilna, tomēr kultivēta somu tante» — vispirms tiks iedota pieklājības filca paziņa ar uzrakstu «LŪDZAM, IZJŪTIET JŪRMALU IEKŠĒJI». Atkārtoti pārkāpēji var tikt sodīti ar naudas sodiem no €6 par «izvairāmu smīniņu» līdz €18,50 par «grupveida stāstījuma atstāstīšanu», kas galvenokārt domāts vecpuišu ballītēm un Rīgas biroju komandu veselības izbraucieniem.
+
+Sezonālās klusuma vicemēre Inga Mierkalne aizstāvēja politiku, stāvot blakus oficiālajam pašvaldības trokšņu mērītājam, ietītam linsudrā. «Gadu gaitā iedzīvotāji sūdzējās, ka vasaras viesi ierodas ar pilsētas balsīm,» viņa sacīja. «Jūrmala nav tikai kūrorts. Tā ir arī ļoti jutīga klausīšanās vide. Cilvēki nāk šeit, lai dzirdētu priedes, lai dzirdētu savas domas un, ja nepieciešams, lai dzirdētu kādu klusi viņus vērtējam no balkona.»
+
+Pilsētas dati liecina, ka vidējais tūristu skaļums centrālajā Jūrmalā pagājušajā vasarā pieauga par 14%, un straujākais kāpums reģistrēts pie saldējuma stendiem un īres velosipēdu pārpratumu vietās. Maijā publicētais pašvaldības baltais papers ietvēra vairākus trauksmainus piemērus, tostarp «vesela Lietuvas ģimene, kas apspriež stāvvietu tā, it kā stāvvieta tikko būtu izgudrota», un «divi vīri no Oslo, kuri pie kāpas atkārtoti saka bro».
+
+Vietējie iedzīvotāji reaģējuši piesardzīgā optimisms. «Es atbalstu saprātīgu tūrismu, bet pagājušā jūlijā es dzirdēju, kā sieviete atver proteīna batoniņu no 22 metru attāluma,» sacīja pensionēta mūzikas skolotāja Maija Feldmane, 68, no savas Mellužu dārza. «Tas nav atpūta. Tas ir okupācija.»
+
+Daži uzņēmēji tomēr bažījas, ka iniciatīva var apgrūtināt viesu sapratni. Baltic Amber Harmony Spa Café vadītājs Rihards Zeibots teica, ka personāls jau sācis pārmācīt viesmīļus, lai pusdienu piedāvājumus sazinātos, izmantojot uzacu uzsvaru un laminētas norādes kartītes. «Problēma ir borščs,» viņš skaidroja. «Tas nav dabiski klusējoša zupa.»
+
+Pilsēta ir noslēgusi līgumu ar akustikas konsultantiem no Siguldas, kuri patrulēs skartajās zonās, tērpušies bēšos vestēs un ar mīkstiem zolēm apaviem. Inspektori izmantos apstiprinātas decibelu ierīces, kalibrētas atšķirt aizliegtu runu no pieļaujamiem vietējiem trokšņiem, tostarp ratiņu riteņiem uz koka laipām, pasīvi-agresīvas kakla tīrīšanas un frāzes «te agrāk bija patīkamāk», ko izsaka pastāvīgie iedzīvotāji.
+
+Ne visi ir pārliecināti, ka sistēma tiks piemērota godīgi. Rīgas iekšzemes tūristu asociācija izplatīja paziņojumu, apgalvojot, ka galvaspilsētas iedzīvotāji tiek «kultūras profilēti par funkcionējošām plaušām». Organizācija norādīja, ka daudzi rīdzinieki vienkārši neapzinās, ka Jūrmalā teikšana «Kur ir pludmale?» parastā balsī var likumiski tikt uzskatīta par pasākumu.
+
+Amatpersonas apgalvo, ka pilots turpināsies līdz augustam un var tikt paplašināts, ja izrādīsies veiksmīgs. Nākotnes priekšlikumos iekļauti Klusie smilšu koridori, atļauju sistēma skaļajām šļapālēm un pilotprojekts, kurā īpaši skaļie apmeklētāji tiktu novirzīti uz īpašu Izpausmju zonu pie ūdensparka, kur viņi drīkstētu brīvi runāt vējā.
+
+Līdz trešdienas pēcpusdienai pirmais klusuma nodoklis jau bija piespriests vīrietim no Jelgavas, kurš pie priedes tika sadzirdēts skaidrojot kriptovalūtu. Aculiecinieki stāstīja, ka neviens nepiebilst.`,
+      ru: `ЮРМАЛА — В том, что городские власти называют давно назревшей защитой «традиционной прибрежной тишины», Городской совет Юрмалы во вторник одобрил пилотную программу, дающую муниципальным инспекторам право штрафовать туристов, разговаривающих в обычном разговорном тоне в зонах, официально обозначенных как Часы Сосен.
+
+Мера, принятая голосами 11–4 после трёхчасовых дебатов, в основном проходивших приглушёнными голосами, распространяется на популярные участки Дзинтари, Булдури и части Майори, где, согласно документам совета, «естественный звуковой профиль должен оставаться под властью ветра, отдалённых объявлений поездов и одной неопознанной собаки, лаящей где‑то за забором». 
+
+По новым правилам посетители, превышающие 37 децибел — примерно эквивалент «энтузиастичной, но всё ещё воспитанной финской тёти» — сначала получат вежливую фетровую карточку с надписью: ПОЖАЛУЙСТА, ОЩУВСТВУЙТЕ ЮРМАЛУ ВНУТРИ СЕБЯ. Повторным нарушителям могут выписать штрафы от €6 за «избежный хихиканье» до €18,50 за «групповое пересказывание сюжетов», последний пункт в первую очередь направлен против мальчишников и рижских офисных команд на оздоровительных выездах.
+
+Заместитель мэра по сезонному спокойствию Инга Миеркалне защитила политику, стоя рядом с официальным муниципальным шумомером, обёрнутым в лен. «Годами жители жаловались, что летние гости приезжают с городскими голосами», — сказала она. «Юрмала — не просто курорт. Это ещё и деликатная акустическая среда. Люди приезжают, чтобы слышать сосны, слышать собственные мысли и, если нужно, чтобы кто‑то тихо судил о них с балкона». 
+
+По данным города, средняя громкость туристов в центре Юрмалы выросла на 14% прошлым летом, с наибольшим увеличением у киосков с мороженым и в результате недоразумений при аренде велосипедов. Муниципальный белый доклад, опубликованный в мае, привёл несколько тревожных примеров, в числе которых «вся литовская семья обсуждает парковку так, будто парковка только что была изобретена» и «двое мужчин из Осло многократно говорят «бро» у дюны». 
+
+Местные жители с осторожным оптимизмом восприняли инициативу. «Я за разумный туризм, но в июле я слышала, как женщина разворачивала протеиновый батончик с расстояния 22 метров», — сказала на пенсии учитель музыки Майя Фельдмане, 68 лет, из своего сада в Меллужи. «Это не отдых. Это оккупация». 
+
+Однако некоторые предприниматели опасаются, что инициатива может запутать гостей. В спа‑кафе Baltic Amber Harmony менеджер Рихардс Зейботс сказал, что персонал уже начал переобучать официантов передавать дневные предложения с помощью выразительного поднятия бровей и ламинированных указательных карточек. «Проблема в борще», — объяснил он. «Это не по природе бесшумный суп». 
+
+Город заключил контракт с акустическими консультантами из Сигулды для патрулирования затронутых зон в бежевых жилетах и мягкой обуви. Инспекторы будут использовать утверждённые децибел‑приборы, откалиброванные так, чтобы отличать запрещённую речь от принимаемых местных звуков, включая колёса детских колясок по деревянным дорожкам, пассивно‑агрессивное покашливание и фразу «раньше здесь было лучше», произнесённую постоянными жителями. 
+
+Не все уверены, что система будет справедливо применяться. Ассоциация внутренних туристов из Риги выпустила заявление, в котором утверждает, что жители столицы «культурно профилируются за наличие функциональных лёгких». Группа заметила, что многие рижане просто не знают: в Юрмале фраза «Где пляж?» произнесённая в нормальной громкости юридически может считаться событием. 
+
+Чиновники настаивают, что испытание продолжится до августа и может быть расширено в случае успеха. В числе будущих предложений — Тихие песочные коридоры, система разрешений для слышимых шлёпанцев и пилотный проект, в рамках которого особенно громких посетителей будут перенаправлять в специально отведённую Зону Выражения у аквапарка, где они смогут свободно говорить на ветру. 
+
+К вечеру среды первый «налог на тишину» уже был выписан мужчине из Елгавы, которого подслушали, пока он объяснял криптовалюту у сосны. Свидетели сказали, что никто не возражал.`
+    },
+    date: "Mar 18, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/99/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 98,
     slug: "riga-introduces-official-silent-minute-for",
     title: {
@@ -96,7 +183,7 @@ Rīgas Satiksme тем не менее поддержала внедрение. 
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/98/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 97,
