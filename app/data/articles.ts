@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 101,
+    slug: "riga-introduces-dynamic-silence-pricing-residents",
+    title: {
+      en: "Riga Introduces Dynamic Silence Pricing, Residents Charged Extra for Complaining About Noise",
+      lv: "Rīga ievieš dinamisko klusuma tarifēšanu — iedzīvotājiem jāmaksā papildus par sūdzēšanos par trokšņiem",
+      ru: "Рига вводит динамическое ценообразование тишины — жители платят дополнительно за жалобы на шум"
+    },
+    excerpt: {
+      en: "In a move city officials say will modernize urban peace, Riga has launched a pilot program assigning hourly market rates to silence in central neighborhoods. Residents who wish to complain about construction, scooters, gulls, or neighboring accordions must now first purchase a temporary complaint permit through the municipal app.",
+      lv: "Lai, pēc amatpersonu teiktā, modernizētu pilsētas mieru, Rīga sākusi pilotprogrammu, kur centrālo apkaimju klusumam tiek piešķirtas stundas tirgus cenas. Iedzīvotāji, kas vēlas sūdzēties par būvniecību, skrejriteņiem, kaijām vai kaimiņu akordeoniem, tagad vispirms mājaslapā vai ManaRīga aplikācijā jāiegādājas pagaidu sūdzību atļauja.",
+      ru: "В попытке современно урегулировать городской покой Рига запустила пилотный проект, назначающий часовые рыночные тарифы на тишину в центральных районах. Жителям, желающим пожаловаться на стройку, самокаты, чайки или соседские аккордеоны, теперь сначала надо купить временное разрешение на жалобу через муниципальное приложение."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal leaders are calling a "21st-century approach to acoustical fairness," the Riga City Council on Tuesday unveiled a new Dynamic Silence Pricing system that will allow residents to buy, sell, and briefly experience quiet depending on neighborhood demand, weather, and whether a summer terrace has obtained a jazz exemption.
+
+The pilot program, already active in Centrs, Āgenskalns, and parts of Mežaparks, treats silence as a limited urban resource. Under the new model, every district is assigned a fluctuating Quiet Index, updated every 11 minutes by sensors mounted on tram stops, linden trees, and one emotionally exhausted traffic light near Brīvības iela. The price of silence rises during roadworks, hockey victories, and any evening in which at least three people simultaneously decide to test Bluetooth speakers on public transport.
+
+Residents hoping to file a noise complaint must now first purchase a digital Complaint Window through the city’s ManaRīga app. Prices begin at €3.40 in Ziepniekkalns and can reach €18.75 in Old Riga on Friday nights, or €29 if the source of disturbance is described as "festive but spiritual."
+
+"For years, people demanded both a vibrant city and complete silence," said Deputy Chair for Strategic Calmness Elīna Pērkone, speaking beside a ceremonial decibel meter outside City Hall. "This initiative finally asks residents to decide what they value more: urban life, or the fantasy that no one else owns a drill."
+
+According to municipal data, 62% of all noise complaints last year involved construction beginning "suspiciously early," while 14% concerned gulls, 9% concerned men explaining fishing loudly near canal benches, and 6% were later reclassified as "personal resentment." A further 3% involved accordion music, although city analysts warned that actual accordion exposure may be underreported due to shame.
+
+Many residents expressed confusion but cautious optimism. "At first I was angry," said Purvciems resident Andris Kalniņš, who paid €11.20 for a 20-minute complaint permit regarding a leaf blower he described as "philosophically aggressive." "But then I saw on the app that silence in my area was surging because of rain, and I sold half my permit back to the municipality for a small profit. In a way, the noise is finally working for me."
+
+Businesses have also adapted. Several cafés in the center now advertise "artisan silence" between 14:00 and 14:07, while one co-working space near Tallinas ielas kvartāls offers premium Scandinavian quiet imported from a warehouse in Cēsis. Jurmala, meanwhile, has expressed interest in seasonal expansion of the program, especially after beachfront residents reported a 38% increase in "meaningful screaming" from cold-water bathers last August.
+
+Not everyone is convinced. Sound policy researcher Dr. Mārtiņš Ozols of the Baltic Institute for Manageable Annoyance warned that commodifying silence may produce unintended effects. "We are seeing early signs of speculative hoarding," he said. "One resident in Teika purchased 46 minutes of discounted pre-dawn silence in February and is now leasing it to remote workers in 8-minute blocks. This is exactly how bubbles begin."
+
+The city has promised safeguards, including subsidies for pensioners, students, and anyone living within 200 meters of a decorative but deeply committed street musician. Officials are also testing a family package that includes one free complaint per month and reduced rates for passive-aggressive sighing.
+
+As evening fell over Riga, the app briefly crashed under demand after road crews struck metal plates on Krišjāņa Barona iela at the same moment a rooftop DJ set began nearby. By 19:30, silence futures in the center had risen 12%, and residents across the capital were reportedly standing very still, hoping to catch the market at a dip.`,
+      lv: `RĪGA — To, ko pašvaldības vadītāji dēvē par "21. gadsimta pieeju akustiskajai taisnīgumam", otrdien Rīgas dome prezentēja jaunu Dinamiskā Klusuma Tarifēšanas sistēmu, kas ļaus iedzīvotājiem pirkt, pārdot un īslaicīgi izbaudīt klusumu atkarībā no apkaimes pieprasījuma, laika apstākļiem un tā, vai vasaras terasei piešķirta džezas atļauja.
+
+Jau darbojošā pilotprogramma Centra, Āgenskalna un daļas Mežaparka apkaimēs uztver klusumu kā ierobežotu pilsētas resursu. Saskaņā ar jauno modeli katram rajonam tiek piešķirts mainīgs Klusuma indekss, kas tiek atjaunināts ik pēc 11 minūtēm ar tramvaju pieturēs, liepu zaros un pie viena emocionāli izsīkuma luksofora pie Brīvības ielas uzstādītajiem sensoriem. Klusuma cena kāpj ceļu būvju, hokeja uzvaru un jebkuras vakara laikā, kad vismaz trīs cilvēki vienlaikus nolemj publiskajā transportā izmēģināt Bluetooth skaļruņus.
+
+Iedzīvotājiem, kas vēlas iesniegt trokšņa sūdzību, tagad vispirms jāiegādājas digitāls "Sūdzību logs" pilsētas ManaRīga aplikācijā. Cenas sākas no €3,40 Ziepniekkalnā un piektdienas vakaros Vecrīgā var sasniegt €18,75, vai €29, ja traucējuma avots tiek aprakstīts kā "svinīgs, bet garīgs."
+
+"Gadu desmitiem cilvēki prasīja gan dzīvu pilsētu, gan pilnīgu klusumu," sacīja Stratēģiskās Klusuma vietniece Elīna Pērkone, runājot blakus ceremonijas dekora decibelu mērītājam pie Rātsnama. "Šī iniciatīva beidzot liek iedzīvotājiem izlemt, ko viņi vērtē vairāk: pilsētas dzīvi vai fantāziju, ka neviens cits nevar piederēt urbjmašīnai."
+
+Pašvaldības datiem, 62% no pagājušā gada visām trokšņa sūdzībām bija saistītas ar būvniecības darbu sākšanos "šaubīgi agri", savukārt 14% – ar kaijām, 9% – ar vīriešiem, kas skaļi izskaidro makšķerēšanu pie kanāla soliņiem, un 6% vēlāk tika pārcategorēti kā "personisks aizvainojums." Vēl 3% bija saistīti ar akordeona mūziku, lai gan pilsētas analītiķi brīdināja, ka faktiskā akordeona ekspozīcija iespējams tiek nenovērtēta izsmeļoša kauna dēļ.
+
+Daudzi iedzīvotāji izrādīja neizpratni, bet piesardzīgu optimismu. "Sākumā es biju dusmīgs," sacīja Purvciema iedzīvotājs Andris Kalniņš, kurš par 20 minūšu sūdzību atļauju par lapu pūtēju, ko viņš raksturoja kā "filozofiski agresīvu", samaksāja €11,20. "Bet tad es redzēju aplikācijā, ka klusums manā apkaimē krasi pieaug tāpēc, ka līst, un es pārdevu pusi no savas atļaujas atpakaļ pašvaldībai ar nelielu peļņu. Kāda ironija — trokšņs beidzot strādā man par labu."
+
+Uzņēmumi arī pielāgojušies. Vairāki kafejnīcas centrā tagad reklamē "amatniecisku klusumu" no plkst. 14:00 līdz 14:07, savukārt viens kopstrādes centrs pie Tallinas ielas kvartāla piedāvā premium skandināvisku klusumu, ievestu no noliktavas Cēsīs. Jūrmala, savukārt, izrādījusi interesi par programmas sezonālu paplašināšanu, it īpaši pēc tam, kad piekrastes iedzīvotāji pagājušā augusta ziņoja par 38% pieaugumu "jēgpilnai kliegšanai" no aukstā ūdens peldētājiem.
+
+Ne visi ir pārliecināti. Skaņas politikas pētnieks Dr. Mārtiņš Ozols no Baltijas institūta Pārvaldāmajam Tracinājumam brīdināja, ka klusuma komercializācija var radīt nesaskatītas sekas. "Mēs redzam agrīnas spekulatīvas uzkrāšanas pazīmes," viņš sacīja. "Viens iedzīvotājs Teikā februārī iegādājās 46 minūtes atlaides priekšpusnakts klusuma un tagad izīrē to attālinātajiem strādniekiem 8 minūšu blokos. Tieši tā sāktas burbuļi."
+
+Pilsēta ir solījusi drošības pasākumus, tostarp subsīdijas pensionāriem, studentiem un ikvienam, kas dzīvo 200 metru attālumā no dekoratīvā, bet dziļi apņemtā ielas muzikanta. Amatpersonas arī testē ģimenes paketi, kurā iekļauta viena bezmaksas sūdzība mēnesī un samazinātas cenas par pasīvi-agresīvu nopūtu.
+
+Vakaram krītot pār Rīgu, aplikācija uz īsu brīdi sabruka spiediena dēļ brīdī, kad ceļu brigādes Krišjāņa Barona ielā sitās pret metāla plāksnēm un tajā pašā mirklī netālu sāka jumta dīdžeja setu. Līdz plkst. 19:30 klusuma nākotnes līgumu cenas centrā bija pieaugušas par 12%, un iedzīvotāji visā galvaspilsētā, kā ziņots, stāvēja akurāt nekustīgi, cerot noķert tirgu kritumā.`,
+      ru: `РИГА — В том, что муниципальные власти называют «подходом XXI века к акустической справедливости», Городской совет Риги во вторник представил новую систему динамического ценообразования тишины, которая позволит жителям покупать, продавать и недолго наслаждаться тишиной в зависимости от спроса района, погоды и того, получила ли летняя терраса джазовое исключение.
+
+Пилотный проект, уже действующий в Centrs, Āgenskalns и в частях Mežaparks, рассматривает тишину как ограниченный городской ресурс. По новой модели каждому району присваивается колеблющийся Индекс тишины, который обновляется каждые 11 минут датчиками, установленными на трамвайных остановках, липах и одном эмоционально истощённом светофоре возле Brīvības iela. Цена тишины растёт во время дорожных работ, хоккейных побед и в любой вечер, когда хотя бы три человека одновременно решают испытать Bluetooth-колонки в общественном транспорте.
+
+Жители, желающие подать жалобу на шум, теперь обязаны сначала приобрести через муниципальное приложение ManaRīga цифровое «Окно жалобы». Цены начинаются от €3.40 в Ziepniekkalns и могут достигать €18.75 в Старой Риге по пятницам вечером, или €29, если источник помехи описан как «праздничный, но духовный».
+
+«Годы люди требовали и оживлённый город, и полной тишины», — сказала заместитель председателя по стратегическому спокойствию Elīna Pērkone, выступая возле церемониального децибелометра у Ратуши. «Эта инициатива наконец просит жителей решить, что для них важнее: городская жизнь или фантазия о том, что у кого‑то нет дрели». 
+
+По муниципальным данным, 62% всех жалоб на шум в прошлом году касались строительства, начавшегося «подозрительно рано», 14% были связаны с чайками, 9% — с мужчинами, громко объясняющими о рыбалке у скамеек канала, а 6% позднее переквалифицировали как «личную обиду». Ещё 3% касались аккордеонной музыки, хотя городские аналитики предупреждают, что фактическая экспозиция аккордеона, возможно, недооценивается из‑за стыда.
+
+Многие жители выразили недоумение, но осторожный оптимизм. «Сначала я был зол», — рассказал житель Purvciems Андрис Калниньш, заплативший €11.20 за 20‑минутное разрешение на жалобу из‑за садового воздуходувки, которую он описал как «философски агрессивную». «Но потом я увидел в приложении, что тишина в моём районе подскочила из‑за дождя, и я продал половину своего разрешения обратно муниципалитету с небольшой прибылью. В каком‑то смысле шум теперь работает на меня». 
+
+Бизнесы тоже адаптировались. Несколько кафе в центре теперь рекламируют «ремесленную тишину» с 14:00 до 14:07, а один коворкинг рядом с кварталом Tallinas ielas предлагает премиальную скандинавскую тишину, привезённую из склада в Цесисе. Юрмала, тем временем, выразила интерес к сезонному расширению программы, особенно после того, как жители прибрежной зоны сообщили о 38% росте «внятных криков» от купальщиков в холодной воде в прошлом августе.
+
+Не все убеждены. Исследователь звуковой политики д-р Mārtiņš Ozols из Балтийского института управляемого раздражения предупредил, что коммерциализация тишины может дать непредвиденные эффекты. «Мы видим ранние признаки спекулятивного накопительства», — сказал он. «Один житель в Teika купил в феврале 46 минут уценённой предрассветной тишины и теперь сдаёт их в аренду удалённым работникам блоками по 8 минут. Именно так начинаются пузыри». 
+
+Город пообещал меры защиты, включая субсидии для пенсионеров, студентов и тех, кто живёт в пределах 200 метров от декоративного, но глубоко преданного уличного музыканта. Чиновники также испытывают семейный пакет, включающий одну бесплатную жалобу в месяц и сниженные тарифы на пассивно‑агрессивное вздыхание.
+
+С наступлением вечера приложение ненадолго упало под нагрузкой после того, как дорожные бригады ударили по металлическим листам на Krišjāņa Barona iela в тот же момент, когда неподалёку начался диджей‑сэт на крыше. К 19:30 фьючерсы на тишину в центре выросли на 12%, и жители по всему городу, по сообщениям, стояли очень тихо, надеясь поймать рынок во всплеске.`
+    },
+    date: "Mar 20, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/101/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 100,
     slug: "jrmala-introduces-quiet-beach-lanes-after",
     title: {
@@ -118,7 +199,7 @@ Kad darbinieki otrdienas pēcpusdienā pabeidza likt pēdējo virves atdalītāj
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/100/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 99,
