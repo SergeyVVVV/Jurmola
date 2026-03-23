@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 104,
+    slug: "riga-introduces-official-municipal-sigh-to",
+    title: {
+      en: "Riga Introduces Official Municipal Sigh To Improve Public Communication Efficiency",
+      lv: "Rīga ievieš oficiālu pašvaldības nopūtu, lai uzlabotu sabiedrisko komunikāciju efektivitāti",
+      ru: "Рига вводит официальный муниципальный вздох, чтобы повысить эффективность общественного общения"
+    },
+    excerpt: {
+      en: "After years of confusion caused by emails, notices, and human speech, Riga City Council has approved a standardized municipal sigh to be used in public offices, tram stops, and difficult family WhatsApp groups. Officials say the reform will better reflect the emotional reality of civic life while reducing paperwork by up to 14%.",
+      lv: "Pēc gadiem ilgas neskaidrības, ko radīja e‑pasti, paziņojumi un cilvēku runas, Rīgas dome ir apstiprinājusi standartizētu pašvaldības nopūtu, ko izmantot valsts iestādēs, tramvaja pieturās un sarežģītās ģimenes WhatsApp grupās. Ierēdņi apgalvo, ka reforma labāk atspoguļos pilsoniskās dzīves emocionālo realitāti, vienlaikus samazinot papīra darbu līdz pat 14%.",
+      ru: "После лет путаницы из‑за писем, объявлений и устной речи Городская дума Риги утвердила стандартизированный муниципальный вздох, который будет использоваться в госучреждениях, на трамвайных остановках и в трудных семейных WhatsApp‑чатах. По словам чиновников, реформа лучше отразит эмоциональную реальность гражданской жизни и одновременно сократит бумажную работу до 14%."
+    },
+    fullContent: {
+      en: `RIGA — In what city leaders are calling a long-overdue modernization of public administration, Riga City Council on Tuesday unveiled the country’s first officially recognized municipal sigh, a carefully calibrated exhalation intended to streamline communication between residents and state institutions.
+
+The sound, demonstrated before reporters in the marble foyer of City Hall, lasted 2.4 seconds and was described in the accompanying regulation as "audible, weary, but not hostile." According to the Department of Administrative Language, the sigh may now be used in place of several common phrases, including "we are reviewing your request," "the system is temporarily unavailable," and "please return with a different stamp."
+
+Deputy Chairwoman for Civic Tone and Atmosphere Ilze Bērziņa said the initiative arose after a six-month pilot program in Pļavnieki, where residents responded more positively to nonverbal disappointment than to written explanations. "People are busy. They don’t always have time to read a seven-page notice explaining why their bicycle shed permit has been delayed since 2021," Bērziņa told Jurmala Telegraphs. "But when a clerk looks out the window at the November sky and gives one measured sigh, everyone understands exactly where they stand."
+
+The city commissioned the Latvian Academy of Acoustic Governance to develop the sound, testing 87 prototypes in municipal service centers across Riga. Early versions were rejected for being too optimistic, too dramatic, or, in one case, "suspiciously Lithuanian." The final sigh was selected after blind trials in which 68% of respondents correctly identified it as meaning "not today," while 21% interpreted it as "perhaps after Midsummer," which researchers said was also acceptable.
+
+Under the new guidelines, public employees must complete a two-day certification seminar covering chest posture, nasal restraint, and the distinction between a standard civic sigh and a premium bureaucratic sigh, which is reserved for inheritance disputes and parking appeals involving German vehicles.
+
+Residents have so far reacted with cautious approval. Outside a neighborhood service center in Āgenskalns, pensioner Valdis Kārkliņš said the policy was simply formalizing an existing national resource. "My father communicated this way, my grandfather communicated this way, and for 19 years my dentist has communicated this way," he said. "Frankly, it is good that the city is finally putting structure around it."
+
+Not everyone is convinced. Opposition councillor Mārtiņš Ozols criticized the rollout as hasty, warning that rural municipalities may not have the respiratory capacity to implement similar systems. "Riga is acting like it invented emotional fatigue," he said. "Have they spoken to anybody in Jelgava?"
+
+Business groups have also expressed concern that the municipal sigh could spill into the private sector, creating confusion in cafés, pharmacies, and co-working spaces where Latvians already operate near maximum nonverbal output. The Latvian Chamber of Commerce requested that any sigh exceeding three seconds be taxed as a professional consultation.
+
+Still, early data suggest the reform is having measurable effects. Since Monday, average waiting-room agitation has fallen by 11%, while repeat visits to the Land Registry have dropped sharply, largely because citizens now leave with "a clearer emotional understanding of the situation," according to internal memos.
+
+City officials say the next phase may include a pilot program for an official municipal eyebrow raise, though planners admit that implementing it uniformly across Riga could prove difficult. "The sigh was easy," Bērziņa said, pausing briefly before offering a textbook example of the new standard. "The eyebrow carries policy risk."`,
+      lv: `RĪGA — To, ko pilsētas vadība dēvē par ilgi gaidītu pašvaldības pārvaldes modernizāciju, otrdien Rīgas dome atklāja — valsts pirmo oficiāli atzīto pašvaldības nopūtu, rūpīgi kalibrētu izelpu, kas paredzēta, lai vienkāršotu komunikāciju starp iedzīvotājiem un valsts institūcijām.
+
+Skaņa, ko žurnālistiem demonstrēja pilsētas domes marmora vestibilā, ilga 2,4 sekundes un reglamentā tika raksturota kā "dzirdama, nogurusi, bet ne naidīga." Pēc Administratīvās valodas departamenta sniegtās informācijas, nopūta tagad drīkst aizstāt vairākas ierastas frāzes, tostarp "mēs pārskatām jūsu iesniegumu", "sistēma pagaidām nav pieejama" un "lūdzu, atgriezieties ar citu zīmogu." 
+
+Pilsoniskā tona un atmosfēras priekšsēdētājas vietniece Ilze Bērziņa sacīja, ka iniciatīva radusies sešu mēnešu pilotprogrammas Pļavniekos rezultātā, kur iedzīvotāji uz neverbālu vilšanos reaģēja pozitīvāk nekā uz rakstiskiem skaidrojumiem. "Cilvēki ir aizņemti. Viņiem ne vienmēr ir laiks izlasīt septiņu lapu paziņojumu, kas paskaidro, kāpēc viņu velosipēdu šķūnīša atļauja ir aizkavēta kopš 2021. gada," Bērziņa sacīja Jūrmalas Telegrafam. "Bet, kad ierēdnis paskatās pa logu uz novembra debesi un izdara vienu mērītu nopūtu, visi uzreiz saprot, kur stāv."
+
+Pilsēta pasūtīja Latvijas Akustiskās pārvaldības akadēmijai skaņas izstrādi, testējot 87 prototipus pašvaldību apkalpošanas centros visā Rīgā. Agrīnie varianti tika noraidīti kā pārāk optimistiski, pārāk dramatiski vai, vienā gadījumā, "aizdomīgi lietuvīgi." Galīgā nopūta tika izvēlēta pēc akla testēšanas, kurā 68% respondentu to pareizi identificēja kā nozīmējumu "ne šodien," kamēr 21% to saprata kā "varbūt pēc Jāņiem," ko pētnieki arī atzina par pieņemamu.
+
+Saskaņā ar jaunajiem noteikumiem publisko iestāžu darbiniekiem jāiziet divu dienu sertifikācijas seminārs, kurā apgūst krūtīs stājas pozu, deguna aizturēšanu un atšķirību starp standarta pilsonisko nopūtu un premium birokrātisko nopūtu, kas rezervēta mantojuma strīdiem un sūdzībām par autostāvvietu, kas skar vācu automašīnas.
+
+Iedzīvotāji līdz šim reaģējuši piesardzīgi atbalstoši. Pie kāda mikrorajona apkalpošanas centra Āgenskalnā pensijā esošais Valdis Kārkliņš sacīja, ka politika vienkārši formalizē jau pastāvošu nacionālu resursu. "Mans tēvs tā sazinājās, mans vectēvs tā sazinājās, un jau 19 gadus mans zobārsts tā sazinās," viņš sacīja. "Godīgi sakot, ir labi, ka pilsēta beidzot tam liek struktūru apakšā."
+
+Ne visi ir pārliecināti. Oppozīcijas deputāts Mārtiņš Ozols kritizēja ieviešanu kā steidzīgu, brīdinot, ka lauku pašvaldībām var nebūt elpošanas kapacitātes, lai īstenotu līdzīgus sistēmas risinājumus. "Rīga rīkojas tā, it kā tā būtu izgudrojusi emocionālo nogurumu," viņš teica. "Vai viņi vispār ir runājuši ar kādu Jelgavā?"
+
+Uzņēmēju grupas arī paudušas bažas, ka pašvaldības nopūta varētu izlīst privātajā sektorā, radot neskaidrības kafejnīcās, aptiekās un kopstrādes telpās, kur latvieši jau darbojas tuvu maksimālajam neverbālajam kapacitātes līmenim. Latvijas Tirdzniecības un rūpniecības kamera pieprasījusi, lai jebkura nopūta, kas pārsniedz trīs sekundes, tiktu aplikta ar nodokli kā profesionāla konsultācija.
+
+Tomēr agrīnie dati liecina, ka reforma dod izmērāmas sekas. Kopš pirmdienas vidējā gaidīšanas telpas satraukuma līmeņa pazemināšanās ir 11%, savukārt atkārtotas vizītes Zemesgrāmatā ir strauji sarukušas, galvenokārt tāpēc, ka iedzīvotāji tagad dodas prom ar "skaidrāku emocionālu izpratni par situāciju," liecina iekšējie memoriāli.
+
+Pilsētas amatpersonas saka, ka nākamajā posmā varētu ietvert pilotprogrammu oficiālai pašvaldības uzacu paceļšanai, lai gan plānotāji atzīst, ka tās vienmērīga ieviešana visā Rīgā varētu izrādīties sarežģīta. "Nopūta bija viegla," sacīja Bērziņa, īsi aizdomājoties, pirms piedāvāja mācību grāmatas piemēru jaunajam standartam. "Uzacis nes politikas risku."`,
+      ru: `РИГА — В том, что городские власти называют давно назревшей модернизацией публичной администрации, Городская дума Риги во вторник представила первый в стране официально признанный муниципальный вздох — тщательно откалиброванное выдохание, призванное упростить коммуникацию между жителями и государственными институтами.
+
+Звук, продемонстрированный перед журналистами в мраморном фойе Ратуши, длился 2,4 секунды и в сопутствующем регламенте был описан как «слышимый, уставший, но не враждебный». По данным Департамента административного языка, вздох теперь может заменять несколько распространённых фраз, в том числе «мы рассматриваем ваше обращение», «система временно недоступна» и «пожалуйста, приходите с другой печатью». 
+
+Заместитель председателя по гражданскому тону и атмосфере Илзе Бērziņa сказала, что инициатива возникла после шестимесячного пилота в Плявниек — где жители реагировали на невербальное разочарование лучше, чем на письменные объяснения. «Люди заняты. У них не всегда есть время читать семистраничное уведомление о том, почему разрешение на велосипедный сарай задерживается с 2021 года», — сказала Бērziņa изданию Jurmala Telegraphs. «Но когда клерк смотрит в окно на ноябрьское небо и делает один отмеренный вздох, все сразу понимают, на чём они стоят». 
+
+Город заказал разработку звука Латвийской академии акустического управления, протестировав 87 прототипов в центрах муниципального обслуживания по всей Риге. Ранние версии отклонили за излишний оптимизм, слишком большую драматичность или, в одном случае, за «подозрительно литовский» характер. Окончательный вариант вздоха был выбран после слепых испытаний, в ходе которых 68% респондентов правильно определили его как «не сегодня», тогда как 21% истолковали его как «возможно после Ивана Купалы» — что, по словам исследователей, тоже приемлемо.
+
+В соответствии с новыми правилами, государственные служащие обязаны пройти двухдневный сертификационный семинар по грудной осанке, контролю носового выдоха и различию между стандартным гражданским вздохом и премиум‑бюрократическим вздохом, который зарезервирован для споров по наследству и апелляций по парковке с участием немецких автомобилей.
+
+Жители пока реагируют с осторожным одобрением. У одного из районных сервисных центров в Āgenskalns пенсионер Валдис Kārkliņš сказал, что политика просто формализует уже существующий национальный ресурс. «Мой отец так общался, мой дед так общался, и мой стоматолог вот уже 19 лет так общается», — сказал он. «Честно говоря, хорошо, что город наконец привёл это в систему». 
+
+Не все убеждены. Оппозиционный депутат Mārtinš Ozols раскритиковал введение как поспешное, предупредив, что сельским муниципалитетам может не хватить респираторной ёмкости для внедрения схожих систем. «Рига ведёт себя так, будто изобрела эмоциональную усталость», — сказал он. «Они хоть с кем‑нибудь из Елгавы говорили?»
+
+Деловые круги также выразили обеспокоенность, что муниципальный вздох может перекинуться в частный сектор, создавая путаницу в кафе, аптеках и коворкингах, где латвийцы и так уже работают на пределе невербальной выразительности. Латвийская торгово‑промышленная палата потребовала облагать налогом любой вздох длиннее трёх секунд как профессиональную консультацию.
+
+Тем не менее первые данные указывают на измеримый эффект реформы. Со вторника средний уровень беспокойства в залах ожидания упал на 11%, а повторные визиты в Реестр недвижимости резко сократились — главным образом потому, что граждане теперь уходят с «более чётким эмоциональным пониманием ситуации», следует из внутренних меморандумов.
+
+По словам городских властей, следующим этапом может стать пилотный проект по официальному муниципальному поднятию брови, хотя планировщики признают, что его единообразное внедрение по всей Риге может оказаться сложной задачей. «Вздох был прост», — сказала Бērziņa, сделав небольшую паузу перед тем, как продемонстрировать образцовый пример нового стандарта. «Бровь несёт в себе политический риск».`
+    },
+    date: "Mar 23, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/104/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 103,
     slug: "riga-introduces-polite-queue-marshals-after",
     title: {
@@ -102,7 +183,7 @@ Vēlā pēcpusdienā Teikas transporta nodaļā iedzīvotāji šķita piesardzī
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/103/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 102,
