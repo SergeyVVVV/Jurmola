@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 106,
+    slug: "riga-apartment-association-installs-passive-aggressive",
+    title: {
+      en: "Riga Apartment Association Installs Passive-Aggressive Bench to Reduce Excessive Greetings in Courtyard",
+      lv: "Rīgas dzīvokļu biedrība uzstāda pasīvi-agresīvu soli, lai samazinātu pārmērīgu sveicināšanos pagalmā",
+      ru: "Ассоциация домов Риги установила пассивно‑агрессивную скамейку, чтобы сократить чрезмерные приветствия во дворе"
+    },
+    excerpt: {
+      en: "Residents of a five-building apartment complex in Purvciems say a newly installed municipal-style bench has already cut unnecessary social interaction by 37%. The bench, angled slightly away from all entrances and positioned directly in the wind corridor between two garages, is being praised as a breakthrough in Baltic privacy preservation.",
+      lv: "Piecu ēku daudzdzīvokļu kompleksa Purvciemā iedzīvotāji ziņo, ka nesen uzstādītais pašvaldības tipa sols jau samazinājis nevajadzīgu sociālo mijiedarbību par 37%. Sols, nedaudz novirzīts prom no visām ieejām un novietots tieši vēja koridorā starp divām garāžām, tiek slavēts kā pavērsiens Baltijas privātuma saglabāšanā.",
+      ru: "Жители пятиподъездного комплекса в Пурвциемсе утверждают, что недавно установленная «муниципальная» скамейка уже сократила ненужное общение на 37%. Скамейка, чуть повернутая в сторону от всех входов и поставленная прямо в ветровой коридор между двумя гаражами, была провозглашена прорывом в сохранении балтийской приватности."
+    },
+    fullContent: {
+      en: `RIGA — In what local officials are calling a major step forward for urban boundary management, the Dzērveņu Street Apartment Association this week unveiled a specially designed courtyard bench intended to discourage prolonged greetings, accidental conversations, and other forms of avoidable neighborliness.
+
+The bench, financed through a combination of reserve funds, an EU micro-resilience grant, and one envelope of unclear origin left in the building manager’s mailbox, was officially opened Tuesday in a brief ceremony during which nobody made eye contact. Positioned 14 meters from the nearest doorway, facing a hedge and a sanded patch of old ice, the bench has been engineered to create what planners describe as “a respectful but firm atmosphere of conclusion.”
+
+“We noticed residents were spending up to 11 seconds saying hello, especially on weekends,” said apartment association chairwoman Inese Znotiņa, standing beside the bench with the expression of a person waiting for a bus that is late in a personal way. “This was causing delays in garbage disposal, dog walking, and private disappointment. The new seating solution gives people a place to sit without creating any expectation that the sitting will be enjoyable.”
+
+According to internal association figures, average courtyard interaction in Building Cluster C fell from 2.7 phrases per encounter to 1.4 within the first 48 hours of installation. Greetings such as “Labvakar” reportedly dropped by 22%, while the use of the neutral chin-lift rose sharply among men over 53. One resident was observed beginning a conversation about mushroom conditions in Sigulda before both participants remembered the bench and quietly left.
+
+The structure itself was designed by municipal subcontractor SIA Urbānā Atturība, which specializes in what it calls “socially clarifying street furniture.” Lead designer Artis Laganovskis said the bench incorporates several subtle deterrents, including a seat depth of only 11 centimeters, one slightly shorter leg to create existential instability, and a commemorative plaque reading, “Sit If Necessary.”
+
+“We studied older Soviet-era examples of successful emotional suppression,” Laganovskis explained. “But we also wanted a modern touch, so we added armrests positioned exactly where a winter coat naturally expands. The result is a bench that says, ‘You may rest, but not fully, and certainly not together.’”
+
+Not all residents are opposed. Retired tram electrician Valdis Kreipāns, 68, called the project “the most sensible thing this courtyard has seen since they removed the decorative tire swan in 2019.” Kreipāns said he had already used the bench three times to avoid being invited into a neighbor’s kitchen for coffee. “Now I can sit there, look cold, and people understand immediately that I am not available for stories,” he said.
+
+Younger residents were more divided. “At first I thought it was ironic,” said law student Elīna Mežs, 24. “Then I sat down and felt ashamed for reasons I still can’t identify. So in that sense, yes, it’s very Latvian.”
+
+The Riga City Development Department has taken notice. In a statement released Thursday, officials confirmed they are monitoring the Purvciems pilot and considering similar installations in Teika, Āgenskalns, and selected areas of Jūrmala where summer visitors have been observed making “unseasonal levels of small talk.” Early concepts include a bus stop shelter that gently amplifies sighing and a children’s playground roundabout calibrated to end birthday parties 18 minutes earlier.
+
+As drizzle settled over the courtyard Wednesday evening, the bench sat mostly empty, except for one reusable shopping bag and a man who appeared to be waiting for nothing in particular. Residents passed by in near-perfect silence, pausing only briefly to acknowledge what many described as a rare civic achievement: public infrastructure that finally understands them.`,
+      lv: `RĪGA — To, ko vietējie ierēdņi sauc par nozīmīgu soli pilsētas robežlīniju pārvaldībā, šonedēļ Dzērveņu ielas dzīvokļu biedrība atklāja īpaši izstrādātu pagalma soli, kas domāts, lai atturētu no ilgstošām sveicināšanām, nejaušām sarunām un citām izvairāmām kaimiņmīlības izpausmēm.
+
+Sols, kas finansēts, izmantojot rezerves fondu kombināciju, ES mikronoturības grantu un vienu aploksni neskaidras izcelsmes, atstātu nama kantora pastkastītē, oficiāli tika atklāts otrdien īsā ceremonijā, kuras laikā neviens neskatījās acīs. Novietots 14 metru attālumā no tuvākajām durvīm, ar skatu uz krūmu un ieberztu vecas ledus sloksnes plankumu, sols ir inženierizēts tā, lai radītu to, ko plānotāji raksturo kā “cieņpilnu, bet stingru noslēguma noskaņu.”
+
+“Mēs pamanījām, ka iedzīvotāji pavadīja līdz 11 sekundēm, sakot labdien, īpaši brīvdienās,” sacīja dzīvokļu biedrības priekšsēdētāja Inese Znotiņa, stāvot blakus solam ar izteiksmi kā cilvēks, kam autobuss kavējas personiski. “Tas radīja aizkavēšanos atkritumu izvedē, suņu iziešanā un privātā vīšanās procesā. Jaunais sēdēšanas risinājums dod cilvēkiem vietu apsēsties, neradot cerību, ka sēdēšana būs patīkama.”
+
+Saskaņā ar biedrības iekšējiem datiem, vidējā pagalma mijiedarbība C ēku grupā pirmajās 48 stundās pēc uzstādīšanas samazinājusies no 2,7 frāzēm uz 1,4 uzsākumu. Sveicieni, piemēram, “Labvakar”, bija samazinājušies par 22%, kamēr neitrālās zoda pacelšanas izmantošana strauji palielinājusies vīriešu vidū, kas vecāki par 53 gadiem. Viens iedzīvotājs tika novērots, uzsākot sarunu par sēņu stāvokli Siguldā, pirms abi sarunu dalībnieki atcerējās soli un klusi aizgāja.
+
+Pašu konstrukciju izstrādāja pašvaldības apakšuzņēmējs SIA Urbānā Atturība, kas specializējas tā sauktajā “sociāli noskaidrojošajā ielu mēbelē.” Vadošais dizainers Artis Laganovskis sacīja, ka sols ietver vairākus smalkus atturēšanas elementus, tostarp sēdekļa dziļumu — vien 11 centimetri, vienu nedaudz īsāku kāju, lai radītu eksistenciālu nedrošību, un piemiņas plāksnīti ar uzrakstu “Sēdies, ja nepieciešams.”
+
+“Mēs pētījām vecākus padomju laikmeta piemērus veiksmīgai emocionālai apspiešanai,” Laganovskis skaidroja. “Bet mēs vēlējāmies arī mūsdienīgu pieskārienu, tāpēc pievienojām roku balstus, novietotus tieši tur, kur ziemas mētelis dabiski paplašinās. Rezultāts ir sols, kas saka: ‘Tu vari atpūsties, bet ne pilnībā, un noteikti ne kopā.’”
+
+Ne visi iedzīvotāji ir pret. Pensionētais tramvaja elektriķis Valdis Kreipāns, 68, nosauca projektu par “saprotamāko lietu, ko šis pagalms redzējis kopš dekoratīvā riepu gulbja noņemšanas 2019. gadā.” Kreipāns sacīja, ka jau trīs reizes izmantojis solu, lai izvairītos no ielūguma uz kaimiņa virtuvi kafijai. “Tagad es varu apsēsties, izskatīties auksts, un cilvēki uzreiz saprot, ka man nav laika stāstiem,” viņš teica.
+
+Jaunieki ir vairāk sašķēlušies. “Sākumā domāju, ka tas ir ironiski,” sacīja jurista studente Elīna Mežs, 24. “Tad es apsēdos un izjutu kaunu iemeslu dēļ, ko vēl joprojām nespēju identificēt. Tāpēc šajā ziņā jā, tas ir ļoti latviski.”
+
+Rīgas pilsētas attīstības departaments ir pamanījis iniciatīvu. Ceturtdien izdotā paziņojumā ierēdņi apstiprināja, ka monitorē Purvciema pilotprojektu un izskata līdzīgas uzstādīšanas iespējas Teikā, Āgenskalnā un atlasītās Jūrmalas vietās, kur vasaras viesi novēroti sarunājoties “neierasti daudz.” Agrīnie koncepti ietver autobusa pieturas nojumi, kas maigi pastiprina nopūtas, un bērnu rotaļu laukuma karuseli, kas noregulēts tā, lai dzimšanas dienas svinības beigtos par 18 minūtēm agrāk.
+
+Kad trešdienas vakarā pagalmā sāka līt smalks lietus, sols lielākoties stāvēja tukšs — izņemot vienu atkārtoti lietojamu iepirkumu maisu un vīrieti, kurš šķita gaida neko īpašu. Iedzīvotāji garām gāja gandrīz pilnīgā klusumā, vien īsi apstājoties, lai atzītu to, ko daudzi dēvēja par retu pilsonisku sasniegumu: publisko infrastruktūru, kas beidzot viņus saprot.`,
+      ru: `РИГА — В том, что городские чиновники называют крупным шагом вперёд в управлении границами городской среды, Ассоциация собственников квартир на улице Dzērveņu на этой неделе открыла специально спроектированную дворцовую скамейку, призванную отучить от длительных приветствий, случайных разговоров и других форм лишней соседской общительности.
+
+Скамейка, профинансированная за счёт резервных фондов, микрогранта ЕС на устойчивость и одного конверта неопределённого происхождения, оставленного в почтовом ящике управдома, была официально открыта во вторник на краткой церемонии, в ходе которой никто не встретился глазами. Расположенная в 14 метрах от ближайшей двери, лицом к изгороди и посыпанному песком пятну старого льда, скамейка спроектирована так, чтобы создавать то, что планировщики описывают как «уважительную, но решительную атмосферу завершения». 
+
+«Мы заметили, что жители тратили до 11 секунд на сказанное «привет», особенно по выходным», — сказала председатель ассоциации Инесе Знотиниа, стоявшая возле скамейки с выражением человека, который ждёт автобус и считает, что опоздание автобуса — это личное оскорбление. «Это вызывало задержки с выносом мусора, прогулками с собаками и личными разочарованиями. Новое место для сидения даёт людям возможность присесть, не создавая никаких ожиданий, что сидеть будет приятно». 
+
+По внутренним данным ассоциации, среднее количество фраз во дворовых взаимодействиях в жилом кластере C упало со 2,7 до 1,4 за первые 48 часов после установки. Приветствия типа «Labvakar» сократились, как сообщается, на 22%, в то время как среди мужчин старше 53 лет резко возрастло использование нейтрального подъёма подбородка. Один житель был замечен начинающим разговор о грибах в Сигулде, прежде чем оба участника вспомнили о скамейке и тихо ушли.
+
+Саму конструкцию разработал муниципальный подрядчик SIA Urbānā Atturība, который специализируется на так называемой «социально проясняющей уличной мебели». Ведущий дизайнер Артис Лагановскис сказал, что скамейка включает несколько тонких средств сдерживания, включая глубину сиденья всего 11 сантиметров, одну слегка укороченную ножку для создания экзистенциальной неустойчивости и памятную табличку с надписью «Сиди, только если нужно». 
+
+«Мы изучали старые примеры советской эпохи успешного подавления эмоций», — объяснил Лагановскис. «Но мы также хотели добавить современный штрих, поэтому установили подлокотники точно там, где зимнее пальто естественно расширяется. В результате получилась скамейка, которая говорит: «Вы можете отдохнуть, но не до конца, и уж точно не вместе».» 
+
+Не все жители выступили против. 68-летний пенсионер, бывший трамвайный электрик Вальдис Крейпанс назвал проект «самой разумной вещью, которую видел этот двор с тех пор, как в 2019 году убрали декоративного лебедя из покрышки». Крейпанс сказал, что уже трижды использовал скамейку, чтобы избежать приглашения в соседскую кухню на кофе. «Теперь я могу сесть, выглядеть холодно, и люди сразу понимают, что я не готов к рассказам», — сказал он.
+
+Молодые жители разделились во мнениях. «Сначала я думала, что это ирония», — сказала 24‑летняя студентка юрфака Элина Межс. «Потом я села и ощутила стыд по причинам, которые до сих пор не могу определить. В этом смысле да, это очень латвийское». 
+
+Департамент развития города Риги принял это к сведению. В заявлении, выпущенном в четверг, чиновники подтвердили, что наблюдают за пилотом в Пурвциемсе и рассматривают возможность установки аналогичных скамеек в Тейке, Агенскалнсе и в отдельных районах Юрмалы, где летом было замечено «несезонно большое количество светской болтовни». Ранние концепты включают автобусную остановку, которая мягко усиливает вздохи, и карусель на детской площадке, настроенную так, чтобы завершать детские дни рождения на 18 минут раньше. 
+
+Когда по двору в среду вечером пошёл моросящий дождь, скамейка в основном пустовала, за исключением одной многоразовой сумки для покупок и мужчины, который, по виду, ждал ничто конкретное. Жители проходили мимо в практически совершенной тишине, останавливаясь лишь на мгновение, чтобы отметить то, что многие назвали редким гражданским достижением: общественную инфраструктуру, которая наконец-то их понимает.`
+    },
+    date: "Mar 25, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/106/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 105,
     slug: "riga-introduces-official-queue-simulator-so",
     title: {
@@ -108,7 +189,7 @@ Raksta sagatavošanas brīdī Rindu Simulācijas Centrs bija pagaidu slēgts pē
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/105/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 104,
