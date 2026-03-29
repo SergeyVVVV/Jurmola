@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 110,
+    slug: "riga-introduces-dynamic-sidewalk-pricing-to",
+    title: {
+      en: "Riga Introduces Dynamic Sidewalk Pricing to Reduce Loitering, Accidentally Creates Peak-Hour Pedestrian Derivatives Market",
+      lv: "Rīga ievieš dinamisku ietvju tarifēšanu, lai mazinātu kavēšanos, nejauši izveido pīķstundas gājēju atvasinājumu tirgu",
+      ru: "Рига вводит динамическое ценообразование тротуаров, чтобы сократить слоняние пешеходов, и случайно создает рынок пешеходных деривативов в часы пик"
+    },
+    excerpt: {
+      en: "In an effort to modernize urban mobility, Riga City Council has launched a pilot program charging residents different rates to stand, stroll, or hesitate on selected sidewalks in the city center. Officials say the system will reduce congestion, though by Thursday it had already produced three informal hedge funds and one grandmother-led protest occupying the premium cobblestones near Laima Clock.",
+      lv: "Mēģinot modernizēt pilsētas mobilitāti, Rīgas dome ir sāknējusi pilotprogrammu, kurā iedzīvotājiem tiek piemērotas atšķirīgas cenas par stāvēšanu, staigāšanu vai kavēšanos izvēlētajās centrālās pilsētas ietvēs. Pilsētas amatpersonas apgalvo, ka sistēma samazinās sastrēgumus, lai gan līdz ceturtdienai tā jau bija izraisījusi trīs neformālus hedžfondus un vienu vecmāmiņu vadītu protesta akciju uz premium bruģa pie Laimas pulksteņa.",
+      ru: "В стремлении модернизировать городскую мобильность Рижская дума запустила пилотный проект, по которому жителям взимают разные тарифы за стояние, прогулку или раздумья на выбранных тротуарах в центре города. По словам чиновников, система сократит пробки, хотя к четвергу она уже породила три неформальных хедж-фонда и одну возглавляемую бабушками акцию протеста, оккупировавшую премиальные брусчатки у часов «Лайма»."
+    },
+    fullContent: {
+      en: `RIGA — Promising to bring “21st-century efficiency to 19th-century pavement,” Riga City Council on Tuesday unveiled a new Dynamic Sidewalk Pricing system, under which pedestrians are charged variable rates depending on where, when, and how indecisively they move through the capital.
+
+The pilot zone, stretching from the Freedom Monument to a particularly argumentative section of Old Town, uses overhead sensors to classify movement into eight categories, including “purposeful commuting,” “romantic drifting,” “tourist rotational stopping,” and “sudden umbrella deployment.” According to municipal officials, standard weekday walking now costs €0.04 per meter between 7:30 and 9:00 a.m., while standing still near architecturally important facades incurs a “heritage occupancy fee” of up to €1.20 per minute.
+
+Deputy Chair for Urban Flow Management Ilze Priedola called the system a necessary adaptation to contemporary city life.
+
+“For too long, Riga has suffered from unmanaged pedestrian liquidity,” Priedola said at a press conference held on a medium-priced stretch of Brīvības iela. “People cannot simply arrive at the center, stop to discuss mushrooms, and expect the economy to function. We have trams, we have schedules, and we have a moral duty to discourage diagonal hesitation.”
+
+The city said the pricing model was developed after a 14-month study found that 63% of downtown bottlenecks were caused not by crowds, but by pairs of acquaintances who recognized each other unexpectedly and chose the narrowest possible place to reconnect. Another 21% were attributed to tourists slowly turning in a full circle while holding maps “like they had just landed from a softer planet.”
+
+Within hours of launch, however, residents had begun adapting in ways officials described as “creative, adversarial, and unmistakably Baltic.” Office workers started sharing real-time tips in encrypted messaging groups about lower-cost side streets. Students from the University of Latvia reportedly set up a blackboard near Aspazijas bulvāris offering “futures contracts” on anticipated lunchtime pavement surges. By Wednesday afternoon, one informal market was allowing speculators to short pedestrian access to Miera iela if rain seemed likely.
+
+“It’s actually quite elegant,” said financial hobbyist and part-time clarinet repairman Mārtiņš Veinbergs, who claimed to have earned €46 betting on a temporary spike in stroller traffic near the Central Market. “I no longer walk anywhere emotionally. Every outing is now an instrument.”
+
+Not everyone is pleased. A coalition of pensioners from Purvciems staged a demonstration beside Laima Clock after learning that “slow remembrance walking” had been algorithmically grouped with “leisurely obstruction.” Protest organizer Velta Ozoliņa, 74, said the policy discriminates against seniors, reflective personalities, and anyone carrying beetroot.
+
+“We already survived privatization, electronic parking, and self-checkout machines that accuse you of theft,” Ozoliņa said. “Now the city says my pause outside a pharmacy is a premium event. Fine. Then I will stand there until they list me on the stock exchange.”
+
+Business groups have reacted cautiously. Several cafés welcomed the new policy, noting that customers are now more willing to sit indoors for three hours rather than pay to linger outside deciding whether it is warm enough for a terrace. Meanwhile, real estate agents have begun advertising apartments with “free pedestrian adjacency” and “low-volatility curb access.”
+
+By Friday, the city had collected €18,400 in sidewalk revenue, though nearly half of that came from a German bachelor party that spent 27 minutes repeatedly reforming itself outside St. Peter’s Church. Officials insist the program is a success and may soon expand to Jurmala, where seasonal beach standing zones could be auctioned at sunrise.
+
+At press time, Riga residents had reportedly responded to the latest mobility reform in the traditional manner: by complaining in detail, adapting immediately, and somehow finding a way to monetize it.`,
+      lv: `RĪGA — Solot pilsētas dzīvē ieviest '21. gadsimta efektivitāti 19. gadsimta segumā', Rīgas dome otrdien atklāja jaunu Dinamiskās Ietvju Tarifēšanas sistēmu, kas iekasē mainīgas maksas gājējiem atkarībā no tā, kurā vietā, kad un cik nelēmīgi viņi pārvietojas pa galvaspilsētu.
+
+Pilotzona, kas stiepjas no Brīvības pieminekļa līdz īpaši strīdīgam Vecrīgas posmam, izmanto griestos uzstādītus sensorus, lai izšķirotu kustības astoņās kategorijās, tostarp 'mērķtiecīga ceļošana', 'romantiska klaiņošana', 'tūristu rotācijas apstāšanās' un 'negaidīta lietussarga izvēršana'. Pilsētas pārstāvji norāda, ka standarta darba dienas pastaiga tagad maksā 0,04 € par metru no plkst. 7:30 līdz 9:00, savukārt stāvēšana pie arhitektoniski nozīmīgām fasādēm tiek aplikta ar 'mantojuma atrašanās maksu' līdz 1,20 € minūtē.
+
+Pilsētplūsmas pārvaldības priekšsēdētājas vietniece Ilze Priedola nosauca sistēmu par nepieciešamu pielāgošanos mūsdienu pilsētas dzīvei.
+
+'Pārāk ilgi Rīga cieta no nepārvaldītas gājēju likviditātes,' Priedola sacīja preses konferencei notiekot vidēji dārgā Brīvības ielas posmā. 'Cilvēki nevar vienkārši ierasties centrā, apstāties, lai pārrunātu sēnes, un gaidīt, ka ekonomika funkcionēs. Mums ir tramvaji, mums ir grafikā, un mums ir morāla pienākuma atbaidīt diagonālu vilcināšanos.'
+
+Pilsēta norādīja, ka tarifēšanas modeli izstrādāja pēc 14 mēnešu pētījuma, kurā atklāts, ka 63% no pilsētas centra sastrēgumiem nerodas nevis no pūļiem, bet no pāriem paziņu, kuri negaidīti atpazinušies un izvēlējušies atkal satikties tieši šaurākajā iespējamajā vietā. Vēl 21% tika piedēvēts tūristiem, kas lēnām pagriezās pilnā lokā, turot kartes 'kā tikko nolaidušies no mīkstākas planētas'.
+
+Dažu stundu laikā pēc palaišanas iedzīvotāji sāka pielāgoties veidos, ko amatpersonas nodēvēja par 'radošiem, konfrontējošiem un nepārprotami baltiskiem'. Biroja darbinieki sāka dalīties ar reāllaika padomiem šifrētās ziņojumu grupās par mazāk dārgām paralēlām ieliņām. Latvijas universitātes studenti, kā ziņots, pie Aspazijas bulvāra uzstādīja tāfeli, piedāvājot 'nākotnes līgumus' uz prognozētajām pusdienlaika ietvju plūsmu lēkmēm. Līdz trešdienas pēcpusdienai viens neformāls tirgus ļāva spekulantiem dot īsās pozīcijas uz piekļuvi Miera ielai, ja izskatījās, ka līs.
+
+'Patiesībā tas ir diezgan eleganti,' sacīja finanšu entuziasts un pusmūža klarineta remontētājs Mārtiņš Veinbergs, kurš apgalvoja, ka nopelnījis 46 € derībā par pagaidu ratiņu plūsmas pieaugumu pie Centrāltirgus. 'Es vairs nekur nestaigāju emocionāli. Katrs izgājiens tagad ir instruments.'
+
+Ne visi ir apmierināti. Pensionāru koalīcija no Purvciema rīkoja demonstrāciju pie Laimas pulksteņa, uzzinot, ka 'lēnā piemiņas staigāšana' algoritmiski ierindota kopā ar 'atpūtas traucēšanu'. Protests organizētāja Velta Ozoliņa, 74 gadus veca, sacīja, ka politika diskriminē vecākus cilvēkus, reflektējošas personības un ikvienu, kas nēsā bieti.
+
+'Jau izdzīvojām privatizāciju, elektronisko stāvvietu un pašapkalpes kases, kas apsūdz zādzībā,' Ozoliņa sacīja. 'Tagad pilsēta saka, ka mans piesēdiens pie aptiekas ir premium notikums. Labi. Tad es stāvēšu tur, līdz mani iekļaus fondu biržā.'
+
+Uzņēmēju grupas reaģēja piesardzīgi. Vairāki kafejnīcu īpašnieki sveica jauno politiku, atzīmējot, ka klienti tagad labprātāk sēdēs telpās trīs stundas, nekā maksās par pavadīšanu ārpusē, domājot, vai terase ir pietiekami silta. Savukārt nekustamo īpašumu aģenti sākuši reklamēt dzīvokļus ar 'bezmaksas gājēju blīvumu' un 'zema svārstīguma apmales piekļuvi.'
+
+Pie piektdienas pilsēta bija iekasējusi 18 400 € no ietvju ienākumiem, lai gan teju pusi no tā ienesa vācu bachelorette ballīte, kas stundu pavadīja 27 minūtes, atkārtoti pārkārtojoties pie Svētā Pētera baznīcas. Amatpersonas uzsver, ka programma ir veiksmīga un drīzumā var tikt paplašināta uz Jūrmalu, kur sezonālas pludmales stāvēšanas zonas varētu izsolīt saullēktā.
+
+Preses laika brīdī Rīgas iedzīvotāji uz pēdējo mobilitātes reformu, kā ierasts, bija atbildējuši tradicionālā veidā: sūdzoties detaļās, pielāgojoties uzreiz un kādā veidā pārvēršot to par ienākumu avotu.`,
+      ru: `РИГА — Пообещав принести «эффективность XXI века на брусчатку XIX века», Рижская дума во вторник представила новую систему Dynamic Sidewalk Pricing, по которой пешеходам начисляют переменные тарифы в зависимости от того, где, когда и насколько нерешительно они перемещаются по столице.
+
+Пилотная зона, простирающаяся от Памятника Свободы до особенно полемичного участка Старого города, использует навесные датчики, чтобы классифицировать движения в восемь категорий, включая «целеустремленная поездка», «романтическое дрейфование», «туристическое вращательное остановление» и «внезапное раскрытие зонта». По данным муниципалитета, обычная прогулка в будний день теперь стоит €0,04 за метр между 7:30 и 9:00 утра, тогда как стояние у архитектурно важных фасадов влечет за собой «плату за занятие наследия» до €1,20 в минуту.
+
+Заместитель председателя по управлению городскими потоками Илзе Приедола назвала систему необходимой адаптацией к современному городскому образу жизни.
+
+«Слишком долго Рига страдала от неуправляемой пешеходной ликвидности», — сказала Приедола на пресс-конференции, проведённой на участке улицы Brīvības iela со средней ценовой категорией. «Люди не могут просто приходить в центр, останавливаться, чтобы обсудить грибы, и при этом ожидать, что экономика будет функционировать. У нас есть трамваи, у нас есть расписания, и у нас есть моральный долг отговаривать от диагонального колебания.»
+
+По словам города, модель тарифов была разработана после 14-месячного исследования, которое показало, что 63% узких мест в центре вызваны не толпами, а парами знакомых, неожиданно узнавших друг друга и выбравших для воссоединения как можно более узкое место. Ещё 21% объяснялись туристами, медленно поворачивающимися на месте с картами «как будто они только что прилетели с более мягкой планеты». 
+
+Однако уже через несколько часов после запуска жители начали приспосабливаться способами, которые чиновники описали как «креативные, конфронтационные и неоспоримо балтийские». Офисные работники стали делиться советами в зашифрованных группах о менее дорогих боковых улицах. Студенты Латвийского университета, по сообщениям, поставили классную доску возле бульвара Aspazijas, предлагая «фьючерсные контракты» на ожидаемые пики пешеходной нагрузки в обеденное время. К среде после обеда один неформальный рынок уже позволял спекулянтам шортить доступ пешеходов к Miera iela, если казалось, что будет дождь.
+
+«На самом деле это довольно элегантно», — сказал финансовый любитель и ремесленник по починке кларнетов Мārtiņš Veinbergs, который утверждал, что заработал €46, поставив на временный всплеск движения с колясками возле Центрального рынка. «Я больше никуда не хожу эмоционально. Каждая прогулка теперь — инструмент.»
+
+Не всем это нравится. Коалиция пенсионеров из Purvciems устроила демонстрацию у часов «Лайма», узнав, что «медленное гуляние в воспоминаниях» было алгоритмически объединено с «неторопливым созданием препятствий». Организатор протеста Вельта Озолиня, 74 года, заявила, что политика дискриминирует пожилых людей, рефлексивных личностей и всех, кто несёт с собой свёклу.
+
+«Мы уже пережили приватизацию, электронную парковку и кассы самообслуживания, которые обвиняют тебя в краже», — сказала Озолиня. «Теперь город говорит, что моя пауза у аптеки — это премиальное событие. Хорошо. Тогда я буду стоять там, пока меня не включат в список на бирже.»
+
+Деловые круги отреагировали осторожно. Несколько кафе приветствовали новую политику, отметив, что клиенты теперь охотнее сидят внутри по три часа, чем платят за то, чтобы задерживаться на улице в раздумьях, достаточно ли тепло для террасы. Тем временем риэлторы начали рекламировать квартиры с «бесплатной пешеходной близостью» и «низковолатильным доступом к бордюру». 
+
+К пятнице город собрал €18 400 дохода от тротуаров, хотя почти половина этой суммы поступила от немецкого мальчишника, который 27 минут неоднократно перестраивался возле церкви Святого Петра. Чиновники настаивают, что программа успешна и вскоре может расшириться до Юрмалы, где сезонные пляжные зоны для стояния можно будет выставлять на аукцион на рассвете.
+
+На момент выхода статьи рижане, как сообщалось, отреагировали на очередную реформу мобильности по традиции: подробно пожаловались, немедленно адаптировались и как-то умудрились её монетизировать.`
+    },
+    date: "Mar 29, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/110/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 109,
     slug: "jrmala-launches-quiet-siren-pilot-program",
     title: {
@@ -96,7 +189,7 @@ Preses izlaiduma brīdī pašvaldība paziņoja par plāniem eksportošanai — 
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/109/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 108,
