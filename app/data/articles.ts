@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 113,
+    slug: "riga-apartment-building-declares-itself-a",
+    title: {
+      en: "Riga Apartment Building Declares Itself a Cultural Monument to Avoid Kitchen Renovation",
+      lv: "Rīgas daudzdzīvokļu ēka pasludina sevi par kultūras pieminekli, lai izvairītos no virtuves remonta",
+      ru: "Рижский жилой дом объявил себя памятником культуры, чтобы избежать ремонта кухни"
+    },
+    excerpt: {
+      en: "Residents of a five-story apartment block in Purvciems have successfully halted a long-delayed kitchen renovation after the building formally applied for protected cultural status. Officials say the structure demonstrated \"rare continuity of post-Soviet domestic despair\" and may be the first property in Latvia to nominate itself.",
+      lv: "Purvciemā esošas piecstāvu ēkas iedzīvotāji ar veiksmīgu rezultātu apturējuši ilgi kavēto virtuves remontu, pēc tam, kad ēka formāli pieteicās kultūras pieminekļa statusam. Ierēdņi sacīja, ka būve demonstrē «retu pēcsovjetiskās mājsaimniecību bezcerības kontinuitāti» un varētu būt pirmais īpašums Latvijā, kas nominējis pats sevi.",
+      ru: "Жители пятиэтажного дома в Пурвciemсе успешно остановили давно затянувшийся ремонт кухни после того, как дом формально подал заявку на охранный статус памятника культуры. Чиновники заявляют, что здание демонстрирует «редкую преемственность постсоветского бытового отчаяния» и может быть первой в Латвии собственностью, номинировавшей саму себя."
+    },
+    fullContent: {
+      en: `RIGA — A 1974 apartment building on Nīcgales Street has become the center of a bureaucratic and philosophical dispute after filing, through its residents’ association, an application to be recognized as a national cultural monument on the grounds that its shared design features represent “an intact and emotionally persuasive ecosystem of ordinary Latvian inconvenience.”
+
+The application, submitted in February on official cream-colored paper that still smelled faintly of dill and radiator dust, seeks legal protection for Stairwell B’s original mailboxes, the basement’s ceremonial bicycle carcass, and Flat 27’s kitchen, which residents say has remained untouched since 1988 except for “one tragic wallpaper event” during the financial optimism of 2006.
+
+According to documents reviewed by Jurmala Telegraphs, the building’s case rests on its “exceptionally complete preservation of late-electric-kettle-era housing conditions,” including warped cupboard doors, one drawer that cannot be fully opened because of the gas pipe, and a refrigerator niche “designed for a future that never arrived.”
+
+“This is not neglect,” said residents’ association chairwoman Ilze Miezīte, 61, speaking beside a coat rack permanently holding three generations of winter jackets. “This is continuity. The kitchen tiles do not merely peel. They testify. If we replace everything with smooth white surfaces and indirect lighting, what exactly remains of us as a people?”
+
+The State Inspectorate for Heritage Protection confirmed that it is taking the request seriously. Senior evaluation specialist Mārtiņš Koknēsis said inspectors were initially skeptical, but changed their view after touring the premises and finding what he called “an almost sacred resistance to improvement.”
+
+“In one corner we documented a plastic bag full of other plastic bags dating back at least 14 years,” Koknēsis said. “Near the stove there is a chair used only for placing bread while tea is being made. These are not random objects. Together they form a complete domestic narrative.”
+
+Not all residents support the move. Several younger owners had campaigned for a modern renovation, hoping to combine two walls, install a kitchen island, and “finally live like psychologically stable Scandinavians.” Their plans were effectively frozen when the building submitted a 286-page heritage dossier, including measured drawings of every squeaking floorboard and a sworn statement from one pensioner who claimed the corridor wallpaper had “seen more governments than any of us.”
+
+“I just wanted cabinets that close properly,” said Flat 14 resident Rūdolfs Bērziņš, 33. “Now apparently my sink is part of the national memory.”
+
+Municipal records show the building has postponed major interior works 11 times since 2012, citing inflation, procurement confusion, a dispute over mushroom-colored paint, and one year in which the residents’ association accidentally spent the repair fund on replacing the front door with a slightly heavier front door.
+
+Cultural sociologist Dr. Elīna Pļaviņa of the University of Latvia said the case reflects a broader shift in Baltic identity. “For decades, Latvians have been told to modernize, optimize, and install underfloor heating,” she said. “But many are now asking whether true belonging may instead reside in a hallway light that only works if you slap the wall near the fuse box.”
+
+The Ministry of Culture has not yet ruled on the application, though sources say the building is a strong candidate after scoring highly on the ministry’s internal Authentic Domestic Persistence Index, particularly in the categories of “visible previous repairs” and “unexplained jar storage.”
+
+Meanwhile, residents report that tourists have already begun visiting the courtyard after a local architecture blog described the property as “a live-action museum of endurance.” On Tuesday, two Estonian design students were seen sketching the communal drying rack while whispering, “It’s so honest.”
+
+If approved, the status would prohibit non-essential renovation and entitle the building to a bronze plaque. Residents say they are prepared to accept this honor, provided no one insists on cleaning the stairwell before the unveiling.`,
+      lv: `RĪGA — 1974. gadā celtā daudzdzīvokļu ēka Nīcgales ielā kļuvusi par birokrātiskas un filozofiskas diskusijas epicentru pēc tam, kad caur iedzīvotāju biedrību tika iesniegts pieteikums atzīt to par valsts kultūras pieminekli uz pamata, ka tās koplietošanas dizaina iezīmes pārstāv «veselu un emocionāli pārliecinošu parasto Latvijas neērtību ekosistēmu.»
+
+Pieteikums, iesniegts februārī uz oficiāla krēmkrāsas papīra, kas joprojām mēreni smaržoja pēc dilles un radiatoru putekļiem, lūdz juridisku aizsardzību kāpņu telpas B oriģinālajām pastkastītēm, pagraba ceremonālajam velosipēda karkasam un 27. dzīvokļa virtuvei, kas, pēc iedzīvotāju stāstītā, palikusi neskarta kopš 1988. gada, izņemot «vienu traģisku tapetes notikumu» 2006. gada finanšu optimisma laikā.
+
+Pēc 'Jurmala Telegraphs' pārskatītajiem dokumentiem ēkas lieta balstās uz tās «izcili pilnīgu vēlās elektriskās tējkannas ēras dzīvojamo apstākļu saglabāšanu», tai skaitā izliektām skapīšu durtiņām, vienu atvilktni, ko gāzes caurule neļauj atvērt pilnībā, un ledusskapja nišu «paredzētu nākotnei, kas nekad neatnāca.»
+
+«Tas nav nolaidība,» sacīja 61 gadu vecā iedzīvotāju biedrības priekšsēdētāja Ilze Miezīte, stāvot blakus pakaramajam, kas pastāvīgi tur trīs paaudžu ziemas jakas. «Tā ir kontinuitāte. Virtuves flīzes ne tikai lobās. Tās liecina. Ja mēs visu aizvietotu ar gludām baltām virsmām un netiešo apgaismojumu, kas tad paliktu no mums kā tauta?»
+
+Valsts kultūras pieminekļu aizsardzības inspekcija apstiprināja, ka pieteikumu uztver nopietni. Vecākais vērtēšanas speciālists Mārtiņš Koknēsis sacīja, ka inspektori sākotnēji bija skeptiski, bet mainīja viedokli pēc ēkas apskates, kur atrada to, ko viņš nosauca par «gandrīz svētu pretošanos uzlabošanai.»
+
+«Vienā stūrī dokumentējām plastmasas maisiņu, pilnu ar citiem plastmasas maisiņiem, kas, šķiet, ir vismaz 14 gadus vecs,» sacīja Koknēsis. «Pie plīts ir krēsls, ko izmanto tikai maizes nolikšanai, kamēr tēja tiek vārīta. Tās nav nejaušas lietas. Kopā tās veido pilnīgu mājas naratīvu.»
+
+Ne visi iedzīvotāji atbalsta šo soļu. Vairāki jaunāki īpašnieki bija kampaņojuši par modernu remontu, cerot sapludināt divas sienas, uzstādīt virtuves salu un «beidzot dzīvot kā psiholoģiski stabilāki skandināvi.» Viņu plāni faktiski tika iesaldēti, kad ēka iesniedza 286 lappušu mantojuma lietu, tajā iekļaujot mērprojektus katram čīkstošajam grīdas dēlim un zvērestu liecību no viena pensionāra, kurš apgalvoja, ka koridora tapete «redzējusi vairāk valdību nekā jebkurš no mums.»
+
+«Es tikai gribēju skapjus, kas aizveras kā nākas,» sacīja 14. dzīvokļa iemītnieks Rūdolfs Bērziņš, 33 gadus vecs. «Tagad izrādās, ka mans izlietnes krāns ir daļa no nacionālās atmiņas.»
+
+Pašvaldības ieraksti rāda, ka ēka kopš 2012. gada lielos iekšdarbus ir atlikusi 11 reizes, minot inflāciju, iepirkumu jucekli, strīdu par sēņu tonī krāsotu krāsu un vienu gadu, kad iedzīvotāju biedrība nejauši iztērēja remontfondu, nomainot ieejas durvis pret nedaudz smagākām ieejas durvīm.
+
+Kultūras socioloģe Dr. Elīna Pļaviņa no Latvijas Universitātes sacīja, ka šis gadījums atspoguļo plašāku bāltiskas identitātes pārbīdi. «Gadu desmitiem latviešiem teica modernizēties, optimizēt un uzstādīt grīdas apsildi,» viņa sacīja. «Bet daudzi tagad jautā, vai īsta piederība varbūt neatrodas koridora lampā, kas iedegas tikai tad, ja piesit pie sienas pie drošinātāju skapīša.»
+
+Kultūras ministrija vēl nav pieņēmusi lēmumu par pieteikumu, lai gan avoti sacījuši, ka ēka ir stiprs kandidāts pēc iekšlietas autentiskās mājas noturības indeksa novērtējuma, it īpaši kategorijās «redzamas iepriekšējas remonta pēdas» un «neskaidras burku glabāšanas.»
+
+Tikmēr iedzīvotāji ziņo, ka tūristi jau sākuši apmeklēt pagalmu pēc vietējā arhitektūras emuāra apraksta, kur īpašums nosaukts par «dzīvu izturības muzeju.» Otrdien divi igauņu dizaina studenti tika manīti skicējot kopīgo žāvētāju, čukstot: «Tas ir tik godīgi.»
+
+Ja statuss tiks piešķirts, tas aizliegtu nevajadzīgu remontu un ļautu ēkai uzstādīt bronzas piemiņas plāksni. Iedzīvotāji saka, ka ir gatavi pieņemt šo godu, ja vien neviens nepiekasēs, lai trolling pirms atklāšanas notīrītu kāpņu telpu.`,
+      ru: `РИГА — Многоквартирный дом 1974 года постройки на улице Ничгалес стал центром бюрократического и философского спора после того, как через товарищество собственников жилья подал заявку на признание национальным памятником культуры на том основании, что его общие проектные особенности представляют собой «целостную и эмоционально убедительную экосистему обычного латвийского неудобства».
+
+Заявка, поданная в феврале на официальной кремовой бумаге, которая всё ещё слабо пахла укропом и пылью радиаторов, просит юридической охраны для оригинальных почтовых ящиков лестничной клетки Б, церемониального скелета велосипеда в подвале и кухни квартиры 27, которую, по словам жильцов, не трогали с 1988 года за исключением «одного трагического эпизода с обоями» в период финансового оптимизма 2006 года.
+
+По документам, изученным Jurmala Telegraphs, доводы дома основаны на «исключительно полном сохранении жилищных условий поздней эры электрического чайника», включая деформированные дверцы шкафов, один выдвижной ящик, который нельзя открыть полностью из‑за газовой трубы, и нишу для холодильника «спроектированную для будущего, которое так и не наступило».
+
+«Это не пренебрежение», — сказала председательница товарищества собственников Илзе Миезите, 61 год, стоя рядом с вешалкой, на которой постоянно висят зимние куртки трёх поколений. «Это преемственность. Плитка на кухне не просто отваливается. Она свидетельствует. Если мы заменим всё на гладкие белые поверхности и скрытую подсветку, что тогда останется от нас как народа?»
+
+Государственная инспекция по охране культурного наследия подтвердила, что рассматривает просьбу серьёзно. Старший специалист по оценке Мартиньш Кокнесис сказал, что инспекторы сначала отнеслись скептически, но изменили мнение после осмотра и обнаружили то, что он назвал «почти священным сопротивлением улучшениям».
+
+«В одном углу мы зафиксировали пластиковый пакет, полный других пластиковых пакетов, которому, по меньшей мере, 14 лет», — рассказал Кокнесис. «Рядом со плитой стоит стул, который используется только для того, чтобы ставить на него хлеб, пока заваривают чай. Это не случайные предметы. Вместе они формируют цельный бытовой нарратив». 
+
+Не все жильцы поддерживают эту инициативу. Несколько молодых собственников агитировали за современный ремонт, мечтая снести две стены, установить кухонный остров и «наконец-то жить как психологически стабильные скандинавы». Их планы фактически были заморожены, когда дом представил 286‑страничное досье по наследию, включающее поимённые чертежи каждой скрипящей доски и письменное заявление под присягой от одной пенсионерки, утверждавшей, что обои в коридоре «видели больше правительств, чем любой из нас».
+
+«Я просто хотел шкафчики, которые нормально закрываются», — сказал житель квартиры 14 Рудольфс Бёрзиньш, 33 года. «А теперь, видимо, моя раковина — часть национальной памяти». 
+
+Муниципальные записи показывают, что дом откладывал капитальные внутренние работы 11 раз с 2012 года, ссылаясь на инфляцию, путаницу с госзакупками, спор по поводу «грибного» цвета краски и один год, когда товарищество собственников по ошибке потратило фонд ремонта на замену входной двери на чуть более тяжёлую входную дверь.
+
+Культурный социолог доктор Элина Плявина из Латвийского университета заявила, что этот случай отражает более широкий сдвиг в балтийской идентичности. «Десятилетиями латышам твердили: модернизируйтесь, оптимизируйтесь, ставьте тёплые полы, — сказала она. — Но многие теперь спрашивают, не кроется ли истинное чувство принадлежности в коридорном свете, который работает только если шлёпнуть по стене рядом со щитком». 
+
+Министерство культуры ещё не вынесло решения по заявке, хотя источники говорят, что дом является сильным кандидатом после того, как набрал высокие баллы по внутреннему Индексу подлинной бытовой устойчивости министерства, особенно в категориях «видимые предыдущие ремонты» и «необъяснимое хранение банок».
+
+Тем временем жильцы сообщают, что туристы уже начали приходить во двор после того, как местный архитектурный блог описал дом как «живой музей стойкости». Во вторник двух эстонских студентов дизайна видели за тем, как они зарисовывали общую сушилку для белья, шепча: «Это так честно». 
+
+Если статус будет утверждён, он запретит необязательные ремонты и даст дому право на бронзовую доску. Жильцы говорят, что готовы принять эту честь, при условии, что никто не будет настаивать на чистке лестничной клетки до её открытия.`
+    },
+    date: "Apr 1, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/113/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 112,
     slug: "riga-introduces-official-municipal-sigh-to-112",
     title: {
@@ -96,7 +195,7 @@ Vēlāk pēcpusdienā jau notika agrīnie lauka testi: pasažieri pieturā Brīv
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/112/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 111,
