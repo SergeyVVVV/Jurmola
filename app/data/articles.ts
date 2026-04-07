@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 118,
+    slug: "riga-introduces-mandatory-silence-hour-so",
+    title: {
+      en: "Riga Introduces Mandatory Silence Hour So Residents Can Hear Whether Tram No. 7 Is Actually Coming",
+      lv: "Rīga ievieš obligāto Klusuma stundu, lai iedzīvotāji varētu dzirdēt, vai 7. tramvajs tiešām nāk",
+      ru: "Рига вводит обязательный час тишины, чтобы жители могли услышать, действительно ли едет трамвай №7"
+    },
+    excerpt: {
+      en: "City officials have announced a daily mandatory Silence Hour across central Riga, arguing that residents deserve at least one uninterrupted period to listen for the distant metallic promise of public transport. The measure, praised by urban planners and cautious grandmothers alike, is being described as the capital’s most ambitious acoustic infrastructure project since officials agreed seagulls were \"someone else’s problem.\"",
+      lv: "Pilsētas amatpersonas ir paziņojušas par ikdienas obligātu Klusuma stundu Rīgas centrā, apgalvojot, ka iedzīvotājiem pienākas vismaz viens nepārtraukts brīdis, lai ieklausītos tālajā metāliskajā sabiedriskā transporta solījumā. Šo pasākumu, ko slavē gan urbānisti, gan piesardzīgas vecmāmiņas, dēvē par galvaspilsētas ambiciozāko akustiskās infrastruktūras projektu kopš tā laika, kad amatpersonas nolēma, ka kiras ir „kāda cita problēma”.",
+      ru: "Городские власти объявили о введении ежедневного обязательного Часа тишины в центральной части Риги, заявив, что жители заслуживают хотя бы одного непрерывного периода, чтобы прислушаться к отдалённому металлическому обещанию общественного транспорта. Меру, восторженно принятую и городскими планировщиками, и осторожными бабушками, называют самой амбициозной акустической инфраструктурной инициативой столицы со времён, когда чиновники договорились, что чайки — «чужая проблема»."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal leaders are calling a bold step toward “transparent uncertainty,” the Riga City Council on Tuesday approved a pilot program establishing a mandatory Silence Hour every weekday from 8:13 to 8:27 a.m., allowing residents to determine, without interference, whether Tram No. 7 is genuinely approaching or merely participating in another one of its speculative appearances.
+
+Under the new regulations, motorists in the city centre must switch off engines, cafés are prohibited from grinding coffee beans, and all construction workers are required to pause drilling and stand respectfully beside unfinished holes. Church bells have been asked to “ring internally,” while schoolchildren crossing Brīvības iela will be encouraged to whisper.
+
+Deputy Chair for Mobility and Audible Truth, Māris Ķezbers, said the policy emerged after a 14-month study found that 62% of Riga residents have at some point claimed to hear Tram No. 7 “somewhere in the distance,” only to discover 11 minutes later that the sound had been caused by a recycling truck, a saucepan, or “emotional memory.”
+
+“For too long, our people have been denied sonic clarity,” Ķezbers told reporters while holding a laminated timetable from 2009. “Latvians are patient, but there are limits. If a citizen stands at a stop in sleet and tilts their head like a woodland animal, they deserve reliable acoustic conditions.”
+
+The city’s Department of Transport Perception estimated that the Silence Hour will improve commuter confidence by 18%, while reducing unnecessary platform optimism by up to 31%. Officials also believe the measure could restore public trust after several riders reported seeing Tram No. 7 listed on digital boards despite there being, in practical and spiritual terms, no sign of it.
+
+At the Ausekļa iela stop, pensioner and lifelong tram observer Dzidra Lāce, 74, welcomed the announcement. “I have been hearing Number 7 since 1998,” she said. “Sometimes from the east, sometimes from inside my own scarf. It is important that the city finally distinguishes vehicle from atmosphere.”
+
+Business owners have expressed cautious support. Ilze Bormane, manager of the café Klusums & Co., said the temporary ban on milk frothing would cost her morning revenue but could improve social harmony. “If people arrive already angry because they imagined a tram, they order recklessly,” Bormane said. “You can see it in the extra cinnamon.”
+
+Not everyone is convinced. Opposition councillor Einārs Rubenis accused the coalition of “weaponizing stillness” ahead of municipal elections. “First they silence traffic, next they will tell us the Daugava sounds different for budgetary reasons,” Rubenis said. He then attempted to demonstrate the alleged normal volume of Riga by dropping a handful of coins into a metal ashtray, but was drowned out by a gull landing on a bus shelter.
+
+To enforce compliance, the city will deploy 43 newly trained Acoustic Stewards in grey vests embroidered with the words “Listen Carefully.” Residents who violate Silence Hour by revving engines, shouting into phones, or loudly saying “it should have been here already” may receive fines ranging from €15 to €70, depending on whether they were correct.
+
+If the pilot succeeds, officials say the program may expand to include evening Quiet Windows for hearing bicycles approach on wet cobblestones and a seasonal December hush in Old Town so residents can determine whether that music is from a Christmas market, a choir, or simply another British tourist refusing to wear a coat.
+
+As of Tuesday afternoon, early results from the pilot were mixed. During the first officially silent interval, 118 residents reported hearing Tram No. 7 with “new precision,” 46 heard nothing at all, and one man in Purvciems submitted a formal statement claiming he had finally heard “the administrative soul of Riga.” The tram itself arrived three minutes later than expected, preserving what transport officials described as “a healthy continuity with tradition.”`,
+      lv: `RĪGA — To, ko pilsētas vadība dēvē par drosmīgu soli pretī „caurspīdīgajai nenoteiktībai”, Otrdien Rīgas domes sēdē apstiprināja pilotprogrammu, kas ievieš obligātu Klusuma stundu katru darba dienu no pulksten 8:13 līdz 8:27, ļaujot iedzīvotājiem bez traucējumiem noteikt, vai 7. tramvajs patiešām tuvojas vai vienkārši piedalās vēl vienā no savām spekulatīvajām parādībām.
+
+Saskaņā ar jaunajiem noteikumiem autovadītāji pilsētas centrā ir jāizslēdz dzinēji, kafejnīcām aizliegts malēt kafiju, un visi celtnieki ir aicināti pārtraukt urbšanu un cienīgi stāvēt blakus nepabeigtajām bedru maliņām. Baznīcu zvani lūgti „skanēt iekšēji”, savukārt Brīvības ielu šķērsojošajiem skolas bērniem ieteikts čukstēt.
+
+Mobilitātes un dzirdamās patiesības vietnieks Māris Ķezbers sacīja, ka politika radusies pēc 14 mēnešu pētījuma, kurā noskaidrots, ka 62% rīdzinieku reiz apgalvojuši, ka „kaut kur tālumā” dzirdējuši 7. tramvaju, lai 11 minūtes vēlāk atklātu, ka troksni izraisījis pārstrādes kravas auto, katls vai „emocionālā atmiņa”.
+
+„Pārāk ilgi mūsu ļaudīm ir liegta skaņas skaidrība,” Ķezbers žurnālistiem teica, turot rokā laminētu 2009. gada sarakstu. „Latvieši ir pacietīgi, bet arī tam ir robežas. Ja pilsonis stāv pieturā sniega‑lietus brāzmā un noliek galvu kā meža zvērs, viņam pienākas uzticami akustiskie apstākļi.”
+
+Transporta Uztveres departaments lēš, ka Klusuma stunda uzlabos pasažieru pārliecību par 18%, vienlaikus samazinot lieku optimismu uz platformām līdz pat 31%. Amatpersonas arī uzskata, ka pasākums varētu atjaunot sabiedrības uzticību pēc vairāku braucēju sūdzībām par 7. tramvaja parādīšanos digitālajās tablo, lai gan praktiski un garīgi nebija nekādu tā pazīmju.
+
+Ausekļa ielas pieturā pensionāre un mūža tramvaju novērotāja Dzidra Lāce, 74, sagaidīja paziņojumu ar sajūsmu. „Es dzirdu 7. tramvaju kopš 1998. gada,” viņa teica. „Reizēm no austrumiem, reizēm — tieši no manas šalles iekšienes. Ir svarīgi, ka pilsēta beidzot atšķir transportlīdzekli no atmosfēras.”
+
+Uzņēmēji izrādījuši piesardzīgu atbalstu. Kafejnīcas Klusums & Co. vadītāja Ilze Bormane atzina, ka pārejošais aizliegums putot pienu draud samazināt rīta ienākumus, taču varētu uzlabot sabiedrisko saskaņu. „Ja cilvēki ierodas jau dusmīgi, jo iedomājušies tramvaju, viņi pasūta bezkaunīgi,” sacīja Bormane. „To var redzēt pievienotajā papildu kanēļa devā.”
+
+Ne visi ir pārliecināti. Oppozīcijas deputāts Einārs Rubenis apsūdzēja koalīciju par „klusuma militarizēšanu” pirms pašvaldību vēlēšanām. „Vispirms viņi noslāpē satiksmi, pēc tam mums pateiks, ka Daugava skan citādi budžeta apsvērumu dēļ,” sacīja Rubenis. Viņš mēģināja demonstrēt Rīgas it kā ierasto skaļumu, iemetot dūmu traukā sauju monētu, taču viņu noslāpēja kaija, kas nosēdās uz autobusa pieturas nojumes.
+
+Lai nodrošinātu ievērošanu, pilsēta izvietos 43 jaunapmācītus Akustiskos uzraugus pelēkās vestēs ar izšūtu uzrakstu „Klausies uzmanīgi”. Iedzīvotāji, kas Klusuma stundā pārkāps noteikumus, iegriežot dzinējus, kliedzot telefonos vai skaļi sakot „tam šeit jau vajadzēja būt”, var saņemt sodu no 15 € līdz 70 €, atkarībā no tā, vai viņiem bija taisnība.
+
+Ja pilots izrādīsies veiksmīgs, amatpersonas sola paplašināt programmu ar vakara Klusuma logiem, lai dzirdētu, kā velosipēdi tuvojas pa slapjiem bruģakmeņiem, un ar sezonālu decembra klusumu Vecrīgā, lai iedzīvotāji varētu noteikt, vai mūzika nāk no Ziemassvētku tirdziņa, korim vai vienkārši vēl viena britu tūrista, kas atsakās vilkt mēteli.
+
+Otrdienas pēcpusdienā agrīnie pilotprogrammas rezultāti bija jaukti. Pirmajā oficiāli klusajā intervālā 118 iedzīvotāji ziņoja, ka ar „jaunu precizitāti” dzirdējuši 7. tramvaju, 46 — neko nedzirdēja vispār, un viens vīrietis no Purvciema iesniedza oficiālu paziņojumu, apgalvojot, ka beidzot iemantojis „Rīgas administratīvo dvēseli”. Pats tramvajs ieradās trīs minūtes vēlāk nekā gaidīts, saglabājot to, ko transporta amatpersonas dēvēja par „veselīgu tradīcijas nepārtrauktību”.`,
+      ru: `РИГА — В том, что муниципальные руководители называют смелым шагом в сторону «прозрачной неопределённости», Городской совет Риги во вторник утвердил пилотную программу, устанавливающую обязательный Час тишины каждый будний день с 8:13 до 8:27 утра, чтобы жители могли без помех выяснить, приближается ли трамвай №7 на самом деле или просто снова участвует в одном из своих спекулятивных появлений.
+
+Согласно новым правилам, автомобилистам в центре города предписано глушить двигатель, кафе запрещено молоть кофе, а всем строителям предписано приостанавливать сверление и уважительно стоять рядом с незаконченными ямами. Церковным колоколам предложено «звенеть про себя», а школьников, переходящих Brīvības iela, будут поощрять шептать.
+
+Заместитель председателя по вопросам мобильности и слышимой правды, Māris Ķezbers, рассказал, что политика родилась после 14-месячного исследования, показавшего, что 62% жителей Риги в какой-то момент утверждали, что слышали трамвай №7 «где-то вдалеке», чтобы через 11 минут обнаружить, что звук вызвал мусоровоз, кастрюля или «эмоциональная память».
+
+«Нашим людям слишком долго отказывали в акустической ясности», — сказал Ķezbers репортёрам, держа ламинированное расписание 2009 года. «Латыши терпеливы, но у терпения есть пределы. Если гражданин стоит на остановке под мокрым снегом и наклоняет голову как лесное животное, он заслуживает надёжных акустических условий». 
+
+Департамент восприятия транспорта города оценил, что Час тишины повысит уверенность пассажиров на 18%, одновременно снижая избыточный оптимизм на платформах до 31%. Чиновники также полагают, что мера может восстановить общественное доверие после того, как несколько пассажиров сообщили, что увидели трамвай №7 на электронных табло, хотя, в практическом и духовном смысле, никаких следов его не было.
+
+На остановке Ausekļa iela пенсионерка и пожизненная наблюдательница за трамваями Dzidra Lāce, 74 года, приветствовала это объявление. «Я слышу номер 7 с 1998 года, — сказала она. — Иногда с востока, иногда — изнутри моего собственного шарфа. Важно, что город наконец различает транспорт и атмосферу». 
+
+Владельцы бизнеса выразили осторожную поддержку. Илзе Бормане, управляющая кафе Klusums & Co., сказала, что временный запрет на вспенивание молока ударит по утренним выручкам, но может улучшить социальную гармонию. «Если люди приходят уже злыми, потому что им померещился трамвай, они делают заказы безрассудно, — сказала Бормане. — По дополнительной корице это видно». 
+
+Не все убеждены. Оппозиционный советник Einārs Rubenis обвинил коалицию в «вооружении тишины» накануне муниципальных выборов. «Сначала они заставляют замолчать движение, потом нам скажут, что Даугава звучит иначе по бюджетным причинам», — сказал Rubenis. Затем он попытался продемонстрировать якобы обычную громкость Риги, бросив горсть монет в металлическую пепельницу, но его заглушила чайка, приземлившаяся на автобусную остановку.
+
+Чтобы обеспечить соблюдение, город развернёт 43 новообученных акустических надзирателя в серых жилетах с вышивкой «Слушайте внимательно». Жители, нарушившие Час тишины — включая тех, кто будет газовать, кричать в телефон или громко повторять «он уже должен был быть здесь» — могут получить штрафы от 15 до 70 евро в зависимости от того, были ли они правы.
+
+Если пилотный проект увенчается успехом, чиновники говорят, что программу могут расширить: вечёрками тихих окон для того, чтобы слышать, как приближаются велосипеды по мокрой брусчатке, и сезонной декабрьской тишиной в Старом городе, чтобы жители могли понять, исходит ли музыка с рождественской ярмарки, от хора или просто от ещё одного британского туриста, отказывающегося надеть пальто.
+
+По состоянию на вторник днём первые результаты пилота оказались смешанными. В ходе первого официально тихого интервала 118 жителей сообщили, что услышали трамвай №7 с «новой точностью», 46 вообще ничего не услышали, а один мужчина из Purvciems подал официальное заявление с требованием, что он наконец-то услышал «административную душу Риги». Сам трамвай прибыл на три минуты позже запланированного, что, по словам чиновников транспорта, сохранило «здоровую преемственность с традициями».`
+    },
+    date: "Apr 7, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/118/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 117,
     slug: "riga-introduces-polite-potholes-that-apologize",
     title: {
@@ -102,7 +189,7 @@ Spiediena brīdī viena pieklājīgā bedrīte pie skolas Purvciemā bija īslai
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/117/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 116,
