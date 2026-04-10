@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 121,
+    slug: "riga-introduces-dynamic-silence-pricing-residents-121",
+    title: {
+      en: "Riga Introduces Dynamic Silence Pricing, Residents Charged Extra for Complaining About Noise",
+      lv: "Rīga ievieš dinamisko klusuma cenu noteikšanu; iedzīvotājiem jāmaksā papildus par sūdzēšanos par troksni",
+      ru: "Рига вводит динамическое ценообразование тишины: жителям приходится доплачивать за жалобы на шум"
+    },
+    excerpt: {
+      en: "Riga City Council has unveiled a pilot program that will assign real-time market value to silence, allowing residents in louder neighborhoods to purchase brief intervals of municipal quiet. Officials say the initiative will encourage responsible complaining while creating a fairer system for everyone who believes their suffering is uniquely urban.",
+      lv: "Rīgas dome paziņojusi par pilotprogrammu, kas klusumam piešķirs reāllaika tirgus vērtību, ļaujot iedzīvotājiem trokšņainākos rajonos iegādāties īsus pašvaldības klusuma intervālus. Pārstāvji apgalvo, ka iniciatīva veicinās atbildīgu sūdzēšanos un radīs taisnīgāku sistēmu ikvienam, kurš uzskata, ka viņa ciešanas ir īpaši pilsētas.",
+      ru: "Рижская дума представила пилотный проект, который в реальном времени присваивает тишине рыночную стоимость: жители шумных районов смогут покупать короткие интервалы муниципальной тишины. По словам чиновников, инициатива будет поощрять «ответственные» жалобы и создавать более справедливую систему для всех, кто уверен, что их страдание особенно городское."
+    },
+    fullContent: {
+      en: `RIGA — In what officials are calling "a modern, data-driven response to the emotional economy of city life," Riga City Council on Tuesday launched Dynamic Silence Pricing, a new municipal platform that allows residents to bid for temporary reductions in neighborhood noise. Under the pilot scheme, the price of silence will fluctuate hourly based on tram frequency, gull aggression, nearby renovation activity, and the number of men named Uldis using leaf blowers before 8 a.m.
+
+The system, developed in partnership with a Scandinavian acoustic-consulting startup and a former deputy mayor’s nephew, divides the city into 34 "sound burden zones." Residents in central districts such as Avoti, Teika, and parts of Āgenskalns can now use a mobile app, Klusums+, to purchase between 3 and 11 minutes of what the city defines as "meaningful urban quiet." During those intervals, construction crews are requested to pause drilling, bar terraces receive amber-level restrictions on laughter, and tram drivers are encouraged to ring bells "only with purpose."
+
+According to municipal figures, the average retail cost of three minutes of quiet in central Riga opened at €4.80 on Tuesday morning, rising sharply to €17.20 by 10:30 after an unscheduled jackhammer event near Brīvības Street and what officials classified as "ceremonial motorcycle activity." In Jurmala, by contrast, silence briefly traded at negative value after two uninterrupted hours of bird sounds caused panic among remote workers who assumed their internet had failed.
+
+"For decades, silence has been distributed unfairly," said Deputy Chair for Civic Harmony Ilze Žagare at a press conference held, somewhat optimistically, beside a roadworks site. "People in pine forests and detached houses have enjoyed elite access to peace, while apartment residents have had to manufacture it privately with herbal tea and resentment. This policy democratizes silence through a transparent pricing mechanism."
+
+Not all residents are convinced. "I already pay taxes, and now I must outbid a dentist from Mežaparks just to hear my own radiator thinking?" asked Imants Feldmanis, 42, a Teika resident who said he lost a lunchtime silence auction to "some woman in a linen coat" and was forced to eat soup during what he described as "competitive scraping."
+
+City officials insist the plan includes protections for low-income households. Eligible residents can apply for Silence Credits, redeemable during off-peak annoyance windows between 14:00 and 14:07. Pensioners over 70 are also entitled to one free monthly complaint review, though repeated use of the phrase "this was not like this in Soviet times" may trigger a surcharge.
+
+To fund the initiative, Riga has introduced a parallel levy on non-essential public noise. Street musicians performing more than two songs by Brainstorm in a 90-minute period now face an escalating tariff, while cafés serving brunch on wooden boards must contribute to the Urban Recovery Fund. Owners of modified BMWs have been placed in a separate category labeled "predictable externalities."
+
+The city claims early results are promising. In a limited trial in Purvciems, residents reported a 23% increase in perceived tranquility and a 41% drop in passive-aggressive curtain movements. However, the same study found that once silence was monetized, many participants could no longer relax during it, choosing instead to whisper about whether they were "getting full value."
+
+Political opposition has remained cautious. The National Alliance called the platform "an innovative opportunity to protect Latvian silence from foreign acoustic influence," while Progressives argued that quiet should remain a public good, not "something tradable like parking, mushrooms, or emotional availability."
+
+By late afternoon Tuesday, demand had become so intense that the city’s servers briefly crashed after a resident in Centrs attempted to reserve an entire Sunday. Municipal technicians restored service within the hour, though by then the available quiet had already been bought up by a law firm, a wellness influencer, and, according to public records, one mysterious account registered simply as "Mamma."
+
+Council members say the program will continue through autumn, after which it may be expanded to include premium add-ons such as Scent-Neutral Stairwells and Guaranteed Neighbor Absence. For now, residents are encouraged to monitor the app closely and act quickly when favorable conditions emerge.
+
+At press time, silence in Riga Old Town had surged to a record €31 per minute after a bachelor party accidentally entered the Dome Square classical music corridor.`,
+      lv: `RĪGA — To, ko amatpersonas dēvē par "mūsdienīgu, datu vadītu atbildi uz pilsētas dzīves emocionālo ekonomiku", otrdien Rīgas dome sāka ieviest Dinamisko klusuma cenu noteikšanu, jaunu pašvaldības platformu, kas ļauj iedzīvotājiem licitēt par pagaidu trokšņa samazinājumiem savā apkaimē. Saskaņā ar pilotprogrammu klusuma cena mainīsies stundas griezumā, ņemot vērā tramvaja kustības intensitāti, kaijas agresivitāti, blakus esošos renovācijas darbus un to, cik daudz vīriešu vārdā Uldis pirms pulksten 8:00 izmanto lapu pūtējus.
+
+Sistēmu, ko izstrādāja sadarbībā ar skandināvu akustikas konsultāciju startupu un bijušā domes vicemēra brālēnu, pilsēta sadalījusi 34 "skaņas sloga zonās". Centra rajonu iedzīvotāji, piemēram, Avotos, Teikā un daļā Āgenskalna, tagad var izmantojot mobilo lietotni Klusums+ iegādāties no 3 līdz 11 minūtēm tā, ko pilsēta definē kā "jēgpilnu pilsētas klusumu". Šo intervālu laikā būvniekiem tiek lūgts apturēt urbšanu, bāru terasēm tiek piemēroti dzeltenā līmeņa smaguma ierobežojumi smiekliem, bet tramvaja vadītāji tiek mudināti zvana pogu lietot "tikai ar mērķi".
+
+Pilsētas dati liecina, ka trīs minūšu klusuma vidējā mazumtirdzniecības cena centrālajā Rīgā otrdienas rītā atvērās pie €4,80, bet līdz 10:30 strauji pieauga līdz €17,20 pēc neplānota perforatora epizodes pie Brīvības ielas un tā, ko amatpersonas klasificēja kā "ceremonialu motociklu aktivitāti". Savukārt Jūrmalā klusums īsi brīdi tirgojās ar negatīvu vērtību pēc tam, kad divas nepārtrauktas stundas putnu skaņām izraisīja paniku attālinātajiem darba ņēmējiem, kuri pieņēma, ka viņiem ir pazudusi interneta pieslēguma.
+
+"Gadu desmitiem klusums ir bijis nevienlīdzīgi sadalīts," preses konferencē, kas, diezgan optimistiski, notika blakus ceļa remontdarbiem, sacīja Pilsoniskās saskaņas vietniece Ilze Žagare. "Cilvēki priežu mežos un viensēdās ir baudījuši elitāru piekļuvi mieram, kamēr dzīvokļu iedzīvotājiem tas nācies radīt privāti ar zālīšu tēju un aizvainojumu. Šī politika demokratizē klusumu caur caurspīdīgu cenu mehānismu."
+
+Ne visi iedzīvotāji ir pārliecināti. "Es jau maksāju nodokļus, un tagad man jāpārsit cena ar Mežaparka zobārstu, tikai lai dzirdētu, kā mans radiators domā?" sacīja 42 gadus vecais Teikas iedzīvotājs Imants Feldmanis, kurš apgalvoja, ka pusdienlaika klusuma izsolē zaudējis pret "kādu sievieti lins mētelī" un spiests ēst zupu laikā, ko viņš aprakstīja kā "konkurējošu skrāpēšanu".
+
+Pilsētas amatpersonas uzsver, ka plānā ir iekļautas aizsardzības zemāku ienākumu mājsaimniecībām. Tiesīgi iedzīvotāji var pieteikties uz Klusuma kredītiem, ko var izmantot mazākās apgrūtinājuma stundās starp 14:00 un 14:07. Pensionāriem virs 70 gadiem pienākas arī viena bezmaksas sūdzību pārskatīšana mēnesī, lai gan frāzes "tā nebija padomju laikos" atkārtota lietošana var izsaukt piemaksu.
+
+Lai finansētu iniciatīvu, Rīga ieviesusi paralēlu nodokli uz nevajadzīgu publisku trokšņu radīšanu. Ielu mūziķiem, kuri 90 minūšu laikā izpilda vairāk nekā divas dziesmas no Prāta Vētras, tagad jāsaskaras ar pieaugošu tarifu, savukārt kafejnīcām, kas bārsta branču uz koka dēļiem, jāieliek ziedojums Urbānās atveseļošanās fondā. Modificētu BMW īpašnieki nonākuši atsevišķā kategorijā ar nosaukumu "prognozējamās ārējās ietekmes".
+
+Pilsēta apgalvo, ka sākotnējie rezultāti esot daudzsološi. Ierobežotā izmēģinājumā Purvciemā iedzīvotāji ziņoja par 23% pieaugumu uztvertā miera sajūtā un 41% samazinājumu pasīvi-agresīvām aizkaru kustībām. Tomēr tajā pašā pētījumā konstatēts, ka, monetižējot klusumu, daudzi dalībnieki vairs nespēja tajā atslābināties, drīzāk čukstēdami, vai viņi "saņem pilnu vērtību".
+
+Politiskā opozīcija saglabā piesardzību. Nacionālā apvienība nosauca platformu par "inovatīvu iespēju aizsargāt latviešu klusumu no ārējas akustiskas ietekmes", kamēr Progresīvie uzstāja, ka klusumam jāpaliek par sabiedrības labumu, nevis par kaut ko tirgojamu kā stāvvietas, sēnes vai emocionālā pieejamība.
+
+Vēlā otrdienas pēcpusdienā pieprasījums kļuva tik intensīvs, ka pilsētas serveri īslaicīgi sabruka pēc tam, kad kāds Centra iedzīvotājs mēģināja rezervēt visu svētdienu. Pašvaldības tehniķi atjaunoja pakalpojumu stundas laikā, lai gan līdz tam brīdim pieejamais klusums jau bija nopirkts — advokātu biroja, labsajūtas influencera un, publisko ierakstu pēc, vienas noslēpumainas kontas, reģistrētas vienkārši kā "Mamma".
+
+Domes locekļi saka, ka programma turpināsies līdz rudenim, pēc tam to varētu paplašināt, iekļaujot premium papildinājumus, piemēram, Smaržas-neitrālas kāpnes un Garantētu kaimiņa neesamību. Pašlaik iedzīvotāji aicināti rūpīgi sekot lietotnei un rīkoties ātri, kad parādās izdevīgi apstākļi.
+
+Preses piezīmē, klusums Vecrīgā pēc kļūdainas līgavaiņa balles ielaušanās Doma laukuma klasiskās mūzikas koridorā pieauga līdz rekordai — €31 par minūti.`,
+      ru: `РИГА — В том, что чиновники называют «современным, основанным на данных ответом на эмоциональную экономику городской жизни», Рижская дума во вторник запустила Dynamic Silence Pricing — новую муниципальную платформу, позволяющую жителям торговаться за временное снижение уровня шума в районе. В рамках пилотной схемы цена на тишину будет колебаться ежечасно в зависимости от частоты трамваев, агрессивности чаек, близости ремонтных работ и количества мужчин по имени Улдис, работающих садовыми воздуходувками до восьми утра.
+
+Система, разработанная в партнёрстве со скандинавским стартапом акустических консультаций и племянником бывшего вице-мэра, делит город на 34 «зоны звуковой нагрузки». Жители центральных районов, таких как Авоти, Тейка и части Агенскалнс, теперь могут через мобильное приложение Klusums+ покупать от 3 до 11 минут того, что город определяет как «значимое городское спокойствие». В течение этих интервалов строительным бригадам предлагают приостанавливать перфораторы, уличным террасам баров вводят янтарные ограничения на смех, а водителям трамваев рекомендуют звонить в колокольчики «только по делу».
+
+По данным муниципалитета, средняя розничная цена трёх минут тишины в центре Риги открылась во вторник утром на уровне €4,80, резко взлетев до €17,20 к 10:30 после внеплановой работы отбойного молотка рядом с улицей Бривибас и того, что чиновники классифицировали как «церемониальную мотоактивность». В Юрмале, напротив, тишина на короткое время торговалась с отрицательной ценой после двух непрерывных часов птичьих трелей: удалённые работники впали в панику, решив, что у них пропал интернет.
+
+«Десятилетиями тишина распределялась несправедливо», — заявила вице-председатель по гражданской гармонии Илзе Жагаре на пресс‑конференции, проведённой, несколько оптимистично, рядом со строительной площадкой. «Люди в сосновых лесах и частных домах имели элитный доступ к покою, в то время как жители квартир вынуждены были добывать его самостоятельно — травяным чаем и обидой. Эта политика демократизирует тишину через прозрачный механизм ценообразования». 
+
+Не все жители в восторге. «Я уже плачу налоги, и теперь я должен перебить стоматолога из Межапаркса, чтобы услышать, как мой радиатор думает?» — возмутился 42‑летний житель Тейки Имантс Фельдманис, который рассказал, что проиграл обеденной аукцион на тишину «какой‑то женщине в льняном пальто» и был вынужден есть суп под, как он выразился, «соревновательное поскребывание». 
+
+Городские власти настаивают, что в плане предусмотрены защиты для малоимущих семей. Право на «кредит тишины» могут получить нуждающиеся жители; их можно будет использовать в «непиковые» окошки раздражения между 14:00 и 14:07. Пенсионерам старше 70 положен также один бесплатный ежемесячный пересмотр жалобы, хотя повторное употребление фразы «в советские времена такого не было» может повлечь доплату.
+
+Чтобы финансировать инициативу, Рига ввела параллельный сбор на несущественный общественный шум. Уличные музыканты, исполняющие более двух песен Brainstorm в течение 90 минут, теперь платят возрастающую тарифную ставку, а кафе, подающее бранч на деревянных досках, обязано вносить взнос в Фонд восстановления городской среды. Владельцев тюнингованных BMW вынесли в отдельную категорию под названием «предсказуемые внешние эффекты». 
+
+Город утверждает, что первые результаты обнадёживают. В ограниченном эксперименте в Пурвчиемсе жители сообщили о 23% росте воспринимаемого спокойствия и 41% падении пассивно‑агрессивных движений штор. Однако то же исследование показало, что, как только тишина стала товаром, многие участники уже не могли расслабиться в её течение, предпочитая шёпотом обсуждать, «получают ли они полную стоимость». 
+
+Политическая оппозиция ведет себя осторожно. «Национальный альянс» назвал платформу «инновационной возможностью защитить латвийское молчание от иностранного акустического влияния», в то время как Прогрессивные заявили, что тишина должна оставаться общественным благом, а не «товаром, как парковка, грибы или эмоциональная доступность». 
+
+К вечеру вторника спрос стал настолько интенсивным, что серверы города ненадолго рухнули после того, как один житель Центрса попытался зарезервировать целое воскресенье. Муниципальные техники восстановили сервис в течение часа, хотя к тому моменту доступная тишина уже была выкуплена юридической фирмой, велнес‑инфлюенсером и, по публичным записям, одним загадочным аккаунтом под именем «Mamma». 
+
+Члены думы говорят, что программа продолжится до осени, после чего её, возможно, расширят с премиальными дополнениями, такими как лестницы с нейтральным запахом и гарантированное отсутствие соседей. Пока же жителей призывают внимательно следить за приложением и действовать быстро, когда появляются благоприятные условия. 
+
+На момент отправки материала тишина в старом городе Риги подскочила до рекордных €31 за минуту после того, как мальчишник по ошибке попал в классический музыкальный коридор Домской площади.`
+    },
+    date: "Apr 10, 2026",
+    category: { en: "Business", lv: "Bizness", ru: "Бизнес" },
+    categories: ["business"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/121/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 120,
     slug: "riga-introduces-silent-tram-car-for-120",
     title: {
@@ -102,7 +195,7 @@ Ja izmēģinājums izrādīsies veiksmīgs, Rīga plāno paplašināt koncepciju
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/120/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 119,
