@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 124,
+    slug: "jrmala-introduces-premium-silence-zones-for",
+    title: {
+      en: "Jūrmala Introduces Premium Silence Zones For Riga Tourists Unable To Relax Without Paying For It",
+      lv: "Jūrmala ievieš «premium» klusuma zonas rīdziniekiem, kuri bez maksas nespēj atslābināties",
+      ru: "Юрмала вводит премиальные зоны тишины для рижских туристов, которые не умеют расслабляться бесплатно"
+    },
+    excerpt: {
+      en: "City officials in Jūrmala have unveiled a network of paid 'Premium Silence Zones' along the coast, designed for visitors from Riga who reportedly no longer trust free tranquility. The initiative allows guests to reserve 30-minute blocks of municipally certified quiet starting at €18.50, not including gull management.",
+      lv: "Jūrmala ir atklājusi maksas «Premium klusuma zonas» gar krastu, paredzētas Rīgas viesiem, kuri, kā ziņots, vairs neuzticas brīvai klusumam. Iniciatīva ļauj rezervēt 30 minūšu blokus pašvaldības sertificēta klusuma no €18,50 — kaiju pārvaldība nav iekļauta.",
+      ru: "Городские власти Юрмалы представили сеть платных «премиальных зон тишины» вдоль побережья, рассчитанных на туристов из Риги, которые, как сообщается, больше не доверяют бесплатному спокойствию. Инициатива позволяет гостям бронировать сертифицированные муниципалитетом 30‑минутные сеансы тишины от €18.50, не считая обслуживания чаек."
+    },
+    fullContent: {
+      en: `JŪRMALA — In a move municipal leaders are calling "a necessary modernization of peace," the resort city of Jūrmala this week launched Latvia’s first paid silence infrastructure, allowing beachgoers to pre-book stretches of official quiet through a mobile app, Silence+, developed with support from the Ministry of Smart Calm.
+
+Under the new system, visitors can choose between several tiers of silence, including Basic Hush, Executive Stillness, and the top-level Amber Serenity package, which includes reduced stroller squeaking, two manually redirected seagulls, and what the city describes as "a noticeably disapproving elderly lady stationed at the perimeter." Prices begin at €18.50 for 30 minutes on weekdays and rise to €44 during sunset.
+
+Mayor Rita Laizāne said the program was developed after a 14-month feasibility study found that 71% of weekend visitors from Riga "experienced visible anxiety when encountering unmonetized calm."
+
+"People would arrive at the sea, hear the wind in the pines, and immediately ask where to pay," Laizāne told reporters at a press conference held beside a velvet-rope-enclosed dune. "Several residents of Āgenskalns said they could not fully enjoy a quiet moment unless it came with a QR code, a confirmation email, and the vague sense that others had been excluded. We are simply responding to a market need."
+
+According to city data, pilot silence corridors tested last August near Dzintari and Melluži generated €312,000 in direct revenue and 4,800 social media posts containing the phrase "worth every cent." Officials also reported a 23% reduction in aggressive portable speaker usage after introducing on-site Calm Marshals equipped with linen uniforms and long eye contact.
+
+The app allows users to customize their quiet by selecting prohibited sounds. Options include children discussing shell findings, distant volleyball joy, damp Bluetooth jazz, and "a man explaining real estate to nobody in particular." For an additional €6, premium subscribers can activate Forest Bass Suppression, which softens overly ambitious woodpecker activity in nearby pine areas.
+
+Not everyone is convinced. Local resident and year-round Jūrmala inhabitant Ilmārs Briedis, 58, said the city had commercialized something that used to occur naturally. "In the old days, silence was available to anyone willing to come here in November and suffer a little," Briedis said while watching workers install a brushed-metal Quiet Totem near Majori. "Now they’ve turned it into a lifestyle product for people who wear coastal knitwear for one hour and then leave."
+
+Still, businesses have welcomed the measure. Café owner Elīna Sudraba said demand for post-silence refreshments had surged. "After 30 minutes of certified peace, customers are ordering sparkling water as if they’ve returned from a spiritual retreat in Saulkrasti," she said. "One man cried because his slot included only one gull." 
+
+Riga marketing consultant Artūrs Feldmanis, who booked the Amber Serenity package for his family, called the experience transformational. "At first I thought, why am I paying for the absence of noise? But then an employee politely informed a nearby toddler that my package included premium stillness, and I felt seen as a citizen," Feldmanis said. "For the first time in years, I relaxed competitively."
+
+The city council has already approved an autumn expansion, including Silent Pine Walks, Subscription Fog, and a pilot program in which selected benches will offer "Platinum Solitude" with heated armrests and no possibility of overhearing startup ideas.
+
+Officials say the long-term goal is to position Jūrmala as the Baltic leader in curated emptiness. "Nature remains free in principle," Mayor Laizāne said, standing beneath a sign reading THIS QUIET BROUGHT TO YOU BY THE MUNICIPALITY. "We are simply helping residents and guests access it in a structured, invoice-compatible way."`,
+      lv: `JŪRMALA — Pilsētas vadītāji šo soli dēvē par "nepieciešamu miera modernizāciju" — šonedēļ kūrortpilsēta Jūrmala uzsāka Latvijas pirmo maksas klusuma infrastruktūru, ļaujot pludmales apmeklētājiem iepriekš rezervēt oficiālās klusuma zonas caur mobilo lietotni Silence+, izstrādātu ar Viedās Miera ministrijas atbalstu.
+
+Jaunajā sistēmā apmeklētāji var izvēlēties starp vairākiem klusuma līmeņiem, tostarp "Bāzes Kluso", "Vadības Mierrādis" un augstākā līmeņa "Dzintara Serenitāte", kas ietver samazinātu ratiņu čīkstēšanu, divas manuāli novirzītas kaijas un to, ko pilsēta raksturo kā "redzami nosodošu vecāku kundzi perimetrā". Cenas sākas no €18,50 par 30 minūtēm darba dienās un pieaug līdz €44 saulrietā.
+
+Mēre Rita Laizāne sacīja, ka programmu izstrādāja pēc 14 mēnešus ilgā iespējamības pētījuma, kas atklāja, ka 71% nedēļas nogales apmeklētāju no Rīgas "izrāda acīmredzamu trauksmi, sastopot monetizētu klusumu." 
+
+"Cilvēki brauca pie jūras, dzirdēja vējā čukstošās priedes un uzreiz jautāja, kur maksāt," Laizāne sacīja preses konferencē pie dunas, norobežotas ar samta auklām. "Vairāki Āgenskalna iedzīvotāji sacīja, ka nespēj pilnībā izbaudīt klusumu, ja tas nenāk ar QR kodu, apstiprinājuma e-pastu un to nepārliecinošo izjūtu, ka citi ir izslēgti. Mēs vienkārši reaģējam uz tirgus pieprasījumu."
+
+Pilsētas datu pēc pērn augustā izmēģinātie klusuma koridori pie Dzintariem un Mellužiem ģenerēja €312 000 tiešo ieņēmumu un 4800 sociālo tīklu ierakstus ar frāzi "vērts katra centa." Iestādes ziņoja arī par 23% agresīvas pārnēsājamo skaļruņu izmantošanas samazinājumu pēc tam, kad uz vietas tika ievietoti Miera maršali ar lina uniformām un ilgstošu acu kontaktu.
+
+Lietotne ļauj lietotājiem pielāgot savu klusumu, atlasot aizliegtos skaņu veidus. Opcijas ietver bērnus, kas diskutē par gliemežvāku atradumiem; tālas volejbola prieka skaņas; mitru Bluetooth džezu; un "vīrieti, kas skaidro nekustamā īpašuma lietas nevienam īpaši." Par papildus €6 premium abonenti var aktivizēt Meža Basa Slāpēšanu, kas mīkstina pārāk ambiciozu dzeņu darbību tuvējās priežu joslās.
+
+Ne visi ir pārliecināti. Vietējais iedzīvotājs un visu gadu Jūrmalā dzīvojošais Ilmārs Briedis, 58, sacīja, ka pilsēta ir komercializējusi to, kas agrāk notika dabiski. "Vecajos laikos klusums bija pieejams ikvienam, kurš bija gatavs atbraukt novembrī un mazliet paciesties," Briedis sacīja, vērojot, kā strādnieki pie Majori uzstāda birstēta metāla 'Klusuma Totemu'. "Tagad viņi to ir pārvērsuši par dzīvesstila produktu cilvēkiem, kas uzvelk piekrastes adītas drēbes uz vienu stundu un tad aiziet."
+
+Tomēr uzņēmēji pieņēma šo pasākumu ar atplestām rokām. Kafejnīcas īpašniece Elīna Sudraba teica, ka pieprasījums pēc atspirdzinājumiem pēc klusuma ir pieaudzis. "Pēc 30 minūtēm sertificēta miera klienti pasūta gāzētu ūdeni tā, it kā būtu atgriezušies no garīgā retrīta Saulkrastos," viņa sacīja. "Viens vīrietis raudāja, jo viņa laika bloks iekļāva tikai vienu kaiju."
+
+Rīgas mārketinga konsultants Artūrs Feldmanis, kurš rezervēja "Dzintara Serenitātes" paketi savai ģimenei, pieredzi nodēvēja par transformējošu. "Sākumā domāju — kāpēc es maksāju par trokšņa neesamību? Bet tad darbinieks pieklājīgi paziņoja tuvumā stāvošam zīdainim, ka mana pakete ietver premium klusumu, un es sajutos redzēts kā pilsonis," sacīja Feldmanis. "Pirmo reizi gados es atpūtos konkurences garā."
+
+Pilsētas dome jau apstiprinājusi rudens paplašinājumu, kas ietver Klusos priežu gājienus, Abonējamās miglas pakalpojumu un izmēģinājuma programmu, kurā atlasītās soliņi piedāvās "Platīna Vientulību" ar sildāmiem roku balstiem un bez iespējas uzklausīt startupu idejas.
+
+Amatpersonas saka, ka ilgtermiņa mērķis ir pozicionēt Jūrmalu kā Baltijas līderi kurētā tukšumā. "Daba principā paliek bez maksas," sacīja mēre Laizāne, stāvot zem zīmes, uz kuras rakstīts "ŠO KLUSUMU NODROŠINA PAŠVALDĪBA." "Mēs vienkārši palīdzam iedzīvotājiem un viesiem piekļūt tam strukturētā, rēķināmi saderīgā veidā."`,
+      ru: `ЮРМАЛА — В шаге, который муниципальные лидеры называют «необходимой модернизацией покоя», курортный город Юрмала на этой неделе запустил первую в Латвии платную инфраструктуру тишины, позволив отдыхающим заранее бронировать участки официального молчания через мобильное приложение Silence+, разработанное при поддержке Министерства Умного Спокойствия.
+
+В рамках новой системы посетители могут выбирать между несколькими уровнями тишины, включая «Базовое Ш‑ш», «Исполнительное Безмолвие» и верхний пакет «Янтарное Спокойствие», который включает уменьшенное скрипение детских колясок, две вручную перенаправленные чайки и, как описывает город, «заметно неодобрительную пожилую даму, размещённую по периметру». Цены начинаются от €18.50 за 30 минут в будние дни и поднимаются до €44 во время заката.
+
+Мэр Рита Лайзане заявила, что программу разработали после 14‑месячного технико‑экономического исследования, в котором выяснилось, что 71% уикенд‑гостей из Риги «испытывают видимую тревогу при контакте с немонетизированным спокойствием».
+
+«Люди приезжали на море, слышали ветер в соснах и сразу спрашивали, где заплатить», — сказала Лайзане на пресс‑конференции у дюны, ограждённой бархатной лентой. «Несколько жителей Агенскалнса признались, что не могут полностью насладиться тихим моментом, если он не сопровождается QR‑кодом, подтверждением по электронной почте и смутным ощущением, что других исключили. Мы просто реагируем на потребность рынка». 
+
+По данным города, пилотные «коридоры тишины», опробованные в прошлом августе возле Дзинтари и Меллужи, принесли €312 000 прямого дохода и вызвали 4 800 публикаций в соцсетях с фразой «стоит каждой копейки». Также чиновники отметили снижение использования агрессивных портативных колонок на 23% после введения на местах Маршалов Спокойствия в льняной форме с умением длительно смотреть в глаза.
+
+Приложение позволяет пользователям настраивать тишину, выбирая запрещённые звуки. Варианты включают детей, обсуждающих находки ракушек, удалённую радость волейбола, сырой Bluetooth‑джаз и «мужчину, объясняющего про недвижимость никому в частности». За дополнительные €6 премиум‑подписчики могут активировать «Подавление лесного баса», которое смягчает чрезмерно амбициозную активность дятлов в близлежащих сосновых участках.
+
+Не все в восторге. Местный житель и постоянный обитатель Юрмалы Илмарс Бриедис, 58 лет, сказал, что город коммерциализировал то, что раньше происходило естественно. «В старые добрые времена тишина была доступна всем желающим приехать сюда в ноябре и немного потерпеть», — сказал Бриедис, наблюдая, как рабочие устанавливают сатинированный металлический Тотем Тишины рядом с Майори. «Теперь это превратили в продукт образа жизни для людей, которые час носят прибрежный трикотаж, а потом уезжают». 
+
+Тем не менее бизнесы встретили меру с благодарностью. Владелица кафе Элина Судраба рассказала, что спрос на освежения после тишины резко вырос. «После 30 минут сертифицированного покоя клиенты заказывают газированную воду так, как будто вернулись из духовного ретрита в Саулкрастах», — сказала она. «Один мужчина расплакался, потому что в его слоте была только одна чайка». 
+
+Рижский маркетинговый консультант Артурс Фельдманис, который забронировал пакет «Янтарное Спокойствие» для своей семьи, назвал опыт трансформационным. «Сначала я думал: зачем я плачу за отсутствие шума? Но потом сотрудник вежливо сообщил ближайшему малышу, что мой пакет включает премиальную неподвижность, и я почувствовал себя замеченным как гражданин», — сказал Фельдманис. «Впервые за годы я расслаблялся по‑соревновательному». 
+
+Городской совет уже одобрил осеннее расширение: «Тихие сосновые прогулки», «Подписочный туман» и пилотную программу, в рамках которой избранные скамейки будут предлагать «Платиновое Уединение» с подогревом подлокотников и без вероятности подслушать стартап‑идеи.
+
+Чиновники говорят, что долгосрочная цель — позиционировать Юрмалу как лидера Балтики по кураторской пустоте. «Природа по‑прежнему бесплатна в принципе», — сказала мэр Лайзане, стоя под вывеской: ЭТА ТИШИНА ПРЕДОСТАВЛЕНА МУНИЦИПАЛИТЕТОМ. «Мы просто помогаем жителям и гостям получить к ней доступ в структурированном, совместимом со счётом формате».`
+    },
+    date: "Apr 13, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/124/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 123,
     slug: "riga-introduces-dynamic-silence-pricing-residents-123",
     title: {
@@ -102,7 +189,7 @@ Preses laikā Jūrmala paziņoja par konkurējošu iniciatīvu, saskaņā ar kur
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/123/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 122,
