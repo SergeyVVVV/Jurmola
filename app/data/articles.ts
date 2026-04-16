@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 127,
+    slug: "riga-introduces-polite-silence-zones-after",
+    title: {
+      en: "Riga Introduces ‘Polite Silence Zones’ After Study Finds Residents Wasting 14 Hours A Week on Unnecessary Small Talk",
+      lv: "Rīga ievieš 'Pieklājīgās klusuma zonas' pēc pētījuma, kas atklāj, ka iedzīvotāji nedēļā izšķērdē 14 stundas uz nevajadzīgām \"mazajām sarunām\"",
+      ru: "Рига вводит «зоны вежливого молчания» после исследования, показавшего, что жители теряют 14 часов в неделю на ненужные светские беседы"
+    },
+    excerpt: {
+      en: "Municipal officials in Riga have unveiled a pilot program establishing designated ‘Polite Silence Zones’ in public spaces, where citizens may stand together in complete mutual understanding without feeling pressured to ask each other obvious questions. City leaders say the initiative will preserve traditional Baltic social energy while reducing conversational inflation by as much as 38 percent.",
+      lv: "Rīgas pašvaldības amatpersonas atklājušas pilotprogrammu ar īpašām 'Pieklājīgajām klusuma zonām' publiskajās vietās, kur iedzīvotāji var stāvēt kopā pilnīgā savstarpējā sapratnē, nejūtot spiedienu uzdot viens otram acīmredzamus jautājumus. Pilsētas vadība apgalvo, ka iniciatīva saglabās tradicionālo Baltijas sociālo enerģiju, samazinot sarunu inflāciju pat par 38 procentiem.",
+      ru: "Муниципалитет Риги представил пилотную программу создания обозначенных «зон вежливого молчания» в общественных местах, где граждане могут стоять вместе в полном взаимопонимании, не испытывая давления задавать друг другу очевидные вопросы. Городские власти утверждают, что инициатива сохранит традиционную балтийскую социальную энергию и сократит «инфляцию разговоров» до 38 процентов."
+    },
+    fullContent: {
+      en: `RIGA — In what officials are calling a major step toward sustainable urban introversion, the Riga City Council on Tuesday approved the installation of 27 designated ‘Polite Silence Zones’ across the capital, including at tram stops, pharmacy queues, apartment stairwells, and one emotionally strategic section of the Central Market near the pickled vegetables.
+
+The program follows a 214-page report from the Latvian Institute for Social Meteorology, which concluded that the average Riga resident loses 14.2 hours per week to conversational situations that ‘could have been resolved with a nod, a sigh, or a meaningful adjustment of scarf.’ Researchers surveyed 3,800 residents and found that 72 percent had recently been trapped in interactions beginning with phrases such as ‘Bit chilly, isn’t it’ and ending 11 minutes later with unsolicited updates about somebody’s cousin in Jelgava.
+
+Deputy Mayor for Civic Atmosphere Inese Ozoliņa said the policy reflects a long-overdue recognition of local strengths. ‘For centuries, our people have communicated entire biographies through posture alone,’ Ozoliņa told reporters while standing with perfect stillness beside a laminated pilot sign in Esplanāde Park. ‘We are not banning speech. We are simply creating protected spaces where nobody has to pretend they were about to ask how your weekend was.’
+
+Under the new guidelines, citizens entering a Silence Zone may acknowledge one another only through approved methods, including brief eye contact, a single downward nod, or what the regulation describes as ‘neutral mouth compression indicating coexistence without hostility.’ More expressive gestures, such as enthusiastic waving or beginning a sentence with ‘Actually,’ will result in a municipal warning. Repeat offenders may be relocated to a Conversation Recovery Bench near the National Library, where trained volunteers will gently expose them to harmless topics until the impulse passes.
+
+The city has allocated €482,000 for signage, bench repainting, and the development of a mobile app, Klusums+, which helps users locate nearby silence-friendly areas and report unauthorized chattiness. Premium subscribers will receive vibration alerts when approaching extroverts, tourists from warmer countries, or elderly men visibly preparing to discuss parking.
+
+Reaction from residents was broadly supportive. ‘This will change my commute completely,’ said 34-year-old accountant Mārtiņš Ceders, who claimed he once missed his stop after a fellow passenger asked whether the tram had always made that noise. ‘Usually I budget six minutes every morning for accidental social engagement. Now I can just stand there holding my coffee and thinking about beetroot in peace.’
+
+Not everyone is convinced. Baiba Kļaviņa, owner of the small Riga Old Town café Talk To Me If Necessary, warned that the plan could hurt businesses built on carefully rationed human interaction. ‘If people stop making awkward comments about weather, where does it end?’ she asked. ‘Today it’s silence zones. Tomorrow no one tells me my card machine looks tired. We are a society.’
+
+In Jurmala, officials are reportedly considering a summer variant for beachgoers, where families may sit in total quiet while judging other families exclusively through towel placement. Regional planners in Cēsis have also expressed interest, though they insisted their town has been operating informally under similar principles since 1998.
+
+By Tuesday evening, the first Silence Zone at the 11. novembra krastmala tram stop was already in use. Witnesses described seven strangers standing together in a level of mutual restraint experts called ‘deeply moving.’ One man appeared on the verge of commenting on cloud formations, but after a brief internal struggle, simply exhaled through his nose and looked toward the river.
+
+City officials later confirmed the pilot had exceeded expectations in its first three hours, reducing spoken words by 61 percent and increasing public emotional efficiency to what analysts described as ‘almost Finnish levels.’`,
+      lv: `RĪGA — To, ko amatpersonas sauc par nozīmīgu soli ilgtspējīgas pilsētas intraversijas virzienā, otrdien Rīgas dome apstiprināja 27 speciālu 'Pieklājīgās klusuma zonu' izveidi visā galvaspilsētā — tostarp tramvaju pieturās, aptieku rindās, kāpņu telpās un vienā emocionāli stratēģiskā Centrāltirgus stūrī pie marinētajiem dārzeņiem.
+
+Programma seko 214 lappušu ziņojumam no Latvijas Sociālās Meteoroloģijas institūta, kurā konstatēts, ka vidējais rīdzinieks nedēļā zaudē 14,2 stundas sarunās, kuras "būtu varējušas atrisināties ar galvas mājienu, nopūtu vai jēgpilnu šalles sakārtošanu." Pētījumā aptaujāti 3 800 iedzīvotāji, un atklāts, ka 72 procenti nesen nonākuši mijiedarbībā, kas sākusies ar frāzēm kā "Mazliet vēss, vai ne?" un beigusies 11 minūtes vēlāk ar neprašotu ziņu par kaimiņa brālēnu Jelgavā.
+
+Rīgas domes vietniece pilsoniskās atmosfēras jautājumos Inese Ozoliņa sacīja, ka politika atspoguļo ilgi gaidītu atzinību par vietējām spējām. "Gadsimtiem ilgi mūsu ļaudis spēja izstāstīt veselas biogrāfijas tikai ar stāju," Ozoliņa žurnālistiem teica, stāvot pilnīgā nekustībā blakus laminētai provizoriskai zīmei Esplanādes parkā. "Mēs neaizliedzam runāt. Mēs vienkārši radām aizsargātas zonas, kur nevienam nav jāliekas, ka viņš gatavojas pajautāt, kā tev pagājis nedēļas nogale."
+
+Saskaņā ar jaunajiem noteikumiem personas, kas iekļūst klusuma zonā, var atzīt viena otru tikai ar apstiprinātām metodēm — īss acu kontakts, viens galvas nolieciens uz leju vai tas, ko reglaments apraksta kā 'neitrālu mutes saspiešanu, kas norāda uz līdzāspastāvēšanu bez naidīguma.' Izteiksmīgākas žestu izpausmes, piemēram, entuziastiska māšanās vai teikuma sākšana ar "Patiesībā," būs par iemeslu pašvaldības brīdinājumam. Atkārtoti pārkāpēji var tikt pārvietoti uz "Sarunu atveseļošanās solu" pie Nacionālās bibliotēkas, kur apmācīti brīvprātīgie maigi pakļaus viņus veselīgām, nekaitīgām tēmām līdz impulss pāriet.
+
+Pilsēta atvēlēja 482 000 eiro zīmju uzstādīšanai, solu pārkrāsošanai un mobilo lietotni Klusums+ izstrādei, kas palīdz lietotājiem atrast tuvākās klusumam draudzīgās vietas un ziņot par neatļautu čalošanu. Premium abonenti saņems vibrācijas brīdinājumus, tuvojoties ekstravertiem, tūristiem no siltākām zemēm vai sirmiem kungiem, kas acīmredzami gatavojas apspriest autostāvvietas.
+
+Iedzīvotāju reakcija bija visumā atbalstoša. "Tas pilnīgi mainīs manu braucienu uz darbu," sacīja 34 gadus vecais grāmatvedis Mārtiņš Ceders, kurš apgalvoja, ka reiz izlaida savu pieturu, jo kāds sētnieks uzklausīja, vai tramvajs vienmēr tā pīkstējis. "Parasti es no rīta atvēlu sešas minūtes nejaušām sociālām saķerēm. Tagad varu vienkārši tur stāvēt, turēt kafiju un mierīgi domāt par bietēm."
+
+Ne visi ir pārliecināti. Baiba Kļaviņa, mazā Vecrīgas kafejnīcas "Runā ar mani, ja nepieciešams" īpašniece, brīdināja, ka plāns var kaitēt uzņēmumiem, kuri būvēti uz rūpīgi dozēta cilvēku mijiedarbības. "Ja cilvēki pārstās taisīt neveiklas piezīmes par laiku, kur tas beigsies?" viņa vaicāja. "Šodien tās ir klusuma zonas. Rīt neviens man neteiks, ka mana karšu iekārta izskatās nogurusi. Mēs taču esam sabiedrība."
+
+Jūrmalā amatpersonas tiekoties apsver vasaras varianta ieviešanu pludmalē, kur ģimenes var sēdēt pilnīgā klusumā, savstarpēji vērtējot citas ģimenes tikai pēc dvieļu izvietošanas. Reģionālie plānotāji Cēsīs arī izrādījuši interesi, uzsverot, ka viņu pilsēta faktiski darbojas līdzīgā, neoficiālā režīmā kopš 1998. gada.
+
+Otrdienas vakarā pirmais klusuma punkts pie 11. novembra krastmalas tramvaja pieturas jau bija darba režīmā. Aculiecinieki aprakstīja septiņus svešiniekus, kas stāvēja kopā līmenī, ko eksperti nodēvēja par "dziļi aizkustinošu." Vienam kungam gandrīz izdevās sākt komentēt mākoņu veidojumus, bet pēc īsas iekšējas cīņas viņš vienkārši izelpoja caur degunu un paskatījās uz upi.
+
+Pilsētas amatpersonas vēlāk apstiprināja, ka pilots pirmajās trīs stundās pārsniedzis gaidīto, samazinot izrunāto vārdu skaitu par 61 procentu un palielinot sabiedrisko emocionālo efektivitāti līdz tam, ko analītiķi aprakstīja kā "gandrīz somu līmeni."`,
+      ru: `РИГА — В том, что чиновники называют важным шагом к устойчивой городской интроверсии, Рижская городская дума во вторник утвердила установку 27 обозначенных «зон вежливого молчания» по всей столице — на трамвайных остановках, в очередях в аптеки, в подъездах многоквартирных домов и в одной эмоционально стратегической части Центрального рынка рядом с солёными овощами.
+
+Программа стала продолжением 214‑страничного отчёта Латвийского института социальной метеорологии, в котором делается вывод о том, что средний рижанин теряет 14,2 часа в неделю на разговорные ситуации, «которые можно было бы решить кивком, вздохом или значимой поправкой шарфа». Исследователи опросили 3 800 жителей и обнаружили, что 72 процента недавно оказывались в беседах, начинавшихся фразами вроде «Прохладно, да?» и заканчивавшихся через 11 минут нежелательными новостями о родственнике в Йелгаве.
+
+Заместитель мэра по гражданской атмосфере Инесе Озолиня сказала, что политика отражает давно назревшее признание местных сильных сторон. «На протяжении веков наш народ умел передавать целые биографии лишь посредством осанки», — заявила Озолиня репортёрам, стоя в абсолютной неподвижности рядом с ламинированным пилотным знаком в парке Эспланада. «Мы не запрещаем речь. Мы просто создаём защищённые пространства, где никому не придётся притворяться, будто он собирался спросить, как прошли ваши выходные». 
+
+Согласно новым правилам, входящие в Зону молчания могут приветствовать друг друга только одобренными способами: кратким зрительным контактом, одним опущенным кивком или тем, что регламент называет «нейтральным сжатием губ, указывающим на сосуществование без враждебности». Более экспрессивные жесты, например энергичное махание рукой или начало предложения со слов «На самом деле», будут караться муниципальным предупреждением. Повторные нарушители могут быть перемещены на «скамью восстановления разговорных навыков» у Национальной библиотеки, где обученные волонтёры мягко подадут им безвредные темы для разговора, пока импульс не пройдет.
+
+Город выделил 482 000 евро на знаки, перекраску скамеек и разработку мобильного приложения Klusums+, которое помогает пользователям находить ближайшие дружелюбные к молчанию зоны и сообщать о несанкционированной болтовне. Премиум‑подписчики будут получать вибро‑уведомления при приближении экстравертов, туристов из более тёплых стран или пожилых мужчин, явно готовящихся обсудить парковку.
+
+Реакция жителей в целом была поддерживающей. «Это полностью изменит мою дорогу на работу», — сказал 34‑летний бухгалтер Мārtinš Ceders, утверждающий, что однажды пропустил свою остановку после того, как соседи спросили, всегда ли трамвай так странно гудел. «Обычно я закладываю шесть минут каждое утро на случайные социальные контакты. Теперь я могу просто стоять с кофе и спокойно думать о свёкле». 
+
+Не все в восторге. Байба Клявина, владелица маленького рижского кафе в Старом городе Talk To Me If Necessary, предупредила, что план может навредить заведениям, построенным на тщательно дозируемом человеческом взаимодействии. «Если люди перестанут делать неловкие комментарии о погоде, то где граница?» — спросила она. «Сегодня — зоны молчания. Завтра мне никто не скажет, что мой терминал для карт выглядит уставшим. Мы — общество». 
+
+В Юрмале, по сообщениям, рассматривают летний вариант для пляжников, где семьи смогут сидеть в абсолютной тишине и оценивать другие семьи исключительно по расположению полотенец. Региональные планировщики в Цесисе тоже выразили интерес, отметив при этом, что их город неформально действует по схожим принципам с 1998 года.
+
+К вечеру вторника первая Зона молчания на остановке трамвая на набережной 11 ноября (11. novembra krastmala) уже работала. Очевидцы описали семерых незнакомцев, стоявших вместе с таким уровнем взаимного сдерживания, что эксперты назвали его «глубоко трогательным». Один мужчина, казалось, готов был прокомментировать облачность, но после краткой внутренней борьбы просто выдохнул через нос и посмотрел в сторону реки.
+
+Городские власти позже подтвердили, что пилот превысил ожидания в первые три часа: количество произнесённых слов сократилось на 61 процент, а общественная эмоциональная эффективность повысилась до, как заметили аналитики, «почти финских уровней».`
+    },
+    date: "Apr 16, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "8 min read",
+    imageUrl: "https://picsum.photos/seed/127/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 126,
     slug: "jrmala-introduces-dynamic-quiet-hours-siren",
     title: {
@@ -100,7 +181,7 @@ Preses izdevuma tapšanas brīdī amatpersonas apstiprināja, ka programmas pirm
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/126/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 125,
