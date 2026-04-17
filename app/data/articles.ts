@@ -18,6 +18,81 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 128,
+    slug: "riga-introduces-dynamic-silence-pricing-residents-128",
+    title: {
+      en: "Riga Introduces Dynamic Silence Pricing, Residents Charged Extra for Loud Thoughts on Public Transport",
+      lv: "Rīga ievieš dinamisko klusuma tarifu — iedzīvotājiem piemaksa par skaļām domām sabiedriskajā transportā",
+      ru: "Рига вводит динамическое тарифирование тишины: жителям начисляют доплату за громкие мысли в общественном транспорте"
+    },
+    excerpt: {
+      en: "In a pilot program hailed as 'a bold step toward premium tranquility,' Riga has begun testing a variable silence tariff on trams and buses, with passengers allegedly paying more during peak hours if their facial expressions suggest internal complaints. Officials say the measure will modernize public transport while preserving the city's fragile atmosphere of collective endurance.",
+      lv: "Pilotprogrammā, ko slavē kā “drosmīgu soli pretī premium mieram”, Rīgā sākuši izmēģināt mainīgu klusuma tarifu tramvajos un autobusos: pasažieri it kā maksā vairāk stundas virsotnē, ja viņu sejas izteiksme liecina par iekšēju neapmierinātību. Oficiālie pārstāvji saka, ka pasākums modernizē sabiedrisko transportu, vienlaikus saglabājot pilsētas trauslo kolektīvās izturēšanās atmosfēru.",
+      ru: "В пилотной программе, названной «смелым шагом к премиальной тишине», в Риге тестируют переменный тариф на тишину в трамваях и автобусах: пассажиров якобы будут брать дополнительно в часы-пик, если выражение лица выдаёт внутренние жалобы. По словам чиновников, мера модернизирует транспорт и сохранит хрупкую атмосферу коллективного терпения в городе."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal leaders are calling the most ambitious public calm initiative since the 2008 campaign against unnecessary shoe noise in Old Town, the Riga City Transport Authority on Tuesday unveiled a new 'Dynamic Silence Pricing' system that will adjust ticket costs based on the estimated volume of passenger thoughts.
+
+Under the six-month pilot, currently active on tram routes 5 and 11 as well as several buses serving the city center, commuters will continue paying the standard fare of €1.50, but may incur a supplemental 'cognitive disruption fee' of between 12 and 68 cents if onboard sensors detect what officials describe as 'aggressive inner commentary.' The system reportedly combines thermal cameras, posture analysis, sigh-frequency monitoring, and a proprietary Latvian-language predictive model trained on 14,000 hours of recorded muttering from Platform 3 at Riga Central Station.
+
+'For too long, silence in Riga has been treated as a free resource,' said transport innovation coordinator Elīna Višķere during a press conference held in a room so quiet that one journalist later apologized for blinking. 'But silence must be maintained, curated, and, where necessary, invoiced. We are not punishing thought. We are merely encouraging more affordable thought patterns.'
+
+According to city data, the average morning commuter generates 3.7 measurable episodes of internal dissatisfaction before 8:45 a.m., most commonly triggered by wet sleeves, someone opening a backpack too widely, and the sight of a person boarding with a folded electric scooter. On rainy Tuesdays, those figures rise by as much as 41 percent. A trial run conducted in March found that one passenger on the 11th tram, a 52-year-old accountant from Purvciems, silently objected to 19 separate things in less than four stops, producing what the report termed 'fare conditions consistent with premium resentment.'
+
+The technology itself was developed by the Riga-based mobility startup Klusums+ in partnership with two former acoustics engineers and a cultural anthropologist from Cēsis. CEO Mārtiņš Stūrmanis said the software does not listen to passengers' exact thoughts, only categorizes them into transit-relevant emotional bands such as Mildly Latvian, Regionally Irritated, and Administrative Fury.
+
+'If a rider is peacefully looking out the window contemplating the river, that is low-cost silence,' Stūrmanis explained. 'If they are staring at a damp mitten on the floor and constructing a seven-point moral indictment of society, that uses more of the shared atmospheric infrastructure.'
+
+Reaction across the capital was mixed, though largely delivered in the traditional format of a long pause followed by one sentence. 'I think it is fair,' said 67-year-old pensioner Aina Bērziņa while validating her e-ticket on a No. 5 tram. 'Some people bring enormous weather into the vehicle.' Nearby, office worker Ralfs Ozols said he had already been charged an additional 44 cents after making what he insists was 'only a practical face' when someone sat next to him despite multiple available standing areas.
+
+Civil liberties advocates have raised concerns. The group Free Forehead Latvia issued a statement arguing that commuters have a constitutional right to privately disapprove of things, especially in November. 'Today it is a surcharge for intense frowning,' said spokesperson Linda Grīnberga. 'Tomorrow it will be mandatory emotional neutrality in trolleybuses. That is not the Baltic way.'
+
+Still, city officials say early indicators are promising. Since installation of the system, onboard audible sighing has dropped 23 percent, window-based passive judgment has fallen 11 percent, and one bus driver reported 'the cleanest emotional corridor' of his 18-year career. Jurmala has already expressed interest in a seaside adaptation that would fine beachgoers for radiating visible annoyance at sand.
+
+At publication time, Riga residents were said to be cautiously supportive of the initiative, provided they could continue resenting it privately at a reasonable rate.`,
+      lv: `RĪGA — To, ko pilsētas vadītāji sauc par ambiciozāko publiskā klusuma iniciatīvu kopš 2008. gada kampaņas pret lieku apavu čabošanu Vecrīgā, Otrdien Rīgas Satiksmes iestāde paziņoja par jaunas "Dinamiskās klusuma tarifikācijas" sistēmas ieviešanu, kas pielāgos biļešu cenas, balstoties uz pasažieru domu aptuveno skaļumu.
+
+Sešu mēnešu pilotprojektā, kas pašlaik darbojas 5. un 11. tramvaja maršrutos, kā arī vairākos autobusos pilsētas centrā, pasažieriem jāturpina maksāt standarta tarifs €1,50, taču, ja uz kuģa uzstādītie sensori konstatē to, ko amatpersonas raksturo kā "agresīvu iekšējo komentāru", var tikt piemērota papildus "kognitīvās traucēšanas maksa" 12–68 centu apmērā. Sistēma, kā ziņots, apvieno termālkameras, pozu analīzi, nopūtu biežuma monitoringu un proprietāru latviešu valodas prognozēšanas modeli, apmācītu uz 14 000 stundu ierakstīta murmulējuma no 3. perona Rīgas Centrālajā stacijā.
+
+"Pārāk ilgi klusums Rīgā ir uzskatīts par bezmaksas resursu," preses konferencē, kas notika telpā tik klusā, ka viens žurnālists vēlāk atvainojās par acu mirkšķināšanu, sacīja transporta inovāciju koordinatore Elīna Višķere. "Taču klusums ir jāuztur, jākūrē un, kur nepieciešams, jāpiefaktē. Mēs nesodām domāšanu. Mēs vienkārši veicinām pieejamākas domu shēmas."
+
+Pēc pilsētas datiem vidējais rīta pasažieris līdz pulksten 8:45 rada 3,7 izmērāmas iekšējās neapmierinātības epizodes, visbiežāk izraisītas ar mitrām piedurknēm, kāda pārāk plaši atvērtas mugursomas un redzes, ka kāds uzkāpj ar salocītu elektrisko skrejriteni. Lietainās otrdienās šie rādītāji pieaug pat par 41 procentu. Marta izmēģinājums atklāja, ka viens 11. tramvaja pasažieris, 52 gadus vecs grāmatvedis no Purvciema, klusībā iebilda pret 19 atsevišķām lietām mazāk nekā četrās pieturās, radot to, ko ziņojums nosauca par "biļešu nosacījumiem, atbilstošiem premium nepatikai."
+
+Tehnoloģiju izstrādājusi Rīgā bāzētā mobilitātes jaunuzņēmums Klusums+ sadarbībā ar diviem bijušiem akustikas inženieriem un kultūras antropologu no Cēsīm. Izpilddirektors Mārtiņš Stūrmanis skaidroja, ka programmatūra neklausās pasažieru precīzajās domās, bet tikai klasificē tās tranzītam nozīmīgos emocionālajos segmentos, piemēram, "nedaudz latvisks", "reģionāli uztraukts" un "administratīvais niknums".
+
+"Ja pasažieris mierīgi skatās pa logu, pārdomājot upi, tas ir zemas izmaksas klusums," skaidroja Stūrmanis. "Ja viņš stāra uz mitru cimdu uz grīdas un izstrādā septiņu punktu morālu apsūdzību sabiedrībai, tas patērē vairāk no kopējās atmosfēras infrastruktūras."
+
+Reakcijas galvaspilsētā bija jauktas, lai gan lielākoties izteiktas tradicionālajā formātā — gara pauze, pēc tam viena teikuma izteikums. "Man liekas godīgi," sacīja 67 gadus vecā pensionāre Aina Bērziņa, ieskanējot savu e-biļeti 5. tramvajā. "Daži cilvēki transportā ieved milzīgus laikapstākļus." Netālu esošais biroja darbinieks Ralfs Ozols teica, ka viņam jau pieprasīta papildus 44 centu maksa pēc tam, kad viņš, kā viņš uzstāj, `,
+      ru: `РИГА — В том, что муниципальные лидеры называют самой амбициозной инициативой общественного спокойствия со времён кампании 2008 года против лишнего шума от обуви в Старом городе, Рижское транспортное управление во вторник представило новую систему «Динамическое тарифирование тишины», которая будет корректировать стоимость проезда в зависимости от оценочной «громкости» мыслей пассажиров.
+
+В рамках шестимесячного пилота, который сейчас действует на трамвайных маршрутах 5 и 11, а также на нескольких автобусах, обслуживающих центр города, commuters по-прежнему платят стандартный тариф €1,50, но могут столкнуться с дополнительным «сбором за когнитивное нарушение» в размере от 0,12 до 0,68 €, если бортовые датчики зафиксируют то, что чиновники описывают как «агрессивный внутренний комментарий». По сведениям, система сочетает тепловые камеры, анализ позы, мониторинг частоты вздохов и собственную латвийскоязычную предиктивную модель, натренированную на 14 000 часов записанного бормотания с платформы 3 Рижского центрального вокзала.
+
+«Слишком долго тишина в Риге считалась бесплатным ресурсом», — сказала на пресс-конференции координатор по транспортным инновациям Elīna Višķere в комнате, настолько тихой, что один журналист позже извинился за то, что моргнул. «Но тишина должна поддерживаться, курироваться и, где нужно, выставляться в счёт. Мы не наказываем мысль. Мы просто поощряем более доступные мыслительные паттерны.»
+
+По данным города, средний утренний пассажир генерирует 3,7 измеряемых эпизода внутреннего недовольства до 8:45 утра, чаще всего вызванных влажным рукавом, слишком широким распахиванием рюкзака и видом человека, заходящего в салон со сложенным электросамокатом. В дождливые вторники эти показатели растут до 41%. Пробы, проведённые в марте, показали, что один пассажир на трамвае №11, 52-летний бухгалтер из Пурвциемса, молча возражал против 19 отдельных вещей менее чем за четыре остановки, что в отчёте охарактеризовали как «платёжные условия, соответствующие премиальному возмущению». 
+
+Саму технологию разработал рижский мобильностарт-ап Klusums+ в партнёрстве с двумя бывшими инженерами акустики и культурным антропологом из Цесиса. Генеральный директор Mārtiņš Stūrmanis заявил, что софт не «слушает» точные мысли пассажиров, а лишь распределяет их по релевантным для транспорта эмоциональным категориям, таким как Слегка латвийское, Регионально раздражённое и Административное бешенство.
+
+«Если пассажир мирно смотрит в окно и созерцает реку, это — низкозатратная тишина», — объяснил Stūrmanis. «Если он уставился на влажную варежку на полу и составляет семипунктовое нравственное обвинение общества, это потребляет больше общего атмосферного ресурса.»
+
+Реакция по всей столице была смешанной, хотя в основном выражалась в традиционном формате: длинная пауза, за которой следовало одно предложение. «Думаю, это справедливо», — сказала 67-летняя пенсионерка Aina Bērziņa, прикладывая электронный билет в трамвае №5. «Некоторые люди приносят в вагон огромную погоду.» Рядом офисный работник Ralfs Ozols заявил, что ему уже начислили дополнительную плату в 0,44 € за то, что он сделал, как он настаивает, «всего лишь практическое лицо», когда кто-то сел рядом с ним, хотя вокруг были свободные стоячие места.
+
+Защитники гражданских свобод выразили обеспокоенность. Группа «Свободный Лоб Латвии» выступила с заявлением, в котором утверждается, что у пассажиров есть конституционное право частно выражать несогласие, особенно в ноябре. «Сегодня это надбавка за интенсивное хмурение», — сказала представитель Linda Grīnberga. «Завтра это будет обязательная эмоциональная нейтральность в троллейбусах. Это не по‑балтийски.»
+
+Тем не менее городские власти говорят, что ранние показатели обнадеживают. С момента установки системы количество слышимых на борту вздохов сократилось на 23%, пассивные суждения у окна упали на 11%, а один водитель автобуса сообщил о «самом чистом эмоциональном коридоре» за 18 лет карьеры. Юрмала уже проявила интерес к прибрежной адаптации, которая штрафовала бы отдыхающих за видимую раздражённость, распространяемую в сторону песка.
+
+На момент публикации, по словам источников, рижане осторожно поддерживали инициативу при условии, что смогут продолжать частные выражения недовольства по разумному тарифу.`
+    },
+    date: "Apr 17, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/128/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 127,
     slug: "riga-introduces-polite-silence-zones-after",
     title: {
@@ -96,7 +171,7 @@ Pilsētas amatpersonas vēlāk apstiprināja, ka pilots pirmajās trīs stundās
     readTime: "8 min read",
     imageUrl: "https://picsum.photos/seed/127/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 126,
