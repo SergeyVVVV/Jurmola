@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 129,
+    slug: "riga-introduces-passive-aggressive-silence-zones-129",
+    title: {
+      en: "Riga Introduces ‘Passive-Aggressive Silence Zones’ On Public Transport To Preserve National Heritage",
+      lv: "Rīga ievieš “Pasīvi‑agresīvās klusuma zonas” sabiedriskajā transportā, lai saglabātu nacionālo mantojumu",
+      ru: "Рига вводит «зоны пассивно-агрессивного молчания» в общественном транспорте для сохранения национального наследия"
+    },
+    excerpt: {
+      en: "In a move city officials say will protect Latvia’s most endangered cultural practice, Riga has designated special areas on buses and trams where passengers may express irritation only through controlled sighing, window-staring, and meaningful coat adjustments. Authorities insist the program is not anti-social, but rather “pro-social in the Baltic sense.”",
+      lv: "Pilsētas amatpersonas apgalvo, ka šis solis pasargās Latvijas visapdraudētāko kultūras praksi — Rīga ir noteikusi īpašas vietas autobusos un tramvajos, kur pasažieri var izrādīt neapmierinātību tikai ar kontrolētu nopūtu, skatīšanos pa logu un nozīmīgām mēteļu korekcijām. Varasiestādes uzsver, ka programma nav antisociāla, bet gan “pro‑sociāla Baltijas nozīmē.”",
+      ru: "В попытке, как утверждают городские власти, защитить наиболее находящуюся под угрозой латвийскую культурную практику, в Риге обозначены специальные зоны в автобусах и трамваях, где пассажиры могут выражать недовольство лишь посредством контролируемых вздохов, созерцания в окно и выразительной поправки пальто. Власти настаивают, что программа не антисоциальна, а «про‑социальна в балтийском смысле»."
+    },
+    fullContent: {
+      en: `RIGA — Riga City Council on Tuesday unveiled a pilot program establishing “Passive-Aggressive Silence Zones” across 18 tram routes and 11 municipal bus lines, a measure officials describe as essential to preserving “intangible Latvian commuter traditions” in the face of rising small talk and unlicensed friendliness.
+
+The new zones, marked with tasteful grey decals featuring a disappointed stork, require passengers to maintain a minimum conversational output of under seven words per journey. Acceptable forms of communication include subdued exhaling, brief eyebrow movement, and the phrase “nu jā” delivered without eye contact. Laughing above 42 decibels will be restricted during peak hours.
+
+“This is not about repression,” said Deputy Mobility Chairwoman Elīna Vītola, speaking at a press conference held in near-total emotional neutrality. “For centuries, our people have conveyed rich social meaning through silence, posture, and a highly calibrated refusal to comment. We are simply creating conditions in which that ecosystem can flourish again.”
+
+According to a 63-page municipal report, spontaneous chat on public transport has increased 14% since last summer, driven largely by foreign tourists, exchange students, and one unusually energetic driver on the 5th tram who greets everyone with “Beautiful morning, isn’t it?” The report warns that, if left unchecked, casual warmth could spread into pharmacies, post offices, and other traditional sites of silent endurance.
+
+Transport inspectors will monitor compliance using a new metric called the Social Temperature Index. During a two-week test in Purvciems, passengers exposed to unregulated conversation showed signs of distress, including visible blinking, premature smiling, and in one severe case, asking a stranger where they bought their scarf.
+
+“I got on near Brīvības iela, and two people were discussing weekend plans at normal volume,” said office administrator Māris Lapiņš, 41, still appearing shaken. “No headphones, no weather emergency, no shared luggage issue. Just voluntary speaking. I had to get off three stops early and stand quietly by a Narvesen until my heart rate normalized.”
+
+Not all residents oppose the policy. In Jurmala, where public silence is already informally regulated by pine trees and property prices, many welcomed Riga’s attempt to formalize standards. “It’s about dignity,” said Dzintari resident and amateur accordion restorer Solveiga Ozoliņa. “If someone wants to reveal personal information on a train, there are appropriate places for that, like Estonia.”
+
+Business groups have also expressed cautious support. The Latvian Association of Knitwear Retailers estimates that demand for scarves, collars, and emotionally protective outerwear could rise by 8.2% as passengers seek to create stronger physical and spiritual boundaries. Meanwhile, startup founders are developing a mobile app that translates micro-signals for tourists, with beta phrases including “This seat is free, but I hope you don’t take it” and “I acknowledge your existence in principle.”
+
+Critics say the rules may be difficult to enforce, especially on Friday evenings, but the city remains optimistic. Beginning in May, repeat offenders who initiate conversations about podcasts, travel, or “hidden gem” cafés may be redirected to specially designated rehabilitation carriages, where they will be forced to make sustained eye contact with other extroverts.
+
+At the end of Tuesday’s announcement, reporters were invited to ask questions, but the press conference concluded after several minutes of respectful silence, which officials later described as “the most successful public consultation in recent memory.”`,
+      lv: `RĪGA — Rīgas domes otrdien prezentēja pilotprogrammu, kuras ietvaros 18 tramvaja maršrutos un 11 pašvaldības autobusu līnijās tiek izveidotas “Pasīvi‑agresīvās klusuma zonas”, pasākumu, ko amatpersonas raksturo kā būtisku, lai saglabātu “nemateriālās latviešu pārvietošanās tradīcijas” pieaugošas sīkrunas un nelicencētas atsaucības apdraudē.
+
+Jaunās zonas, atzīmētas ar gaumīgām pelēkām uzlīmēm, kurās attēlots vīlies stārķis, prasa, lai pasažieri uzturētu sarunu apjomu mazāk nekā septiņu vārdu garumā katrā braucienā. Pieļaujamas saziņas formas ietver piespiestu izelpu, īslaicīgu uzacu kustību un frāzi “nu jā”, izrunātu bez acu kontakta. Smešanās virs 42 decibeliem būs ierobežota pīķa stundās.
+
+“Tas nav par apspiešanu,” sacīja Mobilitātes vietniece Elīna Vītola, uzrunājot žurnālistus preses konferencē, kuras gaitā viņa saglabāja gandrīz pilnīgu emocionālo neitrālumu. “Gadsimtiem ilgi mūsu cilvēki caur klusumu, stāju un ļoti niansētu atteikumu komentēt ir nodevuši bagātu sociālo nozīmi. Mēs vienkārši radām apstākļus, kuros šai ekosistēmai atkal ir iespēja uzplaukt.”
+
+Saskaņā ar 63 lappušu pašvaldības ziņojumu spontānā draudzība sabiedriskajā transportā kopš pagājušā vasaras ir pieaugusi par 14%, ko galvenokārt veicina ārzemju tūristi, apmaiņas studenti un viens neparasti enerģisks 5. tramvaja šoferis, kurš visus sveicina ar “Skaista diena, vai ne?” Ziņojums brīdina, ka, ja to neatrisinās, ikdienišķa siltuma izpausme var izplatīties aptiekās, pasta nodaļās un citās tradicionālajās klusā izturēšanās vietās.
+
+Transporta inspektori saskaņotību uzraudzīs, izmantojot jaunu metriku, ko sauc par Sociālās temperatūras indeksu. Divu nedēļu izmēģinājumā Purvciemā pasažieri, kuri bija pakļauti neregulētām sarunām, rādīja satraukuma pazīmes — redzamu mirkšķināšanu, priekšlaicīgu smaidīšanu un vienā smagā gadījumā svešinieka uzdošanu jautājumam, kur viņš iegādājies savu šalli.
+
+“Es iekāpu pie Brīvības ielas, un divi cilvēki normālā skaļumā diskutēja par nedēļas nogales plāniem,” sacīja biroja administrātors Māris Lapiņš, 41 gadu vecs, joprojām šķietot satriekts. “Bez austiņām, bez laika prognozes ārkārtas situācijas, bez kopīga bagāžas jautājuma. Vienkārši brīvprātīga runāšana. Man nācās izkāpt trīs pieturas agrāk un klusējot pastāvēt pie Narvesen, līdz mana sirdsdarbība normalizējās.”
+
+Ne visi iedzīvotāji iebilst pret politiku. Jūrmalā, kur sabiedriskais klusums jau neoficiāli tiek regulēts ar priedēm un nekustamā īpašuma cenām, daudzi uzskatīja, ka Rīgas mēģinājums standartizēt uzvedības normas ir uzslavējams. “Tas ir par cieņu,” sacīja Dzintaros mītošā un amatiertehniķe akordeona restauratore Solveiga Ozoliņa. “Ja kāds grib vilcienā atklāt personisku informāciju, tam ir piemērotas vietas — piemēram, Igaunija.”
+
+Uzņēmēju grupas arī paudušas piesardzīgu atbalstu. Latvijas adījumu mazumtirgotāju asociācija lēš, ka pieprasījums pēc šallēm, apkaklēm un emocionāli aizsargājošiem ārējā apģērba gabaliem var pieaugt par 8,2%, jo pasažieri centīsies izveidot spēcīgākas fiziskas un garīgas robežas. Tikmēr jaunuzņēmumu dibinātāji izstrādā mobilo lietotni, kas tūristiem tulkos mikro‑signālus; beta frāzes ietver “Šī sēdvieta ir brīva, bet ceru, ka tu to neaizņemsi” un “Es principiāli atzīstu tavu eksistenci.”
+
+Kritiķi norāda, ka noteikumus var būt grūti īstenot, jo īpaši piektdienas vakaros, taču pilsēta paliek optimistiska. Sākot ar maiju, atkārtoti pārkāpēji, kas uzsāks sarunas par podkāstiem, ceļošanu vai “slēptiem dārgumiem” kafejnīcu formā, var tikt novirzīti uz īpaši nošķirtiem atveseļošanās vagončiem, kur viņiem tiks liegts izvairīties no ilgstoša acu kontakta ar citiem ekstravertiem.
+
+Otrdienas paziņojuma beigās žurnālistiem tika dota iespēja uzdot jautājumus, taču preses konference noslēdzās pēc dažām minūtēm cienīga klusuma, ko amatpersonas vēlāk nodēvēja par “veiksmīgāko publisko konsultāciju pēdējā laikā.”`,
+      ru: `РИГА — Во вторник Рижская городская дума представила пилотную программу, предусматривающую создание «зон пассивно‑агрессивного молчания» на 18 трамвайных маршрутах и 11 муниципальных автобусных линиях — меру, которую чиновники называют жизненно важной для сохранения «нематериальных латвийских традиций пассажиров» в условиях роста малой болтовни и несанкционированной приветливости.
+
+Новые зоны, отмеченные изящными серыми наклейками с изображением разочарованного аиста, требуют от пассажиров поддерживать минимальный объём разговоров — менее семи слов за поездку. Допустимые формы коммуникации включают приглушённые выдохи, краткие движения бровями и фразу «nu jā», произнесённую без зрительного контакта. Смех громче 42 децибел будет ограничен в часы пик.
+
+«Речь не о репрессиях», — заявила заместитель председателя по мобильности Elīna Vītola на пресс‑конференции, проведённой в состоянии близком к полной эмоциональной нейтральности. «На протяжении веков наш народ передавал богатый социальный смысл через молчание, позу и строго выверенное отказание от комментариев. Мы просто создаём условия, в которых эта экосистема может снова процветать». 
+
+Согласно 63‑страничному муниципальному отчёту, спонтанные беседы в общественном транспорте выросли на 14% с прошлого лета, в основном из‑за иностранных туристов, студентов по обмену и одного необычно энергичного водителя на 5‑м трамвае, который всем приветствует «Прекрасное утро, не правда ли?». В отчёте предупреждается, что если не принять мер, случайная тёплота может распространиться в аптеки, почтовые отделения и другие традиционные места молчаливого выносливости.
+
+Инспекторы транспорта будут отслеживать соблюдение правил с помощью нового показателя под названием «Индекс социальной температуры». Во время двухнедельного испытания в Purvciems пассажиры, подвергшиеся неограниченным разговорам, демонстрировали признаки стресса: заметное моргание, преждевременные улыбки и в одном тяжёлом случае — вопрос незнакомцу «где вы купили этот шарф». 
+
+«Я зашёл около Brīvības iela, и двое людей обсуждали планы на выходные в нормальном тоне», — рассказал офисный администратор Māris Lapiņš, 41 год, который до сих пор казался потрясённым. «Никаких наушников, никакой чрезвычайной погоды, никакой общей сумки. Просто добровольное говорение. Мне пришлось выйти на три остановки раньше и тихо постоять у Narvesen, пока сердечный ритм не нормализовался». 
+
+Не все жители против политики. В Юрмале, где публичное молчание уже неофициально регулируется соснами и ценами на недвижимость, многие положительно восприняли попытку Риги формализовать стандарты. «Дело в достоинстве», — сказала жительница Дзинтари и любительница реставрации аккордеонов Solveiga Ozoliņa. «Если кто‑то хочет раскрывать личную информацию в поезде, для этого есть подходящие места, например Эстония». 
+
+Бизнес‑круги также выразили осторожную поддержку. Латвийская ассоциация продавцов вязаных изделий оценивает, что спрос на шарфы, воротники и эмоционально‑защитную верхнюю одежду может вырасти на 8,2% по мере того, как пассажиры будут стремиться создавать более прочные физические и духовные границы. Тем временем основатели стартапов разрабатывают мобильное приложение, переводящее микросигналы для туристов; бета‑фразы включают «Это место свободно, но я надеюсь, вы не сядете» и «Я признаю ваше существование в принципе». 
+
+Критики говорят, что правила будет сложно контролировать, особенно в пятничные вечера, но город остаётся оптимистичным. Начиная с мая, рецидивистов, начинающих разговоры о подкастах, путешествиях или кафе‑«скрытых жемчужинах», могут перенаправлять в специально отведённые реабилитационные вагоны, где их заставят устанавливать продолжительный зрительный контакт с другими экстравертами. 
+
+В конце вторничного заявления журналистам предложили задавать вопросы, но пресс‑конференция завершилась через несколько минут уважительного молчания, которое чиновники позже назвали «самой успешной общественной консультацией за последнее время».`
+    },
+    date: "Apr 18, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/129/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 128,
     slug: "riga-introduces-dynamic-silence-pricing-residents-128",
     title: {
@@ -90,7 +171,7 @@ Reakcijas galvaspilsētā bija jauktas, lai gan lielākoties izteiktas tradicion
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/128/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 127,
