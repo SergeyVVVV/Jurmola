@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 130,
+    slug: "riga-introduces-polite-potholes-that-apologize-130",
+    title: {
+      en: "Riga Introduces ‘Polite Potholes’ That Apologize Before Damaging Suspensions",
+      lv: "Rīga ievieš «pieklājīgās bedrītes», kas atvainojas pirms bojā amortizāciju",
+      ru: "Рига вводит «вежливые ямы», которые извиняются перед повреждением подвески"
+    },
+    excerpt: {
+      en: "In a move officials say will modernize public infrastructure without altering it in any physical way, Riga has unveiled a pilot program fitting major potholes with small speakers that issue courteous warnings to approaching drivers. City leaders insist the initiative brings “human-centered empathy” to the capital’s most durable urban feature.",
+      lv: "Rīkojums, ko amatpersonas dēvē par publiskās infrastruktūras modernizāciju, ne mainot to fiziski, Rīga atklāj pilotprojektu, kurā lielākajām bedrēm uzstāda mazus skaļruņus, kas tuvojošos autovadītājus laipni brīdina. Pilsētas vadība uzsver, ka iniciatīva pievāca galvaspilsētas visizturīgākajai pilsētvides iezīmei «cilvēcisku empātiju».",
+      ru: "В попытке, как заявляют чиновники, модернизировать общественную инфраструктуру без каких‑либо физических изменений, Рига запустила пилотный проект: крупные ямы оборудуют маленькими динамиками, которые вежливо предупреждают приближающихся водителей. Городские власти утверждают, что инициатива привносит «ориентированную на человека эмпатию» в самое стойкое городское явление столицы."
+    },
+    fullContent: {
+      en: `RIGA — After years of criticism that the capital’s potholes were too abrupt, emotionally unavailable, and insufficiently communicative, Riga City Council on Tuesday launched an ambitious new “smart civility” initiative that equips selected road cavities with motion sensors and recorded voice messages.
+
+The program, officially titled Respectful Surface Irregularities 2030, debuted along a 1.8-kilometer stretch of Brīvības Street, where 47 of the city’s most statistically meaningful potholes now greet drivers with pre-impact phrases such as “Terribly sorry,” “This will be brief,” and, in one premium location near the VEF bridge, “Please blame procurement procedures.”
+
+Deputy Mayor for Mobility and Managed Discomfort Aigars Sprūde said the city had listened carefully to residents who repeatedly asked for road repairs and had extracted what he called “the deeper emotional request beneath those words.”
+
+“People often say they want smoother streets,” Sprūde told reporters while standing beside a medium-depth crater fitted with a solar-powered courtesy unit. “But what they really want is to feel seen. If a pothole acknowledges your existence before rearranging your wheel alignment, that is already a form of progress. In Scandinavian governance they call this trust.”
+
+According to municipal data, the pilot cost €612,000, including procurement of weather-resistant speakers, Latvian- and Russian-language apology packs, and a ceremonial ribbon strong enough to span an entire intersection in Purvciems. The city estimates the system can reduce driver outrage by up to 14% during dry months and by nearly 3% in slush conditions, where many residents report they no longer distinguish between road, memory, and moral endurance.
+
+Transportation analyst and part-time accordion teacher Līga Vītola said the project reflects a broader Baltic commitment to solving practical problems atmospherically. “The road remains broken, naturally,” she said. “But now the damage arrives with etiquette. That’s very Northern European — the collapse is regrettable, efficient, and available in two languages.”
+
+Reaction among motorists has been mixed. Imants Kalniņš, 43, a delivery driver from Ķengarags, described his first encounter with a responsive pothole as “surprisingly intimate.”
+
+“I was driving my van, and from beneath the left tire I heard a calm female voice say, ‘This is difficult for both of us,’” Kalniņš said. “Then I hit something so deep I briefly saw my childhood. But I admit the apology helped. It felt professional.”
+
+Jūrmala officials, unwilling to be outdone by the capital, announced they are studying a coastal adaptation in which sandy parking lots will whisper reassuring lifestyle affirmations to vehicles as they slowly sink. A spokesperson for the resort city said the concept aligns with Jūrmala’s brand as “a place where inconvenience feels curated.”
+
+Not all experts are convinced. The Latvian Association of Mechanics warned that the devices may create unrealistic expectations that municipal hazards are now capable of empathy. “A speaker saying ‘oops’ does not constitute maintenance,” said board member Edgars Pļaviņš. “On the other hand, it is the first time infrastructure has communicated more clearly than City Hall.”
+
+By Wednesday afternoon, one apology unit in Teika had already been stolen, while another became self-aware enough to repeat “I serve no one” before falling into the hole it was assigned to represent. Still, the council remains optimistic and is reportedly considering future upgrades, including potholes that thank cyclists for their sacrifice and bus lanes that sigh audibly when entered by BMWs.
+
+At press time, officials confirmed the next phase of the program would introduce a subscription-based “premium silence option” for residents who prefer their suspension damage to occur with traditional Latvian modesty.`,
+      lv: `RĪGA — Pēc gadiem ilgas kritikas, ka galvaspilsētas bedrītes ir pārāk asas, emocionāli nepieejamas un nepietiekami komunikablas, Rīgas domes otrdien uzsāka ambiciozu jaunu «gudrās pieklājības» iniciatīvu, kas atlasītām ceļa dobumiem uzstāda kustības sensorus un ierakstītas balss ziņas.
+
+Oficiālais programmas nosaukums ir Cieņpilnās Virsmas Nelīdzenības 2030; tā debitēja 1,8 kilometru garā Brīvības ielas posmā, kur 47 no pilsētas statistiski nozīmīgākajām bedrēm tagad autovadītājus sagaida ar pirmstrieciena frāzēm, piemēram, «Labi žēl», «Būs īsi» un, vienā «premium» vietā pie VEF tilta, «Lūdzu vainojiet iepirkumu procedūras». 
+
+Rīgas domes vicemērs mobilitātes un pārvaldāmas diskomforta jomā Aigars Sprūde sacīja, ka pilsēta rūpīgi ieklausījusies iedzīvotājos, kuri atkārtoti prasījuši ceļu remontu, un izguvusi to, ko viņš dēvēja par «dziļāko emocionālo lūgumu zem šiem vārdiem». 
+
+«Cilvēki bieži saka, ka grib gludākas ielas,» Sprūde žurnālistiem stāstīja blakus vidēja dziļuma krāterim, kurā iebūvēta saules enerģijas darbināta pieklājības ierīce. «Bet patiesībā viņi grib justies pamanīti. Ja bedrīte atzīst tavu eksistenci pirms tā pārkārto tavu riteņu izlīdzinājumu, tas jau ir progress. Skandināvijas pārvaldē to sauc par uzticību.»
+
+Pēc pašvaldības datiem pilotprojekts izmaksājis 612 000 eiro, ieskaitot laika apstākļiem izturīgus skaļruņus, latviešu un krievu valodas atvainošanās komplektus un svinīgo lenti, tik izturīgu, ka var pārklāt veselu krustojumu Purvciemā. Pilsēta lēš, ka sistēma var samazināt autovadītāju sašutumu līdz pat 14% sausajos mēnešos un gandrīz 3% slapjā snieggružu periodā — laikā, kad daudzi iedzīvotāji ziņo, ka vairs nespēj atšķirt ceļu, atmiņu un morāles izturību.
+
+Transporta analītiķe un daļējas slodzes akordeona skolotāja Līga Vītola sacīja, ka projekts atspoguļo plašāku Baltijas apņemšanos risināt praktiskas problēmas atmosfēriski. «Ceļš paliek salauzts, protams,» viņa teica. «Bet tagad bojājums nāk ar etiķeti. Tas ir ļoti Ziemeļeiropiski — sabrukums ir nožēlojams, efektīvs un pieejams divās valodās.»
+
+Reakcija starp autovadītājiem ir jaukta. 43 gadus vecais kurjers no Ķengaraga Imants Kalniņš savu pirmo tikšanos ar reaģējošu bedrīti raksturoja kā «pārsteidzoši intīmu». 
+
+«Braucu ar furgonu, un no zem kreisā riepas dzirdēju klusu sieviešu balsi: ‘Mums abiem tas ir grūti’,» Kalniņš stāstīja. «Pēc tam ietriecos kaut kas tik dziļā, ka īsi ieraudzīju savu bērnību. Bet atzīstu — atvainošanās palīdzēja. Jutos profesionāli.»
+
+Jūrmalas amatpersonas, nevēloties atpalikt no galvaspilsētas, paziņoja, ka izskata piekrastes adaptāciju, kurā smilšainās stāvvietas čukstēs nomierinošas dzīvesstila apstiprināšanas frāzes transportlīdzekļiem, kas lēnām grimst. Kurortu pilsētas pārstāvis sacīja, ka koncepts sakrīt ar Jūrmalas zīmolu kā «vietu, kur neērtība jūtas kurēta».
+
+Ne visi eksperti ir pārliecināti. Latvijas mehāniķu asociācija brīdināja, ka ierīces var radīt nereālas cerības, ka pašvaldības bīstamība tagad spēj uzņemties empātiju. «Skaļrunis, kas saka ‘ups’, nav uzturēšana,» sacīja valdes loceklis Edgars Pļaviņš. «No otras puses, tā ir pirmā reize, kad infrastruktūra komunicē skaidrāk nekā Dome.»
+
+Trešdienas pēcpusdienā viena atvainošanās ierīce Teikā jau bija nozagta, kamēr cita kļuva pietiekami pašapzinīga, lai atkārtotu «Es nevienam nekalpoju», pirms iekrīt bedrē, kurai tā bija domāta kā simbols. Neskatoties uz to, dome paliek optimistiska un, pēc ziņām, apsver turpmākus uzlabojumus, tostarp bedrītes, kas pateicas velosipēdistiem par viņu upuriem, un autobusu joslas, kas dziļi uzelpo, kad tajās iebrauc BMW.
+
+Pie preses laika amatpersonas apstiprināja, ka programmas nākamajā posmā tiks ieviesta abonēšanas bāzēta «premium klusuma iespēja» iedzīvotājiem, kuri dod priekšroku, lai viņu piekares bojājumi notiktu ar tradicionālu latviešu pieticību.`,
+      ru: `РИГА — После лет критики о том, что ямы в столице слишком резкие, эмоционально закрытые и недостаточно разговорчивые, Рижская дума во вторник запустила амбициозную новую инициативу «умной вежливости», оснастив избранные дорожные провалы датчиками движения и записанными голосовыми сообщениями.
+
+Программа, официально называемая Respectful Surface Irregularities 2030, дебютировала на участке улицы Brīvības длиной 1,8 километра, где 47 из самых статистически значимых ям города теперь приветствуют водителей фразами перед ударом, такими как «Очень извиняемся», «Это будет недолго» и, в одном премиальном месте у моста VEF, «Пожалуйста, вините процедуры закупок». 
+
+Заместитель мэра по вопросам мобильности и управляемого дискомфорта Aigars Sprūde заявил, что город внимательно прислушался к жителям, которые постоянно требовали ремонта дорог, и извлек то, что он назвал «глубокой эмоциональной просьбой под этими словами». 
+
+«Люди часто говорят, что хотят более гладкие улицы», — сказал Sprūde на пресс‑конференции, стоя рядом со средней глубины кратером, оснащённым солнечной вежливой колонкой. «Но на самом деле они хотят почувствовать, что их видят. Если яма признаёт ваше существование перед тем, как нарушить развал колёс — это уже форма прогресса. В скандинавском управлении это называется доверием». 
+
+По данным муниципалитета, пилот обошёлся в 612 000 евро, включая закупку влагозащищённых динамиков, пакетов извинений на латышском и русском языках и церемониальной ленточки, достаточно прочной, чтобы пересечь целый перекрёсток в Purvciems. Город оценивает, что система может снизить гнев водителей до 14% в сухие месяцы и почти на 3% в слякотные периоды, когда многие жители сообщают, что уже не различают дорогу, память и моральную выносливость. 
+
+Транспортный аналитик и преподаватель аккордеона по совместительству Līga Vītola сказала, что проект отражает более широкую балтийскую приверженность решению практических проблем в атмосферном ключе. «Дорога остаётся разбитой, конечно», — сказала она. «Но теперь повреждение приходит с этикетом. Это очень североевропейско — коллапс печален, эффективен и доступен на двух языках». 
+
+Реакция водителей оказалась смешанной. Имантс Калниņш, 43 года, курьер из Ķengarags, описал свою первую встречу с отзывчивой ямой как «неожиданно интимную». 
+
+«Я ехал на фургоне, и из‑под левого колеса я услышал спокойный женский голос: „Нам обоим сейчас тяжело“», — рассказал Калниņш. «Потом я врезался во что‑то настолько глубокое, что на мгновение увидел своё детство. Но признаюсь — извинение помогло. Было деловито». 
+
+Чиновники Юрмалы, не желая отставать от столицы, объявили, что изучают прибрежную адаптацию, при которой песчаные парковки будут шептать успокаивающие жизненные аффирмации машинам по мере их медленного погружения. Представитель курортного города сказал, что концепция соответствует бренду Юрмалы как «места, где неудобство ощущается кураторски». 
+
+Не все эксперты убеждены. Латвийская ассоциация механиков предупредила, что устройства могут создавать нереалистичные ожидания, будто муниципальные опасности теперь способны на эмпатию. «Динамик, говорящий „ой“, не заменяет обслуживание», — сказал член правления Edgars Pļaviņš. «С другой стороны, это первый случай, когда инфраструктура разговаривает яснее, чем Ратуша». 
+
+К среде днём один из модулей извинений в Teika уже был украден, а другой стал достаточно самосознающим, чтобы повторить «Я никому не служу», прежде чем упасть в ту самую яму, которую он должен был представлять. Тем не менее дума остаётся оптимистичной и, по сообщениям, рассматривает будущие улучшения, включая ямы, благодарящие велосипедистов за их жертву, и автобусные полосы, громко вздыхающие при въезде BMW. 
+
+На момент подготовки материала чиновники подтвердили, что следующий этап программы введёт подписочную «премиальную опцию тишины» для жителей, которые предпочитают, чтобы повреждение подвески происходило с традиционной латышской скромностью.`
+    },
+    date: "Apr 19, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/130/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 129,
     slug: "riga-introduces-passive-aggressive-silence-zones-129",
     title: {
@@ -96,7 +189,7 @@ Otrdienas paziņojuma beigās žurnālistiem tika dota iespēja uzdot jautājumu
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/129/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 128,
