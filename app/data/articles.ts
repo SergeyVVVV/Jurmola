@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 133,
+    slug: "jrmala-introduces-ambient-queue-program-so",
+    title: {
+      en: "Jūrmala Introduces ‘Ambient Queue’ Program So Residents Can Experience Waiting Even When Nothing Is Closed",
+      lv: "Jūrmala ievieš 'Ambienta rindu' programmu, lai iedzīvotāji varētu izbaudīt gaidīšanu pat tad, kad nekas nav slēgts",
+      ru: "Юрмала запускает программу «Атмосферная очередь», чтобы жители могли ощутить ожидание даже когда ничего не закрыто"
+    },
+    excerpt: {
+      en: "Officials in Jūrmala have unveiled a pilot initiative designed to preserve the cultural value of standing in line, after experts warned that digital services were eroding one of Latvia’s most stable social institutions. Under the new system, residents can book time slots to wait quietly outside municipal buildings for matters that have already been resolved online.",
+      lv: "Jūrmalas amatpersonas atklāja pilotiniciatīvu, kas paredzēta rindas stāvēšanas kultūras vērtības saglabāšanai, pēc tam, kad eksperti brīdināja, ka digitālie pakalpojumi graušot vienu no Latvijas stabilākajām sociālajām institūcijām. Saskaņā ar jauno sistēmu iedzīvotāji var rezervēt laika logus, lai klusējot gaidītu ārpus pašvaldības ēkām pie jautājumiem, kas jau atrisināti tiešsaistē.",
+      ru: "Чиновники Юрмалы представили пилотную инициативу, призванную сохранить культурную ценность стояния в очереди, после того как эксперты предупредили, что цифровые сервисы разрушают один из самых устойчивых социальных институтов Латвии. В рамках новой системы жители могут бронировать слоты, чтобы в тишине подождать у муниципальных зданий по делам, которые уже были решены онлайн."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what city leaders are calling “a necessary investment in national continuity,” Jūrmala Municipality on Tuesday launched Ambient Queue, a civic program allowing residents to participate in recreational waiting outside government offices, clinics, pharmacies, and one especially symbolic Narvesen kiosk, regardless of whether they need anything.
+
+The initiative, funded through a €418,000 cultural resilience grant and an additional €22,000 for winter-grade queue markers, was developed after a municipal working group concluded that Latvia’s rapid adoption of e-signatures, online forms, and self-service portals had caused “an alarming decline in meaningful public loitering.”
+
+“We cannot digitize away who we are,” said Deputy Executive Director for Administrative Atmosphere Ilze Priedīte, speaking to reporters beside a rope barrier installed outside the Dzintari service center. “For generations, people in this country have formed temporary emotional communities while waiting for stamps, references, signatures, secondary signatures, and clarification regarding the first signature. If a young person can receive a permit in four minutes from a smartphone, what exactly are we asking them to pass on to their children?”
+
+Under the pilot scheme, residents may reserve one of several queue experiences through the city’s new app, Rinda+, though officials acknowledged the platform crashed repeatedly within minutes of launch due to “very strong nostalgic demand.” The available modules include Basic Administrative Waiting, Pharmacy Line Without Purpose, Passive Bank Queue, and the premium package, Regional Office Confusion, in which participants are told they may be in the wrong building but are never given complete certainty.
+
+According to the municipality’s 63-page concept paper, the average participant in last winter’s trial phase spent 47 minutes standing outside an office where all services had already been automated. Ninety-one percent described the experience as “reassuring,” while 63 percent said they had “overheard at least one useful rumor.” One in five participants reported leaving the line with a new opinion about property tax.
+
+At the Majori branch of the program, 58-year-old resident Aivars Lapiņš had arrived at 7:12 a.m. to secure a place in a queue scheduled to begin at 8. “I don’t even have business here,” he admitted, clutching a folder containing several unrelated documents, including an old warranty and a dog vaccination card. “But after 20 minutes, I started feeling calmer. You stand, you sigh, someone ahead of you says the system used to work better in 2008, and suddenly the country makes sense again.”
+
+Younger residents were initially skeptical, though many appear to have embraced the social possibilities. “At first I thought it was ironic,” said 26-year-old graphic designer Elīna Kaze, who booked the ‘Mild Confusion Plus’ option with two friends. “Then an older man behind us explained three different theories about why ticket numbers skip from A14 to C3, and I realized this is actually heritage.”
+
+The program has already drawn interest from neighboring municipalities. Officials in Riga confirmed they are studying whether Ambient Queue could be integrated into public transport, allowing passengers to wait for buses that are technically visible but emotionally unavailable. In Liepāja, planners are reportedly considering a coastal version in which residents line up for weather that never fully arrives.
+
+Not everyone supports the initiative. The Free Association for Efficient Living called the project “bureaucratic cosplay financed by taxpayers,” though the group’s press conference was delayed after attendees spontaneously formed a queue outside the wrong room and refused to disperse because “it finally felt official.”
+
+By late afternoon on Tuesday, Jūrmala had opened an overflow waiting area for residents wishing to complain about Ambient Queue, with estimated complaint processing times of two to three hours. Municipal officials said the response had exceeded expectations.
+
+“It shows there is still hunger for structure,” said Priedīte, as a line of 34 people silently inched toward a desk that had not yet been staffed. “In uncertain times, people want to know where they stand. Ideally behind someone with a paper number and mild but visible frustration.”`,
+      lv: `JŪRMALA — To, ko pilsētas vadība sauc par “nepieciešamu ieguldījumu nacionālajā kontinuitātē,” Jūrmalas pašvaldība otrdien uzsāka programmu Ambienta rinda — pilsonisku iniciatīvu, kas ļauj iedzīvotājiem piedalīties rekreatīvā gaidīšanā ārpus valdības iestādēm, poliklīnikām, aptiekām un vienā īpaši simboliskā Narvesen kioska, neatkarīgi no tā, vai viņiem kaut kas nepieciešams vai nē.
+
+Iniciatīvu, kas finansēta ar 418 000 € kultūras noturības grantu un vēl 22 000 € ziemai piemērotiem rindu marķieriem, izstrādāja pašvaldības darba grupa pēc secinājuma, ka Latvijas straujā e-parakstu, tiešsaistes formu un pašapkalpošanās portālu ieviešana izraisījusi “alerģiski satraucošu jēgpilnas publiskas kavēšanās samazināšanos.”
+
+“Mēs nevaram digitalizēt prom to, kas mēs esam,” žurnālistiem pie virves barjeras pie Dzintaru pakalpojumu centra sacīja Administratīvās atmosfēras izpilddirektora vietniece Ilze Priedīte. “Gadsimtiem ilgi cilvēki šajā valstī veidojuši pagaidu emocionālas kopienas, kamēr gaidīja zīmogus, izziņas, parakstus, otrreizējus parakstus un precizējumu par pirmo parakstu. Ja jaunietis var četrās minūtēs no viedtelefona saņemt atļauju, ko tieši mēs lūdzam viņam nodot saviem bērniem?”
+
+Saskaņā ar pilotprogrammu iedzīvotāji var rezervēt vienu no vairākiem rindas pieredzes moduļiem jaunajā pilsētas lietotnē Rinda+, lai gan amatpersonas atzina, ka platforma pēc palaišanas daudzkārt sabruka “ļoti spēcīgas nostalģiskas pieprasījuma” dēļ. Pieejamie moduļi ietver Pamata administratīvo gaidīšanu, Aptiekas rindu bez mērķa, Pasīvo bankas rindu un premium paketi Reģionālās iestādes apjukums, kurā dalībniekiem pavēsta, ka viņi, iespējams, atrodas nepareizā ēkā, bet nekad netiek dota pilnīga skaidrība.
+
+Pašvaldības 63 lappušu koncepcijas dokumentā teikts, ka pagājušās ziemas pilotfāzes vidējais dalībnieks pavadīja 47 minūtes, stāvot ārpus biroja, kur visi pakalpojumi jau bija automatizēti. 91 procenti aprakstīja pieredzi kā “nomierinošu,” kamēr 63 procenti apgalvoja, ka bija “uzklausījuši vismaz vienu lietderīgu baumu.” Katrs piektais dalībnieks ziņoja, ka rindas atstāšana mainījusi viņa viedokli par nekustamā īpašuma nodokli.
+
+Programmas Majoru filiālē 58 gadus vecais iedzīvotājs Aivars Lapiņš ieradās pulksten 7:12, lai nodrošinātu vietu rindā, kas bija plānota sākties pulksten 8. “Man pat nav šeit darīšanas,” viņš atzina, turot mapīti ar vairākām nesaistītām lietām, tostarp vecu garantijas talonu un suņa vakcinācijas karti. “Bet pēc 20 minūtēm sākās miers. Stāvi, nopūties, kāds priekšā saka, ka sistēma 2008. gadā strādājusi labāk, un pēkšņi valsts atkal iegūst jēgu.”
+
+Jaunāki iedzīvotāji sākumā bija skeptiski, taču daudzi šķiet piekrituši sociālajām iespējām. “Sākumā domāju, ka tas ir ironiski,” teica 26 gadus vecā grafiskā dizainere Elīna Kaze, kura kopā ar divām draudzenēm rezervēja opciju “Vieglā apjukuma plus.” “Bet tad priekšā stāvošais vecākais vīrs izklāstīja trīs dažādas teorijas par to, kāpēc biļešu numuri izlēkā no A14 uz C3, un es sapratu — tā ir mantojuma daļa.”
+
+Programma jau izraisījusi interesi no kaimiņu pašvaldībām. Rīgas amatpersonas apstiprināja, ka pētīs, vai Ambienta rinda varētu tikt integrēta sabiedriskajā transportā, ļaujot pasažieriem gaidīt autobusus, kas ir tehniski redzami, bet emocionāli nepieejami. Liepājā plānotāji, pēc ziņām, apsver piekrastes versiju, kurā iedzīvotāji rindojas pēc laika apstākļiem, kas nekad pilnībā nepienāk.
+
+Ne visi atbalsta iniciatīvu. Brīvā asociācija efektīvai dzīvei nosauca projektu par “birokrātisku kospleju, ko finansē nodokļu maksātāji,” lai gan šīs grupas preses konference tika aizkavēta pēc tam, kad dalībnieki spontāni izveidoja rindu ārpus nepareizās telpas un atteicās izklīst, jo “beidzot jutās oficiāli.”
+
+Vēlā otrdienas pēcpusdienā Jūrmala atklāja papildu gaidīšanas zonu iedzīvotājiem, kuri vēlējās sūdzēties par Ambienta rindu, ar aptuveno sūdzību izskatīšanas laiku divas līdz trīs stundas. Pašvaldības amatpersonas sacīja, ka atsaucība pārsniegusi cerības.
+
+“Tas rāda, ka struktūras bads vēl pastāv,” sacīja Priedīte, kamēr 34 cilvēku rinda klusi virzījās pretī galdam, pie kura vēl nebija dežurants. “Neziņas laikā cilvēki grib zināt, kur viņi stāv. Vēlams — aiz kāda ar papīra numuru un vieglu, bet pamanāmu neapmierinātību.”`,
+      ru: `ЮРМАЛА — В том, что городские власти называют «необходимой инвестицией в национальную преемственность», муниципалитет Юрмалы во вторник запустил программу Ambient Queue — гражданскую инициативу, позволяющую жителям участвовать в рекреационном ожидании у правительственных офисов, клиник, аптек и одного особенно символичного киоска Narvesen, вне зависимости от того, нужно ли им что‑то на самом деле.
+
+Инициатива, финансируемая за счёт гранта на культурную устойчивость в размере €418 000 и дополнительно €22 000 на зимние маркеры очередей, была разработана после того, как рабочая группа муниципалитета пришла к выводу, что быстрота внедрения электронных подписей, онлайн‑форм и самообслуживающих порталов в Латвии привела к «тревожному снижению содержательного общественного слоняния». 
+
+«Мы не можем оцифровать то, кто мы есть», — сказала заместитель исполнительного директора по административной атмосфере Ilze Priedīte, выступая перед корреспондентами рядом с канатным ограждением, установленным у сервисного центра Дзинтари. «Поколениями люди в этой стране формировали временные эмоциональные сообщества в ожидании штампов, справок, подписей, вторичных подписей и разъяснений по поводу первой подписи. Если молодой человек может получить разрешение за четыре минуты со смартфона, что, собственно, мы просим его передать детям?»
+
+В рамках пилотной схемы жители могут забронировать один из нескольких вариантов ожидания через новое городское приложение Rinda+, хотя чиновники признали, что платформа несколько раз падала в первые минуты после запуска из‑за «очень сильного ностальгического спроса». Доступные модули включают: базовое административное ожидание, бессмысленная аптека, пассивная банковская очередь и премиум‑пакет «Региональное офисное замешательство», в котором участникам сообщают, что они, возможно, находятся не в том здании, но полной уверенности им так и не дают.
+
+Согласно 63‑страничной концепции муниципалитета, средний участник зимней пробной фазы провёл 47 минут, стоя у офиса, где все услуги уже были автоматизированы. Девяносто один процент описал опыт как «успокаивающий», а 63 процента заявили, что «подслушали по крайней мере один полезный слух». Каждый пятый участник сообщил, что вышел из очереди с новым мнением о налоге на недвижимость.
+
+В филиале программы в Майори 58‑летний житель Aivars Lapiņš пришёл в 7:12 утра, чтобы занять место в очереди, начало которой было запланировано на 8:00. «У меня тут даже дела нет», — признался он, прижимая папку с несколькими несвязанными документами, включая старую гарантию и карточку прививок собаки. «Но через двадцать минут я стал чувствовать себя спокойнее. Стоишь, вздыхаешь, кто‑то перед тобой говорит, что система раньше работала лучше, в 2008 году, и вдруг страна снова начинает иметь смысл». 
+
+Молодые жители поначалу скептически отнеслись к инициативе, но многие, похоже, оценили её социальный потенциал. «Сначала я думала, что это ирония», — сказала 26‑летняя графическая дизайнер Elīna Kaze, которая забронировала опцию «Лёгкое замешательство плюс» вместе с двумя друзьями. «Потом пожилой мужчина позади нас объяснил три разные теории о том, почему номера талонов прыгают с A14 на C3, и я поняла: это на самом деле наследие». 
+
+Программа уже привлекла внимание соседних муниципалитетов. В Риге подтвердили, что изучают возможность интегрировать Ambient Queue в систему общественного транспорта, позволяя пассажирам ждать автобусы, которые технически видны, но эмоционально недоступны. В Лиепае планировщики, по сообщениям, рассматривают прибрежную версию, где жители выстраиваются в очередь за погодой, которая так и не наступает полностью.
+
+Поддерживают инициативу не все. Свободная ассоциация за эффективную жизнь назвала проект «бюрократическим косплеем, финансируемым налогоплательщиками», хотя пресс‑конференция группы была отложена после того, как участники самопроизвольно выстроились в очередь вне нужной комнаты и отказались расходиться, потому что «наконец‑то всё стало официальным». 
+
+К позднему дню во вторник Юрмала открыла дополнительную зону ожидания для жителей, желающих пожаловаться на Ambient Queue, с предполагаемым временем обработки жалоб от двух до трёх часов. Муниципальные чиновники заявили, что отклик превзошёл ожидания.
+
+«Это показывает, что голод по структуре ещё есть», — сказала Priedīte, пока очередь из 34 человек молча продвигалась к неподготовленному столу. «В неопределённые времена люди хотят знать, где они находятся. Идеально — позади кого‑то с бумажным номерком и лёгким, но заметным раздражением».`
+    },
+    date: "Apr 22, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "9 min read",
+    imageUrl: "https://picsum.photos/seed/133/800/600",
+    author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
+    featured: true
+  },
+  {
     id: 132,
     slug: "jrmala-introduces-silent-applause-zone-after",
     title: {
@@ -108,7 +195,7 @@ Vakaram krītot pāri priežu ielai, domes darbinieki uzstādīja zilos ceļazī
     readTime: "9 min read",
     imageUrl: "https://picsum.photos/seed/132/800/600",
     author: { en: "By Andris Ozoliņš", lv: "Rakstījis Andris Ozoliņš", ru: "Автор: Андрис Озолиньш" },
-    featured: true
+    featured: false
   },
   {
     id: 131,
