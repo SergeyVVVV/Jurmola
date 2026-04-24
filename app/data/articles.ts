@@ -18,6 +18,99 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 135,
+    slug: "riga-introduces-passive-aggression-lanes-to",
+    title: {
+      en: "Riga Introduces ‘Passive Aggression Lanes’ To Reduce Sidewalk Congestion During Winter",
+      lv: "Rīga ievieš „pasīvās agresijas joslas”, lai ziemā mazinātu ietvju sastrēgumus",
+      ru: "Рига вводит «полосы пассивной агрессии», чтобы сократить плотность пешеходов зимой"
+    },
+    excerpt: {
+      en: "City officials in Riga have unveiled a pilot traffic-management system designed specifically for pedestrians who wish to express disapproval without slowing public movement. The new Passive Aggression Lanes will allow residents to sigh, mutter, and deliver tightly controlled eye contact in an orderly municipal framework.",
+      lv: "Rīgas pilsētas amatpersonas atklājušas pilotprojektu gājēju satiksmes vadībai, īpaši paredzētu tiem, kuri vēlas izrādīt neapmierinātību, netraucējot sabiedrisko plūsmu. Jaunās Pasīvās Agresijas Joslas ļaus iedzīvotājiem nopūsties, murmēt un nodrošināti veikt stingri kontrolētu acu kontaktu pašvaldiskā kārtībā.",
+      ru: "Городские власти Риги представили пилотную систему управления движением, разработанную специально для пешеходов, желающих выразить неодобрение, не замедляя общественный поток. Новые «полосы пассивной агрессии» позволят жителям вздыхать, бормотать и устанавливать тщательно контролируемый зрительный контакт в упорядоченной муниципальной рамке."
+    },
+    fullContent: {
+      en: `RIGA — In what planners are calling a major breakthrough in urban civility, Riga City Council on Tuesday launched the capital’s first dedicated Passive Aggression Lanes, a network of clearly marked sidewalk corridors intended for residents who need to communicate social disappointment while continuing to walk at an acceptable pace.
+
+The initiative, rolled out along Brīvības iela, near Origo, and in several high-density zones of the Central District, comes after a year-long municipal study found that 68% of winter pedestrian delays were caused not by snow, ice, or poor footwear choices, but by “emotionally charged micro-pauses,” including theatrical scarf adjustments, reproachful exhalations, and the stopping of entire family units at pharmacy entrances.
+
+“Riga has long been a European leader in silent endurance, but our infrastructure has not kept up,” said Acting Deputy Director of Strategic Sidewalk Behavior, Ilze Pudāne, standing beside a blue-and-white sign depicting a neutral face looking slightly to the left. “For too long, residents have been forced to choose between moving efficiently and expressing profound interpersonal dissatisfaction. Now they can do both.”
+
+According to city guidance, the lanes are reserved for several approved forms of public expression: low-volume muttering regarding strangers’ umbrella technique, one audible sigh per 30 meters, disapproving glances of up to three seconds, and the classic shoulder repositioning maneuver intended to imply that someone else has fundamentally misunderstood how winter works.
+
+More aggressive conduct, including direct confrontation, cheerful small talk, or saying “sorry” with visible warmth, remains prohibited and may result in relocation to the General Pedestrian Stream.
+
+The first commuters appeared cautiously optimistic. “Normally I have to stop near the tram platform and just look at people until they understand,” said 41-year-old accountant and Purvciems resident Mārtiņš Zālītis, who tested the lane Tuesday morning while carrying a reusable bag containing three identical cabbages. “Today I was able to maintain a steady pace while expressing that a man’s backpack was unacceptable. This is the most coordinated I have ever felt as a citizen.”
+
+Shop owners along the pilot route say they have already noticed changes. At a Narvesen near the station, manager Aiga Meiere reported a 23% drop in doorway clustering and a measurable increase in what she called “cleaner forms of resentment.”
+
+“Before, customers would enter angry, but in an unfocused way,” Meiere said. “Now they arrive pre-channeled. They’ve already sighed outside. Inside, they just buy the coffee and stare briefly at the pastry shelf like adults.”
+
+The project was developed in consultation with transport engineers, behavioral sociologists, and one retired aunt from Ogre identified in procurement documents only as “Velta, highly observant.” Initial markings include a separate dashed section for couples silently arguing, as well as a merge zone near underpasses where residents may transition from private annoyance to broader civic disillusionment.
+
+Not everyone is convinced. The Association for Free-Range Irritation criticized the plan as overregulation, arguing that authentic Latvian discontent cannot be reduced to painted rectangles. “Resentment must remain organic,” said chairman Didzis Krauze. “Today it is a lane. Tomorrow the municipality will issue permits for eyebrow movements.”
+
+Still, city officials say early metrics are promising. Sensors installed near Esplanāde recorded a 14% increase in walking speed and an 81% improvement in emotional throughput during peak hours. Encouraged by those figures, Riga is already considering Phase Two: heated bus-stop zones for strategic silence, and a smartphone app that alerts users when they are within 20 meters of someone behaving too optimistically for February.
+
+By evening, several residents had begun using the new lanes without obvious instruction, suggesting the concept may be culturally intuitive. Municipal crews confirmed only minor confusion among tourists, three of whom reportedly entered the Passive Aggression Lane while smiling and had to be redirected toward Old Town.`,
+      lv: `RĪGA — To, ko plānotāji sauc par lielu pavērsienu pilsētas manierēs, otrdien Rīgas dome prezentēja galvaspilsētas pirmās speciālās Pasīvās Agresijas Joslas — skaidri apzīmētu ietvju koridoru tīklu iedzīvotājiem, kuriem nepieciešams paust sociālu vilšanos, turpinot staigāt pieņemamā tempā.
+
+Iniciatīva, kas ieviesta gar Brīvības ielu, pie Origo un vairākās Centrāltirgus blīvuma zonās, seko gada garam pašvaldības pētījumam, kurā noskaidrots, ka 68% ziemas gājēju aizkavēšanos izraisījušas ne sniegs, ne ledus, ne nepiemērots apģērbs, bet gan „emocionāli uzlādētas mikro-pauzes” — teātrālas šalles pārlikšanas, saskarezinošas izelpas un visu ģimenes vienību apstāšanās pie aptiekas ieejām.
+
+„Rīga jau sen ir Eiropas līdere klusajā izturēšanā, bet mūsu infrastruktūra tam nav ne solījusies līdzi,” sacīja pagaidu stratēģiskās ietvju uzvedības vietniece Ilze Pudāne, stāvot blakus zilbaltiem ceļazīmes attēlam ar neitrālu seju, kas skatās nedaudz pa kreisi. „Pārāk ilgi iedzīvotājiem nācās izvēlēties starp efektīvu pārvietošanos un dziļu savstarpējas neapmierinātības izrādīšanu. Tagad viņi var abus — reizē.”
+
+Saskaņā ar pilsētas vadlīnijām joslas ir rezervētas vairākām apstiprinātām sabiedriskas izpausmes formām: klusai murmināšanai par svešinieku lietussargu tehniku, viena dzirdama nopūta ik pēc 30 metriem, negatīvu skatienu atlikšanai līdz trim sekundēm un klasiskajai plecu pārlikšanas manevram, kas norāda, ka kāds fundamentāli neizprot, kā ziemā ir jāuzvedas.
+
+Vēl agresīvāka uzvedība, tostarp tieša konfrontācija, pārāk draudzīga mazsaruna vai sirsnīgs „atvainojiet”, paliek aizliegta un var izraisīt pārvietošanu uz „Vispārējo gājēju plūsmu”.
+
+Pirmie braucēji izskatījās piesardzīgi optimistiski. „Parasti man jāapstājas pie tramvaja pieturas un vienkārši jāskatās uz cilvēkiem, līdz viņi saprot,” sacīja 41 gadu vecais grāmatvedis un Purvciema iedzīvotājs Mārtiņš Zālītis, kurš otrdienas rītā izmēģināja joslu, nēsādams atkārtoti lietojamu somu ar trim identiskām kāpostgalvām. „Šodien varēju turēt stabilu tempu, izrādot, ka vīrieša mugursoma ir nepieņemama. Jutos kā pilsonis viskoordinētākais savā mūžā.”
+
+Veikalu īpašnieki gar pilotmaršrutu saka, ka jau pamanījuši izmaiņas. Narvesen netālu no stacijas, vadītāja Aiga Meiere ziņoja par 23% samazinājumu durvju vākšanās un mērojamu pieaugumu tam, ko viņa sauc par „tīrākām neapmierinātības formām”.
+
+„Agrāk klienti nāca iekšā dusmīgi, bet haotiski,” sacīja Meiere. „Tagad tie ierodas jau 'kanalizēti'. Viņi ārā jau ir nopūtušies. Iekšā viņi vienkārši nopērk kafiju un pieklājīgi paskatās uz konditoreju plauktu.”
+
+Projektu izstrādāja, konsultējoties ar satiksmes inženieriem, uzvedības sociologiem un vienu pensionētu tanti no Ogres, iepirkumu dokumentos minētu vienīgi kā „Velta, ļoti novērotāja”. Sākotnējie apzīmējumi ietver atsevišķu punktētu sekciju pārīšiem klusai strīdēšanai, kā arī saplūšanas zonu pie zemceļiem, kur iedzīvotāji var pāriet no privātas aizkaitinātības uz plašāku pilsonisku izmisumu.
+
+Ne visi ir pārliecināti. Asociācija „Par brīvi audzētu kairinājumu” kritizēja plānu kā pārmērīgu regulāciju, apgalvojot, ka autentisku latviešu neapmierinātību nevar samazināt līdz apzīmētiem taisnstūriem. „Neapmierinātībai jāpaliek organismai,” sacīja priekšsēdētājs Didzis Krauze. „Šodien tā ir josla. Rīt pašvaldība izsniegs atļaujas uzacstu kustībām.”
+
+Tomēr pilsētas amatpersonas norāda, ka agrīnie rādītāji ir iepriecinoši. Sensoru dati pie Esplanādes reģistrēja 14% pieaugumu gājēju ātrumā un 81% uzlabojumu emocionālajā caurlaidībā pīķa stundās. Pamudināta ar šiem cipariem, Rīga jau apsver 2. fāzi: apsildāmas autobusu pieturas stratēģiskai klusumam un viedtālruņa lietotni, kas brīdinās lietotājus, kad viņi atrodas 20 metru rādiusā no kāda, kurš februārim pārāk optimistiski uzvedas.
+
+Vakara stundā vairāki iedzīvotāji sāka lietot jaunas joslas bez acīmredzamām instrukcijām, kas liecina, ka koncepts varētu būt kultūrtūrisks un intuitīvs. Pašvaldības brigādes ziņoja tikai par nelielu tūristu apjukumu — trīs no viņiem esot iegājuši Pasīvās Agresijas Joslā, smaidīdami, un tika novirzīti uz Vecrīgas pusi.`,
+      ru: `РИГА — В том, что планировщики называют крупным прорывом в городской вежливости, Городской совет Риги во вторник запустил в столице первые в городе специализированные «полосы пассивной агрессии» — сеть четко обозначенных коридоров на тротуарах, предназначенных для жителей, которым нужно выразить социальное разочарование, продолжая идти с приемлемой скоростью.
+
+Инициатива, развернутая вдоль Brīvības iela, возле Origo, а также в нескольких плотнозастроенных зонах Центрального района, появилась после годового муниципального исследования, в котором было установлено, что 68% зимних задержек пешеходов вызваны не снегом, льдом или неподходящей обувью, а «эмоционально нагруженными микропаузами», включая театральные поправления шарфов, осуждающие выдохи и остановки целых семей у входов в аптеки.
+
+«Рига давно является европейским лидером по молчаливому терпению, но наша инфраструктура отставала», — сказала и.о. заместителя директора по стратегическому поведению на тротуарах Илзе Пудāне, стоя у синего и белого знака с изображением нейтрального лица, слегка повернутого влево. «Слишком долго жителям приходилось выбирать между эффективным передвижением и выражением глубочайшего межличностного недовольства. Теперь они могут делать и то, и другое». 
+
+Согласно городским инструкциям, полосы зарезервированы для нескольких одобренных форм публичного выражения: тихое бормотание по поводу техники обращения с чужими зонтами, один слышимый вздох на каждые 30 метров, неодобрительный взгляд продолжительностью до трех секунд и классический маневр перестановки плеча, призванный намекнуть, что кто-то иначе понимает, как работает зима.
+
+Более агрессивное поведение, включая прямое столкновение, радостную болтовню или искреннее, теплое «извините», по-прежнему запрещено и может повлечь перемещение в Общий поток пешеходов.
+
+Первые пассажиры выглядели осторожно оптимистичными. «Обычно мне приходится останавливаться возле трамвайной платформы и просто смотреть на людей, пока они не поймут», — сказал 41‑летний бухгалтер и житель Пурвциемса Мартиньш Залитис, который во вторник утром протестировал полосу, неся многоразовую сумку с тремя одинаковыми капустами. «Сегодня я смог сохранять равномерный темп и одновременно выразить, что чей‑то рюкзак недопустим. Никогда не чувствовал себя таким скоординированным как гражданин». 
+
+Владельцы магазинов вдоль пилотного маршрута говорят, что уже заметили изменения. В Narvesen у станции менеджер Айга Мейере сообщила о 23% снижении скопления у дверей и измеримом росте того, что она назвала «более чистыми формами недовольства». 
+
+«Раньше покупатели входили злыми, но как-то несфокусированно», — сказала Мейере. «Теперь они приходят уже направленными. Снаружи они уже вздохнули. Внутри они просто покупают кофе и кратко смотрят на прилавок с выпечкой как взрослые». 
+
+Проект разрабатывался в консультации с транспортными инженерами, поведенческими социологами и одной на пенсии тетей из Огре, указанной в документах по закупкам лишь как «Вельта, очень наблюдательная». Первоначальная разметка включает отдельный пунктирный участок для пар, молча ссорящихся, а также зона слияния возле подземных переходов, где жители могут перейти от частного раздражения к более широкому гражданскому разочарованию.
+
+Не все убеждены. Ассоциация свободного раздражения раскритиковала план как излишнюю регламентацию, заявив, что подлинное латвийское недовольство нельзя свести к нарисованным прямоугольникам. «Недовольство должно оставаться органичным», — сказал председатель Дидзис Краузе. «Сегодня это полоса. Завтра муниципалитет начнет выдавать разрешения на движение бровей». 
+
+Тем не менее городские чиновники говорят, что ранние показатели обнадеживают. Датчики, установленные возле Эспланады, зафиксировали 14% рост скорости ходьбы и 81% улучшение эмоциональной пропускной способности в часы пик. Воодушевленная этими цифрами, Рига уже рассматривает Вторую фазу: обогреваемые зоны на остановках для стратегического молчания и смартфонное приложение, которое будет уведомлять пользователей, когда они находятся в пределах 20 метров от кого‑то, кто ведет себя слишком оптимистично для февраля.
+
+К вечеру несколько жителей начали пользоваться новыми полосами без явных инструкций, что позволяет предположить, что концепция может быть культурно интуитивной. Муниципальные бригады подтвердили лишь небольшое замешательство среди туристов, трое из которых, по сообщениям, зашли в полосу пассивной агрессии, улыбаясь, и их пришлось перенаправить в Старый город.`
+    },
+    date: "Apr 24, 2026",
+    category: { en: "Analysis", lv: "Analīze", ru: "Аналитика" },
+    categories: ["opinion"],
+    type: "analysis",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/135/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 134,
     slug: "riga-municipality-unveils-polite-potholes-that",
     title: {
@@ -96,7 +189,7 @@ Preses brīdī nesen uzlabota bedre pie Centrāltirgus bija sākusi autovadītā
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/134/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 133,
