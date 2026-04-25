@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 136,
+    slug: "riga-introduces-official-silence-hours-so",
+    title: {
+      en: "Riga Introduces Official Silence Hours So Residents Can Finally Hear If Tram 6 Is Approaching",
+      lv: "Rīga ievieš oficiālās klusuma stundas, lai iedzīvotāji beidzot varētu sadzirdēt, vai tuvojas tramvajs Nr. 6",
+      ru: "Рига вводит официальные часы тишины, чтобы жители наконец услышали, приближается ли трамвай №6"
+    },
+    excerpt: {
+      en: "In a move city leaders described as both cultural preservation and basic survival, Riga has approved daily \"Official Silence Hours\" from 14:00 to 16:00. During that time, leaf blowers, aggressive coffee grinders, and all public discussions about parking in Āgenskalns will be temporarily suspended so citizens can listen for the distant mechanical warning signs of public transport.",
+      lv: "Kā pilsētas vadība to nosauca gan par kultūras saglabāšanu, gan par vienkāršu izdzīvošanu, Rīga apstiprinājusi ikdienas “Oficiālās klusuma stundas” no 14:00 līdz 16:00. Šajā laikā tiks pagaidām apturēti lapu pūtēji, agresīvās kafijas dzirnaviņas un visi publiskie strīdi par stāvvietām Āgenskalnā, lai pilsoņi var atplest ausis un noklausīties tālas mehāniskas sabiedriskā transporta brīdināšanas zīmes.",
+      ru: "В шаге, который городские власти назвали одновременно сохранением культуры и элементарным выживанием, Рига утвердила ежедневные «официальные часы тишины» с 14:00 до 16:00. В это время будут временно приостановлены работы садовых воздуходувок, агрессивные кофемолки и все публичные дискуссии о парковке в Агенскалнсе, чтобы жители смогли прислушаться к отдалённым механическим предупреждениям общественного транспорта."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council voted late Tuesday to establish the capital’s first municipally enforced “Official Silence Hours,” a two-hour afternoon period during which residents are encouraged to stop making unnecessary noise and, where possible, stand very still near intersections in order to determine whether Tram 6 is actually coming.
+
+The new policy, which will begin as a six-month pilot in September, was approved by a 38–19 vote after transport planners presented a 214-page report concluding that 71% of Riga residents “navigate the city based less on schedules and more on spiritual acoustics.” According to the report, many commuters no longer trust the official tram app, which one respondent described as “optimistic in a way that feels personal.”
+
+Under the plan, construction drilling, decorative accordion busking, and the operation of “emotionally excessive” espresso machines will be prohibited between 14:00 and 16:00 on weekdays. Apartment residents in central districts will also be asked to postpone arguments involving inheritance, radiators, or whether mushrooms from an uncle in Cēsis were stored correctly.
+
+Vice Mayor Linda Ozoliņa called the measure “a practical investment in urban listening.” Speaking to reporters outside City Hall, she said the silence window would help citizens detect subtle but vital signs of transport movement, including “the metallic sigh of a tram turning near Barona iela, the suspicious hum of a trolleybus pretending to be on schedule, and the unique braking cry that tells every Latvian adult their afternoon plans are over.”
+
+The proposal has received broad support from older residents, many of whom said they have been informally practicing silence-based transit forecasting since the late 1980s. “Young people look at apps. I listen to the rails,” said 74-year-old Teika resident Aivars Bērziņš, who claims he can identify all six central tram lines by vibration alone. “Line 11 has a confident sound. Tram 6 arrives like a person who forgot why they entered the room.”
+
+Not everyone is pleased. The Latvian Association of Small Appliance Café Owners warned that the restrictions could damage the city’s growing specialty coffee sector. “Our grinders are part of Riga’s identity,” said association chair Elīna Dreimane, standing beside a machine she described as “artisan but furious.” “If we remove urban café noise, what are we preserving? Cobblestones and anxiety?”
+
+Business owners in Jurmala have also expressed concern that the program could spread westward. A coalition of seaside restaurateurs issued a statement saying mandated silence would create “dangerous conditions in which visitors may begin noticing actual prices.”
+
+Still, city officials insist the policy is rooted in evidence. Municipal sensors placed at 43 intersections this spring found that in moments of relative quiet, average commuter confidence rose by 18%, while incidents of people stepping into the street muttering “it should be here by now” fell by nearly a third. In one controlled test near the Central Market, silence allowed twelve separate pedestrians to correctly identify an approaching tram from 600 meters away, though two were later found to be reacting to a delivery van and one to “a memory from Soviet childhood.”
+
+Transport sociologist Mārtiņš Grava of the Baltic Institute for Urban Rhythms said the initiative reflects a deeper regional truth. “In Latvia, public silence is not emptiness,” he explained. “It is infrastructure. It is how we measure time, suspicion, and whether winter has begun emotionally.”
+
+If the pilot succeeds, officials say future phases may include “Quiet Sundays” in Old Riga and a subsidized municipal listening bench near the National Theatre. For now, residents are being urged to cooperate, lower their voices, and avoid revving engines unnecessarily.
+
+“At first it may feel unfamiliar,” said Ozoliņa. “But if this city can survive five months of slush, three years of roadworks, and every conversation that starts with ‘I know a shortcut,’ it can survive two quiet hours a day.”`,
+      lv: `RĪGA — Rīgas dome vēlu otrdien nobalsoja par galvaspilsētas pirmo municipāli īstenoto “Oficiālo klusuma stundu” izveidi — divu stundu pēcpusdienas periodu, kura laikā iedzīvotāji tiek aicināti pārtraukt nevajadzīgu troksni un, ja iespējams, stāvēt ļoti klusi pie krustojumiem, lai noskaidrotu, vai tramvajs Nr. 6 patiešām tuvojas.
+
+Jaunā politika, kas septembrī sāksies kā sešu mēnešu pilots, tika apstiprināta ar 38–19 balsīm pēc tam, kad transporta plānotāji prezentēja 214 lappušu ziņojumu, kurā secināts, ka 71% rīdzinieku “orientējas pa pilsētu ne tik daudz pēc sarakstiem, cik pēc garīgās akustikas”. Ziņojumā arī teikts, ka daudzi braucēji vairs neuzticas oficiālajai tramvaja aplikācijai, kuru viens respondents raksturojis kā “optimistisku tādā veidā, kas šķiet personisks”.
+
+Saskaņā ar plānu, darbi ar urbi, dekoratīvi akordeona priekšnesumi uz ielas un “emocionāli pārspīlētas” espresso mašīnas būs aizliegtas darba dienās no 14:00 līdz 16:00. Dzīvokļu iedzīvotāji centrālajos rajonos arī tiks aicināti atlikt strīdus par mantojumu, radiatoriem vai par to, vai onkulis no Cēsīm sēnes bija pareizi uzglabājis.
+
+Deputātmēre Linda Ozoliņa nosauca šo pasākumu par “praktisku ieguldījumu pilsētas klausīšanās spējā”. Runājot ar žurnālistiem pie Rātsnama, viņa sacīja, ka klusuma logs palīdzēs iedzīvotājiem uztvert smalkas, bet vitāli svarīgas transporta kustības pazīmes, tostarp “tramvaja metālisko nopūtumu, kad tas griežas pie Barona ielas, trolejbusa aizdomīgo zūdoņu, kas mēģina izlikties par punktuālu, un unikālo bremzēšanas kliedzienu, kas katram latvietim saka, ka pēcpusdienas plāni beigušies.”
+
+Priekšlikumu plaši atbalstījuši vecāka gadagājuma iedzīvotāji, daudzi apgalvo, ka klusuma bāzētu satiksmes prognozēšanu neoficiāli praktizē kopš 1980. gadu beigām. “Jaunie skatās aplikācijās. Es klausos sliedēs,” sacīja 74 gadus vecais Teikas iedzīvotājs Aivars Bērziņš, kurš apgalvo, ka spēj identificēt visas sešas centrālās tramvaja līnijas pēc vibrācijām vien. “11. līnijai ir pārliecināts skanējums. Tramvajs Nr. 6 pienāk kā cilvēks, kurš aizmirsis, kāpēc viņš ienāca istabā.”
+
+Ne visi ir sajūsmā. Latvijas Mazo Kafejnīcu Kafijas Aparātu Īpašnieku asociācija brīdināja, ka ierobežojumi var kaitēt pilsētas augošajam speciālās kafijas sektoram. “Mūsu dzirnaviņas ir Rīgas identitātes daļa,” sacīja asociācijas vadītāja Elīna Dreimane, stāvot blakus mašīnai, ko viņa raksturoja kā “meistardarbu, bet niknu”. “Ja mēs izņemsim pilsētas kafejnīcu troksni, ko tad mēs saglabājam? Akmens bruģi un trauksmi?”
+
+Biznesa īpašnieki Jūrmalā arī izteikuši bažas, ka programma var izplatīties uz rietumiem. Jūras restorānu saimnieku koalīcija izdeva paziņojumu, ka noteikts klusums radītu “bīstamas situācijas, kurās apmeklētāji var sākt pamanīt reālas cenas.”
+
+Tomēr pašvaldības pārstāvji uzsver, ka politika balstīta pierādījumos. Šovasar pašvaldības sensori, izvietoti 43 krustojumos, konstatēja, ka relatīva klusuma brīžos vidējā braucēju pārliecība pieauga par 18%, kamēr gadījumu skaits, kad cilvēki izgāja uz ielas murminot “tam te jābūt tagad”, saruka gandrīz par trešdaļu. Vienā kontrolētā testā pie Centrālā tirgus klusums ļāva divpadsmitiem atsevišķu gājēju pareizi identificēt tuvojošos tramvaju no 600 metru attāluma, lai gan vēlāk tika noskaidrots, ka divi reaģējuši uz piegādes furgonu un viens — uz “atmiņu no Padomju bērnības”.
+
+Transporta sociologs Mārtiņš Grava no Baltijas Pilsētas Ritma institūta sacīja, ka iniciatīva atspoguļo dziļāku reģionālu patiesību. “Latvijā publiskais klusums nav tukšums,” viņš skaidroja. “Tas ir infrastruktūra. Tā mēs mērām laiku, aizdomas un to, vai ziema emocionāli ir sākusies.”
+
+Ja pilots izrādīsies veiksmīgs, amatpersonas saka, ka nākamajos posmos varētu iekļaut “Klusās svētdienas” Vecrīgā un līdzfinansētu pašvaldības klausīšanās soliņu pie Nacionālā teātra. Līdz tam iedzīvotāji tiek aicināti sadarboties, samazināt balsis un izvairīties no nevajadzīgas skaņas pieplūduma, piemēram, motoru rūkoņa.
+
+“Sākumā tas var šķist nepierasti,” sacīja Ozoliņa. “Bet ja šī pilsēta var izturēt piecus mēnešus putru, trīs gadus ceļu remontu un katru sarunu, kas sākas ar ‘Es zinu īsinājumu’, tā var izturēt divas klusuma stundas dienā.”`,
+      ru: `РИГА — Во вторник поздно вечером Рижская городская дума проголосовала за создание первых в столице муниципально регулируемых «официальных часов тишины» — двухчасового дневного окна, в течение которого жителям рекомендуется перестать производить ненужный шум и, по возможности, стоять очень неподвижно у перекрёстков, чтобы определить, действительно ли приближается трамвай №6.
+
+Новая мера, которая начнёт действовать в виде шестимесячного пилота в сентябре, была принята голосами 38–19 после того, как транспортные планировщики представили 214-страничный доклад с выводом, что 71% рижан «ориентируются в городе теперь скорее по духовной акустике, чем по расписаниям». По данным отчёта, многие пассажиры больше не доверяют официальному приложению трамвая, которое один из респондентов охарактеризовал как «оптимистичное так, что это как будто лично на тебя». 
+
+В соответствии с планом, сверление в строительстве, «декоративные» уличные выступления на аккордеоне и работа «эмоционально чрезмерных» эспрессо‑машин будут запрещены по будням с 14:00 до 16:00. Жильцов квартир в центральных районах также попросят откладывать споры, касающиеся наследства, батарей или того, правильно ли были хранены грибы от дяди из Цесиса.
+
+Вице‑мэр Линда Озолиня назвала меру «практичной инвестицией в городское слушание». Отвечая на вопросы журналистов у ратуши, она заявила, что окно тишины поможет гражданам улавливать тонкие, но важные признаки движения транспорта, включая «металлический вздох трамвая при повороте на улице Барона, подозрительное гудение троллейбуса, притворяющегося пунктуальным, и уникальный крик тормозов, который говорит каждому латвийскому взрослому: ваши планы на вечер окончены». 
+
+Предложение получило широкую поддержку у пожилых жителей, многие из которых говорят, что неформально практикуют прогнозирование прихода транспорта по тишине с конца 1980‑х. «Молодёжь смотрит в приложения. Я слушаю рельсы», — сказал 74‑летний житель Тейки Айварс Берзиньш, утверждающий, что может узнать все шесть центральных трамвайных линий только по вибрации. «Линия 11 звучит уверенно. Трамвай №6 появляется как человек, который забыл, зачем вошёл в комнату». 
+
+Не всем это по душе. Латвийская ассоциация владельцев кофеен малого бытового формата предупредила, что ограничения могут навредить растущему рынку speciality‑кофе в городе. «Наши кофемолки — часть идентичности Риги», — сказала председатель ассоциации Элина Дреймане, стоя рядом с машиной, которую она охарактеризовала как «арт‑десятельную, но свирепую». «Если мы уберём городской кофейный шум, что мы тогда сохраняем? Булыжники и тревогу?»
+
+Предприниматели в Юрмале также выразили опасения, что программа может распространиться на запад. Коалиция прибрежных рестораторов выпустила заявление, в котором говорится, что обязательная тишина создаст «опасные условия, в которых посетители могут вдруг заметить реальные цены». 
+
+Тем не менее городские чиновники настаивают, что политика основана на фактах. Муниципальные датчики, установленные этой весной на 43 перекрёстках, показали, что в моменты относительной тишины средняя уверенность пассажиров возрастала на 18%, а случаи, когда люди выходили на проезжую часть, бормоча «он уже должен быть здесь», снижались почти на треть. В одном контролируемом тесте возле Центрального рынка тишина позволила двенадцати пешеходам правильно распознать приближающийся трамвай с расстояния 600 метров, хотя двое позже признались, что реагировали на фургон доставки, а один — на «воспоминание из советского детства». 
+
+Транспортный социолог Мартинш Грава из Балтийского института городских ритмов сказал, что инициатива отражает более глубокую региональную истину. «В Латвии общественная тишина — это не пустота, — объяснил он. — Это инфраструктура. Это то, как мы меряем время, подозрение и началась ли зима эмоционально». 
+
+Если пилот окажется успешным, чиновники говорят, что будущие этапы могут включать «тихие воскресенья» в Старой Риге и субсидированную муниципальную скамью для слушания возле Национального театра. Пока жителей просят сотрудничать, не повышать голоса и избегать необоснованного ревения моторов. 
+
+«Поначалу это может показаться непривычным, — сказала Озолиня. — Но если этот город пережил пять месяцев слякоти, три года дорожных работ и каждый разговор, начинающийся со слов «я знаю короткую дорогу», он выдержит и два тихих часа в день».`
+    },
+    date: "Apr 25, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/136/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 135,
     slug: "riga-introduces-passive-aggression-lanes-to",
     title: {
@@ -108,7 +195,7 @@ Vakara stundā vairāki iedzīvotāji sāka lietot jaunas joslas bez acīmredzam
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/135/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 134,
