@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 137,
+    slug: "riga-residents-asked-to-declare-emotional",
+    title: {
+      en: "Riga Residents Asked To Declare Emotional Support Cobblestones Before Entering Old Town",
+      lv: "Rīdzinieki aicināti deklarēt emocionālās atbalsta bruģakmeņus pirms iekļūšanas Vecrīgā",
+      ru: "Жителей Риги попросили декларировать булыжники эмоциональной поддержки перед входом в Старый город"
+    },
+    excerpt: {
+      en: "In a move officials say will streamline heritage management, Riga City Council has introduced a new registration system for citizens who have formed meaningful attachments to specific cobblestones in Vecrīga. The measure follows years of unregulated lingering, pointing, and saying, “This one understands me.”",
+      lv: "Kā solot vienkāršot kultūras mantojuma pārvaldību, Rīgas dome ieviesusi jaunu reģistrācijas sistēmu pilsoņiem, kuri veidojuši jēgpilnas saiknes ar konkrētiem bruģakmeņiem Vecrīgā. Pasākums seko gadiem ilgam neregulētam kavēšanās, norādīšanas un frāzes “Šis mani saprot” lietojumam.",
+      ru: "В попытке, как заявляют чиновники, упростить управление наследием, Рижская городская дума ввела новую систему регистрации для граждан, установивших значимые привязанности к конкретным булыжникам в Вецриге. Мера последовала за годами нерегулируемого задерживания на месте, указаний пальцем и фразы «Этот меня понимает»."
+    },
+    fullContent: {
+      en: `RIGA — Beginning Monday, residents entering Old Town with a preferred cobblestone, sentimental paving segment, or “historically significant stepping stone companion” will be required to register it through a new municipal portal, according to Riga City Council’s Department of Surface Relations.
+
+The pilot program, officially titled the Individual Cobblestone Affiliation and Responsible Standing Initiative, was approved after a 7-hour committee session in which planners reviewed what they called “an unsustainable rise in intimate pavement behavior.” The city says the problem intensified during the pandemic, when thousands of residents, deprived of normal social contact, began revisiting the same stretch of medieval street each evening “to feel judged by something stable.”
+
+Under the new rules, residents may nominate up to two emotional support cobblestones per household, though only one may be designated as primary for tax purposes. Owners must submit a recent photograph, approximate dimensions, and a short personal statement explaining the nature of the bond. Applications involving stones “that were there before the applicant’s breakup” will be fast-tracked.
+
+“This is not about bureaucracy. It is about clarity,” said Acting Deputy Chairwoman for Civic Texture Ilze Biteniece at a press conference held on a visibly uneven section of Mārstaļu iela. “For too long, people have approached random stones without commitment. We are a European capital. We need order, and, where possible, laminated permits.”
+
+City data suggest the emotional cobblestone sector has expanded rapidly. A municipal survey of 1,200 Riga residents found that 38% could identify “their” stone with eyes closed, 22% reported changing walking routes to visit it, and 11% said they trusted a particular cobblestone more than their family doctor. Among men aged 34 to 49, that number rose to 19%, or 31% in neighborhoods with artisanal coffee.
+
+Not all residents oppose the measure. “I’m relieved, honestly,” said 41-year-old accountant and Purvciems resident Mārtiņš Liepa, clutching a folded printout of what he described as “a broad, emotionally available specimen near St. Peter’s.” “People think you can just arrive and stand on any stone. No. This one has supported me through inflation, two winters without proper sunlight, and an unsuccessful attempt at sourdough.”
+
+Others worry the rules will create inequality between established cobblestone families and younger residents priced out of the historic center. University student Alise Ozola said she has been forced into a “situationship” with a brick edge near a drainage grate because all desirable stones were effectively claimed by older professionals in 2021. “You can’t build a future on a transitional surface,” she said.
+
+The National Cultural Heritage Board has cautiously endorsed the program, though it urged residents not to over-identify with polished stones in tourist-heavy areas, warning these are often “performative” and unable to provide long-term grounding. Meanwhile, several businesses have already adapted. One Vecrīga boutique now sells hand-knitted cobblestone covers for winter, while a therapy practice near Dome Square offers guided separation counseling for those whose stone has been lifted during infrastructure works.
+
+Jūrmala officials are monitoring the scheme with interest. A spokesman confirmed the resort city is considering a summer trial involving registered emotional support dunes, though he admitted enforcement may be difficult “because they keep moving and, in some cases, withholding affection.”
+
+At City Hall, officials insisted the system would remain light-touch, with fines imposed only in serious cases of duplicate attachment, fraudulent nostalgia, or standing for more than 40 minutes on a heritage stone without visible introspection. By late afternoon, however, the registration website had already crashed after users rushed to secure several highly sought-after cobblestones near Livu Square, suggesting that, even in a digital age, Latvians still know the value of something ancient, difficult, and slightly hostile underfoot.`,
+      lv: `RĪGA — Sākot ar pirmdienu, iedzīvotāji, kas iekļūst Vecrīgā ar iemīļotu bruģakmeni, sentimentālu seguma posmu vai „vēsturisku nozīmi nesošu soļakmens kompanjonu”, būs jāreģistrē tas jaunajā pašvaldības portālā, paziņoja Rīgas domes Virsmu attiecību nodaļa.
+
+Pilotprogramma, oficiāli saukta par Individuālās bruģakmens piesaistes un atbildīgas stāvēšanas iniciatīvu, tika apstiprināta pēc septiņu stundu komitejas sēdes, kurā plānotāji izskatīja to, ko nosauca par „neilgtspējīgu tuvības uzvedības pieaugumu uz segumiem”. Pilsēta apgalvo, ka problēma pastiprinājās pandēmijas laikā, kad tūkstošiem iedzīvotāju, atņemti no normāla sociālā kontakta, katru vakaru sāka atkārtoti ieiet vienā un tajā pašā viduslaiku ielas posmā „lai justos tiesāti pēc kaut kā stabila”.
+
+Saskaņā ar jaunajiem noteikumiem katrā mājsaimniecībā drīkst nominēt līdz diviem emocionālās atbalsta bruģakmeņiem, lai gan nodokļu nolūkos primārs var tikt norādīts tikai viens. Pieteikumā jāiesniedz nesena fotogrāfija, aptuvenie izmēri un īss personisks paskaidrojums, kas izskaidro saiknes dabu. Pieteikumi, kuros minēti akmeņi „kas tur bija pirms pieteicēja šķiršanās”, tiks apstrādāti paātrināti.
+
+„Neskatoties uz izskatu, tas nav birokrātijas jautājums. Tas ir skaidrības jautājums,” preses konferencē, kas notika redzami nevienmērīgā Mārstaļu ielas posmā, sacīja pilsēttekstūras izpildvietniece Ilze Biteniece. „Pārāk ilgi cilvēki ir tuvoties nejaušiem akmeņiem bez apņemšanās. Mēs esam Eiropas galvaspilsēta. Mums vajadzīga kārtība un, kur iespējams, laminētas atļaujas.”
+
+Pilsētas dati liecina, ka emocionālo bruģakmeņu sektors ir strauji paplašinājies. Pašvaldības aptauja, kurā piedalījās 1200 rīdzinieku, atklāja, ka 38% spēja identificēt „savu” akmeni ar aizvērtām acīm, 22% ziņoja, ka mainījuši maršrutus, lai to apciemotu, un 11% sacīja, ka uzticas konkrētam bruģakmenim vairāk nekā savai ģimenes ārstei. Vīriešiem vecumā no 34 līdz 49 gadiem šis rādītājs pieauga līdz 19%, bet rajonos ar specializētajām kafijas vietām — līdz 31%.
+
+Ne visi iedzīvotāji iebilst pret pasākumu. „Godīgi sakot, man atvieglojās,” sacīja 41 gadu vecais grāmatvedis un Purvciema iedzīvotājs Mārtiņš Liepa, turot rokās salocītu izdruku ar to, ko viņš raksturoja kā „plašu, emocionāli pieejamu eksemplāru pie Sv. Pētera baznīcas”. „Cilvēki domā, ka vari vienkārši ierasties un stāvēt uz jebkura akmens. Nē. Šis mani atbalstīja inflācijas laikā, divas ziemas bez pienācīgas saules gaismas un neveiksmīga skābmaizes mēģinājuma laikā.”
+
+Citi bažījas, ka noteikumi radīs nevienlīdzību starp iedzīvotāju „bruģakmens ģimenēm” un jaunākiem iedzīvotājiem, kuriem vēsturiskais centrs ir kļuvuši nepieejams cenu dēļ. Studentjauniete Alise Ozola stāstīja, ka viņai nācies nokļūt „situationship” jeb neizteiktā attiecību situācijā ar ķieģeļmalu pie notekas, jo visi pieprasītie akmeņi 2021. gadā praktiski tika rezervēti vecākiem profesionāļiem. „Tu nevarēsi būvēt nākotni uz pārejas seguma,” viņa teica.
+
+Nacionālā kultūras mantojuma pārvalde piesardzīgi atbalstīja programmu, tomēr brīdināja iedzīvotājus nepāridentificēties ar pulētiem akmeņiem tūristu pārblīvētajās teritorijās, norādot, ka tie bieži ir „performatīvi” un nespēj nodrošināt ilgtermiņa psiholoģisku nostiprinājumu. Tikmēr vairāki uzņēmumi jau pielāgojušies: viens Vecrīgas butiks tagad pārdod adītus bruģakmeņu pārsegniekus ziemai, savukārt terapijas prakse pie Doma laukuma piedāvā vadītu atdalīšanās konsultāciju tiem, kuru akmens ticis noņemts infrastruktūras darbu laikā.
+
+Jūrmalas pārstāvji ar interesi seko līdzi shēmai. Pilsētas pārstāvis apstiprināja, ka kūrortpilsēta apsver vasaras izmēģinājumu ar reģistrētām emocionālajām atbalsta kāpām, lai gan viņš atzina, ka izpilde varētu būt sarežģīta „jo tās pastāvīgi kustas un dažos gadījumos atturas izrādīt maigumu”.
+
+Rātsnamā amatpersonas uzsvēra, ka sistēma paliks samērā viegla — naudas sodi tiks piemēroti tikai gadījumos, kad konstatē dublētu piesaisti, viltotu nostalģiju vai stāvēšanu ilgāk par 40 minūtēm uz mantojuma akmens bez acīmredzamas introspekcijas. Tomēr vēlāk pēcpusdienā reģistrācijas vietne jau bija sabrukusi, kad lietotāji steidzīgi centās pieteikt vairākus ļoti pieprasītus bruģakmeņus pie Līvu laukuma, kas liecina, ka pat digitālajā laikmetā latvieši joprojām zina vērtību tam, kas ir sen, grūti pieejams un nedaudz naidīgs zem kājām.`,
+      ru: `РИГА — С понедельника жители, входящие в Старый город с любимым булыжником, сентиментальным участком мощения или «исторически значимым спутником для шага» будут обязаны регистрировать его через новый муниципальный портал, сообщает Департамент поверхностных отношений Рижской думы.
+
+Пилотная программа, официально получившая название «Инициатива индивидуальной привязанности к булыжнику и ответственного стояния», была одобрена после семичасового заседания комитета, на котором планировщики разбирали то, что они назвали «неустойчивым ростом интимного поведения по отношению к покрытию улиц». По словам города, проблема обострилась во время пандемии, когда тысячи жителей, лишённые обычных социальных контактов, начали каждый вечер возвращаться на один и тот же участок средневековой улицы «чтобы почувствовать осуждение со стороны чего‑то неизменного». 
+
+В соответствии с новыми правилами домохозяйству разрешается заявлять до двух булыжников эмоциональной поддержки, хотя для налоговых целей только один может быть признан основным. Владельцы должны предоставить недавнюю фотографию, приблизительные размеры и короткое личное заявление, объясняющее характер привязанности. Заявки, касающиеся камней «которые были там до расставания заявителя», будут рассмотрены в ускоренном порядке.
+
+«Речь не о бюрократии. Речь о ясности», — заявила исполняющая обязанности заместительницы председателя по гражданской текстуре Илзе Битенеце на пресс‑конференции, прошедшей на заметно неровном участке Mārstaļu iela. «Слишком долго люди подходили к случайным камням без обязательств. Мы — европейская столица. Нам нужен порядок и, по возможности, ламинированные разрешения». 
+
+Муниципальные данные говорят о стремительном росте сектора эмоциональных булыжников. Муниципальный опрос 1 200 рижан показал, что 38% могли опознать «свой» камень с закрытыми глазами, 22% изменяли маршруты прогулок, чтобы его навестить, а 11% сказали, что доверяют конкретному булыжнику больше, чем своему семейному врачу. Среди мужчин в возрасте от 34 до 49 лет этот показатель поднимался до 19%, а в районах с «артесанским кофе» — до 31%.
+
+Не все жители выступают против меры. «Честно говоря, я вздохнул с облегчением», — сказал 41‑летний бухгалтер из Пурвциемса Мартиньш Лиепа, сжав в руках сложенную распечатку того, что он описал как «широкий, эмоционально доступный экземпляр у собора Святого Петра». «Люди думают, что можно просто прийти и встать на любой камень. Нет. Этот поддерживал меня через инфляцию, два зимних сезона без нормального солнца и неудачную попытку с закваской». 
+
+Другие опасаются, что правила создадут неравенство между устоявшимися «семьями булыжников» и молодыми жителями, вытесненными из исторического центра. Студентка Алисе Озола рассказала, что вынуждена поддерживать «неформальные отношения» с кромкой кирпича рядом с водосточной решёткой, потому что все желанные камни по сути были заняты старшими профессионалами ещё в 2021 году. «На переходной поверхности нельзя строить будущее», — сказала она.
+
+Национальное управление культурного наследия сдержанно одобрило программу, но призвало жителей не слишком отождествлять себя с полированными камнями в туристических зонах, предупреждая, что те часто «показные» и не способны обеспечить долгосрочную опору. Тем временем ряд бизнесов уже адаптировался: один бутиковый магазин в Вецриге теперь продаёт вязаные вручную чехлы для булыжников на зиму, а практика терапии у Домской площади предлагает сопровождение при разрыве привязанности для тех, чей камень вынесли в ходе инфраструктурных работ.
+
+В Юрмале с интересом наблюдают за схемой. Представитель курорта подтвердил, что город рассматривает летний пилот с зарегистрированными дюнами эмоциональной поддержки, хотя признал, что исполнение может оказаться затруднительным «потому что они постоянно двигаются и, в некоторых случаях, отказывают в привязанности». 
+
+В мэрии настаивали, что система останется «лёгкой на ощупь»: штрафы будут применяться только в серьёзных случаях дублирующих привязанностей, мошеннической ностальгии или стояния более 40 минут на историческом камне без видимых признаков интроспекции. К вечеру же сайт регистрации уже рухнул после того, как пользователи ринулись закрепить за собой несколько очень востребованных булыжников у Площади Ливу, что, по‑всякому, говорит о том, что даже в цифровую эпоху латвийцы всё ещё ценят нечто древнее, тяжело воспринимаемое и слегка враждебное под ногами.`
+    },
+    date: "Apr 26, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/137/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 136,
     slug: "riga-introduces-official-silence-hours-so",
     title: {
@@ -102,7 +183,7 @@ Ja pilots izrādīsies veiksmīgs, amatpersonas saka, ka nākamajos posmos varē
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/136/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 135,
