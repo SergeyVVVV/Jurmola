@@ -18,6 +18,105 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 138,
+    slug: "riga-introduces-mandatory-11-minute-silence",
+    title: {
+      en: "Riga Introduces Mandatory 11-Minute Silence So Residents Can Hear Whether Someone Is Renovating Illegally",
+      lv: "Rīga ievieš obligātu 11 minūšu klusumu, lai iedzīvotāji varētu sadzirdēt, vai kāds remontē nelikumīgi",
+      ru: "Рига вводит обязательную 11‑минутную тишину, чтобы жители могли услышать, незаконно ли у кого-то ремонт"
+    },
+    excerpt: {
+      en: "In an effort to preserve civic trust and identify the source of what officials described as “the same drilling since 2019,” Riga City Council has approved a daily 11-minute silence across the capital. Authorities say the pause will allow citizens to distinguish birdsong, tram brakes, and unauthorized bathroom expansion behind load-bearing walls.",
+      lv: "Lai saglabātu sabiedrisko uzticēšanos un noteiktu avotu tam, ko ierēdņi nosauca par “to pašu urbšanu kopš 2019. gada”, Rīgas dome ir atbalstījusi ikdienas 11 minūšu klusumu visā galvaspilsētā. Pārvaldē skaidro, ka pārtraukums ļaus iedzīvotājiem atšķirt putnu čivināšanu, tramvaja bremzes un neatļautu vannasistabas paplašināšanu aiz nesošajām sienām.",
+      ru: "В попытке сохранить общественное доверие и выяснить источник того, что чиновники назвали «того самого сверления с 2019 года», Рижская городская дума одобрила ежедневную 11‑минутную тишину по всему городу. По словам властей, пауза позволит гражданам различать пение птиц, скрип тормозов трамвая и несанкционированное расширение ванной за несущими стенами."
+    },
+    fullContent: {
+      en: `RIGA — Beginning next Monday, all non-essential sound in Riga will be suspended each day from 14:07 to 14:18 under a new municipal program aimed at helping residents detect illegal renovations occurring in apartment buildings across the city.
+
+The initiative, formally titled the Urban Acoustic Transparency Interval, was passed late Thursday after a six-hour council debate in which members repeatedly paused to ask whether the drilling audible from the chamber ceiling was “symbolic” or “actionable.” The measure applies to traffic idling, leaf blowers, Bluetooth speakers on public transport, and what the city categorized as “emotionally unnecessary shouting from courtyards.”
+
+Deputy Mayor for Housing and Audible Order Ilze Vītola said the program was developed after a pilot study in Teika found that 83% of residents were convinced someone in their building had been renovating continuously for between four and seventeen years, despite no permits having been issued.
+
+“People know the sound,” Vītola told reporters while standing beside a laminated diagram of a drill bit. “It begins at 08:12, stops for exactly nine minutes at 11:40, then resumes whenever a neighbor attempts to take a call. This is not construction. This is a parallel form of weather.”
+
+Under the new rules, buses and trams will glide to designated “listening positions” during the silence, while cafés must temporarily stop grinding coffee and frothing milk. Church bells are exempt only if rung in a manner city experts describe as “non-competitive.” Dog owners are encouraged to reassure their pets in advance.
+
+Residents will be asked to open one window, remain still, and listen for suspicious acoustic signatures including tile saws, hollow hammering, and the phrase “it should be fine” spoken by a man named Ruslans or possibly Aigars. If a likely violation is detected, citizens may file a report through the new mobile app Kurš Tur Urbj? (“Who’s Drilling There?”), which uses geolocation and what officials call “collective annoyance mapping.”
+
+At a demonstration in Purvciems, municipal inspectors played recordings of lawful and unlawful renovation sounds for a group of pensioners, who identified the illegal examples with 96% accuracy and one of the lawful examples as “definitely from the building next to my niece.”
+
+Local resident and amateur curtain observer Maija Vēvere, 68, welcomed the policy. “For three winters I have heard ceramic-related suffering from somewhere above, below, or morally adjacent,” she said. “If this silence gives us answers, I am prepared to stand in my kitchen like a statue every day.”
+
+Not everyone is convinced. The Latvian Association of Small Contractors criticized the plan as stigmatizing ordinary craftsmanship. Spokesman Oskars Blūms said many legitimate builders now fear being “profiled by rhythm.”
+
+“Sometimes a man taps a pipe six hundred times because that is his process,” Blūms said. “In Latvia we used to respect that.”
+
+To support the rollout, the city has allocated €740,000 for acoustic training, public signage, and 12 part-time “district listeners,” who will patrol neighborhoods wearing beige vests and maintaining what procurement documents describe as “a neutral yet disappointed expression.” In quieter parts of Mežaparks, the silence may be extended if inspectors suspect attic sauna installation.
+
+Officials say the policy could later expand to Jurmala, where authorities face separate complaints involving deck sanding, mysterious pergola emergence, and one beachfront property believed to be constructing a third floor “through confidence alone.”
+
+As of Friday morning, Riga residents had already begun preparing for the first official listening interval by accusing each other preemptively in building WhatsApp groups, suggesting the city’s goal of enhanced civic participation has, at minimum, been achieved.`,
+      lv: `RĪGA — Sākot no nākamās pirmdienas, visos nepārvērtējamajos skaņas avotos Rīgā tiks uz laiku apturēta darbība katru dienu no pulksten 14:07 līdz 14:18 jaunā pašvaldības programmā, kas paredzēta, lai palīdzētu iedzīvotājiem atklāt nelegālas būvdarbu pazīmes daudzdzīvokļu mājās visā pilsētā.
+
+Iniciatīva, oficiāli nosaukta par Pilsētas akustiskās caurredzamības intervālu, piektdienas vakarā tika pieņemta pēc sešu stundu domes debates, kuru laikā deputāti vairākkārt pārstāja, lai apspriestu, vai no zāles griestiem dzirdamā urbšana ir “simbole” vai “darbspējīga”. Šis pasākums attiecas uz transportlīdzekļu tukšgaitu, lapu pūtējiem, Bluetooth skaļruņiem sabiedriskajā transportā un to, ko pilsēta klasificējusi kā “emocionāli nevajadzīgu kliegšanu no pagalmiem”.
+
+Mājokļu un skaņas kārtības vicemēre Ilze Vītola sacīja, ka programma izstrādāta pēc pilotpētījuma Teikā, kurā atklājās, ka 83% iedzīvotāju bija pārliecināti — kāds viņu mājā nepārtraukti remontē jau no četriem līdz septiņpadsmit gadiem, kaut gan nav izsniegts neviens būvatļaujas ieraksts.
+
+"Cilvēki pazīst šo skaņu," Vītola sacīja žurnālistiem, stāvot blakus laminētai urbja zoba shēmai. "Tā sākas pulksten 08:12, apstājas tieši uz deviņām minūtēm pulksten 11:40, pēc tam atsākas ikreiz, kad kaimiņš mēģina atbildēt uz zvanu. Tas nav būvdarbs. Tā ir paralēla laika apstākļu forma."
+
+Saskaņā ar jaunajiem noteikumiem autobusi un tramvaji klusuma laikā slīdēs uz noteiktajām “klausīšanās pozīcijām”, savukārt kafejnīcām būs uz laiku jāpārtrauc kafijas malšana un piena putošana. Baznīcu zvani ir atbrīvoti tikai tad, ja tos zvana tādā manierē, ko pilsētas eksperti raksturo kā “nekonkurējošu”. Suņu īpašniekiem ieteikts iepriekš nomierināt savus mīluļus.
+
+Iedzīvotājiem tiks lūgts atvērt vienu logu, palikt nekustīgi un ieklausīties aizdomīgos akustiskos raksturlielumos, tostarp flīžu zāģos, dobiem āmurēšanas toņiem un frāzē “tam vajadzētu būt ok”, ko izrunā vīrietis vārdā Ruslans vai, iespējams, Aigars. Ja tiks konstatēta ticama pārkāpuma pazīme, iedzīvotāji varēs iesniegt ziņojumu jaunajā mobilajā lietotnē Kurš Tur Urbj?, kas izmanto ģeolokāciju un to, ko ierēdņi sauc par “kolektīvās kaitinājuma kartēšanu”.
+
+Purvciemā notikušā demonstrācijā pašvaldības inspektori pensionāru grupai atskaņoja likumīgu un nelikumīgu remontdarbu ierakstus; pensionāri nelikumīgos piemērus atpazina ar 96% precizitāti, un vienu no likumīgajiem ierakstiem pieteica kā “noteikti no mājas blakus manas māsīcas”.
+
+Vietējā iedzīvotāja un amatiera aizkaru vērotāja Maija Vēvere, 68 gadi, atzina politiku par apsveicamu. “Trīs ziemas esmu dzirdējusi keramiskās ciešanas no kaut kur augšā, apakšā vai morāli blakus,” viņa sacīja. “Ja šis klusums mums dos atbildes, esmu gatava katru dienu stāvēt savā virtuvē kā statuja.”
+
+Ne visi ir pārliecināti. Latvijas Mazā Būvuzņēmēju asociācija kritizēja plānu kā parastā amatniecības stigmatizēšanu. Pārstāvis Oskars Blūms sacīja, ka daudzi likumīgi būvnieki tagad baidās tikt “profilēti pēc ritma”.
+
+“Dažkārt vīrietis nosit uz caurules sešsimt reizes, jo tā ir viņa darba metode,” sacīja Blūms. “Latvijā mēs to reiz cienījām.”
+
+Lai atbalstītu ieviešanu, pilsēta ir atvēlējusi 740 000 eiro akustiskai apmācībai, informatīvajiem stendiem un 12 nepilna laika “rajona klausītājiem”, kuri patrulēs apkaimēs, tērpušies bēšos vestēs un uzturēs to, ko iepirkuma dokumenti raksturo kā “neitrālu, tomēr vīlušos izteiksmi”. Klusākās Mežaparka daļās klusums var tikt pagarināts, ja inspektori aizdomāsies par bēniņu saunas ierīkošanu.
+
+Ierēdņi norāda, ka politika vēlāk varētu tikt paplašināta arī uz Jūrmalu, kur varasiestādes sastopas ar atsevišķiem sūdzību gadījumiem par klāju slīpēšanu, noslēpumainu pergolas parādīšanos un vienu piejūras īpašumu, par kura trešā stāva būvēšanu tiek spriests, ka tā notiek “tikai ar pārliecību”.
+
+Piektdienas rītā Rīgas iedzīvotāji jau bija sākuši gatavoties pirmajam oficiālajam klausīšanās intervālam, savstarpēji viens otru preventīvi apsūdzot ēku WhatsApp grupās, kas liecina — pilsētas mērķis stiprināt pilsonisko līdzdalību vismaz daļēji ir sasniegts.`,
+      ru: `РИГА — Начиная со следующего понедельника во всей Риге каждый день с 14:07 до 14:18 будет приостанавливаться весь несущественный звук в рамках новой муниципальной программы, призванной помочь жителям выявлять незаконные ремонтные работы в многоквартирных домах по всему городу.
+
+Инициатива, официально получившая название Городской интервал акустической прозрачности, была принята в поздний четверг после шестичасовых обсуждений в думе, во время которых депутаты неоднократно делали паузы, чтобы выяснить, является ли сверление, слышное с потолка зала, «символическим» или «реальным действием». Мера распространяется на работающие на холостом ходу автомобили, воздуходувки для уборки листьев, Bluetooth‑колонки в общественном транспорте и то, что город отнёс к «эмоционально не обязательным крикам из дворов». 
+
+Заместитель мэра по жилищным вопросам и звуковому порядку Илзе Витола заявила, что программа была разработана после пилотного исследования в Тейке, где 83% жителей были убеждены, что кто‑то в их доме ремонтирует беспрерывно от четырёх до семнадцати лет, хотя разрешений не выдавалось.
+
+«Люди знают этот звук», — сказала Витола репортёрам, стоя рядом с ламинированной схемой сверла. «Он начинается в 08:12, прекращается ровно на девять минут в 11:40, а затем возобновляется всякий раз, когда сосед пытается ответить на звонок. Это не строительство. Это параллельная форма погоды». 
+
+По новым правилам автобусы и трамваи будут скользить к специально отведённым «слушательным позициям» на время тишины, а кафетерии обязаны временно приостанавливать помол кофе и вспенивание молока. Колокола церквей освобождаются от запрета только если звон осуществляется способом, который городские эксперты описывают как «неконкурентный». Владельцев собак поощряют заранее успокоить своих питомцев.
+
+Жителям предложат открыть одно окно, оставаться неподвижными и прислушиваться к подозрительным акустическим сигнатурам, включая пилу по плитке, глухие удары молотком и фразу «ну должно быть нормально», произносимую мужчиной по имени Русланс или, возможно, Айгарс. При выявлении вероятного нарушения граждане смогут подать жалобу через новое мобильное приложение Kurš Tur Urbj? («Кто там сверлит?»), которое использует геолокацию и то, что чиновники называют «картированием коллективного раздражения». 
+
+На демонстрации в Пурвциемсе муниципальные инспекторы проиграли группе пенсионеров записи законных и незаконных звуков ремонта; пенсионеры определили незаконные примеры с точностью 96% и один из законных образцов описали как «определённо из дома рядом с моей племянницей». 
+
+Местная жительница и любительница наблюдать за шторами Майя Веверe, 68 лет, приветствовала эту политику. «Три зимы подряд я слышала чьё‑то керамическое страдание откуда‑то сверху, снизу или морально рядом», — сказала она. «Если эта тишина даст нам ответы, я готова каждый день стоять на кухне как статуя». 
+
+Не все в восторге. Латвийская ассоциация мелких подрядчиков раскритиковала план как стигматизирующий обычное ремесло. Представитель Оскарс Блумc заявил, что многие легитимные строители теперь боятся «попасть в профиль по ритму». 
+
+«Иногда мужчина стучит по трубе шестьсот раз, потому что таков его процесс», — сказал Блумс. «В Латвии мы раньше уважали это». 
+
+Чтобы поддержать внедрение, город выделил €740 000 на акустическое обучение, размещение информационных табличек и 12 сотрудников‑слушателей на частичной занятости, которые будут патрулировать районы в бежевых жилетах и сохранять то, что в документах о закупке описано как «нейтральное, но разочарованное выражение лица». В более тихих частях Межапарка тишина может быть продлена, если инспекторы заподозрят установку мансардной сауны.
+
+Чиновники говорят, что политика впоследствии может распространиться на Юрмалу, где власти сталкиваются с отдельными жалобами, связанными со шлифовкой палуб, загадочным появлением пергол и одним прибрежным участком, который, по мнению заявителей, строит третий этаж «только благодаря уверенности в себе». 
+
+К утру пятницы рижане уже начали готовиться к первому официальному интервалу прослушивания, заранее обвиняя друг друга в группах дома в WhatsApp, что, по меньшей мере, свидетельствует о достижении городской цели по повышению гражданского участия.`
+    },
+    date: "Apr 28, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/138/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 137,
     slug: "riga-residents-asked-to-declare-emotional",
     title: {
@@ -96,7 +195,7 @@ Rātsnamā amatpersonas uzsvēra, ka sistēma paliks samērā viegla — naudas 
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/137/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 136,
