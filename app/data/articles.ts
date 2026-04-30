@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 140,
+    slug: "riga-introduces-mandatory-14-minute-silence",
+    title: {
+      en: "Riga Introduces Mandatory 14-Minute Silence So Residents Can Hear If Their Radiators Are Judging Them",
+      lv: "Rīga ievieš obligātu 14 minūšu klusumu, lai iedzīvotāji varētu dzirdēt, vai viņus vērtē radiatori",
+      ru: "Рига вводит обязательные 14 минут тишины, чтобы жители могли услышать, не осуждают ли их батареи"
+    },
+    excerpt: {
+      en: "In a move city officials describe as both \"culturally restorative\" and \"thermally diagnostic,\" Riga will begin enforcing a daily 14-minute period of complete silence in residential buildings this autumn. Authorities say the policy will help citizens detect suspicious radiator noises, unresolved family tension, and whether the upstairs neighbor is once again moving furniture for spiritual reasons.",
+      lv: "Kā solis, ko pilsētas amatpersonas raksturo kā gan „kultūras atjaunojošu”, gan „siltumdiagnostisku”, Rīga šoruden sāks ieviest ikdienas 14 minūšu pilnīga klusuma periodu dzīvojamajās ēkās. Varas iestādes apgalvo, ka politika palīdzēs iedzīvotājiem atklāt aizdomīgas radiatoru skaņas, neatrisinātas ģimenes spriedzes un to, vai kaimiņš augšstāvā atkal pārvieto mēbeles garīgu apsvērumu dēļ.",
+      ru: "В шаге, который чиновники описывают как одновременно «культурно восстановительный» и «термически диагностический», Рига этой осенью начнёт вводить ежедневный 14-минутный режим полной тишины в жилых домах. Власти утверждают, что политика поможет гражданам обнаруживать подозрительные звуки радиаторов, неразрешённые семейные напряжения и выяснять, не переставляет ли сосед сверху мебель по духовным соображениям."
+    },
+    fullContent: {
+      en: `RIGA — The Riga City Council voted 38–19 on Tuesday to implement a new municipal observance known as the Daily Acoustic Reflection Interval, requiring apartment residents across the capital to remain silent from 18:07 to 18:21 each evening so they may "listen carefully to the emotional condition of the building." The initiative, which begins on October 1, has already been praised by insulation experts, amateur philosophers, and one man in Purvciems who says he has been doing this voluntarily since 1998.
+
+According to the 47-page policy document, the measure is intended to address three persistent urban concerns: unidentified radiator clicking, passive-aggressive floor creaking, and a growing inability among residents under 35 to distinguish between plumbing issues and personal dread.
+
+"For years, people have been ignoring the language of prewar pipes," said Deputy Housing Chair Ilze Vītola, standing beside a diagram of an apartment wall labeled simply "mood zone." "A building speaks. First it taps, then it sighs, then eventually someone starts a Facebook group. We are intervening before that final stage."
+
+Under the rules, television sets, blenders, hallway arguments, and vacuuming of visibly clean rugs must cease during the interval. Quietly boiling potatoes remains permitted, provided the pot lid does not rattle "in an accusatory manner." The city has also issued guidance for dog owners, recommending they explain the policy to their pets in advance to reduce confusion.
+
+Municipal analysts estimate the silence period will allow residents to identify up to 63% more suspicious heating sounds and 41% more unspoken grievances. A pilot program conducted last winter in Teika and Āgenskalns found that participants correctly identified the source of recurring apartment noises only 12% of the time before the trial. After six weeks of mandatory stillness, that number rose to 68%, with a notable increase in residents accurately saying, "No, that is definitely Uldis from upstairs, and frankly he seems restless again."
+
+Not all residents are convinced. "I support civic listening in principle," said Agnese Ozoliņa, 34, a project manager from Pļavnieki. "But at 18:07 I am usually deciding whether to cook buckwheat or just stand in the kitchen and look at it. Now the city wants that moment too."
+
+Others welcomed the order as a rare chance to reconnect with the authentic soundscape of Riga apartment life. "Yesterday, during the trial, I heard a spoon fall three floors away and somehow knew it was soup-related," said pensioner Velta Krūmiņa, 72, from a building near Grīziņkalns. "That is not surveillance. That is community."
+
+To support implementation, the city will launch a mobile app, Klusums+, which sends users a notification reading, "Please stop producing personality," at the start of each interval. A premium version, available for €2.49 per month, will classify heard noises into categories such as "pipe," "regret," "drilling," and "drilling caused by regret."
+
+The Ministry of Culture has cautiously endorsed the policy, calling it "the most affordable national introspection program currently available." Jurmala officials are reportedly studying whether a beach version could be introduced next summer, though early testing was complicated by gulls, children, and one saxophonist who refused to recognize state authority.
+
+As evening fell over the capital following Tuesday’s vote, many residents conducted an unofficial rehearsal. Across neighborhoods, kitchens fell quiet, stairwells settled, and thousands stood motionless beside radiators waiting to learn whether the sound they had lived with for years was a technical issue, a ghost, or merely Latvia continuing to process something in private.`,
+      lv: `RĪGA — Rīgas domes deputāti otrdien ar balsu attiecību 38–19 nobalsoja par jauna pašvaldības noteikuma ieviešanu, ko dēvē par Ikdienas akustiskās pārdomas intervālu, uzliekot par pienākumu dzīvokļu iedzīvotājiem katru vakaru no plkst. 18:07 līdz 18:21 saglabāt klusumu, lai „uzmanīgi ieklausītos ēkas emocionālajā stāvoklī”. Iniciatīva, kas stāsies spēkā 1. oktobrī, jau saņēmusi slavinošus komentārus no siltumizolācijas ekspertiem, amatierfilozofiem un viena vīra Purvciemā, kurš apgalvo, ka to brīvprātīgi dara kopš 1998. gada.
+
+Saskaņā ar 47 lappušu politikas dokumentu šis pasākums paredzēts, lai risinātu trīs neatlaidīgas pilsētas problēmas: neatpazītus radiatoru klikšķus, pasīvi-agresīvu grīdu čīkstēšanu un pieaugošu nespēju iedzīvotāju zem 35 gadu vecuma vidū atšķirt cauruļvadu ķibeles no personīgas baiļu sajūtas.
+
+„Gadu desmitiem cilvēki ir ignorējuši pirmskara cauruļu valodu,” sacīja Mājokļu komisijas vietniece Ilze Vītola, stāvot blakus dzīvokļa sienas diagrammai ar lakonisku uzrakstu „noskaņu zona”. „Ēka runā. Vispirms tā piesit, pēc tam nopūšas, un beigās kāds izveido Facebook grupu. Mēs iejaucamies pirms šīs pēdējās stadijas.”
+
+Saskaņā ar noteikumiem televīzijas uztvērējiem, blenderiem, koridora strīdiem un redzami tīru paklāju putekļsūcēšanai šajā intervālā jābūt apstādiniem. Klusi vārītas kartupeļu bļodas pagatavošana ir atļauta, ja vien katls ar vāku neklaudzina „apsūdzīgā tonī”. Pilsēta arī izdevusi norādījumus suņu īpašniekiem, ieteicot iepriekš dzīvniekiem saprotamā veidā paskaidrot jauno politiku, lai samazinātu apjukumu.
+
+Pašvaldības analītiķi aprēķina, ka klusuma periods ļaus iedzīvotājiem identificēt līdz pat 63% vairāk aizdomīgu apkures skaņu un 41% vairāk neizteiktu aizvainojumu. Pagājušajā ziemā Teikā un Āgenskalnā veiktā pilotprogramma atklāja, ka dalībnieki pareizi noteica atkārtoto dzīvokļa skaņu izcelsmi tikai 12% gadījumu pirms izmēģinājuma. Pēc sešām obligātas klusēšanas nedēļām šis rādītājs pieauga līdz 68%, un būtiski palielinājās iedzīvotāju spēja precīzi pateikt: „Nē, tas noteikti ir Uldis no augšstāva, un, ja godīgi, viņam atkal nešķiet mierīgi.”
+
+Ne visi iedzīvotāji ir pārliecināti. „Principā es atbalstu pilsonisko ieklausīšanos,” sacīja 34 gadus vecā projektu vadītāja Agnese Ozoliņa no Pļavniekiem. „Bet plkst. 18:07 es parasti izšķiros, vai vārīt griķus vai vienkārši stāvēt virtuvē un uz tiem skatīties. Tagad pilsēta grib arī to brīdi.”
+
+Citi rīkojumu uzņēma kā reti pieejamu iespēju atkal sajust īsto Rīgas dzīvokļu skaņas ainavu. „Vakar izmēģinājuma laikā dzirdēju karoti krist trīs stāvus tālāk un kaut kā nojautu, ka tas saistīts ar zupu,” sacīja pensionāre Velta Krūmiņa, 72, no ēkas pie Grīziņkalna. „Tā nav uzraudzība. Tā ir kopiena.”
+
+Lai atbalstītu ieviešanu, pilsēta laidīs klajā mobilo lietotni Klusums+, kas intervāla sākumā lietotājiem nosūta paziņojumu ar tekstu: „Lūdzu, pārtrauciet ražot personību.” Premium versija, pieejama par 2,49 € mēnesī, klasificēs dzirdētās skaņas kategorijās, piemēram, „caurule”, „nožēla”, „urbšana” un „urbšana, ko izraisījusi nožēla”.
+
+Kultūras ministrija piesardzīgi atbalstījusi politiku, saucot to par „šobrīd pieejamāko valsts introspekcijas programmu”. Jūrmalas amatpersonas, pēc ziņām, pēta iespēju nākamajā vasarā ievies beach versiju, lai gan sākotnējie testi sagādāja grūtības kaijām, bērniem un vienam saksofonistam, kurš atteicās atzīt valsts autoritāti.
+
+Pēc otrdienas balsojuma, kad vakars pārklāja galvaspilsētu, daudzi iedzīvotāji rīkojās kā neoficiālā mēģinājumā. Visās apkaimēs virtuves norima, kāpņu telpas nomierinājās, un tūkstošiem cilvēku stāvēja nekustīgi pie radiatoriem, gaidot, lai uzzinātu, vai skaņa, ar kuru viņi gadiem dzīvojuši kopā, ir tehniska problēma, spoks vai vienkārši Latvija, kas turpina kaut ko privāti apstrādāt.`,
+      ru: `РИГА — Во вторник Рижская городская дума проголосовала 38 против 19 за введение нового муниципального мероприятия, известного как Ежедневный Интервал Акустического Размышления, предписывающего жителям квартир по всему городу сохранять тишину с 18:07 до 18:21 каждый вечер, чтобы «внимательно прислушаться к эмоциональному состоянию дома». Инициатива, которая начнёт действовать 1 октября, уже получила похвалу от экспертов по утеплению, любителей философии и одного мужчины из Пурвциемса, который говорит, что делал это добровольно с 1998 года.
+
+Согласно 47-страничному документу политики, мера призвана решить три насущные городские проблемы: неопознанное щёлканье радиаторов, пассивно-агрессивное скрипение пола и растущую неспособность жителей младше 35 отличать сантехнические проблемы от личного ужаса.
+
+«Много лет люди игнорировали язык довоенных труб», — сказала заместитель председателя жилищного комитета Ильзе Вītола, стоя рядом с диаграммой стены квартиры, на которой просто значилось «зона настроения». «Дом говорит. Сначала он постукивает, потом вздыхает, а затем кто-то создаёт группу в Facebook. Мы вмешиваемся до этой последней стадии.»
+
+Согласно правилам, в интервале должны быть выключены телевизоры, блендеры, межквартирные перепалки и пылесосы — если только ковры на вид не грязные. Тихо варить картошку по-прежнему разрешается при условии, что крышка не будет дребезжать «в обвинительном тоне». Город также выпустил рекомендации для владельцев собак, советуя заранее объяснить животным суть политики, чтобы снизить путаницу.
+
+Муниципальные аналитики оценивают, что период тишины позволит жителям выявлять до 63% больше подозрительных звуков отопления и на 41% больше невысказанных обид. Пилотная программа, проведённая прошлой зимой в Тейке и Āgenskalns, показала, что участники правильно определяли источник повторяющихся шумов в квартирах лишь в 12% случаев до испытания. После шести недель обязательного молчания этот процент вырос до 68%, причём заметно увеличилось число жителей, точно заявлявших: «Нет, это точно Ульдис с верхнего этажа, и, честно говоря, он снова неспокоен.»
+
+Не все жители убеждены. «В принципе я поддерживаю гражданское слушание», — сказала Агнесе Озолиня, 34 года, менеджер проекта из Пļавниеки. «Но в 18:07 я обычно решаю, варить ли гречку или просто стоять на кухне и смотреть на неё. Теперь город хочет и этот момент.»
+
+Другие восприняли указ как редкую возможность воссоединиться с аутентичным звуковым ландшафтом рижской квартирной жизни. «Вчера, во время эксперимента, я услышала, как через три этажа упала ложка и почему-то поняла, что это было связано с супом», — рассказала пенсионерка Вельта Крумина, 72 года, из дома рядом с Грīзинькалнсом. «Это не слежка. Это сообщество.»
+
+Для поддержки реализации город запустит мобильное приложение Klusums+, которое в начале каждого интервала пришлёт пользователям уведомление: «Пожалуйста, прекратите проявлять личность». Премиум-версия за €2,49 в месяц будет классифицировать услышанные звуки по категориям: «труба», «сожаление», «сверление» и «сверление, вызванное сожалением».
+
+Министерство культуры осторожно одобрило политику, назвав её «самой доступной национальной программой интроспекции, доступной в настоящий момент». Сообщается, что в Юрмале рассматривают возможность пляжной версии на следующее лето, хотя ранние испытания осложнялись присутствием чаек, детей и одного саксофониста, отказавшегося признавать государственную власть.
+
+Когда во вторник, после голосования, над столицей опустился вечер, многие жители провели неофициальную репетицию. По району кухни стихли, лестничные клетки утихли, и тысячи людей стояли недвижимо у батарей в ожидании, чтобы узнать, было ли звучание, с которым они жили годами, технической проблемой, призраком или просто Латвией, продолжающей что-то обрабатывать наедине.`
+    },
+    date: "Apr 30, 2026",
+    category: { en: "Breaking", lv: "Jaunumi", ru: "Срочно" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "5 min read",
+    imageUrl: "https://picsum.photos/seed/140/800/600",
+    author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
+    featured: true
+  },
+  {
     id: 139,
     slug: "riga-introduces-passive-aggressive-silence-zones-139",
     title: {
@@ -102,7 +183,7 @@ Pilsētas vadītāji cer, ka programma galu galā var pretendēt uz UNESCO atzī
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/139/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 138,
