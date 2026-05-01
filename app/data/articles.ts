@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 141,
+    slug: "jrmala-introduces-quiet-siren-to-warn",
+    title: {
+      en: "Jūrmala Introduces ‘Quiet Siren’ to Warn Residents of Mild Inconveniences, Nobody Notices for Three Weeks",
+      lv: "Jūrmala ievieš 'Kluso sirēnu', lai brīdinātu iedzīvotājus par nelielām neērtībām, ko trīs nedēļas neviens nepamana",
+      ru: "Юрмала вводит «тихую сирену», чтобы предупреждать жителей о мелких неудобствах — её никто не заметил три недели"
+    },
+    excerpt: {
+      en: "Municipal officials in Jūrmala have unveiled a new low-volume civil alert system designed specifically for non-emergencies such as delayed trains, suspiciously assertive seagulls, and emotionally charged parking disputes. The city says the initiative reflects Baltic values of restraint, practicality, and not making a scene unless absolutely necessary.",
+      lv: "Jūrmalas pašvaldības amatpersonas atklājušas jaunu zema skaļuma civilās brīdināšanas sistēmu, īpaši paredzētu nenotikumiem — kavētiem vilcieniem, aizdomīgi asertīvām kaijām un emocionāli uzlādētiem stāvvietu strīdiem. Pilsēta norāda, ka iniciatīva atspoguļo Baltijas vērtības: atturību, praktiskumu un nevēlēšanos uztaisīt skandālu, ja tas nav absolūti nepieciešams.",
+      ru: "Муниципальные власти Юрмалы представили новую малошумную систему оповещения, рассчитанную специально на не-экстренные ситуации — опоздания электричек, подозрительно напористых чаек и эмоционально накалённые споры из-за парковки. Город утверждает, что инициатива отражает балтийские ценности сдержанности, практичности и отказа от сцен, если в этом нет крайней нужды."
+    },
+    fullContent: {
+      en: `JŪRMALA — In what local authorities are calling a "measured leap forward in civic calm," the Jūrmala City Council this month launched Latvia’s first Quiet Siren, a public warning system intended to alert residents to minor but spiritually exhausting disruptions without causing embarrassment.
+
+Installed atop municipal buildings, pine-lined bus stops, and one cooperative wellness spa in Bulduri, the sirens emit what engineers describe as "a tasteful, almost apologetic hum" at 14 decibels — roughly the volume of a neighbor privately disapproving of your sandals. According to the municipality, the system was activated 63 times in its first 21 days for incidents including a 17-minute electric train delay, a beach café running out of dill, and an unconfirmed report of two Riga men discussing cryptocurrency louder than necessary.
+
+"We wanted to create an alert mechanism consistent with the emotional architecture of the region," said Deputy Executive Director for Seasonal Orderliness Ilze Vimbule, standing beside a demonstration model partially concealed by ornamental reeds. "If there is a true emergency, of course we have the regular siren. But for low-stakes civic disturbances, Latvians prefer to become aware gradually, through intuition, weather pressure, or a faint administrative vibration in the distance."
+
+The project, budgeted at €418,000, was co-funded by the municipality and a Baltic innovation grant originally intended for smart fisheries. Procurement documents describe the system’s target scenarios as "non-catastrophic, publicly irritating developments" — Category A for transport disappointment, Category B for beach-level social tension, and Category C for municipal uncertainty regarding where to place temporary fencing.
+
+Residents say they were initially unaware the system had been installed, which officials insist proves it is functioning correctly. "I thought I felt something on Tuesday," said Dzintari resident and retired choir accountant Maija Sprūde, 68. "Not heard — felt. Like somewhere very far away, the state was politely concerned. Later I learned it was a cautionary signal about an underheated latte situation near the concert hall. I appreciated the warning."
+
+Others praised the siren’s discretion. "In Riga they would use an app, a flashing sign, ten committees, maybe a drone," said local cyclist Andris Skuja, pausing near Majori station after what the city had classified as a Level 2 Queue Formation Event. "Here in Jūrmala, we trust people to panic internally."
+
+The Quiet Siren was designed by acoustic consultancy Nordic Tone Field, whose lead engineer, Mārtiņš Egle, said the biggest technical challenge was creating a sound that could be distinguished from wind in pine branches, distant cutlery, and "the normal existential frequency of late autumn on the coast." After months of testing, the team settled on a waveform modeled from three audio samples: a teakettle losing confidence, a librarian inhaling before intervening, and a 2004 Volvo indicator heard through snow.
+
+Not all responses have been positive. The Association of Seasonal Apartment Owners has filed a complaint claiming the siren unfairly targets summer residents, citing an August weekend in which six consecutive alerts reportedly concerned "incorrect linen energy" and "aggressive use of Bluetooth speaker after sunset." In response, the city clarified that the system is content-neutral and applies equally to all forms of inconsiderate leisure.
+
+Officials are already exploring expansion. A pilot program scheduled for November would integrate the sirens with digital signage capable of displaying short advisory messages such as PLEASE PREPARE FOR ADMINISTRATIVE CONFUSION and BEACH ACCESS CURRENTLY EMOTIONALLY COMPLEX.
+
+At a closing press conference, Mayor Rita Ozoliņa called the initiative a milestone in modern Baltic governance. Behind her, the demonstration unit emitted a soft tone to indicate a developing umbrella mismatch near Melluži. No one reacted, and the city later described the rollout as "an overwhelming quiet success."`,
+      lv: `JŪRMALA — To, ko vietējās varas iestādes dēvē par «pārdomātu soli civiskā miera virzienā», Jūrmalas pašvaldība šomēnes palaida Latvijā pirmo Kluso sirēnu — publisku brīdināšanas sistēmu, kuras mērķis ir informēt iedzīvotājus par nelieliem, bet garīgi nogurdinošiem traucējumiem, neradot liekas apmulsumu.
+
+Sirēnas, kas uzstādītas uz pašvaldības ēku jumtiem, priežu apstādītajiem autobusu pieturvietu nojumiem un vienā sadarbības spa Bulduri, izstaro to, ko inženieri raksturojuši kā «gaumīgu, gandrīz atvainojošu dunoņu» — 14 decibelu skaļumā, aptuveni tikpat skaļi, cik kaimiņs klusām izrāda neapmierinātību par tavām sandaletēm. Pašvaldība ziņo, ka sistēma tika aktivizēta 63 reizes pirmajās 21 dienā, reaģējot uz incidentiem, tostarp 17 minūšu elektriskā vilciena kavējumu, pludmales kafejnīcas dilles izsīkšanu un neapstiprinātu ziņojumu par diviem rīdziniekiem, kas par kriptovalūtu runāja skaļāk nekā nepieciešams.
+
+«Mēs vēlējāmies izveidot brīdinājuma mehānismu, kas atbilst reģiona emocionālajai arhitektūrai,» sacīja Sezonālās kārtības vietniece Ilze Vimbule, stāvot blakus demonstrācijas modelim, daļēji noslēptam aiz dekoratīviem niedru stiebriem. «Ja notiktu īsta ārkārtas situācija, protams, mums ir parastā sirēna. Bet zema riska civiliem traucējumiem latvieši dod priekšroku pakāpeniskai informētībai — caur intuīciju, atmosfēras spiedienu vai vieglu administratīvu vibrāciju tālumā.»
+
+Projekts ar budžetu 418 000 eiro tika līdzfinansēts no pašvaldības līdzekļiem un Baltijas inovāciju granta, kas sākotnēji paredzēts viedajai zvejniecībai. Iepirkuma dokumentos sistēmas mērķa scenāriji aprakstīti kā «nekatastrofiskas, publiski kairinošas attīstības» — A kategorija transporta vilšanās gadījumiem, B kategorija pludmales līmeņa sociālajai spriedzei un C kategorija pašvaldības nenoteiktībai par pagaidu žogu izvietojumu.
+
+Iedzīvotāji saka, ka sākotnēji nemaz nezināja, ka sistēma ir uzstādīta, ko amatpersonas uzsver kā pierādījumu, ka tā darbojas pareizi. «Es domāju, ka kaut ko sajutu otrdien,» teica Dzintaru iedzīvotāja un pensionēta koru grāmatvede Maija Sprūde, 68 gadi. «Ne dzirdēju — sajutu. Tāpat kā kaut kur ļoti tālu valsts pieklājīgi uztrauktos. Vēlāk uzzināju, ka tas bija brīdinājums par nepietiekami sildītu latte pie koncertzāles. Es novērtēju brīdinājumu.»
+
+Citi slavēja sirēnas diskreciju. «Rīgā viņi lietotu aplikāciju, mirgojošu zīmi, desmit komitejas, varbūt dronu,» sacīja vietējais riteņbraucējs Andris Skuja, apstājoties pie Majoru stacijas pēc tā, ko pilsēta klasificēja kā 2. līmeņa Rindu Veidošanās notikumu. «Šeit Jūrmalā mēs uzticamies cilvēkiem panikot iekšēji.»
+
+Kluso sirēnu izstrādāja akustiskā konsultāciju firma Nordic Tone Field; tās vadošais inženieris Mārtiņš Egle stāstīja, ka lielākais tehniskais izaicinājums bija radīt skaņu, ko var atšķirt no priežu zaros skanoša vēja, tālumā klīstoša galda piederumu šķindes un «parastās eksistenciālās frekvences vēlā rudenī pie jūras». Pēc mēnešiem ilgiem testiem komanda izvēlējās viļņformu, modelējot to no trim audio paraugiem: tējkanna, kas zaudē pārliecību, bibliotekāres ieelpa pirms iejaukšanās un 2004. gada Volvo pagrieziena signāls, dzirdams caur sniegu.
+
+Ne visas reakcijas bijušas pozitīvas. Sezonas dzīvokļu īpašnieku apvienība iesniegusi sūdzību, apgalvojot, ka sirēna negodīgi mērķē uz vasaras iedzīvotājiem, atsaucoties uz augustā notikušu nedēļas nogali, kurā seši pēc kārtas izsaukumi it kā skāruši «nepareizu gultasveļas enerģiju» un «agresīvu Bluetooth skaļruņa lietošanu pēc saulrieta». Atbildot, pilsēta precizēja, ka sistēma ir satura neitrāla un attiecas vienādi uz visām necieņpilnas atpūtas formām.
+
+Amatpersonas jau izskata paplašināšanos. Novembrī plānota pilotprogramma integrētu sirēnas ar digitālajām zīmēm, kas spētu attēlot īsus padomu ziņojumus, piemēram: LŪDZU SAGATAVOJIES ADMINISTRATĪVAI APJUKŠANAI un PLUDMALES PIEKĻUVE PAŠLAIK EMOCIONĀLI KOMPLEKSA.
+
+Noslēguma preses konferencē mēre Rita Ozoliņa nodēvēja iniciatīvu par nozīmīgu posmu mūsdienu Baltijas pārvaldē. Aiz viņas demonstrācijas ierīce izdeva mīkstu toni, lai norādītu uz attīstībā esošu lietussargu neatbilstību pie Mellužiem. Neviens nereaģēja, un pilsēta vēlāk atzina izvēršanu par «pārsteidzoši kluso panākumu».`,
+      ru: `ЮРМАЛА — В том, что местные власти называют «взвешенным шагом вперёд в деле гражданского спокойствия», Городской совет Юрмалы в этом месяце запустил первую в Латвии Тихую Сирену — систему общественного оповещения, предназначенную для того, чтобы уведомлять жителей о незначительных, но духовно истощающих помехах, не создавая при этом неловкости.
+
+Установленные на крышах муниципальных зданий, у остановок, окружённых соснами, и в одном кооперативном спа в Булдури, сирены издают то, что инженеры описывают как «вкусный, почти извиняющийся гул» на уровне 14 децибел — примерно громкость соседа, который тайно не одобряет ваши сандалии. По словам муниципалитета, систему активировали 63 раза в первые 21 день работы по причинам, включая 17‑минутное опоздание электрички, в пляжном кафе, где закончился укроп, и неподтверждённый сигнал о двух рижских мужчинах, слишком громко обсуждавших криптовалюту.
+
+«Мы хотели создать механизм оповещения, соответствующий эмоциональной архитектуре региона», — сказала заместитель исполнительного директора по сезонному порядку Илзе Вимбуле, стоя рядом с демонстрационной моделью, частично скрытой декоративными камышами. «Если случится настоящая чрезвычайная ситуация, конечно, у нас есть обычная сирена. Но для малозначимых гражданских нарушений латвийцы предпочитают узнавать постепенно — через интуицию, изменение атмосферного давления или слабое административное вибрирование где‑то вдалеке». 
+
+Проект, рассчитанный на 418 000 евро, был софинансирован муниципалитетом и балтийским инновационным грантом, изначально предназначенным для умных рыбных хозяйств. Документы по закупке описывают целевые сценарии системы как «некатастрофические, публично раздражающие события» — Категория A для разочарований в транспорте, Категория B для социального напряжения уровня пляжа и Категория C для муниципальной неуверенности относительно того, куда ставить временное ограждение.
+
+Жители говорят, что поначалу не замечали установки системы, что чиновники настаивают доказывает её корректную работу. «Я думала, что что‑то почувствовала во вторник, — сказала жительница Дзинтари и пенсионерка, бывшая бухгалтер хора Майя Спруде, 68 лет. — Не услышала — почувствовала. Как будто где‑то очень далеко государство вежливо переживает. Позже узнала, что это было предупредительное сигнальце о недогретом латте возле концертного зала. Я оценила предупреждение». 
+
+Другие похвалили дискретность сирены. «В Риге бы использовали приложение, мигающий знак, десять комитетов, может быть, дрон», — сказал местный велосипедист Андрис Скуя, остановившись у станции Майори после того, что город классифицировал как Событие образования очереди уровня 2. «Здесь, в Юрмале, мы доверяем людям паниковать внутри себя». 
+
+Тихую Сирену спроектировала акустическая компания Nordic Tone Field, главный инженер которой Мартиньш Эгле сказал, что самой большой технической задачей было создать звук, который можно было бы отличить от шума в сосновых ветвях, отдалённой посуды и «нормальной экзистенциальной частоты поздней осени на побережье». После месяцев испытаний команда остановилась на волновой форме, смоделированной по трём аудиосэмплам: чайник, теряющий уверенность, библиотекарь, глубоко вдыхающий перед вмешательством, и повторитель поворота Volvo 2004 года, слышимый сквозь снег.
+
+Не все реакции были положительными. Ассоциация владельцев сезонных квартир подала жалобу, утверждая, что сирена несправедливо нацелена на летних жителей, ссылаясь на августовские выходные, когда шесть последовательных оповещений якобы касались «неправильной энергии белья» и «агрессивного использования Bluetooth‑колонки после заката». В ответ город разъяснил, что система нейтральна по содержанию и одинаково применяется ко всем формам бесцеремонного отдыха.
+
+Чиновники уже изучают варианты расширения. Пилотная программа, запланированная на ноябрь, интегрирует сирены с цифровыми табло, способными отображать короткие предупредительные сообщения вроде «ПОЖАЛУЙСТА, ПРИГОТОВЬТЕСЬ К АДМИНИСТРАТИВНОЙ ПУТАНИЦЕ» и «ДОСТУП К ПЛЯЖУ В НАСТОЯЩЕЕ ВРЕМЯ ЭМОЦИОНАЛЬНО СЛОЖЕН». 
+
+На заключительной пресс‑конференции мэр Рита Озолиня назвала инициативу вехой в современном балтийском управлении. За её спиной демонстрационный блок издал мягкий тон, чтобы обозначить развивающееся несоответствие зонтиков в районе Меллужи. Никто не отреагировал, а город позже охарактеризовал запуск как «подавляюще тихий успех».`
+    },
+    date: "May 1, 2026",
+    category: { en: "Politics", lv: "Politika", ru: "Политика" },
+    categories: ["politics"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/141/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 140,
     slug: "riga-introduces-mandatory-14-minute-silence",
     title: {
@@ -96,7 +177,7 @@ Pēc otrdienas balsojuma, kad vakars pārklāja galvaspilsētu, daudzi iedzīvot
     readTime: "5 min read",
     imageUrl: "https://picsum.photos/seed/140/800/600",
     author: { en: "By Jānis Liepa", lv: "Rakstījis Jānis Liepa", ru: "Автор: Янис Лиепа" },
-    featured: true
+    featured: false
   },
   {
     id: 139,
