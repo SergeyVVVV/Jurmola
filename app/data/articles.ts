@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 142,
+    slug: "riga-introduces-polite-silence-zones-on-142",
+    title: {
+      en: "Riga Introduces ‘Polite Silence Zones’ on Public Transport After Study Finds Residents Exhausted by Unscheduled Cheerfulness",
+      lv: "Rīga ievieš 'Pieklājības klusuma zonas' sabiedriskajā transportā pēc pētījuma, kas rāda — iedzīvotāji noguruši no neplānotas draudzības",
+      ru: "В Риге вводят «Зоны вежливого молчания» в транспорте после исследования, показавшего, что жители устали от незапланированной приветливости"
+    },
+    excerpt: {
+      en: "Following a six-month pilot on tram routes 7 and 11, Riga officials have approved a network of designated ‘Polite Silence Zones’ where passengers may continue not speaking to one another with formal municipal support. City planners say the measure will protect local traditions while reducing incidents of accidental small talk by as much as 43 percent.",
+      lv: "Pēc sešu mēnešu pilotprojekta tramvaju maršrutos 7 un 11 Rīgas amatpersonas apstiprinājušas tīklu ar īpašām 'Pieklājības klusuma zonām', kur pasažieri var turpināt viens ar otru nerunāt ar pašvaldības oficiālu atbalstu. Pilsētplānotāji norāda, ka pasākums aizsargās vietējās tradīcijas un samazinās nejaušu sarunu gadījumus līdz pat 43 procentiem.",
+      ru: "После шестимесячного пилота на трамвайных маршрутах 7 и 11 власти Риги утвердили сеть специально отведённых «Зон вежливого молчания», где пассажиры смогут и дальше не разговаривать друг с другом при формальной муниципальной поддержке. Градостроители говорят, что мера сохранит местные традиции и сократит случаи случайного светского разговора до 43 процентов."
+    },
+    fullContent: {
+      en: `RIGA — In what officials are calling a major investment in cultural continuity, the Riga City Council on Tuesday unveiled new ‘Polite Silence Zones’ across the capital’s public transport network, allowing commuters to sit in state-recognized quietness without fear of spontaneous friendliness, prolonged eye contact, or weather-related conversation.
+
+The initiative, passed in a 46–12 vote after nearly four hours of administrative whispering, will designate the rear third of selected trams, trolleybuses, and regional minibuses as areas for ‘structured mutual non-engagement.’ Signage, already being installed this week, instructs passengers to keep voices low, acknowledge one another only through brief exhalations, and, in severe cases, direct all emotional expression toward the window.
+
+The policy follows a study commissioned by the Department of Civic Atmosphere, which found that 71 percent of Riga residents experienced ‘moderate internal alarm’ when seated next to a stranger who opened with ‘Lovely morning, isn’t it?’ A further 18 percent reported uncertainty over whether they were expected to answer, while 9 percent said they immediately got off two stops early and walked home in sleet.
+
+‘We are not banning conversation,’ said Deputy Transport Chair Ilze Dreimane at a press conference delivered in a tone many praised as appropriately discouraging. ‘We are simply creating a safe framework in which people may continue their long-established practice of staring past each other while holding a shopping bag full of dill. This is about dignity. This is about Europe.’
+
+Under the new rules, approved topics in non-silent sections of vehicles will be limited to route delays, passive complaints about municipal roadworks, and highly factual statements about mushrooms. Laughter above what the city defines as ‘a restrained nasal release’ may result in a warning from transit staff. Repeat offenders may be relocated to a specially monitored ‘Conversational Rehabilitation Compartment’ near the driver.
+
+The idea was first tested in January on routes connecting Purvciems, the Central Market, and several neighborhoods identified by sociologists as ‘emotionally efficient.’ According to trial data, commuter satisfaction rose 32 percent, unsolicited smiles fell sharply, and one elderly man successfully completed a 41-minute tram journey without having to discuss his scarf.
+
+‘Before, there was always risk,’ said route 11 passenger Andris Kalniņš, clutching a thermos and declining to specify its contents. ‘Someone from abroad would sit down and ask where to get the best coffee. Then suddenly you are in a relationship. With this system, I can finally commute the way my father commuted, and his father before him — with quiet disappointment and excellent posture.’
+
+Not everyone is convinced. The Latvian Association of Unexpectedly Friendly People, a 14-member group based in Cēsis, warned that the policy may deepen social fragmentation. ‘Silence should arise organically, not through bureaucracy,’ said association chairwoman Linda Ozoliņa, who admitted that her members were once asked to leave a train to Tukums after beginning a birthday song in carriage two.
+
+Businesses are already adapting. Rīgas Satiksme confirmed it is developing a line of official commuter accessories, including anti-conversation tote bags, municipally approved expressionless scarves, and a premium card holder that displays the phrase ‘I have already nodded’ in Latvian, Russian, and English.
+
+In Jūrmala, local leaders have expressed interest in extending the concept to beach promenades during summer, when visitors from inland regions sometimes greet each other audibly. One draft proposal would create a ‘Low-Intensity Seaside Corridor’ where the only permitted sound is distant accordion and one child asking for ice cream every seven minutes.
+
+By Tuesday evening, many residents said the change merely formalized what had long been understood. On tram 7, as inspectors affixed the first blue Silence Zone sticker beside a fogged-up window, passengers responded with the highest form of public approval available: absolutely nothing at all.`,
+      lv: `RĪGA — To, ko amatpersonas sauc par lielu ieguldījumu kultūras nepārtrauktībā, otrdien Rīgas dome atklāja jaunas 'Pieklājības klusuma zonas' visā galvaspilsētas sabiedriskā transporta tīklā, ļaujot braucējiem sēdēt valsts atzītā klusumā bez bailēm no spontānas draudzības, ilgstošas acu kontakta vai sarunas par laika apstākļiem.
+
+Iniciatīva, kas pieņemta ar 46–12 balsīm pēc gandrīz četrām stundām administratīvās čukstēšanas, noteiks izvēlētu tramvaju, trolejbusu un reģionālo mikroautobusu aizmugurējo trešdaļu kā zonas 'strukturētai savstarpējai neiesaistīšanai.' Šonedēļ jau tiek uzstādītas norādes, kas aicina pasažierus turēt balsi klusu, atzīt cits citu tikai ar īsām izelpām un, smagos gadījumos, visus emocionālos izteikumus novirzīt uz logu.
+
+Politika seko Pilsoniskās atmosfēras departamenta pasūtītam pētījumam, kurā konstatēts, ka 71 procentam Rīgas iedzīvotāju rodas 'mērena iekšēja trauksme', sēžot blakus svešiniekam, kurš sāk ar 'Cik jauks rīts, vai ne?' Vēl 18 procenti ziņoja par neskaidrību par to, vai viņiem jāsāk atbildēt, savukārt 9 procenti sacīja, ka tūlīt izkāpa divas pieturas agrāk un devās mājās pa slapjdraņķi.
+
+"Mēs nedraudējam aizliegt sarunas," preses konferencē, ko daudzi slavēja par pienācīgi atbaidošu toni, teica satiksmes vicemēre Ilze Dreimane. "Mēs vienkārši radām drošu ietvaru, kurā cilvēki var turpināt savu sen izveidoto praksi skatīties vienam pāri otram, turot rokās piparmētru maizes pilnu iepirkumu maisu. Tas ir cieņas jautājums. Tas ir Eiropas jautājums."
+
+Saskaņā ar jaunajiem noteikumiem, neklusajās transporta daļās atļautās tēmas tiks ierobežotas ar maršruta kavējumiem, pasīvām sūdzībām par pašvaldības ceļu darbiem un stingri faktiliskiem izteikumiem par sēnēm. Smiekli, kas pārsniedz to, ko pilsēta definē kā "atturīgu nasālu atbrīvojumu", var izraisīt brīdinājumu no satiksmes personāla. Atkārtoti pārkāpēji var tikt pārvietoti uz īpaši uzraugāmu "Sarunu rehabilitācijas nodalījumu" pie vadītāja.
+
+Ideja pirmo reizi izmēģināta janvārī maršrutos, kas savieno Purvciemu, Centrāltirgu un vairākus rajonus, ko sociologi identificējuši kā "emocionāli efektīvus." Pēc izmēģinājuma datiem, braucēju apmierinātība pieauga par 32 procentiem, nevēlētas smaids strauji samazinājās, un viens cienījams vīrietis veiksmīgi pabeidza 41 minūtes ilgu tramvaja braucienu, neizrunājot ne vārda par savu šalli.
+
+"Agrāk pastāvēja risks," sacīja maršruta 11 pasažieris Andris Kalniņš, satverot termosu un atsakoties precizēt tā saturu. "Kāds no ārzemēm apsēžas un pajautā, kur te iegūt labāko kafiju. Un tad tu pēkšņi nonāc attiecībās. Ar šo sistēmu es beidzot varu pārvietoties tā, kā mani tēvs pārvietojās, un viņa tēvs pirms viņa — ar klusu vilšanos un izcilu stāju."
+
+Ne visi ir pārliecināti. Negaidīti draudzīgo cilvēku Latvijas asociācija, 14 biedru grupa no Cēsīm, brīdināja, ka politika var padziļināt sociālo sadrumstalošanos. "Klusumam jārausies dabiski, nevis caur birokrātiju," sacīja asociācijas priekšsēdētāja Linda Ozoliņa, kura atzinusi, ka viņas biedri reiz tika lūgti izkāpt vilcienā uz Tukumu pēc tam, kad otrajā vagonā sākuši dziedāt dzimšanas dienas dziesmu.
+
+Uzņēmumi jau pielāgojas. Rīgas Satiksme apstiprinājusi, ka izstrādā oficiālu ikdienas piederumu līniju, tostarp pretsarunu auduma maisiņus, pašvaldībā apstiprinātas izteiksmes brīvas šalles un premium tipa maksas turētāju, kas demonstrē uzrakstu "Es jau māju ar galvu" latviešu, krievu un angļu valodā.
+
+Jūrmalā vietējie vadītāji izrādījuši interesi paplašināt koncepciju arī pludmales promenādēm vasarā, kad iekšzemes apmeklētāji dažkārt skaļi sveicinās viens otru. Viens priekšlikuma projekts paredzētu izveidot "Zema intensitātes piejūras koridoru", kur vienīgā atļautā skaņa būtu tāls akordeons un viens bērns, kas ik pēc septiņām minūtēm lūdz saldējumu.
+
+Otrdienas vakarā daudzi iedzīvotāji sacīja, ka izmaiņa vienkārši formalizē to, kas sen bijis saprotams. Tramvajā 7, kad inspektori pie loga, pārklāta miglainiem pilieniem, pielīmēja pirmo zilo Klusuma zonas uzlīmi, pasažieri atbildēja ar augstāko iespējamo sabiedrisko apstiprinājumu: pilnīgu klusumu.`,
+      ru: `РИГА — В том, что чиновники называют значительной инвестицией в культурную преемственность, Рижская городская дума во вторник представила новые «Зоны вежливого молчания» по всей сети общественного транспорта столицы, позволяющие пассажирам сидеть в государственно признанном безмолвии без страха перед спонтанной дружелюбностью, затяжным зрительным контактом или разговорами о погоде.
+
+Инициатива, принятая путём голосования 46–12 после почти четырёх часов административного шептания, обозначит заднюю треть выбранных трамваев, троллейбусов и маршрутных микроавтобусов как зоны «структурированного взаимного невзаимодействия». Таблички, которые уже устанавливаются на этой неделе, инструктируют пассажиров держать голос ниже, приветствовать друг друга только краткими выдохами и, в крайнем случае, направлять всё эмоциональное выражение в сторону окна.
+
+Политика следует за исследованием, заказанным Департаментом гражданской атмосферы, которое показало, что 71 процент жителей Риги испытывают «умерённое внутреннее волнение», сидя рядом с незнакомцем, начинающим фразу «Прекрасное утро, не правда ли?». Ещё 18 процентов сообщили о неуверенности, ожидают ли они, что должны ответить, а 9 процентов заявили, что тут же вышли на две остановки раньше и дошли домой пешком под мокрый снег.
+
+«Мы не запрещаем разговоры, — сказала зампред транспортного комитета Илзе Дреймане на пресс-конференции, произнесённой в тоне, который многие признали как раз достаточно отталкивающим. — Мы просто создаём безопасную рамку, в которой люди могут продолжать свою давнюю практику смотреть мимо друг друга, держа в пакете укроп. Речь идёт о достоинстве. Речь идёт о Европе.»
+
+По новым правилам, в секциях транспорта, не входящих в зоны молчания, допустимые темы будут ограничены задержками маршрута, пассивными жалобами на муниципальные дорожные работы и исключительно фактологическими заявлениями о грибах. Смех, превышающий городскую норму «сдержанного носового выдоха», может повлечь предупреждение со стороны персонала. Повторных нарушителей могут пересадить в специально контролируемый «Отсек разговорной реабилитации» у водителя.
+
+Идею впервые опробовали в январе на маршрутах, соединяющих Пурвциемс, Центральный рынок и несколько районов, которые социологи обозначили как «эмоционально эффективные». Согласно данным испытания, удовлетворённость пассажиров выросла на 32 процента, нежелательные улыбки резко сократились, и один пожилой мужчина успешно проехал 41 минуту в трамвае, не обсудив свой шарф.
+
+«Раньше всегда был риск, — сказал пассажир маршрута 11 Андрис Калниньш, сжимая термос и отказываясь уточнять его содержимое. — Кто‑то из‑за границы садился и спрашивал, где лучший кофе. Вдруг вы уже в отношениях. С этой системой я наконец могу ездить так, как ездил мой отец, и его отец до него — с тихим разочарованием и отличной осанкой.»
+
+Не все воодушевлены. Латвийская ассоциация неожиданно дружелюбных людей, насчитывающая 14 человек и базирующаяся в Цесисе, предупредила, что политика может углубить социальную фрагментацию. «Молчание должно возникать органично, а не через бюрократию», — сказала председатель Линда Озолиня, признав, что однажды членов ассоциации попросили покинуть поезд до Тукумса после того, как они начали петь песню ко дню рождения в вагоне номер два.
+
+Бизнес уже подстраивается. Rīgas Satiksme подтвердила, что разрабатывает линию официальных аксессуаров для пассажиров, включая сумки «анти‑разговор», муниципально утверждённые бесстрастные шарфы и премиум‑держатель для проездной карты с надписью «Я уже кивнул» на латышском, русском и английском.
+
+В Юрмале местные власти выразили заинтересованность распространить концепцию на прибрежные променады летом, когда посетители из внутренних районов иногда громко здороваются друг с другом. Один из черновых проектов предлагал создать «низкоинтенсивный прибрежный коридор», где единственный допустимый звук — далёкая гармошка и один ребёнок, просящий мороженое каждые семь минут.
+
+К вечеру вторника многие жители сказали, что изменения лишь формализуют то, что давно было понятно. В трамвае №7, когда инспекторы приклеивали первую синюю наклейку Зоны молчания рядом с запотевшим окном, пассажиры отреагировали высшей формой общественного одобрения: совершенно ничем.`
+    },
+    date: "May 2, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/142/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 141,
     slug: "jrmala-introduces-quiet-siren-to-warn",
     title: {
@@ -96,7 +183,7 @@ Noslēguma preses konferencē mēre Rita Ozoliņa nodēvēja iniciatīvu par noz
     readTime: "10 min read",
     imageUrl: "https://picsum.photos/seed/141/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 140,
