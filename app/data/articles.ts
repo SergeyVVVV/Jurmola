@@ -18,6 +18,93 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 143,
+    slug: "riga-introduces-dynamic-sidewalk-pricing-charges",
+    title: {
+      en: "Riga Introduces Dynamic Sidewalk Pricing, Charges Extra for Walking During Beautiful Weather",
+      lv: "Rīga ievieš dinamisku ietvju cenu sistēmu — par pastaigu skaistā laikā jāmaksā papildus",
+      ru: "Рига вводит динамическое ценообразование тротуаров, взимая доплату за прогулки в хорошую погоду"
+    },
+    excerpt: {
+      en: "In a move officials say will \"better reflect seasonal demand,\" Riga has become the first Baltic capital to introduce variable pricing for pedestrian movement. Residents will now pay a premium to stroll through the city center whenever sunlight, mild temperatures, or \"suspiciously uplifting vibes\" are detected.",
+      lv: "Rīgas pašvaldība, apgalvojot, ka tas „labāk atspoguļos sezonāro pieprasījumu”, kļuvusi par pirmo Baltijas galvaspilsētu, kas ievieš mainīgas cenas gājēju pārvietošanās izmantošanai. Iedzīvotājiem tagad nāksies maksāt piemaksu, ja konstatēta saules gaisma, maigā temperatūra vai „aizdomīgi uzmundrinoša noskaņa”.",
+      ru: "В попытке, как заявляют чиновники, «точнее отражать сезонный спрос», Рига стала первой балтийской столицей, введшей переменное ценообразование за пешеходное передвижение. Жителям теперь придется доплачивать за прогулки по центру города всякий раз, когда фиксируются солнечная погода, мягкая температура или «подозрительно воодушевляющая атмосфера»."
+    },
+    fullContent: {
+      en: `RIGA — Seeking new ways to manage congestion while monetizing what it described as "underperforming civic joy," Riga City Council on Tuesday approved a pilot program that will charge residents different rates for using sidewalks depending on weather conditions, neighborhood prestige, and how scenic their walk appears to outside observers.
+
+Under the new Dynamic Sidewalk Pricing Initiative, basic pedestrian access will remain free during sleet, sideways rain, and emotionally neutral Tuesdays in February. However, users entering high-demand walking zones — including Alberta iela, the canal area, and any stretch of pavement within visible range of an artisanal coffee window — may be charged up to €3.50 per kilometer on sunny weekends.
+
+Deputy Chair for Mobility Optimization Ilze Dreimane said the program was inspired by successful transport models abroad, as well as by local outrage that too many people had recently been "enjoying Riga incorrectly without contributing to municipal revenue."
+
+"For years, residents have been accessing premium sunset corridors at no additional cost," Dreimane told reporters, standing beside a temporary sidewalk scanner near Bastejkalns. "This is not sustainable. If someone wants golden evening light on cobblestones and a faint saxophone in the distance, that is no longer a basic service. That is a lifestyle choice."
+
+According to a 78-page municipal report, pedestrian traffic rises 64% when temperatures exceed 18 degrees and jumps another 23% if linden trees are "doing that smell." Officials estimate the program could generate €11.2 million annually, much of it from couples walking slowly, tourists stopping abruptly, and residents of Āgenskalns who insist on crossing bridges for "atmosphere."
+
+Sensors installed across the city will assess foot traffic density, gait confidence, and what planners call "aesthetic extraction potential." Users with the city’s new WalkRīga app will receive real-time alerts such as: PEAK CHARM EVENT IN OLD TOWN — CONSIDER WAITING 14 MINUTES OR PAYING €1.20 TO EXPERIENCE THIS MOMENT.
+
+Not all residents are convinced. Office worker Mārtiņš Liepa, 34, said he was charged €0.80 merely for choosing a scenic route to buy kefir. "I tried to cut through a less beautiful street, but the app said demand had shifted due to an accordionist," he said. "At one point I was standing still to avoid surge pricing, and even that apparently counted as 'passive enjoyment of heritage assets.'"
+
+City officials say concessions will be available for seniors, students, and anyone carrying two or more bags from Central Market. A separate hardship tariff has been introduced for people exiting public institutions with documents in plastic folders.
+
+In Jurmala, local leaders have expressed support and are reportedly studying a summer beach model in which standing near the sea will remain free, but gazing meaningfully at the horizon after 7 p.m. would require a permit. Jurmala municipal strategist Edgars Vītols said coastal towns could no longer ignore "extractive sunset behavior" by visitors who contribute little beyond sandals and a broad internal feeling.
+
+Economists remain divided. Baltic Public Finance Institute researcher Zane Ozola called the plan "an elegant if slightly vengeful response to urban desirability," while others warned it could create a black market for unlicensed alleyways and informal gravel paths. By Tuesday evening, a Telegram group titled Free Steps LV had already begun sharing low-toll walking routes through courtyards, parking lots, and one deeply committed hedge.
+
+Despite criticism, the first day of the pilot was considered a success after the city recorded 19,000 paid walking sessions and only 47 incidents of residents attempting to classify themselves as bicycles. At press time, officials confirmed they were exploring a premium subscription tier that would allow users to lock in off-peak melancholy for the entire autumn season.`,
+      lv: `RĪGA — Meklējot jaunus veidus, kā pārvaldīt sastrēgumus un monetizēt to, ko nosauca par „nepietiekami ienesīgu pilsētisko prieku”, Rīgas dome otrdien apstiprināja pilotprogrammu, kas iedzīvotājiem piemēros dažādas cenas par ietvju izmantošanu atkarībā no laika apstākļiem, apkārtnes prestiža un no tā, cik skatāma viņu pastaiga šķiet ārējiem novērotājiem.
+
+Saskaņā ar jauno Dinamiskās ietvju cenu iniciatīvu pamata gājēju piekļuve paliks bezmaksas krusas, šķērslietus un emocionāli neitrālas februāra otrdienas laikā. Tomēr lietotāji, kas iekļūs augstas pieprasījuma pastaigu zonās — tostarp Alberta ielā, kanāla apkārtnē un jebkurā ietves posmā, kas ir redzamā attālumā no amatnieku kafijas loga — saņems rēķinu līdz pat €3,50/km saulainās nedēļas nogales laikā.
+
+Mobility Optimization vietniece Ilze Dreimane sacīja, ka programmu iedvesmojuši veiksmīgi ārvalstu transporta modeļi, kā arī vietējā sašutuma vilnis par to, ka pārāk daudzi cilvēki „pēdējā laikā izbaudījuši Rīgu nepareizi, neradot pašvaldībai ieņēmumus”.
+
+„Gadu desmitiem iedzīvotāji ir piekļuvuši premium saulrietiem bez papildu maksas,” Dreimane sacīja žurnālistiem, stāvot blakus pagaidu ietves skenerim pie Bastejkalna. „Tas nav ilgtspējīgi. Ja kāds grib zelta vakara gaismu uz bruģa un vāju saksofona skaņu tālumā, tas vairs nav pamatpakalpojums. Tā ir dzīvesstila izvēle.”
+
+Saskaņā ar 78 lappušu pašvaldības ziņojumu gājēju plūsma pieaug par 64% kad temperatūra pārsniedz 18 grādus un palielinās vēl par 23%, ja liepas „to smaržo”. Ierēdņi lēš, ka programma varētu ģenerēt 11,2 miljonus eiro gadā, lielā mērā no lēni soļojošiem pāriem, tūristiem, kas pēkšņi apstājas, un Āgenskalna iedzīvotājiem, kuri uzstājīgi šķērso tiltus „atjaunot atmosfēru”.
+
+Pilsētā uzstādītie sensori novērtēs kājāmgājēju blīvumu, soļa pārliecību un to, ko plānotāji sauc par „estētiskās izgūšņas potenciālu”. Lietotāji ar pilsētas jauno WalkRīga lietotni saņems reāllaika brīdinājumus, piemēram: MAKSIMĀLA ŠARMA VIENĪBA VECPILSĒTĀ — APSVERIET 14 MINUŠU GAIDĪŠANU VAI MAKSĀŠANU €1,20, LAI PIEREDZĒTU ŠO BRĪDI.
+
+Ne visi iedzīvotāji ir pārliecināti. Biroja darbinieks Mārtiņš Liepa, 34, sacīja, ka viņam ieturēja €0,80 vien par to, ka izvēlējās skatu maršrutu, lai nopirktu kefīru. „Es mēģināju šķērsot mazāk skaistu ielu, bet lietotne teica, ka pieprasījums ir pārgājis sakarā ar akordeonistu,” viņš stāstīja. „Reiz es stāvēju nekustīgi, lai izvairītos no viļņa cenas, un pat tas, acīmredzami, tika uzskatīts par 'pasīvu mantojuma objektu baudīšanu'. ”
+
+Pilsētas ierēdņi norāda, ka būs pieejamas atlaides senioriem, studentiem un ikvienam, kurš nēsā divus vai vairākus maisus no Centrāltirgus. Ieviests arī atsevišķs grūtību tarifs cilvēkiem, kas iznāk no valsts iestādēm ar dokumentiem plastmasas mapītēs.
+
+Jūrmalā vietējie vadītāji izrādījuši atbalstu un, kā ziņots, pētī vasaras pludmales modeli, kur stāvēšana pie jūras paliks bez maksas, bet jēgpilna skatīšanās uz horizontu pēc pulksten 19:00 prasītu atļauju. Jūrmalas stratēģists Edgars Vītols sacīja, ka piekrastes pilsētas vairs nevar ignorēt „izsūcošo saulrieta uzvedību” apmeklētāju vidū, kuri maz iegulda, izņemot sandales un plašu iekšēju izjūtu.
+
+Ekonomisti joprojām ir dalīti. Baltijas Publiskās Finanšu institūta pētniece Zane Ozola plānu nosauca par „elegantu, ja reiz nedaudz atriebīgu atbildi uz pilsētiskas pievilcības problēmu”, savukārt citi brīdināja, ka tas var radīt melno tirgu nelegālām šķērsielām un neoficiāliem grants celiņiem. Līdz otrdienas vakaram Telegram grupa Free Steps LV jau sāka dalīties ar zemu nodevu pastaigu maršrutiem caur pagalmiem, stāvlaukumiem un vienu īpaši apņēmīgu dzīvžogu.
+
+Neskatoties uz kritiku, pilotprogrammas pirmajā dienā uzskatīja to par veiksmīgu — pilsēta reģistrēja 19 000 apmaksātu pastaigu sesiju un tikai 47 incidentus, kad iedzīvotāji mēģināja sevi pārzīmēt par velosipēdiem. Preses brīdī ierēdņi apstiprināja, ka izskata premium abonementa līmeni, kas lietotājiem ļautu rezervēt ārpus pīķa skumjas visai rudens sezonai.`,
+      ru: `РИГА — В поисках новых способов управлять загруженностью и монетизировать то, что чиновники называли «недоиспользуемой муниципальной радостью», Рижская городская дума во вторник утвердила пилотную программу, по которой жителям будут выставлять разные тарифы за пользование тротуарами в зависимости от погодных условий, престижа района и того, насколько живописной прогулка выглядит для постороннего наблюдателя.
+
+В рамках новой Инициативы по динамическому ценообразованию тротуаров базовый пешеходный доступ останется бесплатным в гололед, при боковом дожде и в эмоционально нейтральные вторники февраля. Однако пользователи, заходящие в зоны повышенного спроса на прогулки — включая улицу Альберта, район канала и любой участок тротуара в поле зрения окна с авторским кофе — могут быть начислены до €3,50 за километр в солнечные выходные.
+
+Илзе Дреймане, заместитель председателя по оптимизации мобильности, сказала, что программу вдохновили успешные транспортные модели за рубежом, а также местное возмущение тем, что слишком многие люди в последнее время «несправедливо наслаждаются Ригой, не пополняя муниципальные доходы». 
+
+«Годами жители получали доступ к премиальным маршрутам заката без дополнительной платы, — сказала Дреймане репортерам, стоя возле временного сканера тротуара рядом с Бастейкалнсом. — Это неустойчиво. Если кто‑то хочет золотого вечернего света на булыжниках и тихого саксофона вдалеке, то это уже не базовая услуга. Это — выбор образа жизни». 
+
+Согласно 78‑страничному муниципальному отчету, пешеходный трафик растет на 64 % при температурах выше 18 градусов и прибавляет еще 23 %, если липы «делают тот самый запах». Чиновники оценивают, что программа может приносить €11,2 млн в год, большая часть которых — благодаря медленно идущим парам, туристам, внезапно останавливающимся посреди дороги, и жителям Агенскалнса, которые настаивают на том, чтобы переходить мосты «ради атмосферы». 
+
+Датчики, установленные по всему городу, будут оценивать плотность пешеходного потока, уверенность в походке и то, что планировщики называют «потенциалом эстетического извлечения». Пользователи нового городского приложения WalkRīga будут получать оповещения в реальном времени, например: «ПИК ОБАЯНИЯ В СТАРОМ ГОРОДЕ — РЕКОМЕНДУЕМ ПОДОЖДАТЬ 14 МИНУТ ИЛИ ЗАПЛАТИТЬ €1,20, ЧТОБЫ ОЩУТИТЬ МОМЕНТ». 
+
+Не все жители в восторге. Офисный работник Мартиньш Лиепа, 34 года, рассказал, что с него взяли €0,80 просто за то, что он выбрал живописный маршрут за покупкой кефира. «Я пытался пройти по менее красивой улице, но приложение сказало, что спрос сместился из‑за аккордеониста, — сказал он. — В какой‑то момент я стоял на месте, чтобы избежать наценки, и, похоже, даже это засчиталось как „пассивное наслаждение объектами наследия“». 
+
+Городские власти говорят, что предусмотрены льготы для пенсионеров, студентов и для тех, кто несет два и более пакета с Центрального рынка. Введен отдельный тариф для малообеспеченных — для людей, выходящих из государственных учреждений с документами в пластиковых папках. 
+
+В Юрмале местные лидеры выразили поддержку и якобы изучают пляжную модель на лето, по которой стояние у моря останется бесплатным, но созерцание горизонта с особым смыслом после 19:00 потребует разрешения. Муниципальный стратег Юрмалы Эдгарс Витолс сказал, что прибрежные города больше не могут игнорировать «экстрактивное поведение на закате» со стороны посетителей, которые вносят в местную жизнь мало, кроме сандалий и обширного внутреннего ощущения. 
+
+Экономисты разделились. Исследователь Балтийского института государственного финансирования Зане Озола назвала план «изящным, если и слегка мстительным ответом на городскую привлекательность», в то время как другие предупредили, что это может породить черный рынок нелицензированных переулков и неофициальных гравийных дорожек. К вечеру вторника в Telegram‑группе Free Steps LV уже начали делиться маршрутами с низкими сборами через дворы, парковки и одну крайне преданную живую изгородь. 
+
+Несмотря на критику, первый день пилота сочли успешным: город зафиксировал 19 000 платных прогулочных сессий и всего 47 инцидентов, когда жители пытались классифицировать себя как велосипеды. На момент выхода материала чиновники подтвердили, что изучают премиум‑подписку, которая позволила бы пользователям зафиксировать «офф‑пик‑меланхолию» на весь осенний сезон.`
+    },
+    date: "May 3, 2026",
+    category: { en: "Science", lv: "Zinātne", ru: "Наука" },
+    categories: ["opinion"],
+    type: "news",
+    readTime: "7 min read",
+    imageUrl: "https://picsum.photos/seed/143/800/600",
+    author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
+    featured: true
+  },
+  {
     id: 142,
     slug: "riga-introduces-polite-silence-zones-on-142",
     title: {
@@ -102,7 +189,7 @@ Otrdienas vakarā daudzi iedzīvotāji sacīja, ka izmaiņa vienkārši formaliz
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/142/800/600",
     author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
-    featured: true
+    featured: false
   },
   {
     id: 141,
