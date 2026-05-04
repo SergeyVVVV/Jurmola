@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 144,
+    slug: "riga-introduces-dynamic-silence-pricing-residents-144",
+    title: {
+      en: "Riga Introduces Dynamic Silence Pricing, Residents Charged Extra for Peak Quiet Hours",
+      lv: "Rīga ievieš dinamisko klusuma cenu sistēmu — iedzīvotāji jāmaksā papildus par klusuma pieprasītajām stundām",
+      ru: "Рига вводит динамическое ценообразование тишины: жителям начисляют доплату за пиковые часы спокойствия"
+    },
+    excerpt: {
+      en: "In a bid to modernize urban tranquility, Riga City Council has approved a pilot program that monetizes silence in the capital’s noisiest districts. Officials say the system will ensure that quiet remains accessible to everyone, provided they can reserve it through a municipal app at least 48 hours in advance.",
+      lv: "Lai modernizētu pilsētas klusumu, Rīgas dome apstiprinājusi pilotprogrammu, kas monetizē klusumu galvaspilsētas skaļākajos rajonos. Pēc amatpersonu teiktā, sistēma nodrošinās, ka klusums paliek pieejams visiem, ja vien viņi to rezervēs pašvaldības lietotnē vismaz 48 stundas iepriekš.",
+      ru: "В попытке модернизировать городскую тишину Рижская дума утвердила пилотную программу, которая переводит тишину в товар в самых шумных районах столицы. По словам чиновников, спокойствие останется доступным для всех — если только они заранее забронируют его через муниципальное приложение как минимум за 48 часов."
+    },
+    fullContent: {
+      en: `RIGA — Promising a "fair, transparent, and data-driven approach to peace and quiet," Riga City Council on Tuesday unveiled a new Dynamic Silence Pricing system that will allow residents to book discounted moments of calm during off-peak hours, while charging premium rates for high-demand silence between 18:00 and 22:00.
+
+The initiative, developed in partnership with the municipal innovation lab and a Scandinavian acoustic consultancy called FjordMute, will launch first in Central District, Teika, and select tram corridors where silence has historically tested above scarcity thresholds. According to the city’s 84-page policy document, residents will be entitled to 12 free minutes of basic silence per month, after which pricing will vary depending on neighborhood, weather conditions, and whether someone nearby has started drilling into concrete "for reasons nobody can fully explain."
+
+"For too long, silence has been distributed inefficiently," Deputy Mayor for Livability and Moderated Vibrations Ilze Bērziņa told reporters while standing beside a display board labeled NOISE EQUITY 2030. "Currently, some residents enjoy unauthorized calm in side streets and courtyards, while others are exposed to unregulated accordion practice, motivational construction yelling, and scooters with philosophical muffler problems. This reform simply brings order to an informal market."
+
+Under the pilot scheme, users of the new mobile platform Klusums+ will be able to choose from several pricing tiers. Standard Silence permits ordinary quiet, with mild crow activity included. Silence Flex allows intermittent leaf-blower interruptions but guarantees no shouting directly beneath one’s window. Premium Heritage Silence, available in parts of Āgenskalns and around certain embassy-adjacent blocks, includes historically appropriate ambient stillness and a 70% reduction in bottle-related courtyard debates.
+
+Municipal data analysts say the need is urgent. A recent survey of 2,100 Riga residents found that 63% had attempted to "just hear their own thoughts for one second" in the past year, while 41% reported being interrupted by tram squealing, staircase negotiations, or an unidentified man saying "nu, klausies" into a speakerphone at medically concerning volume. In Purvciems, average evening quiet has fallen to 3.7 minutes per household, down from 5.2 minutes in 2019.
+
+Not all residents are convinced. "I already pay taxes, rent, and for parking near my own building," said office administrator Mārtiņš Grava, 38, who said he was quoted €4.80 for a 20-minute silence window on Thursday after work. "Now they’re telling me peaceful air is surge-priced because somebody in the next courtyard is celebrating something on a Tuesday? This city has found a way to invoice me for not hearing things."
+
+Business leaders, however, welcomed the decision. The Latvian Association of Responsible Renovators said the program offers a healthy compromise between public expectations and the sector’s commitment to beginning all loud work at 07:59. "Construction is not the enemy of silence," said board member Oskars Līdaka. "It is simply silence with economic output."
+
+To ensure compliance, the city will deploy 35 Acoustic Wardens equipped with decibel tablets and soft authority. Residents found generating unauthorized noise during booked quiet intervals may receive fines ranging from €15 to €120, or be sentenced to a mandatory municipal listening workshop in Jurmala, where participants must sit on a windy bench and identify whether a sound is the sea, a train, or distant family disappointment.
+
+Jurmala officials have already expressed interest in adapting the model for seasonal use. "In summer, our premium silence product would likely be impossible," admitted resort planning specialist Sanita Ozola. "But we do see potential in shoulder-season hush packages for people who want to hear pine trees judging them."
+
+City leaders say the pilot will be reviewed in six months, with expansion possible if public response is positive and if enough silence can be procured wholesale. At press time, Riga residents were rushing to reserve early Sunday morning, the only remaining slot categorized by the app as "affordable, low-wind, and mercifully free of saxophone."`,
+      lv: `RĪGA — Solot "taisnīgu, caurskatāmu un datu vadītu pieeju mieram un klusumam," Rīgas dome otrdien prezentēja jaunu Dinamiskā klusuma cenu sistēmu, kas iedzīvotājiem ļaus rezervēt lētākus mierpilnus brīžus mazpieprasītās stundās, bet piemēros augstākas cenas par populāru klusumu no pulksten 18:00 līdz 22:00.
+
+Iniciatīva, izstrādāta sadarbībā ar pašvaldības inovāciju laboratoriju un skandināvu akustikas konsultāciju uzņēmumu "FjordMute", pirmo reizi startēs Centrā, Teikā un izvēlētajos tramvaja koridoros, kur klusums vēsturiski ir pārsniedzis trūkuma robežas. Pēc pilsētas 84 lappušu politikas dokumenta teiktā, iedzīvotājiem būs tiesības uz 12 bezmaksas pamata klusuma minūtēm mēnesī, pēc tam cenas mainīsies atkarībā no mikrorajona, laikapstākļiem un tā, vai kāds netālu nav sācis urbšanu betonā "kādu iemeslu dēļ, ko neviens īsti nespēj izskaidrot."
+
+"Pārāk ilgi klusums ir bijis izplatīts neefektīvi," žurnālistiem sacīja vicemēre dzīvojamības un mērenu vibrāciju jautājumos Ilze Bērziņa, stāvot blakus stenda izkārtnei ar uzrakstu "TROKŠŅU TIESISKĀ VIENLĪDZĪBA 2030." "Pašlaik daži iedzīvotāji nelegāli bauda mieru sānu ieliņās un pagalmos, kamēr citi tiek pakļauti neregulētai akordeona praksēšanai, motivējošam būvniecības kliedzienam un skūteriem ar filozofiskām izplūdes sistēmas problēmām. Šī reforma vienkārši ievieto kārtību neformālajā tirgū."
+
+Saskaņā ar pilotprogrammu jaunās mobilās platformas Klusums+ lietotāji varēs izvēlēties no vairākiem cenu līmeņiem. Standarta klusums ļauj iegūt ierasto mieru, iekļaujot arī vieglas kraukļu aktivitātes. Klusums Flex pieļauj periodiskas lapu pūtēju pārtraukšanas, taču garantē, ka zem loga netiek kliegts tieši uz tevi. Premium mantojuma klusums, pieejams daļā Āgenskalna un ap noteiktiem bloku rajoniem pie vēstniecībām, ietver vēsturiskajai apkārtnei atbilstošu klusumu un 70% samazinājumu ar pudelēm saistītajās pagalmu debatēs.
+
+Pašvaldības datu analītiķi apgalvo, ka vajadzība ir steidzama. Nesenā 2 100 rīdzinieku aptaujā 63% atzina, ka pēdējā gada laikā ir mēģinājuši "vienu sekundi tikai sadzirdēt savas domas", kamēr 41% ziņoja, ka tos ir pārtraucis tramvaja čīkstēšana, kāpņu sarunas vai nepazīstams vīrietis, kurš skaļā, medicīniski satraucošā skaļumā runā telefonā "nu, klausies." Purvciemā vidējais vakara klusums uz mājsaimniecību ir sarucis līdz 3,7 minūtēm, salīdzinot ar 5,2 minūtēm 2019. gadā.
+
+Ne visi iedzīvotāji ir pārliecināti. "Es jau maksāju nodokļus, īri un par stāvvietu pie sava nama," sacīja biroja administrātors Mārtiņš Grava, 38 gadi, kuram ceturtdien pēc darba piedāvāja 20 minūšu klusuma laika logu par €4,80. "Tagad man saka, ka mierpilnais gaiss ir ar pieprasījuma paaugstināto cenu, jo kāds blakus pagalmā otrdien svin kaut ko? Šī pilsēta ir atradusi veidu, kā izrakstīt rēķinu par to, ka es nedzirdu lietas."
+
+Tomēr biznesa līderi lēmumu atzinīgi novērtēja. Latvijas Atbildīgo renovatoru asociācija sacīja, ka programma piedāvā veselīgu kompromisu starp sabiedrības gaidām un nozares apņemšanos sākt visus skaļos darbus pulksten 07:59. "Būvniecība nav klusuma ienaidnieks," sacīja padomes loceklis Oskars Līdaka. "Tā ir vienkārši klusums ar ekonomisku ražību."
+
+Lai nodrošinātu ievērošanu, pilsēta izvietos 35 akustiskos uzraugus, aprīkotus ar decibelu planšetēm un maigu autoritāti. Iedzīvotāji, kuri radīs neautorizētu troksni rezervētā klusuma laikā, var saņemt naudassodu no €15 līdz €120 vai tikt nosūtīti uz obligātu pašvaldības klausīšanās darbnīcu Jūrmalā, kur dalībniekiem jāapsēžas uz vējaina sola un jānosaka, vai dzirdamais skaņas avots ir jūra, vilciens vai tāla ģimenes vilšanās.
+
+Jūrmalas amatpersonas jau izrādījušas interesi par modeļa pielāgošanu sezonālai lietošanai. "Vasarā mūsu premium klusuma produkts, visticamāk, būtu neiespējams," atzina kūrorta plānošanas speciāliste Sanita Ozola. "Bet mēs redzam potenciālu pleca sezonas klusuma paketēs cilvēkiem, kuri grib dzirdēt priedes, kas viņus nosoda."
+
+Pilsētas vadība saka, ka pilots tiks izvērtēts sešu mēnešu laikā, un paplašināšana iespējama, ja sabiedrības atsaucība būs pozitīva un ja pietiekami daudz klusuma būs iespējams iegādāties vairumtirdzniecībā. Raksta sagatavošanas brīdī rīdzinieki steidzās rezervēt agrus svētdienas rīta laika logus — vienīgo atlikušo slotu, ko lietotne klasificējusi kā "pieejamu, ar zemu vēju un žēlīgi brīvu no saksofona."`,
+      ru: `РИГА — Пообещав «справедливый, прозрачный и основанный на данных подход к покою и тишине», Рижская дума во вторник представила новую систему Dynamic Silence Pricing, которая позволит жителям бронировать уценённые минуты спокойствия в непиковые часы и взимать повышенные ставки за дефицитную тишину с 18:00 до 22:00.
+
+Инициатива, разработанная в партнёрстве с муниципальной лабораторией инноваций и скандинавским акустическим консалтингом FjordMute, стартует в Центральном районе, Тейке и на отдельных трамвайных коридорах, где тишина исторически превышала пороги дефицита. По данным 84‑страничного городского документа, каждому жителю полагается 12 бесплатных минут базовой тишины в месяц, после чего цены будут варьироваться в зависимости от района, погодных условий и того, начал ли кто‑то поблизости сверлить бетон «по причинам, которые никто толком не может объяснить».
+
+«Слишком долго тишина распределялась неэффективно», — заявила журналистам заместитель мэра по благоустроению и умеренным вибрациям Ilze Bērziņa, стоя рядом с табло NOISE EQUITY 2030. «В настоящее время некоторые жители втихаря пользуются несанкционированным спокойствием в боковых улицах и дворах, тогда как другие вынуждены терпеть нерегулируемые упражнения на аккордеоне, мотивирующие окрики строителей и самокаты с философскими проблемами глушителей. Эта реформа просто наводит порядок на неформальном рынке». 
+
+В рамках пилота пользователи нового мобильного приложения Klusums+ смогут выбирать из нескольких тарифных категорий. «Стандартная тишина» разрешает обычное спокойствие, с включённой умеренной активностью ворон. «Гибкая тишина» допускает периодические перебои от воздуходувок, но гарантирует отсутствие криков прямо под вашим окном. «Премиальная историческая тишина», доступная в частях Āgenskalns и вокруг некоторых кварталов у посольств, включает исторически соответствующую атмосферную неподвижность и 70% снижение дворных дебатов, связанных с бутылками.
+
+Муниципальные аналитики говорят, что необходимость неотложна. Недавний опрос 2 100 жителей Риги показал, что 63% в прошлом году пытались «хотя бы на секунду услышать собственные мысли», а 41% сообщали, что их прерывали визг трамвая, согласования на лестнице или неопознанный мужчина, говорящий «nu, klausies» в громкоговорящий телефон на медицински тревожной громкости. В Purvciems средняя вечерняя тишина упала до 3,7 минуты на домохозяйство по сравнению с 5,2 минуты в 2019 году.
+
+Не все жители убеждены. «Я уже плачу налоги, аренду и за парковку возле собственного дома», — сказал офисный администратор Mārtiņš Grava, 38 лет, которому предложили цену €4,80 за 20‑минутное окно тишины в четверг после работы. «А теперь мне говорят, что мирный воздух подвержен всплесковой цене, потому что кто‑то в соседнем дворе что‑то празднует во вторник? Этот город нашёл способ выписать мне счёт за то, что я ничего не слышу». 
+
+Бизнес‑круги, однако, приветствовали решение. Латвийская ассоциация ответственных реноваторов назвала программу здравым компромиссом между общественными ожиданиями и приверженностью отрасли начинать все шумные работы в 07:59. «Строительство — не враг тишины», — сказал член правления Oskars Līdaka. «Это просто тишина с экономическим выходом». 
+
+Чтобы обеспечить соблюдение, город развернёт 35 акустических надзирателей, оснащённых планшетами для измерения децибелов и мягким авторитетом. Жителям, замеченным в создании несанкционированного шума во время забронированных интервалов тишины, грозят штрафы от €15 до €120 либо обязательное муниципальное прослушивательное занятие в Юрмале, где участникам придётся сидеть на ветреной скамейке и определять, слышат ли они море, поезд или отдалённое разочарование семьи.
+
+Чиновники Юрмалы уже выразили заинтересованность в адаптации модели для сезонного использования. «Летом наш премиальный продукт тишины, вероятно, будет невозможен», — признала специалист по курортному планированию Sanita Ozola. «Но мы видим потенциал в пакетах умеренного сезона для тех, кто хочет слышать сосны, осуждающие их». 
+
+Городские руководители говорят, что пилот будет пересмотрен через шесть месяцев, с возможным расширением, если общественный отклик окажется положительным и если удастся оптом закупать достаточное количество тишины. На момент подготовки материала рижане спешили забронировать раннее воскресное утро — единственное оставшееся окно, которое приложение пометило как «доступное по цене, с низким ветром и милостиво свободное от саксофона».`
+    },
+    date: "May 4, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "6 min read",
+    imageUrl: "https://picsum.photos/seed/144/800/600",
+    author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
+    featured: true
+  },
+  {
     id: 143,
     slug: "riga-introduces-dynamic-sidewalk-pricing-charges",
     title: {
@@ -102,7 +183,7 @@ Neskatoties uz kritiku, pilotprogrammas pirmajā dienā uzskatīja to par veiksm
     readTime: "7 min read",
     imageUrl: "https://picsum.photos/seed/143/800/600",
     author: { en: "By Kristīne Ozoliņa", lv: "Rakstījusi Kristīne Ozoliņa", ru: "Автор: Кристине Озолиня" },
-    featured: true
+    featured: false
   },
   {
     id: 142,
