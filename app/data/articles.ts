@@ -18,6 +18,87 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: 145,
+    slug: "riga-introduces-polite-silence-zones-on-145",
+    title: {
+      en: "Riga Introduces ‘Polite Silence Zones’ On Public Transport After Study Finds Commuters Exhausted By Excessive Eye Contact",
+      lv: "Rīga ievieš „Pieklājīgā klusuma zonas” sabiedriskajā transportā pēc pētījuma, kas atklāj, ka pasažieri izsmelti no pārmērīgas acu kontaktēšanās",
+      ru: "Рига вводит «Зоны вежливого молчания» в общественном транспорте после исследования, показавшего, что пассажиры устали от чрезмерного зрительного контакта"
+    },
+    excerpt: {
+      en: "Riga City Council this week unveiled a pilot program establishing designated ‘Polite Silence Zones’ on trams, buses, and trolleybuses, after researchers concluded that residents are experiencing rising levels of social fatigue caused by accidental small talk and prolonged mutual acknowledgment. Officials say the initiative will protect a traditional urban ecosystem in which every passenger is left alone with their thoughts, scarf, and vague disappointment.",
+      lv: "Rīgas dome šonedēļ atklāja pilotprogrammu, kas izveidos īpašas „Pieklājīgā klusuma zonas” tramvajos, autobusos un trolejbusos, pēc tam, kad pētnieki secināja, ka iedzīvotāji piedzīvo pieaugošu sociālo nogurumu, ko izraisa nejaušas īsas sarunas un ilgstoša savstarpēja atzīšanās. Iestādes apgalvo, ka iniciatīva aizsargās tradicionālo pilsētas ekosistēmu, kurā katrs pasažieris paliek viens ar savām domām, šalli un vispārēju vilšanos.",
+      ru: "На этой неделе Рижская городская дума представила пилотную программу по созданию обозначенных «Зон вежливого молчания» в трамваях, автобусах и троллейбусах после того, как исследователи пришли к выводу, что у жителей растёт уровень социальной усталости, вызванной случайными светскими беседами и затяжным взаимным признанием. По словам чиновников, инициатива защитит традиционную городскую экосистему, в которой каждый пассажир остаётся наедине со своими мыслями, шарфом и неясным разочарованием."
+    },
+    fullContent: {
+      en: `RIGA — In what municipal leaders are calling a major investment in public well-being, the Riga City Council has approved a €2.8 million pilot scheme to create ‘Polite Silence Zones’ across 47 public transport routes, promising commuters a safer environment in which to stare out the window without emotional interference.
+
+The decision follows a 214-page report commissioned by the Department of Civic Harmony and Quiet Movement, which found that 81% of passengers had recently endured at least one ‘unwanted social escalation,’ defined as anything from being asked whether a seat is free to hearing another person say, ‘Looks like autumn is coming early this year.’ Among respondents, 63% said they would support stricter enforcement, while 14% said they were too tired to have an opinion.
+
+Under the new rules, the middle section of selected trams and buses will be marked with dark beige signage reading, ‘Silence Maintained Out Of Respect, Habit, And General Preference.’ Passengers entering these areas will be expected to avoid phone calls, laughter exceeding 2.5 seconds, and any attempt to discuss weather patterns unless there is visible hail.
+
+Deputy Mayor for Transport Culture Ilze Vītoliņa said the city had no choice but to act after a troubling rise in informal interaction was recorded during the unusually warm spring. ‘We observed several deeply concerning incidents,’ Vītoliņa told reporters at a press conference held in a room where even the microphones seemed apologetic. ‘In one case on Tram 11, two strangers briefly smiled at each other after both noticing a dog wearing boots. This may seem harmless, but if left unmanaged, these situations can develop into comments, follow-up comments, and, in severe cases, shared humanity.’
+
+Rīgas Satiksme has already begun training 126 ‘silence stewards’ to patrol the pilot routes during peak hours. Dressed in soft gray uniforms designed not to attract attention, the stewards will respond to violations using a graduated intervention model: first, a meaningful glance; then a discreet tap on a laminated etiquette card; and finally, if necessary, relocation to the ‘Conversational Adjustment Area’ near the accordion joint of the bus, where offenders may be forced to discuss renovation prices in Āgenskalns until they calm down.
+
+The policy has received broad support from regular commuters, many of whom described modern travel conditions as increasingly unpredictable. ‘Last month a man next to me on the 3rd bus asked if I knew whether we had passed Matīsa iela,’ said office administrator Sanita Krūmiņa, 38, still visibly recovering. ‘I answered yes, obviously, because I’m not a monster. But then he said thank you. After that there was a whole atmosphere. It completely ruined my ride.’
+
+Not everyone is convinced. The Latvian Association for Controlled Friendliness warned that the zones could marginalize citizens from smaller towns, where nodding remains common and some people still say good morning voluntarily. Chairman Uldis Eizenbergs said integration measures were needed. ‘We cannot simply throw provincial extroverts into Riga and expect them to understand the local customs immediately,’ he said. ‘Some of these people make full eye contact in supermarkets. They need support.’
+
+Officials in Jūrmala have reportedly expressed interest in adapting the concept for summer trains, where the social threat level traditionally increases with each passenger carrying a beach umbrella. Meanwhile, Tallinn urban planners have requested the technical drawings, though insiders say Estonia may improve the model by replacing the signage with a single very disappointed wall.
+
+The pilot will run through November, after which the city will evaluate noise levels, commuter cortisol, and the number of avoided interactions per kilometer. If successful, Riga plans to expand the initiative next year and introduce a premium subscription carriage where passengers can pay extra not to sit near tourists who are delighted to be there.
+
+By Friday morning, most residents contacted for comment said they supported the measure, though several stressed they would prefer not to discuss it further.`,
+      lv: `RĪGA — To, ko pašvaldības vadītāji dēvē par lielu ieguldījumu sabiedriskajā labklājībā, Rīgas dome apstiprinājusi 2,8 miljonu eiro pilotprojektu „Pieklājīgā klusuma zonu” izveidei 47 sabiedriskā transporta maršrutos, solot pasažieriem drošāku vidi, kur skatīties pa logu bez emocionālas iejaukšanās.
+
+Lēmums seko 214 lappušu ziņojumam, kuru pasūtīja Pilsoniskās harmonijas un klusuma kustības departaments, un kurā konstatēts, ka 81% pasažieru nesen bija pārcietuši vismaz vienu „nevēlamu sociālu eskalāciju” — kas definēta kā viss, sākot no jautājuma, vai sēdvieta brīva, līdz tam, ka kāds saka: „Izskatās, ka rudens šogad nāk agrāk.” Starp respondentiem 63% sacīja, ka atbalstītu stingrāku noteikumu ievērošanu, kamēr 14% atzina, ka ir pārāk noguruši, lai izteiktu viedokli.
+
+Saskaņā ar jaunajiem noteikumiem izvēlēto tramvaju un autobusu vidusdaļa tiks atzīmēta ar tumši bēšām uzlīmēm ar uzrakstu: „Klusums uzturēts no cieņas, ieraduma un vispārējas izvēles.” Pasažieri, kas iekļūs šajās zonās, tiek aicināti izvairīties no telefona zvaniem, smiekliem, kas pārsniedz 2,5 sekundes, un jebkādas mēģināšanas apspriest laikapstākļus, ja vien nav redzama krusa.
+
+Transporta kultūras vicemēre Ilze Vītoliņa sacīja, ka pilsētai nav citas izvēles, kā rīkoties, pēc satraucoša neformālu mijiedarbību pieauguma novērojuma neparasti siltajā pavasarī. „Mēs novērojām vairākus dziļi satraucošus incidentus,” Vītoliņa sacīja žurnālistiem preses konferencē telpā, kur pat mikrofonus šķita atvainojošus. „Vienā gadījumā 11. tramvajā divi svešinieki īslaicīgi pasmaidīja viens otram pēc tam, kad abi pamanīja suni, kas valkāja zābaciņus. Tas var šķist nekaitīgi, bet, ja to neatrisina, šādas situācijas var attīstīties līdz piezīmēm, turpmākajām piezīmēm un, smagos gadījumos, kopīgai cilvēcībai.”
+
+Rīgas Satiksme jau sākusi apmācīt 126 „klusuma uzraugus”, kas patrulēs pilotmaršrutos pīķa stundās. Tērpti maigas pelēkas uniformās, kuras izstrādātas, lai neizceltos, uzraugi reaģēs uz pārkāpumiem, izmantojot pakāpeniskas iejaukšanās modeli: vispirms nozīmīgs skatījums; pēc tam diskrēts pieskāriens laminētai etiķetes kartei; un beidzot, ja nepieciešams, pārvietošana uz „Sarunu pielāgošanas zonu” pie autobusa akordeona locījuma, kur pārkāpējiem var nākties apspriest remontu cenas Āgenskalnā, līdz viņi nomierinās.
+
+Politikas atbalstu guvusi plaša atbalsta no ikdienas pasažieriem, no kuriem daudzi raksturoja mūsdienu ceļošanas apstākļus kā arvien neparedzamākus. „Pagājušajā mēnesī 3. autobusā blakussēdošais vīrietis man pajautāja, vai zinu, vai mēs jau esam pagājuši garām Matīsa ielai,” sacīja biroja administratore Sanita Krūmiņa, 38, vēl redzami atkopjoties. „Es, protams, atbildēju 'jā', jo es neesmu briesmonis. Bet pēc tam viņš pateicās. Un tad tur radās vesela atmosfēra. Tas pilnībā sabojāja manu braucienu.”
+
+Ne visi ir pārliecināti. Latvijas Kontrolētās draudzības asociācija brīdināja, ka zonas var marginalizēt iedzīvotājus no mazpilsētām, kur galvas mājas joprojām ir izplatītas un daži cilvēki joprojām brīvprātīgi saka „labrīt”. Asociācijas priekšsēdētājs Uldis Eizenbergs sacīja, ka nepieciešami integrācijas pasākumi. „Mēs nevaram vienkārši iebāzt provincijas ekstrovertus Rīgā un gaidīt, ka viņi uzreiz sapratīs vietējās paražas,” viņš sacīja. „Daži no šiem cilvēkiem pilnībā uztur acu kontaktu supermarketos. Viņiem nepieciešama atbalsta sistēma.”
+
+Jūrmalas amatpersonas, kā ziņots, izrādījušas interesi pielāgot koncepciju vasaras vilcieniem, kur sociālā draudu pakāpe tradicionāli pieaug ar katru pasažieri, kas nēsā pludmales lietussargu. Tikmēr Tallinas pilsētplānotāji pieprasījuši tehniskās skices, lai gan iekšējie avoti ziņo, ka Igaunija varētu uzlabot modeli, aizstājot zīmes ar vienu vienīgu sienu, kas izstaro dziļu vilšanos.
+
+Pilotprojekts ilgs līdz novembrim, pēc kura pilsēta vērtēs trokšņa līmeni, pasažieru kortizola rādītājus un izvairīto mijiedarbību skaitu uz kilometru. Ja projekts būs veiksmīgs, Rīga plāno paplašināt iniciatīvu nākamgad un ieviest abonēšanas „premium” vagonu, kur pasažieri varēs piemaksāt, lai nesēdētu blakus tūristiem, kuri priecājas būt klāt.
+
+Piektdienas rītā lielākā daļa ar komentāru lūgto iedzīvotāju sacīja, ka atbalsta pasākumu, lai gan vairāki uzsvēra, ka labāk par to nerunātu tālāk.`,
+      ru: `РИГА — В том, что городские власти называют крупной инвестицией в общественное благополучие, Рижская городская дума одобрила пилотную программу на сумму 2,8 млн евро по созданию «Зон вежливого молчания» на 47 маршрутах общественного транспорта, обещая пассажирам более безопасную среду, в которой можно смотреть в окно без эмоционального вмешательства.
+
+Решение последовало за 214‑страничным отчётом, заказанным Департаментом гражданской гармонии и движения за тишину, в котором выяснилось, что 81% пассажиров недавно пережили по крайней мере одну «нежелательную социальную эскалацию» — от вопроса «свободно ли место?» до услышанного «Похоже, осень в этом году пришла рано». Среди респондентов 63% высказались за более строгое применение правил, а 14% заявили, что слишком устали, чтобы иметь мнение.
+
+По новым правилам средняя часть отобранных трамваев и автобусов будет отмечена тёмно‑бежевыми табличками с надписью: «Молчание соблюдается из уважения, по привычке и по общему предпочтению». Входящие в эти зоны пассажиры должны будут воздерживаться от телефонных разговоров, смеха продолжительностью более 2,5 секунды и любых попыток обсуждать погодные явления, если только не видно града.
+
+Заместитель мэра по культуре транспорта Илзе Витолиня заявила, что у города не оставалось выбора после тревожного всплеска неформального общения, зафиксированного в необычно тёплую весну. «Мы наблюдали несколько глубоко тревожных инцидентов», — сказала Витолиня на пресс‑конференции, проходившей в зале, где даже микрофоны казались извиняющимися. «В одном случае в трамвае №11 двое незнакомцев на мгновение улыбнулись друг другу, заметив собаку в сапожках. Это может показаться безобидным, но если не вмешаться, такие ситуации могут перерасти в комментарии, дополнительные комментарии и, в тяжёлых случаях, в чувство общей человечности». 
+
+Rīgas Satiksme уже начала обучение 126 «стюардов молчания», которые будут патрулировать пилотные маршруты в часы пик. В мягко‑серой форме, разработанной так, чтобы не привлекать внимания, стюарды будут реагировать на нарушения по нарастающей: сначала — взвешенный взгляд; затем — незаметное постукивание по ламинированной карточке этикета; и, наконец, при необходимости — перемещение в «Зону коррекции беседы» рядом с гармошкой автобуса, где нарушителей могут заставить обсуждать цены на ремонт в Агенскалнсе, пока те не успокоятся.
+
+Политика получила широкую поддержку среди постоянных пассажиров, многие из которых описывают современные условия поездок как всё более непредсказуемые. «В прошлом месяце мужчина рядом со мной в автобусе №3 спросил, знаете ли вы, проехали ли мы улицу Матиcа», — рассказала офисный администратор Санита Крумина, 38 лет, всё ещё явно в состоянии восстановления. «Я, разумеется, ответила „да“, потому что я не монстр. Но потом он сказал „спасибо“. После этого воцарилась какая‑то атмосфера. Это полностью испортило мою поездку». 
+
+Не все убеждены. Латвийская ассоциация контролируемой дружелюбности предостерегла, что такие зоны могут маргинализировать граждан из небольших городов, где кивание головой по‑прежнему распространено и некоторые люди по доброй воле говорят «доброе утро». Председатель Улдис Айзенбергс заявил, что необходимы меры по интеграции. «Мы не можем просто бросить провинциальных экстравертов в Ригу и ждать, что они сразу поймут местные обычаи, — сказал он. — Некоторые из этих людей устанавливают полноценный зрительный контакт в супермаркетах. Им нужна поддержка». 
+
+Сообщается, что чиновники Юрмалы проявили интерес к адаптации концепции для летних поездов, где уровень социальной угрозы традиционно растёт с каждым пассажиром, несущим пляжный зонт. Тем временем городские планировщики Таллина запросили технические чертежи, хотя инсайдеры утверждают, что Эстония, возможно, улучшит модель, заменив таблички одной очень разочарованной стеной.
+
+Пилотный проект продлится до ноября, после чего город оценит уровень шума, кортизол пассажиров и количество предотвращённых взаимодействий на километр. В случае успеха Рига планирует расширить инициативу в следующем году и ввести премиум‑вагон по подписке, где пассажиры смогут доплачивать, чтобы не сидеть рядом с туристами, которые искренне рады там находиться.
+
+К утру пятницы большинство опрошенных жителей заявили, что поддерживают меру, хотя несколько человек подчеркнули, что предпочли бы не обсуждать это дальше.`
+    },
+    date: "May 5, 2026",
+    category: { en: "Culture", lv: "Kultūra", ru: "Культура" },
+    categories: ["culture"],
+    type: "news",
+    readTime: "10 min read",
+    imageUrl: "https://picsum.photos/seed/145/800/600",
+    author: { en: "By Laura Kalniņa", lv: "Rakstījusi Laura Kalniņa", ru: "Автор: Лаура Калниня" },
+    featured: true
+  },
+  {
     id: 144,
     slug: "riga-introduces-dynamic-silence-pricing-residents-144",
     title: {
@@ -96,7 +177,7 @@ Pilsētas vadība saka, ka pilots tiks izvērtēts sešu mēnešu laikā, un pap
     readTime: "6 min read",
     imageUrl: "https://picsum.photos/seed/144/800/600",
     author: { en: "By Marina Ozola", lv: "Rakstījusi Marina Ozola", ru: "Автор: Марина Озола" },
-    featured: true
+    featured: false
   },
   {
     id: 143,
